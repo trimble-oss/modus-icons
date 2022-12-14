@@ -38,7 +38,7 @@
     "test": "npm-run-all docs-build --parallel --aggregate-output --continue-on-error test:*"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^4.1.3",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "@trimbleinc/modus-bootstrap": "^1.5.4",
     "autoprefixer": "^10.4.13",
     "cross-env": "^7.0.3",

@@ -67,6 +67,7 @@ minify:
   tdewolff:
     html:
       keepEndTags: true
+      keepQuotes: true
       keepWhitespace: true
     xml:
       keepWhitespace: true

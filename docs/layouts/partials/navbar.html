@@ -1,7 +1,7 @@
 <header class="navbar navbar-expand navbar-blue flex-column flex-xl-row px-0"
   aria-label="main navigation">
   <div class="container flex-column flex-md-row justify-content-end">
-    <a class="navbar-brand mr-left mr-md-auto font-weight-bold" href= />
+    <a class="navbar-brand mr-left mr-md-auto font-weight-bold" href="/">
     {{- partial "icons/trimble.svg" (dict "class" "d-inline-block d-sm-none mb-1 mr-1" "width" "25" "height" "25") -}}
     {{- partial "logos/trimble.svg" (dict "class" "img-fluid d-none d-sm-inline-block mb-2 mr-1" "width" "107" "height" "25") -}}
     <div class="d-inline-block font-weight-normal lead">Modus Icons</div></a>
@@ -23,7 +23,7 @@
           <a class="nav-link active border-bottom" id="nav-icons" href="/">Icons</a>
         </li>
         <li class="nav-item mx-0 mx-xl-1 mx-xxl-2" hidden>
-          <a class="nav-link " id="nav-community" href="https://modus.trimble.com/community/">Community</a>
+          <a class="nav-link" id="nav-community" href="https://modus.trimble.com/community/">Community</a>
         </li>
         <li class="nav-item mx-0 mx-xl-1 mx-xxl-2">
             {{ partial "theme-toggle" . }}

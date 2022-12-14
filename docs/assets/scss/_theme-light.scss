@@ -1,0 +1,11 @@
+[data-theme="light"] {
+  .bd-navbar {
+    min-height: 26px;
+  }
+
+  .bg-light {
+    background-color: #f1f1f6;
+  }
+
+  @import "../../../node_modules/@trimbleinc/modus-bootstrap/dist/modus";
+}

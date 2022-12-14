@@ -1,0 +1,154 @@
+@import "variables";
+@import "clipboard-js";
+@import "scroll-to-top-btn";
+@import "syntax";
+@import "theme-dark";
+@import "theme-light";
+@import "theme-toggle";
+@import "navbar";
+@import "skippy";
+@import "footer";
+
+.modus-icon,
+.mi,
+.bi {
+  display: inline-block !important;
+  vertical-align: -0.125em !important;
+}
+
+.hero-notice {
+  @media (min-width: 540px) {
+    border-radius: 5em !important;
+  }
+}
+
+.highlight {
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  background-color: rgba(111, 111, 111, 0.1);
+  border-radius: 0.25rem;
+
+  pre {
+    margin-bottom: 0;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    code {
+      word-wrap: normal;
+    }
+  }
+}
+
+.bd-example {
+  padding: 1.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+
+  + .bd-clipboard + .highlight pre {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+.hero {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+  .highlight pre {
+    padding-right: 4em;
+    border-radius: 0.5rem;
+  }
+  .btn-clipboard {
+    top: 0.625em;
+  }
+
+  hr {
+    max-width: 100px;
+  }
+}
+
+.icon-search {
+  @media (min-width: 768px) {
+    width: 35%;
+  }
+}
+
+.list {
+  font-size: 2rem;
+
+  &:empty::before {
+    display: block;
+    width: 100%;
+    padding: 100px 2rem;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: $gray-500;
+    text-align: center;
+    content: "Nothing found, try searching again.";
+    background-color: rgba(111, 111, 111, 0.1);
+    border-radius: 0.5rem;
+  }
+}
+
+.btn-group > .btn {
+  flex-shrink: 0 !important;
+}
+
+.name {
+  font-size: 0.8125rem;
+}
+
+@media (min-width: 1200px) {
+  .row-cols-xl-8 {
+    > * {
+      flex: 0 0 12.5% !important;
+      max-width: 12.5% !important;
+    }
+  }
+}
+
+.icon-demo {
+  background-color: rgba(99, 99, 99, 0.02);
+  background-image: radial-gradient(
+    circle,
+    rgba(131, 131, 131, 0.3) 1px,
+    rgba(0, 0, 0, 0) 1px
+  );
+  background-size: 1rem 1rem;
+  min-height: 274px;
+}
+
+.icon-demo svg {
+  height: 128px !important;
+  width: 128px !important;
+}
+
+.icon-demo,
+.icon-demo-examples {
+  .modus-icon,
+  .mi,
+  .bi {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.py-6 {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+#icons-body a > .bg-light:hover {
+  background-color: rgba(99, 99, 99, 0.1) !important;
+}
+
+.subnav-search {
+  min-width: 250px;
+}
+
+main {
+  min-height: 78vh;
+}

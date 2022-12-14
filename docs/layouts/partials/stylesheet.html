@@ -1,0 +1,6 @@
+<!-- Faster Google Fonts with Preconnect - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+
+{{- $style := resources.Get "scss/docs.scss" | toCSS | postCSS | minify -}}
+<link rel="stylesheet" href="{{ $style.Permalink | relURL }}?v{{ hugo.Version }}">

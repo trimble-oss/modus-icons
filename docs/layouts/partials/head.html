@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{- if .IsHome -}}{{- .Site.Title | markdownify }} ·
+  {{ .Site.Params.description | markdownify }}{{ else }}{{ .Title | markdownify }} ·
+  {{ .Site.Title | markdownify }}{{ end }}</title>
+<meta name="description" content="{{- .Page.Params.description | default .Site.Params.description | markdownify -}}">
+<meta name="generator" content="Hugo {{ hugo.Version }}">
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<meta name="color-scheme" content="light dark">
+{{ $themeToggle := resources.Get "js/theme-toggle.js" }}
+{{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
+<script src="{{ $themeToggleJS.RelPermalink }}" fetchpriority="high"></script>
+
+{{ if eq .Layout "home" }}
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" fetchpriority="high">
+{{- else -}}
+<link rel="icon" type="image/svg+xml" href="../icons/{{- .Title | urlize -}}.svg" fetchpriority="high">
+{{- end }}
+
+{{ partialCached "stylesheet" . }}

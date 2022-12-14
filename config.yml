@@ -1,0 +1,73 @@
+languageCode:           "en"
+title:                  "Modus Icons"
+baseURL:                "https://modus-icons-test.netlify.app"
+enableInlineShortcodes: true
+enableRobotsTXT:        true
+metaDataFormat:         "yaml"
+disableKinds:           ["404", "taxonomy", "term", "RSS"]
+
+publishDir:             "_site"
+
+security:
+  enableInlineShortcodes: true
+  funcs:
+    getenv:
+      - ^HUGO_
+      - NETLIFY
+
+markup:
+  goldmark:
+    renderer:
+      unsafe:           true
+  highlight:
+    noClasses:          false
+
+module:
+  mounts:
+    - source:           docs/assets
+      target:           assets
+    - source:           docs/content
+      target:           content
+    - source:           docs/data
+      target:           data
+    - source:           docs/layouts
+      target:           layouts
+    - source:           docs/static
+      target:           static
+    - source:           docs/static/favicon.ico
+      target:           static/favicon.ico
+    - source:           modus-solid-icons.svg
+      target:           static/modus-solid-icons.svg
+    - source:           icons
+      target:           static/assets/icons
+    - source:           node_modules/list.js/dist/list.min.js
+      target:           static/js/list.min.js
+    - source:           node_modules/list.js/dist/list.min.js.map
+      target:           static/js/list.min.js.map
+
+taxonomies:
+  category: categories
+  tag: tags
+
+permalinks:
+  categories:           "/:section/:slug"
+  tags:                 "/:section/:slug"
+
+params:
+  description:          "SVG icon library for Modus"
+  version:              "1.0.0"
+  bs_docs_version:      "4.6"
+  main:                 "https://modus.trimble.com"
+  github_org:           "https://github.com/trimble-oss"
+  repo:                 "https://github.com/trimble-oss/modus-icons"
+
+# https://gohugo.io/getting-started/configuration/#configure-minify
+minify:
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepEndTags: true
+      keepWhitespace: true
+    xml:
+      keepWhitespace: true
+

@@ -1,0 +1,41 @@
+<div class="py-5 text-center text-lg-start">
+  <div class="container">
+    <div class="row flex-lg-row-reverse">
+      <div class="col-6 mx-auto col-lg-5 mx-lg-0">
+
+      </div>
+      <div class="col-lg-8">
+        <a class="d-block d-sm-inline-block py-1 px-3 mb-4 text-dark text-decoration-none rounded-3 hero-notice"
+          href="{{ .Site.Params.blog }}">
+          <strong>New in v1.0.0:</strong> 140+ new icons!
+        </a>
+        <h1 class="display-2">Modus Icons</h1>
+        <p class="mb-4 font-weight-normal">Open source icon library with over 1000 icons. Include them anyway you
+          like—SVGs, SVG sprite, or web fonts.</p>
+
+        <div class="fs-5 d-inline-block mb-3" style="min-width: 310px">
+          {{ highlight "npm i @trimble-oss/modus-icons" "sh" "" }}
+        </div>
+
+        <hr class="mx-auto mx-lg-0 my-5 d-none" hidden>
+
+        <p class="text-muted" hidden>
+          Currently <a
+            href="{{ .Site.Params.repo }}/releases/tag/v{{ .Site.Params.version }}">v{{ .Site.Params.version }}</a>
+          <span class="px-1">&#8226;</span>
+          <a href="#icons">Icons</a>
+          <span class="px-1">&#8226;</span>
+          <a href="#install">Install</a>
+          <span class="px-1">&#8226;</span>
+          <a href="#usage">Usage</a>
+          <span class="px-1">&#8226;</span>
+          <a href="#styling">Styling</a>
+          <span class="px-1">&#8226;</span>
+          <a href="#accessibility">Accessibility</a>
+          <span class="px-1">&#8226;</span>
+          <a href="{{ .Site.Params.repo }}">GitHub repo</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

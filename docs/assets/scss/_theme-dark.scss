@@ -1,0 +1,22 @@
+[data-theme="dark"] {
+  @import "../../../node_modules/@trimbleinc/modus-bootstrap/dist/modus-dark";
+  .bd-navbar {
+    min-height: 26px;
+  }
+  .bg-light {
+    background-color: #171c1e;
+  }
+  .highlight {
+    background-color: #353a40;
+  }
+  .btn-clipboard {
+    background-color: #464b52;
+    color: #f1f1f1;
+  }
+  .btn-clipboard:hover {
+    color: #fff;
+  }
+  .cl {
+    color: #f1f1f1;
+  }
+}

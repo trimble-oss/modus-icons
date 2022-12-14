@@ -1,0 +1,35 @@
+{
+  "version": "0.2",
+  "words": [
+    "codeql",
+    "funcs",
+    "getenv",
+    "horiz",
+    "liga",
+    "listjs",
+    "markdownify",
+    "picocolors",
+    "plainify",
+    "Spriter",
+    "svgexport",
+    "svgs",
+    "tdewolff",
+    "Trimble",
+    "trimbleinc",
+    "twbs",
+    "versioner",
+    "Werror",
+    "Xhref"
+  ],
+  "ignorePaths": [
+    ".cspell.json",
+    "**/node_modules/**",
+    "*.min.*",
+    "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*",
+    "*.{log,svg,snap}",
+    "test.*"
+  ],
+  "language": "en,en-US",
+  "allowCompoundWords": true,
+  "useGitignore": true
+}

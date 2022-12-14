@@ -1,0 +1,6 @@
+**/*.min.css
+**/dist/
+**/font/
+**/vendor/
+/_site/
+_modus-bootstrap-dark.scss

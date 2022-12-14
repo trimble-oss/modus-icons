@@ -1,0 +1,41 @@
+
+<script src="/assets/js/list.min.js"></script>
+<script>
+  new List('icons-body', {
+    valueNames: ['name', { data: ['tags', 'categories'] }]
+  });
+</script>
+
+
+{{- $vendor := resources.Match "js/vendor/*.js" -}}
+{{- $js := resources.Match "js/*.js" -}}
+{{- $docsJs := append $js $vendor | resources.Concat "assets/js/application.js" -}}
+
+{{- if eq hugo.Environment "production" -}}
+  {{- $docsJs = $docsJs | resources.Minify -}}
+{{- end }}
+<script async src="{{ $docsJs.Permalink | relURL }}"></script>
+
+{{ if .IsHome }}
+<script>
+  var searchInput = document.querySelector('#icons-body input#search')
+  var filter = new URLSearchParams(window.location.search).get('filter')
+  var exampleList = new List('icons-body', {
+    valueNames: ['name', { data: ['tags'] }]
+  })
+  if (filter !== null) {
+    searchInput.value = filter
+    exampleList.search(filter)
+  }
+  exampleList.on('searchComplete', function () {
+    var searchTerm = searchInput.value
+    var newUrl = new URL(location)
+    if (searchTerm.length > 0) {
+      newUrl.searchParams.set('filter', searchTerm)
+    } else {
+      newUrl.searchParams.delete('filter')
+    }
+    history.replaceState(null, null, newUrl)
+  });
+</script>
+{{ end }}

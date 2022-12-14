@@ -1,0 +1,17 @@
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "rules": {
+    "alpha-value-notation": null,
+    "color-function-notation": null,
+    "declaration-colon-newline-after": null,
+    "hue-degree-notation": null,
+    "no-descending-specificity": null,
+    "no-invalid-position-at-import-rule": null,
+    "max-line-length": null,
+    "number-leading-zero": null,
+    "rule-empty-line-before": null,
+    "scss/comment-no-empty": null,
+    "scss/dollar-variable-colon-space-after": null,
+    "scss/no-global-function-names": null
+  }
+}

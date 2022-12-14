@@ -1,0 +1,22 @@
+<footer class="bd-footer p-3 p-md-5 mt-5 bg-light text-center text-sm-left">
+  <div class="container">
+    <ul class="bd-footer-links">
+      <li><a href="{{ .Site.Params.repo }}">GitHub</a></li>
+    </ul>
+    <p>Currently <a
+        href="{{ .Site.Params.repo }}/releases/tag/v{{ .Site.Params.version }}">v{{ .Site.Params.version }}</a>. Icons
+      and documentation licensed <a href="{{ .Site.Params.repo }}/blob/main/LICENSE.md" target="_blank"
+        rel="license">MIT</a>.</p>
+  </div>
+</footer>
+
+<!-- Load SVG Sprites on IE 11 -->
+<script nomodule src="https://cdn.jsdelivr.net/npm/svg4everybody@2.1.9/dist/svg4everybody.min.js"></script>
+<script nomodule>svg4everybody();</script>
+
+{{ if not .Params.tags -}}
+<button type="button" aria-label="scroll to top" class="btn-to-top border-0 position-fixed"></button>
+{{ $external := resources.Get "js/scroll-to-top.js" }}
+{{ $scrollToTopJs := slice $external | resources.Concat "js/scroll-to-top.js" | resources.Minify }}
+<script src="{{ $scrollToTopJs.RelPermalink }}" defer fetchpriority="low"></script>
+{{ end }}

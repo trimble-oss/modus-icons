@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {{ partial "head" . }}
+</head>
+
+<body id="icons-body">
+  {{ partialCached "skippy" . }}
+  {{ partialCached "navbar" . }}
+  {{ partialCached "home/hero" . }}
+
+  <main class="container" id="content">
+
+    <div class="row">
+
+      <div class="col-12 col-md-6">
+        <div class="card border">
+          <div class="card-header border-0 text-center">
+            {{ partialCached "home-icons-card-outline" . }}
+          </div>
+          <div class="card-body mt-0 pt-0">
+            <a href="/outline/" class="text-decoration-none stretched-link h2 pe-none disabled">
+              Outline
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="card border">
+          <div class="card-header border-0 text-center">
+            {{ partialCached "home-icons-card-solid" . }}
+          </div>
+          <div class="card-body mt-0 pt-0">
+            <a href="/solid/" class="text-decoration-none stretched-link h2">
+              Solid
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--
+       <div class="col-12 col-md-4">
+        <div class="card border">
+          <div class="card-header border-0 text-center">
+            {{ partialCached "home-icons-card-transportation" . }}
+          </div>
+          <div class="card-body mt-0 pt-0">
+            <a href="/transportation/" class="text-decoration-none stretched-link h2">
+              Transportation
+            </a>
+          </div>
+        </div>
+      </div>-->
+    </div>
+    </div>
+
+  </main>
+
+  {{- partialCached "footer" . }}
+  {{- partialCached "scripts" . }}
+</body>
+
+</html>

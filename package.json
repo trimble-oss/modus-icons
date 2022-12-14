@@ -1,0 +1,72 @@
+{
+  "name": "modus-icons",
+  "version": "0.9.0",
+  "description": "This is the central repository for all icons used in our web products",
+  "author": "Trimble",
+  "license": "MIT",
+  "homepage": "https://github.com/trimble-oss/modus-icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trimble-oss/modus-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trimble-oss/modus-icons/issues"
+  },
+  "main": "./dist/modus.css",
+  "style": "./dist/modus.css",
+  "keywords": [
+    "modus",
+    "icons"
+  ],
+  "scripts": {
+    "start": "npm run docs-serve",
+    "docs-serve": "npx hugo server --port 4000 --disableFastRender",
+    "docs-build": "npx hugo --cleanDestinationDir",
+    "pages": "node build/build-pages.js",
+    "prebuild": "",
+    "build": "node build/build.js",
+    "icons": "npm-run-all icons-main --aggregate-output --parallel icons-sprite",
+    "icons-main": "node build/build-svgs.js",
+    "icons-zip": "",
+    "icons-sprite-common": "svg-sprite --config svg-sprite.json --log=info icons/common-solid/*.svg",
+    "rename": "node tools/rename-svg-exports.js",
+    "svgo": "svgo -f ./svg/material-icons -o ./svg/material-icons",
+    "test:eslint": "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives .",
+    "test:stylelint": "stylelint docs/assets/scss/ --cache --cache-location node_modules/.cache/.stylelintcache --rd",
+    "test:lockfile-lint": "lockfile-lint --allowed-hosts npm --allowed-schemes https: --empty-hostname false --type npm --path package-lock.json",
+    "test:vnu": "node build/vnu-jar.js",
+    "test": "npm-run-all docs-build --parallel --aggregate-output --continue-on-error test:*"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.1.3",
+    "@trimbleinc/modus-bootstrap": "^1.5.4",
+    "autoprefixer": "^10.4.13",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.28.0",
+    "hugo-bin": "^0.95.0",
+    "lockfile-lint": "^4.9.6",
+    "npm-run-all": "^4.1.5",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0",
+    "purgecss": "^4.1.3",
+    "stylelint": "^14.15.0",
+    "stylelint-config-standard-scss": "^5.0.0",
+    "svg-sprite": "^3.0.0-alpha1",
+    "svgo": "^2.8.0",
+    "vnu-jar": "22.9.29"
+  },
+  "engines": {
+    "node": ">=14",
+    "npm": ">=7"
+  },
+  "files": [
+    "icons/*.svg",
+    "modus-solid-icons.svg",
+    "font",
+    "!.DS_Store"
+  ],
+  "hugo-bin": {
+    "buildTags": "extended"
+  }
+}

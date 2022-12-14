@@ -22,7 +22,7 @@ jobs:
         run: npm ci
 
       - name: Build the icons
-        run: npm run build
+        run: npm run icons
 
       - name: Build the docs
         run: npm run docs-build

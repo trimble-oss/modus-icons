@@ -49,7 +49,7 @@ Here are some key scripts you'll use during development. Be sure to look to our 
 
 ## Adding SVGs
 
-See the CONTRIBUTING.md guide for details.
+See the [CONTRIBUTING.md](https://github.com/trimblemaps/modus-icons/blob/main/CONTRIBUTING.md) guide for details.
 
 ## Publishing
 

@@ -13,12 +13,12 @@
 <meta name="color-scheme" content="light dark">
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}
 {{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
-<script src="{{ $themeToggleJS.RelPermalink }}" fetchpriority="high"></script>
+<script src="{{ $themeToggleJS.RelPermalink }}"></script>
 
 {{ if eq .Layout "home" }}
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" fetchpriority="high">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 {{- else -}}
-<link rel="icon" type="image/svg+xml" href="../icons/{{- .Title | urlize -}}.svg" fetchpriority="high">
+<link rel="icon" type="image/svg+xml" href="../icons/{{- .Title | urlize -}}.svg">
 {{- end }}
 
 {{ partialCached "stylesheet" . }}

@@ -18,7 +18,7 @@
 {{ if eq .Layout "home" }}
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 {{- else -}}
-<link rel="icon" type="image/svg+xml" href="../icons/{{- .Title | urlize -}}.svg">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 {{- end }}
 
 {{ partialCached "stylesheet" . }}

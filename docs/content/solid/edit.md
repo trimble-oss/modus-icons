@@ -1,5 +1,7 @@
 ---
 title: Edit
-categories:
+categories: Tools
 tags:
+  - edit
+  - write
 ---

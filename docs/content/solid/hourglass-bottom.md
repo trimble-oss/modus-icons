@@ -1,5 +1,10 @@
 ---
 title: Hourglass bottom
-categories:
+categories: Real world
 tags:
+  - time
+  - history
+  - wait
+  - sand
+  - clock
 ---

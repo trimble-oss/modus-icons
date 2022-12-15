@@ -1,5 +1,8 @@
 ---
 title: Done
-categories:
+categories: Alerts, warnings, and signs
 tags:
+  - checkmark
+  - confirm
+  - done
 ---

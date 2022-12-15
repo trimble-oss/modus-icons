@@ -1,5 +1,5 @@
 ---
 title: Zoom out map
-categories:
-tags:
+categories: Arrows
+tags: arrow
 ---

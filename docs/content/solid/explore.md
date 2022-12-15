@@ -1,5 +1,8 @@
 ---
 title: Explore
-categories:
+categories: Geo
 tags:
+  - direction
+  - location
+  - map
 ---

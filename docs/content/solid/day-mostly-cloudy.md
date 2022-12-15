@@ -1,5 +1,7 @@
 ---
 title: Day mostly cloudy
-categories:
+categories: Weather
 tags:
+  - cloudy
+  - overcast
 ---

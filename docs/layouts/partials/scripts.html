@@ -16,7 +16,6 @@
 {{- end }}
 <script async src="{{ $docsJs.Permalink | relURL }}"></script>
 
-{{ if .IsHome }}
 <script>
   var searchInput = document.querySelector('#icons-body input#search')
   var filter = new URLSearchParams(window.location.search).get('filter')
@@ -38,4 +37,3 @@
     history.replaceState(null, null, newUrl)
   });
 </script>
-{{ end }}

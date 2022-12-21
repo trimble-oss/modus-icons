@@ -1,13 +1,13 @@
-'use strict'
+'use strict';
 
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   multipass: true,
   js2svg: {
     pretty: true,
     indent: 2,
-    eol: 'lf'
+    eol: 'lf',
   },
   plugins: [
     {
@@ -15,11 +15,11 @@ module.exports = {
       params: {
         overrides: {
           removeUnknownsAndDefaults: {
-            keepRoleAttr: true
+            keepRoleAttr: true,
           },
-          removeViewBox: false
-        }
-      }
+          removeViewBox: false,
+        },
+      },
     },
     // The next plugins are included in svgo but are not part of preset-default,
     // so we need to enable them separately
@@ -28,12 +28,8 @@ module.exports = {
     {
       name: 'removeAttrs',
       params: {
-        attrs: [
-          'clip-rule',
-          'data-name',
-          'fill'
-        ]
-      }
+        attrs: ['clip-rule', 'data-name', 'fill'],
+      },
     },
     // Custom plugin which resets the SVG attributes to explicit values
     {
@@ -46,31 +42,32 @@ module.exports = {
           height: '24',
           fill: 'currentColor',
           class: '', // We replace the class with the correct one based on filename later
-          viewBox: '0 0 24 24'
-        }
+          viewBox: '0 0 24 24',
+        },
       },
-      fn(_root, params, info) {
+      fn: (_root, params, info) => {
         if (!params.attributes) {
-          return null
+          return null;
         }
 
-        const basename = path.basename(info.path, '.svg')
-
+        const basename = path.basename(info.path, '.svg');
+        const iconType = info.path.includes('outline') ? 'outline' : 'solid';
         return {
           element: {
             enter(node, parentNode) {
               if (node.name === 'svg' && parentNode.type === 'root') {
                 // We set the `svgAttributes` in the order we want to,
                 // hence why we remove the attributes and add them back
-                node.attributes = {}
+                node.attributes = {};
                 for (const [key, value] of Object.entries(params.attributes)) {
-                  node.attributes[key] = key === 'class' ? `mi-solid mi-${basename}` : value
+                  node.attributes[key] =
+                    key === 'class' ? `mi-${iconType} mi-${basename}` : value;
                 }
               }
-            }
-          }
-        }
-      }
-    }
-  ]
-}
+            },
+          },
+        };
+      },
+    },
+  ],
+};

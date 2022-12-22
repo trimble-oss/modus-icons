@@ -7,16 +7,12 @@ const svgexport = require('svgexport');
 const path = require('path');
 const SVGSpriter = require('svg-sprite');
 
-const NO_FONT =
-  process.argv.includes('--no-font') || process.argv.includes('-nf');
-const NO_SPRITE =
-  process.argv.includes('--no-sprite') || process.argv.includes('-ns');
 const PNG = process.argv.includes('--png') || process.argv.includes('-p');
 const VERBOSE =
   process.argv.includes('--verbose') || process.argv.includes('-v');
 
-const spriteConfig = require('./sprite-config');
-const copySvgs = require('./copy-svgs');
+const spriteConfig = require('./logic/sprite-config');
+const copySvgs = require('./logic/copy-svgs');
 
 const handleError = (error) => {
   if (error) {
@@ -46,10 +42,10 @@ async function processFile(filepath, config, outDir) {
   }
 }
 
-function buildFromConfig(config) {
+function buildIcons(config) {
   (async () => {
     const setName = path.basename(config.distDirectoryPath);
-    console.log(`Building ${setName}...`);
+    console.log(`Building ${setName} icons...`);
     console.log('_____________________________');
 
     const dstDirectoryPathSvg = path.join(config.distDirectoryPath, 'svg');
@@ -72,7 +68,7 @@ function buildFromConfig(config) {
     try {
       const files = svgFilePaths;
       const svgoConfig = await loadConfig(
-        path.join(__dirname, 'svgo.config.js')
+        path.join(__dirname, 'logic/svgo.config.js')
       );
 
       await Promise.all(
@@ -124,7 +120,7 @@ function buildFromConfig(config) {
     svgFilePaths.forEach((svgpath) => {
       try {
         spriter.add(svgpath, '', fs.readFileSync(svgpath, 'utf-8'));
-        console.log(`        Sprite added: ${path.basename(svgpath)}`);
+        // console.log(`        Sprite added: ${path.basename(svgpath)}`);
       } catch (error) {
         console.error(
           `        Sprite add error: ${error}: ${path.basename(svgpath)}`
@@ -191,4 +187,4 @@ function buildFromConfig(config) {
   })();
 }
 
-module.exports = buildFromConfig;
+module.exports = buildIcons;

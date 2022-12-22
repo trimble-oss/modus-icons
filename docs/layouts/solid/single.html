@@ -31,7 +31,7 @@
 
 <hr class="my-4">
 
-{{- $localSvgPath := printf "/icons/modus-solid/%s.svg" .File.TranslationBaseName -}}
+{{- $localSvgPath := printf "/dist/modus-solid/svg/%s.svg" .File.TranslationBaseName -}}
 {{- $svgPath := path.Join "/assets/" $localSvgPath -}}
 {{- $svgHtml := readFile $localSvgPath | chomp | safeHTML -}}
 

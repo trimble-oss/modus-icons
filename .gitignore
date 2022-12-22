@@ -3,8 +3,7 @@
 /dist
 /resources
 /temp
-/svg/md
-/svg/material
+/docs/content
 
 .DS_Store
 .hugo_build.lock

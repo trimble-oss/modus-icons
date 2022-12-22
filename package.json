@@ -19,13 +19,11 @@
     "icons"
   ],
   "scripts": {
-    "build": "npm run build:icons && build:pages",
+    "build": "node build/build.js",
     "build:version": "node build/build-versioner",
-    "build:icons": "node build/build.js",
-    "build:pages": "node build/build-pages.js",
-    "start": "npm run docs-serve",
-    "docs-serve": "npx hugo server --port 4000 --disableFastRender",
-    "docs-build": "npx hugo --cleanDestinationDir",
+    "start": "npm run docs:serve",
+    "docs:serve": "npx hugo server --port 4000 --disableFastRender",
+    "docs:build": "npx hugo --cleanDestinationDir",
     "test:eslint": "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives .",
     "test:stylelint": "stylelint docs/assets/scss/ --cache --cache-location node_modules/.cache/.stylelintcache --rd",
     "test:lockfile-lint": "lockfile-lint --allowed-hosts npm --allowed-schemes https: --empty-hostname false --type npm --path package-lock.json",
@@ -69,9 +67,7 @@
     "npm": ">=7"
   },
   "files": [
-    "icons/*.svg",
-    "modus-solid-icons.svg",
-    "font",
+    "dist",
     "!.DS_Store"
   ],
   "hugo-bin": {

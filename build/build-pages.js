@@ -1,62 +1,63 @@
 #!/usr/bin/env node
 
-'use strict'
+'use strict';
 
-const fs = require('fs').promises
-const path = require('path')
-const picocolors = require('picocolors')
+const fs = require('fs').promises;
+const path = require('path');
+const picocolors = require('picocolors');
 
-const iconsDir = path.join(__dirname, '../icons/modus-solid/svg/')
-const pagesDir = path.join(__dirname, '../docs/content/solid/')
-
-const VERBOSE = process.argv.includes('--verbose')
+const VERBOSE = process.argv.includes('--verbose');
 
 function capitalizeFirstLetter(string) {
-  return (string.charAt(0).toUpperCase() + string.slice(1)).split('-').join(' ')
+  return (string.charAt(0).toUpperCase() + string.slice(1))
+    .split('-')
+    .join(' ');
 }
 
-async function main(file) {
-  const iconBasename = path.basename(file, path.extname(file))
-  const iconTitle = capitalizeFirstLetter(iconBasename)
-  const pageName = path.join(pagesDir, `${iconBasename}.md`)
+async function main(file, pagesDir) {
+  const iconBasename = path.basename(file, path.extname(file));
+  const iconTitle = capitalizeFirstLetter(iconBasename);
+  const pageName = path.join(pagesDir, `${iconBasename}.md`);
 
   const pageTemplate = `---
 title: ${iconTitle}
 categories:
 tags:
 ---
-`
+`;
 
   try {
-    await fs.access(pageName, fs.F_OK)
+    await fs.access(pageName, fs.F_OK);
 
     if (VERBOSE) {
-      console.log(`${picocolors.cyan(iconBasename)}: Page already exists; skipping`)
+      console.log(
+        `${picocolors.cyan(iconBasename)}: Page already exists; skipping`
+      );
     }
   } catch {
-    await fs.writeFile(pageName, pageTemplate)
-    console.log(picocolors.green(`${iconBasename}: Page created`))
+    await fs.writeFile(pageName, pageTemplate);
+    console.log(picocolors.green(`${iconBasename}: Page created`));
   }
 }
 
-(async () => {
-  try {
-    const basename = path.basename(__filename)
-    const timeLabel = picocolors.cyan(`[${basename}] finished`)
+function buildPages(config) {
+  (async () => {
+    const setName = path.basename(config.distDirectoryPath);
+    console.log(`Building ${setName} pages...`);
+    console.log('_____________________________');
 
-    console.log(picocolors.cyan(`[${basename}] started`))
-    console.time(timeLabel)
+    const dstDirectoryPathSvg = path.join(config.distDirectoryPath, 'svg');
+    try {
+      const pagesDir = path.join(__dirname, '../docs/content', setName);
+      await fs.mkdir(pagesDir, { recursive: true });
+      const files = await fs.readdir(dstDirectoryPathSvg);
 
-    const files = await fs.readdir(iconsDir)
+      await Promise.all(files.map((file) => main(file, pagesDir)));
+    } catch (error) {
+      console.error(error);
+      process.exit(1);
+    }
+  })();
+}
 
-    await Promise.all(files.map(file => main(file)))
-
-    const filesLength = files.length
-
-    console.log(picocolors.green('\nSuccess, %s page%s prepared!'), filesLength, filesLength !== 1 ? 's' : '')
-    console.timeEnd(timeLabel)
-  } catch (error) {
-    console.error(error)
-    process.exit(1)
-  }
-})()
+module.exports = buildPages;

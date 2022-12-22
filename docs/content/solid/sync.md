@@ -1,5 +1,0 @@
----
-title: Sync
-categories:
-tags:
----

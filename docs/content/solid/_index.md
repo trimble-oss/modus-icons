@@ -1,4 +1,0 @@
----
-title: "Solid"
-layout: "home"
----

@@ -2,6 +2,7 @@ const fs = require('fs-extra');
 const _ = require('lodash');
 const path = require('path');
 
+const buildMetadata = require('./build-metadata');
 const buildIcons = require('./build-icons');
 const buildPages = require('./build-pages');
 const normalizeConfig = require('./logic/normalize-config');
@@ -25,6 +26,7 @@ if (!_.isEmpty(configs)) {
         rootDirectoryPath,
         distDirectoryPath
       );
+      await buildMetadata(normalizedConfig);
       await buildIcons(normalizedConfig);
       await buildPages(normalizedConfig);
     })();

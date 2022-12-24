@@ -2,7 +2,7 @@
   {
     "svgs": [
       "modus-solid",
-      "material",
+      "material-solid",
       "transportation"
     ],
     "dist": "transportation"
@@ -10,7 +10,7 @@
   {
     "svgs": [
       "modus-solid",
-      "material"
+      "material-solid"
     ],
     "dist": "modus-solid"
   }

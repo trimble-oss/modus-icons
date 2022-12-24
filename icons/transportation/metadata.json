@@ -1,0 +1,712 @@
+[
+  {
+    "name": "3d_buildings",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "add_new_road",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "apps",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "blank",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "blocks_four",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "blocks_four_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "box_zoom",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "car",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "car_front",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "change_start_time",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chat",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "checkbox_checked",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "checkbox_unchecked",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "circle_dot",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "circle_dot_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "circle_notch",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "circle_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "circle_play",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clipboard",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clock",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cluster",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "company_administration",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "configuration_management",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "crow_fly",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "dashboard",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "disk",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "dispatch",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "driver",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "driver_groups",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "edit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "edit_line",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "edit_road",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "envelope",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "export",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "external_link",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "eyedropper",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "finalize_route",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "flag",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "flash_on",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "frame",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "frame_stop",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "geocode",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "globe",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "hand",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "hand_pan",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "heavy_duty",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "highway",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "info",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "inspect",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "invert_route",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layout",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "light_duty",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "list_bulleted",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "load",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "location",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "location_arrow",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "location_point",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "manage_places",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "manage_route_modifiers",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "map",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "map_layers",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "map_marker",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "map_markers",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "maximize",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "medium_duty",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "minimize",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "my_edits",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "my_places",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "my_trip",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "no_entry",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "one_way_left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "one_way_right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "optimize",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "orders",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "palette",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "paper_plane",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pin_icon",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pin_icon_plus",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "poi",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "polygon",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "polygon_concave",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "polygon_cone",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "polygon_select",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "preview",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "radar",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "random",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rename_route",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "reports",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "reroute",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "reschedule_route",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "road_surface",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "route",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "route_add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "route_compliance",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "route_delete",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "route_load",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "route_modifiers",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "route_off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "route_on",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "route_optimize",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "route_options",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "route_save",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "school_bus",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "show_closest",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "show_truck_info",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "site_manager",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "speed_coaching_profiles",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "spinner",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "stop_details",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "stop_summary",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "stop_time",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "suggestion",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "swatch",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "toggle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "traffic",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "train",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "trash",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "triangle_left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "triangle_right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "trim_fake_orders",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "truck",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "turn_dispatch_mode_on",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "two_way",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unloaded_order",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unloaded_orders",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unload_route_stop",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "update",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "upgrade_modifiers",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "user",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "user_fields",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "vehicle_groups",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "visibility",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "visibility_off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "volumes",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "warning",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "weather_alerts",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom_in",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom_out",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "metadata",
+    "tags": [],
+    "categories": []
+  }
+]

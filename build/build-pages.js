@@ -2,42 +2,45 @@
 
 'use strict';
 
-const fs = require('fs').promises;
+const fs = require('fs-extra');
 const path = require('path');
 const picocolors = require('picocolors');
 
 const VERBOSE = process.argv.includes('--verbose');
 
 function capitalizeFirstLetter(string) {
-  return (string.charAt(0).toUpperCase() + string.slice(1))
+  return string
     .split('-')
-    .join(' ');
+    .join(' ')
+    .replace(/\b\w/g, (l) => l.toUpperCase());
 }
 
-async function main(file, pagesDir) {
-  const iconBasename = path.basename(file, path.extname(file));
+async function writeContents(file, pagesDir) {
+  const iconBasename = file.name;
   const iconTitle = capitalizeFirstLetter(iconBasename);
   const pageName = path.join(pagesDir, `${iconBasename}.md`);
 
   const pageTemplate = `---
 title: ${iconTitle}
-categories:
-tags:
+categories: ${file.categories.join(', ')}
+tags: ${file.tags.join(', ')}
 ---
 `;
 
-  try {
-    await fs.access(pageName, fs.F_OK);
+  fs.writeFile(pageName, pageTemplate);
+}
 
-    if (VERBOSE) {
-      console.log(
-        `${picocolors.cyan(iconBasename)}: Page already exists; skipping`
-      );
-    }
-  } catch {
-    await fs.writeFile(pageName, pageTemplate);
-    console.log(picocolors.green(`${iconBasename}: Page created`));
-  }
+async function writeIndex(setName, pagesDir) {
+  const indexTitle = capitalizeFirstLetter(setName);
+  const pageName = path.join(pagesDir, `_index.md`);
+
+  const pageTemplate = `---
+title: "${indexTitle}"
+layout: "home"
+---
+`;
+
+  fs.writeFile(pageName, pageTemplate);
 }
 
 function buildPages(config) {
@@ -46,13 +49,25 @@ function buildPages(config) {
     console.log(`Building ${setName} pages...`);
     console.log('_____________________________');
 
-    const dstDirectoryPathSvg = path.join(config.distDirectoryPath, 'svg');
     try {
       const pagesDir = path.join(__dirname, '../docs/content', setName);
       await fs.mkdir(pagesDir, { recursive: true });
-      const files = await fs.readdir(dstDirectoryPathSvg);
+      await writeIndex(setName, pagesDir);
+      const srcDirectoryPath = config.svgDirectoryPaths.find((dir) =>
+        dir.includes(setName)
+      );
+      const files = fs.readJSONSync(
+        path.join(srcDirectoryPath, 'metadata.json')
+      );
+      if (setName.startsWith('modus')) {
+        const type = setName.split('-')[1];
+        const materialFiles = fs.readJSONSync(
+          path.join(srcDirectoryPath, '..', `material-${type}`, 'metadata.json')
+        );
+        files.push(...materialFiles);
+      }
 
-      await Promise.all(files.map((file) => main(file, pagesDir)));
+      await Promise.all(files.map((file) => writeContents(file, pagesDir)));
     } catch (error) {
       console.error(error);
       process.exit(1);

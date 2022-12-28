@@ -2,7 +2,7 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb my-4 p-0">
     <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item"><a href="/modus-solid/">Solid</a></li>
+    <li class="breadcrumb-item"><a href="/transportation/">Transportation</a></li>
     <li class="breadcrumb-item active" aria-current="page">{{- .Title -}}</li>
   </ol>
 </nav>
@@ -31,7 +31,7 @@
 
 <hr class="my-4">
 
-{{- $localSvgPath := printf "/dist/modus-solid/svg/%s.svg" .File.TranslationBaseName -}}
+{{- $localSvgPath := printf "/dist/transportation/svg/%s.svg" .File.TranslationBaseName -}}
 {{- $svgPath := path.Join "/" $localSvgPath -}}
 {{- $svgHtml := readFile $localSvgPath | chomp | safeHTML -}}
 

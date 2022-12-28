@@ -1,11 +1,11 @@
 [
   {
-    "name": "check_circle",
+    "name": "check-circle",
     "tags": [],
     "categories": []
   },
   {
-    "name": "compare_arrows",
+    "name": "compare-arrows",
     "tags": [],
     "categories": []
   },
@@ -15,12 +15,12 @@
     "categories": []
   },
   {
-    "name": "expand_less",
+    "name": "expand-less",
     "tags": [],
     "categories": []
   },
   {
-    "name": "expand_more",
+    "name": "expand-more",
     "tags": [],
     "categories": []
   },
@@ -30,7 +30,7 @@
     "categories": []
   },
   {
-    "name": "lock_open",
+    "name": "lock-open",
     "tags": [],
     "categories": []
   },

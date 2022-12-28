@@ -40,14 +40,18 @@ module:
       target:           static
     - source:           dist/modus-solid/sprites/modus-icons.svg
       target:           static/modus-solid-icons.svg
+    - source:           dist/transportation/sprites/modus-icons.svg
+      target:           static/transportation-icons.svg
     - source:           dist/modus-solid/fonts/
       target:           static/fonts/
-    - source:           icons
-      target:           static/assets/icons
+    - source:           node_modules/clipboard/dist/clipboard.min.js
+      target:           static/js/vendor/clipboard.min.js
     - source:           node_modules/list.js/dist/list.min.js
       target:           static/js/list.min.js
     - source:           node_modules/list.js/dist/list.min.js.map
       target:           static/js/list.min.js.map
+
+ignoreFiles:           ["content/modus-solid/metadata.md", "content/transportation/metadata.md"]
 
 taxonomies:
   category: categories

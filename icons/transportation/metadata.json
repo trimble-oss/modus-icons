@@ -1,11 +1,11 @@
 [
   {
-    "name": "3d_buildings",
+    "name": "3d-buildings",
     "tags": [],
     "categories": []
   },
   {
-    "name": "add_new_road",
+    "name": "add-new-road",
     "tags": [],
     "categories": []
   },
@@ -20,17 +20,17 @@
     "categories": []
   },
   {
-    "name": "blocks_four",
+    "name": "blocks-four",
     "tags": [],
     "categories": []
   },
   {
-    "name": "blocks_four_outline",
+    "name": "blocks-four-outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "box_zoom",
+    "name": "box-zoom",
     "tags": [],
     "categories": []
   },
@@ -40,12 +40,12 @@
     "categories": []
   },
   {
-    "name": "car_front",
+    "name": "car-front",
     "tags": [],
     "categories": []
   },
   {
-    "name": "change_start_time",
+    "name": "change-start-time",
     "tags": [],
     "categories": []
   },
@@ -55,12 +55,12 @@
     "categories": []
   },
   {
-    "name": "checkbox_checked",
+    "name": "checkbox-checked",
     "tags": [],
     "categories": []
   },
   {
-    "name": "checkbox_unchecked",
+    "name": "checkbox-unchecked",
     "tags": [],
     "categories": []
   },
@@ -75,27 +75,27 @@
     "categories": []
   },
   {
-    "name": "circle_dot",
+    "name": "circle-dot",
     "tags": [],
     "categories": []
   },
   {
-    "name": "circle_dot_outline",
+    "name": "circle-dot-outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "circle_notch",
+    "name": "circle-notch",
     "tags": [],
     "categories": []
   },
   {
-    "name": "circle_outline",
+    "name": "circle-outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "circle_play",
+    "name": "circle-play",
     "tags": [],
     "categories": []
   },
@@ -115,17 +115,17 @@
     "categories": []
   },
   {
-    "name": "company_administration",
+    "name": "company-administration",
     "tags": [],
     "categories": []
   },
   {
-    "name": "configuration_management",
+    "name": "configuration-management",
     "tags": [],
     "categories": []
   },
   {
-    "name": "crow_fly",
+    "name": "crow-fly",
     "tags": [],
     "categories": []
   },
@@ -150,7 +150,7 @@
     "categories": []
   },
   {
-    "name": "driver_groups",
+    "name": "driver-groups",
     "tags": [],
     "categories": []
   },
@@ -160,12 +160,12 @@
     "categories": []
   },
   {
-    "name": "edit_line",
+    "name": "edit-line",
     "tags": [],
     "categories": []
   },
   {
-    "name": "edit_road",
+    "name": "edit-road",
     "tags": [],
     "categories": []
   },
@@ -185,7 +185,7 @@
     "categories": []
   },
   {
-    "name": "external_link",
+    "name": "external-link",
     "tags": [],
     "categories": []
   },
@@ -195,7 +195,7 @@
     "categories": []
   },
   {
-    "name": "finalize_route",
+    "name": "finalize-route",
     "tags": [],
     "categories": []
   },
@@ -205,7 +205,7 @@
     "categories": []
   },
   {
-    "name": "flash_on",
+    "name": "flash-on",
     "tags": [],
     "categories": []
   },
@@ -215,7 +215,7 @@
     "categories": []
   },
   {
-    "name": "frame_stop",
+    "name": "frame-stop",
     "tags": [],
     "categories": []
   },
@@ -235,12 +235,12 @@
     "categories": []
   },
   {
-    "name": "hand_pan",
+    "name": "hand-pan",
     "tags": [],
     "categories": []
   },
   {
-    "name": "heavy_duty",
+    "name": "heavy-duty",
     "tags": [],
     "categories": []
   },
@@ -260,7 +260,7 @@
     "categories": []
   },
   {
-    "name": "invert_route",
+    "name": "invert-route",
     "tags": [],
     "categories": []
   },
@@ -270,12 +270,12 @@
     "categories": []
   },
   {
-    "name": "light_duty",
+    "name": "light-duty",
     "tags": [],
     "categories": []
   },
   {
-    "name": "list_bulleted",
+    "name": "list-bulleted",
     "tags": [],
     "categories": []
   },
@@ -290,22 +290,22 @@
     "categories": []
   },
   {
-    "name": "location_arrow",
+    "name": "location-arrow",
     "tags": [],
     "categories": []
   },
   {
-    "name": "location_point",
+    "name": "location-point",
     "tags": [],
     "categories": []
   },
   {
-    "name": "manage_places",
+    "name": "manage-places",
     "tags": [],
     "categories": []
   },
   {
-    "name": "manage_route_modifiers",
+    "name": "manage-route-modifiers",
     "tags": [],
     "categories": []
   },
@@ -315,17 +315,17 @@
     "categories": []
   },
   {
-    "name": "map_layers",
+    "name": "map-layers",
     "tags": [],
     "categories": []
   },
   {
-    "name": "map_marker",
+    "name": "map-marker",
     "tags": [],
     "categories": []
   },
   {
-    "name": "map_markers",
+    "name": "map-markers",
     "tags": [],
     "categories": []
   },
@@ -335,7 +335,7 @@
     "categories": []
   },
   {
-    "name": "medium_duty",
+    "name": "medium-duty",
     "tags": [],
     "categories": []
   },
@@ -345,32 +345,32 @@
     "categories": []
   },
   {
-    "name": "my_edits",
+    "name": "my-edits",
     "tags": [],
     "categories": []
   },
   {
-    "name": "my_places",
+    "name": "my-places",
     "tags": [],
     "categories": []
   },
   {
-    "name": "my_trip",
+    "name": "my-trip",
     "tags": [],
     "categories": []
   },
   {
-    "name": "no_entry",
+    "name": "no-entry",
     "tags": [],
     "categories": []
   },
   {
-    "name": "one_way_left",
+    "name": "one-way-left",
     "tags": [],
     "categories": []
   },
   {
-    "name": "one_way_right",
+    "name": "one-way-right",
     "tags": [],
     "categories": []
   },
@@ -390,17 +390,17 @@
     "categories": []
   },
   {
-    "name": "paper_plane",
+    "name": "paper-plane",
     "tags": [],
     "categories": []
   },
   {
-    "name": "pin_icon",
+    "name": "pin-icon",
     "tags": [],
     "categories": []
   },
   {
-    "name": "pin_icon_plus",
+    "name": "pin-icon-plus",
     "tags": [],
     "categories": []
   },
@@ -415,17 +415,17 @@
     "categories": []
   },
   {
-    "name": "polygon_concave",
+    "name": "polygon-concave",
     "tags": [],
     "categories": []
   },
   {
-    "name": "polygon_cone",
+    "name": "polygon-cone",
     "tags": [],
     "categories": []
   },
   {
-    "name": "polygon_select",
+    "name": "polygon-select",
     "tags": [],
     "categories": []
   },
@@ -445,7 +445,7 @@
     "categories": []
   },
   {
-    "name": "rename_route",
+    "name": "rename-route",
     "tags": [],
     "categories": []
   },
@@ -460,12 +460,12 @@
     "categories": []
   },
   {
-    "name": "reschedule_route",
+    "name": "reschedule-route",
     "tags": [],
     "categories": []
   },
   {
-    "name": "road_surface",
+    "name": "road-surface",
     "tags": [],
     "categories": []
   },
@@ -475,77 +475,77 @@
     "categories": []
   },
   {
-    "name": "route_add",
+    "name": "route-add",
     "tags": [],
     "categories": []
   },
   {
-    "name": "route_compliance",
+    "name": "route-compliance",
     "tags": [],
     "categories": []
   },
   {
-    "name": "route_delete",
+    "name": "route-delete",
     "tags": [],
     "categories": []
   },
   {
-    "name": "route_load",
+    "name": "route-load",
     "tags": [],
     "categories": []
   },
   {
-    "name": "route_modifiers",
+    "name": "route-modifiers",
     "tags": [],
     "categories": []
   },
   {
-    "name": "route_off",
+    "name": "route-off",
     "tags": [],
     "categories": []
   },
   {
-    "name": "route_on",
+    "name": "route-on",
     "tags": [],
     "categories": []
   },
   {
-    "name": "route_optimize",
+    "name": "route-optimize",
     "tags": [],
     "categories": []
   },
   {
-    "name": "route_options",
+    "name": "route-options",
     "tags": [],
     "categories": []
   },
   {
-    "name": "route_save",
+    "name": "route-save",
     "tags": [],
     "categories": []
   },
   {
-    "name": "school_bus",
+    "name": "school-bus",
     "tags": [],
     "categories": []
   },
   {
-    "name": "show_closest",
+    "name": "show-closest",
     "tags": [],
     "categories": []
   },
   {
-    "name": "show_truck_info",
+    "name": "show-truck-info",
     "tags": [],
     "categories": []
   },
   {
-    "name": "site_manager",
+    "name": "site-manager",
     "tags": [],
     "categories": []
   },
   {
-    "name": "speed_coaching_profiles",
+    "name": "speed-coaching-profiles",
     "tags": [],
     "categories": []
   },
@@ -555,17 +555,17 @@
     "categories": []
   },
   {
-    "name": "stop_details",
+    "name": "stop-details",
     "tags": [],
     "categories": []
   },
   {
-    "name": "stop_summary",
+    "name": "stop-summary",
     "tags": [],
     "categories": []
   },
   {
-    "name": "stop_time",
+    "name": "stop-time",
     "tags": [],
     "categories": []
   },
@@ -600,17 +600,17 @@
     "categories": []
   },
   {
-    "name": "triangle_left",
+    "name": "triangle-left",
     "tags": [],
     "categories": []
   },
   {
-    "name": "triangle_right",
+    "name": "triangle-right",
     "tags": [],
     "categories": []
   },
   {
-    "name": "trim_fake_orders",
+    "name": "trim-fake-orders",
     "tags": [],
     "categories": []
   },
@@ -620,27 +620,27 @@
     "categories": []
   },
   {
-    "name": "turn_dispatch_mode_on",
+    "name": "turn-dispatch-mode-on",
     "tags": [],
     "categories": []
   },
   {
-    "name": "two_way",
+    "name": "two-way",
     "tags": [],
     "categories": []
   },
   {
-    "name": "unloaded_order",
+    "name": "unloaded-order",
     "tags": [],
     "categories": []
   },
   {
-    "name": "unloaded_orders",
+    "name": "unloaded-orders",
     "tags": [],
     "categories": []
   },
   {
-    "name": "unload_route_stop",
+    "name": "unload-route-stop",
     "tags": [],
     "categories": []
   },
@@ -650,7 +650,7 @@
     "categories": []
   },
   {
-    "name": "upgrade_modifiers",
+    "name": "upgrade-modifiers",
     "tags": [],
     "categories": []
   },
@@ -660,12 +660,12 @@
     "categories": []
   },
   {
-    "name": "user_fields",
+    "name": "user-fields",
     "tags": [],
     "categories": []
   },
   {
-    "name": "vehicle_groups",
+    "name": "vehicle-groups",
     "tags": [],
     "categories": []
   },
@@ -675,7 +675,7 @@
     "categories": []
   },
   {
-    "name": "visibility_off",
+    "name": "visibility-off",
     "tags": [],
     "categories": []
   },
@@ -690,17 +690,17 @@
     "categories": []
   },
   {
-    "name": "weather_alerts",
+    "name": "weather-alerts",
     "tags": [],
     "categories": []
   },
   {
-    "name": "zoom_in",
+    "name": "zoom-in",
     "tags": [],
     "categories": []
   },
   {
-    "name": "zoom_out",
+    "name": "zoom-out",
     "tags": [],
     "categories": []
   },

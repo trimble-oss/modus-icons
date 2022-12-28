@@ -12,7 +12,7 @@ function copySvgs(srcDirectoryPath, dstDirectoryPath) {
     }
 
     const srcPath = path.join(srcDirectoryPath, srcName);
-    const dstName = srcName.replace(/[\s-]/g, '_');
+    const dstName = srcName.replace(/[\s-]/g, '-');
     const dstPath = path.join(dstDirectoryPath, dstName);
     if (fs.existsSync(dstPath)) {
       console.log(`        Skipping "${dstName}", already exists`);

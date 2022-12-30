@@ -19,6 +19,7 @@ async function buildMetadata(config) {
       }
       const files = fs.readdirSync(srcDirectoryPath);
       files.forEach((file) => {
+        if (path.extname(file) !== '.svg') return;
         const basename = path.basename(file, path.extname(file));
         const icon = json.find((i) => i.name === basename);
         if (!icon) {

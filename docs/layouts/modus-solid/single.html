@@ -53,11 +53,11 @@
         Smaller heading
       </div>
       <p>
-        Inline text {{ $svgHtml }}
+        Inline text&nbsp; {{ $svgHtml }}
       </p>
       <p>
         <a href="#" class="text-decoration-none">
-          Example link text
+          Example link text&nbsp;
           {{ $svgHtml }}
         </a>
       </p>
@@ -138,7 +138,7 @@
     <p>Using the web font? Copy, paste, and go.</p>
 
     <div class="mb-4">
-      {{ $iconFontSnippet := printf `<i class="mi-solid notranslate">%s</i>` .File.TranslationBaseName -}}
+      {{ $iconFontSnippet := printf `<i class="modus-icons mi-solid notranslate">%s</i>` .File.TranslationBaseName -}}
       {{- highlight $iconFontSnippet "html" "" }}
     </div>
 
@@ -149,5 +149,12 @@
 
     {{ highlight $svgHtml "html" "" }}
   </div>
+
+    <div>
+      {{ $svgSprieSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
+  <use xlink:href="/transportation-icons.svg#%s" />
+</svg>` .File.TranslationBaseName -}}
+      {{- highlight $svgSprieSnippet "html" "" }}
+    </div>
 </div>
 {{ end }}

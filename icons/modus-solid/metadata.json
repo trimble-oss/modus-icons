@@ -71,13 +71,25 @@
   },
   {
     "name": "fast-forward",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "audio",
+      "video",
+      "av"
+    ],
+    "categories": [
+      "media"
+    ]
   },
   {
     "name": "fast-rewind",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "audio",
+      "video",
+      "av"
+    ],
+    "categories": [
+      "media"
+    ]
   },
   {
     "name": "filter-list",
@@ -101,7 +113,11 @@
   },
   {
     "name": "play-circle",
-    "tags": [],
+    "tags": [
+      "audio",
+      "video",
+      "av"
+    ],
     "categories": []
   },
   {

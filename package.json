@@ -54,7 +54,7 @@
     "stylelint-config-standard-scss": "^6.1.0",
     "stylelint": "^14.16.1",
     "svg-sprite": "^3.0.0-alpha1",
-    "svgexport": "^0.3.2",
+    "svgexport": "^0.4.2",
     "svgo": "^2.8.0",
     "ttf2woff2": "^2.0.3",
     "vnu-jar": "22.9.29",

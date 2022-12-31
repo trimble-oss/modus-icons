@@ -49,4 +49,5 @@ jobs:
         with:
           paths: _site
           recurse: true
+          verbosity: info
           skip: "^(?!http://localhost)"

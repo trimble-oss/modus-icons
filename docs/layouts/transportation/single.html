@@ -153,10 +153,10 @@
     <p>Paste the SVG right into your project's code.</p>
 
     <div>
-      {{ $svgSprieSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
+      {{ $svgSpriteSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
   <use xlink:href="/transportation-icons.svg#%s" />
 </svg>` .File.TranslationBaseName -}}
-      {{- highlight $svgSprieSnippet "html" "" }}
+      {{- highlight $svgSpriteSnippet "html" "" }}
     </div>
   </div>
 </div>

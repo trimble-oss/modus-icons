@@ -1,17 +1,17 @@
 [
   {
     "name": "add-circle",
-    "tags": [],
+    "tags": ["add", "new", "create"],
     "categories": []
   },
   {
     "name": "attach-file",
-    "tags": [],
+    "tags": ["paperclip", "attachment"],
     "categories": []
   },
   {
     "name": "cancel",
-    "tags": [],
+    "tags": ["delete", "remove", "trash"],
     "categories": []
   },
   {
@@ -26,12 +26,12 @@
   },
   {
     "name": "credit-card",
-    "tags": [],
+    "tags": ["payment"],
     "categories": []
   },
   {
     "name": "day-mostly-cloudy",
-    "tags": [],
+    "tags": ["weather"],
     "categories": []
   },
   {

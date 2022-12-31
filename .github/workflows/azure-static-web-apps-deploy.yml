@@ -22,10 +22,10 @@ jobs:
         run: npm ci
 
       - name: Build the icons
-        run: npm run icons
+        run: npm run build
 
       - name: Build the docs
-        run: npm run docs-build
+        run: npm run docs:build
 
       - name: Build And Deploy
         id: builddeploy

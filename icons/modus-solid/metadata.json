@@ -1,17 +1,28 @@
 [
   {
     "name": "add-circle",
-    "tags": ["add", "new", "create"],
+    "tags": [
+      "add",
+      "new",
+      "create"
+    ],
     "categories": []
   },
   {
     "name": "attach-file",
-    "tags": ["paperclip", "attachment"],
+    "tags": [
+      "paperclip",
+      "attachment"
+    ],
     "categories": []
   },
   {
     "name": "cancel",
-    "tags": ["delete", "remove", "trash"],
+    "tags": [
+      "delete",
+      "remove",
+      "trash"
+    ],
     "categories": []
   },
   {
@@ -26,12 +37,16 @@
   },
   {
     "name": "credit-card",
-    "tags": ["payment"],
+    "tags": [
+      "payment"
+    ],
     "categories": []
   },
   {
     "name": "day-mostly-cloudy",
-    "tags": ["weather"],
+    "tags": [
+      "weather"
+    ],
     "categories": []
   },
   {
@@ -137,200 +152,320 @@
   {
     "name": "align-bottom",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "align-center-horiz",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "align-center-vert",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "align-left",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "align-right",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "align-top",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "arrow-down",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "arrow-left",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "arrow-right",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "arrow-up",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "barcode",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "brightness",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "camera",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "clash",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "color-picker",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "component",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "contrast",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "dark-mode",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "floorplan",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "flowchart",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "full-screen",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "hard-hat",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "image",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "layer",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "pan",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "pin",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "planning",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "pulse",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "screenshot",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "side-panel",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "text-input",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "text-long",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "text-short",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "traffic-cone",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "tree-structure",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "view",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "views",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "window-fit",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "window",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "wireframe",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "compare-arrows",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "crop",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand-less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand-more",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "lock-open",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sort",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "today",
     "tags": [],
     "categories": []
   }

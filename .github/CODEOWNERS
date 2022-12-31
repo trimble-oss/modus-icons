@@ -1,0 +1,17 @@
+# About CODEOWNERS
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+## File Types
+
+*        @coliff
+*.html   @coliff
+*.js     @coliff @nspringer-trimble
+*.json   @coliff @nspringer-trimble
+*.md     @coliff
+*.scss   @coliff
+*.svg    @coliff @egunther39
+*.yml    @coliff
+
+## Folders
+
+/build/  @coliff @nspringer-trimble

@@ -37,7 +37,7 @@
     "fs-extra": "^8.1.0",
     "hugo-bin": "^0.97.0",
     "icon-font-generator": "^2.1.11",
-    "icon-gen": "^2.0.0",
+    "icon-gen": "^3.0.1",
     "lockfile-lint": "^4.10.0",
     "lodash": "^4.17.21",
     "list.js": "^2.3.1",

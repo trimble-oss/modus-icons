@@ -1,0 +1,337 @@
+[
+  {
+    "name": "add-circle",
+    "tags": ["add", "new", "create"],
+    "categories": []
+  },
+  {
+    "name": "attach-file",
+    "tags": ["paperclip", "attachment"],
+    "categories": []
+  },
+  {
+    "name": "cancel",
+    "tags": ["delete", "remove", "trash"],
+    "categories": []
+  },
+  {
+    "name": "check-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "close",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "credit-card",
+    "tags": ["payment"],
+    "categories": []
+  },
+  {
+    "name": "day-mostly-cloudy",
+    "tags": ["weather"],
+    "categories": []
+  },
+  {
+    "name": "done",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "download",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "edit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "explore",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "fast-forward",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "fast-rewind",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "filter-list",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "hourglass-bottom",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pause-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "percent",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "play-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "remove-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "share",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "stop-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sync",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "toggle-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "toggle-on",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "tune",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom-in-map",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom-out-map",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "align-bottom",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "align-center-horiz",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "align-center-vert",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "align-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "align-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "align-top",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "barcode",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "brightness",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "camera",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clash",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "color-picker",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "component",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "contrast",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "dark-mode",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "floorplan",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "flowchart",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "full-screen",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "hard-hat",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "image",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layer",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pan",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pin",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "planning",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pulse",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "screenshot",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "side-panel",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "text-input",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "text-long",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "text-short",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "traffic-cone",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "tree-structure",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "views",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "window-fit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "window",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "wireframe",
+    "tags": [],
+    "categories": []
+  }
+]

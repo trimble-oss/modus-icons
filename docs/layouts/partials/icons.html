@@ -10,7 +10,7 @@
     {{ end }}
   </div>
   <ul class="row row-cols-2 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
-    {{ range (where .Site.RegularPages "Section" "solid") -}}
+    {{ range (where .Site.RegularPages "Section" "modus-solid") -}}
 
     {{- $filename := .File.TranslationBaseName -}}
     {{- with .Site.GetPage .File.Path }}

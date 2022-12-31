@@ -1,0 +1,17 @@
+[
+  {
+    "svgs": [
+      "modus-solid",
+      "material-solid",
+      "transportation"
+    ],
+    "dist": "transportation"
+  },
+  {
+    "svgs": [
+      "modus-solid",
+      "material-solid"
+    ],
+    "dist": "modus-solid"
+  }
+]

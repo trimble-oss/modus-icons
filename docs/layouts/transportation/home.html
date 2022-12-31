@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {{ partial "head" . }}
+</head>
+
+<body id="icons-body">
+  {{ partialCached "skippy" . }}
+  {{ partialCached "navbar" . }}
+
+  <main class="container" id="content">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb my-4 p-0">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/transportation/">Transportation</a></li>
+      </ol>
+    </nav>
+    {{ partialCached "icons-transportation" . }}
+
+    {{ .Content }}
+  </main>
+
+  {{- partialCached "footer" . }}
+  {{- partialCached "scripts" . }}
+</body>
+
+</html>

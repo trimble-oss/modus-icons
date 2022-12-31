@@ -5,5 +5,5 @@
 {{- $style := resources.Get "scss/docs.scss" | toCSS | postCSS | minify -}}
 <link rel="stylesheet" href="{{ $style.Permalink | relURL }}?v{{ hugo.Version }}">
 
-{{$section := .Section}}
-<link rel="stylesheet" href="/{{ $section }}/fonts/modus-icons.css">
+<link rel="stylesheet" href="/modus-solid/fonts/modus-icons.css">
+<link rel="stylesheet" href="/transportation/fonts/modus-icons.css">

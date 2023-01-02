@@ -51,16 +51,6 @@ module:
     - source:           node_modules/list.js/dist/list.min.js.map
       target:           static/js/list.min.js.map
 
-ignoreFiles:           ["content/modus-solid/metadata.md", "content/transportation/metadata.md"]
-
-taxonomies:
-  category: categories
-  tag: tags
-
-permalinks:
-  categories:           "/:section/:slug"
-  tags:                 "/:section/:slug"
-
 params:
   description:          "SVG icon library for Modus"
   version:              "1.0.0"

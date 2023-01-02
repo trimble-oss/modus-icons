@@ -22,8 +22,10 @@ async function writeContents(file, pagesDir) {
 
   const pageTemplate = `---
 title: ${iconTitle}
-categories: ${file.categories.join(', ')}
-tags: ${file.tags.join(', ')}
+categories:
+  - ${file.categories.join(', ')}
+tags:
+  - ${file.tags.join(', ')}
 ---
 `;
 

@@ -1,4 +1,9 @@
 *.css
 *.html
 *.md
+
 _modus-bootstrap-dark.scss
+config.yml
+package.json
+package-lock.json
+

@@ -1,47 +1,38 @@
 [
   {
     "name": "check-circle",
-    "tags": [],
-    "categories": []
+    "categories": [],
+    "tags": []
   },
   {
     "name": "compare-arrows",
-    "tags": [],
-    "categories": []
+    "categories": [],
+    "tags": []
   },
   {
     "name": "crop",
-    "tags": [],
-    "categories": []
+    "categories": [],
+    "tags": []
   },
   {
     "name": "expand-less",
-    "tags": [],
-    "categories": []
+    "categories": [],
+    "tags": [
+      "chevron",
+      "arrow"
+    ]
   },
   {
     "name": "expand-more",
-    "tags": [],
-    "categories": []
+    "categories": [],
+    "tags": [
+      "chevron",
+      "arrow"
+    ]
   },
   {
     "name": "folder",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "lock-open",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "sort",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "today",
-    "tags": [],
-    "categories": []
+    "categories": [],
+    "tags": []
   }
 ]

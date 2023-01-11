@@ -9,159 +9,12 @@
     "categories": []
   },
   {
-    "name": "attach-file",
-    "tags": [
-      "paperclip",
-      "attachment"
-    ],
-    "categories": []
-  },
-  {
-    "name": "cancel",
-    "tags": [
-      "delete",
-      "remove",
-      "trash"
-    ],
-    "categories": []
-  },
-  {
-    "name": "check-circle",
+    "name": "address",
     "tags": [],
     "categories": []
   },
   {
-    "name": "close",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "credit-card",
-    "tags": [
-      "payment"
-    ],
-    "categories": []
-  },
-  {
-    "name": "day-mostly-cloudy",
-    "tags": [
-      "weather"
-    ],
-    "categories": []
-  },
-  {
-    "name": "done",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "download",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "edit",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "explore",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "fast-forward",
-    "tags": [
-      "audio",
-      "video",
-      "av"
-    ],
-    "categories": [
-      "media"
-    ]
-  },
-  {
-    "name": "fast-rewind",
-    "tags": [
-      "audio",
-      "video",
-      "av"
-    ],
-    "categories": [
-      "media"
-    ]
-  },
-  {
-    "name": "filter-list",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "hourglass-bottom",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "pause-circle",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "percent",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "play-circle",
-    "tags": [
-      "audio",
-      "video",
-      "av"
-    ],
-    "categories": []
-  },
-  {
-    "name": "remove-circle",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "share",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "stop-circle",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "sync",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "toggle-off",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "toggle-on",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "tune",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "zoom-in-map",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "zoom-out-map",
+    "name": "alert",
     "tags": [],
     "categories": []
   },
@@ -208,6 +61,11 @@
     ]
   },
   {
+    "name": "antenna",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "arrow-down",
     "tags": [],
     "categories": [
@@ -236,11 +94,26 @@
     ]
   },
   {
+    "name": "bar-graph",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "bar-graph-line",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "barcode",
     "tags": [],
     "categories": [
       "Presentations & View"
     ]
+  },
+  {
+    "name": "bolt",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "brightness",
@@ -250,6 +123,79 @@
     ]
   },
   {
+    "name": "calculate",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "calculator",
+    "tags": [
+      "math"
+    ],
+    "categories": []
+  },
+  {
+    "name": "calculator-alt",
+    "tags": [
+      "math"
+    ],
+    "categories": []
+  },
+  {
+    "name": "calendar",
+    "tags": [
+      "date",
+      "time",
+      "schedule",
+      "month"
+    ],
+    "categories": []
+  },
+  {
+    "name": "calendar-check",
+    "tags": [
+      "date",
+      "time",
+      "schedule",
+      "month"
+    ],
+    "categories": []
+  },
+  {
+    "name": "calendar-event",
+    "tags": [
+      "date",
+      "time",
+      "schedule",
+      "month"
+    ],
+    "categories": []
+  },
+  {
+    "name": "calendar-week",
+    "tags": [
+      "date",
+      "time",
+      "schedule",
+      "month"
+    ],
+    "categories": []
+  },
+  {
+    "name": "call",
+    "tags": [
+      "phone"
+    ],
+    "categories": []
+  },
+  {
+    "name": "call-hang-up",
+    "tags": [
+      "phone"
+    ],
+    "categories": []
+  },
+  {
     "name": "camera",
     "tags": [],
     "categories": [
@@ -257,11 +203,74 @@
     ]
   },
   {
-    "name": "clash",
+    "name": "camera-disabled",
     "tags": [],
-    "categories": [
-      "Presentations & View"
-    ]
+    "categories": []
+  },
+  {
+    "name": "cancel-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "certificate",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chat",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "check",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "check-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clipboard",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clipboard-actions",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clipboard-check",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "close",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud-download",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud-upload",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloudy",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "collapse",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "color-picker",
@@ -271,11 +280,38 @@
     ]
   },
   {
-    "name": "component",
+    "name": "comment",
     "tags": [],
+    "categories": []
+  },
+  {
+    "name": "compare-arrows",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "compass",
+    "tags": [
+      "direction",
+      "location",
+      "map",
+      "navigation"
+    ],
+    "categories": []
+  },
+  {
+    "name": "component",
+    "tags": [
+      "jigsaw"
+    ],
     "categories": [
       "Presentations & View"
     ]
+  },
+  {
+    "name": "contacts",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "contrast",
@@ -285,11 +321,216 @@
     ]
   },
   {
-    "name": "dark-mode",
+    "name": "copy-content",
     "tags": [],
+    "categories": []
+  },
+  {
+    "name": "credit-card",
+    "tags": [
+      "payment"
+    ],
+    "categories": []
+  },
+  {
+    "name": "crop",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cursor-default",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "dashboard",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "day-clear",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "day-mostly-cloudy",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "day-partly-cloudy",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "delete",
+    "tags": [
+      "trash"
+    ],
+    "categories": []
+  },
+  {
+    "name": "download",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "download-line",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "download-xls",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "drag-horizontal",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "drag-vertical",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "drizzle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "edit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "email",
+    "tags": [
+      "envelope"
+    ],
+    "categories": []
+  },
+  {
+    "name": "expand",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand-less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand-more",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "fast-forward",
+    "tags": [
+      "audio",
+      "video",
+      "av"
+    ],
     "categories": [
-      "Presentations & View"
+      "media"
     ]
+  },
+  {
+    "name": "fast-rewind",
+    "tags": [
+      "audio",
+      "video",
+      "av"
+    ],
+    "categories": [
+      "media"
+    ]
+  },
+  {
+    "name": "file",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-copy",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-edit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-merge",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-missing",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-new",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-type-doc",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-type-log",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-type-pdf",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-type-rfi",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-type-rfq",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-type-tmp",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-type-xls",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "filter",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "filter-list",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "filter-off",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "floorplan",
@@ -306,11 +547,81 @@
     ]
   },
   {
+    "name": "folder",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-closed",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-locked",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-new",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-open",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-personal",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-project",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-public",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-share",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-unlocked",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "frame",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "full-screen",
     "tags": [],
     "categories": [
       "Presentations & View"
     ]
+  },
+  {
+    "name": "group-items",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "hail",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "hammer",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "hard-hat",
@@ -320,11 +631,117 @@
     ]
   },
   {
+    "name": "headset",
+    "tags": [
+      "headphones"
+    ],
+    "categories": []
+  },
+  {
+    "name": "heavy-hail",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "heavy-rain",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "heavy-snow",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "heavy-thunderstorm",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "help",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "history",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "home",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "hourglass",
+    "tags": [
+      "time"
+    ],
+    "categories": []
+  },
+  {
+    "name": "ice",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "icy-rain",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
     "name": "image",
     "tags": [],
     "categories": [
       "Presentations & View"
     ]
+  },
+  {
+    "name": "info",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "inspect",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "key",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "keyboard",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "keyboard-alt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "language",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "launch",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "layer",
@@ -334,11 +751,230 @@
     ]
   },
   {
+    "name": "light-hail",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "light-snow",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "light-thunderstorm",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "lightbulb-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "lightbulb-on",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "lightning",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "link",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "link-broken",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "link-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "location",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "location-point",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "lock",
+    "tags": [
+      "privacy",
+      "security"
+    ],
+    "categories": []
+  },
+  {
+    "name": "lock-open",
+    "tags": [
+      "privacy",
+      "security"
+    ],
+    "categories": []
+  },
+  {
+    "name": "manage-accounts",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "map",
+    "tags": [
+      "geography",
+      "location"
+    ],
+    "categories": []
+  },
+  {
+    "name": "map-2d",
+    "tags": [
+      "geography",
+      "location"
+    ],
+    "categories": []
+  },
+  {
+    "name": "map-marker",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "map-markers",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "map-poi",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "menu",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "menu-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "mic",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "mix",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "moon",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "more-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "mouse",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "move",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "mute",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "night-clear",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "night-mostly-cloudy",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "night-partly-cloudy",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "overcast",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "paint-bucket",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "pan",
     "tags": [],
     "categories": [
       "Presentations & View"
     ]
+  },
+  {
+    "name": "password",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pause-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pen",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "person",
+    "tags": [
+      "user"
+    ],
+    "categories": []
+  },
+  {
+    "name": "phone",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "phone-mobile",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "pin",
@@ -355,11 +991,126 @@
     ]
   },
   {
+    "name": "play-circle",
+    "tags": [
+      "audio",
+      "video",
+      "av"
+    ],
+    "categories": []
+  },
+  {
+    "name": "pointer",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pointer-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pointer-remove",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "polygon",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "polygon-area-tool",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "polygon-concave",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "polygon-cone",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "polygon-select",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "pulse",
     "tags": [],
     "categories": [
       "Presentations & View"
     ]
+  },
+  {
+    "name": "question",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rain-alt",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "raindrop",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "redo",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "refresh",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "remove-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "reply",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "ruler",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "save-as",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "save-disk",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "scissors",
+    "tags": [
+      "cut"
+    ],
+    "categories": []
+  },
+  {
+    "name": "screen",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "screenshot",
@@ -369,11 +1120,154 @@
     ]
   },
   {
+    "name": "search",
+    "tags": [
+      "magnifying glass"
+    ],
+    "categories": []
+  },
+  {
+    "name": "server",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "server-alt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "settings",
+    "tags": [
+      "cog",
+      "gear"
+    ],
+    "categories": []
+  },
+  {
+    "name": "share",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "shield",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "shortcut",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "side-panel",
     "tags": [],
     "categories": [
       "Presentations & View"
     ]
+  },
+  {
+    "name": "sign-in",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sign-out",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "signal",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snow-particle",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "snowflake",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "snowflake-alt",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "snowflakes",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "sort-alpha-down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sort-alpha-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sort-down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sort-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "star",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "star-empty",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "star-locked",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "stop-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sun",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sync",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sync-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "tablet",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "text-input",
@@ -383,18 +1277,59 @@
     ]
   },
   {
-    "name": "text-long",
+    "name": "text-input-long",
     "tags": [],
-    "categories": [
-      "Presentations & View"
-    ]
+    "categories": []
   },
   {
-    "name": "text-short",
+    "name": "text-input-short",
     "tags": [],
-    "categories": [
-      "Presentations & View"
-    ]
+    "categories": []
+  },
+  {
+    "name": "thumbs-down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "thumbs-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "timer",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "timer-2",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "timesheet",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "toggle-center",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "toggle-left-panel",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "toggle-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "toggle-on",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "traffic-cone",
@@ -411,6 +1346,41 @@
     ]
   },
   {
+    "name": "tune",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "undo",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "upload",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "upload-xls",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "video",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "video-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "video-disabled",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "view",
     "tags": [],
     "categories": [
@@ -425,11 +1395,34 @@
     ]
   },
   {
-    "name": "window-fit",
+    "name": "volume-down",
     "tags": [],
-    "categories": [
-      "Presentations & View"
-    ]
+    "categories": []
+  },
+  {
+    "name": "volume-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "warning",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "web",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "widgets",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "wind",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "window",
@@ -439,6 +1432,23 @@
     ]
   },
   {
+    "name": "window-fit",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "window-views",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "wintery-mix",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "wireframe",
     "tags": [],
     "categories": [
@@ -446,42 +1456,22 @@
     ]
   },
   {
-    "name": "compare-arrows",
+    "name": "wrench",
     "tags": [],
     "categories": []
   },
   {
-    "name": "crop",
+    "name": "zoom-box",
     "tags": [],
     "categories": []
   },
   {
-    "name": "expand-less",
+    "name": "zoom-in",
     "tags": [],
     "categories": []
   },
   {
-    "name": "expand-more",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "folder",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "lock-open",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "sort",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "today",
+    "name": "zoom-out",
     "tags": [],
     "categories": []
   }

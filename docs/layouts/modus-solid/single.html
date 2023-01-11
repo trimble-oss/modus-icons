@@ -2,7 +2,7 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb my-4 p-0">
     <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item"><a href="/modus-solid/">Solid</a></li>
+    <li class="breadcrumb-item"><a href="/modus-solid/">Modus Solid</a></li>
     <li class="breadcrumb-item active" aria-current="page">{{- .Title -}}</li>
   </ol>
 </nav>
@@ -148,13 +148,15 @@
     <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
 
     {{ highlight $svgHtml "html" "" }}
-  </div>
 
+    <h2 class="fs-3">SVG Sprite</h2>
     <div>
-      {{ $svgSpriteSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
-  <use xlink:href="/transportation-icons.svg#%s" />
+      <!-- prettier-ignore-start -->
+      {{- $svgSpriteSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
+  <use xlink:href="/modus-icons.svg#%s" />
 </svg>` .File.TranslationBaseName -}}
-      {{- highlight $svgSpriteSnippet "html" "" }}
-    </div>
+      {{- highlight $svgSpriteSnippet "html" "" -}}
+      </div>
+      </div>
 </div>
 {{ end }}

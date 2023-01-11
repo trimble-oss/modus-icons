@@ -25,7 +25,7 @@
     "test:eslint": "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives .",
     "test:stylelint": "stylelint docs/assets/scss/ --cache --cache-location node_modules/.cache/.stylelintcache --rd",
     "test:lockfile-lint": "lockfile-lint --empty-hostname false --type npm --path package-lock.json",
-    "test": "npm-run-all docs:build --parallel --aggregate-output --continue-on-error test:*"
+    "test": "npm-run-all prettier docs:build --parallel --aggregate-output --continue-on-error test:*"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
@@ -58,7 +58,7 @@
     "stylelint-config-standard-scss": "^6.1.0",
     "svg-sprite": "^3.0.0-alpha1",
     "svgexport": "^0.4.2",
-    "svgo": "^2.8.0",
+    "svgo": "2.8.0",
     "ttf2woff2": "^5.0.0",
     "vnu-jar": "22.9.29",
     "webfonts-generator": "git+https://git@github.com/muratcorlu/webfonts-generator.git"

@@ -209,12 +209,22 @@
   },
   {
     "name": "cancel-circle",
-    "tags": [],
+    "tags": [
+      "cancel",
+      "clear",
+      "delete",
+      "exit",
+      "remove",
+      "reset",
+      "x"
+    ],
     "categories": []
   },
   {
     "name": "certificate",
-    "tags": [],
+    "tags": [
+      "secure"
+    ],
     "categories": []
   },
   {
@@ -234,7 +244,9 @@
   },
   {
     "name": "clipboard",
-    "tags": [],
+    "tags": [
+      "paste"
+    ],
     "categories": []
   },
   {
@@ -244,12 +256,23 @@
   },
   {
     "name": "clipboard-check",
-    "tags": [],
+    "tags": [
+      "copy",
+      "paste"
+    ],
     "categories": []
   },
   {
     "name": "close",
-    "tags": [],
+    "tags": [
+      "cancel",
+      "clear",
+      "delete",
+      "exit",
+      "remove",
+      "reset",
+      "x"
+    ],
     "categories": []
   },
   {
@@ -264,7 +287,9 @@
   },
   {
     "name": "cloudy",
-    "tags": [],
+    "tags": [
+      "weather"
+    ],
     "categories": []
   },
   {
@@ -274,14 +299,18 @@
   },
   {
     "name": "color-picker",
-    "tags": [],
+    "tags": [
+      "eyedropper"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "comment",
-    "tags": [],
+    "tags": [
+      "message"
+    ],
     "categories": []
   },
   {
@@ -310,7 +339,9 @@
   },
   {
     "name": "contacts",
-    "tags": [],
+    "tags": [
+      "address book"
+    ],
     "categories": []
   },
   {
@@ -322,7 +353,9 @@
   },
   {
     "name": "copy-content",
-    "tags": [],
+    "tags": [
+      "duplicate"
+    ],
     "categories": []
   },
   {
@@ -349,7 +382,10 @@
   },
   {
     "name": "day-clear",
-    "tags": [],
+    "tags": [
+      "sun",
+      "weather"
+    ],
     "categories": []
   },
   {
@@ -400,12 +436,16 @@
   },
   {
     "name": "drizzle",
-    "tags": [],
+    "tags": [
+      "weather"
+    ],
     "categories": []
   },
   {
     "name": "edit",
-    "tags": [],
+    "tags": [
+      "pencil"
+    ],
     "categories": []
   },
   {
@@ -417,7 +457,9 @@
   },
   {
     "name": "expand",
-    "tags": [],
+    "tags": [
+      "arrow"
+    ],
     "categories": []
   },
   {
@@ -454,12 +496,17 @@
   },
   {
     "name": "file",
-    "tags": [],
+    "tags": [
+      "document"
+    ],
     "categories": []
   },
   {
     "name": "file-copy",
-    "tags": [],
+    "tags": [
+      "documents",
+      "duplicate"
+    ],
     "categories": []
   },
   {
@@ -615,12 +662,16 @@
   },
   {
     "name": "hail",
-    "tags": [],
+    "tags": [
+      "weather"
+    ],
     "categories": []
   },
   {
     "name": "hammer",
-    "tags": [],
+    "tags": [
+      "tools"
+    ],
     "categories": []
   },
   {
@@ -640,6 +691,7 @@
   {
     "name": "heavy-hail",
     "tags": [
+      "cloud",
       "weather"
     ],
     "categories": []
@@ -647,6 +699,7 @@
   {
     "name": "heavy-rain",
     "tags": [
+      "cloud",
       "weather"
     ],
     "categories": []
@@ -661,29 +714,40 @@
   {
     "name": "heavy-thunderstorm",
     "tags": [
+      "rain",
+      "storm",
       "weather"
     ],
     "categories": []
   },
   {
     "name": "help",
-    "tags": [],
+    "tags": [
+      "circle"
+    ],
     "categories": []
   },
   {
     "name": "history",
-    "tags": [],
+    "tags": [
+      "clock"
+    ],
     "categories": []
   },
   {
     "name": "home",
-    "tags": [],
+    "tags": [
+      "house"
+    ],
     "categories": []
   },
   {
     "name": "hourglass",
     "tags": [
-      "time"
+      "clock",
+      "history",
+      "time",
+      "wait"
     ],
     "categories": []
   },
@@ -697,20 +761,25 @@
   {
     "name": "icy-rain",
     "tags": [
+      "cloud",
       "weather"
     ],
     "categories": []
   },
   {
     "name": "image",
-    "tags": [],
+    "tags": [
+      "picture"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "info",
-    "tags": [],
+    "tags": [
+      "circle"
+    ],
     "categories": []
   },
   {
@@ -720,7 +789,10 @@
   },
   {
     "name": "key",
-    "tags": [],
+    "tags": [
+      "lock",
+      "secure"
+    ],
     "categories": []
   },
   {
@@ -735,7 +807,10 @@
   },
   {
     "name": "language",
-    "tags": [],
+    "tags": [
+      "translate",
+      "translation"
+    ],
     "categories": []
   },
   {
@@ -752,12 +827,16 @@
   },
   {
     "name": "light-hail",
-    "tags": [],
+    "tags": [
+      "cloud",
+      "weather"
+    ],
     "categories": []
   },
   {
     "name": "light-snow",
     "tags": [
+      "cloud",
       "weather"
     ],
     "categories": []
@@ -780,6 +859,7 @@
   {
     "name": "lightning",
     "tags": [
+      "cloud",
       "weather"
     ],
     "categories": []
@@ -827,7 +907,10 @@
   },
   {
     "name": "manage-accounts",
-    "tags": [],
+    "tags": [
+      "user",
+      "settings"
+    ],
     "categories": []
   },
   {
@@ -863,17 +946,23 @@
   },
   {
     "name": "menu",
-    "tags": [],
+    "tags": [
+      "hamburger"
+    ],
     "categories": []
   },
   {
     "name": "menu-circle",
-    "tags": [],
+    "tags": [
+      "hamburger"
+    ],
     "categories": []
   },
   {
     "name": "mic",
-    "tags": [],
+    "tags": [
+      "microphone"
+    ],
     "categories": []
   },
   {
@@ -898,22 +987,31 @@
   },
   {
     "name": "move",
-    "tags": [],
+    "tags": [
+      "arrow",
+      "cursor"
+    ],
     "categories": []
   },
   {
     "name": "mute",
-    "tags": [],
+    "tags": [
+      "volume"
+    ],
     "categories": []
   },
   {
     "name": "night-clear",
-    "tags": [],
+    "tags": [
+      "moon",
+      "weather"
+    ],
     "categories": []
   },
   {
     "name": "night-mostly-cloudy",
     "tags": [
+      "moon",
       "weather"
     ],
     "categories": []
@@ -921,6 +1019,7 @@
   {
     "name": "night-partly-cloudy",
     "tags": [
+      "moon",
       "weather"
     ],
     "categories": []
@@ -928,6 +1027,7 @@
   {
     "name": "overcast",
     "tags": [
+      "cloud",
       "weather"
     ],
     "categories": []
@@ -1067,12 +1167,16 @@
   },
   {
     "name": "redo",
-    "tags": [],
+    "tags": [
+      "arrow"
+    ],
     "categories": []
   },
   {
     "name": "refresh",
-    "tags": [],
+    "tags": [
+      "arrow"
+    ],
     "categories": []
   },
   {
@@ -1082,7 +1186,9 @@
   },
   {
     "name": "reply",
-    "tags": [],
+    "tags": [
+      "arrow"
+    ],
     "categories": []
   },
   {
@@ -1151,7 +1257,9 @@
   },
   {
     "name": "shield",
-    "tags": [],
+    "tags": [
+      "security"
+    ],
     "categories": []
   },
   {
@@ -1168,12 +1276,17 @@
   },
   {
     "name": "sign-in",
-    "tags": [],
+    "tags": [
+      "login"
+    ],
     "categories": []
   },
   {
     "name": "sign-out",
-    "tags": [],
+    "tags": [
+      "exit",
+      "logout"
+    ],
     "categories": []
   },
   {
@@ -1231,7 +1344,9 @@
   },
   {
     "name": "star",
-    "tags": [],
+    "tags": [
+      "rating"
+    ],
     "categories": []
   },
   {
@@ -1256,12 +1371,22 @@
   },
   {
     "name": "sync",
-    "tags": [],
+    "tags": [
+      "arrow",
+      "repeat",
+      "rotate",
+      "spin"
+    ],
     "categories": []
   },
   {
     "name": "sync-off",
-    "tags": [],
+    "tags": [
+      "arrow",
+      "repeat",
+      "rotate",
+      "spin"
+    ],
     "categories": []
   },
   {
@@ -1288,12 +1413,16 @@
   },
   {
     "name": "thumbs-down",
-    "tags": [],
+    "tags": [
+      "feedback"
+    ],
     "categories": []
   },
   {
     "name": "thumbs-up",
-    "tags": [],
+    "tags": [
+      "feedback"
+    ],
     "categories": []
   },
   {
@@ -1308,7 +1437,9 @@
   },
   {
     "name": "timesheet",
-    "tags": [],
+    "tags": [
+      "document"
+    ],
     "categories": []
   },
   {
@@ -1352,7 +1483,9 @@
   },
   {
     "name": "undo",
-    "tags": [],
+    "tags": [
+      "arrow"
+    ],
     "categories": []
   },
   {
@@ -1382,7 +1515,9 @@
   },
   {
     "name": "view",
-    "tags": [],
+    "tags": [
+      "eye"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -1396,22 +1531,32 @@
   },
   {
     "name": "volume-down",
-    "tags": [],
+    "tags": [
+      "audio",
+      "sound"
+    ],
     "categories": []
   },
   {
     "name": "volume-up",
-    "tags": [],
+    "tags": [
+      "audio",
+      "sound"
+    ],
     "categories": []
   },
   {
     "name": "warning",
-    "tags": [],
+    "tags": [
+      "circle"
+    ],
     "categories": []
   },
   {
     "name": "web",
-    "tags": [],
+    "tags": [
+      "globe"
+    ],
     "categories": []
   },
   {
@@ -1421,7 +1566,9 @@
   },
   {
     "name": "wind",
-    "tags": [],
+    "tags": [
+      "weather"
+    ],
     "categories": []
   },
   {
@@ -1445,7 +1592,10 @@
   },
   {
     "name": "wintery-mix",
-    "tags": [],
+    "tags": [
+      "cloud",
+      "weather"
+    ],
     "categories": []
   },
   {
@@ -1457,22 +1607,33 @@
   },
   {
     "name": "wrench",
-    "tags": [],
+    "tags": [
+      "tools"
+    ],
     "categories": []
   },
   {
     "name": "zoom-box",
-    "tags": [],
+    "tags": [
+      "magnify",
+      "scale"
+    ],
     "categories": []
   },
   {
     "name": "zoom-in",
-    "tags": [],
+    "tags": [
+      "magnify",
+      "scale"
+    ],
     "categories": []
   },
   {
     "name": "zoom-out",
-    "tags": [],
+    "tags": [
+      "magnify",
+      "scale"
+    ],
     "categories": []
   }
 ]

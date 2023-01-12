@@ -12,14 +12,19 @@
   },
   {
     "name": "address",
-    "tags": [],
+    "tags": [
+      "envelope",
+      "mail"
+    ],
     "categories": [
       "Account & Support"
     ]
   },
   {
     "name": "alert",
-    "tags": [],
+    "tags": [
+      "triangle"
+    ],
     "categories": [
       "Alerts & Messages"
     ]
@@ -115,14 +120,21 @@
   },
   {
     "name": "barcode",
-    "tags": [],
+    "tags": [
+      "billing",
+      "payment",
+      "viewpoint"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "bolt",
-    "tags": [],
+    "tags": [
+      "energy",
+      "lightning"
+    ],
     "categories": [
       "Weather"
     ]
@@ -148,7 +160,9 @@
   },
   {
     "name": "buildings",
-    "tags": [],
+    "tags": [
+      "building"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -426,7 +440,9 @@
   {
     "name": "contacts",
     "tags": [
-      "address book"
+      "address book",
+      "people",
+      "viewpoint"
     ],
     "categories": [
       "Account & Support"
@@ -732,21 +748,28 @@
   },
   {
     "name": "floorplan",
-    "tags": [],
+    "tags": [
+      "map",
+      "viewpoint"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "flowchart",
-    "tags": [],
+    "tags": [
+      "viewpoint"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "folder",
-    "tags": [],
+    "tags": [
+      "viewpoint"
+    ],
     "categories": []
   },
   {
@@ -758,7 +781,9 @@
   },
   {
     "name": "folder-locked",
-    "tags": [],
+    "tags": [
+      "viewpoint"
+    ],
     "categories": [
       "Folders & Files"
     ]
@@ -779,7 +804,10 @@
   },
   {
     "name": "folder-personal",
-    "tags": [],
+    "tags": [
+      "starred",
+      "viewpoint"
+    ],
     "categories": [
       "Folders & Files"
     ]
@@ -821,14 +849,20 @@
   },
   {
     "name": "full-screen",
-    "tags": [],
+    "tags": [
+      "maximize",
+      "viewpoint",
+      "window"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "group-items",
-    "tags": [],
+    "tags": [
+      "sketchup"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -846,7 +880,8 @@
   {
     "name": "hammer",
     "tags": [
-      "tools"
+      "repair",
+      "tool"
     ],
     "categories": [
       "Account & Support"
@@ -854,7 +889,10 @@
   },
   {
     "name": "hard-hat",
-    "tags": [],
+    "tags": [
+      "construction",
+      "viewpoint"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -1200,7 +1238,11 @@
   },
   {
     "name": "megaphone",
-    "tags": [],
+    "tags": [
+      "alert",
+      "audio",
+      "viewpoint"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -1208,7 +1250,8 @@
   {
     "name": "menu",
     "tags": [
-      "hamburger"
+      "hamburger",
+      "navigation"
     ],
     "categories": [
       "Programs"
@@ -1217,7 +1260,8 @@
   {
     "name": "menu-circle",
     "tags": [
-      "hamburger"
+      "hamburger",
+      "navigation"
     ],
     "categories": [
       "Programs"
@@ -1226,7 +1270,8 @@
   {
     "name": "mic",
     "tags": [
-      "microphone"
+      "microphone",
+      "sound"
     ],
     "categories": []
   },
@@ -1949,7 +1994,12 @@
   },
   {
     "name": "upload",
-    "tags": [],
+    "tags": [
+      "import",
+      "publish",
+      "share",
+      "sketchup"
+    ],
     "categories": [
       "Save & Share"
     ]
@@ -2022,6 +2072,8 @@
   {
     "name": "warning",
     "tags": [
+      "alert",
+      "caution",
       "circle"
     ],
     "categories": [
@@ -2073,7 +2125,11 @@
   },
   {
     "name": "window-fit",
-    "tags": [],
+    "tags": [
+      "arrows",
+      "marks",
+      "screen"
+    ],
     "categories": [
       "Presentations & View"
     ]

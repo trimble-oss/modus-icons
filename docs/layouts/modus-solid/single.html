@@ -14,7 +14,10 @@
     {{ if or .Params.tags .Params.categories -}}
     <ul class="list-unstyled mb-3 mb-md-0">
       {{ with .Params.tags }}<li><strong>Tags:</strong> {{ delimit . ", " }}</li>{{ end }}
-      {{ with .Params.categories }}<li><strong>Category:</strong> {{ delimit . ", " }}</li>{{ end }}
+      {{ with .Params.categories }}<li><strong>Category:</strong>
+        <a href="/modus-solid/?filter={{ delimit . ", " | lower }}">{{ delimit . ", " }}</a>
+      </li>
+      {{ end }}
     </ul>
     {{- end }}
   </div>
@@ -114,17 +117,12 @@
             <img src="https://modus-bootstrap.trimble.com/img/trimble-icon-rev.svg" class="d-block d-sm-none"
               height="25" width="25" alt="home">
           </a>
-          <div class="collapse navbar-collapse">
             <div class="navbar-nav ml-auto">
-              <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
+              <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 text-white" data-toggle="tooltip"
                 data-placement="bottom" title="{{- .Title -}}">
                 {{ $svgHtml }}
               </button>
             </div>
-          </div>
-          <button class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
-            {{ $svgHtml }}
-          </button>
         </nav>
       </div>
     </div>
@@ -138,7 +136,7 @@
     <p>Using the web font? Copy, paste, and go.</p>
 
     <div class="mb-4">
-      {{ $iconFontSnippet := printf `<i class="modus-icons mi-solid notranslate">%s</i>` .File.TranslationBaseName -}}
+      {{ $iconFontSnippet := printf `<i class="modus-icons mi-solid">%s</i>` .File.TranslationBaseName -}}
       {{- highlight $iconFontSnippet "html" "" }}
     </div>
 

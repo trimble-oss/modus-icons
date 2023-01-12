@@ -28,7 +28,7 @@ module.exports = {
     {
       name: 'removeAttrs',
       params: {
-        attrs: ['clip-rule', 'data-name', 'fill'],
+        attrs: ['clip-rule', 'data-name', 'fill', 'id'],
       },
     },
     // Custom plugin which resets the SVG attributes to explicit values

@@ -21,15 +21,14 @@
     "twbs",
     "versioner",
     "Werror",
-    "Xhref"
+    "Xhref",
+    "xlink"
   ],
   "ignorePaths": [
     ".cspell.json",
     "**/node_modules/**",
     "*.min.*",
-    "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*",
-    "*.{log,svg,snap}",
-    "test.*"
+    "{coverage,.cache,.git,.vscode,.DS_Store,tests}/**/*"
   ],
   "language": "en,en-US",
   "allowCompoundWords": true,

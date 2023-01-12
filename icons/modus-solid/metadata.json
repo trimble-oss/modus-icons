@@ -6,17 +6,23 @@
       "new",
       "create"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "address",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "alert",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Alerts & Messages"
+    ]
   },
   {
     "name": "align-bottom",
@@ -63,7 +69,9 @@
   {
     "name": "antenna",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "arrow-down",
@@ -101,7 +109,9 @@
   {
     "name": "bar-graph-line",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "barcode",
@@ -113,10 +123,31 @@
   {
     "name": "bolt",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "brightness",
+    "tags": [
+      "dark",
+      "light"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "brush",
+    "tags": [
+      "paint"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "buildings",
     "tags": [],
     "categories": [
       "Presentations & View"
@@ -124,22 +155,30 @@
   },
   {
     "name": "calculate",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "delta"
+    ],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "calculator",
     "tags": [
       "math"
     ],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "calculator-alt",
     "tags": [
       "math"
     ],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "calendar",
@@ -149,7 +188,9 @@
       "schedule",
       "month"
     ],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "calendar-check",
@@ -159,7 +200,9 @@
       "schedule",
       "month"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "calendar-event",
@@ -169,7 +212,9 @@
       "schedule",
       "month"
     ],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "calendar-week",
@@ -179,25 +224,33 @@
       "schedule",
       "month"
     ],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "call",
     "tags": [
       "phone"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "call-hang-up",
     "tags": [
       "phone"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "camera",
-    "tags": [],
+    "tags": [
+      "picture"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -205,7 +258,9 @@
   {
     "name": "camera-disabled",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "cancel-circle",
@@ -218,41 +273,55 @@
       "reset",
       "x"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "certificate",
     "tags": [
       "secure"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "chat",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "check",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "check-circle",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "clipboard",
     "tags": [
       "paste"
     ],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "clipboard-actions",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "clipboard-check",
@@ -260,7 +329,9 @@
       "copy",
       "paste"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "close",
@@ -273,34 +344,45 @@
       "reset",
       "x"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "cloud-download",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "cloud-upload",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "cloudy",
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "collapse",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "color-picker",
     "tags": [
-      "eyedropper"
+      "eyedropper",
+      "sketchup"
     ],
     "categories": [
       "Presentations & View"
@@ -311,7 +393,9 @@
     "tags": [
       "message"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "compare-arrows",
@@ -326,7 +410,9 @@
       "map",
       "navigation"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "component",
@@ -342,7 +428,9 @@
     "tags": [
       "address book"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "contrast",
@@ -356,14 +444,18 @@
     "tags": [
       "duplicate"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "credit-card",
     "tags": [
       "payment"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "crop",
@@ -378,7 +470,9 @@
   {
     "name": "dashboard",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "day-clear",
@@ -386,81 +480,108 @@
       "sun",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "day-mostly-cloudy",
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "day-partly-cloudy",
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "delete",
     "tags": [
       "trash"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "download",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "download-line",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "download-xls",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "drag-horizontal",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "drag-vertical",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "drizzle",
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "edit",
     "tags": [
       "pencil"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "email",
     "tags": [
-      "envelope"
+      "envelope",
+      "mail"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "expand",
     "tags": [
       "arrow"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "expand-less",
@@ -480,7 +601,7 @@
       "av"
     ],
     "categories": [
-      "media"
+      "Actions & Navigation"
     ]
   },
   {
@@ -491,7 +612,7 @@
       "av"
     ],
     "categories": [
-      "media"
+      "Actions & Navigation"
     ]
   },
   {
@@ -499,7 +620,9 @@
     "tags": [
       "document"
     ],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-copy",
@@ -512,72 +635,100 @@
   {
     "name": "file-edit",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-merge",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-missing",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-new",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-type-doc",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-type-log",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-type-pdf",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-type-rfi",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-type-rfq",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-type-tmp",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-type-xls",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "filter",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "filter-list",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "filter-off",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "floorplan",
@@ -601,52 +752,72 @@
   {
     "name": "folder-closed",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "folder-locked",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "folder-new",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "folder-open",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "folder-personal",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "folder-project",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "folder-public",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "folder-share",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "folder-unlocked",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "frame",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "full-screen",
@@ -658,21 +829,28 @@
   {
     "name": "group-items",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "hail",
     "tags": [
+      "circle",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "hammer",
     "tags": [
       "tools"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "hard-hat",
@@ -686,7 +864,9 @@
     "tags": [
       "headphones"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "heavy-hail",
@@ -694,7 +874,9 @@
       "cloud",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "heavy-rain",
@@ -702,44 +884,58 @@
       "cloud",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "heavy-snow",
     "tags": [
+      "cloud",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "heavy-thunderstorm",
     "tags": [
+      "cloud",
       "rain",
       "storm",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "help",
     "tags": [
       "circle"
     ],
-    "categories": []
+    "categories": [
+      "Alerts & Messages"
+    ]
   },
   {
     "name": "history",
     "tags": [
       "clock"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "home",
     "tags": [
       "house"
     ],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "hourglass",
@@ -749,7 +945,9 @@
       "time",
       "wait"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "ice",
@@ -780,12 +978,16 @@
     "tags": [
       "circle"
     ],
-    "categories": []
+    "categories": [
+      "Alerts & Messages"
+    ]
   },
   {
     "name": "inspect",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Alerts & Messages"
+    ]
   },
   {
     "name": "key",
@@ -793,17 +995,23 @@
       "lock",
       "secure"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "keyboard",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "keyboard-alt",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "language",
@@ -811,12 +1019,16 @@
       "translate",
       "translation"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "launch",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "layer",
@@ -831,7 +1043,9 @@
       "cloud",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "light-snow",
@@ -839,22 +1053,34 @@
       "cloud",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "light-thunderstorm",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "cloud",
+      "lightning",
+      "rain"
+    ],
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "lightbulb-off",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Alerts & Messages"
+    ]
   },
   {
     "name": "lightbulb-on",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Alerts & Messages"
+    ]
   },
   {
     "name": "lightning",
@@ -862,32 +1088,44 @@
       "cloud",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "link",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "link-broken",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "link-off",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "location",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "location-point",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "lock",
@@ -895,7 +1133,9 @@
       "privacy",
       "security"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "lock-open",
@@ -903,7 +1143,9 @@
       "privacy",
       "security"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "manage-accounts",
@@ -911,7 +1153,9 @@
       "user",
       "settings"
     ],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "map",
@@ -919,7 +1163,9 @@
       "geography",
       "location"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "map-2d",
@@ -927,36 +1173,55 @@
       "geography",
       "location"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "map-marker",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "map-markers",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "map-poi",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "megaphone",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "menu",
     "tags": [
       "hamburger"
     ],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "menu-circle",
     "tags": [
       "hamburger"
     ],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "mic",
@@ -968,22 +1233,30 @@
   {
     "name": "mix",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "moon",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "more-circle",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "mouse",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "move",
@@ -991,14 +1264,18 @@
       "arrow",
       "cursor"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "mute",
     "tags": [
       "volume"
     ],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "night-clear",
@@ -1006,23 +1283,38 @@
       "moon",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "night-mostly-cloudy",
     "tags": [
+      "cloud",
       "moon",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "night-partly-cloudy",
     "tags": [
+      "cloud",
       "moon",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "object-outline",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "overcast",
@@ -1030,12 +1322,16 @@
       "cloud",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "paint-bucket",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "pan",
@@ -1051,30 +1347,42 @@
   },
   {
     "name": "pause-circle",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "stop"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "pen",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "person",
     "tags": [
       "user"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "phone",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "phone-mobile",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "pin",
@@ -1094,50 +1402,69 @@
     "name": "play-circle",
     "tags": [
       "audio",
+      "resume",
       "video",
       "av"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "pointer",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "pointer-add",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "pointer-remove",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "polygon",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "polygon-area-tool",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "polygon-concave",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "polygon-cone",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "polygon-select",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "pulse",
@@ -1149,74 +1476,98 @@
   {
     "name": "question",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
-    "name": "rain-alt",
+    "name": "rain",
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "raindrop",
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "redo",
     "tags": [
       "arrow"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "refresh",
     "tags": [
       "arrow"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "remove-circle",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "reply",
     "tags": [
       "arrow"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "ruler",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "save-as",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "save-disk",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "scissors",
     "tags": [
       "cut"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "screen",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "screenshot",
@@ -1230,17 +1581,23 @@
     "tags": [
       "magnifying glass"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "server",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "server-alt",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "settings",
@@ -1248,24 +1605,41 @@
       "cog",
       "gear"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "share",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "shield",
     "tags": [
       "security"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "shortcut",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "shovel",
+    "tags": [
+      "dig"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "side-panel",
@@ -1277,97 +1651,141 @@
   {
     "name": "sign-in",
     "tags": [
-      "login"
+      "login",
+      "sketchup"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "sign-out",
     "tags": [
       "exit",
-      "logout"
+      "logout",
+      "sketchup"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "signal",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "snow-particle",
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "snowflake",
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "snowflake-alt",
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "snowflakes",
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "sort-alpha-down",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "sort-alpha-up",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "sort-down",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "sort-up",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "star",
     "tags": [
-      "rating"
+      "favorite",
+      "important",
+      "like",
+      "pin",
+      "rating",
+      "save"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "star-empty",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "star-locked",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "stop-circle",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "danger",
+      "sign"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "sun",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "circle"
+    ],
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "sync",
@@ -1377,7 +1795,9 @@
       "rotate",
       "spin"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "sync-off",
@@ -1387,28 +1807,41 @@
       "rotate",
       "spin"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "tablet",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "text-input",
-    "tags": [],
+    "tags": [
+      "text field",
+      "viewpoint"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "text-input-long",
-    "tags": [],
+    "tags": [
+      "text field",
+      "viewpoint"
+    ],
     "categories": []
   },
   {
     "name": "text-input-short",
-    "tags": [],
+    "tags": [
+      "text field",
+      "viewpoint"
+    ],
     "categories": []
   },
   {
@@ -1416,51 +1849,73 @@
     "tags": [
       "feedback"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "thumbs-up",
     "tags": [
       "feedback"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "timer",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "timer-2",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "timesheet",
     "tags": [
       "document"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "toggle-center",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "toggle-left-panel",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "toggle-off",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "switch"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "toggle-on",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "switch"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "traffic-cone",
@@ -1479,44 +1934,59 @@
   {
     "name": "tune",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "undo",
     "tags": [
       "arrow"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "upload",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "upload-xls",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "video",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "video-add",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "video-disabled",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "view",
     "tags": [
-      "eye"
+      "eye",
+      "show"
     ],
     "categories": [
       "Presentations & View"
@@ -1535,7 +2005,9 @@
       "audio",
       "sound"
     ],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "volume-up",
@@ -1543,33 +2015,54 @@
       "audio",
       "sound"
     ],
-    "categories": []
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
   },
   {
     "name": "warning",
     "tags": [
       "circle"
     ],
-    "categories": []
+    "categories": [
+      "Alerts & Messages"
+    ]
   },
   {
     "name": "web",
     "tags": [
       "globe"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "wheel-barrow",
+    "tags": [
+      "construction",
+      "tool",
+      "viewpoint"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "widgets",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "wind",
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "window",
@@ -1588,7 +2081,9 @@
   {
     "name": "window-views",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "wintery-mix",
@@ -1596,11 +2091,15 @@
       "cloud",
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "wireframe",
-    "tags": [],
+    "tags": [
+      "render"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -1610,7 +2109,9 @@
     "tags": [
       "tools"
     ],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "zoom-box",
@@ -1618,7 +2119,9 @@
       "magnify",
       "scale"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "zoom-in",
@@ -1626,7 +2129,9 @@
       "magnify",
       "scale"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "zoom-out",
@@ -1634,6 +2139,8 @@
       "magnify",
       "scale"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   }
 ]

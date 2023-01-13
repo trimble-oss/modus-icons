@@ -1300,15 +1300,6 @@
     ]
   },
   {
-    "name": "mute",
-    "tags": [
-      "volume"
-    ],
-    "categories": [
-      "Computer Hardware & Assets"
-    ]
-  },
-  {
     "name": "night-clear",
     "tags": [
       "moon",
@@ -1451,27 +1442,6 @@
       "video",
       "av"
     ],
-    "categories": [
-      "Actions & Navigation"
-    ]
-  },
-  {
-    "name": "pointer",
-    "tags": [],
-    "categories": [
-      "Actions & Navigation"
-    ]
-  },
-  {
-    "name": "pointer-add",
-    "tags": [],
-    "categories": [
-      "Actions & Navigation"
-    ]
-  },
-  {
-    "name": "pointer-remove",
-    "tags": [],
     "categories": [
       "Actions & Navigation"
     ]

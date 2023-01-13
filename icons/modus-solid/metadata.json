@@ -1446,13 +1446,6 @@
     ]
   },
   {
-    "name": "rain-heavy",
-    "tags": [],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
     "name": "rain-icy",
     "tags": [],
     "categories": [
@@ -1866,15 +1859,11 @@
     ]
   },
   {
-    "name": "thunderstorm-heavy",
-    "tags": [],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
     "name": "thunderstorm-light",
-    "tags": [],
+    "tags": [
+      "cloud",
+      "rain"
+    ],
     "categories": [
       "Weather"
     ]

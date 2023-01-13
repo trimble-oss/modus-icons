@@ -304,7 +304,7 @@
       "weather"
     ],
     "categories": [
-      "weather"
+      "Weather"
     ]
   },
   {
@@ -818,8 +818,13 @@
   },
   {
     "name": "lightning",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "location",
@@ -1108,8 +1113,13 @@
   },
   {
     "name": "rain-heavy",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "rain-icy",
@@ -1155,12 +1165,18 @@
   {
     "name": "ruler",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "scissors",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "cut"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "screen",
@@ -1218,8 +1234,13 @@
   },
   {
     "name": "snow-heavy",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "snow-light",
@@ -1420,14 +1441,22 @@
   },
   {
     "name": "thunderstorm-heavy",
-    "tags": [],
+    "tags": [
+      "cloud",
+      "rain",
+      "storm",
+      "weather"
+    ],
     "categories": [
       "Weather"
     ]
   },
   {
     "name": "thunderstorm-light",
-    "tags": [],
+    "tags": [
+      "cloud",
+      "rain"
+    ],
     "categories": [
       "Weather"
     ]
@@ -1551,13 +1580,19 @@
   },
   {
     "name": "wind",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "weather"
+    ]
   },
   {
     "name": "window",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "window-dock-undock",
@@ -1567,7 +1602,9 @@
   {
     "name": "window-fit",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "window-resize",

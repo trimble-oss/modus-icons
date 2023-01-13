@@ -11,15 +11,15 @@
 
 <div class="row align-items-md-center">
   <div class="col-md-6 col-lg-8">
-    <h1>{{- .Title -}}</h1>
+    <h1 class="display-3">{{- .Title -}}</h1>
 
     {{ if or .Params.tags .Params.categories -}}
     <ul class="list-unstyled mb-3 mb-md-0">
       {{ with .Params.tags }}<li><strong>Tags:</strong> {{ delimit . ", " }}</li>{{ end }}
       {{ with .Params.categories }}<li><strong>Category:</strong>
-	     <a href="/modus-outline/?filter={{ delimit . ", " | lower }}">{{ delimit . ", " }}</a>
-	   </li>
-	   {{ end }}
+      <a href="/modus-outline/?filter={{ delimit . ", " | lower }}">{{ delimit . ", " }}</a>
+      </li>
+      {{ end }}
     </ul>
     {{- end }}
   </div>

@@ -186,7 +186,7 @@
     ]
   },
   {
-    "name": "calculator-alt",
+    "name": "calculator-symbols",
     "tags": [
       "math"
     ],
@@ -363,6 +363,15 @@
     ]
   },
   {
+    "name": "cloud",
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
     "name": "cloud-download",
     "tags": [],
     "categories": [
@@ -374,15 +383,6 @@
     "tags": [],
     "categories": [
       "Save & Share"
-    ]
-  },
-  {
-    "name": "cloudy",
-    "tags": [
-      "weather"
-    ],
-    "categories": [
-      "Weather"
     ]
   },
   {
@@ -479,7 +479,17 @@
     "categories": []
   },
   {
-    "name": "cursor-default",
+    "name": "cursor",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cursor-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cursor-remove",
     "tags": [],
     "categories": []
   },
@@ -878,6 +888,36 @@
     ]
   },
   {
+    "name": "hail-heavy",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "hail-heavy",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "weather"
+    ]
+  },
+  {
+    "name": "hail-light",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "weather"
+    ]
+  },
+  {
     "name": "hammer",
     "tags": [
       "repair",
@@ -904,48 +944,6 @@
     ],
     "categories": [
       "Account & Support"
-    ]
-  },
-  {
-    "name": "heavy-hail",
-    "tags": [
-      "cloud",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "heavy-rain",
-    "tags": [
-      "cloud",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "heavy-snow",
-    "tags": [
-      "cloud",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "heavy-thunderstorm",
-    "tags": [
-      "cloud",
-      "rain",
-      "storm",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
     ]
   },
   {
@@ -1012,6 +1010,11 @@
     ]
   },
   {
+    "name": "image-scene",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "info",
     "tags": [
       "circle"
@@ -1045,7 +1048,7 @@
     ]
   },
   {
-    "name": "keyboard-alt",
+    "name": "keyboard-keys",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
@@ -1073,37 +1076,6 @@
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
-  },
-  {
-    "name": "light-hail",
-    "tags": [
-      "cloud",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "light-snow",
-    "tags": [
-      "cloud",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "light-thunderstorm",
-    "tags": [
-      "cloud",
-      "lightning",
-      "rain"
-    ],
-    "categories": [
-      "Weather"
     ]
   },
   {
@@ -1297,6 +1269,20 @@
     ]
   },
   {
+    "name": "mostly-cloudy-day",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "mostly-cloudy-night",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
     "name": "mouse",
     "tags": [],
     "categories": [
@@ -1311,15 +1297,6 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
-  },
-  {
-    "name": "mute",
-    "tags": [
-      "volume"
-    ],
-    "categories": [
-      "Computer Hardware & Assets"
     ]
   },
   {
@@ -1383,6 +1360,20 @@
     "tags": [],
     "categories": [
       "Presentations & View"
+    ]
+  },
+  {
+    "name": "partly-cloudy-day",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "partly-cloudy-night",
+    "tags": [],
+    "categories": [
+      "Weather"
     ]
   },
   {
@@ -1456,27 +1447,6 @@
     ]
   },
   {
-    "name": "pointer",
-    "tags": [],
-    "categories": [
-      "Actions & Navigation"
-    ]
-  },
-  {
-    "name": "pointer-add",
-    "tags": [],
-    "categories": [
-      "Actions & Navigation"
-    ]
-  },
-  {
-    "name": "pointer-remove",
-    "tags": [],
-    "categories": [
-      "Actions & Navigation"
-    ]
-  },
-  {
     "name": "polygon",
     "tags": [],
     "categories": [
@@ -1530,6 +1500,30 @@
     "tags": [
       "weather"
     ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "rain-heavy",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "rain-heavy",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "rain-icy",
+    "tags": [],
     "categories": [
       "Weather"
     ]
@@ -1638,7 +1632,7 @@
     ]
   },
   {
-    "name": "server-alt",
+    "name": "server-round",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
@@ -1719,6 +1713,30 @@
     "tags": [],
     "categories": [
       "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "snow-heavy",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "snow-heavy",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "snow-light",
+    "tags": [],
+    "categories": [
+      "Weather"
     ]
   },
   {
@@ -1908,6 +1926,32 @@
     ]
   },
   {
+    "name": "thunderstorm-heavy",
+    "tags": [
+      "cloud",
+      "rain",
+      "storm",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "thunderstorm-heavy",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "thunderstorm-light",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
     "name": "timer",
     "tags": [],
     "categories": [
@@ -2053,6 +2097,15 @@
     "name": "volume-down",
     "tags": [
       "audio",
+      "sound"
+    ],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "volume-mute",
+    "tags": [
       "sound"
     ],
     "categories": [

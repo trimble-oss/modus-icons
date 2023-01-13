@@ -14,6 +14,7 @@ module.exports = {
         'border-0',
         'border-right',
         'breadcrumb',
+        'btn-clipboard',
         'btn-danger',
         'btn-outline-dark',
         'btn-outline-secondary',

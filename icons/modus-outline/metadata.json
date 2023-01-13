@@ -270,6 +270,15 @@
     ]
   },
   {
+    "name": "clipboard",
+    "tags": [
+      "paste"
+    ],
+    "categories": [
+      "Save & Share"
+    ]
+  },
+  {
     "name": "clipboard-actions",
     "tags": [],
     "categories": [
@@ -308,6 +317,20 @@
     ],
     "categories": [
       "Weather"
+    ]
+  },
+  {
+    "name": "cloud-download",
+    "tags": [],
+    "categories": [
+      "Save & Share"
+    ]
+  },
+  {
+    "name": "cloud-upload",
+    "tags": [],
+    "categories": [
+      "Save & Share"
     ]
   },
   {
@@ -404,6 +427,27 @@
     ],
     "categories": [
       "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "download",
+    "tags": [],
+    "categories": [
+      "Save & Share"
+    ]
+  },
+  {
+    "name": "download-line",
+    "tags": [],
+    "categories": [
+      "Save & Share"
+    ]
+  },
+  {
+    "name": "download-xls",
+    "tags": [],
+    "categories": [
+      "Save & Share"
     ]
   },
   {
@@ -840,6 +884,27 @@
     ]
   },
   {
+    "name": "link",
+    "tags": [],
+    "categories": [
+      "Save & Share"
+    ]
+  },
+  {
+    "name": "link-broken",
+    "tags": [],
+    "categories": [
+      "Save & Share"
+    ]
+  },
+  {
+    "name": "link-off",
+    "tags": [],
+    "categories": [
+      "Save & Share"
+    ]
+  },
+  {
     "name": "location",
     "tags": [],
     "categories": [
@@ -1220,6 +1285,20 @@
     ]
   },
   {
+    "name": "save-as",
+    "tags": [],
+    "categories": [
+      "Save & Share"
+    ]
+  },
+  {
+    "name": "save-disk",
+    "tags": [],
+    "categories": [
+      "Save & Share"
+    ]
+  },
+  {
     "name": "scissors",
     "tags": [
       "cut"
@@ -1278,9 +1357,20 @@
     ]
   },
   {
+    "name": "share",
+    "tags": [],
+    "categories": [
+      "Save & Share"
+    ]
+  },
+  {
     "name": "shovel",
-    "tags": ["dig"],
-    "categories": ["Presentations & View"]
+    "tags": [
+      "dig"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "signal",
@@ -1568,6 +1658,25 @@
     "name": "undo",
     "tags": [],
     "categories": []
+  },
+  {
+    "name": "upload",
+    "tags": [
+      "import",
+      "publish",
+      "share",
+      "sketchup"
+    ],
+    "categories": [
+      "Save & Share"
+    ]
+  },
+  {
+    "name": "upload-xls",
+    "tags": [],
+    "categories": [
+      "Save & Share"
+    ]
   },
   {
     "name": "video",

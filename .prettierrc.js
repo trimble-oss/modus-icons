@@ -18,7 +18,7 @@ module.exports = {
     {
       files: '*.svg',
       options: {
-        printWidth: 1980,
+        printWidth: 5000,
         bracketSpacing: false,
         bracketSameLine: true,
         parser: 'xml',

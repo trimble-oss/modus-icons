@@ -1079,16 +1079,6 @@
     ]
   },
   {
-    "name": "light-hail",
-    "tags": [
-      "cloud",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
     "name": "lightbulb-off",
     "tags": [],
     "categories": [

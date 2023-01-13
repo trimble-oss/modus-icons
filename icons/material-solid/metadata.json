@@ -33,6 +33,8 @@
   {
     "name": "folder",
     "categories": [],
-    "tags": []
+    "tags": [
+      "directory"
+    ]
   }
 ]

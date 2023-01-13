@@ -18,7 +18,6 @@ module.exports = {
             keepRoleAttr: true,
           },
           removeViewBox: false,
-          sortAttrs: true,
         },
       },
     },

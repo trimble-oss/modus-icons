@@ -23,6 +23,7 @@
     "docs:build": "npx hugo --cleanDestinationDir",
     "prettier": "prettier --write ./*.{scss,js,json,md,yml} icons/**/*.svg",
     "test:eslint": "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives .",
+    "test:htmlhint": "htmlhint docs/**/*.html",
     "test:stylelint": "stylelint docs/assets/scss/ --cache --cache-location node_modules/.cache/.stylelintcache --rd",
     "test:lockfile-lint": "lockfile-lint --empty-hostname false --type npm --path package-lock.json",
     "test": "npm-run-all prettier docs:build --parallel --aggregate-output --continue-on-error test:*"
@@ -37,6 +38,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^8.31.0",
     "fs-extra": "^11.1.0",
+    "htmlhint": "^1.1.4",
     "hugo-bin": "^0.97.0",
     "icon-font-generator": "^2.1.11",
     "icon-gen": "^3.0.1",
@@ -60,7 +62,6 @@
     "svgexport": "^0.4.2",
     "svgo": "2.8.0",
     "ttf2woff2": "^5.0.0",
-    "vnu-jar": "22.9.29",
     "webfonts-generator": "git+https://git@github.com/muratcorlu/webfonts-generator.git"
   },
   "engines": {

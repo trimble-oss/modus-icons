@@ -108,7 +108,10 @@
   },
   {
     "name": "bar-graph",
-    "tags": [],
+    "tags": [
+      "chart",
+      "analytics"
+    ],
     "categories": []
   },
   {
@@ -481,17 +484,23 @@
   },
   {
     "name": "cursor",
-    "tags": [],
+    "tags": [
+      "pointer"
+    ],
     "categories": []
   },
   {
     "name": "cursor-add",
-    "tags": [],
+    "tags": [
+      "pointer"
+    ],
     "categories": []
   },
   {
     "name": "cursor-remove",
-    "tags": [],
+    "tags": [
+      "pointer"
+    ],
     "categories": []
   },
   {
@@ -1226,7 +1235,12 @@
   },
   {
     "name": "more-circle",
-    "tags": [],
+    "tags": [
+      "ellipsis",
+      "meatballs",
+      "menu",
+      "overflow"
+    ],
     "categories": [
       "Programs"
     ]
@@ -1281,7 +1295,11 @@
   },
   {
     "name": "paint-bucket",
-    "tags": [],
+    "tags": [
+      "color",
+      "fill",
+      "palette"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1315,7 +1333,9 @@
   {
     "name": "pause-circle",
     "tags": [
-      "stop"
+      "audio",
+      "stop",
+      "video"
     ],
     "categories": [
       "Actions & Navigation"
@@ -1323,7 +1343,11 @@
   },
   {
     "name": "pen",
-    "tags": [],
+    "tags": [
+      "edit",
+      "ballpoint",
+      "write"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1414,7 +1438,10 @@
   },
   {
     "name": "pulse",
-    "tags": [],
+    "tags": [
+      "activity",
+      "heartbeat"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -1464,7 +1491,8 @@
   {
     "name": "redo",
     "tags": [
-      "arrow"
+      "arrow",
+      "turn"
     ],
     "categories": [
       "Actions & Navigation"
@@ -1473,7 +1501,12 @@
   {
     "name": "refresh",
     "tags": [
-      "arrow"
+      "arrow",
+      "reload",
+      "refresh",
+      "rotate",
+      "round",
+      "spin"
     ],
     "categories": [
       "Actions & Navigation"
@@ -1481,7 +1514,10 @@
   },
   {
     "name": "remove-circle",
-    "tags": [],
+    "tags": [
+      "delete",
+      "minus"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1497,7 +1533,10 @@
   },
   {
     "name": "ruler",
-    "tags": [],
+    "tags": [
+      "guide",
+      "measure"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1566,7 +1605,9 @@
     "name": "settings",
     "tags": [
       "cog",
-      "gear"
+      "gear",
+      "preferences",
+      "tool"
     ],
     "categories": [
       "Actions & Navigation"

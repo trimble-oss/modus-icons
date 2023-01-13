@@ -899,13 +899,23 @@
   },
   {
     "name": "hail-heavy",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "weather"
+    ]
   },
   {
     "name": "hail-light",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "weather"
+    ]
   },
   {
     "name": "hammer",

@@ -1,0 +1,1640 @@
+[
+  {
+    "name": "add-circle",
+    "tags": [
+      "add",
+      "new",
+      "create"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "alert",
+    "tags": [
+      "triangle"
+    ],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
+    "name": "align-bottom",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "align-center-horiz",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "align-center-vert",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "align-left",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "align-right",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "align-top",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "arrow-down",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "arrow-left",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "arrow-right",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "arrow-up",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "bar-graph",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "bar-graph-line",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "barcode",
+    "tags": [
+      "billing",
+      "payment",
+      "viewpoint"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "bolt",
+    "tags": [
+      "energy",
+      "lightning"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "brightness",
+    "tags": [
+      "dark",
+      "light"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "brush",
+    "tags": [
+      "paint"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "buildings",
+    "tags": [
+      "building"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "calculate",
+    "tags": [
+      "delta"
+    ],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "calculator",
+    "tags": [
+      "math"
+    ],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "calculator-symbols",
+    "tags": [
+      "math"
+    ],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "calendar",
+    "tags": [
+      "date",
+      "time",
+      "schedule",
+      "month"
+    ],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "calendar-event",
+    "tags": [
+      "date",
+      "time",
+      "schedule",
+      "month"
+    ],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "calendar-week",
+    "tags": [
+      "date",
+      "time",
+      "schedule",
+      "month"
+    ],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "camera",
+    "tags": [
+      "picture",
+      "photo"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "camera-disabled",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "cancel-circle",
+    "tags": [
+      "cancel",
+      "clear",
+      "delete",
+      "exit",
+      "remove",
+      "reset",
+      "x"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "chat",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "check",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "check-circle",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "clipboard-actions",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "clipboard-check",
+    "tags": [
+      "copy",
+      "paste"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "close",
+    "tags": [
+      "cancel",
+      "clear",
+      "delete",
+      "exit",
+      "remove",
+      "reset",
+      "x"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "cloud",
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "weather"
+    ]
+  },
+  {
+    "name": "collapse",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "color-picker",
+    "tags": [
+      "eyedropper",
+      "sketchup"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "comment",
+    "tags": [
+      "message"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "compass",
+    "tags": [
+      "direction",
+      "location",
+      "map",
+      "navigation"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "component",
+    "tags": [
+      "jigsaw"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "contrast",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "copy-content",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cursor",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cursor-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cursor-remove",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "dashboard",
+    "tags": [],
+    "categories": [
+      "Programs"
+    ]
+  },
+  {
+    "name": "delete",
+    "tags": [
+      "trash"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "drag-horizontal",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "drag-vertical",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "drizzle",
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "edit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "fast-forward",
+    "tags": [
+      "audio",
+      "video",
+      "av"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "fast-rewind",
+    "tags": [
+      "audio",
+      "video",
+      "av"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "file",
+    "tags": [
+      "document"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-copy",
+    "tags": [
+      "documents",
+      "duplicate"
+    ],
+    "categories": []
+  },
+  {
+    "name": "file-edit",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-merge",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-missing",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-new",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-doc",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-log",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-pdf",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-rfi",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-rfq",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-tmp",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-xls",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "filter",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "filter-list",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "filter-off",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "floorplan",
+    "tags": [
+      "map",
+      "viewpoint"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "flowchart",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-closed",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "folder-locked",
+    "tags": [
+      "viewpoint"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "folder-new",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "folder-open",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "folder-personal",
+    "tags": [
+      "starred",
+      "viewpoint"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "folder-project",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "folder-public",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "folder-share",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "folder-unlocked",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "frame",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "full-screen",
+    "tags": [
+      "maximize",
+      "viewpoint",
+      "window"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "group-items",
+    "tags": [
+      "sketchup"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "hail",
+    "tags": [
+      "circle",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "hail-heavy",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "weather"
+    ]
+  },
+  {
+    "name": "hail-light",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "weather"
+    ]
+  },
+  {
+    "name": "help",
+    "tags": [
+      "circle"
+    ],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
+    "name": "history",
+    "tags": [
+      "clock"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "home",
+    "tags": [
+      "house"
+    ],
+    "categories": [
+      "Programs"
+    ]
+  },
+  {
+    "name": "hourglass",
+    "tags": [
+      "clock",
+      "history",
+      "time",
+      "wait"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "ice",
+    "tags": [
+      "weather"
+    ],
+    "categories": []
+  },
+  {
+    "name": "image-scene",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "info",
+    "tags": [
+      "circle"
+    ],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
+    "name": "inspect",
+    "tags": [],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
+    "name": "keyboard",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "keyboard-keys",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "launch",
+    "tags": [],
+    "categories": [
+      "Programs"
+    ]
+  },
+  {
+    "name": "layer",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "lightbulb-off",
+    "tags": [],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
+    "name": "lightbulb-on",
+    "tags": [],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
+    "name": "lightning",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "location",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "location-point",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "lock",
+    "tags": [
+      "privacy",
+      "security"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "lock-open",
+    "tags": [
+      "privacy",
+      "security"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "manage-accounts",
+    "tags": [
+      "user",
+      "settings"
+    ],
+    "categories": [
+      "Programs"
+    ]
+  },
+  {
+    "name": "map",
+    "tags": [
+      "geography",
+      "location"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "map-2d",
+    "tags": [
+      "geography",
+      "location"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "map-marker",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "map-markers",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "map-poi",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "megaphone",
+    "tags": [
+      "alert",
+      "audio",
+      "viewpoint"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "menu",
+    "tags": [
+      "hamburger",
+      "navigation"
+    ],
+    "categories": [
+      "Programs"
+    ]
+  },
+  {
+    "name": "menu-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "mix",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "moon",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "more-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "mouse",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "move",
+    "tags": [
+      "arrow",
+      "cursor"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "object-outline",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "overcast",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "paint-bucket",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "pan",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pause-circle",
+    "tags": [
+      "stop"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "pen",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "person",
+    "tags": [
+      "user"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "phone-mobile",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "pin",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "planning",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "play-circle",
+    "tags": [
+      "audio",
+      "resume",
+      "video",
+      "av"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "polygon",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "polygon-area-tool",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "polygon-concave",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "polygon-cone",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "polygon-select",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "pulse",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "rain",
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "rain-heavy",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rain-icy",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "raindrop",
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "redo",
+    "tags": [
+      "arrow"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "refresh",
+    "tags": [
+      "arrow"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "remove-circle",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "ruler",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "scissors",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "screen",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "screenshot",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "search",
+    "tags": [
+      "magnifying glass"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "server",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "server-round",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "settings",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "shovel",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "signal",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "snow-heavy",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snow-light",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "snow-particle",
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "snowflake",
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "snowflake-alt",
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "snowflakes",
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "sort-alpha-down",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "sort-alpha-up",
+    "tags": [
+      "reverse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "sort-down",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "sort-up",
+    "tags": [
+      "reverse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "star",
+    "tags": [
+      "favorite",
+      "important",
+      "like",
+      "pin",
+      "rating",
+      "save"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "star-empty",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "star-locked",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "stop-circle",
+    "tags": [
+      "danger",
+      "sign"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "sun",
+    "tags": [
+      "circle"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "sync",
+    "tags": [
+      "arrow",
+      "repeat",
+      "rotate",
+      "spin"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "sync-off",
+    "tags": [
+      "arrow",
+      "repeat",
+      "rotate",
+      "spin"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "tablet",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "text-input",
+    "tags": [
+      "text field",
+      "viewpoint"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "text-input-long",
+    "tags": [
+      "text field",
+      "viewpoint"
+    ],
+    "categories": []
+  },
+  {
+    "name": "text-input-short",
+    "tags": [
+      "text field",
+      "viewpoint"
+    ],
+    "categories": []
+  },
+  {
+    "name": "thumbs-down",
+    "tags": [
+      "feedback"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "thumbs-up",
+    "tags": [
+      "feedback"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "thunderstorm-heavy",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "thunderstorm-light",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "toggle-center",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "toggle-left-panel",
+    "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "toggle-off",
+    "tags": [
+      "switch"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "toggle-on",
+    "tags": [
+      "switch"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "traffic-cone",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "tree-structure",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "undo",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "video",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "video-add",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "video-disabled",
+    "tags": [],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "volume-down",
+    "tags": [
+      "audio",
+      "sound"
+    ],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "volume-mute",
+    "tags": [
+      "sound"
+    ],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "volume-up",
+    "tags": [
+      "audio",
+      "sound"
+    ],
+    "categories": [
+      "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "warning",
+    "tags": [
+      "alert",
+      "caution",
+      "circle"
+    ],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
+    "name": "widgets",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "wind",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "window",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "window-dock-undock",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "window-fit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "window-resize",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "window-side-panel",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "window-views",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "window-wireframe",
+    "tags": [
+      "render"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "wintery-mix",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "wrench",
+    "tags": [
+      "tools"
+    ],
+    "categories": [
+      "Programs"
+    ]
+  },
+  {
+    "name": "zoom-box",
+    "tags": [
+      "magnify",
+      "scale"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "zoom-in",
+    "tags": [
+      "magnify",
+      "scale"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "zoom-out",
+    "tags": [
+      "magnify",
+      "scale"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {{ partial "head" . }}
+</head>
+
+<body id="icons-body">
+  {{ partialCached "skippy" . }}
+  {{ partialCached "navbar" . }}
+
+  <main class="container" id="content">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb my-4 p-0">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/modus-outline/">Modus Outline</a></li>
+      </ol>
+    </nav>
+    {{ partialCached "icons-modus-outline" . }}
+
+    {{ .Content }}
+  </main>
+
+  {{- partialCached "footer" . }}
+  {{- partialCached "scripts" . }}
+  {{- partialCached "scripts-listjs" . }}
+</body>
+
+</html>

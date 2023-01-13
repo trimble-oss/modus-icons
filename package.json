@@ -64,8 +64,8 @@
     "webfonts-generator": "git+https://git@github.com/muratcorlu/webfonts-generator.git"
   },
   "engines": {
-    "node": ">=14",
-    "npm": ">=7"
+    "node": ">=16",
+    "npm": ">=8"
   },
   "files": ["dist", "!.DS_Store"],
   "hugo-bin": {

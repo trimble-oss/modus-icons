@@ -28,6 +28,8 @@ module:
       target:           assets
     - source:           docs/content
       target:           content
+    - source:           docs/content-pages
+      target:           content
     - source:           docs/data
       target:           data
     - source:           docs/layouts

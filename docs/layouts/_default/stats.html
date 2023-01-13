@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto mt-3">
+  <table class="table table-bordered border mx-auto w-75 mt-3">
+    <thead class="bg-light">
+      <tr>
+        <th scope="col" class="w-50">Icon Sets</th>
+        <th scope="col">Number of Icons</th>
+      </tr>
+    <tbody>
+      <tr>
+        <td>Modus Outline</td>
+        <td>{{ len (where .Site.RegularPages "Section" "=" "modus-outline") }}</td>
+      </tr>
+      <tr>
+        <td>Modus Solid</td>
+        <td>{{ len (where .Site.RegularPages "Section" "=" "modus-solid") }}</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold">Total:</td>
+        <td class="font-weight-bold">{{ len (where .Site.RegularPages "Section" "!=" "") }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="text-center py-2">
+  Site built with:
+  <a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener" class="text-dark">
+    Hugo v{{ hugo.Version }}</a>
+</div>
+
+<div class="text-center py-2">
+  Build date: {{ now.Format "2006-01-02 15:04:05" }}
+</div>
+
+{{ end }}

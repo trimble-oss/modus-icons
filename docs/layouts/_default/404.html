@@ -1,16 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    {{ partial "head" . }}
-  </head>
-  <body class="d-flex flex-column min-vh-100">
-    {{ partialCached "skippy" . }}
-    {{ partialCached "navbar" . }}
+{{ define "main" }}
 
-    <main class="my-auto p-5" id="content">
-      {{ .Content }}
-    </main>
+{{ .Content }}
 
-    {{- partialCached "scripts" . .IsHome }}
-  </body>
-</html>
+{{ end }}

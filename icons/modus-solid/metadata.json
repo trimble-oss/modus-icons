@@ -263,7 +263,8 @@
   {
     "name": "camera",
     "tags": [
-      "picture"
+      "picture",
+      "photo"
     ],
     "categories": [
       "Presentations & View"
@@ -498,34 +499,6 @@
     "tags": [],
     "categories": [
       "Programs"
-    ]
-  },
-  {
-    "name": "day-clear",
-    "tags": [
-      "sun",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "day-mostly-cloudy",
-    "tags": [
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "day-partly-cloudy",
-    "tags": [
-      "weather"
-    ],
-    "categories": [
-      "Weather"
     ]
   },
   {
@@ -881,16 +854,6 @@
     "name": "hail",
     "tags": [
       "circle",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "hail-heavy",
-    "tags": [
-      "cloud",
       "weather"
     ],
     "categories": [
@@ -1300,38 +1263,6 @@
     ]
   },
   {
-    "name": "night-clear",
-    "tags": [
-      "moon",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "night-mostly-cloudy",
-    "tags": [
-      "cloud",
-      "moon",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "night-partly-cloudy",
-    "tags": [
-      "cloud",
-      "moon",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
     "name": "object-outline",
     "tags": [],
     "categories": [
@@ -1726,13 +1657,6 @@
     ]
   },
   {
-    "name": "snow-heavy",
-    "tags": [],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
     "name": "snow-light",
     "tags": [],
     "categories": [
@@ -1784,7 +1708,9 @@
   },
   {
     "name": "sort-alpha-up",
-    "tags": [],
+    "tags": [
+      "reverse"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1798,7 +1724,9 @@
   },
   {
     "name": "sort-up",
-    "tags": [],
+    "tags": [
+      "reverse"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -2087,13 +2015,6 @@
     ]
   },
   {
-    "name": "views",
-    "tags": [],
-    "categories": [
-      "Presentations & View"
-    ]
-  },
-  {
     "name": "volume-down",
     "tags": [
       "audio",
@@ -2143,7 +2064,7 @@
     ]
   },
   {
-    "name": "wheel-barrow",
+    "name": "wheelbarrow",
     "tags": [
       "construction",
       "tool",
@@ -2205,7 +2126,7 @@
     ]
   },
   {
-    "name": "wireframe",
+    "name": "window-wireframe",
     "tags": [
       "render"
     ],

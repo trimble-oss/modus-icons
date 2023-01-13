@@ -1,5 +1,9 @@
 [
   {
+    "svgs": ["modus-outline", "material-outline"],
+    "dist": "modus-outline"
+  },
+  {
     "svgs": ["modus-solid", "material-solid"],
     "dist": "modus-solid"
   }

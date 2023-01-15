@@ -12,9 +12,9 @@ async function buildMetadata(config) {
         return;
       }
       let json = [];
-      if (fs.existsSync(path.join(srcDirectoryPath, 'metadata.json'))) {
+      if (fs.existsSync(path.join(srcDirectoryPath, '_metadata.json'))) {
         json = JSON.parse(
-          fs.readFileSync(path.join(srcDirectoryPath, 'metadata.json'))
+          fs.readFileSync(path.join(srcDirectoryPath, '_metadata.json'))
         );
       }
       const files = fs.readdirSync(srcDirectoryPath);
@@ -31,7 +31,7 @@ async function buildMetadata(config) {
         }
       });
       fs.writeFileSync(
-        path.join(srcDirectoryPath, 'metadata.json'),
+        path.join(srcDirectoryPath, '_metadata.json'),
         JSON.stringify(json, null, 2)
       );
     })

@@ -59,12 +59,12 @@ function buildPages(config) {
         dir.includes(setName)
       );
       const files = fs.readJSONSync(
-        path.join(srcDirectoryPath, 'metadata.json')
+        path.join(srcDirectoryPath, '_metadata.json')
       );
       if (setName.startsWith('modus')) {
         const type = setName.split('-')[1];
         const materialFiles = fs.readJSONSync(
-          path.join(srcDirectoryPath, '..', `material-${type}`, 'metadata.json')
+          path.join(srcDirectoryPath, '..', `material-${type}`, '_metadata.json')
         );
         files.push(...materialFiles);
       }

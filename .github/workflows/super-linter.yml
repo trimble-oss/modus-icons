@@ -1,10 +1,7 @@
 name: Super Linter
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -21,8 +18,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
-        with:
-          persist-credentials: false
 
       - name: Lint Code Base
         uses: github/super-linter/slim@v4
@@ -31,11 +26,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           IGNORE_GITIGNORED_FILES: true
           JAVASCRIPT_DEFAULT_STYLE: prettier
-          LINTER_RULES_PATH: /
           LOG_LEVEL: NOTICE
           SUPPRESS_POSSUM: true
-          VALIDATE_ALL_CODEBASE: false
           VALIDATE_EDITORCONFIG: false
+          VALIDATE_HTML: false
           VALIDATE_JSCPD: false
           VALIDATE_MARKDOWN: false
           VALIDATE_NATURAL_LANGUAGE: false

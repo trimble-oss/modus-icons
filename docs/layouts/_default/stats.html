@@ -19,6 +19,10 @@
         <td>{{ len (where .Site.RegularPages "Section" "=" "modus-solid") }}</td>
       </tr>
       <tr>
+        <td>Transportation</td>
+        <td>{{ len (where .Site.RegularPages "Section" "=" "transportation") }}</td>
+      </tr>
+      <tr>
         <td class="font-weight-bold">Total:</td>
         <td class="font-weight-bold">{{ len (where .Site.RegularPages "Section" "!=" "") }}</td>
       </tr>

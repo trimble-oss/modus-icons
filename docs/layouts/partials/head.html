@@ -26,5 +26,7 @@
 <link rel="icon" type="image/svg+xml" href="/modus-outline/svg/{{- .Title | lower | urlize -}}.svg">
 {{ else if in (.RelPermalink) "modus-solid" }}
 <link rel="icon" type="image/svg+xml" href="/modus-solid/svg/{{- .Title | lower | urlize -}}.svg">
+{{ else if in (.RelPermalink) "transportation" }}
+<link rel="icon" type="image/svg+xml" href="/transportation/svg/{{- .Title | lower | urlize -}}.svg">
 {{ end }}
 {{ end }}

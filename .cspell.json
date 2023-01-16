@@ -24,6 +24,11 @@
     "Xhref",
     "xlink"
   ],
+  "flagWords": [
+    "blacklist",
+    "teh",
+    "whitelist"
+  ],
   "ignorePaths": [
     ".cspell.json",
     "**/node_modules/**",
@@ -31,6 +36,7 @@
     "{coverage,.cache,.git,.vscode,.DS_Store,tests}/**/*"
   ],
   "language": "en,en-US",
+  "languageId": "svg",
   "allowCompoundWords": true,
   "useGitignore": true
 }

@@ -1,15 +1,15 @@
-var target = document.querySelector("footer");
+let target = document.querySelector('footer');
 
-var scrollToTopBtn = document.querySelector(".btn-to-top");
-var rootElement = document.documentElement;
+let scrollToTopBtn = document.querySelector('.btn-to-top');
+let rootElement = document.documentElement;
 
 function callback(entries, observer) {
   entries.forEach((entry) => {
     window.onscroll = function (e) {
       if (entry.isIntersecting) {
-        scrollToTopBtn.classList.add("show-btn");
+        scrollToTopBtn.classList.add('show-btn');
       } else {
-        scrollToTopBtn.classList.remove("show-btn");
+        scrollToTopBtn.classList.remove('show-btn');
       }
     };
   });
@@ -18,10 +18,10 @@ function callback(entries, observer) {
 function scrollToTop() {
   rootElement.scrollTo({
     top: 0,
-    behavior: "smooth"
+    behavior: 'smooth',
   });
 }
-scrollToTopBtn.addEventListener("click", scrollToTop);
+scrollToTopBtn.addEventListener('click', scrollToTop);
 
 let observer = new IntersectionObserver(callback);
 observer.observe(target);

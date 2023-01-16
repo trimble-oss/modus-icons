@@ -1,0 +1,38 @@
+name: Publish package to npmjs
+
+on:
+  release:
+    types:
+      - published
+
+env:
+  FORCE_COLOR: 2
+  NODE: 16
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.repository == 'trimblemaps/modus-icons'
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "${{ env.NODE }}"
+          registry-url: "https://registry.npmjs.org"
+
+      - run: npm ci
+
+      - name: Build the icons
+        run: npm run build
+
+      - name: Build the site
+        run: npm run docs:build
+
+      - name: Run tests
+        run: npm test
+
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

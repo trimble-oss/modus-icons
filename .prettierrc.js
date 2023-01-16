@@ -12,6 +12,7 @@ module.exports = {
       files: '*.js',
       options: {
         parser: 'babel',
+        singleQuote: true,
       },
     },
     {

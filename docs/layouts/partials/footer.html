@@ -7,7 +7,21 @@
         href="{{ .Site.Params.repo }}/releases/tag/v{{ .Site.Params.version }}">v{{ .Site.Params.version }}</a>. Icons
       and documentation licensed <a href="{{ .Site.Params.repo }}/blob/main/LICENSE.md" target="_blank"
         rel="license">MIT</a>.</p>
+  <div class="row p-3">
+    <div class="col-12 border-top border-light opacity-50">
+    </div>
   </div>
+  <div class="row pt-2">
+    <div class="col-12 col-sm-6 small">
+      Copyright &copy; {{ now.Format "2006" }}, Trimble Inc.
+    </div>
+    <div class="col-12 col-sm-6 text-sm-right small">
+      <a href="https://www.trimble.com/en/our-commitment/responsible-business/data-privacy-and-security/data-privacy-center"
+        target="_blank">Privacy Center</a> -
+      <a href="https://www.trimble.com/en/legal/terms-and-conditions/terms-of-use" target="_blank">Terms of Use</a>
+    </div>
+  </div>
+</div>
 </footer>
 
 <!-- Load SVG Sprites on IE 11 -->

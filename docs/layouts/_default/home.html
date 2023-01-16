@@ -19,10 +19,13 @@
           <div class="card-header border-0 text-center">
             {{ partialCached "home-icons-card-outline" . }}
           </div>
-          <div class="card-body mt-0 pt-0">
+          <div class="card-body my-0 py-0">
             <a href="/modus-outline/" class="text-decoration-none stretched-link h2">
               Modus Outline
             </a>
+          </div>
+          <div class="card-footer mt-0 pt-0 small text-muted border-0">
+            {{ len (where .Site.RegularPages "Section" "=" "modus-outline") }} icons
           </div>
         </div>
       </div>
@@ -31,11 +34,14 @@
           <div class="card-header border-0 text-center">
             {{ partialCached "home-icons-card-solid" . }}
           </div>
-          <div class="card-body mt-0 pt-0">
+          <div class="card-body my-0 py-0">
             <a href="/modus-solid/" class="text-decoration-none stretched-link h2">
               Modus Solid
             </a>
           </div>
+          <div class="card-footer mt-0 pt-0 small text-muted border-0">
+            {{ len (where .Site.RegularPages "Section" "=" "modus-solid") }} icons
+         </div>
         </div>
       </div>
 
@@ -44,11 +50,14 @@
           <div class="card-header border-0 text-center">
             {{ partialCached "home-icons-card-transportation" . }}
           </div>
-          <div class="card-body mt-0 pt-0">
+          <div class="card-body my-0 py-0">
             <a href="/transportation/" class="text-decoration-none stretched-link h2">
               Transportation
             </a>
           </div>
+          <div class="card-footer mt-0 pt-0 small text-muted border-0">
+            {{ len (where .Site.RegularPages "Section" "=" "transportation") }} icons
+         </div>
         </div>
       </div>
     </div>

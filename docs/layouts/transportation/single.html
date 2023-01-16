@@ -1,4 +1,6 @@
 {{ define "main" }}
+<link rel="stylesheet" href="/transportation/fonts/modus-icons.css">
+
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb my-4 p-0">
     <li class="breadcrumb-item"><a href="/">Home</a></li>
@@ -17,9 +19,6 @@
       {{ with .Params.categories }}<li><strong>Category:</strong> {{ delimit . ", " }}</li>{{ end }}
     </ul>
     {{- end }}
-  </div>
-  <div class="col-md-6 col-lg-5">
-
   </div>
 </div>
 

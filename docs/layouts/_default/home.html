@@ -15,47 +15,48 @@
     <div class="row">
 
       <div class="col-12 col-md-4">
-        <div class="card card-home border mb-3 mx-auto" style="width:330px">
-          <div class="card-header border-0 text-center">
+        <div class="card card-home border mb-3 mx-auto">
+          <div class="card-header bg-light border-0 text-center">
             {{ partialCached "home-icons-card-outline" . }}
           </div>
-          <div class="card-body my-0 py-0">
+          <div class="card-body bg-light my-0 py-0">
             <a href="/modus-outline/" class="text-decoration-none stretched-link h2">
               Modus Outline
             </a>
           </div>
-          <div class="card-footer mt-0 pt-0 small text-muted border-0">
+          <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
             {{ len (where .Site.RegularPages "Section" "=" "modus-outline") }} icons
           </div>
         </div>
       </div>
+
       <div class="col-12 col-md-4">
-        <div class="card card-home border mb-3" style="width:330px">
-          <div class="card-header border-0 text-center">
+        <div class="card card-home border mb-3">
+          <div class="card-header bg-light border-0 text-center">
             {{ partialCached "home-icons-card-solid" . }}
           </div>
-          <div class="card-body my-0 py-0">
+          <div class="card-body bg-light my-0 py-0">
             <a href="/modus-solid/" class="text-decoration-none stretched-link h2">
               Modus Solid
             </a>
           </div>
-          <div class="card-footer mt-0 pt-0 small text-muted border-0">
+          <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
             {{ len (where .Site.RegularPages "Section" "=" "modus-solid") }} icons
          </div>
         </div>
       </div>
 
        <div class="col-12 col-md-4">
-        <div class="card border">
-          <div class="card-header border-0 text-center">
+        <div class="card card-home border mb-3">
+          <div class="card-header bg-light border-0 text-center">
             {{ partialCached "home-icons-card-transportation" . }}
           </div>
-          <div class="card-body my-0 py-0">
+          <div class="card-body bg-light my-0 py-0">
             <a href="/transportation/" class="text-decoration-none stretched-link h2">
               Transportation
             </a>
           </div>
-          <div class="card-footer mt-0 pt-0 small text-muted border-0">
+          <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
             {{ len (where .Site.RegularPages "Section" "=" "transportation") }} icons
          </div>
         </div>

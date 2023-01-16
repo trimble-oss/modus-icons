@@ -1,0 +1,42 @@
+name: Super Linter
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    permissions:
+      contents: read
+      statuses: write
+    name: Lint Code Base
+    runs-on: ubuntu-latest
+    if: ${{ github.actor != 'dependabot[bot]' }}
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Lint Code Base
+        uses: github/super-linter/slim@v4
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IGNORE_GITIGNORED_FILES: true
+          JAVASCRIPT_DEFAULT_STYLE: prettier
+          LINTER_RULES_PATH: /
+          LOG_LEVEL: NOTICE
+          SUPPRESS_POSSUM: true
+          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_EDITORCONFIG: false
+          VALIDATE_JSCPD: false
+          VALIDATE_MARKDOWN: false
+          VALIDATE_NATURAL_LANGUAGE: false
+          VALIDATE_XML: false

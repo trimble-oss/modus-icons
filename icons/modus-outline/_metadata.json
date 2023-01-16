@@ -4,7 +4,8 @@
     "tags": [
       "add",
       "new",
-      "create"
+      "create",
+      "plus"
     ],
     "categories": [
       "Actions & Navigation"
@@ -13,7 +14,9 @@
   {
     "name": "alert",
     "tags": [
-      "triangle"
+      "exclaimation",
+      "triangle",
+      "warning"
     ],
     "categories": [
       "Alerts & Messages"
@@ -93,13 +96,20 @@
     "name": "bar-graph",
     "tags": [
       "chart",
-      "analytics"
+      "analytics",
+      "data"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "bar-graph-line",
-    "tags": [],
+    "tags": [
+      "chart",
+      "analytics",
+      "data"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -119,7 +129,8 @@
     "name": "bolt",
     "tags": [
       "energy",
-      "lightning"
+      "lightning",
+      "thunder"
     ],
     "categories": [
       "Weather"
@@ -129,7 +140,8 @@
     "name": "brightness",
     "tags": [
       "dark",
-      "light"
+      "light",
+      "sun"
     ],
     "categories": [
       "Presentations & View"
@@ -138,6 +150,7 @@
   {
     "name": "brush",
     "tags": [
+      "construction",
       "paint"
     ],
     "categories": [
@@ -250,7 +263,11 @@
   },
   {
     "name": "chat",
-    "tags": [],
+    "tags": [
+      "bubble",
+      "conversation",
+      "speech"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -321,14 +338,20 @@
   },
   {
     "name": "cloud-download",
-    "tags": [],
+    "tags": [
+      "export"
+    ],
     "categories": [
       "Save & Share"
     ]
   },
   {
     "name": "cloud-upload",
-    "tags": [],
+    "tags": [
+      "arrows",
+      "center",
+      "import"
+    ],
     "categories": [
       "Save & Share"
     ]
@@ -353,7 +376,9 @@
   {
     "name": "comment",
     "tags": [
-      "message"
+      "bubble",
+      "message",
+      "speech"
     ],
     "categories": [
       "Actions & Navigation"
@@ -365,7 +390,11 @@
       "direction",
       "location",
       "map",
-      "navigation"
+      "navigation",
+      "north",
+      "south",
+      "east",
+      "west"
     ],
     "categories": [
       "Actions & Navigation"
@@ -389,8 +418,8 @@
   },
   {
     "name": "copy-content",
-    "tags": [],
-    "categories": []
+    "tags": ["duplicate"],
+    "categories": ["Actions & Navigation"]
   },
   {
     "name": "cursor",
@@ -402,14 +431,20 @@
   {
     "name": "cursor-add",
     "tags": [
-      "pointer"
+      "arrow",
+      "plus",
+      "pointer",
+      "select"
     ],
     "categories": []
   },
   {
     "name": "cursor-remove",
     "tags": [
-      "pointer"
+      "arrow",
+      "minus",
+      "pointer",
+      "select"
     ],
     "categories": []
   },
@@ -423,6 +458,7 @@
   {
     "name": "delete",
     "tags": [
+      "bin",
       "trash"
     ],
     "categories": [
@@ -488,7 +524,8 @@
     "tags": [
       "audio",
       "video",
-      "av"
+      "av",
+      "arrowtip"
     ],
     "categories": [
       "Actions & Navigation"
@@ -499,7 +536,8 @@
     "tags": [
       "audio",
       "video",
-      "av"
+      "av",
+      "arrowtip"
     ],
     "categories": [
       "Actions & Navigation"
@@ -508,7 +546,8 @@
   {
     "name": "file",
     "tags": [
-      "document"
+      "document",
+      "sheet"
     ],
     "categories": [
       "Folders & Files"
@@ -518,104 +557,135 @@
     "name": "file-copy",
     "tags": [
       "documents",
-      "duplicate"
+      "duplicate",
+      "sheet"
     ],
-    "categories": []
+    "categories": [
+      "Folders & Files"
+    ]
   },
   {
     "name": "file-edit",
-    "tags": [],
+    "tags": [
+      "sheet"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "file-merge",
-    "tags": [],
+    "tags": [
+      "sheet"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "file-missing",
-    "tags": [],
+    "tags": [
+      "sheet"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "file-new",
-    "tags": [],
+    "tags": [
+      "sheet"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "file-type-doc",
-    "tags": [],
+    "tags": [
+      "sheet"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "file-type-log",
-    "tags": [],
+    "tags": [
+      "sheet"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "file-type-pdf",
-    "tags": [],
+    "tags": [
+      "sheet"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "file-type-rfi",
-    "tags": [],
+    "tags": [
+      "sheet"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "file-type-rfq",
-    "tags": [],
+    "tags": [
+      "sheet"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "file-type-tmp",
-    "tags": [],
+    "tags": [
+      "sheet"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "file-type-xls",
-    "tags": [],
+    "tags": [
+      "sheet"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "filter",
-    "tags": [],
+    "tags": [
+      "funnel"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
   },
   {
     "name": "filter-list",
-    "tags": [],
+    "tags": [
+      "funnel"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
   },
   {
     "name": "filter-off",
-    "tags": [],
+    "tags": [
+      "funnel"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -633,7 +703,7 @@
   {
     "name": "flowchart",
     "tags": [
-      "viewpoint"
+      "diagram"
     ],
     "categories": [
       "Presentations & View"
@@ -649,6 +719,7 @@
   {
     "name": "folder-locked",
     "tags": [
+      "lock",
       "viewpoint"
     ],
     "categories": [
@@ -657,7 +728,9 @@
   },
   {
     "name": "folder-new",
-    "tags": [],
+    "tags": [
+      "plus"
+    ],
     "categories": [
       "Folders & Files"
     ]
@@ -672,7 +745,9 @@
   {
     "name": "folder-personal",
     "tags": [
+      "person",
       "starred",
+      "user",
       "viewpoint"
     ],
     "categories": [
@@ -681,7 +756,10 @@
   },
   {
     "name": "folder-project",
-    "tags": [],
+    "tags": [
+      "3d",
+      "cube"
+    ],
     "categories": [
       "Folders & Files"
     ]
@@ -808,7 +886,9 @@
     "tags": [
       "weather"
     ],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "image-scene",
@@ -941,6 +1021,7 @@
   {
     "name": "manage-accounts",
     "tags": [
+      "cog",
       "user",
       "settings"
     ],
@@ -984,7 +1065,9 @@
   },
   {
     "name": "map-poi",
-    "tags": [],
+    "tags": [
+      "marker"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1022,14 +1105,21 @@
   },
   {
     "name": "mix",
-    "tags": [],
+    "tags": [
+      "star",
+      "weather"
+    ],
     "categories": [
       "Weather"
     ]
   },
   {
     "name": "moon",
-    "tags": [],
+    "tags": [
+      "dark mode",
+      "night",
+      "weather"
+    ],
     "categories": [
       "Weather"
     ]
@@ -1065,7 +1155,9 @@
   },
   {
     "name": "object-outline",
-    "tags": [],
+    "tags": [
+      "geometric"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -1112,6 +1204,7 @@
     "tags": [
       "edit",
       "ballpoint",
+      "note",
       "write"
     ],
     "categories": [
@@ -1136,14 +1229,21 @@
   },
   {
     "name": "pin",
-    "tags": [],
+    "tags": [
+      "attach",
+      "dock",
+      "fix"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "planning",
-    "tags": [],
+    "tags": [
+      "clipboard",
+      "list"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -1324,6 +1424,7 @@
   {
     "name": "search",
     "tags": [
+      "magnifier",
       "magnifying glass"
     ],
     "categories": [
@@ -1366,6 +1467,7 @@
   {
     "name": "shovel",
     "tags": [
+      "construction",
       "dig"
     ],
     "categories": [
@@ -1434,7 +1536,9 @@
   },
   {
     "name": "sort-alpha-down",
-    "tags": [],
+    "tags": [
+      "ascending"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1442,6 +1546,7 @@
   {
     "name": "sort-alpha-up",
     "tags": [
+      "descending",
       "reverse"
     ],
     "categories": [
@@ -1450,7 +1555,9 @@
   },
   {
     "name": "sort-down",
-    "tags": [],
+    "tags": [
+      "descending"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1458,6 +1565,7 @@
   {
     "name": "sort-up",
     "tags": [
+      "ascending",
       "reverse"
     ],
     "categories": [
@@ -1487,7 +1595,9 @@
   },
   {
     "name": "star-locked",
-    "tags": [],
+    "tags": [
+      "lock"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1558,7 +1668,9 @@
       "text field",
       "viewpoint"
     ],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "text-input-short",
@@ -1566,7 +1678,9 @@
       "text field",
       "viewpoint"
     ],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "thumbs-down",
@@ -1656,12 +1770,17 @@
   },
   {
     "name": "undo",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "upload",
     "tags": [
+      "arrow",
       "import",
       "publish",
       "share",
@@ -1673,28 +1792,37 @@
   },
   {
     "name": "upload-xls",
-    "tags": [],
+    "tags": [
+      "arrow"
+    ],
     "categories": [
       "Save & Share"
     ]
   },
   {
     "name": "video",
-    "tags": [],
+    "tags": [
+      "cam"
+    ],
     "categories": [
       "Computer Hardware & Assets"
     ]
   },
   {
     "name": "video-add",
-    "tags": [],
+    "tags": [
+      "cam",
+      "plus"
+    ],
     "categories": [
       "Computer Hardware & Assets"
     ]
   },
   {
     "name": "video-disabled",
-    "tags": [],
+    "tags": [
+      "cam"
+    ],
     "categories": [
       "Computer Hardware & Assets"
     ]
@@ -1703,6 +1831,7 @@
     "name": "volume-down",
     "tags": [
       "audio",
+      "loudspeaker",
       "sound"
     ],
     "categories": [
@@ -1712,6 +1841,8 @@
   {
     "name": "volume-mute",
     "tags": [
+      "audio",
+      "loudspeaker",
       "sound"
     ],
     "categories": [
@@ -1722,6 +1853,7 @@
     "name": "volume-up",
     "tags": [
       "audio",
+      "loudspeaker",
       "sound"
     ],
     "categories": [
@@ -1733,7 +1865,8 @@
     "tags": [
       "alert",
       "caution",
-      "circle"
+      "circle",
+      "exclaimation"
     ],
     "categories": [
       "Alerts & Messages"
@@ -1805,7 +1938,9 @@
   {
     "name": "wintery-mix",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Weather"
+    ]
   },
   {
     "name": "wrench",
@@ -1819,6 +1954,7 @@
   {
     "name": "zoom-box",
     "tags": [
+      "magnifier",
       "magnify",
       "scale"
     ],
@@ -1829,7 +1965,9 @@
   {
     "name": "zoom-in",
     "tags": [
+      "magnifier",
       "magnify",
+      "plus",
       "scale"
     ],
     "categories": [
@@ -1839,7 +1977,9 @@
   {
     "name": "zoom-out",
     "tags": [
+      "magnifier",
       "magnify",
+      "minus",
       "scale"
     ],
     "categories": [

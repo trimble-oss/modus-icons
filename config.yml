@@ -1,10 +1,10 @@
 languageCode:           "en"
 title:                  "Modus Icons"
-baseURL:                "https://modus-icons-test.netlify.app"
+baseURL:                "https://gentle-forest-0a6d5f110.2.azurestaticapps.net/"
 enableInlineShortcodes: true
 enableRobotsTXT:        true
 metaDataFormat:         "yaml"
-disableKinds:           ["404", "taxonomy", "term", "RSS"]
+disableKinds:           ["taxonomy", "term", "RSS"]
 
 publishDir:             "_site"
 

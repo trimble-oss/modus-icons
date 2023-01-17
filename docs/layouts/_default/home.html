@@ -5,12 +5,12 @@
   {{ partial "head" . }}
 </head>
 
-<body id="icons-body">
+<body>
   {{ partialCached "skippy" . }}
   {{ partialCached "navbar" . }}
-  {{ partialCached "home/hero" . }}
+<main class="container">
 
-  <main class="container" id="content">
+    {{ partialCached "home/hero" . }}
 
     <div class="row">
 

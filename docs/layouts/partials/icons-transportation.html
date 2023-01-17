@@ -1,6 +1,8 @@
 <div class="my-5">
   <div class="d-flex mb-4">
-    <h2 id="icons" class="mt-2 display-3">{{ .Title | markdownify }}</h2>
+    <h2 id="icons" class="mt-2 display-3">
+      {{- .Title | markdownify -}}
+    </h2>
     {{ if in (.RelPermalink) "tags" }}{{else}}
     <form class="subnav-search d-flex flex-nowrap ml-auto">
       <label for="search" class="sr-only">Search for icons</label>

@@ -8,9 +8,9 @@
 <body id="icons-body">
   {{ partialCached "skippy" . }}
   {{ partialCached "navbar" . }}
-  {{ block "hero" . }}{{ end }}
 
   <main class="container" id="content">
+    {{ block "hero" . }}{{ end }}
     {{ block "main" . }}{{ end }}
   </main>
 

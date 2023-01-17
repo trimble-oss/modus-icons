@@ -1902,7 +1902,9 @@
   {
     "name": "window-dock-undock",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "window-fit",
@@ -1918,17 +1920,25 @@
   {
     "name": "window-resize",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "window-side-panel",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "window-views",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "Presentations & View"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "window-wireframe",

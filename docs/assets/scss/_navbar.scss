@@ -33,5 +33,26 @@ header.navbar {
 }
 
 .navbar-brand {
-  color: #f1f1f1 !important;
+  font-size: 15px !important;
+}
+
+.navbar-main,
+.navbar-brand,
+.navbar-main a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.nav-icons {
+  border-bottom: 2px solid #fff !important;
+}
+
+.dropdown-item {
+  min-width: 290px;
+  max-width: 320px;
+  white-space: inherit !important;
+}
+
+.dropdown-item small {
+  font-size: 14px !important;
 }

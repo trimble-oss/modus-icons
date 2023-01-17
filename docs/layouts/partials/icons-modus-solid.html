@@ -1,15 +1,19 @@
 <div class="my-5">
-  <div class="d-flex mb-4">
+  <div class="row mb-4">
+    <div class="col-12 col-sm-6 col-md-7 col-lg-8">
     <h2 id="icons" class="mt-2 display-3">
-      {{- .Title | markdownify -}}
+        {{- .Title -}}
     </h2>
+    </div>
+    <div class="col-12 col-sm-6 col-md-5 col-lg-4">
     {{ if in (.RelPermalink) "tags" }}{{else}}
-    <form class="subnav-search d-flex flex-nowrap ml-auto">
+      <form class="subnav-search ml-auto w-100">
       <label for="search" class="sr-only">Search for icons</label>
-      <input class="form-control form-control-lg search mb-0" type="search" id="search"
+        <input class="form-control form-control-lg search mb-0 w-100" type="search" id="search"
         placeholder="Start typing to filter..." autocomplete="off" required title="">
     </form>
     {{ end }}
+  </div>
   </div>
   <ul class="row row-cols-2 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
     {{ range (where .Site.RegularPages "Section" "modus-solid") -}}
@@ -18,7 +22,7 @@
     {{- with .Site.GetPage .File.Path }}
     {{ if not (in .Params.tags "deprecated") }}
     <li class="col mb-4" {{ with .Params.tags }} data-tags="{{ delimit . " " }}" {{ end }}{{ with .Params.categories }}
-      data-categories="{{ delimit . " " | lower }}" {{ end }}>
+      data-categories="{{ delimit . " " | lower }}" {{- end -}}>
       <a class="d-block text-dark text-decoration-none" href="{{ .RelPermalink }}">
         <div class="p-3 py-4 mb-2 bg-light text-center rounded">
           <svg class="mi" width="1em" height="1em" fill="currentColor">

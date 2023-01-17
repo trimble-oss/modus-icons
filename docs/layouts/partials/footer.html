@@ -1,12 +1,37 @@
-<footer class="bd-footer p-3 p-md-5 mt-5 bg-light text-center text-sm-left">
+<footer class="footer p-3 p-md-5 mt-5 bg-light text-center text-sm-left">
   <div class="container">
-    <ul class="bd-footer-links">
-      <li><a href="{{ .Site.Params.repo }}">GitHub</a></li>
-    </ul>
-    <p>Currently <a
-        href="{{ .Site.Params.repo }}/releases/tag/v{{ .Site.Params.version }}">v{{ .Site.Params.version }}</a>. Icons
-      and documentation licensed <a href="{{ .Site.Params.repo }}/blob/main/LICENSE.md" target="_blank"
-        rel="license">MIT</a>.</p>
+    <div class="row pt-2">
+      <div class="col-12 mb-3 mt-1">
+        {{- partial "logos/trimble.svg" (dict "class" "img-fluid d-none d-sm-inline-block mb-2 mr-1" "width" "107" "height" "25") -}}
+      </div>
+    </div>
+
+    <div class="row py-2">
+      <div class="col-11 col-md-5 col-lg-4">
+        <p>Trimble is transforming the way the world works by delivering products and services that connect the physical
+          and digital worlds.</p>
+      </div>
+      <div class="col-12 col-sm-1 col-lg-4">
+
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <p class="h5">About</p>
+        <ul class="list-unstyled">
+          <li class="my-3 my-sm-2">
+            <a href="/" class="py-2">Introduction</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <p class="h5">Help</p>
+        <ul class="list-unstyled">
+          <li class="my-3 my-sm-2">
+            <a href="https://github.com/trimble-oss/modus-icons/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc"
+              target="_blank" rel="noopener" class="py-2">Contribute</a>
+          </li>
+        </ul>
+      </div>
+      </div>
   <div class="row p-3">
     <div class="col-12 border-top border-light opacity-50">
     </div>
@@ -17,8 +42,8 @@
     </div>
     <div class="col-12 col-sm-6 text-sm-right small">
       <a href="https://www.trimble.com/en/our-commitment/responsible-business/data-privacy-and-security/data-privacy-center"
-        target="_blank">Privacy Center</a> -
-      <a href="https://www.trimble.com/en/legal/terms-and-conditions/terms-of-use" target="_blank">Terms of Use</a>
+        target="_blank" rel="noopener">Privacy Center</a> -
+      <a href="https://www.trimble.com/en/legal/terms-and-conditions/terms-of-use" target="_blank" rel="noopener">Terms of Use</a>
     </div>
   </div>
 </div>

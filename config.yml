@@ -48,6 +48,8 @@ module:
       target:           static/transportation-icons.svg
     - source:           dist/modus-solid/fonts/
       target:           static/fonts/
+    - source:           node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+      target:           assets/js/vendor/bootstrap.bundle.min.js
     - source:           node_modules/clipboard/dist/clipboard.min.js
       target:           assets/js/vendor/clipboard.min.js
     - source:           node_modules/list.js/dist/list.min.js
@@ -62,6 +64,50 @@ params:
   main:                 "https://modus.trimble.com"
   github_org:           "https://github.com/trimble-oss"
   repo:                 "https://github.com/trimble-oss/modus-icons"
+
+menu:
+  main:
+    - name: Start
+      url: "https://modus.trimble.com/start/"
+      weight: 1
+    - name: Foundations
+      url: "https://modus.trimble.com/foundations/"
+      weight: 2
+    - name: Components
+      id: Components
+      url: "https://modus.trimble.com/components/web/"
+      weight: 3
+    - name: Web
+      parent: Components
+      url: "https://modus.trimble.com/components/web/"
+      pre: "<img src='/modus-solid/svg/web.svg' width=28 height=28 class='icon mr-1' alt>"
+      post: "Modus component library for web-based apps and workflows."
+      weight: 1
+    - name: In-Field
+      parent: Components
+      url: "/components/in-field/"
+      pre: "<img src='/transportation/svg/truck.svg' width=28 height=28 class='icon mr-1' alt>"
+      post: "The in-field, high-contrast library is specific to applications used outdoors on handheld or in-cab devices."
+      weight: 2
+#   - name: Mobile
+#     parent: Components
+#     url: "/components/mobile/"
+#     pre: "<img src='/img/icons/mobile.svg' width=28 height=28 class='icon' alt>"
+#     post: ""
+#     weight: 3
+#   - name: XR
+#     parent: Components
+#     url: "/components/xr/"
+#     pre: "<img src='/img/icons/xr.svg' width=28 height=28 class='icon' alt>"
+#     post: ""
+#     weight: 4
+    - Name: Icons
+      url: "/"
+      post: "High-contrast library specific<br>to applications used outdoors."
+      weight: 4
+    - Name: Community
+      url: "https://modus.trimble.com/community/"
+      weight: 5
 
 # https://gohugo.io/getting-started/configuration/#configure-minify
 minify:

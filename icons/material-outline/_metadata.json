@@ -1,7 +1,37 @@
 [
   {
     "name": "check-circle",
-    "categories": [],
+    "categories": [
+      "success"
+    ],
     "tags": []
+  },
+  {
+    "name": "compare-arrows",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "crop",
+    "tags": [
+      "resize"
+    ],
+    "categories": []
+  },
+  {
+    "name": "expand-less",
+    "tags": [
+      "accordion",
+      "arrow"
+    ],
+    "categories": []
+  },
+  {
+    "name": "expand-more",
+    "tags": [
+      "accordion",
+      "arrow"
+    ],
+    "categories": []
   }
 ]

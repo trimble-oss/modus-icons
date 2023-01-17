@@ -11,7 +11,7 @@
   {{ range .Data.Pages -}}
   <a class="category-grid-item d-block text-decoration-none link-dark hover-link-primary" href="{{ .Permalink }}">
     <div
-      class="d-flex flex-wrap justify-content-center p-3 mb-3 text-dark border rounded-3 fs-2 hover-border-primary hover-shadow-primary"
+      class="d-flex flex-wrap justify-content-center p-3 mb-3 text-dark border rounded fs-2 hover-border-primary hover-shadow-primary"
       style="min-height: 140px">
       {{ range first 10 (where .Data.Pages ".Params.categories" "intersect" (slice .Title)) -}}
       {{- $name := .Title | urlize -}}

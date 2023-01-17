@@ -24,12 +24,35 @@
   display: block;
   padding: .5em .75em .625em;
   line-height: 1 !important;
-  color: #333;
   opacity: 0.9;
   background-color: #e0e1e9;
 
   &:hover {
-    color: #000;
     opacity: 1;
+  }
+}
+
+.ico-clipboard {
+  background-image: url("/modus-solid/svg/clipboard.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 18px;
+  width: 18px;
+}
+
+.ico-check {
+  background-image: url("/modus-solid/svg/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 18px;
+  width: 18px;
+}
+
+[data-theme="dark"] {
+  .ico-check,
+  .ico-clipboard {
+    filter: invert(1);
   }
 }

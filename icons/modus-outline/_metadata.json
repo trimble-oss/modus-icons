@@ -281,7 +281,9 @@
   },
   {
     "name": "check-circle",
-    "tags": [],
+    "tags": [
+      "success"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -385,6 +387,11 @@
     ]
   },
   {
+    "name": "compare-arrows",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "compass",
     "tags": [
       "direction",
@@ -424,6 +431,13 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "crop",
+    "tags": [
+      "resize"
+    ],
+    "categories": []
   },
   {
     "name": "cursor",
@@ -514,14 +528,43 @@
     ]
   },
   {
-    "name": "edit",
-    "tags": [],
-    "categories": []
+    "name": "pencil",
+    "tags": [
+      "edit"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "expand",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "chevron"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "expand-less",
+    "tags": [
+      "arrow",
+      "chevron"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "expand-more",
+    "tags": [
+      "arrow",
+      "chevron"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "fast-forward",

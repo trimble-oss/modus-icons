@@ -14,7 +14,7 @@
   {
     "name": "alert",
     "tags": [
-      "exclaimation",
+      "exclamation",
       "triangle",
       "warning"
     ],
@@ -418,8 +418,12 @@
   },
   {
     "name": "copy-content",
-    "tags": ["duplicate"],
-    "categories": ["Actions & Navigation"]
+    "tags": [
+      "duplicate"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "cursor",
@@ -1866,7 +1870,7 @@
       "alert",
       "caution",
       "circle",
-      "exclaimation"
+      "exclamation"
     ],
     "categories": [
       "Alerts & Messages"

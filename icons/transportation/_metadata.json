@@ -50,11 +50,6 @@
     "categories": []
   },
   {
-    "name": "chat",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "checkbox_checked",
     "tags": [],
     "categories": []
@@ -100,11 +95,6 @@
     "categories": []
   },
   {
-    "name": "clipboard",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "clock",
     "tags": [],
     "categories": []
@@ -126,11 +116,6 @@
   },
   {
     "name": "crow_fly",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "dashboard",
     "tags": [],
     "categories": []
   },
@@ -175,11 +160,6 @@
     "categories": []
   },
   {
-    "name": "expand",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "export",
     "tags": [],
     "categories": []
@@ -206,11 +186,6 @@
   },
   {
     "name": "flash_on",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "frame",
     "tags": [],
     "categories": []
   },
@@ -250,16 +225,6 @@
     "categories": []
   },
   {
-    "name": "info",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "inspect",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "invert_route",
     "tags": [],
     "categories": []
@@ -285,11 +250,6 @@
     "categories": []
   },
   {
-    "name": "location",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "location_arrow",
     "tags": [],
     "categories": []
@@ -306,11 +266,6 @@
   },
   {
     "name": "manage_route_modifiers",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "map",
     "tags": [],
     "categories": []
   },
@@ -406,11 +361,6 @@
   },
   {
     "name": "poi",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "polygon",
     "tags": [],
     "categories": []
   },
@@ -681,11 +631,6 @@
   },
   {
     "name": "volumes",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "warning",
     "tags": [],
     "categories": []
   },

@@ -5,7 +5,7 @@
 (function () {
   'use strict'
 
-  var btnHtml = '<div class="bd-clipboard"><button type="button" class="btn-clipboard rounded border-0" title="Copy to clipboard"><svg width="16" height="16" fill="currentColor" viewBox="0 0 32 32"><g><path d="M25,5H19.87a3.9961,3.9961,0,0,0-7.74,0H7A1.0029,1.0029,0,0,0,6,6V29a1.0029,1.0029,0,0,0,1,1H26V6A1.0029,1.0029,0,0,0,25,5ZM24,28H8V7h2V9a1.0029,1.0029,0,0,0,1,1H21a1.0029,1.0029,0,0,0,1-1V7h2Z"/></g></svg></button></div>';
+  var btnHtml = '<div class="bd-clipboard"><button type="button" class="btn-clipboard rounded border-0" title="Copy to clipboard"><div class="ico ico-clipboard"></div></button></div>';
 
   [].slice.call(document.querySelectorAll('div.highlight'))
     .forEach(function (element) {
@@ -19,17 +19,15 @@
   })
 
   clipboard.on('success', function (event) {
-    var iconFirstChild = event.trigger.querySelector('.mi').firstChild
-    var namespace = 'http://www.w3.org/1999/xlink'
-    var originalXhref = iconFirstChild.getAttributeNS(namespace, 'href')
+    var icon = event.trigger.querySelector('.ico')
     var originalTitle = event.trigger.title
 
     event.clearSelection()
-    iconFirstChild.setAttributeNS(namespace, 'href', originalXhref.replace('clipboard', 'check2'))
-    event.trigger.title = "Copied!"
+    icon.classList.replace('ico-clipboard', 'ico-check')
+    event.trigger.title = 'Copied!'
 
     setTimeout(function () {
-      iconFirstChild.setAttributeNS(namespace, 'href', originalXhref)
+      icon.classList.replace('ico-check', 'ico-clipboard')
       event.trigger.title = originalTitle
     }, 2000)
   })

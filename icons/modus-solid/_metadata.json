@@ -1048,14 +1048,6 @@
     ]
   },
   {
-    "name": "icy-rain",
-    "tags": [
-      "cloud",
-      "weather"
-    ],
-    "categories": []
-  },
-  {
     "name": "image",
     "tags": [
       "picture"
@@ -1340,20 +1332,6 @@
     ]
   },
   {
-    "name": "mostly-cloudy-day",
-    "tags": [],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "mostly-cloudy-night",
-    "tags": [],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
     "name": "mouse",
     "tags": [],
     "categories": [
@@ -1408,20 +1386,6 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
-  },
-  {
-    "name": "partly-cloudy-day",
-    "tags": [],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
-    "name": "partly-cloudy-night",
-    "tags": [],
-    "categories": [
-      "Weather"
     ]
   },
   {

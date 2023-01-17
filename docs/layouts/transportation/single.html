@@ -36,7 +36,7 @@
 
 <div class="row gx-lg-5">
   <div class="col-lg-7 mb-4">
-    <div class="icon-demo mb-4 border rounded-3 d-flex align-items-center justify-content-center p-3 py-6"
+    <div class="icon-demo mb-4 border rounded d-flex align-items-center justify-content-center p-3 py-6"
       style="font-size: 10em" role="img" aria-label="{{ .Title }} - large preview">
       {{ $svgHtml }}
     </div>
@@ -61,15 +61,15 @@
         </a>
       </p>
       <p>
-        <button type="button" class="btn btn-primary">
+        <button type="button" class="btn btn-primary mb-2">
           {{ $svgHtml }}
           Button
         </button>
-        <button type="button" class="btn btn-secondary">
+        <button type="button" class="btn btn-secondary mb-2">
           {{ $svgHtml }}
           Button
         </button>
-        <button type="button" class="btn btn-outline-primary">
+        <button type="button" class="btn btn-outline-primary mb-2">
           {{ $svgHtml }}
           Button
         </button>
@@ -113,17 +113,12 @@
             <img src="https://modus-bootstrap.trimble.com/img/trimble-icon-rev.svg" class="d-block d-sm-none"
               height="25" width="25" alt="home">
           </a>
-          <div class="collapse navbar-collapse">
             <div class="navbar-nav ml-auto">
-              <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
+              <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 text-white" data-toggle="tooltip"
                 data-placement="bottom" title="{{- .Title -}}">
                 {{ $svgHtml }}
               </button>
             </div>
-          </div>
-          <button class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
-            {{ $svgHtml }}
-          </button>
         </nav>
       </div>
     </div>
@@ -137,7 +132,7 @@
     <p>Using the web font? Copy, paste, and go.</p>
 
     <div class="mb-4">
-      {{ $iconFontSnippet := printf `<i class="modus-icons mi-transportation notranslate">%s</i>` .File.TranslationBaseName -}}
+      {{ $iconFontSnippet := printf `<i class="modus-icons mi-transportation">%s</i>` .File.TranslationBaseName -}}
       {{- highlight $iconFontSnippet "html" "" }}
     </div>
 
@@ -150,9 +145,8 @@
 
     <h2 class="fs-3">SVG sprite</h2>
     <p>Paste the SVG right into your project's code.</p>
-
     <div>
-      {{ $svgSpriteSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
+      {{- $svgSpriteSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
   <use xlink:href="/transportation-icons.svg#%s" />
 </svg>` .File.TranslationBaseName -}}
       {{- highlight $svgSpriteSnippet "html" "" }}

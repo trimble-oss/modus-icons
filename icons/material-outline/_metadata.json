@@ -1,12 +1,5 @@
 [
   {
-    "name": "check-circle",
-    "categories": [
-      "success"
-    ],
-    "tags": []
-  },
-  {
     "name": "compare-arrows",
     "tags": [],
     "categories": []

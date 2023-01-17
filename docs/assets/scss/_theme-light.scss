@@ -1,11 +1,15 @@
-[data-theme="light"] {
-  .bd-navbar {
-    min-height: 26px;
-  }
+.bd-navbar {
+  min-height: 26px;
+}
 
+@import "../../../node_modules/@trimbleinc/modus-bootstrap/dist/modus";
+
+[data-theme="light"] {
   .bg-light {
     background-color: #f1f1f6;
   }
-
-  @import "../../../node_modules/@trimbleinc/modus-bootstrap/dist/modus";
+  .card-home,
+  .card-home div {
+    background-color: #f1f1f6 !important;
+  }
 }

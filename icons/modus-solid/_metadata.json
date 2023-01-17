@@ -24,7 +24,7 @@
   {
     "name": "alert",
     "tags": [
-      "exclaimation",
+      "exclamation",
       "triangle",
       "warning"
     ],
@@ -76,7 +76,9 @@
   },
   {
     "name": "antenna",
-    "tags": [],
+    "tags": [
+      "signal"
+    ],
     "categories": [
       "Account & Support"
     ]
@@ -2212,7 +2214,7 @@
       "alert",
       "caution",
       "circle",
-      "exclaimation"
+      "exclamation"
     ],
     "categories": [
       "Alerts & Messages"

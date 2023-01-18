@@ -26,5 +26,12 @@
       "arrow"
     ],
     "categories": []
+  },
+  {
+    "name": "folder",
+    "categories": [],
+    "tags": [
+      "directory"
+    ]
   }
 ]

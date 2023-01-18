@@ -607,6 +607,11 @@
     ]
   },
   {
+    "name": "envelope",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "expand",
     "tags": [
       "arrow",
@@ -2003,14 +2008,20 @@
   },
   {
     "name": "timer",
-    "tags": [],
+    "tags": [
+      "clock",
+      "stopwatch"
+    ],
     "categories": [
       "Account & Support"
     ]
   },
   {
-    "name": "timer-2",
-    "tags": [],
+    "name": "timer-countdown",
+    "tags": [
+      "clock",
+      "stopwatch"
+    ],
     "categories": [
       "Account & Support"
     ]
@@ -2236,12 +2247,26 @@
     ]
   },
   {
+    "name": "window-dock-undock",
+    "tags": [],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
     "name": "window-fit",
     "tags": [
       "arrows",
       "marks",
       "screen"
     ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "window-resize",
+    "tags": [],
     "categories": [
       "Presentations & View"
     ]
@@ -2277,6 +2302,13 @@
     ],
     "categories": [
       "Presentations & View"
+    ]
+  },
+  {
+    "name": "wintery-mix",
+    "tags": [],
+    "categories": [
+      "Weather"
     ]
   },
   {

@@ -12,6 +12,16 @@
     ]
   },
   {
+    "name": "address",
+    "tags": [
+      "envelope",
+      "mail"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
     "name": "alert",
     "tags": [
       "exclamation",
@@ -62,6 +72,15 @@
     "tags": [],
     "categories": [
       "Presentations & View"
+    ]
+  },
+  {
+    "name": "antenna",
+    "tags": [
+      "signal"
+    ],
+    "categories": [
+      "Account & Support"
     ]
   },
   {
@@ -206,6 +225,18 @@
     ]
   },
   {
+    "name": "calendar-check",
+    "tags": [
+      "date",
+      "time",
+      "schedule",
+      "month"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
     "name": "calendar-event",
     "tags": [
       "date",
@@ -259,6 +290,15 @@
     ],
     "categories": [
       "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "certificate",
+    "tags": [
+      "secure"
+    ],
+    "categories": [
+      "Account & Support"
     ]
   },
   {
@@ -417,6 +457,17 @@
     ]
   },
   {
+    "name": "contacts",
+    "tags": [
+      "address book",
+      "people",
+      "viewpoint"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
     "name": "contrast",
     "tags": [],
     "categories": [
@@ -430,6 +481,15 @@
     ],
     "categories": [
       "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "credit-card",
+    "tags": [
+      "payment"
+    ],
+    "categories": [
+      "Account & Support"
     ]
   },
   {
@@ -535,6 +595,21 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "email",
+    "tags": [
+      "envelope",
+      "mail"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "envelope",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "expand",
@@ -757,6 +832,13 @@
     ]
   },
   {
+    "name": "folder",
+    "tags": [
+      "viewpoint"
+    ],
+    "categories": []
+  },
+  {
     "name": "folder-closed",
     "tags": [],
     "categories": [
@@ -890,6 +972,35 @@
     ]
   },
   {
+    "name": "hammer",
+    "tags": [
+      "repair",
+      "tool"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "hard-hat",
+    "tags": [
+      "construction",
+      "viewpoint"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "headset",
+    "tags": [
+      "headphones"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
     "name": "help",
     "tags": [
       "circle"
@@ -938,6 +1049,15 @@
     ]
   },
   {
+    "name": "image",
+    "tags": [
+      "picture"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
     "name": "image-scene",
     "tags": [],
     "categories": []
@@ -959,6 +1079,16 @@
     ]
   },
   {
+    "name": "key",
+    "tags": [
+      "lock",
+      "secure"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
     "name": "keyboard",
     "tags": [],
     "categories": [
@@ -970,6 +1100,17 @@
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
+    ]
+  },
+  {
+    "name": "language",
+    "tags": [
+      "localization",
+      "translate",
+      "translation"
+    ],
+    "categories": [
+      "Account & Support"
     ]
   },
   {
@@ -1151,6 +1292,14 @@
     ]
   },
   {
+    "name": "mic",
+    "tags": [
+      "microphone",
+      "sound"
+    ],
+    "categories": []
+  },
+  {
     "name": "mix",
     "tags": [
       "star",
@@ -1232,6 +1381,16 @@
   },
   {
     "name": "pan",
+    "tags": [
+      "arrow",
+      "center"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "password",
     "tags": [],
     "categories": []
   },
@@ -1262,6 +1421,31 @@
     "name": "person",
     "tags": [
       "user"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "phone",
+    "tags": [],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "phone-call",
+    "tags": [
+      "call"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "phone-hang-up",
+    "tags": [
+      "call"
     ],
     "categories": [
       "Account & Support"
@@ -1353,6 +1537,13 @@
     ]
   },
   {
+    "name": "question",
+    "tags": [],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
     "name": "rain",
     "tags": [
       "weather"
@@ -1419,6 +1610,15 @@
     ],
     "categories": [
       "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "reply",
+    "tags": [
+      "arrow"
+    ],
+    "categories": [
+      "Account & Support"
     ]
   },
   {
@@ -1512,6 +1712,22 @@
     ]
   },
   {
+    "name": "shield",
+    "tags": [
+      "security"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "shortcut",
+    "tags": [],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
     "name": "shovel",
     "tags": [
       "construction",
@@ -1519,6 +1735,27 @@
     ],
     "categories": [
       "Presentations & View"
+    ]
+  },
+  {
+    "name": "sign-in",
+    "tags": [
+      "login",
+      "sketchup"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "sign-out",
+    "tags": [
+      "exit",
+      "logout",
+      "sketchup"
+    ],
+    "categories": [
+      "Account & Support"
     ]
   },
   {
@@ -1770,6 +2007,35 @@
     ]
   },
   {
+    "name": "timer",
+    "tags": [
+      "clock",
+      "stopwatch"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "timer-countdown",
+    "tags": [
+      "clock",
+      "stopwatch"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "timesheet",
+    "tags": [
+      "document"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
     "name": "toggle-center",
     "tags": [],
     "categories": [
@@ -1813,6 +2079,13 @@
     "tags": [],
     "categories": [
       "Presentations & View"
+    ]
+  },
+  {
+    "name": "tune",
+    "tags": [],
+    "categories": [
+      "Account & Support"
     ]
   },
   {
@@ -1875,6 +2148,16 @@
     ]
   },
   {
+    "name": "view",
+    "tags": [
+      "eye",
+      "show"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
     "name": "volume-down",
     "tags": [
       "audio",
@@ -1920,6 +2203,27 @@
     ]
   },
   {
+    "name": "web",
+    "tags": [
+      "globe",
+      "world"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "wheelbarrow",
+    "tags": [
+      "construction",
+      "tool",
+      "viewpoint"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
     "name": "widgets",
     "tags": [],
     "categories": [
@@ -1932,7 +2236,7 @@
       "weather"
     ],
     "categories": [
-      "weather"
+      "Weather"
     ]
   },
   {
@@ -1976,11 +2280,19 @@
   },
   {
     "name": "window-views",
-    "tags": [
-      "Presentations & View"
-    ],
+    "tags": [],
     "categories": [
       "Presentations & View"
+    ]
+  },
+  {
+    "name": "wintery-mix",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
     ]
   },
   {

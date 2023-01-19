@@ -832,6 +832,13 @@
     ]
   },
   {
+    "name": "fog",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
     "name": "folder",
     "tags": [
       "viewpoint"
@@ -1801,15 +1808,6 @@
     ]
   },
   {
-    "name": "snowflake-alt",
-    "tags": [
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ]
-  },
-  {
     "name": "snowflakes",
     "tags": [
       "weather"
@@ -1964,6 +1962,20 @@
     ],
     "categories": [
       "Presentations & View"
+    ]
+  },
+  {
+    "name": "thermometer-cold",
+    "tags": [],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "thermometer-hot",
+    "tags": [],
+    "categories": [
+      "Weather"
     ]
   },
   {

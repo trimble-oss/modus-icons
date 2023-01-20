@@ -68,7 +68,7 @@
     "stylelint-config-standard-scss": "^6.1.0",
     "stylelint": "^14.16.1",
     "svg-sprite": "^3.0.0-alpha1",
-    "svg2ttf": "^4.0.0",
+    "svg2ttf": "^6.0.3",
     "svgexport": "^0.4.2",
     "svgicons2svgfont": "^5.0.0",
     "svgo": "2.8.0",

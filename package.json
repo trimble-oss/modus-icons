@@ -62,7 +62,7 @@
     "prettier": "^2.8.3",
     "purgecss": "^5.0.0",
     "q": "^1.1.2",
-    "read-chunk": "^2.0.0",
+    "read-chunk": "^3.2.0",
     "rename-cli": "^7.0.2",
     "shx": "^0.3.4",
     "stylelint-config-standard-scss": "^6.1.0",

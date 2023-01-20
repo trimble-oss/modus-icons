@@ -1008,7 +1008,9 @@
     "tags": [],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-fog",
+    "ligature": "fog"
   },
   {
     "name": "folder",
@@ -2198,17 +2200,6 @@
     "ligature": "snowflake"
   },
   {
-    "name": "snowflake-alt",
-    "tags": [
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ],
-    "class": "modus-snowflake-alt",
-    "ligature": "snowflake_alt"
-  },
-  {
     "name": "snowflakes",
     "tags": [
       "weather"
@@ -2402,14 +2393,18 @@
     "tags": [],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-thermometer-cold",
+    "ligature": "thermometer_cold"
   },
   {
     "name": "thermometer-hot",
     "tags": [],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-thermometer-hot",
+    "ligature": "thermometer_hot"
   },
   {
     "name": "thumbs-down",

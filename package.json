@@ -76,7 +76,7 @@
     "ttf2woff": "^2.0.1",
     "ttf2woff2": "^5.0.0",
     "underscore": "^1.7.0",
-    "url-join": "^1.1.0"
+    "url-join": "^4.0.1"
   },
   "engines": {
     "node": ">=16",

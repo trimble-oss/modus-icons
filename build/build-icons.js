@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 const { execSync } = require('child_process');
-const webfontsGenerator = require('webfonts-generator');
+const webfontsGenerator = require('../libs/webfonts-generator');
 const process = require('process');
 const { loadConfig, optimize } = require('svgo');
 const svgexport = require('svgexport');
@@ -21,7 +21,6 @@ const handleError = (error) => {
 };
 
 async function processFile(filepath, config, outDir) {
-  // const filepath = path.join(outDir, file);
   const basename = path.basename(filepath, '.svg');
 
   const originalSvg = await fs.readFile(filepath, 'utf8');
@@ -87,16 +86,17 @@ function buildIcons(config) {
     fs.ensureDirSync(dstDirectoryPathFonts);
     webfontsGenerator(
       {
-        files: svgFilePaths,
+        files: svgFilePaths.sort(),
         dest: dstDirectoryPathFonts,
         fontName: 'modus-icons',
         fontHeight: 1000,
         normalize: true,
         ligature: true,
         ligatureName: function (name) {
-          return name;
+          const ligatureName = name.replace(/[\s-]/g, '_');
+          return ligatureName;
         },
-        types: ['svg', 'ttf', 'woff', 'woff2', 'eot'],
+        types: ['ttf', 'woff', 'woff2', 'eot'],
         html: true,
         verbose: true,
         htmlTemplate: path.join(config.fontsDirectoryPath, 'html.hbs'),

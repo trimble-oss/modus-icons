@@ -16,7 +16,10 @@
     {{ if or .Params.tags .Params.categories -}}
     <ul class="list-unstyled mb-3 mb-md-0">
       {{ with .Params.tags }}<li><strong>Tags:</strong> {{ delimit . ", " }}</li>{{ end }}
-      {{ with .Params.categories }}<li><strong>Category:</strong> {{ delimit . ", " }}</li>{{ end }}
+      {{ with .Params.categories }}<li><strong>Category:</strong>
+        <a href="/transportation/?filter={{ delimit . ", " | lower }}">{{ delimit . ", " }}</a>
+      </li>
+      {{ end }}
     </ul>
     {{- end }}
   </div>
@@ -33,6 +36,10 @@
 {{- $localSvgPath := printf "/dist/transportation/svg/%s.svg" .File.TranslationBaseName -}}
 {{- $svgPath := path.Join "/" $localSvgPath -}}
 {{- $svgHtml := readFile $localSvgPath | chomp | safeHTML -}}
+{{- $svgSpriteSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
+  <use xlink:href="/transportation-icons.svg#%s" />
+</svg>` .File.TranslationBaseName -}}
+{{- $svgSpriteHtml := $svgSpriteSnippet | safeHTML -}}
 
 <div class="row gx-lg-5">
   <div class="col-lg-7 mb-4">
@@ -62,47 +69,68 @@
       </p>
       <p>
         <button type="button" class="btn btn-primary mb-2">
-          {{ $svgHtml }}
+          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
           Button
         </button>
         <button type="button" class="btn btn-secondary mb-2">
-          {{ $svgHtml }}
+          <i class="modus-icons left-icon {{.Params.class}}"></i>
           Button
         </button>
         <button type="button" class="btn btn-outline-primary mb-2">
-          {{ $svgHtml }}
+          <span class="modus-icons left-icon">{{ $svgHtml }}</span>
+          Button
+        </button>
+        <button type="button" class="btn btn-outline-dark mb-2">
+          <span class="modus-icons left-icon">{{ $svgSpriteHtml }}</span>
           Button
         </button>
       </p>
       <div class="mb-3">
         <button type="button" class="btn btn-icon-only btn-secondary">
-          <i class="modus-icons mi-transportation notranslate">{{- .Title | urlize | lower -}}</i>
+          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
         </button>
         <button type="button" class="btn btn-danger btn-icon-only">
-          <i class="modus-icons mi-transportation notranslate">{{- .Title | urlize | lower -}}</i>
-        </button>
-        <button type="button" class="btn btn-icon-only btn-outline-secondary">
-          <i class="modus-icons mi-transportation notranslate">{{- .Title | urlize | lower -}}</i>
-          <span class="visually-hidden sr-only">Button</span>
+          <i class="modus-icons {{.Params.class}}"></i>
         </button>
         <button type="button" class="btn btn-icon-only btn-outline-dark">
-          <i class="modus-icons mi-transportation notranslate">{{- .Title | urlize | lower -}}</i>
+          <span class="modus-icons">{{ $svgHtml }}</span>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-icon-only btn-text-dark">
-          <i class="modus-icons mi-transportation notranslate">{{- .Title | urlize | lower -}}</i>
+          <span class="modus-icons">{{ $svgSpriteHtml }}</span>
           <span class="visually-hidden sr-only">Button</span>
         </button>
       </div>
       <div class="mb-3">
         <button type="button" class="btn btn-sm btn-primary">
-          <i class="modus-icons mi-transportation left-icon notranslate">{{- .Title | urlize | lower -}}</i>Button
+          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
+          Button
+        </button>
+        <button type="button" class="btn btn-sm btn-secondary">
+          <i class="modus-icons left-icon {{.Params.class}}"></i>
+          Button
+        </button>
+        <button type="button" class="btn btn-sm btn-outline-primary">
+          <span class="modus-icons left-icon">{{ $svgHtml }}</span>
+          Button
+        </button>
+        <button type="button" class="btn btn-sm btn-outline-dark">
+          <span class="modus-icons left-icon">{{ $svgSpriteHtml }}</span>
+          Button
+        </button>
+        <button type="button" class="btn btn-sm btn-icon-only btn-secondary">
+          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
+        </button>
+        <button type="button" class="btn btn-sm btn-danger btn-icon-only">
+          <i class="modus-icons {{.Params.class}}"></i>
+        </button>
+        <button type="button" class="btn btn-sm btn-icon-only btn-outline-dark">
+          <span class="modus-icons">{{ $svgHtml }}</span>
+          <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-sm btn-icon-only btn-text-dark">
-          <i class="modus-icons mi-transportation notranslate">{{- .Title | urlize | lower -}}</i>
-        </button>
-        <button type="button" class="btn btn-sm btn-icon-only btn-text-secondary">
-          <i class="modus-icons mi-transportation notranslate">{{- .Title | urlize | lower -}}</i>
+          <span class="modus-icons">{{ $svgSpriteHtml }}</span>
+          <span class="visually-hidden sr-only">Button</span>
         </button>
       </div>
       <div>
@@ -131,8 +159,13 @@
     <h2 class="fs-3">Icon font</h2>
     <p>Using the web font? Copy, paste, and go.</p>
 
+    <div class="mb-1">
+      {{ $iconFontSnippet := printf `<i class="modus-icons">%s</i>` .Params.ligature -}}
+      {{- highlight $iconFontSnippet "html" "" }}
+    </div>
+
     <div class="mb-4">
-      {{ $iconFontSnippet := printf `<i class="modus-icons mi-transportation">%s</i>` .File.TranslationBaseName -}}
+      {{ $iconFontSnippet := printf `<i class="modus-icons %s"></i>` .Params.class -}}
       {{- highlight $iconFontSnippet "html" "" }}
     </div>
 
@@ -146,9 +179,6 @@
     <h2 class="fs-3">SVG sprite</h2>
     <p>Paste the SVG right into your project's code.</p>
     <div>
-      {{- $svgSpriteSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
-  <use xlink:href="/transportation-icons.svg#%s" />
-</svg>` .File.TranslationBaseName -}}
       {{- highlight $svgSpriteSnippet "html" "" }}
     </div>
   </div>

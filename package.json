@@ -14,7 +14,10 @@
   },
   "main": "./dist/modus.css",
   "style": "./dist/modus.css",
-  "keywords": ["modus", "icons"],
+  "keywords": [
+    "modus",
+    "icons"
+  ],
   "scripts": {
     "build": "node build/build.js",
     "build:version": "node build/build-versioner",
@@ -61,13 +64,28 @@
     "svgexport": "^0.4.2",
     "svgo": "2.8.0",
     "ttf2woff2": "^5.0.0",
-    "webfonts-generator": "git+https://git@github.com/muratcorlu/webfonts-generator.git"
+    "handlebars": "^4.0.5",
+    "mkdirp": "^0.5.0",
+    "q": "^1.1.2",
+    "svg2ttf": "^4.0.0",
+    "svgicons2svgfont": "^5.0.0",
+    "ttf2eot": "^2.0.0",
+    "ttf2woff": "^2.0.1",
+    "underscore": "^1.7.0",
+    "url-join": "^1.1.0",
+    "file-type": "^3.9.0",
+    "mocha": "^3.1.2",
+    "node-sass": "^7.0.3",
+    "read-chunk": "^2.0.0"
   },
   "engines": {
     "node": ">=16",
     "npm": ">=8"
   },
-  "files": ["dist", "!.DS_Store"],
+  "files": [
+    "dist",
+    "!.DS_Store"
+  ],
   "hugo-bin": {
     "buildTags": "extended"
   }

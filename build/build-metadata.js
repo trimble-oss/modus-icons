@@ -18,6 +18,13 @@ async function buildMetadata(config) {
           fs.readFileSync(path.join(srcDirectoryPath, '_metadata.json'))
         );
       }
+      const metadataDefaults = {
+        name: (name) => name,
+        tags: [],
+        categories: [],
+        class: (name) => `modus-${name}`,
+        ligature: (name) => name.replace(/-/g, '_'),
+      };
       const files = fs.readdirSync(srcDirectoryPath);
       files.forEach((file) => {
         if (path.extname(file) !== '.svg') return;
@@ -25,9 +32,18 @@ async function buildMetadata(config) {
         const icon = json.find((i) => i.name === basename);
         if (!icon && !allConfigIcons.includes(basename)) {
           json.push({
-            name: basename,
-            tags: [],
-            categories: [],
+            name: metadataDefaults.name(basename),
+            tags: metadataDefaults.tags(basename),
+            categories: metadataDefaults.categories(basename),
+            class: metadataDefaults.class(basename),
+            ligature: metadataDefaults.ligature(basename),
+          });
+        }
+        if (icon) {
+          Object.keys(metadataDefaults).forEach((key) => {
+            if (!icon[key] && typeof metadataDefaults[key] === 'function') {
+              icon[key] = metadataDefaults[key](basename);
+            }
           });
         }
         // Remove duplicate icons

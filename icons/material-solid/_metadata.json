@@ -2,12 +2,16 @@
   {
     "name": "compare-arrows",
     "categories": [],
-    "tags": []
+    "tags": [],
+    "class": "modus-compare-arrows",
+    "ligature": "compare_arrows"
   },
   {
     "name": "crop",
     "categories": [],
-    "tags": []
+    "tags": [],
+    "class": "modus-crop",
+    "ligature": "crop"
   },
   {
     "name": "expand-less",
@@ -15,7 +19,9 @@
     "tags": [
       "chevron",
       "arrow"
-    ]
+    ],
+    "class": "modus-expand-less",
+    "ligature": "expand_less"
   },
   {
     "name": "expand-more",
@@ -23,13 +29,17 @@
     "tags": [
       "chevron",
       "arrow"
-    ]
+    ],
+    "class": "modus-expand-more",
+    "ligature": "expand_more"
   },
   {
     "name": "folder",
     "categories": [],
     "tags": [
       "directory"
-    ]
+    ],
+    "class": "modus-folder",
+    "ligature": "folder"
   }
 ]

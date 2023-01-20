@@ -9,7 +9,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-add-circle",
+    "ligature": "add_circle"
   },
   {
     "name": "address",
@@ -19,7 +21,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-address",
+    "ligature": "address"
   },
   {
     "name": "alert",
@@ -30,49 +34,63 @@
     ],
     "categories": [
       "Alerts & Messages"
-    ]
+    ],
+    "class": "modus-alert",
+    "ligature": "alert"
   },
   {
     "name": "align-bottom",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-align-bottom",
+    "ligature": "align_bottom"
   },
   {
     "name": "align-center-horiz",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-align-center-horiz",
+    "ligature": "align_center_horiz"
   },
   {
     "name": "align-center-vert",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-align-center-vert",
+    "ligature": "align_center_vert"
   },
   {
     "name": "align-left",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-align-left",
+    "ligature": "align_left"
   },
   {
     "name": "align-right",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-align-right",
+    "ligature": "align_right"
   },
   {
     "name": "align-top",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-align-top",
+    "ligature": "align_top"
   },
   {
     "name": "antenna",
@@ -81,35 +99,45 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-antenna",
+    "ligature": "antenna"
   },
   {
     "name": "arrow-down",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-arrow-down",
+    "ligature": "arrow_down"
   },
   {
     "name": "arrow-left",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-arrow-left",
+    "ligature": "arrow_left"
   },
   {
     "name": "arrow-right",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-arrow-right",
+    "ligature": "arrow_right"
   },
   {
     "name": "arrow-up",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-arrow-up",
+    "ligature": "arrow_up"
   },
   {
     "name": "bar-graph",
@@ -120,7 +148,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-bar-graph",
+    "ligature": "bar_graph"
   },
   {
     "name": "bar-graph-line",
@@ -131,7 +161,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-bar-graph-line",
+    "ligature": "bar_graph_line"
   },
   {
     "name": "barcode",
@@ -142,7 +174,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-barcode",
+    "ligature": "barcode"
   },
   {
     "name": "bolt",
@@ -153,7 +187,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-bolt",
+    "ligature": "bolt"
   },
   {
     "name": "brightness",
@@ -164,7 +200,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-brightness",
+    "ligature": "brightness"
   },
   {
     "name": "brush",
@@ -174,7 +212,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-brush",
+    "ligature": "brush"
   },
   {
     "name": "buildings",
@@ -183,7 +223,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-buildings",
+    "ligature": "buildings"
   },
   {
     "name": "calculate",
@@ -192,7 +234,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-calculate",
+    "ligature": "calculate"
   },
   {
     "name": "calculator",
@@ -201,7 +245,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-calculator",
+    "ligature": "calculator"
   },
   {
     "name": "calculator-symbols",
@@ -210,7 +256,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-calculator-symbols",
+    "ligature": "calculator_symbols"
   },
   {
     "name": "calendar",
@@ -222,7 +270,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-calendar",
+    "ligature": "calendar"
   },
   {
     "name": "calendar-check",
@@ -234,7 +284,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-calendar-check",
+    "ligature": "calendar_check"
   },
   {
     "name": "calendar-event",
@@ -246,7 +298,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-calendar-event",
+    "ligature": "calendar_event"
   },
   {
     "name": "calendar-week",
@@ -258,7 +312,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-calendar-week",
+    "ligature": "calendar_week"
   },
   {
     "name": "camera",
@@ -268,14 +324,18 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-camera",
+    "ligature": "camera"
   },
   {
     "name": "camera-disabled",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-camera-disabled",
+    "ligature": "camera_disabled"
   },
   {
     "name": "cancel-circle",
@@ -290,7 +350,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-cancel-circle",
+    "ligature": "cancel_circle"
   },
   {
     "name": "certificate",
@@ -299,7 +361,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-certificate",
+    "ligature": "certificate"
   },
   {
     "name": "chat",
@@ -310,14 +374,18 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-chat",
+    "ligature": "chat"
   },
   {
     "name": "check",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-check",
+    "ligature": "check"
   },
   {
     "name": "check-circle",
@@ -326,7 +394,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-check-circle",
+    "ligature": "check_circle"
   },
   {
     "name": "clipboard",
@@ -335,14 +405,18 @@
     ],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-clipboard",
+    "ligature": "clipboard"
   },
   {
     "name": "clipboard-actions",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-clipboard-actions",
+    "ligature": "clipboard_actions"
   },
   {
     "name": "clipboard-check",
@@ -352,7 +426,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-clipboard-check",
+    "ligature": "clipboard_check"
   },
   {
     "name": "close",
@@ -367,7 +443,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-close",
+    "ligature": "close"
   },
   {
     "name": "cloud",
@@ -376,7 +454,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-cloud",
+    "ligature": "cloud"
   },
   {
     "name": "cloud-download",
@@ -385,7 +465,9 @@
     ],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-cloud-download",
+    "ligature": "cloud_download"
   },
   {
     "name": "cloud-upload",
@@ -396,14 +478,18 @@
     ],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-cloud-upload",
+    "ligature": "cloud_upload"
   },
   {
     "name": "collapse",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-collapse",
+    "ligature": "collapse"
   },
   {
     "name": "color-picker",
@@ -413,7 +499,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-color-picker",
+    "ligature": "color_picker"
   },
   {
     "name": "comment",
@@ -424,7 +512,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-comment",
+    "ligature": "comment"
   },
   {
     "name": "compare-arrows",
@@ -445,7 +535,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-compass",
+    "ligature": "compass"
   },
   {
     "name": "component",
@@ -454,7 +546,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-component",
+    "ligature": "component"
   },
   {
     "name": "contacts",
@@ -465,14 +559,18 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-contacts",
+    "ligature": "contacts"
   },
   {
     "name": "contrast",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-contrast",
+    "ligature": "contrast"
   },
   {
     "name": "copy-content",
@@ -481,7 +579,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-copy-content",
+    "ligature": "copy_content"
   },
   {
     "name": "credit-card",
@@ -490,7 +590,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-credit-card",
+    "ligature": "credit_card"
   },
   {
     "name": "crop",
@@ -504,7 +606,9 @@
     "tags": [
       "pointer"
     ],
-    "categories": []
+    "categories": [],
+    "class": "modus-cursor",
+    "ligature": "cursor"
   },
   {
     "name": "cursor-add",
@@ -514,7 +618,9 @@
       "pointer",
       "select"
     ],
-    "categories": []
+    "categories": [],
+    "class": "modus-cursor-add",
+    "ligature": "cursor_add"
   },
   {
     "name": "cursor-remove",
@@ -524,14 +630,18 @@
       "pointer",
       "select"
     ],
-    "categories": []
+    "categories": [],
+    "class": "modus-cursor-remove",
+    "ligature": "cursor_remove"
   },
   {
     "name": "dashboard",
     "tags": [],
     "categories": [
       "Programs"
-    ]
+    ],
+    "class": "modus-dashboard",
+    "ligature": "dashboard"
   },
   {
     "name": "delete",
@@ -541,42 +651,54 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-delete",
+    "ligature": "delete"
   },
   {
     "name": "download",
     "tags": [],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-download",
+    "ligature": "download"
   },
   {
     "name": "download-line",
     "tags": [],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-download-line",
+    "ligature": "download_line"
   },
   {
     "name": "download-xls",
     "tags": [],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-download-xls",
+    "ligature": "download_xls"
   },
   {
     "name": "drag-horizontal",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-drag-horizontal",
+    "ligature": "drag_horizontal"
   },
   {
     "name": "drag-vertical",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-drag-vertical",
+    "ligature": "drag_vertical"
   },
   {
     "name": "drizzle",
@@ -585,7 +707,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-drizzle",
+    "ligature": "drizzle"
   },
   {
     "name": "pencil",
@@ -594,7 +718,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-pencil",
+    "ligature": "pencil"
   },
   {
     "name": "email",
@@ -604,12 +730,16 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-email",
+    "ligature": "email"
   },
   {
     "name": "envelope",
     "tags": [],
-    "categories": []
+    "categories": [],
+    "class": "modus-envelope",
+    "ligature": "envelope"
   },
   {
     "name": "expand",
@@ -619,7 +749,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-expand",
+    "ligature": "expand"
   },
   {
     "name": "expand-less",
@@ -651,7 +783,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-fast-forward",
+    "ligature": "fast_forward"
   },
   {
     "name": "fast-rewind",
@@ -663,7 +797,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-fast-rewind",
+    "ligature": "fast_rewind"
   },
   {
     "name": "file",
@@ -673,7 +809,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file",
+    "ligature": "file"
   },
   {
     "name": "file-copy",
@@ -684,7 +822,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-copy",
+    "ligature": "file_copy"
   },
   {
     "name": "file-edit",
@@ -693,7 +833,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-edit",
+    "ligature": "file_edit"
   },
   {
     "name": "file-merge",
@@ -702,7 +844,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-merge",
+    "ligature": "file_merge"
   },
   {
     "name": "file-missing",
@@ -711,7 +855,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-missing",
+    "ligature": "file_missing"
   },
   {
     "name": "file-new",
@@ -720,7 +866,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-new",
+    "ligature": "file_new"
   },
   {
     "name": "file-type-doc",
@@ -729,7 +877,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-type-doc",
+    "ligature": "file_type_doc"
   },
   {
     "name": "file-type-log",
@@ -738,7 +888,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-type-log",
+    "ligature": "file_type_log"
   },
   {
     "name": "file-type-pdf",
@@ -747,7 +899,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-type-pdf",
+    "ligature": "file_type_pdf"
   },
   {
     "name": "file-type-rfi",
@@ -756,7 +910,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-type-rfi",
+    "ligature": "file_type_rfi"
   },
   {
     "name": "file-type-rfq",
@@ -765,7 +921,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-type-rfq",
+    "ligature": "file_type_rfq"
   },
   {
     "name": "file-type-tmp",
@@ -774,7 +932,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-type-tmp",
+    "ligature": "file_type_tmp"
   },
   {
     "name": "file-type-xls",
@@ -783,7 +943,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-file-type-xls",
+    "ligature": "file_type_xls"
   },
   {
     "name": "filter",
@@ -792,7 +954,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-filter",
+    "ligature": "filter"
   },
   {
     "name": "filter-list",
@@ -801,7 +965,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-filter-list",
+    "ligature": "filter_list"
   },
   {
     "name": "filter-off",
@@ -810,7 +976,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-filter-off",
+    "ligature": "filter_off"
   },
   {
     "name": "floorplan",
@@ -820,7 +988,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-floorplan",
+    "ligature": "floorplan"
   },
   {
     "name": "flowchart",
@@ -829,7 +999,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-flowchart",
+    "ligature": "flowchart"
   },
   {
     "name": "fog",
@@ -850,7 +1022,9 @@
     "tags": [],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-folder-closed",
+    "ligature": "folder_closed"
   },
   {
     "name": "folder-locked",
@@ -860,7 +1034,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-folder-locked",
+    "ligature": "folder_locked"
   },
   {
     "name": "folder-new",
@@ -869,14 +1045,18 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-folder-new",
+    "ligature": "folder_new"
   },
   {
     "name": "folder-open",
     "tags": [],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-folder-open",
+    "ligature": "folder_open"
   },
   {
     "name": "folder-personal",
@@ -888,7 +1068,9 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-folder-personal",
+    "ligature": "folder_personal"
   },
   {
     "name": "folder-project",
@@ -898,35 +1080,45 @@
     ],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-folder-project",
+    "ligature": "folder_project"
   },
   {
     "name": "folder-public",
     "tags": [],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-folder-public",
+    "ligature": "folder_public"
   },
   {
     "name": "folder-share",
     "tags": [],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-folder-share",
+    "ligature": "folder_share"
   },
   {
     "name": "folder-unlocked",
     "tags": [],
     "categories": [
       "Folders & Files"
-    ]
+    ],
+    "class": "modus-folder-unlocked",
+    "ligature": "folder_unlocked"
   },
   {
     "name": "frame",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-frame",
+    "ligature": "frame"
   },
   {
     "name": "full-screen",
@@ -937,7 +1129,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-full-screen",
+    "ligature": "full_screen"
   },
   {
     "name": "group-items",
@@ -946,7 +1140,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-group-items",
+    "ligature": "group_items"
   },
   {
     "name": "hail",
@@ -956,7 +1152,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-hail",
+    "ligature": "hail"
   },
   {
     "name": "hail-heavy",
@@ -966,7 +1164,9 @@
     ],
     "categories": [
       "weather"
-    ]
+    ],
+    "class": "modus-hail-heavy",
+    "ligature": "hail_heavy"
   },
   {
     "name": "hail-light",
@@ -976,7 +1176,9 @@
     ],
     "categories": [
       "weather"
-    ]
+    ],
+    "class": "modus-hail-light",
+    "ligature": "hail_light"
   },
   {
     "name": "hammer",
@@ -986,7 +1188,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-hammer",
+    "ligature": "hammer"
   },
   {
     "name": "hard-hat",
@@ -996,7 +1200,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-hard-hat",
+    "ligature": "hard_hat"
   },
   {
     "name": "headset",
@@ -1005,7 +1211,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-headset",
+    "ligature": "headset"
   },
   {
     "name": "help",
@@ -1014,7 +1222,9 @@
     ],
     "categories": [
       "Alerts & Messages"
-    ]
+    ],
+    "class": "modus-help",
+    "ligature": "help"
   },
   {
     "name": "history",
@@ -1023,7 +1233,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-history",
+    "ligature": "history"
   },
   {
     "name": "home",
@@ -1032,7 +1244,9 @@
     ],
     "categories": [
       "Programs"
-    ]
+    ],
+    "class": "modus-home",
+    "ligature": "home"
   },
   {
     "name": "hourglass",
@@ -1044,7 +1258,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-hourglass",
+    "ligature": "hourglass"
   },
   {
     "name": "ice",
@@ -1053,7 +1269,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-ice",
+    "ligature": "ice"
   },
   {
     "name": "image",
@@ -1062,12 +1280,16 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-image",
+    "ligature": "image"
   },
   {
     "name": "image-scene",
     "tags": [],
-    "categories": []
+    "categories": [],
+    "class": "modus-image-scene",
+    "ligature": "image_scene"
   },
   {
     "name": "info",
@@ -1076,14 +1298,18 @@
     ],
     "categories": [
       "Alerts & Messages"
-    ]
+    ],
+    "class": "modus-info",
+    "ligature": "info"
   },
   {
     "name": "inspect",
     "tags": [],
     "categories": [
       "Alerts & Messages"
-    ]
+    ],
+    "class": "modus-inspect",
+    "ligature": "inspect"
   },
   {
     "name": "key",
@@ -1093,21 +1319,27 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-key",
+    "ligature": "key"
   },
   {
     "name": "keyboard",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-keyboard",
+    "ligature": "keyboard"
   },
   {
     "name": "keyboard-keys",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-keyboard-keys",
+    "ligature": "keyboard_keys"
   },
   {
     "name": "language",
@@ -1118,35 +1350,45 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-language",
+    "ligature": "language"
   },
   {
     "name": "launch",
     "tags": [],
     "categories": [
       "Programs"
-    ]
+    ],
+    "class": "modus-launch",
+    "ligature": "launch"
   },
   {
     "name": "layer",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-layer",
+    "ligature": "layer"
   },
   {
     "name": "lightbulb-off",
     "tags": [],
     "categories": [
       "Alerts & Messages"
-    ]
+    ],
+    "class": "modus-lightbulb-off",
+    "ligature": "lightbulb_off"
   },
   {
     "name": "lightbulb-on",
     "tags": [],
     "categories": [
       "Alerts & Messages"
-    ]
+    ],
+    "class": "modus-lightbulb-on",
+    "ligature": "lightbulb_on"
   },
   {
     "name": "lightning",
@@ -1156,42 +1398,54 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-lightning",
+    "ligature": "lightning"
   },
   {
     "name": "link",
     "tags": [],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-link",
+    "ligature": "link"
   },
   {
     "name": "link-broken",
     "tags": [],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-link-broken",
+    "ligature": "link_broken"
   },
   {
     "name": "link-off",
     "tags": [],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-link-off",
+    "ligature": "link_off"
   },
   {
     "name": "location",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-location",
+    "ligature": "location"
   },
   {
     "name": "location-point",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-location-point",
+    "ligature": "location_point"
   },
   {
     "name": "lock",
@@ -1201,7 +1455,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-lock",
+    "ligature": "lock"
   },
   {
     "name": "lock-open",
@@ -1211,7 +1467,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-lock-open",
+    "ligature": "lock_open"
   },
   {
     "name": "manage-accounts",
@@ -1222,7 +1480,9 @@
     ],
     "categories": [
       "Programs"
-    ]
+    ],
+    "class": "modus-manage-accounts",
+    "ligature": "manage_accounts"
   },
   {
     "name": "map",
@@ -1232,7 +1492,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-map",
+    "ligature": "map"
   },
   {
     "name": "map-2d",
@@ -1242,21 +1504,27 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-map-2d",
+    "ligature": "map_2d"
   },
   {
     "name": "map-marker",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-map-marker",
+    "ligature": "map_marker"
   },
   {
     "name": "map-markers",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-map-markers",
+    "ligature": "map_markers"
   },
   {
     "name": "map-poi",
@@ -1265,7 +1533,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-map-poi",
+    "ligature": "map_poi"
   },
   {
     "name": "megaphone",
@@ -1276,7 +1546,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-megaphone",
+    "ligature": "megaphone"
   },
   {
     "name": "menu",
@@ -1286,7 +1558,9 @@
     ],
     "categories": [
       "Programs"
-    ]
+    ],
+    "class": "modus-menu",
+    "ligature": "menu"
   },
   {
     "name": "menu-circle",
@@ -1296,7 +1570,9 @@
     ],
     "categories": [
       "Programs"
-    ]
+    ],
+    "class": "modus-menu-circle",
+    "ligature": "menu_circle"
   },
   {
     "name": "mic",
@@ -1304,7 +1580,9 @@
       "microphone",
       "sound"
     ],
-    "categories": []
+    "categories": [],
+    "class": "modus-mic",
+    "ligature": "mic"
   },
   {
     "name": "mix",
@@ -1314,7 +1592,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-mix",
+    "ligature": "mix"
   },
   {
     "name": "moon",
@@ -1325,7 +1605,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-moon",
+    "ligature": "moon"
   },
   {
     "name": "more-circle",
@@ -1337,14 +1619,18 @@
     ],
     "categories": [
       "Programs"
-    ]
+    ],
+    "class": "modus-more-circle",
+    "ligature": "more_circle"
   },
   {
     "name": "mouse",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-mouse",
+    "ligature": "mouse"
   },
   {
     "name": "move",
@@ -1354,7 +1640,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-move",
+    "ligature": "move"
   },
   {
     "name": "object-outline",
@@ -1363,7 +1651,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-object-outline",
+    "ligature": "object_outline"
   },
   {
     "name": "overcast",
@@ -1373,7 +1663,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-overcast",
+    "ligature": "overcast"
   },
   {
     "name": "paint-bucket",
@@ -1384,7 +1676,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-paint-bucket",
+    "ligature": "paint_bucket"
   },
   {
     "name": "pan",
@@ -1394,12 +1688,16 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-pan",
+    "ligature": "pan"
   },
   {
     "name": "password",
     "tags": [],
-    "categories": []
+    "categories": [],
+    "class": "modus-password",
+    "ligature": "password"
   },
   {
     "name": "pause-circle",
@@ -1410,7 +1708,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-pause-circle",
+    "ligature": "pause_circle"
   },
   {
     "name": "pen",
@@ -1422,7 +1722,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-pen",
+    "ligature": "pen"
   },
   {
     "name": "person",
@@ -1431,14 +1733,18 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-person",
+    "ligature": "person"
   },
   {
     "name": "phone",
     "tags": [],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-phone",
+    "ligature": "phone"
   },
   {
     "name": "phone-call",
@@ -1447,7 +1753,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-phone-call",
+    "ligature": "phone_call"
   },
   {
     "name": "phone-hang-up",
@@ -1456,14 +1764,18 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-phone-hang-up",
+    "ligature": "phone_hang_up"
   },
   {
     "name": "phone-mobile",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-phone-mobile",
+    "ligature": "phone_mobile"
   },
   {
     "name": "pin",
@@ -1474,7 +1786,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-pin",
+    "ligature": "pin"
   },
   {
     "name": "planning",
@@ -1484,7 +1798,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-planning",
+    "ligature": "planning"
   },
   {
     "name": "play-circle",
@@ -1496,42 +1812,54 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-play-circle",
+    "ligature": "play_circle"
   },
   {
     "name": "polygon",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-polygon",
+    "ligature": "polygon"
   },
   {
     "name": "polygon-area-tool",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-polygon-area-tool",
+    "ligature": "polygon_area_tool"
   },
   {
     "name": "polygon-concave",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-polygon-concave",
+    "ligature": "polygon_concave"
   },
   {
     "name": "polygon-cone",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-polygon-cone",
+    "ligature": "polygon_cone"
   },
   {
     "name": "polygon-select",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-polygon-select",
+    "ligature": "polygon_select"
   },
   {
     "name": "pulse",
@@ -1541,14 +1869,18 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-pulse",
+    "ligature": "pulse"
   },
   {
     "name": "question",
     "tags": [],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-question",
+    "ligature": "question"
   },
   {
     "name": "rain",
@@ -1557,7 +1889,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-rain",
+    "ligature": "rain"
   },
   {
     "name": "rain-heavy",
@@ -1567,14 +1901,18 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-rain-heavy",
+    "ligature": "rain_heavy"
   },
   {
     "name": "rain-icy",
     "tags": [],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-rain-icy",
+    "ligature": "rain_icy"
   },
   {
     "name": "raindrop",
@@ -1583,7 +1921,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-raindrop",
+    "ligature": "raindrop"
   },
   {
     "name": "redo",
@@ -1593,7 +1933,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-redo",
+    "ligature": "redo"
   },
   {
     "name": "refresh",
@@ -1607,7 +1949,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-refresh",
+    "ligature": "refresh"
   },
   {
     "name": "remove-circle",
@@ -1617,7 +1961,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-remove-circle",
+    "ligature": "remove_circle"
   },
   {
     "name": "reply",
@@ -1626,7 +1972,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-reply",
+    "ligature": "reply"
   },
   {
     "name": "ruler",
@@ -1636,21 +1984,27 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-ruler",
+    "ligature": "ruler"
   },
   {
     "name": "save-as",
     "tags": [],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-save-as",
+    "ligature": "save_as"
   },
   {
     "name": "save-disk",
     "tags": [],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-save-disk",
+    "ligature": "save_disk"
   },
   {
     "name": "scissors",
@@ -1659,21 +2013,27 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-scissors",
+    "ligature": "scissors"
   },
   {
     "name": "screen",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-screen",
+    "ligature": "screen"
   },
   {
     "name": "screenshot",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-screenshot",
+    "ligature": "screenshot"
   },
   {
     "name": "search",
@@ -1683,21 +2043,27 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-search",
+    "ligature": "search"
   },
   {
     "name": "server",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-server",
+    "ligature": "server"
   },
   {
     "name": "server-round",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-server-round",
+    "ligature": "server_round"
   },
   {
     "name": "settings",
@@ -1709,14 +2075,18 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-settings",
+    "ligature": "settings"
   },
   {
     "name": "share",
     "tags": [],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-share",
+    "ligature": "share"
   },
   {
     "name": "shield",
@@ -1725,14 +2095,18 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-shield",
+    "ligature": "shield"
   },
   {
     "name": "shortcut",
     "tags": [],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-shortcut",
+    "ligature": "shortcut"
   },
   {
     "name": "shovel",
@@ -1742,7 +2116,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-shovel",
+    "ligature": "shovel"
   },
   {
     "name": "sign-in",
@@ -1752,7 +2128,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-sign-in",
+    "ligature": "sign_in"
   },
   {
     "name": "sign-out",
@@ -1763,14 +2141,18 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-sign-out",
+    "ligature": "sign_out"
   },
   {
     "name": "signal",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-signal",
+    "ligature": "signal"
   },
   {
     "name": "snow-heavy",
@@ -1780,14 +2162,18 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-snow-heavy",
+    "ligature": "snow_heavy"
   },
   {
     "name": "snow-light",
     "tags": [],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-snow-light",
+    "ligature": "snow_light"
   },
   {
     "name": "snow-particle",
@@ -1796,7 +2182,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-snow-particle",
+    "ligature": "snow_particle"
   },
   {
     "name": "snowflake",
@@ -1805,7 +2193,20 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-snowflake",
+    "ligature": "snowflake"
+  },
+  {
+    "name": "snowflake-alt",
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ],
+    "class": "modus-snowflake-alt",
+    "ligature": "snowflake_alt"
   },
   {
     "name": "snowflakes",
@@ -1814,7 +2215,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-snowflakes",
+    "ligature": "snowflakes"
   },
   {
     "name": "sort-alpha-down",
@@ -1823,7 +2226,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-sort-alpha-down",
+    "ligature": "sort_alpha_down"
   },
   {
     "name": "sort-alpha-up",
@@ -1833,7 +2238,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-sort-alpha-up",
+    "ligature": "sort_alpha_up"
   },
   {
     "name": "sort-down",
@@ -1842,7 +2249,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-sort-down",
+    "ligature": "sort_down"
   },
   {
     "name": "sort-up",
@@ -1852,7 +2261,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-sort-up",
+    "ligature": "sort_up"
   },
   {
     "name": "star",
@@ -1866,14 +2277,18 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-star",
+    "ligature": "star"
   },
   {
     "name": "star-empty",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-star-empty",
+    "ligature": "star_empty"
   },
   {
     "name": "star-locked",
@@ -1882,7 +2297,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-star-locked",
+    "ligature": "star_locked"
   },
   {
     "name": "stop-circle",
@@ -1892,7 +2309,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-stop-circle",
+    "ligature": "stop_circle"
   },
   {
     "name": "sun",
@@ -1901,7 +2320,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-sun",
+    "ligature": "sun"
   },
   {
     "name": "sync",
@@ -1913,7 +2334,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-sync",
+    "ligature": "sync"
   },
   {
     "name": "sync-off",
@@ -1925,14 +2348,18 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-sync-off",
+    "ligature": "sync_off"
   },
   {
     "name": "tablet",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-tablet",
+    "ligature": "tablet"
   },
   {
     "name": "text-input",
@@ -1942,7 +2369,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-text-input",
+    "ligature": "text_input"
   },
   {
     "name": "text-input-long",
@@ -1952,7 +2381,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-text-input-long",
+    "ligature": "text_input_long"
   },
   {
     "name": "text-input-short",
@@ -1962,7 +2393,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-text-input-short",
+    "ligature": "text_input_short"
   },
   {
     "name": "thermometer-cold",
@@ -1985,7 +2418,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-thumbs-down",
+    "ligature": "thumbs_down"
   },
   {
     "name": "thumbs-up",
@@ -1994,7 +2429,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-thumbs-up",
+    "ligature": "thumbs_up"
   },
   {
     "name": "thunderstorm-heavy",
@@ -2006,7 +2443,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-thunderstorm-heavy",
+    "ligature": "thunderstorm_heavy"
   },
   {
     "name": "thunderstorm-light",
@@ -2016,7 +2455,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-thunderstorm-light",
+    "ligature": "thunderstorm_light"
   },
   {
     "name": "timer",
@@ -2026,7 +2467,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-timer",
+    "ligature": "timer"
   },
   {
     "name": "timer-countdown",
@@ -2036,7 +2479,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-timer-countdown",
+    "ligature": "timer_countdown"
   },
   {
     "name": "timesheet",
@@ -2045,21 +2490,27 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-timesheet",
+    "ligature": "timesheet"
   },
   {
     "name": "toggle-center",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-toggle-center",
+    "ligature": "toggle_center"
   },
   {
     "name": "toggle-left-panel",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-toggle-left-panel",
+    "ligature": "toggle_left_panel"
   },
   {
     "name": "toggle-off",
@@ -2068,7 +2519,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-toggle-off",
+    "ligature": "toggle_off"
   },
   {
     "name": "toggle-on",
@@ -2077,28 +2530,36 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-toggle-on",
+    "ligature": "toggle_on"
   },
   {
     "name": "traffic-cone",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-traffic-cone",
+    "ligature": "traffic_cone"
   },
   {
     "name": "tree-structure",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-tree-structure",
+    "ligature": "tree_structure"
   },
   {
     "name": "tune",
     "tags": [],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-tune",
+    "ligature": "tune"
   },
   {
     "name": "undo",
@@ -2107,7 +2568,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-undo",
+    "ligature": "undo"
   },
   {
     "name": "upload",
@@ -2120,7 +2583,9 @@
     ],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-upload",
+    "ligature": "upload"
   },
   {
     "name": "upload-xls",
@@ -2129,7 +2594,9 @@
     ],
     "categories": [
       "Save & Share"
-    ]
+    ],
+    "class": "modus-upload-xls",
+    "ligature": "upload_xls"
   },
   {
     "name": "video",
@@ -2138,7 +2605,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-video",
+    "ligature": "video"
   },
   {
     "name": "video-add",
@@ -2148,7 +2617,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-video-add",
+    "ligature": "video_add"
   },
   {
     "name": "video-disabled",
@@ -2157,7 +2628,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-video-disabled",
+    "ligature": "video_disabled"
   },
   {
     "name": "view",
@@ -2167,7 +2640,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-view",
+    "ligature": "view"
   },
   {
     "name": "volume-down",
@@ -2178,7 +2653,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-volume-down",
+    "ligature": "volume_down"
   },
   {
     "name": "volume-mute",
@@ -2189,7 +2666,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-volume-mute",
+    "ligature": "volume_mute"
   },
   {
     "name": "volume-up",
@@ -2200,7 +2679,9 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ]
+    ],
+    "class": "modus-volume-up",
+    "ligature": "volume_up"
   },
   {
     "name": "warning",
@@ -2212,7 +2693,9 @@
     ],
     "categories": [
       "Alerts & Messages"
-    ]
+    ],
+    "class": "modus-warning",
+    "ligature": "warning"
   },
   {
     "name": "web",
@@ -2222,7 +2705,9 @@
     ],
     "categories": [
       "Account & Support"
-    ]
+    ],
+    "class": "modus-web",
+    "ligature": "web"
   },
   {
     "name": "wheelbarrow",
@@ -2233,14 +2718,18 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-wheelbarrow",
+    "ligature": "wheelbarrow"
   },
   {
     "name": "widgets",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-widgets",
+    "ligature": "widgets"
   },
   {
     "name": "wind",
@@ -2249,21 +2738,27 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-wind",
+    "ligature": "wind"
   },
   {
     "name": "window",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-window",
+    "ligature": "window"
   },
   {
     "name": "window-dock-undock",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-window-dock-undock",
+    "ligature": "window_dock_undock"
   },
   {
     "name": "window-fit",
@@ -2274,28 +2769,36 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-window-fit",
+    "ligature": "window_fit"
   },
   {
     "name": "window-resize",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-window-resize",
+    "ligature": "window_resize"
   },
   {
     "name": "window-side-panel",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-window-side-panel",
+    "ligature": "window_side_panel"
   },
   {
     "name": "window-views",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-window-views",
+    "ligature": "window_views"
   },
   {
     "name": "wintery-mix",
@@ -2305,7 +2808,9 @@
     ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-wintery-mix",
+    "ligature": "wintery_mix"
   },
   {
     "name": "window-wireframe",
@@ -2314,7 +2819,9 @@
     ],
     "categories": [
       "Presentations & View"
-    ]
+    ],
+    "class": "modus-window-wireframe",
+    "ligature": "window_wireframe"
   },
   {
     "name": "wintery-mix",
@@ -2330,7 +2837,9 @@
     ],
     "categories": [
       "Programs"
-    ]
+    ],
+    "class": "modus-wrench",
+    "ligature": "wrench"
   },
   {
     "name": "zoom-box",
@@ -2341,7 +2850,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-zoom-box",
+    "ligature": "zoom_box"
   },
   {
     "name": "zoom-in",
@@ -2353,7 +2864,9 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-zoom-in",
+    "ligature": "zoom_in"
   },
   {
     "name": "zoom-out",
@@ -2365,6 +2878,8 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ]
+    ],
+    "class": "modus-zoom-out",
+    "ligature": "zoom_out"
   }
 ]

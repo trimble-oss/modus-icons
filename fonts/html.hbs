@@ -8,8 +8,13 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        }
+
         .preview {
-            width: 300px;
             display: inline-grid;
             grid-template-rows: min-content min-content;
             margin: 10px;
@@ -18,9 +23,10 @@
         }
 
         .preview .inner {
-            display: inline-block;
+            display: flex;
+            font-size: 11px;
+            align-content: center;
             width: 100%;
-            text-align: center;
             background: #fff;
         }
 
@@ -33,17 +39,16 @@
         .label {
             display: block;
             padding: 5px 0;
-            font-size: 11px;
+            font-size: 13px;
             color: #444;
         }
 
         .code-sample {
             font-weight: 700;
-            text-align: center;
             width: 100%;
             box-sizing: border-box;
             padding: 5px;
-            font-size: 11px;
+            font-size: 13px;
             color: #444;
             background-color: #eee;
         }
@@ -51,26 +56,30 @@
         {{{ styles }}}
 
     </style>
-    <link rel="stylesheet-x" href="https://modus.trimble.com/assets/0.5.1/fonts/modus-icons.css">
 </head>
 <body>
     <div>
         <h1>{{ fontName }}</h1>
-
-        {{# each names }}
+<div class="grid">
+        {{#each names }}
 
             <div class="preview">
-                <div class="inner">
-                    <i class="{{ ../fontName }}">{{ this }}</i>
-                    <div class="label">{{ this }}</div>
-                </div>
                 <div class="code-sample">
-                            &lt;i class="{{ ../fontName }}"&gt;{{ this }}&lt;/i&gt;
+                    <div class="label">{{ this.fileName }}</div>
+                </div>
+                <div class="inner">
+                    <i class="{{ ../fontName }}">{{ this.ligatureName }}</i>
+                   <pre>&lt;i class="{{ ../fontName }}"&gt;{{ this.ligatureName }}&lt;/i&gt;</pre>
+                </div>
+                <div class="inner">
+                    <i class="{{ ../fontName }} {{this.className}}"></i>
+                    <pre>&lt;i class="{{ ../fontName }} {{ this.className }}"&gt;&lt;/i&gt;</pre>
                 </div>
 
             </div>
 
-        {{/ each }}
+        {{/each }}
+    </div>
     </div>
 </body>
 </html>

@@ -26,6 +26,8 @@ categories:
   - ${file.categories.join(', ')}
 tags:
   - ${file.tags.join(', ')}
+class: ${file.class}
+ligature: ${file.ligature}
 ---
 `;
 
@@ -64,7 +66,12 @@ function buildPages(config) {
       if (setName.startsWith('modus')) {
         const type = setName.split('-')[1];
         const materialFiles = fs.readJSONSync(
-          path.join(srcDirectoryPath, '..', `material-${type}`, '_metadata.json')
+          path.join(
+            srcDirectoryPath,
+            '..',
+            `material-${type}`,
+            '_metadata.json'
+          )
         );
         files.push(...materialFiles);
       }

@@ -72,7 +72,7 @@
     "svgexport": "^0.4.2",
     "svgicons2svgfont": "^5.0.0",
     "svgo": "2.8.0",
-    "ttf2eot": "^2.0.0",
+    "ttf2eot": "^3.1.0",
     "ttf2woff": "^2.0.1",
     "ttf2woff2": "^5.0.0",
     "underscore": "^1.7.0",

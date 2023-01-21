@@ -26,6 +26,69 @@
     "ligature": "address"
   },
   {
+    "name": "advanced-instructions",
+    "tags": [],
+    "categories": [],
+    "class": "modus-advanced-instructions",
+    "ligature": "advanced_instructions"
+  },
+  {
+    "name": "footprints",
+    "tags": [],
+    "categories": [],
+    "class": "modus-footprints",
+    "ligature": "footprints"
+  },
+  {
+    "name": "learn",
+    "tags": [],
+    "categories": [],
+    "class": "modus-learn",
+    "ligature": "learn"
+  },
+  {
+    "name": "people-group",
+    "tags": [],
+    "categories": [],
+    "class": "modus-people-group",
+    "ligature": "people_group"
+  },
+  {
+    "name": "pin-add",
+    "tags": [],
+    "categories": [],
+    "class": "modus-pin-add",
+    "ligature": "pin_add"
+  },
+  {
+    "name": "ticket",
+    "tags": [],
+    "categories": [],
+    "class": "modus-ticket",
+    "ligature": "ticket"
+  },
+  {
+    "name": "ticket-plane",
+    "tags": [],
+    "categories": [],
+    "class": "modus-ticket-plane",
+    "ligature": "ticket_plane"
+  },
+  {
+    "name": "trimble-logo",
+    "tags": [],
+    "categories": [],
+    "class": "modus-trimble-logo",
+    "ligature": "trimble_logo"
+  },
+  {
+    "name": "tune-circle",
+    "tags": [],
+    "categories": [],
+    "class": "modus-tune-circle",
+    "ligature": "tune_circle"
+  },
+  {
     "name": "alert",
     "tags": [
       "exclamation",
@@ -710,17 +773,6 @@
     ],
     "class": "modus-drizzle",
     "ligature": "drizzle"
-  },
-  {
-    "name": "pencil",
-    "tags": [
-      "edit"
-    ],
-    "categories": [
-      "Actions & Navigation"
-    ],
-    "class": "modus-pencil",
-    "ligature": "pencil"
   },
   {
     "name": "email",
@@ -1727,6 +1779,17 @@
     ],
     "class": "modus-pen",
     "ligature": "pen"
+  },
+  {
+    "name": "pencil",
+    "tags": [
+      "edit"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ],
+    "class": "modus-pencil",
+    "ligature": "pencil"
   },
   {
     "name": "person",
@@ -2796,18 +2859,6 @@
     "ligature": "window_views"
   },
   {
-    "name": "wintery-mix",
-    "tags": [
-      "cloud",
-      "weather"
-    ],
-    "categories": [
-      "Weather"
-    ],
-    "class": "modus-wintery-mix",
-    "ligature": "wintery_mix"
-  },
-  {
     "name": "window-wireframe",
     "tags": [
       "render"
@@ -2820,10 +2871,15 @@
   },
   {
     "name": "wintery-mix",
-    "tags": [],
+    "tags": [
+      "cloud",
+      "weather"
+    ],
     "categories": [
       "Weather"
-    ]
+    ],
+    "class": "modus-wintery-mix",
+    "ligature": "wintery_mix"
   },
   {
     "name": "wrench",

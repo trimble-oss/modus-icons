@@ -14,6 +14,69 @@
     "ligature": "add_new_road"
   },
   {
+    "name": "advanced-instructions",
+    "tags": [],
+    "categories": [],
+    "class": "modus-advanced-instructions",
+    "ligature": "advanced_instructions"
+  },
+  {
+    "name": "footprints",
+    "tags": [],
+    "categories": [],
+    "class": "modus-footprints",
+    "ligature": "footprints"
+  },
+  {
+    "name": "learn",
+    "tags": [],
+    "categories": [],
+    "class": "modus-learn",
+    "ligature": "learn"
+  },
+  {
+    "name": "people-group",
+    "tags": [],
+    "categories": [],
+    "class": "modus-people-group",
+    "ligature": "people_group"
+  },
+  {
+    "name": "pin-add",
+    "tags": [],
+    "categories": [],
+    "class": "modus-pin-add",
+    "ligature": "pin_add"
+  },
+  {
+    "name": "ticket",
+    "tags": [],
+    "categories": [],
+    "class": "modus-ticket",
+    "ligature": "ticket"
+  },
+  {
+    "name": "ticket-plane",
+    "tags": [],
+    "categories": [],
+    "class": "modus-ticket-plane",
+    "ligature": "ticket_plane"
+  },
+  {
+    "name": "trimble-logo",
+    "tags": [],
+    "categories": [],
+    "class": "modus-trimble-logo",
+    "ligature": "trimble_logo"
+  },
+  {
+    "name": "tune-circle",
+    "tags": [],
+    "categories": [],
+    "class": "modus-tune-circle",
+    "ligature": "tune_circle"
+  },
+  {
     "name": "apps",
     "tags": [],
     "categories": [],
@@ -28,18 +91,18 @@
     "ligature": "blank"
   },
   {
-    "name": "blocks-four-outline",
-    "tags": [],
-    "categories": [],
-    "class": "modus-blocks-four-outline",
-    "ligature": "blocks_four_outline"
-  },
-  {
     "name": "blocks-four",
     "tags": [],
     "categories": [],
     "class": "modus-blocks-four",
     "ligature": "blocks_four"
+  },
+  {
+    "name": "blocks-four-outline",
+    "tags": [],
+    "categories": [],
+    "class": "modus-blocks-four-outline",
+    "ligature": "blocks_four_outline"
   },
   {
     "name": "box-zoom",
@@ -49,18 +112,18 @@
     "ligature": "box_zoom"
   },
   {
-    "name": "car-front",
-    "tags": [],
-    "categories": [],
-    "class": "modus-car-front",
-    "ligature": "car_front"
-  },
-  {
     "name": "car",
     "tags": [],
     "categories": [],
     "class": "modus-car",
     "ligature": "car"
+  },
+  {
+    "name": "car-front",
+    "tags": [],
+    "categories": [],
+    "class": "modus-car-front",
+    "ligature": "car_front"
   },
   {
     "name": "change-start-time",
@@ -91,11 +154,11 @@
     "ligature": "chevron"
   },
   {
-    "name": "circle-dot-outline",
+    "name": "circle",
     "tags": [],
     "categories": [],
-    "class": "modus-circle-dot-outline",
-    "ligature": "circle_dot_outline"
+    "class": "modus-circle",
+    "ligature": "circle"
   },
   {
     "name": "circle-dot",
@@ -103,6 +166,13 @@
     "categories": [],
     "class": "modus-circle-dot",
     "ligature": "circle_dot"
+  },
+  {
+    "name": "circle-dot-outline",
+    "tags": [],
+    "categories": [],
+    "class": "modus-circle-dot-outline",
+    "ligature": "circle_dot_outline"
   },
   {
     "name": "circle-notch",
@@ -124,13 +194,6 @@
     "categories": [],
     "class": "modus-circle-play",
     "ligature": "circle_play"
-  },
-  {
-    "name": "circle",
-    "tags": [],
-    "categories": [],
-    "class": "modus-circle",
-    "ligature": "circle"
   },
   {
     "name": "clock",
@@ -182,6 +245,13 @@
     "ligature": "dispatch"
   },
   {
+    "name": "driver",
+    "tags": [],
+    "categories": [],
+    "class": "modus-driver",
+    "ligature": "driver"
+  },
+  {
     "name": "driver-groups",
     "tags": [],
     "categories": [],
@@ -189,11 +259,11 @@
     "ligature": "driver_groups"
   },
   {
-    "name": "driver",
+    "name": "edit",
     "tags": [],
     "categories": [],
-    "class": "modus-driver",
-    "ligature": "driver"
+    "class": "modus-edit",
+    "ligature": "edit"
   },
   {
     "name": "edit-line",
@@ -208,13 +278,6 @@
     "categories": [],
     "class": "modus-edit-road",
     "ligature": "edit_road"
-  },
-  {
-    "name": "edit",
-    "tags": [],
-    "categories": [],
-    "class": "modus-edit",
-    "ligature": "edit"
   },
   {
     "name": "export",
@@ -280,18 +343,18 @@
     "ligature": "globe"
   },
   {
-    "name": "hand-pan",
-    "tags": [],
-    "categories": [],
-    "class": "modus-hand-pan",
-    "ligature": "hand_pan"
-  },
-  {
     "name": "hand",
     "tags": [],
     "categories": [],
     "class": "modus-hand",
     "ligature": "hand"
+  },
+  {
+    "name": "hand-pan",
+    "tags": [],
+    "categories": [],
+    "class": "modus-hand-pan",
+    "ligature": "hand_pan"
   },
   {
     "name": "heavy-duty",
@@ -462,18 +525,18 @@
     "ligature": "paper_plane"
   },
   {
-    "name": "pin-icon-plus",
-    "tags": [],
-    "categories": [],
-    "class": "modus-pin-icon-plus",
-    "ligature": "pin_icon_plus"
-  },
-  {
     "name": "pin-icon",
     "tags": [],
     "categories": [],
     "class": "modus-pin-icon",
     "ligature": "pin_icon"
+  },
+  {
+    "name": "pin-icon-plus",
+    "tags": [],
+    "categories": [],
+    "class": "modus-pin-icon-plus",
+    "ligature": "pin_icon_plus"
   },
   {
     "name": "poi",
@@ -537,6 +600,13 @@
     "categories": [],
     "class": "modus-road-surface",
     "ligature": "road_surface"
+  },
+  {
+    "name": "route",
+    "tags": [],
+    "categories": [],
+    "class": "modus-route",
+    "ligature": "route"
   },
   {
     "name": "route-add",
@@ -607,13 +677,6 @@
     "categories": [],
     "class": "modus-route-save",
     "ligature": "route_save"
-  },
-  {
-    "name": "route",
-    "tags": [],
-    "categories": [],
-    "class": "modus-route",
-    "ligature": "route"
   },
   {
     "name": "school-bus",
@@ -798,18 +861,18 @@
     "ligature": "upgrade_modifiers"
   },
   {
-    "name": "user-fields",
-    "tags": [],
-    "categories": [],
-    "class": "modus-user-fields",
-    "ligature": "user_fields"
-  },
-  {
     "name": "user",
     "tags": [],
     "categories": [],
     "class": "modus-user",
     "ligature": "user"
+  },
+  {
+    "name": "user-fields",
+    "tags": [],
+    "categories": [],
+    "class": "modus-user-fields",
+    "ligature": "user_fields"
   },
   {
     "name": "vehicle-groups",
@@ -819,18 +882,18 @@
     "ligature": "vehicle_groups"
   },
   {
-    "name": "visibility-off",
-    "tags": [],
-    "categories": [],
-    "class": "modus-visibility-off",
-    "ligature": "visibility_off"
-  },
-  {
     "name": "visibility",
     "tags": [],
     "categories": [],
     "class": "modus-visibility",
     "ligature": "visibility"
+  },
+  {
+    "name": "visibility-off",
+    "tags": [],
+    "categories": [],
+    "class": "modus-visibility-off",
+    "ligature": "visibility_off"
   },
   {
     "name": "volumes",

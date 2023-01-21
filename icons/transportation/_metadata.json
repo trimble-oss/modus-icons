@@ -22,7 +22,9 @@
   },
   {
     "name": "footprints",
-    "tags": [],
+    "tags": [
+      "steps"
+    ],
     "categories": [],
     "class": "modus-footprints",
     "ligature": "footprints"

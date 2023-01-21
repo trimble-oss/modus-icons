@@ -33,62 +33,6 @@
     "ligature": "advanced_instructions"
   },
   {
-    "name": "footprints",
-    "tags": [],
-    "categories": [],
-    "class": "modus-footprints",
-    "ligature": "footprints"
-  },
-  {
-    "name": "learn",
-    "tags": [],
-    "categories": [],
-    "class": "modus-learn",
-    "ligature": "learn"
-  },
-  {
-    "name": "people-group",
-    "tags": [],
-    "categories": [],
-    "class": "modus-people-group",
-    "ligature": "people_group"
-  },
-  {
-    "name": "pin-add",
-    "tags": [],
-    "categories": [],
-    "class": "modus-pin-add",
-    "ligature": "pin_add"
-  },
-  {
-    "name": "ticket",
-    "tags": [],
-    "categories": [],
-    "class": "modus-ticket",
-    "ligature": "ticket"
-  },
-  {
-    "name": "ticket-plane",
-    "tags": [],
-    "categories": [],
-    "class": "modus-ticket-plane",
-    "ligature": "ticket_plane"
-  },
-  {
-    "name": "trimble-logo",
-    "tags": [],
-    "categories": [],
-    "class": "modus-trimble-logo",
-    "ligature": "trimble_logo"
-  },
-  {
-    "name": "tune-circle",
-    "tags": [],
-    "categories": [],
-    "class": "modus-tune-circle",
-    "ligature": "tune_circle"
-  },
-  {
     "name": "alert",
     "tags": [
       "exclamation",
@@ -112,7 +56,9 @@
   },
   {
     "name": "align-center-horiz",
-    "tags": [],
+    "tags": [
+      "horizontal"
+    ],
     "categories": [
       "Presentations & View"
     ],
@@ -121,7 +67,9 @@
   },
   {
     "name": "align-center-vert",
-    "tags": [],
+    "tags": [
+      "vertical"
+    ],
     "categories": [
       "Presentations & View"
     ],
@@ -158,6 +106,7 @@
   {
     "name": "antenna",
     "tags": [
+      "broadcast",
       "signal"
     ],
     "categories": [
@@ -393,7 +342,10 @@
   },
   {
     "name": "camera-disabled",
-    "tags": [],
+    "tags": [
+      "picture",
+      "photo"
+    ],
     "categories": [
       "Computer Hardware & Assets"
     ],
@@ -443,7 +395,11 @@
   },
   {
     "name": "check",
-    "tags": [],
+    "tags": [
+      "done",
+      "success",
+      "tick"
+    ],
     "categories": [
       "Actions & Navigation"
     ],
@@ -453,7 +409,9 @@
   {
     "name": "check-circle",
     "tags": [
-      "success"
+      "done",
+      "success",
+      "tick"
     ],
     "categories": [
       "Actions & Navigation"
@@ -1166,6 +1124,15 @@
     "ligature": "folder_unlocked"
   },
   {
+    "name": "footprints",
+    "tags": [
+      "steps"
+    ],
+    "categories": [],
+    "class": "modus-footprints",
+    "ligature": "footprints"
+  },
+  {
     "name": "frame",
     "tags": [],
     "categories": [
@@ -1425,6 +1392,13 @@
     ],
     "class": "modus-layer",
     "ligature": "layer"
+  },
+  {
+    "name": "learn",
+    "tags": [],
+    "categories": [],
+    "class": "modus-learn",
+    "ligature": "learn"
   },
   {
     "name": "lightbulb-off",
@@ -1792,6 +1766,15 @@
     "ligature": "pencil"
   },
   {
+    "name": "people-group",
+    "tags": [
+      "users"
+    ],
+    "categories": [],
+    "class": "modus-people-group",
+    "ligature": "people_group"
+  },
+  {
     "name": "person",
     "tags": [
       "user"
@@ -1854,6 +1837,13 @@
     ],
     "class": "modus-pin",
     "ligature": "pin"
+  },
+  {
+    "name": "pin-add",
+    "tags": [],
+    "categories": [],
+    "class": "modus-pin-add",
+    "ligature": "pin_add"
   },
   {
     "name": "planning",
@@ -2518,6 +2508,20 @@
     "ligature": "thunderstorm_light"
   },
   {
+    "name": "ticket",
+    "tags": [],
+    "categories": [],
+    "class": "modus-ticket",
+    "ligature": "ticket"
+  },
+  {
+    "name": "ticket-plane",
+    "tags": [],
+    "categories": [],
+    "class": "modus-ticket-plane",
+    "ligature": "ticket_plane"
+  },
+  {
     "name": "timer",
     "tags": [
       "clock",
@@ -2611,8 +2615,20 @@
     "ligature": "tree_structure"
   },
   {
+    "name": "trimble-logo",
+    "tags": [
+      "brand"
+    ],
+    "categories": [],
+    "class": "modus-trimble-logo",
+    "ligature": "trimble_logo"
+  },
+  {
     "name": "tune",
-    "tags": [],
+    "tags": [
+      "options",
+      "settings"
+    ],
     "categories": [
       "Account & Support"
     ],
@@ -2620,9 +2636,20 @@
     "ligature": "tune"
   },
   {
+    "name": "tune-circle",
+    "tags": [
+      "options",
+      "settings"
+    ],
+    "categories": [],
+    "class": "modus-tune-circle",
+    "ligature": "tune_circle"
+  },
+  {
     "name": "undo",
     "tags": [
-      "arrow"
+      "arrow",
+      "reverse"
     ],
     "categories": [
       "Actions & Navigation"

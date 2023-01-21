@@ -80,14 +80,14 @@ menu:
     - name: Web
       parent: Components
       url: "https://modus.trimble.com/components/web/"
-      pre: "<img src='/modus-solid/svg/web.svg' width=28 height=28 class='icon mr-1' alt>"
+      pre: "<img src='/modus-outline/svg/web.svg' width=28 height=28 class='icon mr-1' alt>"
       post: "Modus component library for web-based apps and workflows."
       weight: 1
     - name: In-Field
       parent: Components
       url: "https://modus.trimble.com/components/in-field/"
       pre: "<img src='/transportation/svg/truck.svg' width=28 height=28 class='icon mr-1' alt>"
-      post: "The in-field, high-contrast library is specific to applications used outdoors on handheld or in-cab devices."
+      post: "High-contrast library specific to apps used outdoors on handheld or in-cab devices."
       weight: 2
 #   - name: Mobile
 #     parent: Components

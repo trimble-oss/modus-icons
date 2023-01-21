@@ -15,13 +15,13 @@
           aria-expanded="false">{{- .Name -}}</a>
         <div class="dropdown-menu px-2 rounded">
           {{ range .Children }}
-          <a class="dropdown-item text-dark rounded border-0 px-3 my-1" href="{{ .URL }}">
+          <a class="dropdown-item text-dark rounded border-0 p-3 my-1" href="{{ .URL }}">
             <div class="d-flex flex-row">
-              <div class="">
+              <div>
               {{ with .Pre }}
               {{ . }}
             {{ end }}</div>
-            <div class="">
+            <div>
               {{- .Name -}}
               <p class="mb-0 small text-muted">{{ with .Post }}
                 {{ . }}

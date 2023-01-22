@@ -4,911 +4,1088 @@
     "tags": [],
     "categories": [],
     "class": "modus-3d-buildings",
-    "ligature": "3d_buildings"
+    "ligature": "3d_buildings",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "add-new-road",
     "tags": [],
     "categories": [],
     "class": "modus-add-new-road",
-    "ligature": "add_new_road"
-  },
-  {
-    "name": "advanced-instructions",
-    "tags": [],
-    "categories": [],
-    "class": "modus-advanced-instructions",
-    "ligature": "advanced_instructions"
-  },
-  {
-    "name": "footprints",
-    "tags": [
-      "steps"
-    ],
-    "categories": [],
-    "class": "modus-footprints",
-    "ligature": "footprints"
-  },
-  {
-    "name": "learn",
-    "tags": [],
-    "categories": [],
-    "class": "modus-learn",
-    "ligature": "learn"
-  },
-  {
-    "name": "people-group",
-    "tags": [],
-    "categories": [],
-    "class": "modus-people-group",
-    "ligature": "people_group"
-  },
-  {
-    "name": "pin-add",
-    "tags": [],
-    "categories": [],
-    "class": "modus-pin-add",
-    "ligature": "pin_add"
-  },
-  {
-    "name": "ticket",
-    "tags": [],
-    "categories": [],
-    "class": "modus-ticket",
-    "ligature": "ticket"
-  },
-  {
-    "name": "ticket-plane",
-    "tags": [],
-    "categories": [],
-    "class": "modus-ticket-plane",
-    "ligature": "ticket_plane"
-  },
-  {
-    "name": "trimble-logo",
-    "tags": [],
-    "categories": [],
-    "class": "modus-trimble-logo",
-    "ligature": "trimble_logo"
-  },
-  {
-    "name": "tune-circle",
-    "tags": [],
-    "categories": [],
-    "class": "modus-tune-circle",
-    "ligature": "tune_circle"
+    "ligature": "add_new_road",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "apps",
     "tags": [],
     "categories": [],
     "class": "modus-apps",
-    "ligature": "apps"
+    "ligature": "apps",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "blank",
     "tags": [],
     "categories": [],
     "class": "modus-blank",
-    "ligature": "blank"
+    "ligature": "blank",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "blocks-four",
     "tags": [],
     "categories": [],
     "class": "modus-blocks-four",
-    "ligature": "blocks_four"
+    "ligature": "blocks_four",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "blocks-four-outline",
     "tags": [],
     "categories": [],
     "class": "modus-blocks-four-outline",
-    "ligature": "blocks_four_outline"
+    "ligature": "blocks_four_outline",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "box-zoom",
     "tags": [],
     "categories": [],
     "class": "modus-box-zoom",
-    "ligature": "box_zoom"
+    "ligature": "box_zoom",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "car",
     "tags": [],
     "categories": [],
     "class": "modus-car",
-    "ligature": "car"
+    "ligature": "car",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "car-front",
     "tags": [],
     "categories": [],
     "class": "modus-car-front",
-    "ligature": "car_front"
+    "ligature": "car_front",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "change-start-time",
     "tags": [],
     "categories": [],
     "class": "modus-change-start-time",
-    "ligature": "change_start_time"
+    "ligature": "change_start_time",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "checkbox-checked",
     "tags": [],
     "categories": [],
     "class": "modus-checkbox-checked",
-    "ligature": "checkbox_checked"
+    "ligature": "checkbox_checked",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "checkbox-unchecked",
     "tags": [],
     "categories": [],
     "class": "modus-checkbox-unchecked",
-    "ligature": "checkbox_unchecked"
+    "ligature": "checkbox_unchecked",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "chevron",
     "tags": [],
     "categories": [],
     "class": "modus-chevron",
-    "ligature": "chevron"
+    "ligature": "chevron",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "circle",
     "tags": [],
     "categories": [],
     "class": "modus-circle",
-    "ligature": "circle"
+    "ligature": "circle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "circle-dot",
     "tags": [],
     "categories": [],
     "class": "modus-circle-dot",
-    "ligature": "circle_dot"
+    "ligature": "circle_dot",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "circle-dot-outline",
     "tags": [],
     "categories": [],
     "class": "modus-circle-dot-outline",
-    "ligature": "circle_dot_outline"
+    "ligature": "circle_dot_outline",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "circle-notch",
     "tags": [],
     "categories": [],
     "class": "modus-circle-notch",
-    "ligature": "circle_notch"
+    "ligature": "circle_notch",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "circle-outline",
     "tags": [],
     "categories": [],
     "class": "modus-circle-outline",
-    "ligature": "circle_outline"
+    "ligature": "circle_outline",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "circle-play",
     "tags": [],
     "categories": [],
     "class": "modus-circle-play",
-    "ligature": "circle_play"
+    "ligature": "circle_play",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "clock",
     "tags": [],
     "categories": [],
     "class": "modus-clock",
-    "ligature": "clock"
+    "ligature": "clock",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "cluster",
     "tags": [],
     "categories": [],
     "class": "modus-cluster",
-    "ligature": "cluster"
+    "ligature": "cluster",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "company-administration",
     "tags": [],
     "categories": [],
     "class": "modus-company-administration",
-    "ligature": "company_administration"
+    "ligature": "company_administration",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "configuration-management",
     "tags": [],
     "categories": [],
     "class": "modus-configuration-management",
-    "ligature": "configuration_management"
+    "ligature": "configuration_management",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "crow-fly",
     "tags": [],
     "categories": [],
     "class": "modus-crow-fly",
-    "ligature": "crow_fly"
+    "ligature": "crow_fly",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "disk",
     "tags": [],
     "categories": [],
     "class": "modus-disk",
-    "ligature": "disk"
+    "ligature": "disk",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "dispatch",
     "tags": [],
     "categories": [],
     "class": "modus-dispatch",
-    "ligature": "dispatch"
+    "ligature": "dispatch",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "driver",
     "tags": [],
     "categories": [],
     "class": "modus-driver",
-    "ligature": "driver"
+    "ligature": "driver",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "driver-groups",
     "tags": [],
     "categories": [],
     "class": "modus-driver-groups",
-    "ligature": "driver_groups"
+    "ligature": "driver_groups",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "edit",
     "tags": [],
     "categories": [],
     "class": "modus-edit",
-    "ligature": "edit"
+    "ligature": "edit",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "edit-line",
     "tags": [],
     "categories": [],
     "class": "modus-edit-line",
-    "ligature": "edit_line"
+    "ligature": "edit_line",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "edit-road",
     "tags": [],
     "categories": [],
     "class": "modus-edit-road",
-    "ligature": "edit_road"
+    "ligature": "edit_road",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "export",
     "tags": [],
     "categories": [],
     "class": "modus-export",
-    "ligature": "export"
+    "ligature": "export",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "external-link",
     "tags": [],
     "categories": [],
     "class": "modus-external-link",
-    "ligature": "external_link"
+    "ligature": "external_link",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "eyedropper",
     "tags": [],
     "categories": [],
     "class": "modus-eyedropper",
-    "ligature": "eyedropper"
+    "ligature": "eyedropper",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "finalize-route",
     "tags": [],
     "categories": [],
     "class": "modus-finalize-route",
-    "ligature": "finalize_route"
+    "ligature": "finalize_route",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "flag",
     "tags": [],
     "categories": [],
     "class": "modus-flag",
-    "ligature": "flag"
+    "ligature": "flag",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "flash-on",
     "tags": [],
     "categories": [],
     "class": "modus-flash-on",
-    "ligature": "flash_on"
+    "ligature": "flash_on",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "frame-stop",
     "tags": [],
     "categories": [],
     "class": "modus-frame-stop",
-    "ligature": "frame_stop"
+    "ligature": "frame_stop",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "geocode",
     "tags": [],
     "categories": [],
     "class": "modus-geocode",
-    "ligature": "geocode"
+    "ligature": "geocode",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "globe",
     "tags": [],
     "categories": [],
     "class": "modus-globe",
-    "ligature": "globe"
+    "ligature": "globe",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "hand",
     "tags": [],
     "categories": [],
     "class": "modus-hand",
-    "ligature": "hand"
+    "ligature": "hand",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "hand-pan",
     "tags": [],
     "categories": [],
     "class": "modus-hand-pan",
-    "ligature": "hand_pan"
+    "ligature": "hand_pan",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "heavy-duty",
     "tags": [],
     "categories": [],
     "class": "modus-heavy-duty",
-    "ligature": "heavy_duty"
+    "ligature": "heavy_duty",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "highway",
     "tags": [],
     "categories": [],
     "class": "modus-highway",
-    "ligature": "highway"
+    "ligature": "highway",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "invert-route",
     "tags": [],
     "categories": [],
     "class": "modus-invert-route",
-    "ligature": "invert_route"
+    "ligature": "invert_route",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "layout",
     "tags": [],
     "categories": [],
     "class": "modus-layout",
-    "ligature": "layout"
+    "ligature": "layout",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "light-duty",
     "tags": [],
     "categories": [],
     "class": "modus-light-duty",
-    "ligature": "light_duty"
+    "ligature": "light_duty",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "list-bulleted",
     "tags": [],
     "categories": [],
     "class": "modus-list-bulleted",
-    "ligature": "list_bulleted"
+    "ligature": "list_bulleted",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "load",
     "tags": [],
     "categories": [],
     "class": "modus-load",
-    "ligature": "load"
+    "ligature": "load",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "location-arrow",
     "tags": [],
     "categories": [],
     "class": "modus-location-arrow",
-    "ligature": "location_arrow"
+    "ligature": "location_arrow",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "manage-places",
     "tags": [],
     "categories": [],
     "class": "modus-manage-places",
-    "ligature": "manage_places"
+    "ligature": "manage_places",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "manage-route-modifiers",
     "tags": [],
     "categories": [],
     "class": "modus-manage-route-modifiers",
-    "ligature": "manage_route_modifiers"
+    "ligature": "manage_route_modifiers",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "map-layers",
     "tags": [],
     "categories": [],
     "class": "modus-map-layers",
-    "ligature": "map_layers"
+    "ligature": "map_layers",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "maximize",
     "tags": [],
     "categories": [],
     "class": "modus-maximize",
-    "ligature": "maximize"
+    "ligature": "maximize",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "medium-duty",
     "tags": [],
     "categories": [],
     "class": "modus-medium-duty",
-    "ligature": "medium_duty"
+    "ligature": "medium_duty",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "minimize",
     "tags": [],
     "categories": [],
     "class": "modus-minimize",
-    "ligature": "minimize"
+    "ligature": "minimize",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "my-edits",
     "tags": [],
     "categories": [],
     "class": "modus-my-edits",
-    "ligature": "my_edits"
+    "ligature": "my_edits",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "my-places",
     "tags": [],
     "categories": [],
     "class": "modus-my-places",
-    "ligature": "my_places"
+    "ligature": "my_places",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "my-trip",
     "tags": [],
     "categories": [],
     "class": "modus-my-trip",
-    "ligature": "my_trip"
+    "ligature": "my_trip",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "no-entry",
     "tags": [],
     "categories": [],
     "class": "modus-no-entry",
-    "ligature": "no_entry"
+    "ligature": "no_entry",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "one-way-left",
     "tags": [],
     "categories": [],
     "class": "modus-one-way-left",
-    "ligature": "one_way_left"
+    "ligature": "one_way_left",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "one-way-right",
     "tags": [],
     "categories": [],
     "class": "modus-one-way-right",
-    "ligature": "one_way_right"
+    "ligature": "one_way_right",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "optimize",
     "tags": [],
     "categories": [],
     "class": "modus-optimize",
-    "ligature": "optimize"
+    "ligature": "optimize",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "orders",
     "tags": [],
     "categories": [],
     "class": "modus-orders",
-    "ligature": "orders"
+    "ligature": "orders",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "palette",
     "tags": [],
     "categories": [],
     "class": "modus-palette",
-    "ligature": "palette"
+    "ligature": "palette",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "paper-plane",
     "tags": [],
     "categories": [],
     "class": "modus-paper-plane",
-    "ligature": "paper_plane"
+    "ligature": "paper_plane",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "pin-icon",
     "tags": [],
     "categories": [],
     "class": "modus-pin-icon",
-    "ligature": "pin_icon"
+    "ligature": "pin_icon",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "pin-icon-plus",
     "tags": [],
     "categories": [],
     "class": "modus-pin-icon-plus",
-    "ligature": "pin_icon_plus"
+    "ligature": "pin_icon_plus",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "poi",
     "tags": [],
     "categories": [],
     "class": "modus-poi",
-    "ligature": "poi"
+    "ligature": "poi",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "preview",
     "tags": [],
     "categories": [],
     "class": "modus-preview",
-    "ligature": "preview"
+    "ligature": "preview",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "radar",
     "tags": [],
     "categories": [],
     "class": "modus-radar",
-    "ligature": "radar"
+    "ligature": "radar",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "random",
     "tags": [],
     "categories": [],
     "class": "modus-random",
-    "ligature": "random"
+    "ligature": "random",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "rename-route",
     "tags": [],
     "categories": [],
     "class": "modus-rename-route",
-    "ligature": "rename_route"
+    "ligature": "rename_route",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "reports",
     "tags": [],
     "categories": [],
     "class": "modus-reports",
-    "ligature": "reports"
+    "ligature": "reports",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "reroute",
     "tags": [],
     "categories": [],
     "class": "modus-reroute",
-    "ligature": "reroute"
+    "ligature": "reroute",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "reschedule-route",
     "tags": [],
     "categories": [],
     "class": "modus-reschedule-route",
-    "ligature": "reschedule_route"
+    "ligature": "reschedule_route",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "road-surface",
     "tags": [],
     "categories": [],
     "class": "modus-road-surface",
-    "ligature": "road_surface"
+    "ligature": "road_surface",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "route",
     "tags": [],
     "categories": [],
     "class": "modus-route",
-    "ligature": "route"
+    "ligature": "route",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "route-add",
     "tags": [],
     "categories": [],
     "class": "modus-route-add",
-    "ligature": "route_add"
+    "ligature": "route_add",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "route-compliance",
     "tags": [],
     "categories": [],
     "class": "modus-route-compliance",
-    "ligature": "route_compliance"
+    "ligature": "route_compliance",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "route-delete",
     "tags": [],
     "categories": [],
     "class": "modus-route-delete",
-    "ligature": "route_delete"
+    "ligature": "route_delete",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "route-load",
     "tags": [],
     "categories": [],
     "class": "modus-route-load",
-    "ligature": "route_load"
+    "ligature": "route_load",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "route-modifiers",
     "tags": [],
     "categories": [],
     "class": "modus-route-modifiers",
-    "ligature": "route_modifiers"
+    "ligature": "route_modifiers",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "route-off",
     "tags": [],
     "categories": [],
     "class": "modus-route-off",
-    "ligature": "route_off"
+    "ligature": "route_off",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "route-on",
     "tags": [],
     "categories": [],
     "class": "modus-route-on",
-    "ligature": "route_on"
+    "ligature": "route_on",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "route-optimize",
     "tags": [],
     "categories": [],
     "class": "modus-route-optimize",
-    "ligature": "route_optimize"
+    "ligature": "route_optimize",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "route-options",
     "tags": [],
     "categories": [],
     "class": "modus-route-options",
-    "ligature": "route_options"
+    "ligature": "route_options",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "route-save",
     "tags": [],
     "categories": [],
     "class": "modus-route-save",
-    "ligature": "route_save"
+    "ligature": "route_save",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "school-bus",
     "tags": [],
     "categories": [],
     "class": "modus-school-bus",
-    "ligature": "school_bus"
+    "ligature": "school_bus",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "show-closest",
     "tags": [],
     "categories": [],
     "class": "modus-show-closest",
-    "ligature": "show_closest"
+    "ligature": "show_closest",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "show-truck-info",
     "tags": [],
     "categories": [],
     "class": "modus-show-truck-info",
-    "ligature": "show_truck_info"
+    "ligature": "show_truck_info",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "site-manager",
     "tags": [],
     "categories": [],
     "class": "modus-site-manager",
-    "ligature": "site_manager"
+    "ligature": "site_manager",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "speed-coaching-profiles",
     "tags": [],
     "categories": [],
     "class": "modus-speed-coaching-profiles",
-    "ligature": "speed_coaching_profiles"
+    "ligature": "speed_coaching_profiles",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "spinner",
     "tags": [],
     "categories": [],
     "class": "modus-spinner",
-    "ligature": "spinner"
+    "ligature": "spinner",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "stop-details",
     "tags": [],
     "categories": [],
     "class": "modus-stop-details",
-    "ligature": "stop_details"
+    "ligature": "stop_details",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "stop-summary",
     "tags": [],
     "categories": [],
     "class": "modus-stop-summary",
-    "ligature": "stop_summary"
+    "ligature": "stop_summary",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "stop-time",
     "tags": [],
     "categories": [],
     "class": "modus-stop-time",
-    "ligature": "stop_time"
+    "ligature": "stop_time",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "suggestion",
     "tags": [],
     "categories": [],
     "class": "modus-suggestion",
-    "ligature": "suggestion"
+    "ligature": "suggestion",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "swatch",
     "tags": [],
     "categories": [],
     "class": "modus-swatch",
-    "ligature": "swatch"
+    "ligature": "swatch",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "toggle",
     "tags": [],
     "categories": [],
     "class": "modus-toggle",
-    "ligature": "toggle"
+    "ligature": "toggle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "traffic",
     "tags": [],
     "categories": [],
     "class": "modus-traffic",
-    "ligature": "traffic"
+    "ligature": "traffic",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "train",
     "tags": [],
     "categories": [],
     "class": "modus-train",
-    "ligature": "train"
+    "ligature": "train",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "trash",
     "tags": [],
     "categories": [],
     "class": "modus-trash",
-    "ligature": "trash"
+    "ligature": "trash",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "triangle-left",
     "tags": [],
     "categories": [],
     "class": "modus-triangle-left",
-    "ligature": "triangle_left"
+    "ligature": "triangle_left",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "triangle-right",
     "tags": [],
     "categories": [],
     "class": "modus-triangle-right",
-    "ligature": "triangle_right"
+    "ligature": "triangle_right",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "trim-fake-orders",
     "tags": [],
     "categories": [],
     "class": "modus-trim-fake-orders",
-    "ligature": "trim_fake_orders"
+    "ligature": "trim_fake_orders",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "truck",
     "tags": [],
     "categories": [],
     "class": "modus-truck",
-    "ligature": "truck"
+    "ligature": "truck",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "turn-dispatch-mode-on",
     "tags": [],
     "categories": [],
     "class": "modus-turn-dispatch-mode-on",
-    "ligature": "turn_dispatch_mode_on"
+    "ligature": "turn_dispatch_mode_on",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "two-way",
     "tags": [],
     "categories": [],
     "class": "modus-two-way",
-    "ligature": "two_way"
+    "ligature": "two_way",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "unload-route-stop",
     "tags": [],
     "categories": [],
     "class": "modus-unload-route-stop",
-    "ligature": "unload_route_stop"
+    "ligature": "unload_route_stop",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "unloaded-order",
     "tags": [],
     "categories": [],
     "class": "modus-unloaded-order",
-    "ligature": "unloaded_order"
+    "ligature": "unloaded_order",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "unloaded-orders",
     "tags": [],
     "categories": [],
     "class": "modus-unloaded-orders",
-    "ligature": "unloaded_orders"
+    "ligature": "unloaded_orders",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "update",
     "tags": [],
     "categories": [],
     "class": "modus-update",
-    "ligature": "update"
+    "ligature": "update",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "upgrade-modifiers",
     "tags": [],
     "categories": [],
     "class": "modus-upgrade-modifiers",
-    "ligature": "upgrade_modifiers"
+    "ligature": "upgrade_modifiers",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "user",
     "tags": [],
     "categories": [],
     "class": "modus-user",
-    "ligature": "user"
+    "ligature": "user",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "user-fields",
     "tags": [],
     "categories": [],
     "class": "modus-user-fields",
-    "ligature": "user_fields"
+    "ligature": "user_fields",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "vehicle-groups",
     "tags": [],
     "categories": [],
     "class": "modus-vehicle-groups",
-    "ligature": "vehicle_groups"
+    "ligature": "vehicle_groups",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "visibility",
     "tags": [],
     "categories": [],
     "class": "modus-visibility",
-    "ligature": "visibility"
+    "ligature": "visibility",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "visibility-off",
     "tags": [],
     "categories": [],
     "class": "modus-visibility-off",
-    "ligature": "visibility_off"
+    "ligature": "visibility_off",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "volumes",
     "tags": [],
     "categories": [],
     "class": "modus-volumes",
-    "ligature": "volumes"
+    "ligature": "volumes",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "weather-alerts",
     "tags": [],
     "categories": [],
     "class": "modus-weather-alerts",
-    "ligature": "weather_alerts"
+    "ligature": "weather_alerts",
+    "deprecated": false,
+    "useIntead": ""
   }
 ]

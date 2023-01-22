@@ -24,6 +24,8 @@ async function buildMetadata(config) {
         categories: [],
         class: (name) => `modus-${name}`,
         ligature: (name) => name.replace(/-/g, '_'),
+        deprecated: false,
+        useIntead: '',
       };
       const files = fs.readdirSync(srcDirectoryPath);
       files.forEach((file) => {
@@ -33,16 +35,22 @@ async function buildMetadata(config) {
         if (!icon && !allConfigIcons.includes(basename)) {
           json.push({
             name: metadataDefaults.name(basename),
-            tags: metadataDefaults.tags(basename),
-            categories: metadataDefaults.categories(basename),
+            tags: metadataDefaults.tags,
+            categories: metadataDefaults.categories,
             class: metadataDefaults.class(basename),
             ligature: metadataDefaults.ligature(basename),
+            deprecated: metadataDefaults.deprecated,
+            useIntead: metadataDefaults.useIntead,
           });
         }
         if (icon) {
           Object.keys(metadataDefaults).forEach((key) => {
-            if (!icon[key] && typeof metadataDefaults[key] === 'function') {
-              icon[key] = metadataDefaults[key](basename);
+            if (!icon[key]) {
+              if (typeof metadataDefaults[key] === 'function') {
+                icon[key] = metadataDefaults[key](basename);
+              } else {
+                icon[key] = metadataDefaults[key];
+              }
             }
           });
         }
@@ -53,6 +61,10 @@ async function buildMetadata(config) {
         } else {
           allConfigIcons.push(basename);
         }
+      });
+      // remove icons that no longer exist
+      json = json.filter((icon) => {
+        return fs.existsSync(path.join(srcDirectoryPath, `${icon.name}.svg`));
       });
       fs.writeFileSync(
         path.join(srcDirectoryPath, '_metadata.json'),

@@ -11,7 +11,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-add-circle",
-    "ligature": "add_circle"
+    "ligature": "add_circle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "address",
@@ -23,14 +25,18 @@
       "Account & Support"
     ],
     "class": "modus-address",
-    "ligature": "address"
+    "ligature": "address",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "advanced-instructions",
     "tags": [],
     "categories": [],
     "class": "modus-advanced-instructions",
-    "ligature": "advanced_instructions"
+    "ligature": "advanced_instructions",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "alert",
@@ -43,7 +49,9 @@
       "Alerts & Messages"
     ],
     "class": "modus-alert",
-    "ligature": "alert"
+    "ligature": "alert",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "align-bottom",
@@ -52,7 +60,9 @@
       "Presentations & View"
     ],
     "class": "modus-align-bottom",
-    "ligature": "align_bottom"
+    "ligature": "align_bottom",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "align-center-horiz",
@@ -63,7 +73,9 @@
       "Presentations & View"
     ],
     "class": "modus-align-center-horiz",
-    "ligature": "align_center_horiz"
+    "ligature": "align_center_horiz",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "align-center-vert",
@@ -74,7 +86,9 @@
       "Presentations & View"
     ],
     "class": "modus-align-center-vert",
-    "ligature": "align_center_vert"
+    "ligature": "align_center_vert",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "align-left",
@@ -83,7 +97,9 @@
       "Presentations & View"
     ],
     "class": "modus-align-left",
-    "ligature": "align_left"
+    "ligature": "align_left",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "align-right",
@@ -92,7 +108,9 @@
       "Presentations & View"
     ],
     "class": "modus-align-right",
-    "ligature": "align_right"
+    "ligature": "align_right",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "align-top",
@@ -101,7 +119,9 @@
       "Presentations & View"
     ],
     "class": "modus-align-top",
-    "ligature": "align_top"
+    "ligature": "align_top",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "antenna",
@@ -113,7 +133,9 @@
       "Account & Support"
     ],
     "class": "modus-antenna",
-    "ligature": "antenna"
+    "ligature": "antenna",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "arrow-down",
@@ -122,7 +144,9 @@
       "Presentations & View"
     ],
     "class": "modus-arrow-down",
-    "ligature": "arrow_down"
+    "ligature": "arrow_down",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "arrow-left",
@@ -131,7 +155,9 @@
       "Presentations & View"
     ],
     "class": "modus-arrow-left",
-    "ligature": "arrow_left"
+    "ligature": "arrow_left",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "arrow-right",
@@ -140,7 +166,9 @@
       "Presentations & View"
     ],
     "class": "modus-arrow-right",
-    "ligature": "arrow_right"
+    "ligature": "arrow_right",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "arrow-up",
@@ -149,7 +177,9 @@
       "Presentations & View"
     ],
     "class": "modus-arrow-up",
-    "ligature": "arrow_up"
+    "ligature": "arrow_up",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "bar-graph",
@@ -162,7 +192,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-bar-graph",
-    "ligature": "bar_graph"
+    "ligature": "bar_graph",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "bar-graph-line",
@@ -175,7 +207,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-bar-graph-line",
-    "ligature": "bar_graph_line"
+    "ligature": "bar_graph_line",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "barcode",
@@ -188,7 +222,9 @@
       "Presentations & View"
     ],
     "class": "modus-barcode",
-    "ligature": "barcode"
+    "ligature": "barcode",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "bolt",
@@ -201,7 +237,9 @@
       "Weather"
     ],
     "class": "modus-bolt",
-    "ligature": "bolt"
+    "ligature": "bolt",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "brightness",
@@ -214,7 +252,9 @@
       "Presentations & View"
     ],
     "class": "modus-brightness",
-    "ligature": "brightness"
+    "ligature": "brightness",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "brush",
@@ -226,7 +266,9 @@
       "Presentations & View"
     ],
     "class": "modus-brush",
-    "ligature": "brush"
+    "ligature": "brush",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "buildings",
@@ -237,7 +279,9 @@
       "Presentations & View"
     ],
     "class": "modus-buildings",
-    "ligature": "buildings"
+    "ligature": "buildings",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "calculate",
@@ -248,7 +292,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-calculate",
-    "ligature": "calculate"
+    "ligature": "calculate",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "calculator",
@@ -259,7 +305,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-calculator",
-    "ligature": "calculator"
+    "ligature": "calculator",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "calculator-symbols",
@@ -270,7 +318,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-calculator-symbols",
-    "ligature": "calculator_symbols"
+    "ligature": "calculator_symbols",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "calendar",
@@ -284,7 +334,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-calendar",
-    "ligature": "calendar"
+    "ligature": "calendar",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "calendar-check",
@@ -298,7 +350,9 @@
       "Account & Support"
     ],
     "class": "modus-calendar-check",
-    "ligature": "calendar_check"
+    "ligature": "calendar_check",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "calendar-event",
@@ -312,7 +366,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-calendar-event",
-    "ligature": "calendar_event"
+    "ligature": "calendar_event",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "calendar-week",
@@ -326,7 +382,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-calendar-week",
-    "ligature": "calendar_week"
+    "ligature": "calendar_week",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "camera",
@@ -338,7 +396,9 @@
       "Presentations & View"
     ],
     "class": "modus-camera",
-    "ligature": "camera"
+    "ligature": "camera",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "camera-disabled",
@@ -350,7 +410,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-camera-disabled",
-    "ligature": "camera_disabled"
+    "ligature": "camera_disabled",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "cancel-circle",
@@ -367,7 +429,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-cancel-circle",
-    "ligature": "cancel_circle"
+    "ligature": "cancel_circle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "certificate",
@@ -378,7 +442,9 @@
       "Account & Support"
     ],
     "class": "modus-certificate",
-    "ligature": "certificate"
+    "ligature": "certificate",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "chat",
@@ -391,7 +457,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-chat",
-    "ligature": "chat"
+    "ligature": "chat",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "check",
@@ -404,7 +472,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-check",
-    "ligature": "check"
+    "ligature": "check",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "check-circle",
@@ -417,7 +487,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-check-circle",
-    "ligature": "check_circle"
+    "ligature": "check_circle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "clipboard",
@@ -428,7 +500,9 @@
       "Save & Share"
     ],
     "class": "modus-clipboard",
-    "ligature": "clipboard"
+    "ligature": "clipboard",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "clipboard-actions",
@@ -437,7 +511,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-clipboard-actions",
-    "ligature": "clipboard_actions"
+    "ligature": "clipboard_actions",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "clipboard-check",
@@ -449,7 +525,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-clipboard-check",
-    "ligature": "clipboard_check"
+    "ligature": "clipboard_check",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "close",
@@ -466,7 +544,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-close",
-    "ligature": "close"
+    "ligature": "close",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "cloud",
@@ -477,7 +557,9 @@
       "Weather"
     ],
     "class": "modus-cloud",
-    "ligature": "cloud"
+    "ligature": "cloud",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "cloud-download",
@@ -488,7 +570,9 @@
       "Save & Share"
     ],
     "class": "modus-cloud-download",
-    "ligature": "cloud_download"
+    "ligature": "cloud_download",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "cloud-upload",
@@ -501,7 +585,9 @@
       "Save & Share"
     ],
     "class": "modus-cloud-upload",
-    "ligature": "cloud_upload"
+    "ligature": "cloud_upload",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "collapse",
@@ -510,7 +596,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-collapse",
-    "ligature": "collapse"
+    "ligature": "collapse",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "color-picker",
@@ -522,7 +610,9 @@
       "Presentations & View"
     ],
     "class": "modus-color-picker",
-    "ligature": "color_picker"
+    "ligature": "color_picker",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "comment",
@@ -535,12 +625,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-comment",
-    "ligature": "comment"
-  },
-  {
-    "name": "compare-arrows",
-    "tags": [],
-    "categories": []
+    "ligature": "comment",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "compass",
@@ -558,7 +645,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-compass",
-    "ligature": "compass"
+    "ligature": "compass",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "component",
@@ -569,7 +658,9 @@
       "Presentations & View"
     ],
     "class": "modus-component",
-    "ligature": "component"
+    "ligature": "component",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "contacts",
@@ -582,7 +673,9 @@
       "Account & Support"
     ],
     "class": "modus-contacts",
-    "ligature": "contacts"
+    "ligature": "contacts",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "contrast",
@@ -591,7 +684,9 @@
       "Presentations & View"
     ],
     "class": "modus-contrast",
-    "ligature": "contrast"
+    "ligature": "contrast",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "copy-content",
@@ -602,7 +697,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-copy-content",
-    "ligature": "copy_content"
+    "ligature": "copy_content",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "credit-card",
@@ -613,14 +710,9 @@
       "Account & Support"
     ],
     "class": "modus-credit-card",
-    "ligature": "credit_card"
-  },
-  {
-    "name": "crop",
-    "tags": [
-      "resize"
-    ],
-    "categories": []
+    "ligature": "credit_card",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "cursor",
@@ -629,7 +721,9 @@
     ],
     "categories": [],
     "class": "modus-cursor",
-    "ligature": "cursor"
+    "ligature": "cursor",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "cursor-add",
@@ -641,7 +735,9 @@
     ],
     "categories": [],
     "class": "modus-cursor-add",
-    "ligature": "cursor_add"
+    "ligature": "cursor_add",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "cursor-remove",
@@ -653,7 +749,9 @@
     ],
     "categories": [],
     "class": "modus-cursor-remove",
-    "ligature": "cursor_remove"
+    "ligature": "cursor_remove",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "dashboard",
@@ -662,7 +760,9 @@
       "Programs"
     ],
     "class": "modus-dashboard",
-    "ligature": "dashboard"
+    "ligature": "dashboard",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "delete",
@@ -674,7 +774,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-delete",
-    "ligature": "delete"
+    "ligature": "delete",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "download",
@@ -683,7 +785,9 @@
       "Save & Share"
     ],
     "class": "modus-download",
-    "ligature": "download"
+    "ligature": "download",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "download-line",
@@ -692,7 +796,9 @@
       "Save & Share"
     ],
     "class": "modus-download-line",
-    "ligature": "download_line"
+    "ligature": "download_line",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "download-xls",
@@ -701,7 +807,9 @@
       "Save & Share"
     ],
     "class": "modus-download-xls",
-    "ligature": "download_xls"
+    "ligature": "download_xls",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "drag-horizontal",
@@ -710,7 +818,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-drag-horizontal",
-    "ligature": "drag_horizontal"
+    "ligature": "drag_horizontal",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "drag-vertical",
@@ -719,7 +829,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-drag-vertical",
-    "ligature": "drag_vertical"
+    "ligature": "drag_vertical",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "drizzle",
@@ -730,7 +842,9 @@
       "Weather"
     ],
     "class": "modus-drizzle",
-    "ligature": "drizzle"
+    "ligature": "drizzle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "email",
@@ -742,14 +856,18 @@
       "Account & Support"
     ],
     "class": "modus-email",
-    "ligature": "email"
+    "ligature": "email",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "envelope",
     "tags": [],
     "categories": [],
     "class": "modus-envelope",
-    "ligature": "envelope"
+    "ligature": "envelope",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "expand",
@@ -761,27 +879,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-expand",
-    "ligature": "expand"
-  },
-  {
-    "name": "expand-less",
-    "tags": [
-      "arrow",
-      "chevron"
-    ],
-    "categories": [
-      "Actions & Navigation"
-    ]
-  },
-  {
-    "name": "expand-more",
-    "tags": [
-      "arrow",
-      "chevron"
-    ],
-    "categories": [
-      "Actions & Navigation"
-    ]
+    "ligature": "expand",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "fast-forward",
@@ -795,7 +895,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-fast-forward",
-    "ligature": "fast_forward"
+    "ligature": "fast_forward",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "fast-rewind",
@@ -809,7 +911,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-fast-rewind",
-    "ligature": "fast_rewind"
+    "ligature": "fast_rewind",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file",
@@ -821,7 +925,9 @@
       "Folders & Files"
     ],
     "class": "modus-file",
-    "ligature": "file"
+    "ligature": "file",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-copy",
@@ -834,7 +940,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-copy",
-    "ligature": "file_copy"
+    "ligature": "file_copy",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-edit",
@@ -845,7 +953,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-edit",
-    "ligature": "file_edit"
+    "ligature": "file_edit",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-merge",
@@ -856,7 +966,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-merge",
-    "ligature": "file_merge"
+    "ligature": "file_merge",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-missing",
@@ -867,7 +979,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-missing",
-    "ligature": "file_missing"
+    "ligature": "file_missing",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-new",
@@ -878,7 +992,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-new",
-    "ligature": "file_new"
+    "ligature": "file_new",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-type-doc",
@@ -889,7 +1005,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-type-doc",
-    "ligature": "file_type_doc"
+    "ligature": "file_type_doc",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-type-log",
@@ -900,7 +1018,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-type-log",
-    "ligature": "file_type_log"
+    "ligature": "file_type_log",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-type-pdf",
@@ -911,7 +1031,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-type-pdf",
-    "ligature": "file_type_pdf"
+    "ligature": "file_type_pdf",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-type-rfi",
@@ -922,7 +1044,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-type-rfi",
-    "ligature": "file_type_rfi"
+    "ligature": "file_type_rfi",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-type-rfq",
@@ -933,7 +1057,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-type-rfq",
-    "ligature": "file_type_rfq"
+    "ligature": "file_type_rfq",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-type-tmp",
@@ -944,7 +1070,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-type-tmp",
-    "ligature": "file_type_tmp"
+    "ligature": "file_type_tmp",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "file-type-xls",
@@ -955,7 +1083,9 @@
       "Folders & Files"
     ],
     "class": "modus-file-type-xls",
-    "ligature": "file_type_xls"
+    "ligature": "file_type_xls",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "filter",
@@ -966,7 +1096,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-filter",
-    "ligature": "filter"
+    "ligature": "filter",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "filter-list",
@@ -977,7 +1109,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-filter-list",
-    "ligature": "filter_list"
+    "ligature": "filter_list",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "filter-off",
@@ -988,7 +1122,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-filter-off",
-    "ligature": "filter_off"
+    "ligature": "filter_off",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "floorplan",
@@ -1000,7 +1136,9 @@
       "Presentations & View"
     ],
     "class": "modus-floorplan",
-    "ligature": "floorplan"
+    "ligature": "floorplan",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "flowchart",
@@ -1011,7 +1149,9 @@
       "Presentations & View"
     ],
     "class": "modus-flowchart",
-    "ligature": "flowchart"
+    "ligature": "flowchart",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "fog",
@@ -1020,14 +1160,9 @@
       "Weather"
     ],
     "class": "modus-fog",
-    "ligature": "fog"
-  },
-  {
-    "name": "folder",
-    "tags": [
-      "viewpoint"
-    ],
-    "categories": []
+    "ligature": "fog",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "folder-closed",
@@ -1036,7 +1171,9 @@
       "Folders & Files"
     ],
     "class": "modus-folder-closed",
-    "ligature": "folder_closed"
+    "ligature": "folder_closed",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "folder-locked",
@@ -1048,7 +1185,9 @@
       "Folders & Files"
     ],
     "class": "modus-folder-locked",
-    "ligature": "folder_locked"
+    "ligature": "folder_locked",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "folder-new",
@@ -1059,7 +1198,9 @@
       "Folders & Files"
     ],
     "class": "modus-folder-new",
-    "ligature": "folder_new"
+    "ligature": "folder_new",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "folder-open",
@@ -1068,7 +1209,9 @@
       "Folders & Files"
     ],
     "class": "modus-folder-open",
-    "ligature": "folder_open"
+    "ligature": "folder_open",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "folder-personal",
@@ -1082,7 +1225,9 @@
       "Folders & Files"
     ],
     "class": "modus-folder-personal",
-    "ligature": "folder_personal"
+    "ligature": "folder_personal",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "folder-project",
@@ -1094,7 +1239,9 @@
       "Folders & Files"
     ],
     "class": "modus-folder-project",
-    "ligature": "folder_project"
+    "ligature": "folder_project",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "folder-public",
@@ -1103,7 +1250,9 @@
       "Folders & Files"
     ],
     "class": "modus-folder-public",
-    "ligature": "folder_public"
+    "ligature": "folder_public",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "folder-share",
@@ -1112,7 +1261,9 @@
       "Folders & Files"
     ],
     "class": "modus-folder-share",
-    "ligature": "folder_share"
+    "ligature": "folder_share",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "folder-unlocked",
@@ -1121,7 +1272,9 @@
       "Folders & Files"
     ],
     "class": "modus-folder-unlocked",
-    "ligature": "folder_unlocked"
+    "ligature": "folder_unlocked",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "footprints",
@@ -1130,7 +1283,9 @@
     ],
     "categories": [],
     "class": "modus-footprints",
-    "ligature": "footprints"
+    "ligature": "footprints",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "frame",
@@ -1139,7 +1294,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-frame",
-    "ligature": "frame"
+    "ligature": "frame",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "full-screen",
@@ -1152,7 +1309,9 @@
       "Presentations & View"
     ],
     "class": "modus-full-screen",
-    "ligature": "full_screen"
+    "ligature": "full_screen",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "group-items",
@@ -1163,7 +1322,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-group-items",
-    "ligature": "group_items"
+    "ligature": "group_items",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "hail",
@@ -1175,7 +1336,9 @@
       "Weather"
     ],
     "class": "modus-hail",
-    "ligature": "hail"
+    "ligature": "hail",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "hail-heavy",
@@ -1187,7 +1350,9 @@
       "weather"
     ],
     "class": "modus-hail-heavy",
-    "ligature": "hail_heavy"
+    "ligature": "hail_heavy",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "hail-light",
@@ -1199,7 +1364,9 @@
       "weather"
     ],
     "class": "modus-hail-light",
-    "ligature": "hail_light"
+    "ligature": "hail_light",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "hammer",
@@ -1211,7 +1378,9 @@
       "Account & Support"
     ],
     "class": "modus-hammer",
-    "ligature": "hammer"
+    "ligature": "hammer",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "hard-hat",
@@ -1223,7 +1392,9 @@
       "Presentations & View"
     ],
     "class": "modus-hard-hat",
-    "ligature": "hard_hat"
+    "ligature": "hard_hat",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "headset",
@@ -1234,7 +1405,9 @@
       "Account & Support"
     ],
     "class": "modus-headset",
-    "ligature": "headset"
+    "ligature": "headset",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "help",
@@ -1245,7 +1418,9 @@
       "Alerts & Messages"
     ],
     "class": "modus-help",
-    "ligature": "help"
+    "ligature": "help",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "history",
@@ -1256,7 +1431,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-history",
-    "ligature": "history"
+    "ligature": "history",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "home",
@@ -1267,7 +1444,9 @@
       "Programs"
     ],
     "class": "modus-home",
-    "ligature": "home"
+    "ligature": "home",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "hourglass",
@@ -1281,7 +1460,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-hourglass",
-    "ligature": "hourglass"
+    "ligature": "hourglass",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "ice",
@@ -1292,7 +1473,9 @@
       "Weather"
     ],
     "class": "modus-ice",
-    "ligature": "ice"
+    "ligature": "ice",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "image",
@@ -1303,14 +1486,18 @@
       "Presentations & View"
     ],
     "class": "modus-image",
-    "ligature": "image"
+    "ligature": "image",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "image-scene",
     "tags": [],
     "categories": [],
     "class": "modus-image-scene",
-    "ligature": "image_scene"
+    "ligature": "image_scene",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "info",
@@ -1321,7 +1508,9 @@
       "Alerts & Messages"
     ],
     "class": "modus-info",
-    "ligature": "info"
+    "ligature": "info",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "inspect",
@@ -1330,7 +1519,9 @@
       "Alerts & Messages"
     ],
     "class": "modus-inspect",
-    "ligature": "inspect"
+    "ligature": "inspect",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "key",
@@ -1342,7 +1533,9 @@
       "Account & Support"
     ],
     "class": "modus-key",
-    "ligature": "key"
+    "ligature": "key",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "keyboard",
@@ -1351,7 +1544,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-keyboard",
-    "ligature": "keyboard"
+    "ligature": "keyboard",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "keyboard-keys",
@@ -1360,7 +1555,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-keyboard-keys",
-    "ligature": "keyboard_keys"
+    "ligature": "keyboard_keys",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "language",
@@ -1373,7 +1570,9 @@
       "Account & Support"
     ],
     "class": "modus-language",
-    "ligature": "language"
+    "ligature": "language",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "launch",
@@ -1382,7 +1581,9 @@
       "Programs"
     ],
     "class": "modus-launch",
-    "ligature": "launch"
+    "ligature": "launch",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "layer",
@@ -1391,14 +1592,18 @@
       "Presentations & View"
     ],
     "class": "modus-layer",
-    "ligature": "layer"
+    "ligature": "layer",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "learn",
     "tags": [],
     "categories": [],
     "class": "modus-learn",
-    "ligature": "learn"
+    "ligature": "learn",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "lightbulb-off",
@@ -1407,7 +1612,9 @@
       "Alerts & Messages"
     ],
     "class": "modus-lightbulb-off",
-    "ligature": "lightbulb_off"
+    "ligature": "lightbulb_off",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "lightbulb-on",
@@ -1416,7 +1623,9 @@
       "Alerts & Messages"
     ],
     "class": "modus-lightbulb-on",
-    "ligature": "lightbulb_on"
+    "ligature": "lightbulb_on",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "lightning",
@@ -1428,7 +1637,9 @@
       "Weather"
     ],
     "class": "modus-lightning",
-    "ligature": "lightning"
+    "ligature": "lightning",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "link",
@@ -1437,7 +1648,9 @@
       "Save & Share"
     ],
     "class": "modus-link",
-    "ligature": "link"
+    "ligature": "link",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "link-broken",
@@ -1446,7 +1659,9 @@
       "Save & Share"
     ],
     "class": "modus-link-broken",
-    "ligature": "link_broken"
+    "ligature": "link_broken",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "link-off",
@@ -1455,7 +1670,9 @@
       "Save & Share"
     ],
     "class": "modus-link-off",
-    "ligature": "link_off"
+    "ligature": "link_off",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "location",
@@ -1464,7 +1681,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-location",
-    "ligature": "location"
+    "ligature": "location",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "location-point",
@@ -1473,7 +1692,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-location-point",
-    "ligature": "location_point"
+    "ligature": "location_point",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "lock",
@@ -1485,7 +1706,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-lock",
-    "ligature": "lock"
+    "ligature": "lock",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "lock-open",
@@ -1497,7 +1720,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-lock-open",
-    "ligature": "lock_open"
+    "ligature": "lock_open",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "manage-accounts",
@@ -1510,7 +1735,9 @@
       "Programs"
     ],
     "class": "modus-manage-accounts",
-    "ligature": "manage_accounts"
+    "ligature": "manage_accounts",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "map",
@@ -1522,7 +1749,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-map",
-    "ligature": "map"
+    "ligature": "map",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "map-2d",
@@ -1534,7 +1763,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-map-2d",
-    "ligature": "map_2d"
+    "ligature": "map_2d",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "map-marker",
@@ -1543,7 +1774,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-map-marker",
-    "ligature": "map_marker"
+    "ligature": "map_marker",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "map-markers",
@@ -1552,7 +1785,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-map-markers",
-    "ligature": "map_markers"
+    "ligature": "map_markers",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "map-poi",
@@ -1563,7 +1798,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-map-poi",
-    "ligature": "map_poi"
+    "ligature": "map_poi",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "megaphone",
@@ -1576,7 +1813,9 @@
       "Presentations & View"
     ],
     "class": "modus-megaphone",
-    "ligature": "megaphone"
+    "ligature": "megaphone",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "menu",
@@ -1588,7 +1827,9 @@
       "Programs"
     ],
     "class": "modus-menu",
-    "ligature": "menu"
+    "ligature": "menu",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "menu-circle",
@@ -1600,7 +1841,9 @@
       "Programs"
     ],
     "class": "modus-menu-circle",
-    "ligature": "menu_circle"
+    "ligature": "menu_circle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "mic",
@@ -1610,7 +1853,9 @@
     ],
     "categories": [],
     "class": "modus-mic",
-    "ligature": "mic"
+    "ligature": "mic",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "mix",
@@ -1622,7 +1867,9 @@
       "Weather"
     ],
     "class": "modus-mix",
-    "ligature": "mix"
+    "ligature": "mix",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "moon",
@@ -1635,7 +1882,9 @@
       "Weather"
     ],
     "class": "modus-moon",
-    "ligature": "moon"
+    "ligature": "moon",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "more-circle",
@@ -1649,7 +1898,9 @@
       "Programs"
     ],
     "class": "modus-more-circle",
-    "ligature": "more_circle"
+    "ligature": "more_circle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "mouse",
@@ -1658,7 +1909,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-mouse",
-    "ligature": "mouse"
+    "ligature": "mouse",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "move",
@@ -1670,7 +1923,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-move",
-    "ligature": "move"
+    "ligature": "move",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "object-outline",
@@ -1681,7 +1936,9 @@
       "Presentations & View"
     ],
     "class": "modus-object-outline",
-    "ligature": "object_outline"
+    "ligature": "object_outline",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "overcast",
@@ -1693,7 +1950,9 @@
       "Weather"
     ],
     "class": "modus-overcast",
-    "ligature": "overcast"
+    "ligature": "overcast",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "paint-bucket",
@@ -1706,7 +1965,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-paint-bucket",
-    "ligature": "paint_bucket"
+    "ligature": "paint_bucket",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "pan",
@@ -1718,14 +1979,18 @@
       "Presentations & View"
     ],
     "class": "modus-pan",
-    "ligature": "pan"
+    "ligature": "pan",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "password",
     "tags": [],
     "categories": [],
     "class": "modus-password",
-    "ligature": "password"
+    "ligature": "password",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "pause-circle",
@@ -1738,7 +2003,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-pause-circle",
-    "ligature": "pause_circle"
+    "ligature": "pause_circle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "pen",
@@ -1752,7 +2019,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-pen",
-    "ligature": "pen"
+    "ligature": "pen",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "pencil",
@@ -1763,7 +2032,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-pencil",
-    "ligature": "pencil"
+    "ligature": "pencil",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "people-group",
@@ -1772,7 +2043,9 @@
     ],
     "categories": [],
     "class": "modus-people-group",
-    "ligature": "people_group"
+    "ligature": "people_group",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "person",
@@ -1783,7 +2056,9 @@
       "Account & Support"
     ],
     "class": "modus-person",
-    "ligature": "person"
+    "ligature": "person",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "phone",
@@ -1792,7 +2067,9 @@
       "Account & Support"
     ],
     "class": "modus-phone",
-    "ligature": "phone"
+    "ligature": "phone",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "phone-call",
@@ -1803,7 +2080,9 @@
       "Account & Support"
     ],
     "class": "modus-phone-call",
-    "ligature": "phone_call"
+    "ligature": "phone_call",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "phone-hang-up",
@@ -1814,7 +2093,9 @@
       "Account & Support"
     ],
     "class": "modus-phone-hang-up",
-    "ligature": "phone_hang_up"
+    "ligature": "phone_hang_up",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "phone-mobile",
@@ -1823,7 +2104,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-phone-mobile",
-    "ligature": "phone_mobile"
+    "ligature": "phone_mobile",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "pin",
@@ -1836,14 +2119,18 @@
       "Presentations & View"
     ],
     "class": "modus-pin",
-    "ligature": "pin"
+    "ligature": "pin",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "pin-add",
     "tags": [],
     "categories": [],
     "class": "modus-pin-add",
-    "ligature": "pin_add"
+    "ligature": "pin_add",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "planning",
@@ -1855,7 +2142,9 @@
       "Presentations & View"
     ],
     "class": "modus-planning",
-    "ligature": "planning"
+    "ligature": "planning",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "play-circle",
@@ -1869,7 +2158,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-play-circle",
-    "ligature": "play_circle"
+    "ligature": "play_circle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "polygon",
@@ -1878,7 +2169,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-polygon",
-    "ligature": "polygon"
+    "ligature": "polygon",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "polygon-area-tool",
@@ -1887,7 +2180,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-polygon-area-tool",
-    "ligature": "polygon_area_tool"
+    "ligature": "polygon_area_tool",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "polygon-concave",
@@ -1896,7 +2191,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-polygon-concave",
-    "ligature": "polygon_concave"
+    "ligature": "polygon_concave",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "polygon-cone",
@@ -1905,7 +2202,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-polygon-cone",
-    "ligature": "polygon_cone"
+    "ligature": "polygon_cone",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "polygon-select",
@@ -1914,7 +2213,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-polygon-select",
-    "ligature": "polygon_select"
+    "ligature": "polygon_select",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "pulse",
@@ -1926,7 +2227,9 @@
       "Presentations & View"
     ],
     "class": "modus-pulse",
-    "ligature": "pulse"
+    "ligature": "pulse",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "question",
@@ -1935,7 +2238,9 @@
       "Account & Support"
     ],
     "class": "modus-question",
-    "ligature": "question"
+    "ligature": "question",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "rain",
@@ -1946,7 +2251,9 @@
       "Weather"
     ],
     "class": "modus-rain",
-    "ligature": "rain"
+    "ligature": "rain",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "rain-heavy",
@@ -1958,7 +2265,9 @@
       "Weather"
     ],
     "class": "modus-rain-heavy",
-    "ligature": "rain_heavy"
+    "ligature": "rain_heavy",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "rain-icy",
@@ -1967,7 +2276,9 @@
       "Weather"
     ],
     "class": "modus-rain-icy",
-    "ligature": "rain_icy"
+    "ligature": "rain_icy",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "raindrop",
@@ -1978,7 +2289,9 @@
       "Weather"
     ],
     "class": "modus-raindrop",
-    "ligature": "raindrop"
+    "ligature": "raindrop",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "redo",
@@ -1990,7 +2303,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-redo",
-    "ligature": "redo"
+    "ligature": "redo",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "refresh",
@@ -2006,7 +2321,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-refresh",
-    "ligature": "refresh"
+    "ligature": "refresh",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "remove-circle",
@@ -2018,7 +2335,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-remove-circle",
-    "ligature": "remove_circle"
+    "ligature": "remove_circle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "reply",
@@ -2029,7 +2348,9 @@
       "Account & Support"
     ],
     "class": "modus-reply",
-    "ligature": "reply"
+    "ligature": "reply",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "ruler",
@@ -2041,7 +2362,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-ruler",
-    "ligature": "ruler"
+    "ligature": "ruler",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "save-as",
@@ -2050,7 +2373,9 @@
       "Save & Share"
     ],
     "class": "modus-save-as",
-    "ligature": "save_as"
+    "ligature": "save_as",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "save-disk",
@@ -2059,7 +2384,9 @@
       "Save & Share"
     ],
     "class": "modus-save-disk",
-    "ligature": "save_disk"
+    "ligature": "save_disk",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "scissors",
@@ -2070,7 +2397,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-scissors",
-    "ligature": "scissors"
+    "ligature": "scissors",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "screen",
@@ -2079,7 +2408,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-screen",
-    "ligature": "screen"
+    "ligature": "screen",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "screenshot",
@@ -2088,7 +2419,9 @@
       "Presentations & View"
     ],
     "class": "modus-screenshot",
-    "ligature": "screenshot"
+    "ligature": "screenshot",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "search",
@@ -2100,7 +2433,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-search",
-    "ligature": "search"
+    "ligature": "search",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "server",
@@ -2109,7 +2444,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-server",
-    "ligature": "server"
+    "ligature": "server",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "server-round",
@@ -2118,7 +2455,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-server-round",
-    "ligature": "server_round"
+    "ligature": "server_round",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "settings",
@@ -2132,7 +2471,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-settings",
-    "ligature": "settings"
+    "ligature": "settings",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "share",
@@ -2141,7 +2482,9 @@
       "Save & Share"
     ],
     "class": "modus-share",
-    "ligature": "share"
+    "ligature": "share",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "shield",
@@ -2152,7 +2495,9 @@
       "Account & Support"
     ],
     "class": "modus-shield",
-    "ligature": "shield"
+    "ligature": "shield",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "shortcut",
@@ -2161,7 +2506,9 @@
       "Account & Support"
     ],
     "class": "modus-shortcut",
-    "ligature": "shortcut"
+    "ligature": "shortcut",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "shovel",
@@ -2173,7 +2520,9 @@
       "Presentations & View"
     ],
     "class": "modus-shovel",
-    "ligature": "shovel"
+    "ligature": "shovel",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "sign-in",
@@ -2185,7 +2534,9 @@
       "Account & Support"
     ],
     "class": "modus-sign-in",
-    "ligature": "sign_in"
+    "ligature": "sign_in",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "sign-out",
@@ -2198,7 +2549,9 @@
       "Account & Support"
     ],
     "class": "modus-sign-out",
-    "ligature": "sign_out"
+    "ligature": "sign_out",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "signal",
@@ -2207,7 +2560,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-signal",
-    "ligature": "signal"
+    "ligature": "signal",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "snow-heavy",
@@ -2219,7 +2574,9 @@
       "Weather"
     ],
     "class": "modus-snow-heavy",
-    "ligature": "snow_heavy"
+    "ligature": "snow_heavy",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "snow-light",
@@ -2228,7 +2585,9 @@
       "Weather"
     ],
     "class": "modus-snow-light",
-    "ligature": "snow_light"
+    "ligature": "snow_light",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "snow-particle",
@@ -2239,7 +2598,9 @@
       "Weather"
     ],
     "class": "modus-snow-particle",
-    "ligature": "snow_particle"
+    "ligature": "snow_particle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "snowflake",
@@ -2250,7 +2611,9 @@
       "Weather"
     ],
     "class": "modus-snowflake",
-    "ligature": "snowflake"
+    "ligature": "snowflake",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "snowflakes",
@@ -2261,7 +2624,9 @@
       "Weather"
     ],
     "class": "modus-snowflakes",
-    "ligature": "snowflakes"
+    "ligature": "snowflakes",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "sort-alpha-down",
@@ -2272,7 +2637,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-sort-alpha-down",
-    "ligature": "sort_alpha_down"
+    "ligature": "sort_alpha_down",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "sort-alpha-up",
@@ -2284,7 +2651,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-sort-alpha-up",
-    "ligature": "sort_alpha_up"
+    "ligature": "sort_alpha_up",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "sort-down",
@@ -2295,7 +2664,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-sort-down",
-    "ligature": "sort_down"
+    "ligature": "sort_down",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "sort-up",
@@ -2307,7 +2678,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-sort-up",
-    "ligature": "sort_up"
+    "ligature": "sort_up",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "star",
@@ -2323,7 +2696,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-star",
-    "ligature": "star"
+    "ligature": "star",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "star-empty",
@@ -2332,7 +2707,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-star-empty",
-    "ligature": "star_empty"
+    "ligature": "star_empty",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "star-locked",
@@ -2343,7 +2720,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-star-locked",
-    "ligature": "star_locked"
+    "ligature": "star_locked",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "stop-circle",
@@ -2355,7 +2734,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-stop-circle",
-    "ligature": "stop_circle"
+    "ligature": "stop_circle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "sun",
@@ -2366,7 +2747,9 @@
       "Weather"
     ],
     "class": "modus-sun",
-    "ligature": "sun"
+    "ligature": "sun",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "sync",
@@ -2380,7 +2763,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-sync",
-    "ligature": "sync"
+    "ligature": "sync",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "sync-off",
@@ -2394,7 +2779,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-sync-off",
-    "ligature": "sync_off"
+    "ligature": "sync_off",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "tablet",
@@ -2403,7 +2790,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-tablet",
-    "ligature": "tablet"
+    "ligature": "tablet",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "text-input",
@@ -2415,7 +2804,9 @@
       "Presentations & View"
     ],
     "class": "modus-text-input",
-    "ligature": "text_input"
+    "ligature": "text_input",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "text-input-long",
@@ -2427,7 +2818,9 @@
       "Presentations & View"
     ],
     "class": "modus-text-input-long",
-    "ligature": "text_input_long"
+    "ligature": "text_input_long",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "text-input-short",
@@ -2439,7 +2832,9 @@
       "Presentations & View"
     ],
     "class": "modus-text-input-short",
-    "ligature": "text_input_short"
+    "ligature": "text_input_short",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "thermometer-cold",
@@ -2448,7 +2843,9 @@
       "Weather"
     ],
     "class": "modus-thermometer-cold",
-    "ligature": "thermometer_cold"
+    "ligature": "thermometer_cold",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "thermometer-hot",
@@ -2457,7 +2854,9 @@
       "Weather"
     ],
     "class": "modus-thermometer-hot",
-    "ligature": "thermometer_hot"
+    "ligature": "thermometer_hot",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "thumbs-down",
@@ -2468,7 +2867,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-thumbs-down",
-    "ligature": "thumbs_down"
+    "ligature": "thumbs_down",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "thumbs-up",
@@ -2479,7 +2880,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-thumbs-up",
-    "ligature": "thumbs_up"
+    "ligature": "thumbs_up",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "thunderstorm-heavy",
@@ -2493,7 +2896,9 @@
       "Weather"
     ],
     "class": "modus-thunderstorm-heavy",
-    "ligature": "thunderstorm_heavy"
+    "ligature": "thunderstorm_heavy",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "thunderstorm-light",
@@ -2505,21 +2910,27 @@
       "Weather"
     ],
     "class": "modus-thunderstorm-light",
-    "ligature": "thunderstorm_light"
+    "ligature": "thunderstorm_light",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "ticket",
     "tags": [],
     "categories": [],
     "class": "modus-ticket",
-    "ligature": "ticket"
+    "ligature": "ticket",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "ticket-plane",
     "tags": [],
     "categories": [],
     "class": "modus-ticket-plane",
-    "ligature": "ticket_plane"
+    "ligature": "ticket_plane",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "timer",
@@ -2531,7 +2942,9 @@
       "Account & Support"
     ],
     "class": "modus-timer",
-    "ligature": "timer"
+    "ligature": "timer",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "timer-countdown",
@@ -2543,7 +2956,9 @@
       "Account & Support"
     ],
     "class": "modus-timer-countdown",
-    "ligature": "timer_countdown"
+    "ligature": "timer_countdown",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "timesheet",
@@ -2554,7 +2969,9 @@
       "Account & Support"
     ],
     "class": "modus-timesheet",
-    "ligature": "timesheet"
+    "ligature": "timesheet",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "toggle-center",
@@ -2563,7 +2980,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-toggle-center",
-    "ligature": "toggle_center"
+    "ligature": "toggle_center",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "toggle-left-panel",
@@ -2572,7 +2991,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-toggle-left-panel",
-    "ligature": "toggle_left_panel"
+    "ligature": "toggle_left_panel",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "toggle-off",
@@ -2583,7 +3004,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-toggle-off",
-    "ligature": "toggle_off"
+    "ligature": "toggle_off",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "toggle-on",
@@ -2594,7 +3017,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-toggle-on",
-    "ligature": "toggle_on"
+    "ligature": "toggle_on",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "traffic-cone",
@@ -2603,7 +3028,9 @@
       "Presentations & View"
     ],
     "class": "modus-traffic-cone",
-    "ligature": "traffic_cone"
+    "ligature": "traffic_cone",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "tree-structure",
@@ -2612,7 +3039,9 @@
       "Presentations & View"
     ],
     "class": "modus-tree-structure",
-    "ligature": "tree_structure"
+    "ligature": "tree_structure",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "trimble-logo",
@@ -2621,7 +3050,9 @@
     ],
     "categories": [],
     "class": "modus-trimble-logo",
-    "ligature": "trimble_logo"
+    "ligature": "trimble_logo",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "tune",
@@ -2633,7 +3064,9 @@
       "Account & Support"
     ],
     "class": "modus-tune",
-    "ligature": "tune"
+    "ligature": "tune",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "tune-circle",
@@ -2643,7 +3076,9 @@
     ],
     "categories": [],
     "class": "modus-tune-circle",
-    "ligature": "tune_circle"
+    "ligature": "tune_circle",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "undo",
@@ -2655,7 +3090,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-undo",
-    "ligature": "undo"
+    "ligature": "undo",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "upload",
@@ -2670,7 +3107,9 @@
       "Save & Share"
     ],
     "class": "modus-upload",
-    "ligature": "upload"
+    "ligature": "upload",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "upload-xls",
@@ -2681,7 +3120,9 @@
       "Save & Share"
     ],
     "class": "modus-upload-xls",
-    "ligature": "upload_xls"
+    "ligature": "upload_xls",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "video",
@@ -2692,7 +3133,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-video",
-    "ligature": "video"
+    "ligature": "video",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "video-add",
@@ -2704,7 +3147,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-video-add",
-    "ligature": "video_add"
+    "ligature": "video_add",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "video-disabled",
@@ -2715,7 +3160,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-video-disabled",
-    "ligature": "video_disabled"
+    "ligature": "video_disabled",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "view",
@@ -2727,7 +3174,9 @@
       "Presentations & View"
     ],
     "class": "modus-view",
-    "ligature": "view"
+    "ligature": "view",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "volume-down",
@@ -2740,7 +3189,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-volume-down",
-    "ligature": "volume_down"
+    "ligature": "volume_down",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "volume-mute",
@@ -2753,7 +3204,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-volume-mute",
-    "ligature": "volume_mute"
+    "ligature": "volume_mute",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "volume-up",
@@ -2766,7 +3219,9 @@
       "Computer Hardware & Assets"
     ],
     "class": "modus-volume-up",
-    "ligature": "volume_up"
+    "ligature": "volume_up",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "warning",
@@ -2780,7 +3235,9 @@
       "Alerts & Messages"
     ],
     "class": "modus-warning",
-    "ligature": "warning"
+    "ligature": "warning",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "web",
@@ -2792,7 +3249,9 @@
       "Account & Support"
     ],
     "class": "modus-web",
-    "ligature": "web"
+    "ligature": "web",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "wheelbarrow",
@@ -2805,7 +3264,9 @@
       "Presentations & View"
     ],
     "class": "modus-wheelbarrow",
-    "ligature": "wheelbarrow"
+    "ligature": "wheelbarrow",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "widgets",
@@ -2814,7 +3275,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-widgets",
-    "ligature": "widgets"
+    "ligature": "widgets",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "wind",
@@ -2825,7 +3288,9 @@
       "Weather"
     ],
     "class": "modus-wind",
-    "ligature": "wind"
+    "ligature": "wind",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "window",
@@ -2834,7 +3299,9 @@
       "Presentations & View"
     ],
     "class": "modus-window",
-    "ligature": "window"
+    "ligature": "window",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "window-dock-undock",
@@ -2843,7 +3310,9 @@
       "Presentations & View"
     ],
     "class": "modus-window-dock-undock",
-    "ligature": "window_dock_undock"
+    "ligature": "window_dock_undock",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "window-fit",
@@ -2856,7 +3325,9 @@
       "Presentations & View"
     ],
     "class": "modus-window-fit",
-    "ligature": "window_fit"
+    "ligature": "window_fit",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "window-resize",
@@ -2865,7 +3336,9 @@
       "Presentations & View"
     ],
     "class": "modus-window-resize",
-    "ligature": "window_resize"
+    "ligature": "window_resize",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "window-side-panel",
@@ -2874,7 +3347,9 @@
       "Presentations & View"
     ],
     "class": "modus-window-side-panel",
-    "ligature": "window_side_panel"
+    "ligature": "window_side_panel",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "window-views",
@@ -2883,7 +3358,9 @@
       "Presentations & View"
     ],
     "class": "modus-window-views",
-    "ligature": "window_views"
+    "ligature": "window_views",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "window-wireframe",
@@ -2894,7 +3371,9 @@
       "Presentations & View"
     ],
     "class": "modus-window-wireframe",
-    "ligature": "window_wireframe"
+    "ligature": "window_wireframe",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "wintery-mix",
@@ -2906,7 +3385,9 @@
       "Weather"
     ],
     "class": "modus-wintery-mix",
-    "ligature": "wintery_mix"
+    "ligature": "wintery_mix",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "wrench",
@@ -2917,7 +3398,9 @@
       "Programs"
     ],
     "class": "modus-wrench",
-    "ligature": "wrench"
+    "ligature": "wrench",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "zoom-box",
@@ -2930,7 +3413,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-zoom-box",
-    "ligature": "zoom_box"
+    "ligature": "zoom_box",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "zoom-in",
@@ -2944,7 +3429,9 @@
       "Actions & Navigation"
     ],
     "class": "modus-zoom-in",
-    "ligature": "zoom_in"
+    "ligature": "zoom_in",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "zoom-out",
@@ -2958,6 +3445,8 @@
       "Actions & Navigation"
     ],
     "class": "modus-zoom-out",
-    "ligature": "zoom_out"
+    "ligature": "zoom_out",
+    "deprecated": false,
+    "useIntead": ""
   }
 ]

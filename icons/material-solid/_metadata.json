@@ -4,14 +4,18 @@
     "categories": [],
     "tags": [],
     "class": "modus-compare-arrows",
-    "ligature": "compare_arrows"
+    "ligature": "compare_arrows",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "crop",
     "categories": [],
     "tags": [],
     "class": "modus-crop",
-    "ligature": "crop"
+    "ligature": "crop",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "expand-less",
@@ -21,7 +25,9 @@
       "arrow"
     ],
     "class": "modus-expand-less",
-    "ligature": "expand_less"
+    "ligature": "expand_less",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "expand-more",
@@ -31,7 +37,9 @@
       "arrow"
     ],
     "class": "modus-expand-more",
-    "ligature": "expand_more"
+    "ligature": "expand_more",
+    "deprecated": false,
+    "useIntead": ""
   },
   {
     "name": "folder",
@@ -40,6 +48,8 @@
       "directory"
     ],
     "class": "modus-folder",
-    "ligature": "folder"
+    "ligature": "folder",
+    "deprecated": false,
+    "useIntead": ""
   }
 ]

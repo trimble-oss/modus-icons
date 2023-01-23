@@ -2416,5 +2416,10 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "visibility-off",
+    "tags": [],
+    "categories": []
   }
 ]

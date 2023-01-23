@@ -133,7 +133,7 @@
             <div class="navbar-nav ml-auto">
               <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 text-white" data-toggle="tooltip"
                 data-placement="bottom" title="{{- .Title -}}">
-          <i class="modus-icons notranslate">Title</i>
+          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
               </button>
             </div>
         </nav>

@@ -999,6 +999,15 @@
     ]
   },
   {
+    "name": "helicopter",
+    "tags": [
+      "fly"
+    ],
+    "categories": [
+      "Presentations & Views"
+    ]
+  },
+  {
     "name": "history",
     "tags": [
       "clock"
@@ -1537,6 +1546,15 @@
   {
     "name": "polygon-select",
     "tags": [],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "polygon-merge",
+    "tags": [
+      "merge"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -2398,5 +2416,10 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "visibility-off",
+    "tags": [],
+    "categories": []
   }
 ]

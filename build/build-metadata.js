@@ -25,7 +25,7 @@ async function buildMetadata(config) {
         class: (name) => `modus-${name}`,
         ligature: (name) => name.replace(/-/g, '_'),
         deprecated: false,
-        useIntead: '',
+        useInstead: '',
       };
       const files = fs.readdirSync(srcDirectoryPath);
       files.forEach((file) => {
@@ -40,7 +40,7 @@ async function buildMetadata(config) {
             class: metadataDefaults.class(basename),
             ligature: metadataDefaults.ligature(basename),
             deprecated: metadataDefaults.deprecated,
-            useIntead: metadataDefaults.useIntead,
+            useInstead: metadataDefaults.useInstead,
           });
         }
         if (icon) {

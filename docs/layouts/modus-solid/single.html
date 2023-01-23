@@ -69,55 +69,56 @@
       </p>
       <p>
         <button type="button" class="btn btn-primary mb-2">
-          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
           Button
         </button>
         <button type="button" class="btn btn-secondary mb-2">
-          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
           Button
         </button>
         <button type="button" class="btn btn-outline-primary mb-2">
-          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
           Button
         </button>
       </p>
       <div class="mb-3">
         <button type="button" class="btn btn-icon-only btn-secondary">
-           <i class="modus-icons notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-danger btn-icon-only">
-          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-icon-only btn-outline-dark">
-          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-icon-only btn-text-dark">
-          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
       </div>
       <div class="mb-3">
         <button type="button" class="btn btn-sm btn-primary">
-          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
           Button
         </button>
         <button type="button" class="btn btn-sm btn-secondary">
-          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
           Button
         </button>
         <button type="button" class="btn btn-sm btn-outline-primary">
-          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
           Button
         </button>
         <button type="button" class="btn btn-sm btn-icon-only btn-outline-dark">
-          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-sm btn-icon-only btn-text-dark">
-          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}
+          </i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
       </div>
@@ -132,7 +133,7 @@
             <div class="navbar-nav ml-auto">
               <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 text-white" data-toggle="tooltip"
                 data-placement="bottom" title="{{- .Title -}}">
-          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
+          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
               </button>
             </div>
         </nav>
@@ -144,7 +145,7 @@
     <p>Use in web applications, on buttons, and anywhere you need more than a few icons.</p>
 
     <div class="mb-1">
-      {{ $iconFontSnippet := printf `<i class="modus-icons">%s</i>` .Params.ligature -}}
+      {{ $iconFontSnippet := printf `<i class="modus-icons">%s</i>` (replace ( urlize .Title ) "-" "_") -}}
       {{- highlight $iconFontSnippet "html" "" }}
     </div>
 
@@ -155,7 +156,7 @@
     </div>
 
     <h2 class="fs-3">SVG code</h2>
-    <p>Use when you don't want any dependency. Icons won't update.</p>
+    <p>Use when you don't want any dependency.</p>
     <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
     {{ highlight $svgHtml "html" "" }}
 

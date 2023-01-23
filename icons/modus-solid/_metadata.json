@@ -1385,8 +1385,10 @@
   {
     "name": "hard-hat",
     "tags": [
+      "builder",
       "construction",
-      "viewpoint"
+      "viewpoint",
+      "worker"
     ],
     "categories": [
       "Presentations & View"
@@ -2133,7 +2135,7 @@
     "useIntead": ""
   },
   {
-    "name": "planning",
+    "name": "clipboard-planning",
     "tags": [
       "clipboard",
       "list"
@@ -2142,7 +2144,7 @@
       "Presentations & View"
     ],
     "class": "modus-planning",
-    "ligature": "planning",
+    "ligature": "clipboard-planning",
     "deprecated": false,
     "useIntead": ""
   },
@@ -3165,7 +3167,7 @@
     "useIntead": ""
   },
   {
-    "name": "view",
+    "name": "visibility-on",
     "tags": [
       "eye",
       "show"
@@ -3174,7 +3176,7 @@
       "Presentations & View"
     ],
     "class": "modus-view",
-    "ligature": "view",
+    "ligature": "visibility-on",
     "deprecated": false,
     "useIntead": ""
   },

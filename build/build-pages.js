@@ -26,8 +26,6 @@ categories:
   - ${file.categories.join(', ')}
 tags:
   - ${file.tags.join(', ')}
-class: ${file.class}
-ligature: ${file.ligature}
 ---
 `;
 

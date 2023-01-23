@@ -1129,7 +1129,9 @@
   {
     "name": "floorplan",
     "tags": [
+      "layout",
       "map",
+      "plan",
       "viewpoint"
     ],
     "categories": [
@@ -3169,8 +3171,10 @@
   {
     "name": "visibility-on",
     "tags": [
+      "display",
       "eye",
-      "show"
+      "show",
+      "view"
     ],
     "categories": [
       "Presentations & View"

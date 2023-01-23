@@ -51,20 +51,20 @@
     <h2>Examples</h2>
     <div class="p-3 p-md-4 border rounded icon-demo-examples">
       <div class="h2 mb-3">
-        {{ $svgHtml }}
+        {{ $svgSpriteHtml }}
         Heading
       </div>
       <div class="h4 mb-3">
-        {{ $svgHtml }}
+        {{ $svgSpriteHtml }}
         Smaller heading
       </div>
       <p>
-        Inline text&nbsp; {{ $svgHtml }}
+        Inline text&nbsp; {{ $svgSpriteHtml }}
       </p>
       <p>
         <a href="#" class="text-decoration-none">
           Example link text&nbsp;
-          {{ $svgHtml }}
+          {{ $svgSpriteHtml }}
         </a>
       </p>
       <p>
@@ -73,31 +73,29 @@
           Button
         </button>
         <button type="button" class="btn btn-secondary mb-2">
-          <i class="modus-icons left-icon {{.Params.class}}"></i>
+          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
           Button
         </button>
         <button type="button" class="btn btn-outline-primary mb-2">
-          <span class="modus-icons left-icon">{{ $svgHtml }}</span>
-          Button
-        </button>
-        <button type="button" class="btn btn-outline-dark mb-2">
-          <span class="modus-icons left-icon">{{ $svgSpriteHtml }}</span>
+          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
           Button
         </button>
       </p>
       <div class="mb-3">
         <button type="button" class="btn btn-icon-only btn-secondary">
-          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
+           <i class="modus-icons notranslate">{{.Params.ligature}}</i>
+          <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-danger btn-icon-only">
-          <i class="modus-icons {{.Params.class}}"></i>
+          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
+          <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-icon-only btn-outline-dark">
-          <span class="modus-icons">{{ $svgHtml }}</span>
+          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-icon-only btn-text-dark">
-          <span class="modus-icons">{{ $svgSpriteHtml }}</span>
+          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
       </div>
@@ -107,29 +105,19 @@
           Button
         </button>
         <button type="button" class="btn btn-sm btn-secondary">
-          <i class="modus-icons left-icon {{.Params.class}}"></i>
+          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
           Button
         </button>
         <button type="button" class="btn btn-sm btn-outline-primary">
-          <span class="modus-icons left-icon">{{ $svgHtml }}</span>
+          <i class="modus-icons left-icon notranslate">{{.Params.ligature}}</i>
           Button
-        </button>
-        <button type="button" class="btn btn-sm btn-outline-dark">
-          <span class="modus-icons left-icon">{{ $svgSpriteHtml }}</span>
-          Button
-        </button>
-        <button type="button" class="btn btn-sm btn-icon-only btn-secondary">
-          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
-        </button>
-        <button type="button" class="btn btn-sm btn-danger btn-icon-only">
-          <i class="modus-icons {{.Params.class}}"></i>
         </button>
         <button type="button" class="btn btn-sm btn-icon-only btn-outline-dark">
-          <span class="modus-icons">{{ $svgHtml }}</span>
+          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-sm btn-icon-only btn-text-dark">
-          <span class="modus-icons">{{ $svgSpriteHtml }}</span>
+          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
       </div>
@@ -144,7 +132,7 @@
             <div class="navbar-nav ml-auto">
               <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 text-white" data-toggle="tooltip"
                 data-placement="bottom" title="{{- .Title -}}">
-                {{ $svgHtml }}
+          <i class="modus-icons notranslate">{{.Params.ligature}}</i>
               </button>
             </div>
         </nav>
@@ -152,30 +140,29 @@
     </div>
   </div>
   <div class="col-lg-5 mb-4">
-    <h2 class="fs-3">Download</h2>
-    <p>Download the SVG to use or edit.</p>
-    <a href="/modus-solid/svg/{{- .Title | urlize | lower -}}.svg" class="btn btn-primary mb-4" download>Download SVG</a>
-
     <h2 class="fs-3">Icon font</h2>
-    <p>Using the web font? Copy, paste, and go.</p>
+    <p>Use in web applications, on buttons, and anywhere you need more than a few icons.</p>
 
     <div class="mb-1">
       {{ $iconFontSnippet := printf `<i class="modus-icons">%s</i>` .Params.ligature -}}
       {{- highlight $iconFontSnippet "html" "" }}
     </div>
 
-    <h2 class="fs-3">Copy HTML</h2>
-    <p>Paste the SVG right into your project's code.</p>
-
-    <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
-
-    {{ highlight $svgHtml "html" "" }}
-
     <h2 class="fs-3">SVG sprite</h2>
-    <p>Paste the SVG right into your project's code.</p>
+    <p> Use for static sites when you only need a few icons.</p>
     <div>
       {{- highlight $svgSpriteSnippet "html" "" }}
     </div>
-  </div>
+
+    <h2 class="fs-3">SVG code</h2>
+    <p>Use when you don't want any dependency. Icons won't update.</p>
+    <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
+    {{ highlight $svgHtml "html" "" }}
+
+    <h2 class="fs-3">Download</h2>
+    <p>Download the SVG to use or edit.</p>
+    <a href="/transportation/svg/{{- .Title | urlize | lower -}}.svg" class="btn btn-primary mb-4" download>Download SVG</a>
+
+      </div>
 </div>
 {{ end }}

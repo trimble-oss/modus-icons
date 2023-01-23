@@ -16,16 +16,6 @@
   vertical-align: -0.125em !important;
 }
 
-// TODO: Add these to Modus
-.btn .modus-icons.left-icon::before {
-  font-size: 1rem;
-  top: 3px;
-}
-.btn-sm .modus-icons.left-icon::before {
-  font-size: 0.75rem;
-  top: 1px;
-}
-
 .hero-notice {
   @media (min-width: 540px) {
     border-radius: 5em !important;

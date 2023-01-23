@@ -2,22 +2,14 @@
   {
     "name": "compare-arrows",
     "tags": [],
-    "categories": [],
-    "class": "modus-compare-arrows",
-    "ligature": "compare_arrows",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "crop",
     "tags": [
       "resize"
     ],
-    "categories": [],
-    "class": "modus-crop",
-    "ligature": "crop",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "expand-less",
@@ -25,11 +17,7 @@
       "accordion",
       "arrow"
     ],
-    "categories": [],
-    "class": "modus-expand-less",
-    "ligature": "expand_less",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "expand-more",
@@ -37,21 +25,13 @@
       "accordion",
       "arrow"
     ],
-    "categories": [],
-    "class": "modus-expand-more",
-    "ligature": "expand_more",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "folder",
     "categories": [],
     "tags": [
       "directory"
-    ],
-    "class": "modus-folder",
-    "ligature": "folder",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 *.css
 *.html
-*.json
+*.hbs
 *.md
 
 _modus-bootstrap-dark.scss

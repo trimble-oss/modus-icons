@@ -9,11 +9,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-add-circle",
-    "ligature": "add_circle",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "address",
@@ -23,20 +19,12 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-address",
-    "ligature": "address",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "advanced-instructions",
     "tags": [],
-    "categories": [],
-    "class": "modus-advanced-instructions",
-    "ligature": "advanced_instructions",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "alert",
@@ -47,22 +35,14 @@
     ],
     "categories": [
       "Alerts & Messages"
-    ],
-    "class": "modus-alert",
-    "ligature": "alert",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "align-bottom",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-align-bottom",
-    "ligature": "align_bottom",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "align-center-horiz",
@@ -71,11 +51,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-align-center-horiz",
-    "ligature": "align_center_horiz",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "align-center-vert",
@@ -84,44 +60,28 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-align-center-vert",
-    "ligature": "align_center_vert",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "align-left",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-align-left",
-    "ligature": "align_left",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "align-right",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-align-right",
-    "ligature": "align_right",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "align-top",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-align-top",
-    "ligature": "align_top",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "antenna",
@@ -131,55 +91,35 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-antenna",
-    "ligature": "antenna",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "arrow-down",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-arrow-down",
-    "ligature": "arrow_down",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "arrow-left",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-arrow-left",
-    "ligature": "arrow_left",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "arrow-right",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-arrow-right",
-    "ligature": "arrow_right",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "arrow-up",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-arrow-up",
-    "ligature": "arrow_up",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "bar-graph",
@@ -190,11 +130,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-bar-graph",
-    "ligature": "bar_graph",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "bar-graph-line",
@@ -205,11 +141,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-bar-graph-line",
-    "ligature": "bar_graph_line",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "barcode",
@@ -220,11 +152,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-barcode",
-    "ligature": "barcode",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "bolt",
@@ -235,11 +163,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-bolt",
-    "ligature": "bolt",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "brightness",
@@ -250,11 +174,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-brightness",
-    "ligature": "brightness",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "brush",
@@ -264,11 +184,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-brush",
-    "ligature": "brush",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "buildings",
@@ -277,11 +193,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-buildings",
-    "ligature": "buildings",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "calculate",
@@ -290,11 +202,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-calculate",
-    "ligature": "calculate",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "calculator",
@@ -303,11 +211,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-calculator",
-    "ligature": "calculator",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "calculator-symbols",
@@ -316,11 +220,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-calculator-symbols",
-    "ligature": "calculator_symbols",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "calendar",
@@ -332,11 +232,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-calendar",
-    "ligature": "calendar",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "calendar-check",
@@ -348,11 +244,7 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-calendar-check",
-    "ligature": "calendar_check",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "calendar-event",
@@ -364,11 +256,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-calendar-event",
-    "ligature": "calendar_event",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "calendar-week",
@@ -380,11 +268,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-calendar-week",
-    "ligature": "calendar_week",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "camera",
@@ -394,11 +278,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-camera",
-    "ligature": "camera",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "camera-disabled",
@@ -408,11 +288,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-camera-disabled",
-    "ligature": "camera_disabled",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "cancel-circle",
@@ -427,11 +303,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-cancel-circle",
-    "ligature": "cancel_circle",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "certificate",
@@ -440,11 +312,7 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-certificate",
-    "ligature": "certificate",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "chat",
@@ -455,11 +323,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-chat",
-    "ligature": "chat",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "check",
@@ -470,11 +334,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-check",
-    "ligature": "check",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "check-circle",
@@ -485,11 +345,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-check-circle",
-    "ligature": "check_circle",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "clipboard",
@@ -498,22 +354,14 @@
     ],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-clipboard",
-    "ligature": "clipboard",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "clipboard-actions",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-clipboard-actions",
-    "ligature": "clipboard_actions",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "clipboard-check",
@@ -523,11 +371,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-clipboard-check",
-    "ligature": "clipboard_check",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "close",
@@ -542,11 +386,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-close",
-    "ligature": "close",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "cloud",
@@ -555,11 +395,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-cloud",
-    "ligature": "cloud",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "cloud-download",
@@ -568,11 +404,7 @@
     ],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-cloud-download",
-    "ligature": "cloud_download",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "cloud-upload",
@@ -583,22 +415,14 @@
     ],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-cloud-upload",
-    "ligature": "cloud_upload",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "collapse",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-collapse",
-    "ligature": "collapse",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "color-picker",
@@ -608,11 +432,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-color-picker",
-    "ligature": "color_picker",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "comment",
@@ -623,11 +443,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-comment",
-    "ligature": "comment",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "compass",
@@ -643,11 +459,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-compass",
-    "ligature": "compass",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "component",
@@ -656,11 +468,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-component",
-    "ligature": "component",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "contacts",
@@ -671,22 +479,14 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-contacts",
-    "ligature": "contacts",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "contrast",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-contrast",
-    "ligature": "contrast",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "copy-content",
@@ -695,11 +495,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-copy-content",
-    "ligature": "copy_content",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "credit-card",
@@ -708,22 +504,14 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-credit-card",
-    "ligature": "credit_card",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "cursor",
     "tags": [
       "pointer"
     ],
-    "categories": [],
-    "class": "modus-cursor",
-    "ligature": "cursor",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "cursor-add",
@@ -733,11 +521,7 @@
       "pointer",
       "select"
     ],
-    "categories": [],
-    "class": "modus-cursor-add",
-    "ligature": "cursor_add",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "cursor-remove",
@@ -747,22 +531,14 @@
       "pointer",
       "select"
     ],
-    "categories": [],
-    "class": "modus-cursor-remove",
-    "ligature": "cursor_remove",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "dashboard",
     "tags": [],
     "categories": [
       "Programs"
-    ],
-    "class": "modus-dashboard",
-    "ligature": "dashboard",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "delete",
@@ -772,66 +548,42 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-delete",
-    "ligature": "delete",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "download",
     "tags": [],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-download",
-    "ligature": "download",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "download-line",
     "tags": [],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-download-line",
-    "ligature": "download_line",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "download-xls",
     "tags": [],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-download-xls",
-    "ligature": "download_xls",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "drag-horizontal",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-drag-horizontal",
-    "ligature": "drag_horizontal",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "drag-vertical",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-drag-vertical",
-    "ligature": "drag_vertical",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "drizzle",
@@ -840,11 +592,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-drizzle",
-    "ligature": "drizzle",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "email",
@@ -854,20 +602,12 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-email",
-    "ligature": "email",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "envelope",
     "tags": [],
-    "categories": [],
-    "class": "modus-envelope",
-    "ligature": "envelope",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "expand",
@@ -877,11 +617,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-expand",
-    "ligature": "expand",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "fast-forward",
@@ -893,11 +629,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-fast-forward",
-    "ligature": "fast_forward",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "fast-rewind",
@@ -909,11 +641,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-fast-rewind",
-    "ligature": "fast_rewind",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file",
@@ -923,11 +651,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file",
-    "ligature": "file",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-copy",
@@ -938,11 +662,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-copy",
-    "ligature": "file_copy",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-edit",
@@ -951,11 +671,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-edit",
-    "ligature": "file_edit",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-merge",
@@ -964,11 +680,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-merge",
-    "ligature": "file_merge",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-missing",
@@ -977,11 +689,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-missing",
-    "ligature": "file_missing",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-new",
@@ -990,11 +698,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-new",
-    "ligature": "file_new",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-type-doc",
@@ -1003,11 +707,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-type-doc",
-    "ligature": "file_type_doc",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-type-log",
@@ -1016,11 +716,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-type-log",
-    "ligature": "file_type_log",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-type-pdf",
@@ -1029,11 +725,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-type-pdf",
-    "ligature": "file_type_pdf",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-type-rfi",
@@ -1042,11 +734,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-type-rfi",
-    "ligature": "file_type_rfi",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-type-rfq",
@@ -1055,11 +743,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-type-rfq",
-    "ligature": "file_type_rfq",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-type-tmp",
@@ -1068,11 +752,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-type-tmp",
-    "ligature": "file_type_tmp",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "file-type-xls",
@@ -1081,11 +761,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-file-type-xls",
-    "ligature": "file_type_xls",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "filter",
@@ -1094,11 +770,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-filter",
-    "ligature": "filter",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "filter-list",
@@ -1107,11 +779,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-filter-list",
-    "ligature": "filter_list",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "filter-off",
@@ -1120,11 +788,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-filter-off",
-    "ligature": "filter_off",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "floorplan",
@@ -1136,11 +800,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-floorplan",
-    "ligature": "floorplan",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "flowchart",
@@ -1149,33 +809,21 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-flowchart",
-    "ligature": "flowchart",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "fog",
     "tags": [],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-fog",
-    "ligature": "fog",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "folder-closed",
     "tags": [],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-folder-closed",
-    "ligature": "folder_closed",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "folder-locked",
@@ -1185,11 +833,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-folder-locked",
-    "ligature": "folder_locked",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "folder-new",
@@ -1198,22 +842,14 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-folder-new",
-    "ligature": "folder_new",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "folder-open",
     "tags": [],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-folder-open",
-    "ligature": "folder_open",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "folder-personal",
@@ -1225,11 +861,7 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-folder-personal",
-    "ligature": "folder_personal",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "folder-project",
@@ -1239,66 +871,42 @@
     ],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-folder-project",
-    "ligature": "folder_project",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "folder-public",
     "tags": [],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-folder-public",
-    "ligature": "folder_public",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "folder-share",
     "tags": [],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-folder-share",
-    "ligature": "folder_share",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "folder-unlocked",
     "tags": [],
     "categories": [
       "Folders & Files"
-    ],
-    "class": "modus-folder-unlocked",
-    "ligature": "folder_unlocked",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "footprints",
     "tags": [
       "steps"
     ],
-    "categories": [],
-    "class": "modus-footprints",
-    "ligature": "footprints",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "frame",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-frame",
-    "ligature": "frame",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "full-screen",
@@ -1309,11 +917,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-full-screen",
-    "ligature": "full_screen",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "group-items",
@@ -1322,11 +926,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-group-items",
-    "ligature": "group_items",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "hail",
@@ -1336,11 +936,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-hail",
-    "ligature": "hail",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "hail-heavy",
@@ -1350,11 +946,7 @@
     ],
     "categories": [
       "weather"
-    ],
-    "class": "modus-hail-heavy",
-    "ligature": "hail_heavy",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "hail-light",
@@ -1364,11 +956,7 @@
     ],
     "categories": [
       "weather"
-    ],
-    "class": "modus-hail-light",
-    "ligature": "hail_light",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "hammer",
@@ -1378,11 +966,7 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-hammer",
-    "ligature": "hammer",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "hard-hat",
@@ -1394,11 +978,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-hard-hat",
-    "ligature": "hard_hat",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "headset",
@@ -1407,11 +987,7 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-headset",
-    "ligature": "headset",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "help",
@@ -1420,11 +996,7 @@
     ],
     "categories": [
       "Alerts & Messages"
-    ],
-    "class": "modus-help",
-    "ligature": "help",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "history",
@@ -1433,11 +1005,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-history",
-    "ligature": "history",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "home",
@@ -1446,11 +1014,7 @@
     ],
     "categories": [
       "Programs"
-    ],
-    "class": "modus-home",
-    "ligature": "home",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "hourglass",
@@ -1462,11 +1026,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-hourglass",
-    "ligature": "hourglass",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "ice",
@@ -1475,11 +1035,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-ice",
-    "ligature": "ice",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "image",
@@ -1488,20 +1044,12 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-image",
-    "ligature": "image",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "image-scene",
     "tags": [],
-    "categories": [],
-    "class": "modus-image-scene",
-    "ligature": "image_scene",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "info",
@@ -1510,22 +1058,14 @@
     ],
     "categories": [
       "Alerts & Messages"
-    ],
-    "class": "modus-info",
-    "ligature": "info",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "inspect",
     "tags": [],
     "categories": [
       "Alerts & Messages"
-    ],
-    "class": "modus-inspect",
-    "ligature": "inspect",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "key",
@@ -1535,33 +1075,21 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-key",
-    "ligature": "key",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "keyboard",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-keyboard",
-    "ligature": "keyboard",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "keyboard-keys",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-keyboard-keys",
-    "ligature": "keyboard_keys",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "language",
@@ -1572,64 +1100,40 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-language",
-    "ligature": "language",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "launch",
     "tags": [],
     "categories": [
       "Programs"
-    ],
-    "class": "modus-launch",
-    "ligature": "launch",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "layer",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-layer",
-    "ligature": "layer",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "learn",
     "tags": [],
-    "categories": [],
-    "class": "modus-learn",
-    "ligature": "learn",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "lightbulb-off",
     "tags": [],
     "categories": [
       "Alerts & Messages"
-    ],
-    "class": "modus-lightbulb-off",
-    "ligature": "lightbulb_off",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "lightbulb-on",
     "tags": [],
     "categories": [
       "Alerts & Messages"
-    ],
-    "class": "modus-lightbulb-on",
-    "ligature": "lightbulb_on",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "lightning",
@@ -1639,66 +1143,42 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-lightning",
-    "ligature": "lightning",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "link",
     "tags": [],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-link",
-    "ligature": "link",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "link-broken",
     "tags": [],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-link-broken",
-    "ligature": "link_broken",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "link-off",
     "tags": [],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-link-off",
-    "ligature": "link_off",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "location",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-location",
-    "ligature": "location",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "location-point",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-location-point",
-    "ligature": "location_point",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "lock",
@@ -1708,11 +1188,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-lock",
-    "ligature": "lock",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "lock-open",
@@ -1722,11 +1198,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-lock-open",
-    "ligature": "lock_open",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "manage-accounts",
@@ -1737,11 +1209,7 @@
     ],
     "categories": [
       "Programs"
-    ],
-    "class": "modus-manage-accounts",
-    "ligature": "manage_accounts",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "map",
@@ -1751,11 +1219,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-map",
-    "ligature": "map",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "map-2d",
@@ -1765,33 +1229,21 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-map-2d",
-    "ligature": "map_2d",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "map-marker",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-map-marker",
-    "ligature": "map_marker",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "map-markers",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-map-markers",
-    "ligature": "map_markers",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "map-poi",
@@ -1800,11 +1252,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-map-poi",
-    "ligature": "map_poi",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "megaphone",
@@ -1815,11 +1263,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-megaphone",
-    "ligature": "megaphone",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "menu",
@@ -1829,11 +1273,7 @@
     ],
     "categories": [
       "Programs"
-    ],
-    "class": "modus-menu",
-    "ligature": "menu",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "menu-circle",
@@ -1843,11 +1283,7 @@
     ],
     "categories": [
       "Programs"
-    ],
-    "class": "modus-menu-circle",
-    "ligature": "menu_circle",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "mic",
@@ -1855,11 +1291,7 @@
       "microphone",
       "sound"
     ],
-    "categories": [],
-    "class": "modus-mic",
-    "ligature": "mic",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "mix",
@@ -1869,11 +1301,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-mix",
-    "ligature": "mix",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "moon",
@@ -1884,11 +1312,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-moon",
-    "ligature": "moon",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "more-circle",
@@ -1900,22 +1324,14 @@
     ],
     "categories": [
       "Programs"
-    ],
-    "class": "modus-more-circle",
-    "ligature": "more_circle",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "mouse",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-mouse",
-    "ligature": "mouse",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "move",
@@ -1925,11 +1341,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-move",
-    "ligature": "move",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "object-outline",
@@ -1938,11 +1350,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-object-outline",
-    "ligature": "object_outline",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "overcast",
@@ -1952,11 +1360,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-overcast",
-    "ligature": "overcast",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "paint-bucket",
@@ -1967,11 +1371,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-paint-bucket",
-    "ligature": "paint_bucket",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "pan",
@@ -1981,20 +1381,12 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-pan",
-    "ligature": "pan",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "password",
     "tags": [],
-    "categories": [],
-    "class": "modus-password",
-    "ligature": "password",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "pause-circle",
@@ -2005,11 +1397,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-pause-circle",
-    "ligature": "pause_circle",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "pen",
@@ -2021,11 +1409,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-pen",
-    "ligature": "pen",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "pencil",
@@ -2034,22 +1418,14 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-pencil",
-    "ligature": "pencil",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "people-group",
     "tags": [
       "users"
     ],
-    "categories": [],
-    "class": "modus-people-group",
-    "ligature": "people_group",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "person",
@@ -2058,22 +1434,14 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-person",
-    "ligature": "person",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "phone",
     "tags": [],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-phone",
-    "ligature": "phone",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "phone-call",
@@ -2082,11 +1450,7 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-phone-call",
-    "ligature": "phone_call",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "phone-hang-up",
@@ -2095,22 +1459,14 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-phone-hang-up",
-    "ligature": "phone_hang_up",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "phone-mobile",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-phone-mobile",
-    "ligature": "phone_mobile",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "pin",
@@ -2121,20 +1477,12 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-pin",
-    "ligature": "pin",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "pin-add",
     "tags": [],
-    "categories": [],
-    "class": "modus-pin-add",
-    "ligature": "pin_add",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "clipboard-planning",
@@ -2144,11 +1492,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-planning",
-    "ligature": "clipboard-planning",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "play-circle",
@@ -2160,66 +1504,42 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-play-circle",
-    "ligature": "play_circle",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "polygon",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-polygon",
-    "ligature": "polygon",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "polygon-area-tool",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-polygon-area-tool",
-    "ligature": "polygon_area_tool",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "polygon-concave",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-polygon-concave",
-    "ligature": "polygon_concave",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "polygon-cone",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-polygon-cone",
-    "ligature": "polygon_cone",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "polygon-select",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-polygon-select",
-    "ligature": "polygon_select",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "pulse",
@@ -2229,22 +1549,14 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-pulse",
-    "ligature": "pulse",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "question",
     "tags": [],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-question",
-    "ligature": "question",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "rain",
@@ -2253,11 +1565,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-rain",
-    "ligature": "rain",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "rain-heavy",
@@ -2267,22 +1575,14 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-rain-heavy",
-    "ligature": "rain_heavy",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "rain-icy",
     "tags": [],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-rain-icy",
-    "ligature": "rain_icy",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "raindrop",
@@ -2291,11 +1591,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-raindrop",
-    "ligature": "raindrop",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "redo",
@@ -2305,11 +1601,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-redo",
-    "ligature": "redo",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "refresh",
@@ -2323,11 +1615,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-refresh",
-    "ligature": "refresh",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "remove-circle",
@@ -2337,11 +1625,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-remove-circle",
-    "ligature": "remove_circle",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "reply",
@@ -2350,11 +1634,7 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-reply",
-    "ligature": "reply",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "ruler",
@@ -2364,33 +1644,21 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-ruler",
-    "ligature": "ruler",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "save-as",
     "tags": [],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-save-as",
-    "ligature": "save_as",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "save-disk",
     "tags": [],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-save-disk",
-    "ligature": "save_disk",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "scissors",
@@ -2399,33 +1667,21 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-scissors",
-    "ligature": "scissors",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "screen",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-screen",
-    "ligature": "screen",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "screenshot",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-screenshot",
-    "ligature": "screenshot",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "search",
@@ -2435,33 +1691,21 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-search",
-    "ligature": "search",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "server",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-server",
-    "ligature": "server",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "server-round",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-server-round",
-    "ligature": "server_round",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "settings",
@@ -2473,22 +1717,14 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-settings",
-    "ligature": "settings",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "share",
     "tags": [],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-share",
-    "ligature": "share",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "shield",
@@ -2497,22 +1733,14 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-shield",
-    "ligature": "shield",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "shortcut",
     "tags": [],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-shortcut",
-    "ligature": "shortcut",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "shovel",
@@ -2522,11 +1750,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-shovel",
-    "ligature": "shovel",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "sign-in",
@@ -2536,11 +1760,7 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-sign-in",
-    "ligature": "sign_in",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "sign-out",
@@ -2551,22 +1771,14 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-sign-out",
-    "ligature": "sign_out",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "signal",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-signal",
-    "ligature": "signal",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "snow-heavy",
@@ -2576,22 +1788,14 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-snow-heavy",
-    "ligature": "snow_heavy",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "snow-light",
     "tags": [],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-snow-light",
-    "ligature": "snow_light",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "snow-particle",
@@ -2600,11 +1804,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-snow-particle",
-    "ligature": "snow_particle",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "snowflake",
@@ -2613,11 +1813,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-snowflake",
-    "ligature": "snowflake",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "snowflakes",
@@ -2626,11 +1822,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-snowflakes",
-    "ligature": "snowflakes",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "sort-alpha-down",
@@ -2639,11 +1831,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-sort-alpha-down",
-    "ligature": "sort_alpha_down",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "sort-alpha-up",
@@ -2653,11 +1841,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-sort-alpha-up",
-    "ligature": "sort_alpha_up",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "sort-down",
@@ -2666,11 +1850,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-sort-down",
-    "ligature": "sort_down",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "sort-up",
@@ -2680,11 +1860,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-sort-up",
-    "ligature": "sort_up",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "star",
@@ -2698,22 +1874,14 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-star",
-    "ligature": "star",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "star-empty",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-star-empty",
-    "ligature": "star_empty",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "star-locked",
@@ -2722,11 +1890,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-star-locked",
-    "ligature": "star_locked",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "stop-circle",
@@ -2736,11 +1900,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-stop-circle",
-    "ligature": "stop_circle",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "sun",
@@ -2749,11 +1909,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-sun",
-    "ligature": "sun",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "sync",
@@ -2765,11 +1921,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-sync",
-    "ligature": "sync",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "sync-off",
@@ -2781,22 +1933,14 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-sync-off",
-    "ligature": "sync_off",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "tablet",
     "tags": [],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-tablet",
-    "ligature": "tablet",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "text-input",
@@ -2806,11 +1950,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-text-input",
-    "ligature": "text_input",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "text-input-long",
@@ -2820,11 +1960,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-text-input-long",
-    "ligature": "text_input_long",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "text-input-short",
@@ -2834,33 +1970,21 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-text-input-short",
-    "ligature": "text_input_short",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "thermometer-cold",
     "tags": [],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-thermometer-cold",
-    "ligature": "thermometer_cold",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "thermometer-hot",
     "tags": [],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-thermometer-hot",
-    "ligature": "thermometer_hot",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "thumbs-down",
@@ -2869,11 +1993,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-thumbs-down",
-    "ligature": "thumbs_down",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "thumbs-up",
@@ -2882,11 +2002,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-thumbs-up",
-    "ligature": "thumbs_up",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "thunderstorm-heavy",
@@ -2898,11 +2014,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-thunderstorm-heavy",
-    "ligature": "thunderstorm_heavy",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "thunderstorm-light",
@@ -2912,29 +2024,17 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-thunderstorm-light",
-    "ligature": "thunderstorm_light",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "ticket",
     "tags": [],
-    "categories": [],
-    "class": "modus-ticket",
-    "ligature": "ticket",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "ticket-plane",
     "tags": [],
-    "categories": [],
-    "class": "modus-ticket-plane",
-    "ligature": "ticket_plane",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "timer",
@@ -2944,11 +2044,7 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-timer",
-    "ligature": "timer",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "timer-countdown",
@@ -2958,11 +2054,7 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-timer-countdown",
-    "ligature": "timer_countdown",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "timesheet",
@@ -2971,33 +2063,21 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-timesheet",
-    "ligature": "timesheet",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "toggle-center",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-toggle-center",
-    "ligature": "toggle_center",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "toggle-left-panel",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-toggle-left-panel",
-    "ligature": "toggle_left_panel",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "toggle-off",
@@ -3006,11 +2086,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-toggle-off",
-    "ligature": "toggle_off",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "toggle-on",
@@ -3019,44 +2095,28 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-toggle-on",
-    "ligature": "toggle_on",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "traffic-cone",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-traffic-cone",
-    "ligature": "traffic_cone",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "tree-structure",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-tree-structure",
-    "ligature": "tree_structure",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "trimble-logo",
     "tags": [
       "brand"
     ],
-    "categories": [],
-    "class": "modus-trimble-logo",
-    "ligature": "trimble_logo",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "tune",
@@ -3066,11 +2126,7 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-tune",
-    "ligature": "tune",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "tune-circle",
@@ -3078,11 +2134,7 @@
       "options",
       "settings"
     ],
-    "categories": [],
-    "class": "modus-tune-circle",
-    "ligature": "tune_circle",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "undo",
@@ -3092,11 +2144,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-undo",
-    "ligature": "undo",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "upload",
@@ -3109,11 +2157,7 @@
     ],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-upload",
-    "ligature": "upload",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "upload-xls",
@@ -3122,11 +2166,7 @@
     ],
     "categories": [
       "Save & Share"
-    ],
-    "class": "modus-upload-xls",
-    "ligature": "upload_xls",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "video",
@@ -3135,11 +2175,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-video",
-    "ligature": "video",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "video-add",
@@ -3149,11 +2185,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-video-add",
-    "ligature": "video_add",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "video-disabled",
@@ -3162,11 +2194,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-video-disabled",
-    "ligature": "video_disabled",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "visibility-on",
@@ -3178,11 +2206,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-view",
-    "ligature": "visibility-on",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "volume-down",
@@ -3193,11 +2217,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-volume-down",
-    "ligature": "volume_down",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "volume-mute",
@@ -3208,11 +2228,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-volume-mute",
-    "ligature": "volume_mute",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "volume-up",
@@ -3223,11 +2239,7 @@
     ],
     "categories": [
       "Computer Hardware & Assets"
-    ],
-    "class": "modus-volume-up",
-    "ligature": "volume_up",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "warning",
@@ -3239,11 +2251,7 @@
     ],
     "categories": [
       "Alerts & Messages"
-    ],
-    "class": "modus-warning",
-    "ligature": "warning",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "web",
@@ -3253,11 +2261,7 @@
     ],
     "categories": [
       "Account & Support"
-    ],
-    "class": "modus-web",
-    "ligature": "web",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "wheelbarrow",
@@ -3268,22 +2272,14 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-wheelbarrow",
-    "ligature": "wheelbarrow",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "widgets",
     "tags": [],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-widgets",
-    "ligature": "widgets",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "wind",
@@ -3292,33 +2288,21 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-wind",
-    "ligature": "wind",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "window",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-window",
-    "ligature": "window",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "window-dock-undock",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-window-dock-undock",
-    "ligature": "window_dock_undock",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "window-fit",
@@ -3329,44 +2313,28 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-window-fit",
-    "ligature": "window_fit",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "window-resize",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-window-resize",
-    "ligature": "window_resize",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "window-side-panel",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-window-side-panel",
-    "ligature": "window_side_panel",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "window-views",
     "tags": [],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-window-views",
-    "ligature": "window_views",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "window-wireframe",
@@ -3375,11 +2343,7 @@
     ],
     "categories": [
       "Presentations & View"
-    ],
-    "class": "modus-window-wireframe",
-    "ligature": "window_wireframe",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "wintery-mix",
@@ -3389,11 +2353,7 @@
     ],
     "categories": [
       "Weather"
-    ],
-    "class": "modus-wintery-mix",
-    "ligature": "wintery_mix",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "wrench",
@@ -3402,11 +2362,7 @@
     ],
     "categories": [
       "Programs"
-    ],
-    "class": "modus-wrench",
-    "ligature": "wrench",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "zoom-box",
@@ -3417,11 +2373,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-zoom-box",
-    "ligature": "zoom_box",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "zoom-in",
@@ -3433,11 +2385,7 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-zoom-in",
-    "ligature": "zoom_in",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   },
   {
     "name": "zoom-out",
@@ -3449,10 +2397,6 @@
     ],
     "categories": [
       "Actions & Navigation"
-    ],
-    "class": "modus-zoom-out",
-    "ligature": "zoom_out",
-    "deprecated": false,
-    "useIntead": ""
+    ]
   }
 ]

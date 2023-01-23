@@ -22,10 +22,6 @@ async function buildMetadata(config) {
         name: (name) => name,
         tags: [],
         categories: [],
-        class: (name) => `modus-${name}`,
-        ligature: (name) => name.replace(/-/g, '_'),
-        deprecated: false,
-        useInstead: '',
       };
       const files = fs.readdirSync(srcDirectoryPath);
       files.forEach((file) => {
@@ -37,10 +33,6 @@ async function buildMetadata(config) {
             name: metadataDefaults.name(basename),
             tags: metadataDefaults.tags,
             categories: metadataDefaults.categories,
-            class: metadataDefaults.class(basename),
-            ligature: metadataDefaults.ligature(basename),
-            deprecated: metadataDefaults.deprecated,
-            useInstead: metadataDefaults.useInstead,
           });
         }
         if (icon) {

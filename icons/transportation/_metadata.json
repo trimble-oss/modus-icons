@@ -2,1090 +2,606 @@
   {
     "name": "3d-buildings",
     "tags": [],
-    "categories": [],
-    "class": "modus-3d-buildings",
-    "ligature": "3d_buildings",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "add-new-road",
     "tags": [],
-    "categories": [],
-    "class": "modus-add-new-road",
-    "ligature": "add_new_road",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "apps",
     "tags": [],
-    "categories": [],
-    "class": "modus-apps",
-    "ligature": "apps",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "blank",
     "tags": [],
-    "categories": [],
-    "class": "modus-blank",
-    "ligature": "blank",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "blocks-four",
     "tags": [],
-    "categories": [],
-    "class": "modus-blocks-four",
-    "ligature": "blocks_four",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "blocks-four-outline",
     "tags": [],
-    "categories": [],
-    "class": "modus-blocks-four-outline",
-    "ligature": "blocks_four_outline",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "box-zoom",
     "tags": [],
-    "categories": [],
-    "class": "modus-box-zoom",
-    "ligature": "box_zoom",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "car",
     "tags": [],
-    "categories": [],
-    "class": "modus-car",
-    "ligature": "car",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "car-front",
     "tags": [],
-    "categories": [],
-    "class": "modus-car-front",
-    "ligature": "car_front",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "change-start-time",
     "tags": [],
-    "categories": [],
-    "class": "modus-change-start-time",
-    "ligature": "change_start_time",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "checkbox-checked",
     "tags": [],
-    "categories": [],
-    "class": "modus-checkbox-checked",
-    "ligature": "checkbox_checked",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "checkbox-unchecked",
     "tags": [],
-    "categories": [],
-    "class": "modus-checkbox-unchecked",
-    "ligature": "checkbox_unchecked",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "chevron",
     "tags": [],
-    "categories": [],
-    "class": "modus-chevron",
-    "ligature": "chevron",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "circle",
     "tags": [],
-    "categories": [],
-    "class": "modus-circle",
-    "ligature": "circle",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "circle-dot",
     "tags": [],
-    "categories": [],
-    "class": "modus-circle-dot",
-    "ligature": "circle_dot",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "circle-dot-outline",
     "tags": [],
-    "categories": [],
-    "class": "modus-circle-dot-outline",
-    "ligature": "circle_dot_outline",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "circle-notch",
     "tags": [],
-    "categories": [],
-    "class": "modus-circle-notch",
-    "ligature": "circle_notch",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "circle-outline",
     "tags": [],
-    "categories": [],
-    "class": "modus-circle-outline",
-    "ligature": "circle_outline",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "circle-play",
     "tags": [],
-    "categories": [],
-    "class": "modus-circle-play",
-    "ligature": "circle_play",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "clock",
     "tags": [],
-    "categories": [],
-    "class": "modus-clock",
-    "ligature": "clock",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "cluster",
     "tags": [],
-    "categories": [],
-    "class": "modus-cluster",
-    "ligature": "cluster",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "company-administration",
     "tags": [],
-    "categories": [],
-    "class": "modus-company-administration",
-    "ligature": "company_administration",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "configuration-management",
     "tags": [],
-    "categories": [],
-    "class": "modus-configuration-management",
-    "ligature": "configuration_management",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "crow-fly",
     "tags": [],
-    "categories": [],
-    "class": "modus-crow-fly",
-    "ligature": "crow_fly",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "disk",
     "tags": [],
-    "categories": [],
-    "class": "modus-disk",
-    "ligature": "disk",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "dispatch",
     "tags": [],
-    "categories": [],
-    "class": "modus-dispatch",
-    "ligature": "dispatch",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "driver",
     "tags": [],
-    "categories": [],
-    "class": "modus-driver",
-    "ligature": "driver",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "driver-groups",
     "tags": [],
-    "categories": [],
-    "class": "modus-driver-groups",
-    "ligature": "driver_groups",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "edit",
     "tags": [],
-    "categories": [],
-    "class": "modus-edit",
-    "ligature": "edit",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "edit-line",
     "tags": [],
-    "categories": [],
-    "class": "modus-edit-line",
-    "ligature": "edit_line",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "edit-road",
     "tags": [],
-    "categories": [],
-    "class": "modus-edit-road",
-    "ligature": "edit_road",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "export",
     "tags": [],
-    "categories": [],
-    "class": "modus-export",
-    "ligature": "export",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "external-link",
     "tags": [],
-    "categories": [],
-    "class": "modus-external-link",
-    "ligature": "external_link",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "eyedropper",
     "tags": [],
-    "categories": [],
-    "class": "modus-eyedropper",
-    "ligature": "eyedropper",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "finalize-route",
     "tags": [],
-    "categories": [],
-    "class": "modus-finalize-route",
-    "ligature": "finalize_route",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "flag",
     "tags": [],
-    "categories": [],
-    "class": "modus-flag",
-    "ligature": "flag",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "flash-on",
     "tags": [],
-    "categories": [],
-    "class": "modus-flash-on",
-    "ligature": "flash_on",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "frame-stop",
     "tags": [],
-    "categories": [],
-    "class": "modus-frame-stop",
-    "ligature": "frame_stop",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "geocode",
     "tags": [],
-    "categories": [],
-    "class": "modus-geocode",
-    "ligature": "geocode",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "globe",
     "tags": [],
-    "categories": [],
-    "class": "modus-globe",
-    "ligature": "globe",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "hand",
     "tags": [],
-    "categories": [],
-    "class": "modus-hand",
-    "ligature": "hand",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "hand-pan",
     "tags": [],
-    "categories": [],
-    "class": "modus-hand-pan",
-    "ligature": "hand_pan",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "heavy-duty",
     "tags": [],
-    "categories": [],
-    "class": "modus-heavy-duty",
-    "ligature": "heavy_duty",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "highway",
     "tags": [],
-    "categories": [],
-    "class": "modus-highway",
-    "ligature": "highway",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "invert-route",
     "tags": [],
-    "categories": [],
-    "class": "modus-invert-route",
-    "ligature": "invert_route",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "layout",
     "tags": [],
-    "categories": [],
-    "class": "modus-layout",
-    "ligature": "layout",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "light-duty",
     "tags": [],
-    "categories": [],
-    "class": "modus-light-duty",
-    "ligature": "light_duty",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "list-bulleted",
     "tags": [],
-    "categories": [],
-    "class": "modus-list-bulleted",
-    "ligature": "list_bulleted",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "load",
     "tags": [],
-    "categories": [],
-    "class": "modus-load",
-    "ligature": "load",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "location-arrow",
     "tags": [],
-    "categories": [],
-    "class": "modus-location-arrow",
-    "ligature": "location_arrow",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "manage-places",
     "tags": [],
-    "categories": [],
-    "class": "modus-manage-places",
-    "ligature": "manage_places",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "manage-route-modifiers",
     "tags": [],
-    "categories": [],
-    "class": "modus-manage-route-modifiers",
-    "ligature": "manage_route_modifiers",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "map-layers",
     "tags": [],
-    "categories": [],
-    "class": "modus-map-layers",
-    "ligature": "map_layers",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "maximize",
     "tags": [],
-    "categories": [],
-    "class": "modus-maximize",
-    "ligature": "maximize",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "medium-duty",
     "tags": [],
-    "categories": [],
-    "class": "modus-medium-duty",
-    "ligature": "medium_duty",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "minimize",
     "tags": [],
-    "categories": [],
-    "class": "modus-minimize",
-    "ligature": "minimize",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "my-edits",
     "tags": [],
-    "categories": [],
-    "class": "modus-my-edits",
-    "ligature": "my_edits",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "my-places",
     "tags": [],
-    "categories": [],
-    "class": "modus-my-places",
-    "ligature": "my_places",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "my-trip",
     "tags": [],
-    "categories": [],
-    "class": "modus-my-trip",
-    "ligature": "my_trip",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "no-entry",
     "tags": [],
-    "categories": [],
-    "class": "modus-no-entry",
-    "ligature": "no_entry",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "one-way-left",
     "tags": [],
-    "categories": [],
-    "class": "modus-one-way-left",
-    "ligature": "one_way_left",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "one-way-right",
     "tags": [],
-    "categories": [],
-    "class": "modus-one-way-right",
-    "ligature": "one_way_right",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "optimize",
     "tags": [],
-    "categories": [],
-    "class": "modus-optimize",
-    "ligature": "optimize",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "orders",
     "tags": [],
-    "categories": [],
-    "class": "modus-orders",
-    "ligature": "orders",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "palette",
     "tags": [],
-    "categories": [],
-    "class": "modus-palette",
-    "ligature": "palette",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "paper-plane",
     "tags": [],
-    "categories": [],
-    "class": "modus-paper-plane",
-    "ligature": "paper_plane",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "pin-icon",
     "tags": [],
-    "categories": [],
-    "class": "modus-pin-icon",
-    "ligature": "pin_icon",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "pin-icon-plus",
     "tags": [],
-    "categories": [],
-    "class": "modus-pin-icon-plus",
-    "ligature": "pin_icon_plus",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "poi",
     "tags": [],
-    "categories": [],
-    "class": "modus-poi",
-    "ligature": "poi",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "preview",
     "tags": [],
-    "categories": [],
-    "class": "modus-preview",
-    "ligature": "preview",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "radar",
     "tags": [],
-    "categories": [],
-    "class": "modus-radar",
-    "ligature": "radar",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "random",
     "tags": [],
-    "categories": [],
-    "class": "modus-random",
-    "ligature": "random",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "rename-route",
     "tags": [],
-    "categories": [],
-    "class": "modus-rename-route",
-    "ligature": "rename_route",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "reports",
     "tags": [],
-    "categories": [],
-    "class": "modus-reports",
-    "ligature": "reports",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "reroute",
     "tags": [],
-    "categories": [],
-    "class": "modus-reroute",
-    "ligature": "reroute",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "reschedule-route",
     "tags": [],
-    "categories": [],
-    "class": "modus-reschedule-route",
-    "ligature": "reschedule_route",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "road-surface",
     "tags": [],
-    "categories": [],
-    "class": "modus-road-surface",
-    "ligature": "road_surface",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "route",
     "tags": [],
-    "categories": [],
-    "class": "modus-route",
-    "ligature": "route",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "route-add",
     "tags": [],
-    "categories": [],
-    "class": "modus-route-add",
-    "ligature": "route_add",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "route-compliance",
     "tags": [],
-    "categories": [],
-    "class": "modus-route-compliance",
-    "ligature": "route_compliance",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "route-delete",
     "tags": [],
-    "categories": [],
-    "class": "modus-route-delete",
-    "ligature": "route_delete",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "route-load",
     "tags": [],
-    "categories": [],
-    "class": "modus-route-load",
-    "ligature": "route_load",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "route-modifiers",
     "tags": [],
-    "categories": [],
-    "class": "modus-route-modifiers",
-    "ligature": "route_modifiers",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "route-off",
     "tags": [],
-    "categories": [],
-    "class": "modus-route-off",
-    "ligature": "route_off",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "route-on",
     "tags": [],
-    "categories": [],
-    "class": "modus-route-on",
-    "ligature": "route_on",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "route-optimize",
     "tags": [],
-    "categories": [],
-    "class": "modus-route-optimize",
-    "ligature": "route_optimize",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "route-options",
     "tags": [],
-    "categories": [],
-    "class": "modus-route-options",
-    "ligature": "route_options",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "route-save",
     "tags": [],
-    "categories": [],
-    "class": "modus-route-save",
-    "ligature": "route_save",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "school-bus",
     "tags": [],
-    "categories": [],
-    "class": "modus-school-bus",
-    "ligature": "school_bus",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "show-closest",
     "tags": [],
-    "categories": [],
-    "class": "modus-show-closest",
-    "ligature": "show_closest",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "show-truck-info",
     "tags": [],
-    "categories": [],
-    "class": "modus-show-truck-info",
-    "ligature": "show_truck_info",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "site-manager",
     "tags": [],
-    "categories": [],
-    "class": "modus-site-manager",
-    "ligature": "site_manager",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "speed-coaching-profiles",
     "tags": [],
-    "categories": [],
-    "class": "modus-speed-coaching-profiles",
-    "ligature": "speed_coaching_profiles",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "spinner",
     "tags": [],
-    "categories": [],
-    "class": "modus-spinner",
-    "ligature": "spinner",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "stop-details",
     "tags": [],
-    "categories": [],
-    "class": "modus-stop-details",
-    "ligature": "stop_details",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "stop-summary",
     "tags": [],
-    "categories": [],
-    "class": "modus-stop-summary",
-    "ligature": "stop_summary",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "stop-time",
     "tags": [],
-    "categories": [],
-    "class": "modus-stop-time",
-    "ligature": "stop_time",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "suggestion",
     "tags": [],
-    "categories": [],
-    "class": "modus-suggestion",
-    "ligature": "suggestion",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "swatch",
     "tags": [],
-    "categories": [],
-    "class": "modus-swatch",
-    "ligature": "swatch",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "toggle",
     "tags": [],
-    "categories": [],
-    "class": "modus-toggle",
-    "ligature": "toggle",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "traffic",
     "tags": [],
-    "categories": [],
-    "class": "modus-traffic",
-    "ligature": "traffic",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "train",
     "tags": [],
-    "categories": [],
-    "class": "modus-train",
-    "ligature": "train",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "trash",
     "tags": [],
-    "categories": [],
-    "class": "modus-trash",
-    "ligature": "trash",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "triangle-left",
     "tags": [],
-    "categories": [],
-    "class": "modus-triangle-left",
-    "ligature": "triangle_left",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "triangle-right",
     "tags": [],
-    "categories": [],
-    "class": "modus-triangle-right",
-    "ligature": "triangle_right",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "trim-fake-orders",
     "tags": [],
-    "categories": [],
-    "class": "modus-trim-fake-orders",
-    "ligature": "trim_fake_orders",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "truck",
     "tags": [],
-    "categories": [],
-    "class": "modus-truck",
-    "ligature": "truck",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "turn-dispatch-mode-on",
     "tags": [],
-    "categories": [],
-    "class": "modus-turn-dispatch-mode-on",
-    "ligature": "turn_dispatch_mode_on",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "two-way",
     "tags": [],
-    "categories": [],
-    "class": "modus-two-way",
-    "ligature": "two_way",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "unload-route-stop",
     "tags": [],
-    "categories": [],
-    "class": "modus-unload-route-stop",
-    "ligature": "unload_route_stop",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "unloaded-order",
     "tags": [],
-    "categories": [],
-    "class": "modus-unloaded-order",
-    "ligature": "unloaded_order",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "unloaded-orders",
     "tags": [],
-    "categories": [],
-    "class": "modus-unloaded-orders",
-    "ligature": "unloaded_orders",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "update",
     "tags": [],
-    "categories": [],
-    "class": "modus-update",
-    "ligature": "update",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "upgrade-modifiers",
     "tags": [],
-    "categories": [],
-    "class": "modus-upgrade-modifiers",
-    "ligature": "upgrade_modifiers",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "user",
     "tags": [],
-    "categories": [],
-    "class": "modus-user",
-    "ligature": "user",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "user-fields",
     "tags": [],
-    "categories": [],
-    "class": "modus-user-fields",
-    "ligature": "user_fields",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "vehicle-groups",
     "tags": [],
-    "categories": [],
-    "class": "modus-vehicle-groups",
-    "ligature": "vehicle_groups",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "visibility",
     "tags": [],
-    "categories": [],
-    "class": "modus-visibility",
-    "ligature": "visibility",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "visibility-off",
     "tags": [],
-    "categories": [],
-    "class": "modus-visibility-off",
-    "ligature": "visibility_off",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "volumes",
     "tags": [],
-    "categories": [],
-    "class": "modus-volumes",
-    "ligature": "volumes",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   },
   {
     "name": "weather-alerts",
     "tags": [],
-    "categories": [],
-    "class": "modus-weather-alerts",
-    "ligature": "weather_alerts",
-    "deprecated": false,
-    "useIntead": ""
+    "categories": []
   }
 ]

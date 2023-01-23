@@ -40,6 +40,7 @@
   <use xlink:href="/transportation-icons.svg#%s" />
 </svg>` .File.TranslationBaseName -}}
 {{- $svgSpriteHtml := $svgSpriteSnippet | safeHTML -}}
+{{- $ligature := replace ( urlize .Title ) "-" "_" | lower -}}
 
 <div class="row gx-lg-5">
   <div class="col-lg-7 mb-4">
@@ -69,55 +70,55 @@
       </p>
       <p>
         <button type="button" class="btn btn-primary mb-2">
-          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
           Button
         </button>
         <button type="button" class="btn btn-secondary mb-2">
-          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
           Button
         </button>
         <button type="button" class="btn btn-outline-primary mb-2">
-          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
           Button
         </button>
       </p>
       <div class="mb-3">
         <button type="button" class="btn btn-icon-only btn-secondary">
-          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons notranslate">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-danger btn-icon-only">
-          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons notranslate">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-icon-only btn-outline-dark">
-          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons notranslate">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-icon-only btn-text-dark">
-          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons notranslate">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
       </div>
       <div class="mb-3">
         <button type="button" class="btn btn-sm btn-primary">
-          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
           Button
         </button>
         <button type="button" class="btn btn-sm btn-secondary">
-          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
           Button
         </button>
         <button type="button" class="btn btn-sm btn-outline-primary">
-          <i class="modus-icons left-icon notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
           Button
         </button>
         <button type="button" class="btn btn-sm btn-icon-only btn-outline-dark">
-          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons notranslate">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-sm btn-icon-only btn-text-dark">
-          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons notranslate">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
       </div>
@@ -132,7 +133,7 @@
             <div class="navbar-nav ml-auto">
               <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 text-white" data-toggle="tooltip"
                 data-placement="bottom" title="{{- .Title -}}">
-          <i class="modus-icons notranslate">{{- replace ( urlize .Title ) "-" "_" | lower -}}</i>
+          <i class="modus-icons notranslate">{{ $ligature }}</i>
               </button>
             </div>
         </nav>
@@ -144,7 +145,7 @@
     <p>Use in web applications, on buttons, and anywhere you need more than a few icons.</p>
 
     <div class="mb-1">
-      {{ $iconFontSnippet := printf `<i class="modus-icons">%s</i>` (replace ( urlize .Title ) "-" "_") -}}
+      {{ $iconFontSnippet := printf `<i class="modus-icons">%s</i>` $ligature -}}
       {{- highlight $iconFontSnippet "html" "" }}
     </div>
 

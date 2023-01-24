@@ -3,6 +3,7 @@
   "words": [
     "codeql",
     "cpath",
+    "doesn",
     "funcs",
     "getenv",
     "horiz",
@@ -16,6 +17,7 @@
     "plainify",
     "qube",
     "rgba",
+    "rsquo",
     "sketchup",
     "Spriter",
     "svgexport",
@@ -33,11 +35,7 @@
     "Xhref",
     "xlink"
   ],
-  "flagWords": [
-    "blacklist",
-    "teh",
-    "whitelist"
-  ],
+  "flagWords": ["blacklist", "teh", "whitelist"],
   "ignorePaths": [
     ".cspell.json",
     "**/node_modules/**",

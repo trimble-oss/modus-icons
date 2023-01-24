@@ -2215,6 +2215,18 @@
     ]
   },
   {
+    "name": "visibility-off",
+    "tags": [
+      "display",
+      "eye",
+      "show",
+      "view"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
     "name": "visibility-on",
     "tags": [
       "display",
@@ -2416,10 +2428,5 @@
     "categories": [
       "Actions & Navigation"
     ]
-  },
-  {
-    "name": "visibility-off",
-    "tags": [],
-    "categories": []
   }
 ]

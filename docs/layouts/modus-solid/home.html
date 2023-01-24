@@ -17,7 +17,7 @@
       </ol>
     </nav>
     {{ partialCached "icons-modus-solid" . }}
-
+    {{ partial "usage" (dict "context" . "iconset" "modus-solid") }}
     {{ .Content }}
   </main>
 

@@ -17,9 +17,9 @@
       </ol>
     </nav>
     {{ partialCached "icons-modus-outline" . }}
-
+    {{ partial "usage" (dict "context" . "iconset" "modus-outline" "iconset" "modus-outline") }}
     {{ .Content }}
-  </main>
+</main>
 
   {{- partialCached "footer" . }}
   {{- partialCached "scripts" . }}

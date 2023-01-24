@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Modus Design System Icons</title>
+    <meta name="description" content="Modus Design System Icon fonts">
     <style>
 
         body {
@@ -62,7 +64,6 @@
         <h1>{{ fontName }}</h1>
 <div class="grid">
         {{#each names }}
-
             <div class="preview">
                 <div class="code-sample">
                     <div class="label">{{ this.fileName }}</div>
@@ -71,13 +72,7 @@
                     <i class="{{ ../fontName }}">{{ this.ligatureName }}</i>
                    <pre>&lt;i class="{{ ../fontName }}"&gt;{{ this.ligatureName }}&lt;/i&gt;</pre>
                 </div>
-                <div class="inner">
-                    <i class="{{ ../fontName }} {{this.className}}"></i>
-                    <pre>&lt;i class="{{ ../fontName }} {{ this.className }}"&gt;&lt;/i&gt;</pre>
-                </div>
-
             </div>
-
         {{/each }}
     </div>
     </div>

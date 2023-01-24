@@ -4,7 +4,7 @@ Open source icon library for Modus with over 500 icons.
 
 ## Install
 
-Modus Icons are packaged up and published to npm. We only include the processed SVGs in this package - it's up to you and your team to implement. [Read our docs](https://modus-icons.trimble.com/) for usage instructions.
+Modus Icons are packaged up and published to npm as processed SVGs, SVG sprites and ligature web fonts. [Read our docs](https://modus-icons.trimble.com/) for usage instructions.
 
 ```shell
 npm i @trimble-oss/modus-icons
@@ -14,6 +14,7 @@ npm i @trimble-oss/modus-icons
 
 Depending on your setup, you can include Modus Icons in a handful of ways.
 
+- Use the web font
 - Copy-paste SVGs as embedded HTML
 - Reference via `<img>` element
 - Use the SVG sprite
@@ -25,27 +26,7 @@ Depending on your setup, you can include Modus Icons in a handful of ways.
 
 [![Build Status](https://github.com/trimblemaps/modus-icons/workflows/Tests/badge.svg)](https://github.com/trimblemaps/modus-icons/actions?workflow=Tests)
 
-Clone the repo, install dependencies, and start the Hugo server locally.
-
-```shell
-git clone https://github.com/trimble-oss/modus-icons/
-cd icons
-npm i
-npm start
-```
-
-Then open `http://localhost:4000` in your browser.
-
-### npm scripts
-
-Here are some key scripts you'll use during development. Be sure to look to our `package.json` for a complete list of scripts.
-
-| Script       | Description                                                    |
-| ------------ | -------------------------------------------------------------- |
-| `start`      | Alias for running `docs-serve`                                 |
-| `docs-serve` | Starts a local Hugo server                                     |
-| `pages`      | Generates permalink pages for each icon with template Markdown |
-| `icons`      | Processes and optimizes SVGs in `icons` directory              |
+Read the [CONTRIBUTING.md](Contributing) guide for details on how to contribute.
 
 ## Adding SVGs
 

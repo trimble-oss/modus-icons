@@ -15,6 +15,14 @@
     {{ end }}
   </div>
   </div>
+  <div class="message message-primary message-transportation">
+    <i class="modus-icons">info</i>
+    <div>
+      <a href="/modus-solid/">Transportation icon set includes all
+        {{ len (where .Site.RegularPages "Section" "=" "modus-solid") }} icons from Modus Solid.</a>
+    </div>
+  </div>
+
   <ul class="row row-cols-2 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
     {{ range (where .Site.RegularPages "Section" "transportation") -}}
 

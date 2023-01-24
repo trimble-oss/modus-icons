@@ -8,6 +8,7 @@
 @import "navbar";
 @import "skippy";
 @import "footer";
+@import "utilities";
 
 .modus-icon,
 .mi,
@@ -78,6 +79,7 @@
 
 .list {
   font-size: 2rem;
+  min-height: 248px;
 
   &:empty::before {
     display: block;
@@ -136,15 +138,14 @@
   }
 }
 
-.py-6 {
-  padding-top: 4.5rem;
-  padding-bottom: 4.5rem;
-}
-
 #icons-body a > .bg-light:hover {
   background-color: rgba(99, 99, 99, 0.1) !important;
 }
 
 main {
-  min-height: calc(100vh - 315px);
+  min-height: calc(100vh - 400px);
+  }
+
+  .home .highlight {
+    padding-left: 0 !important;
 }

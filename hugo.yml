@@ -40,13 +40,13 @@ module:
       target:           static/favicon.ico
     - source:           dist
       target:           static
-    - source:           dist/modus-outline/sprites/modus-icons.svg
-      target:           static/modus-outline-icons.svg
-    - source:           dist/modus-solid/sprites/modus-icons.svg
-      target:           static/modus-solid-icons.svg
+    - source:           dist/common-outline/sprites/modus-icons.svg
+      target:           static/common-outline-icons.svg
+    - source:           dist/common-solid/sprites/modus-icons.svg
+      target:           static/common-solid-icons.svg
     - source:           dist/transportation/sprites/modus-icons.svg
       target:           static/transportation-icons.svg
-    - source:           dist/modus-solid/fonts/
+    - source:           dist/common-solid/fonts/
       target:           static/fonts/
     - source:           node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
       target:           assets/js/vendor/bootstrap.bundle.min.js
@@ -80,7 +80,7 @@ menu:
     - name: Web
       parent: Components
       url: "https://modus.trimble.com/components/web/"
-      pre: "<img src='/modus-outline/svg/web.svg' width=28 height=28 class='icon mr-1' alt>"
+      pre: "<img src='/common-outline/svg/web.svg' width=28 height=28 class='icon mr-1' alt>"
       post: "Modus component library for web-based apps and workflows."
       weight: 1
     - name: In-Field

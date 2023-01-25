@@ -1,10 +1,10 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/modus-solid/fonts/modus-icons.css">
+<link rel="stylesheet" href="/common-solid/fonts/modus-icons.css">
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb my-4 p-0">
     <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item"><a href="/modus-solid/">Modus Solid</a></li>
+    <li class="breadcrumb-item"><a href="/common-solid/">Common Solid</a></li>
     <li class="breadcrumb-item active" aria-current="page">{{- .Title -}}</li>
   </ol>
 </nav>
@@ -17,7 +17,7 @@
     <ul class="list-unstyled mb-3 mb-md-0">
       {{ with .Params.tags }}<li><strong>Tags:</strong> {{ delimit . ", " }}</li>{{ end }}
       {{ with .Params.categories }}<li><strong>Category:</strong>
-        <a href="/modus-solid/?filter={{ delimit . ", " | lower }}">{{ delimit . ", " }}</a>
+        <a href="/common-solid/?filter={{ delimit . ", " | lower }}">{{ delimit . ", " }}</a>
       </li>
       {{ end }}
     </ul>
@@ -33,11 +33,11 @@
 
 <hr class="my-4">
 
-{{- $localSvgPath := printf "/dist/modus-solid/svg/%s.svg" .File.TranslationBaseName -}}
+{{- $localSvgPath := printf "/dist/common-solid/svg/%s.svg" .File.TranslationBaseName -}}
 {{- $svgPath := path.Join "/" $localSvgPath -}}
 {{- $svgHtml := readFile $localSvgPath | chomp | safeHTML -}}
 {{- $svgSpriteSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
-  <use xlink:href="/modus-solid-icons.svg#%s" />
+  <use xlink:href="/common-solid-icons.svg#%s" />
 </svg>` .File.TranslationBaseName -}}
 {{- $svgSpriteHtml := $svgSpriteSnippet | safeHTML -}}
 {{- $ligature := replace ( urlize .Title ) "-" "_" | lower -}}

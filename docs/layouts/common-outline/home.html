@@ -13,13 +13,13 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb my-4 p-0">
         <li class="breadcrumb-item"><a href="/">Home</a></li>
-        <li class="breadcrumb-item"><a href="/modus-solid/">Modus Solid</a></li>
+        <li class="breadcrumb-item"><a href="/common-outline/">Common Outline</a></li>
       </ol>
     </nav>
-    {{ partialCached "icons-modus-solid" . }}
-    {{ partial "usage" (dict "context" . "iconset" "modus-solid") }}
+    {{ partialCached "icons-common-outline" . }}
+    {{ partial "usage" (dict "context" . "iconset" "common-outline" "iconset" "common-outline") }}
     {{ .Content }}
-  </main>
+</main>
 
   {{- partialCached "footer" . }}
   {{- partialCached "scripts" . }}

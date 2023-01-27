@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "extends": ["@tmx/eslint-config"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+       "endOfLine": "auto"
+      }
+    ],
+    "@angular-eslint/template/eqeqeq": "off" // Rule is missing from plugin pre v12. Remove this once the project and @angular-eslint is upgraded to v12
+  }
+}

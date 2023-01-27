@@ -1,0 +1,13 @@
+<div class="d-flex align-items-center mr-auto">
+  <div *ngIf="logoPath">
+    <img [src]="logoPath" class="app-logo d-block ml-3" [alt]="logoAlt" />
+  </div>
+  <div *ngIf="appName">
+    <h1 class="app-name ml-2" [ngClass]="{ 'app-name-white': isBlue }">
+      {{ appName }}
+    </h1>
+  </div>
+  <span *ngIf="badge" class="badge badge-warning ml-2">
+    {{ badge.toUpperCase() }}
+  </span>
+</div>

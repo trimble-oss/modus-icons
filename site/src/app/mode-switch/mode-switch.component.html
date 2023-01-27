@@ -1,0 +1,28 @@
+<div *ngIf="!leftNav">
+  <button
+    class="btn btn-icon-only btn-lg"
+    (click)="toggleMode()"
+    [tooltip]="isDark ? 'Light Mode' : 'Dark Mode'"
+    container="body"
+  >
+    <i class="modus-icon material-icons notranslate">{{
+      isDark ? 'light_mode' : 'mode_night'
+    }}</i>
+  </button>
+</div>
+<div *ngIf="leftNav" class="mb-2 mt-auto">
+  <a class="nav-link" (click)="toggleMode()" role="button">
+    <span
+      class="left-nav-icon"
+      [tooltip]="isDark ? 'Light Mode' : 'Dark Mode'"
+      container="body"
+      [adaptivePosition]="false"
+      placement="right"
+    >
+      <i class="modus-icon material-icons notranslate">{{
+        isDark ? 'light_mode' : 'mode_night'
+      }}</i></span
+    >
+    {{ isDark ? 'Light Mode' : 'Dark Mode' }}
+  </a>
+</div>

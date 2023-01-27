@@ -1,0 +1,6 @@
+*.min.css
+*.svg
+*.js
+*.md
+public/*.*
+*.html

@@ -1,0 +1,96 @@
+// Modus Layout
+@import './node_modules/@trimbleinc/modus-bootstrap/dist/modus-layout';
+
+// Bootstrap functions
+@import '../node_modules/bootstrap/scss/functions';
+
+// modus functions
+@import '../node_modules/@trimbleinc/modus-bootstrap/scss/components/functions';
+
+// Modus variables
+@import '../node_modules/@trimbleinc/modus-bootstrap/scss/components/trimble-colors';
+@import '../node_modules/@trimbleinc/modus-bootstrap/scss/components/dark-theme';
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  z-index: 0;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: $col_gray_9;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $col_gray_10;
+  border-radius: 4px;
+  background-clip: padding-box;
+  padding: 100px 0 0;
+  border: 3px solid transparent;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  border: 1px solid transparent;
+}
+
+*::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+@import '../node_modules/@trimbleinc/modus-bootstrap/scss/components/modus-variables';
+
+// Bootstrap variables
+@import '../node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/variables';
+
+@import '../node_modules/@trimbleinc/modus-bootstrap/scss/components/mixins';
+
+// Bootstrap components
+@import '../node_modules/bootstrap/scss/reboot';
+@import '../node_modules/bootstrap/scss/type';
+@import '../node_modules/bootstrap/scss/images';
+@import '../node_modules/bootstrap/scss/code';
+@import '../node_modules/bootstrap/scss/grid';
+@import '../node_modules/bootstrap/scss/tables';
+@import '../node_modules/bootstrap/scss/forms';
+@import '../node_modules/bootstrap/scss/buttons';
+@import '../node_modules/bootstrap/scss/transitions';
+@import '../node_modules/bootstrap/scss/dropdown';
+
+// @import "../node_modules/bootstrap/scss/button-group";
+@import '../node_modules/bootstrap/scss/input-group';
+@import '../node_modules/bootstrap/scss/custom-forms';
+@import '../node_modules/bootstrap/scss/nav';
+@import '../node_modules/bootstrap/scss/navbar';
+@import '../node_modules/bootstrap/scss/card';
+@import '../node_modules/bootstrap/scss/pagination';
+@import '../node_modules/bootstrap/scss/badge';
+@import '../node_modules/bootstrap/scss/alert';
+@import '../node_modules/bootstrap/scss/progress';
+
+// @import "../node_modules/bootstrap/scss/media";
+@import '../node_modules/bootstrap/scss/list-group';
+@import '../node_modules/bootstrap/scss/close';
+@import '../node_modules/bootstrap/scss/toasts';
+@import '../node_modules/bootstrap/scss/modal';
+@import '../node_modules/bootstrap/scss/tooltip';
+@import '../node_modules/bootstrap/scss/popover';
+@import '../node_modules/bootstrap/scss/spinners';
+@import '../node_modules/bootstrap/scss/utilities';
+
+// Datepicker
+@import '../node_modules/ngx-bootstrap/datepicker/bs-datepicker';
+
+// Modus Bootstrap Components
+@import './node_modules/@trimbleinc/modus-bootstrap/scss/components/controls';
+@import './node_modules/@trimbleinc/modus-bootstrap/scss/components/base';
+@import './node_modules/@trimbleinc/modus-bootstrap/scss/components/scrollbars';
+
+.dropdown-content {
+  background-color: #171c1e !important;
+}
+
+.modal-body {
+  background-color: #171c1e !important;
+}

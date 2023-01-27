@@ -18,11 +18,11 @@
 
 .btn-clipboard {
   position: absolute;
-  top: 0.75em;
-  right: 0.5em;
+  top: .75em;
+  right: .5em;
   z-index: 10;
   display: block;
-  padding: 0.5em 0.75em 0.625em;
+  padding: .5em .75em .625em;
   line-height: 1 !important;
   opacity: 0.9;
   background-color: #e0e1e9;
@@ -33,7 +33,7 @@
 }
 
 .ico-clipboard {
-  background-image: url("/common-solid/svg/clipboard.svg");
+  background-image: url("/modus-solid/svg/clipboard.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -42,7 +42,7 @@
 }
 
 .ico-check {
-  background-image: url("/common-solid/svg/check.svg");
+  background-image: url("/modus-solid/svg/check.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

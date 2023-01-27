@@ -1,21 +1,21 @@
 [
   {
     "svgs": [
-      "common-outline",
+      "modus-outline",
       "material-outline"
     ],
-    "dist": "common-outline"
+    "dist": "modus-outline"
   },
   {
     "svgs": [
-      "common-solid",
+      "modus-solid",
       "material-solid"
     ],
-    "dist": "common-solid"
+    "dist": "modus-solid"
   },
   {
     "svgs": [
-      "common-solid",
+      "modus-solid",
       "material-solid",
       "transportation"
     ],

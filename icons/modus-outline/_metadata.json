@@ -2428,5 +2428,100 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "update",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clipboard-empty",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "caret-down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "caret-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "caret-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "caret-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-double-down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-double-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-double-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-double-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clipboard-empty copy",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand-less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand-more",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "switch-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "switch-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unfold-less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unfold-more",
+    "tags": [],
+    "categories": []
   }
 ]

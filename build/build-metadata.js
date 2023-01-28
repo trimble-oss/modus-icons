@@ -3,6 +3,11 @@ const path = require('path');
 
 async function buildMetadata(config) {
   const allConfigIcons = [];
+  const siteData = JSON.parse(
+    fs.readFileSync(
+      path.join(config.svgDirectoryPaths[0], '..', 'site-data.json')
+    )
+  );
   await Promise.all(
     config.svgDirectoryPaths.map((srcDirectoryPath) => {
       console.log(
@@ -58,9 +63,74 @@ async function buildMetadata(config) {
       json = json.filter((icon) => {
         return fs.existsSync(path.join(srcDirectoryPath, `${icon.name}.svg`));
       });
+      // sort icons
+      json = json.sort((a, b) => {
+        if (a.name < b.name) return -1;
+        if (a.name > b.name) return 1;
+        return 0;
+      });
+      // write metadata
       fs.writeFileSync(
         path.join(srcDirectoryPath, '_metadata.json'),
         JSON.stringify(json, null, 2)
+      );
+      // update site-data.json
+      const dirSetName = path.basename(srcDirectoryPath).includes('material')
+        ? `modus-${path.basename(srcDirectoryPath).split('-')[1]}`
+        : path.basename(srcDirectoryPath);
+      if (siteData.find((s) => s.setName === dirSetName)) {
+        json.forEach((i) => {
+          const icon = siteData
+            .find((s) => s.setName === dirSetName)
+            .icons.find((icon) => icon.name === i.name);
+          if (icon) {
+            icon.tags = i.tags;
+            icon.categories = i.categories;
+            icon.deprecated = i.deprecated || false;
+            icon.useInstead = i.useInstead || '';
+          } else {
+            siteData
+              .find((s) => s.setName === dirSetName)
+              .icons.push({
+                name: i.name,
+                tags: i.tags,
+                categories: i.categories,
+                deprecated: i.deprecated || false,
+                useInstead: i.useInstead || '',
+              });
+          }
+        });
+      } else {
+        siteData.push({
+          setName: dirSetName,
+          displayName: path
+            .basename(srcDirectoryPath)
+            .replace(/-/g, ' ')
+            .replace(
+              /\w\S*/g,
+              (txt) =>
+                txt.charAt(0).toUpperCase() + txt.substring(1).toLowerCase()
+            ),
+          type: dirSetName.includes('modus') ? 'modus' : 'sector',
+          icons: json.map((i) => {
+            return {
+              name: i.name,
+              tags: i.tags,
+              categories: i.categories,
+              deprecated: i.deprecated || false,
+              useInstead: i.useInstead || '',
+            };
+          }),
+        });
+      }
+      fs.writeJSONSync(
+        path.join(srcDirectoryPath, '..', 'site-data.json'),
+        siteData,
+        { spaces: 2 }
+      );
+      fs.writeFileSync(
+        path.join('src', 'app', '_data', 'site-data.ts'),
+        `export const siteData = ${JSON.stringify(siteData, null, 2)};`
       );
     })
   );

@@ -34,7 +34,7 @@ speed-measure-plugin*.json
 
 # misc
 /.sass-cache
-/docs
+/docs/content
 /resources
 /connect.lock
 /coverage

@@ -1,0 +1,27 @@
+<div class="card card-home border mb-3 mx-auto">
+  <div class="card-header bg-light border-0 text-center">
+    <ng-container *ngFor="let icon of iconSet.icons">
+      <svg class="modus-icon m-2" width="24" height="24" fill="currentcolor">
+        <use
+          [attr.xlink:href]="
+            '../../assets/' +
+            iconSet.setName +
+            '/sprites/modus-icons.svg#' +
+            icon.name
+          "
+        ></use>
+      </svg>
+    </ng-container>
+  </div>
+  <div class="card-body bg-light my-0 py-0">
+    <a
+      [routerLink]="'/' + iconSet.setName"
+      class="text-decoration-none stretched-link h2"
+    >
+      {{ iconSet.displayName }}
+    </a>
+  </div>
+  <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
+    {{ iconSet.count }} icons
+  </div>
+</div>

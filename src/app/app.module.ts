@@ -11,19 +11,16 @@ import { DropdownModule } from 'modus-dropdown';
 import { ModusAppBrandingComponent } from './modus-app-branding/modus-app-branding.component';
 import { ModeSwitchComponent } from './mode-switch/mode-switch.component';
 @NgModule({
-  declarations: [
-    AppComponent,
-    ModusAppBrandingComponent,
-    ModeSwitchComponent,
-  ],
+  declarations: [AppComponent, ModusAppBrandingComponent, ModeSwitchComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    DropdownModule,
     TypeaheadModule.forRoot(),
     PopoverModule.forRoot(),
     TooltipModule.forRoot(),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

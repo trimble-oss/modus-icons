@@ -1,0 +1,10 @@
+<div>
+  <button
+    class="btn btn-icon-only"
+    (click)="toggleMode()"
+    [tooltip]="isDark ? 'Light Mode' : 'Dark Mode'"
+    container="body"
+  >
+    <i class="modus-icons notranslate">{{ isDark ? 'sun' : 'moon' }}</i>
+  </button>
+</div>

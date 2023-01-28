@@ -1,0 +1,194 @@
+<header
+  class="navbar navbar-main navbar-expand navbar-blue flex-column flex-xl-row px-0"
+  aria-label="main navigation"
+>
+  <div
+    class="container flex-column flex-md-row align-items-center justify-content-end"
+  >
+    <modus-app-branding
+      [logoPath]="'../assets/img/trimble-logo.svg'"
+      logoAlt="Trimble"
+      appName="Modus Icons"
+    ></modus-app-branding>
+    <div class="navbar-nav-scroll">
+      <ul class="navbar-nav">
+        <li class="nav-item mx-0 mx-sm-1 mx-md-2">
+          <a class="nav-link nav-start" href="https://modus.trimble.com/start/"
+            >Start</a
+          >
+        </li>
+        <li class="nav-item mx-0 mx-sm-1 mx-md-2">
+          <a
+            class="nav-link nav-foundations"
+            href="https://modus.trimble.com/foundations/"
+            >Foundations</a
+          >
+        </li>
+        <li class="nav-item mx-sm-1 mx-md-2 dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-toggle="dropdown"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Components</a
+          >
+          <div class="dropdown-menu px-2 rounded">
+            <a
+              class="dropdown-item text-dark rounded border-0 p-3 my-1"
+              href="https://modus.trimble.com/components/web/"
+            >
+              <div class="d-flex flex-row">
+                <div>
+                  <img
+                    src="./Modus Icons · SVG icon library for Modus_files/web.svg"
+                    width="28"
+                    height="28"
+                    class="icon mr-1"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  Web
+                  <p class="mb-0 small text-muted">
+                    Modus component library for web-based apps and workflows.
+                  </p>
+                </div>
+              </div></a
+            >
+            <a
+              class="dropdown-item text-dark rounded border-0 p-3 my-1"
+              href="https://modus.trimble.com/components/in-field/"
+            >
+              <div class="d-flex flex-row">
+                <div>
+                  <img
+                    src="./Modus Icons · SVG icon library for Modus_files/truck.svg"
+                    width="28"
+                    height="28"
+                    class="icon mr-1"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  In-Field
+                  <p class="mb-0 small text-muted">
+                    High-contrast library specific to apps used outdoors on
+                    handheld or in-cab devices.
+                  </p>
+                </div>
+              </div></a
+            >
+          </div>
+        </li>
+        <li class="nav-item mx-0 mx-sm-1 mx-md-2">
+          <a
+            class="nav-link nav-icons"
+            href="https://gentle-forest-0a6d5f110.2.azurestaticapps.net/"
+            >Icons</a
+          >
+        </li>
+        <li class="nav-item mx-0 mx-sm-1 mx-md-2">
+          <a
+            class="nav-link nav-community"
+            href="https://modus.trimble.com/community/"
+            >Community</a
+          >
+        </li>
+        <li class="nav-item">
+          <app-mode-switch></app-mode-switch>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+<router-outlet></router-outlet>
+<footer class="footer p-3 p-md-5 mt-5 bg-light text-center text-sm-left">
+  <div class="container">
+    <div class="row pt-2">
+      <div class="col-12 mb-3 mt-1">
+        <img
+          src="./assets/img/trimble.svg"
+          alt="Trimble"
+          class="img-fluid d-none d-sm-inline-block mb-2 mr-1"
+        />
+      </div>
+    </div>
+
+    <div class="row py-2">
+      <div class="col-11 col-md-5 col-lg-4">
+        <p>
+          Trimble is transforming the way the world works by delivering products
+          and services that connect the physical and digital worlds.
+        </p>
+      </div>
+      <div class="col-12 col-sm-1 col-lg-4"></div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <p class="h5">About</p>
+        <ul class="list-unstyled">
+          <li class="my-3 my-sm-2">
+            <a href="/" class="py-2">Introduction</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <p class="h5">Help</p>
+        <ul class="list-unstyled">
+          <li class="my-3 my-sm-2">
+            <a
+              href="https://github.com/trimble-oss/modus-icons/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc"
+              target="_blank"
+              rel="noopener"
+              class="py-2"
+              >Contribute</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row p-3">
+      <div class="col-12 border-top border-light opacity-50"></div>
+    </div>
+    <div class="row pt-2">
+      <div class="col-12 col-sm-6 small">
+        Copyright &copy; 2023, Trimble Inc.
+      </div>
+      <div class="col-12 col-sm-6 text-sm-right small">
+        <a
+          href="https://www.trimble.com/en/our-commitment/responsible-business/data-privacy-and-security/data-privacy-center"
+          target="_blank"
+          rel="noopener"
+          >Privacy Center</a
+        >
+        -
+        <a
+          href="https://www.trimble.com/en/legal/terms-and-conditions/terms-of-use"
+          target="_blank"
+          rel="noopener"
+          >Terms of Use</a
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Load SVG Sprites on IE 11 -->
+<script
+  nomodule
+  crossorigin="anonymous"
+  src="https://polyfill.io/v3/polyfill.min.js"
+></script>
+<script
+  nomodule
+  src="https://cdn.jsdelivr.net/npm/svg4everybody@2.1.9/dist/svg4everybody.min.js"
+></script>
+<script nomodule>
+  svg4everybody();
+</script>
+
+<!-- {{ if not .Params.tags -}}
+<button type="button" aria-label="scroll to top" class="btn-to-top border-0 position-fixed"></button>
+{{ $external := resources.Get "js/scroll-to-top.js" }}
+{{ $scrollToTopJs := slice $external | resources.Concat "js/scroll-to-top.js" | resources.Minify }}
+<script src="{{ $scrollToTopJs.RelPermalink }}" defer></script>
+{{ end }} -->

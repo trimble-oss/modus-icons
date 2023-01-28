@@ -1,7 +1,4 @@
-**/*.min.js
-**/dist/
-**/vendor/
-/_site/
-scroll-to-top.js
-tools/build-pages.js
-theme-toggle.js
+package.json
+package-lock.json
+dist
+/**/*.spec.ts

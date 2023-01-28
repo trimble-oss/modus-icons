@@ -1,6 +1,6 @@
-**/*.min.css
-**/dist/
-**/font/
-**/vendor/
-/_site/
-_modus-bootstrap-dark.scss
+*.min.css
+*.svg
+*.js
+*.md
+public/*.*
+*.html

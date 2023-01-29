@@ -15,8 +15,19 @@ import { SetComponent } from './set/set.component';
 import { DetailComponent } from './detail/detail.component';
 import { IconCardComponent } from './icon-card/icon-card.component';
 import { SearchComponent } from './search/search.component';
+import { SvgSpriteComponent } from './svg-sprite/svg-sprite.component';
 @NgModule({
-  declarations: [AppComponent, ModusAppBrandingComponent, ModeSwitchComponent, HomeComponent, SetComponent, DetailComponent, IconCardComponent, SearchComponent],
+  declarations: [
+    AppComponent,
+    ModusAppBrandingComponent,
+    ModeSwitchComponent,
+    HomeComponent,
+    SetComponent,
+    DetailComponent,
+    IconCardComponent,
+    SearchComponent,
+    SvgSpriteComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

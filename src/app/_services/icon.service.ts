@@ -30,6 +30,12 @@ export class IconService {
     return siteData.find((set) => set.setName === setName)?.icons || [];
   }
 
+  getIcon(setName: string, iconName: string): any {
+    return siteData
+      .find((set) => set.setName === setName)
+      ?.icons.find((icon) => icon.name === iconName);
+  }
+
   searchIcons(searchTerm: string): any[] {
     const results: any[] = [];
     if (searchTerm.length < 2) {

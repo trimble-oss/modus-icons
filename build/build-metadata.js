@@ -93,6 +93,14 @@ async function buildMetadata(config) {
               .find((s) => s.setName === dirSetName)
               .icons.push({
                 name: i.name,
+                displayName: i.name
+                  .replace(/-/g, ' ')
+                  .replace(
+                    /\w\S*/g,
+                    (txt) =>
+                      txt.charAt(0).toUpperCase() +
+                      txt.substring(1).toLowerCase()
+                  ),
                 tags: i.tags,
                 categories: i.categories,
                 deprecated: i.deprecated || false,
@@ -115,6 +123,13 @@ async function buildMetadata(config) {
           icons: json.map((i) => {
             return {
               name: i.name,
+              displayName: i.name
+                .replace(/-/g, ' ')
+                .replace(
+                  /\w\S*/g,
+                  (txt) =>
+                    txt.charAt(0).toUpperCase() + txt.substring(1).toLowerCase()
+                ),
               tags: i.tags,
               categories: i.categories,
               deprecated: i.deprecated || false,

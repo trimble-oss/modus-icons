@@ -201,7 +201,7 @@
       "delta"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -210,7 +210,7 @@
       "math"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -219,7 +219,7 @@
       "math"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -231,7 +231,7 @@
       "month"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -255,7 +255,7 @@
       "month"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -267,7 +267,7 @@
       "month"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -287,7 +287,7 @@
       "photo"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -304,6 +304,26 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "caret-down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "caret-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "caret-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "caret-up",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "certificate",
@@ -348,6 +368,36 @@
     ]
   },
   {
+    "name": "chevron-double-down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-double-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-double-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-double-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-right",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "clipboard",
     "tags": [
       "paste"
@@ -371,6 +421,26 @@
     ],
     "categories": [
       "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "clipboard-empty",
+    "tags": [
+      "copy",
+      "paste"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "clipboard-planning",
+    "tags": [
+      "clipboard",
+      "list"
+    ],
+    "categories": [
+      "Presentations & View"
     ]
   },
   {
@@ -606,7 +676,9 @@
   },
   {
     "name": "envelope",
-    "tags": [],
+    "tags": [
+      "mail"
+    ],
     "categories": []
   },
   {
@@ -618,6 +690,16 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "expand-less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand-more",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "fast-forward",
@@ -990,21 +1072,21 @@
     ]
   },
   {
-    "name": "help",
-    "tags": [
-      "circle"
-    ],
-    "categories": [
-      "Alerts & Messages"
-    ]
-  },
-  {
     "name": "helicopter",
     "tags": [
       "fly"
     ],
     "categories": [
       "Presentations & Views"
+    ]
+  },
+  {
+    "name": "help",
+    "tags": [
+      "circle"
+    ],
+    "categories": [
+      "Alerts & Messages"
     ]
   },
   {
@@ -1090,14 +1172,14 @@
     "name": "keyboard",
     "tags": [],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
     "name": "keyboard-keys",
     "tags": [],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -1339,7 +1421,7 @@
     "name": "mouse",
     "tags": [],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -1474,7 +1556,7 @@
     "name": "phone-mobile",
     "tags": [],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -1492,16 +1574,6 @@
     "name": "pin-add",
     "tags": [],
     "categories": []
-  },
-  {
-    "name": "clipboard-planning",
-    "tags": [
-      "clipboard",
-      "list"
-    ],
-    "categories": [
-      "Presentations & View"
-    ]
   },
   {
     "name": "play-circle",
@@ -1544,17 +1616,17 @@
     ]
   },
   {
-    "name": "polygon-select",
-    "tags": [],
+    "name": "polygon-merge",
+    "tags": [
+      "merge"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
   },
   {
-    "name": "polygon-merge",
-    "tags": [
-      "merge"
-    ],
+    "name": "polygon-select",
+    "tags": [],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1691,7 +1763,7 @@
     "name": "screen",
     "tags": [],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -1715,14 +1787,14 @@
     "name": "server",
     "tags": [],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
     "name": "server-round",
     "tags": [],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -1930,6 +2002,16 @@
     ]
   },
   {
+    "name": "switch-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "switch-right",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "sync",
     "tags": [
       "arrow",
@@ -1957,7 +2039,7 @@
     "name": "tablet",
     "tags": [],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -2165,6 +2247,21 @@
     ]
   },
   {
+    "name": "unfold-less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unfold-more",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "update",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "upload",
     "tags": [
       "arrow",
@@ -2192,7 +2289,7 @@
       "cam"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -2202,7 +2299,7 @@
       "plus"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -2211,7 +2308,7 @@
       "cam"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -2246,7 +2343,7 @@
       "sound"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -2257,7 +2354,7 @@
       "sound"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -2268,7 +2365,7 @@
       "sound"
     ],
     "categories": [
-      "Computer Hardware & Assets"
+      "Devices"
     ]
   },
   {
@@ -2428,95 +2525,5 @@
     "categories": [
       "Actions & Navigation"
     ]
-  },
-  {
-    "name": "update",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "clipboard-empty",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "caret-down",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "caret-left",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "caret-right",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "caret-up",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "chevron-double-down",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "chevron-double-left",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "chevron-double-right",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "chevron-double-up",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "chevron-left",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "chevron-right",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "expand-less",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "expand-more",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "switch-left",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "switch-right",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "unfold-less",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "unfold-more",
-    "tags": [],
-    "categories": []
   }
 ]

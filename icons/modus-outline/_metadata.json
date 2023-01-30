@@ -2525,5 +2525,70 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-down-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-left-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-right-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-up-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "drag-indicator",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "palette",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "people-couple",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "person-account",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "person-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "person-edit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "person-remove",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "remove",
+    "tags": [],
+    "categories": []
   }
 ]

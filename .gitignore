@@ -33,6 +33,7 @@ speed-measure-plugin*.json
 .history/*
 
 # misc
+_site-data.json
 /.sass-cache
 .hugo_build.lock
 /_site

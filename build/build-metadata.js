@@ -4,9 +4,7 @@ const path = require('path');
 async function buildMetadata(config) {
   const allConfigIcons = [];
   const siteData = JSON.parse(
-    fs.readFileSync(
-      path.join(config.svgDirectoryPaths[0], '..', 'site-data.json')
-    )
+    fs.readFileSync(path.join(__dirname, '_site-data.json'))
   );
   await Promise.all(
     config.svgDirectoryPaths.map((srcDirectoryPath) => {
@@ -138,11 +136,9 @@ async function buildMetadata(config) {
           }),
         });
       }
-      fs.writeJSONSync(
-        path.join(srcDirectoryPath, '..', 'site-data.json'),
-        siteData,
-        { spaces: 2 }
-      );
+      fs.writeJSONSync(path.join(__dirname, '_site-data.json'), siteData, {
+        spaces: 2,
+      });
       fs.writeFileSync(
         path.join('src', 'app', '_data', 'site-data.ts'),
         `export const siteData = ${JSON.stringify(siteData, null, 2)};`

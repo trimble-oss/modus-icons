@@ -273,7 +273,7 @@ export const siteData = [
           "delta"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -285,7 +285,7 @@ export const siteData = [
           "math"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -297,7 +297,7 @@ export const siteData = [
           "math"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -312,7 +312,7 @@ export const siteData = [
           "month"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -342,7 +342,7 @@ export const siteData = [
           "month"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -357,7 +357,7 @@ export const siteData = [
           "month"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -383,7 +383,7 @@ export const siteData = [
           "photo"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -403,6 +403,38 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-down",
+        "displayName": "Caret Down",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-left",
+        "displayName": "Caret Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-right",
+        "displayName": "Caret Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-up",
+        "displayName": "Caret Up",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -461,6 +493,54 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "chevron-double-down",
+        "displayName": "Chevron Double Down",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-left",
+        "displayName": "Chevron Double Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-right",
+        "displayName": "Chevron Double Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-up",
+        "displayName": "Chevron Double Up",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-left",
+        "displayName": "Chevron Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-right",
+        "displayName": "Chevron Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "clipboard",
         "displayName": "Clipboard",
         "tags": [
@@ -485,6 +565,19 @@ export const siteData = [
       {
         "name": "clipboard-check",
         "displayName": "Clipboard Check",
+        "tags": [
+          "copy",
+          "paste"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clipboard-empty",
+        "displayName": "Clipboard Empty",
         "tags": [
           "copy",
           "paste"
@@ -817,7 +910,9 @@ export const siteData = [
       {
         "name": "envelope",
         "displayName": "Envelope",
-        "tags": [],
+        "tags": [
+          "mail"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -832,6 +927,22 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "expand-less",
+        "displayName": "Expand Less",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "expand-more",
+        "displayName": "Expand More",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1460,7 +1571,7 @@ export const siteData = [
         "displayName": "Keyboard",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1470,7 +1581,7 @@ export const siteData = [
         "displayName": "Keyboard Keys",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1796,7 +1907,7 @@ export const siteData = [
         "displayName": "Mouse",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1976,7 +2087,7 @@ export const siteData = [
         "displayName": "Phone Mobile",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2255,7 +2366,7 @@ export const siteData = [
         "displayName": "Screen",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2288,7 +2399,7 @@ export const siteData = [
         "displayName": "Server",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2298,7 +2409,7 @@ export const siteData = [
         "displayName": "Server Round",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2574,6 +2685,22 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "switch-left",
+        "displayName": "Switch Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "switch-right",
+        "displayName": "Switch Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "sync",
         "displayName": "Sync",
         "tags": [
@@ -2608,7 +2735,7 @@ export const siteData = [
         "displayName": "Tablet",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2890,6 +3017,30 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "unfold-less",
+        "displayName": "Unfold Less",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "unfold-more",
+        "displayName": "Unfold More",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "update",
+        "displayName": "Update",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "upload",
         "displayName": "Upload",
         "tags": [
@@ -2924,7 +3075,7 @@ export const siteData = [
           "cam"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2937,7 +3088,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2949,7 +3100,7 @@ export const siteData = [
           "cam"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2993,7 +3144,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3007,7 +3158,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3021,7 +3172,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3248,28 +3399,6 @@ export const siteData = [
         "displayName": "Crop",
         "tags": [
           "resize"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "expand-less",
-        "displayName": "Expand Less",
-        "tags": [
-          "accordion",
-          "arrow"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "expand-more",
-        "displayName": "Expand More",
-        "tags": [
-          "accordion",
-          "arrow"
         ],
         "categories": [],
         "deprecated": false,
@@ -3561,7 +3690,7 @@ export const siteData = [
           "delta"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3573,7 +3702,7 @@ export const siteData = [
           "math"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3585,7 +3714,7 @@ export const siteData = [
           "math"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3600,7 +3729,7 @@ export const siteData = [
           "month"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3630,7 +3759,7 @@ export const siteData = [
           "month"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3645,7 +3774,7 @@ export const siteData = [
           "month"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3671,7 +3800,7 @@ export const siteData = [
           "photo"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3691,6 +3820,38 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-down",
+        "displayName": "Caret Down",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-left",
+        "displayName": "Caret Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-right",
+        "displayName": "Caret Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-up",
+        "displayName": "Caret Up",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3749,6 +3910,54 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "chevron-double-down",
+        "displayName": "Chevron Double Down",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-left",
+        "displayName": "Chevron Double Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-right",
+        "displayName": "Chevron Double Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-up",
+        "displayName": "Chevron Double Up",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-left",
+        "displayName": "Chevron Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-right",
+        "displayName": "Chevron Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "clipboard",
         "displayName": "Clipboard",
         "tags": [
@@ -3773,6 +3982,19 @@ export const siteData = [
       {
         "name": "clipboard-check",
         "displayName": "Clipboard Check",
+        "tags": [
+          "copy",
+          "paste"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clipboard-empty",
+        "displayName": "Clipboard Empty",
         "tags": [
           "copy",
           "paste"
@@ -4105,7 +4327,9 @@ export const siteData = [
       {
         "name": "envelope",
         "displayName": "Envelope",
-        "tags": [],
+        "tags": [
+          "mail"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -4120,6 +4344,22 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "expand-less",
+        "displayName": "Expand Less",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "expand-more",
+        "displayName": "Expand More",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4748,7 +4988,7 @@ export const siteData = [
         "displayName": "Keyboard",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4758,7 +4998,7 @@ export const siteData = [
         "displayName": "Keyboard Keys",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5084,7 +5324,7 @@ export const siteData = [
         "displayName": "Mouse",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5264,7 +5504,7 @@ export const siteData = [
         "displayName": "Phone Mobile",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5543,7 +5783,7 @@ export const siteData = [
         "displayName": "Screen",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5576,7 +5816,7 @@ export const siteData = [
         "displayName": "Server",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5586,7 +5826,7 @@ export const siteData = [
         "displayName": "Server Round",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5862,6 +6102,22 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "switch-left",
+        "displayName": "Switch Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "switch-right",
+        "displayName": "Switch Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "sync",
         "displayName": "Sync",
         "tags": [
@@ -5896,7 +6152,7 @@ export const siteData = [
         "displayName": "Tablet",
         "tags": [],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6178,6 +6434,30 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "unfold-less",
+        "displayName": "Unfold Less",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "unfold-more",
+        "displayName": "Unfold More",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "update",
+        "displayName": "Update",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "upload",
         "displayName": "Upload",
         "tags": [
@@ -6212,7 +6492,7 @@ export const siteData = [
           "cam"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6225,7 +6505,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6237,7 +6517,7 @@ export const siteData = [
           "cam"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6281,7 +6561,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6295,7 +6575,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6309,7 +6589,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Computer Hardware & Assets"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6535,28 +6815,6 @@ export const siteData = [
         "name": "crop",
         "displayName": "Crop",
         "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "expand-less",
-        "displayName": "Expand Less",
-        "tags": [
-          "chevron",
-          "arrow"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "expand-more",
-        "displayName": "Expand More",
-        "tags": [
-          "chevron",
-          "arrow"
-        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7469,14 +7727,6 @@ export const siteData = [
       {
         "name": "unloaded-orders",
         "displayName": "Unloaded Orders",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "update",
-        "displayName": "Update",
         "tags": [],
         "categories": [],
         "deprecated": false,

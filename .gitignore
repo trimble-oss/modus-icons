@@ -34,6 +34,9 @@ speed-measure-plugin*.json
 
 # misc
 /.sass-cache
+.hugo_build.lock
+/_site
+/temp
 /docs/content
 /resources
 /connect.lock

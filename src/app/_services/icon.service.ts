@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 import { siteData } from 'src/app/_data/site-data';
 
 @Injectable({
@@ -22,37 +23,60 @@ export class IconService {
     return siteData.find((set) => set.setName === setName)?.displayName || '';
   }
 
-  getSet(setName: string): any {
-    return siteData.find((set) => set.setName === setName);
+  getSet(setName: string): Observable<any> {
+    return new Observable((observer) => {
+      observer.next(siteData.find((set) => set.setName === setName));
+      observer.complete();
+    });
   }
 
-  getIconList(setName: string): any[] {
-    return siteData.find((set) => set.setName === setName)?.icons || [];
+  getIconList(setName: string): Observable<any> {
+    return new Observable((observer) => {
+      observer.next(siteData.find((set) => set.setName === setName)?.icons);
+      observer.complete();
+    });
   }
 
-  getIcon(setName: string, iconName: string): any {
-    return siteData
-      .find((set) => set.setName === setName)
-      ?.icons.find((icon) => icon.name === iconName);
+  getIcon(setName: string, iconName: string): Observable<any> {
+    return new Observable((observer) => {
+      observer.next(
+        siteData
+          .find((set) => set.setName === setName)
+          ?.icons.find((icon) => icon.name === iconName)
+      );
+      observer.complete();
+    });
   }
 
-  searchIcons(searchTerm: string): any[] {
+  searchIcons(searchTerm: string): Observable<any> {
     const results: any[] = [];
     if (searchTerm.length < 2) {
-      return results;
+      return new Observable((observer) => {
+        observer.next(results);
+        observer.complete();
+      });
     }
     siteData.forEach((set) => {
       set.icons.forEach((icon) => {
         if (icon.name.toLowerCase().includes(searchTerm.toLowerCase())) {
-          results.push(icon);
+          const result = { ...icon } as any;
+          result.setName = set.setName;
+          result.setDisplayName = set.displayName;
+          results.push(result);
         }
         icon.tags.forEach((tag) => {
           if (tag.toLowerCase().includes(searchTerm.toLowerCase())) {
-            results.push(icon);
+            const result = { ...icon } as any;
+            result.setName = set.setName;
+            result.setDisplayName = set.displayName;
+            results.push(result);
           }
         });
       });
     });
-    return results;
+    return new Observable((observer) => {
+      observer.next(results);
+      observer.complete();
+    });
   }
 }

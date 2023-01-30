@@ -27,7 +27,8 @@ export class ModeSwitchService {
 
       head.appendChild(style);
     }
-    this.document.body.classList.toggle('dark-mode', dark);
+    this.document.body.classList.toggle('light-theme', !dark);
+    this.document.body.classList.toggle('dark-theme', dark);
     this.darkMode.next(dark);
     localStorage.setItem('dark-mode', dark.toString());
   }

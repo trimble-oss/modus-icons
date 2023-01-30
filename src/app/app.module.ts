@@ -16,6 +16,10 @@ import { DetailComponent } from './detail/detail.component';
 import { IconCardComponent } from './icon-card/icon-card.component';
 import { SearchComponent } from './search/search.component';
 import { SvgSpriteComponent } from './svg-sprite/svg-sprite.component';
+import { FormsModule } from '@angular/forms';
+import { InstallComponent } from './install/install.component';
+import { UsageComponent } from './usage/usage.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,10 +31,13 @@ import { SvgSpriteComponent } from './svg-sprite/svg-sprite.component';
     IconCardComponent,
     SearchComponent,
     SvgSpriteComponent,
+    InstallComponent,
+    UsageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     DropdownModule,
     TypeaheadModule.forRoot(),
     PopoverModule.forRoot(),

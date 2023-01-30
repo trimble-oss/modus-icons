@@ -1,1 +1,24 @@
-<p>search works!</p>
+<div class="position-relative">
+  <input
+    class="form-control"
+    placeholder="Search"
+    type="text"
+    [(ngModel)]="searchString"
+    (keyup)="search()"
+  />
+  <ul style="top: 33px" class="list-group position-absolute">
+    <li class="list-group-item d-flex" *ngFor="let item of searchResults">
+      <a
+        class="text-decoration-none d-flex"
+        [href]="'/' + item.setName + '/' + item.name"
+      >
+        <modus-svg-sprite
+          [setName]="item.setName"
+          [icon]="item.name"
+        ></modus-svg-sprite>
+        <span>{{ item.displayName }}</span>
+        <span class="small">{{ item.setDisplayName }}</span>
+      </a>
+    </li>
+  </ul>
+</div>

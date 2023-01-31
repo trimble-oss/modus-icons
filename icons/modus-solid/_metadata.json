@@ -2277,7 +2277,8 @@
   {
     "name": "upload-xls",
     "tags": [
-      "arrow"
+      "arrow",
+      "excel"
     ],
     "categories": [
       "Save & Share"

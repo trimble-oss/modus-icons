@@ -55,6 +55,11 @@
   }
 }
 
+.container-hero {
+  background-image: url("/img/header.png");
+  background-size: cover;
+  background-position: right;
+}
 .hero {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 

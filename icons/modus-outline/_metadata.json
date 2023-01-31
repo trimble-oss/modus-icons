@@ -1074,7 +1074,9 @@
   {
     "name": "helicopter",
     "tags": [
-      "fly"
+      "birdview",
+      "fly",
+      "topview"
     ],
     "categories": [
       "Presentations & Views"
@@ -2316,7 +2318,7 @@
     "tags": [
       "display",
       "eye",
-      "show",
+      "hide",
       "view"
     ],
     "categories": [

@@ -3,16 +3,62 @@
 
 <head>
   {{ partial "head" . }}
+  <style>
+    .highlight {
+      background-color: #dcedf9;
+      padding: 14px;
+      padding-bottom: 14px;
+      padding-top: 14px;
+    }
+
+    .highlight pre {
+      margin-left: 8px;
+      color: #004f83;
+    }
+
+    .bd-clipboard button {
+      background-color: transparent !important;
+    }
+  </style>
 </head>
 
 <body class="home">
   {{ partialCached "skippy" . }}
   {{ partialCached "navbar" . }}
-<main class="container">
-
-    {{ partialCached "home/hero" . }}
+  {{ partialCached "home/hero" . }}
+  <main class="container mt-5">
 
     <div class="row">
+      <div class="col-12 col-sm-6 mb-4 mx-auto">
+        <form class="subnav-search w-100">
+          <div class="input-with-icon-left">
+            <input class="form-control form-control-lg search mb-0 w-100" type="search" id="search"
+              placeholder="Search Modus Icons" autocomplete="off" required title="">
+            <div class="input-icon">
+              <img src="/modus-solid/svg/search.svg" class="opacity-75" alt height="22" width="22">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+    <div class="col-12 col-sm-6">
+      <h2 class="font-weight-bold">Modus Icons</h2>
+    </div>
+    <div class="col-12 col-sm-6">
+      <div class="fs-5 d-inline-block px-3 float-right" style="min-width: 310px">
+        <div class="ml-3 pl-3">
+          <div class="pl-2 ml-2">{{- highlight "npm i @trimble-oss/modus-icons" "sh" "" -}}</div>
+        </div>
+      </div>
+      </div>
+      <div class="col-12">
+        <hr>
+      </div>
+      </div>
+
+  <div class="row">
 
       <div class="col-12 col-md-4">
         <div class="card card-home border mb-3 mx-auto">
@@ -46,22 +92,36 @@
         </div>
       </div>
 
-       <div class="col-12 col-md-4">
-        <div class="card card-home border mb-3">
-          <div class="card-header bg-light border-0 text-center">
-            {{ partialCached "home-icons-card-transportation" . }}
-          </div>
-          <div class="card-body bg-light my-0 py-0">
-            <a href="/transportation/" class="text-decoration-none stretched-link h2">
-              Transportation
-            </a>
-          </div>
-          <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
-            {{ len (where .Site.RegularPages "Section" "=" "transportation") }} icons
-         </div>
+      <div class="col-12 col-md-4">
+
+      </div>
+      </div>
+      <div class="row mt-3">
+
+        <div class="col-12 my-4">
+          <h2 class="font-weight-bold">Modus Icons by Sector</h2>
+          <hr>
         </div>
       </div>
+
+      <div class="row">
+  <div class="col-12 col-md-4">
+    <div class="card card-home border mb-3">
+      <div class="card-header bg-light border-0 text-center">
+        {{ partialCached "home-icons-card-transportation" . }}
+      </div>
+      <div class="card-body bg-light my-0 py-0">
+        <a href="/transportation/" class="text-decoration-none stretched-link h2">
+          Transportation
+        </a>
+      </div>
+      <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
+        {{ len (where .Site.RegularPages "Section" "=" "transportation") }} icons
+      </div>
     </div>
+  </div>
+</div>
+
   </main>
 
   {{- partialCached "footer" . }}

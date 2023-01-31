@@ -11,7 +11,7 @@
 
 <div class="row align-items-md-center">
   <div class="col-md-6 col-lg-8">
-    <h1 class="display-3">{{- .Title -}}</h1>
+    <h1 class="display-3 font-weight-bold">{{- .Title -}}</h1>
 
     {{ if or .Params.tags .Params.categories -}}
     <ul class="list-unstyled mb-3 mb-md-0">
@@ -22,6 +22,12 @@
       {{ end }}
     </ul>
     {{- end }}
+  </div>
+  <div class="col-md-6 col-lg-4 float-right">
+    <a href="/transportation/svg/{{- .Title | urlize | lower -}}.svg" class="btn btn-primary mt-5 pl-1 float-right"
+      download>
+      <img src="/modus-solid/svg/download.svg" class="filter-invert" alt width="22" height="22">
+      Download SVG</a>
   </div>
 </div>
 
@@ -36,11 +42,14 @@
 {{- $localSvgPath := printf "/dist/modus-solid/svg/%s.svg" .File.TranslationBaseName -}}
 {{- $svgPath := path.Join "/" $localSvgPath -}}
 {{- $svgHtml := readFile $localSvgPath | chomp | safeHTML -}}
+{{- $faviconSVG := readFile $localSvgPath | htmlEscape -}}
 {{- $svgSpriteSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
   <use xlink:href="/modus-solid-icons.svg#%s" />
 </svg>` .File.TranslationBaseName -}}
 {{- $svgSpriteHtml := $svgSpriteSnippet | safeHTML -}}
 {{- $ligature := replace ( urlize .Title ) "-" "_" | lower -}}
+
+    <link rel="icon" href="data:image/svg+xml,{{ $svgHtml }}">
 
 <div class="row gx-lg-5">
   <div class="col-lg-7 mb-4">
@@ -70,33 +79,33 @@
       </p>
       <p>
         <button type="button" class="btn btn-primary mb-2">
-          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
+          <i class="modus-icons left-icon notranslate" aria-hidden="true">{{ $ligature }}</i>
           Button
         </button>
         <button type="button" class="btn btn-secondary mb-2">
-          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
+          <i class="modus-icons left-icon notranslate" aria-hidden="true">{{ $ligature }}</i>
           Button
         </button>
         <button type="button" class="btn btn-outline-primary mb-2">
-          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
+          <i class="modus-icons left-icon notranslate" aria-hidden="true">{{ $ligature }}</i>
           Button
         </button>
       </p>
       <div class="mb-3">
         <button type="button" class="btn btn-icon-only btn-secondary">
-          <i class="modus-icons notranslate">{{ $ligature }}</i>
+          <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-danger btn-icon-only">
-          <i class="modus-icons notranslate">{{ $ligature }}</i>
+          <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-icon-only btn-outline-dark">
-          <i class="modus-icons notranslate">{{ $ligature }}</i>
+          <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-icon-only btn-text-dark">
-          <i class="modus-icons notranslate">{{ $ligature }}</i>
+          <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
       </div>
@@ -114,11 +123,11 @@
           Button
         </button>
         <button type="button" class="btn btn-sm btn-icon-only btn-outline-dark">
-          <i class="modus-icons notranslate">{{ $ligature }}</i>
+          <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
         <button type="button" class="btn btn-sm btn-icon-only btn-text-dark">
-          <i class="modus-icons notranslate">{{ $ligature }}</i>
+          <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
           <span class="visually-hidden sr-only">Button</span>
         </button>
       </div>
@@ -133,7 +142,7 @@
             <div class="navbar-nav ml-auto">
               <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 text-white" data-toggle="tooltip"
                 data-placement="bottom" title="{{- .Title -}}">
-          <i class="modus-icons notranslate">{{ $ligature }}</i>
+          <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
               </button>
             </div>
         </nav>
@@ -145,7 +154,7 @@
     <p>Use in web applications, on buttons, and anywhere you need more than a few icons.</p>
 
     <div class="mb-1">
-      {{ $iconFontSnippet := printf `<i class="modus-icons">%s</i>` $ligature -}}
+      {{ $iconFontSnippet := printf `<i class="modus-icons" aria-hidden="true">%s</i>` $ligature -}}
       {{- highlight $iconFontSnippet "html" "" }}
     </div>
 
@@ -159,10 +168,6 @@
     <p>Use when you don't want any dependency.</p>
     <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
     {{ highlight $svgHtml "html" "" }}
-
-    <h2 class="fs-3">Download</h2>
-    <p>Download the SVG to use or edit.</p>
-    <a href="/transportation/svg/{{- .Title | urlize | lower -}}.svg" class="btn btn-primary mb-4" download>Download SVG</a>
 
       </div>
 </div>

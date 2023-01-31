@@ -1,20 +1,10 @@
 <div class="my-5">
-  <div class="row mb-4">
-    <div class="col-12 col-sm-6 col-md-7 col-lg-8">
-    <h2 id="icons" class="mt-2 display-3">
-        {{- .Title -}}
-    </h2>
+  {{- partial "icons-search" . }}
+  <div class="row">
+    <div class="col-12 border-bottom mb-4">
     </div>
-    <div class="col-12 col-sm-6 col-md-5 col-lg-4">
-    {{ if in (.RelPermalink) "tags" }}{{else}}
-      <form class="subnav-search ml-auto w-100">
-      <label for="search" class="sr-only">Search for icons</label>
-        <input class="form-control form-control-lg search mb-0 w-100" type="search" id="search"
-        placeholder="Start typing to filter..." autocomplete="off" required title="">
-    </form>
-    {{ end }}
   </div>
-  </div>
+
   <ul class="row row-cols-2 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
     {{ range (where .Site.RegularPages "Section" "modus-solid") -}}
 
@@ -29,7 +19,9 @@
             <use xlink:href="/modus-solid-icons.svg#{{ $filename }}" />
           </svg>
         </div>
-        <div class="name text-muted text-decoration-none text-center pt-1">{{ $filename }}</div>
+        <div class="name text-muted text-decoration-none text-center pt-1">
+          {{- .Title | lower -}}
+        </div>
       </a>
     </li>
     {{- end }}

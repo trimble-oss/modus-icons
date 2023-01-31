@@ -113,7 +113,7 @@ menu:
     - name: Modus Solid
       url: "/modus-solid/"
       weight: 1
-    - name: Modus Outline
+    - name: Modus Outlined
       url: "/modus-outline/"
       weight: 2
     - name: Transportation

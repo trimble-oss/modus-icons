@@ -25,10 +25,9 @@ title: ${iconTitle}
 categories:
   - ${file.categories.join(', ')}
 tags:
-  - ${file.tags.join(', ')}
+${file.tags.map((tag) => `  - ${tag}`).join('\r')}
 ---
 `;
-
   fs.writeFile(pageName, pageTemplate);
 }
 

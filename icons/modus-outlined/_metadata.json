@@ -2645,5 +2645,115 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "battery-0-horizontal",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "battery-0-vertical",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "battery-25-horizontal",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "battery-25-vertical",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "battery-50-horizontal",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "battery-50-vertical",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "battery-75-horizontal",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "battery-75-vertical",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "battery-charging-horizontal",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "battery-charging-vertical",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "battery-full-horizontal",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "battery-full-vertical",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clock-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "drag-corner",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "heart",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "more-horizontal",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "more-vertical",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rss-feed",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "wifi-no-internet",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "wifi-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "wifi",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clock",
+    "tags": [],
+    "categories": []
   }
 ]

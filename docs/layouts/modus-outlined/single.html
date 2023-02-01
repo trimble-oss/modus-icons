@@ -1,10 +1,10 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/modus-outline/fonts/modus-icons.css">
+<link rel="stylesheet" href="/modus-outlined/fonts/modus-icons.css">
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb my-4 p-0">
     <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item"><a href="/modus-outline/">Modus Outlined</a></li>
+    <li class="breadcrumb-item"><a href="/modus-outlined/">Modus Outlined</a></li>
     <li class="breadcrumb-item active" aria-current="page">{{- .Title -}}</li>
   </ol>
 </nav>
@@ -17,14 +17,14 @@
     <ul class="list-unstyled mb-3 mb-md-0">
       {{ with .Params.tags }}<li><strong>Tags:</strong> {{ delimit . ", " }}</li>{{ end }}
       {{ with .Params.categories }}<li><strong>Category:</strong>
-      <a href="/modus-outline/?filter={{ delimit . ", " | lower }}">{{ delimit . ", " }}</a>
+        <a href="/modus-outlined/?filter={{ delimit . ", " | lower }}">{{ delimit . ", " }}</a>
       </li>
       {{ end }}
     </ul>
     {{- end }}
   </div>
   <div class="col-md-6 col-lg-4 float-right">
-    <a href="/transportation/svg/{{- .Title | urlize | lower -}}.svg" class="btn btn-primary mt-5 pl-1 float-right"
+    <a href="/modus-outlined/svg/{{- .Title | urlize | lower -}}.svg" class="btn btn-primary mt-5 pl-1 float-right"
       download>
       <img src="/modus-solid/svg/download.svg" class="filter-invert" alt width="22" height="22">
       Download SVG</a>
@@ -39,7 +39,7 @@
 
 <hr class="my-4">
 
-{{- $localSvgPath := printf "/dist/modus-outline/svg/%s.svg" .File.TranslationBaseName -}}
+{{- $localSvgPath := printf "/dist/modus-outlined/svg/%s.svg" .File.TranslationBaseName -}}
 {{- $svgPath := path.Join "/" $localSvgPath -}}
 {{- $svgHtml := readFile $localSvgPath | chomp | safeHTML -}}
 {{- $svgSpriteSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
@@ -136,12 +136,12 @@
             <img src="https://modus-bootstrap.trimble.com/img/trimble-icon-rev.svg" class="d-block d-sm-none"
               height="25" width="25" alt="home">
           </a>
-            <div class="navbar-nav ml-auto">
-              <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 text-white" data-toggle="tooltip"
-                data-placement="bottom" title="{{- .Title -}}">
-          <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
-              </button>
-            </div>
+          <div class="navbar-nav ml-auto">
+            <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 text-white" data-toggle="tooltip"
+              data-placement="bottom" title="{{- .Title -}}">
+              <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
+            </button>
+          </div>
         </nav>
       </div>
     </div>
@@ -165,6 +165,6 @@
     <p>Use when you don't want any dependency.</p>
     <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
     {{ highlight $svgHtml "html" "" }}
-      </div>
+  </div>
 </div>
 {{ end }}

@@ -24,7 +24,7 @@
 
 {{ if or .Params.tags .Params.categories -}}
 {{ if in (.RelPermalink) "modus-outline" }}
-<link rel="icon" type="image/svg+xml" href="/modus-outline/svg/{{- .Title | lower | urlize -}}.svg">
+<link rel="icon" type="image/svg+xml" href="/modus-outlined/svg/{{- .Title | lower | urlize -}}.svg">
 {{ else if in (.RelPermalink) "modus-solid" }}
 <link rel="icon" type="image/svg+xml" href="/modus-solid/svg/{{- .Title | lower | urlize -}}.svg">
 {{ else if in (.RelPermalink) "transportation" }}

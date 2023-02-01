@@ -14,7 +14,12 @@
     <h1 class="display-3 font-weight-bold">{{- .Title -}}</h1>
     {{ if or .Params.tags .Params.categories -}}
     <ul class="list-unstyled mb-3 mb-md-0">
-      {{ with .Params.tags }}<li><strong>Tags:</strong> {{ delimit . ", " }}</li>{{ end }}
+      <li><strong>Tags:</strong> {{ range $i, $e := .Params.tags -}}
+        {{- if $i -}} {{ end -}}
+        <a href='/transportation/?filter={{ . | urlize }}' class="chip chip-sm chip-solid bg-transparent mr-2 py-0 px-2">{{ $e | humanize }}</a>
+        {{- end -}}
+      </li>
+
     </ul>
     {{- end }}
   </div>

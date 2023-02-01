@@ -154,3 +154,10 @@ main {
 .home .highlight {
   padding-left: 0 !important;
 }
+
+@media (min-width: 1200px) {
+
+  .display-3 {
+    font-size: 1.8rem !important;
+  }
+}

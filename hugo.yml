@@ -115,9 +115,11 @@ menu:
       weight: 1
     - name: Modus Outlined
       url: "/modus-outlined/"
+      post: "<div class='border-bottom w-100'></div>"
       weight: 2
     - name: Transportation
       url: "/transportation/"
+      pre: "<div class='font-weight-bold ml-3 mt-3'>Trimble Sectors</div>"
       weight: 3
 
 # https://gohugo.io/getting-started/configuration/#configure-minify

@@ -1,0 +1,16 @@
+{{ if eq .Layout "home" }}
+<link rel="alternate icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+{{- end }}
+
+{{ if or .Params.tags .Params.categories -}}
+{{ if in (.RelPermalink) "modus-outline" }}
+<link rel="icon" type="image/svg+xml" href="/modus-outlined/svg/{{- .Title | lower | urlize -}}.svg">
+{{ else if in (.RelPermalink) "modus-solid" }}
+<link rel="icon" type="image/svg+xml" href="/modus-solid/svg/{{- .Title | lower | urlize -}}.svg">
+{{ else if in (.RelPermalink) "transportation" }}
+<link rel="icon" type="image/svg+xml" href="/transportation/svg/{{- .Title | lower | urlize -}}.svg">
+{{ else }}
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+{{ end }}
+{{ end }}

@@ -7,8 +7,9 @@
     .highlight {
       background-color: #dcedf9;
       padding: 14px;
-      padding-bottom: 14px;
       padding-top: 14px;
+      padding-bottom: 14px;
+      margin-bottom: 5px;
     }
 
     .highlight pre {
@@ -54,7 +55,7 @@
       </div>
       </div>
       <div class="col-12">
-        <hr>
+        <hr class="mt-0">
       </div>
       </div>
 
@@ -63,7 +64,7 @@
       <div class="col-12 col-md-4">
         <div class="card card-home border mb-3 mx-auto">
           <div class="card-header bg-light border-0 text-center">
-            {{ partialCached "home-icons-card-outlined" . }}
+            {{ partialCached "home/home-icons-card-outlined" . }}
           </div>
           <div class="card-body bg-light my-0 py-0">
             <a href="/modus-outlined/" class="text-decoration-none stretched-link h2">
@@ -79,7 +80,7 @@
       <div class="col-12 col-md-4">
         <div class="card card-home border mb-3">
           <div class="card-header bg-light border-0 text-center">
-            {{ partialCached "home-icons-card-solid" . }}
+            {{ partialCached "home/home-icons-card-solid" . }}
           </div>
           <div class="card-body bg-light my-0 py-0">
             <a href="/modus-solid/" class="text-decoration-none stretched-link h2">
@@ -92,10 +93,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-4">
-
-      </div>
-      </div>
+       </div>
       <div class="row mt-3">
 
         <div class="col-12 my-4">
@@ -110,7 +108,7 @@
   <div class="col-12 col-md-4">
     <div class="card card-home border mb-3">
       <div class="card-header bg-light border-0 text-center">
-        {{ partialCached "home-icons-card-transportation" . }}
+        {{ partialCached "home/home-icons-card-transportation" . }}
       </div>
       <div class="card-body bg-light my-0 py-0">
         <a href="/transportation/" class="text-decoration-none stretched-link h2">

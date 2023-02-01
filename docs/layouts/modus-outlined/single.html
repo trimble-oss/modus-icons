@@ -15,9 +15,13 @@
 
     {{ if or .Params.tags .Params.categories -}}
     <ul class="list-unstyled mb-3 mb-md-0">
-      {{ with .Params.tags }}<li><strong>Tags:</strong> {{ delimit . ", " }}</li>{{ end }}
-      {{ with .Params.categories }}<li><strong>Category:</strong>
-        <a href="/modus-outlined/?filter={{ delimit . ", " | lower }}">{{ delimit . ", " }}</a>
+      <li><strong>Tags:</strong> {{ range $i, $e := .Params.tags -}}
+        {{- if $i -}} {{ end -}}
+        <a href='/modus-solid/?filter={{ . | urlize }}' class="chip chip-sm chip-solid bg-transparent mr-2 py-0 px-2">{{ $e | humanize }}</a>
+        {{- end -}}
+      </li>
+      {{ with .Params.categories }}<li class="mt-2"><strong>Category:</strong>
+        <a href="/modus-outlined/?filter={{ delimit . ", " | lower }}" class="text-dark mr-2">{{ delimit . ", " }}</a>
       </li>
       {{ end }}
     </ul>
@@ -43,7 +47,7 @@
 {{- $svgPath := path.Join "/" $localSvgPath -}}
 {{- $svgHtml := readFile $localSvgPath | chomp | safeHTML -}}
 {{- $svgSpriteSnippet := printf `<svg class="mi" width="1em" height="1em" fill="currentColor">
-  <use xlink:href="/modus-outline-icons.svg#%s" />
+  <use xlink:href="/modus-outlined-icons.svg#%s" />
 </svg>` .File.TranslationBaseName -}}
 {{- $svgSpriteHtml := $svgSpriteSnippet | safeHTML -}}
 {{- $ligature := replace ( urlize .Title ) "-" "_" | lower -}}

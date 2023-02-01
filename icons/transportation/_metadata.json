@@ -36,12 +36,16 @@
   },
   {
     "name": "car",
-    "tags": [],
+    "tags": [
+      "vehicle"
+    ],
     "categories": []
   },
   {
     "name": "car-front",
-    "tags": [],
+    "tags": [
+      "vehicle"
+    ],
     "categories": []
   },
   {
@@ -96,7 +100,9 @@
   },
   {
     "name": "clock",
-    "tags": [],
+    "tags": [
+      "time"
+    ],
     "categories": []
   },
   {
@@ -106,32 +112,45 @@
   },
   {
     "name": "company-administration",
-    "tags": [],
+    "tags": [
+      "users"
+    ],
     "categories": []
   },
   {
     "name": "configuration-management",
-    "tags": [],
+    "tags": [
+      "device",
+      "settings"
+    ],
     "categories": []
   },
   {
     "name": "crow-fly",
-    "tags": [],
+    "tags": [
+      "route"
+    ],
     "categories": []
   },
   {
     "name": "disk",
-    "tags": [],
+    "tags": [
+      "save"
+    ],
     "categories": []
   },
   {
     "name": "dispatch",
-    "tags": [],
+    "tags": [
+      "truck"
+    ],
     "categories": []
   },
   {
     "name": "driver",
-    "tags": [],
+    "tags": [
+      "steering wheel"
+    ],
     "categories": []
   },
   {
@@ -141,32 +160,45 @@
   },
   {
     "name": "edit",
-    "tags": [],
+    "tags": [
+      "pencil"
+    ],
     "categories": []
   },
   {
     "name": "edit-line",
-    "tags": [],
+    "tags": [
+      "pencil"
+    ],
     "categories": []
   },
   {
     "name": "edit-road",
-    "tags": [],
+    "tags": [
+      "pencil"
+    ],
     "categories": []
   },
   {
     "name": "export",
-    "tags": [],
+    "tags": [
+      "download",
+      "save"
+    ],
     "categories": []
   },
   {
     "name": "external-link",
-    "tags": [],
+    "tags": [
+      "open"
+    ],
     "categories": []
   },
   {
     "name": "eyedropper",
-    "tags": [],
+    "tags": [
+      "color picker"
+    ],
     "categories": []
   },
   {
@@ -191,12 +223,16 @@
   },
   {
     "name": "geocode",
-    "tags": [],
+    "tags": [
+      "earth"
+    ],
     "categories": []
   },
   {
     "name": "globe",
-    "tags": [],
+    "tags": [
+      "web"
+    ],
     "categories": []
   },
   {
@@ -231,7 +267,9 @@
   },
   {
     "name": "light-duty",
-    "tags": [],
+    "tags": [
+      "vehicle"
+    ],
     "categories": []
   },
   {
@@ -271,7 +309,9 @@
   },
   {
     "name": "medium-duty",
-    "tags": [],
+    "tags": [
+      "vehicle"
+    ],
     "categories": []
   },
   {
@@ -436,7 +476,9 @@
   },
   {
     "name": "school-bus",
-    "tags": [],
+    "tags": [
+      "vehicle"
+    ],
     "categories": []
   },
   {
@@ -461,7 +503,9 @@
   },
   {
     "name": "spinner",
-    "tags": [],
+    "tags": [
+      "loading"
+    ],
     "categories": []
   },
   {
@@ -476,22 +520,31 @@
   },
   {
     "name": "stop-time",
-    "tags": [],
+    "tags": [
+      "clock"
+    ],
     "categories": []
   },
   {
     "name": "suggestion",
-    "tags": [],
+    "tags": [
+      "idea",
+      "lightbulb"
+    ],
     "categories": []
   },
   {
     "name": "swatch",
-    "tags": [],
+    "tags": [
+      "color"
+    ],
     "categories": []
   },
   {
     "name": "toggle",
-    "tags": [],
+    "tags": [
+      "switch"
+    ],
     "categories": []
   },
   {
@@ -501,12 +554,17 @@
   },
   {
     "name": "train",
-    "tags": [],
+    "tags": [
+      "vehicle"
+    ],
     "categories": []
   },
   {
     "name": "trash",
-    "tags": [],
+    "tags": [
+      "bin",
+      "delete"
+    ],
     "categories": []
   },
   {
@@ -526,7 +584,9 @@
   },
   {
     "name": "truck",
-    "tags": [],
+    "tags": [
+      "vehicle"
+    ],
     "categories": []
   },
   {

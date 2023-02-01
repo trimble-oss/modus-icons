@@ -1,27 +1,35 @@
 <div class="row mb-4">
-  <div class="col-12 col-md-7 col-lg-3 pr-0">
+  <div class="col-12 col-md-7 col-lg-4 col-xl-3 pr-0">
     <h2 id="icons" class="mt-2 display-3 font-weight-bold d-inline-block">
       {{- .Title -}}
     </h2>
     <div class="btn-group d-inline-block">
-      <button type="button" class="btn btn-sm bg-transparent border-0 ml-1 px-1" data-toggle="dropdown"
+      <button type="button" class="btn btn-sm bg-transparent border-0 ml-1 px-0" data-toggle="dropdown"
         aria-expanded="false">
-        <img src="/modus-solid/svg/caret-down.svg" class="opacity-75" alt height="24" width="24">
+        <img src="/modus-solid/svg/caret-down.svg" class="opacity-75" alt height="32" width="32">
       </button>
-      <div class="dropdown-menu">
+      <div class="dropdown-menu dropdown-menu-icons">
         {{ $currentPage := . }}
         {{ range .Site.Menus.icons }}
         <li class="nav-item mx-0 mx-sm-1 mx-md-2">
-          <a class="nav-link text-dark{{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}} nav-{{- .Name | lower | markdownify -}}"
+          <div>
+            {{ with .Pre }}
+            {{ . }}
+          {{ end }}</div>
+          <a class="nav-link text-dark{{if ($currentPage.HasMenuCurrent "icons" .) }} active{{end}} nav-{{- .Name | urlize -}}"
             href="{{ .URL }}">
             {{- .Name -}}
           </a>
+          <div>
+            {{ with .Post }}
+            {{ . }}
+          {{ end }}</div>
         </li>
         {{ end }}
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-5 col-lg-6">
+  <div class="col-12 col-md-5 col-lg-4 col-xl-6">
     {{ if in (.RelPermalink) "tags" }}{{else}}
     <form class="subnav-search w-100">
       <div class="input-with-icon-left">
@@ -34,7 +42,7 @@
     </form>
     {{ end }}
   </div>
-  <div class="col-12 col-md-3 col-lg-3">
+  <div class="col-12 col-md-3 col-lg-4 col-xl-3">
     <a href="#install" class="float-right mt-3">Install & Usage</a>
   </div>
 </div>

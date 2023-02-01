@@ -1,5 +1,15 @@
 [
   {
+    "name": "add",
+    "tags": [
+      "add",
+      "new",
+      "create",
+      "plus"
+    ],
+    "categories": []
+  },
+  {
     "name": "add-circle",
     "tags": [
       "add",
@@ -101,11 +111,21 @@
     ]
   },
   {
+    "name": "arrow-down-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "arrow-left",
     "tags": [],
     "categories": [
       "Presentations & View"
     ]
+  },
+  {
+    "name": "arrow-left-circle",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "arrow-right",
@@ -115,11 +135,21 @@
     ]
   },
   {
+    "name": "arrow-right-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "arrow-up",
     "tags": [],
     "categories": [
       "Presentations & View"
     ]
+  },
+  {
+    "name": "arrow-up-circle",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "bar-graph",
@@ -408,7 +438,9 @@
   },
   {
     "name": "clipboard-actions",
-    "tags": [],
+    "tags": [
+      "paste"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -649,8 +681,18 @@
     ]
   },
   {
+    "name": "drag-indicator",
+    "tags": [
+      "grab",
+      "grip"
+    ],
+    "categories": []
+  },
+  {
     "name": "drag-vertical",
-    "tags": [],
+    "tags": [
+      "move"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -658,6 +700,7 @@
   {
     "name": "drizzle",
     "tags": [
+      "rain",
       "weather"
     ],
     "categories": [
@@ -668,7 +711,8 @@
     "name": "email",
     "tags": [
       "envelope",
-      "mail"
+      "mail",
+      "message"
     ],
     "categories": [
       "Account & Support"
@@ -1074,7 +1118,9 @@
   {
     "name": "helicopter",
     "tags": [
-      "fly"
+      "birdview",
+      "fly",
+      "topview"
     ],
     "categories": [
       "Presentations & Views"
@@ -1465,6 +1511,15 @@
     ]
   },
   {
+    "name": "palette",
+    "tags": [
+      "color",
+      "paint",
+      "style"
+    ],
+    "categories": []
+  },
+  {
     "name": "pan",
     "tags": [
       "arrow",
@@ -1512,6 +1567,13 @@
     ]
   },
   {
+    "name": "people-couple",
+    "tags": [
+      "users"
+    ],
+    "categories": []
+  },
+  {
     "name": "people-group",
     "tags": [
       "users"
@@ -1526,6 +1588,37 @@
     "categories": [
       "Account & Support"
     ]
+  },
+  {
+    "name": "person-account",
+    "tags": [
+      "circle",
+      "user"
+    ],
+    "categories": []
+  },
+  {
+    "name": "person-add",
+    "tags": [
+      "create",
+      "user"
+    ],
+    "categories": []
+  },
+  {
+    "name": "person-edit",
+    "tags": [
+      "user"
+    ],
+    "categories": []
+  },
+  {
+    "name": "person-remove",
+    "tags": [
+      "delete",
+      "user"
+    ],
+    "categories": []
   },
   {
     "name": "phone",
@@ -1708,6 +1801,13 @@
     ]
   },
   {
+    "name": "remove",
+    "tags": [
+      "minus"
+    ],
+    "categories": []
+  },
+  {
     "name": "remove-circle",
     "tags": [
       "delete",
@@ -1865,7 +1965,14 @@
   },
   {
     "name": "signal",
-    "tags": [],
+    "tags": [
+      "reception",
+      "cellphone",
+      "mobile",
+      "carrier",
+      "network",
+      "signal"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1882,7 +1989,10 @@
   },
   {
     "name": "snow-light",
-    "tags": [],
+    "tags": [
+      "cloud",
+      "weather"
+    ],
     "categories": [
       "Weather"
     ]
@@ -1899,7 +2009,8 @@
   {
     "name": "snowflake",
     "tags": [
-      "weather"
+      "weather",
+      "winter"
     ],
     "categories": [
       "Weather"
@@ -1908,7 +2019,8 @@
   {
     "name": "snowflakes",
     "tags": [
-      "weather"
+      "weather",
+      "winter"
     ],
     "categories": [
       "Weather"
@@ -1968,7 +2080,12 @@
   },
   {
     "name": "star-empty",
-    "tags": [],
+    "tags": [
+      "favorite",
+      "like",
+      "shape",
+      "rating"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -2089,7 +2206,8 @@
   {
     "name": "thumbs-down",
     "tags": [
-      "feedback"
+      "feedback",
+      "rating"
     ],
     "categories": [
       "Actions & Navigation"
@@ -2098,7 +2216,8 @@
   {
     "name": "thumbs-up",
     "tags": [
-      "feedback"
+      "feedback",
+      "rating"
     ],
     "categories": [
       "Actions & Navigation"
@@ -2317,7 +2436,7 @@
     "tags": [
       "display",
       "eye",
-      "show",
+      "hide",
       "view"
     ],
     "categories": [
@@ -2526,70 +2645,5 @@
     "categories": [
       "Actions & Navigation"
     ]
-  },
-  {
-    "name": "add",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "arrow-down-circle",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "arrow-left-circle",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "arrow-right-circle",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "arrow-up-circle",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "drag-indicator",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "palette",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "people-couple",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "person-account",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "person-add",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "person-edit",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "person-remove",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "remove",
-    "tags": [],
-    "categories": []
   }
 ]

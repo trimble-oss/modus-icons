@@ -1,10 +1,10 @@
 [
   {
     "svgs": [
-      "modus-outline",
-      "material-outline"
+      "modus-outlined",
+      "material-outlined"
     ],
-    "dist": "modus-outline"
+    "dist": "modus-outlined"
   },
   {
     "svgs": [

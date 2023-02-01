@@ -1,12 +1,12 @@
 <div class="my-5">
   {{- partial "icons-search" . }}
-<div class="row">
-  <div class="col-12 border-bottom mb-4">
+  <div class="row">
+    <div class="col-12 border-bottom mb-4">
+    </div>
   </div>
-</div>
 
   <ul class="row row-cols-2 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
-    {{ range (where .Site.RegularPages "Section" "modus-outline") -}}
+    {{ range (where .Site.RegularPages "Section" "modus-outlined") -}}
     {{- $filename := .File.TranslationBaseName -}}
     {{- with .Site.GetPage .File.Path }}
     {{ if not (in .Params.tags "deprecated") }}
@@ -15,7 +15,7 @@
       <a class="d-block text-dark text-decoration-none" href="{{ .RelPermalink }}">
         <div class="p-3 py-4 mb-2 bg-light text-center rounded">
           <svg class="mi" width="1em" height="1em" fill="currentColor">
-            <use xlink:href="/modus-outline-icons.svg#{{ $filename }}" />
+            <use xlink:href="/modus-outlined-icons.svg#{{ $filename }}" />
           </svg>
         </div>
         <div class="name text-muted text-decoration-none text-center pt-1">

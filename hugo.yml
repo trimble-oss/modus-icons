@@ -40,8 +40,8 @@ module:
       target:           static/favicon.ico
     - source:           dist
       target:           static
-    - source:           dist/modus-outline/sprites/modus-icons.svg
-      target:           static/modus-outline-icons.svg
+    - source:           dist/modus-outlined/sprites/modus-icons.svg
+      target:           static/modus-outlined-icons.svg
     - source:           dist/modus-solid/sprites/modus-icons.svg
       target:           static/modus-solid-icons.svg
     - source:           dist/transportation/sprites/modus-icons.svg
@@ -80,7 +80,7 @@ menu:
     - name: Web
       parent: Components
       url: "https://modus.trimble.com/components/web/"
-      pre: "<img src='/modus-outline/svg/web.svg' width=28 height=28 class='icon mr-1' alt>"
+      pre: "<img src='/modus-outlined/svg/web.svg' width=28 height=28 class='icon mr-1' alt>"
       post: "Modus component library for web-based apps and workflows."
       weight: 1
     - name: In-Field
@@ -114,7 +114,7 @@ menu:
       url: "/modus-solid/"
       weight: 1
     - name: Modus Outlined
-      url: "/modus-outline/"
+      url: "/modus-outlined/"
       weight: 2
     - name: Transportation
       url: "/transportation/"

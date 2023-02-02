@@ -4,24 +4,24 @@
     {{ partial "head" . }}
   </head>
 
-  <body class="home">
-    {{ partialCached "skippy" . }}
-    {{ partialCached "navbar" . }}
-    {{ partialCached "home/hero" . }}
-    <main class="container mt-5">
-      <div class="row">
-        <div class="col-12 col-sm-6 mb-4 mx-auto">
-          <form class="subnav-search w-100">
-            <div class="input-with-icon-left">
-              <input class="form-control form-control-lg search mb-0 w-100" type="search" id="search" placeholder="Search Modus Icons"
-                autocomplete="off" required title="" />
-              <div class="input-icon">
-                <img src="/modus-solid/svg/search.svg" class="opacity-75" alt height="22" width="22" />
-                </div>
-                </div>
-                </form>
-                </div>
-                </div>
+<head>
+  {{ partial "head" . }}
+</head>
+
+<body class="home">
+  {{ partialCached "skippy" . }}
+  {{ partialCached "navbar" . }}
+  {{ partialCached "home/hero" . }}
+  <main class="container mt-5">
+
+    <div class="row">
+      <div class="col-12 col-sm-6 mb-4 mx-auto">
+        <site-search [iconPath]="'/'"></site-search>
+        {{ $external := resources.Get "js/site-search.js" }}
+        {{ $siteSearchJs := slice $external | resources.Concat "js/site-search.js" | resources.Minify | resources.Fingerprint }}
+        <script src="{{ $siteSearchJs.RelPermalink }}" defer></script>
+      </div>
+    </div>
 
       <div class="row">
         <div class="col-12 col-sm-6">

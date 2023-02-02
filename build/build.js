@@ -10,11 +10,13 @@ const normalizeConfig = require('./logic/normalize-config');
 const rootDirectoryPath = path.normalize(path.join(__dirname, '..'));
 const distDirectoryPath = path.join(rootDirectoryPath, 'dist');
 const pagesDirectoryPath = path.join(rootDirectoryPath, 'docs/content');
-
+// Clear dist and pages directories
 fs.removeSync(distDirectoryPath);
 fs.ensureDirSync(distDirectoryPath);
 fs.removeSync(pagesDirectoryPath);
 fs.ensureDirSync(pagesDirectoryPath);
+// Clear site-data.json
+fs.writeFileSync(path.join(__dirname, '_site-data.json'), JSON.stringify([]));
 
 const configName = 'build.config.json';
 const configs = fs.readJsonSync(path.join(__dirname, configName));

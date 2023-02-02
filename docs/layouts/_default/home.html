@@ -17,9 +17,9 @@
     <div class="row row-site-search">
       <div class="col-12 col-sm-6 mb-4 mx-auto">
         <site-search [iconPath]="'/'"></site-search>
-        {{ $external := resources.Get "js/site-search.js" }}
-        {{ $siteSearchJs := slice $external | resources.Concat "js/site-search.js" | resources.Minify | resources.Fingerprint }}
-        <script src="{{ $siteSearchJs.RelPermalink }}" defer></script>
+        {{ $external := resources.Get "js/app-components.js" }}
+        {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
+        <script src="{{ $appComponentsJs.RelPermalink }}" defer></script>
       </div>
     </div>
 

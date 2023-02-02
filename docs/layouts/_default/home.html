@@ -3,24 +3,6 @@
 
 <head>
   {{ partial "head" . }}
-  <style>
-    .highlight {
-      background-color: #dcedf9;
-      padding: 14px;
-      padding-top: 14px;
-      padding-bottom: 14px;
-      margin-bottom: 5px;
-    }
-
-    .highlight pre {
-      margin-left: 8px;
-      color: #004f83;
-    }
-
-    .bd-clipboard button {
-      background-color: transparent !important;
-    }
-  </style>
 </head>
 
 <body class="home">
@@ -116,7 +98,8 @@
         </a>
       </div>
       <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
-        {{ len (where .Site.RegularPages "Section" "=" "transportation") }} icons
+        {{ len (where .Site.RegularPages "Section" "=" "transportation") }} icons (includes all
+        icons from Modus Solid.)
       </div>
     </div>
   </div>

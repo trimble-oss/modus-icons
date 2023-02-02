@@ -179,6 +179,7 @@ module.exports = {
         'sun',
         'table',
         'table-bordered',
+        'text-capitalize',
         'text-center',
         'text-danger',
         'text-decoration-none',

@@ -7,7 +7,9 @@
       "new",
       "plus"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "add-circle",
@@ -33,8 +35,13 @@
   },
   {
     "name": "advanced-instructions",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "help",
+      "support"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "alert",
@@ -49,7 +56,10 @@
   },
   {
     "name": "align-bottom",
-    "tags": [],
+    "tags": [
+      "orientation",
+      "layout" 
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -57,7 +67,9 @@
   {
     "name": "align-center-horiz",
     "tags": [
-      "horizontal"
+      "horizontal",
+      "orientation",
+      "layout" 
     ],
     "categories": [
       "Presentations & View"
@@ -66,7 +78,9 @@
   {
     "name": "align-center-vert",
     "tags": [
-      "vertical"
+      "vertical",
+      "orientation",
+      "layout" 
     ],
     "categories": [
       "Presentations & View"
@@ -74,21 +88,30 @@
   },
   {
     "name": "align-left",
-    "tags": [],
+    "tags": [
+      "orientation",
+      "layout" 
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "align-right",
-    "tags": [],
+    "tags": [
+      "orientation",
+      "layout" 
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "align-top",
-    "tags": [],
+    "tags": [
+      "orientation",
+      "layout" 
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -105,50 +128,66 @@
   },
   {
     "name": "arrow-down",
-    "tags": [],
+    "tags": [
+      "direction"  
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "arrow-down-circle",
-    "tags": [],
+    "tags": [
+      "direction"  
+    ],
     "categories": []
   },
   {
     "name": "arrow-left",
-    "tags": [],
+    "tags": [
+      "direction"  
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "arrow-left-circle",
-    "tags": [],
+    "tags": [
+      "direction"  
+    ],
     "categories": []
   },
   {
     "name": "arrow-right",
-    "tags": [],
+    "tags": [
+      "direction"  
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "arrow-right-circle",
-    "tags": [],
+    "tags": [
+      "direction"  
+    ],
     "categories": []
   },
   {
     "name": "arrow-up",
-    "tags": [],
+    "tags": [
+      "direction"  
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "arrow-up-circle",
-    "tags": [],
+    "tags": [
+      "direction"  
+    ],
     "categories": []
   },
   {
@@ -191,7 +230,9 @@
       "power",
       "dead"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "battery-0-vertical",
@@ -200,23 +241,31 @@
       "power",
       "dead"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "battery-25-horizontal",
     "tags": [
       "charge",
+      "low",
       "power"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "battery-25-vertical",
     "tags": [
       "charge",
+      "low",
       "power"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "battery-50-horizontal",
@@ -225,15 +274,20 @@
       "half",
       "power"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "battery-50-vertical",
     "tags": [
       "charge",
+      "half",
       "power"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "battery-75-horizontal",
@@ -241,7 +295,9 @@
       "charge",
       "power"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "battery-75-vertical",
@@ -249,7 +305,9 @@
       "charge",
       "power"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "battery-charging-horizontal",
@@ -257,7 +315,9 @@
       "charge",
       "power"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "battery-charging-vertical",
@@ -265,7 +325,9 @@
       "charge",
       "power"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "battery-full-horizontal",
@@ -273,7 +335,9 @@
       "charge",
       "power"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "battery-full-vertical",
@@ -281,7 +345,9 @@
       "charge",
       "power"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "bolt",
@@ -309,6 +375,7 @@
     "name": "brush",
     "tags": [
       "construction",
+      "properties",
       "paint"
     ],
     "categories": [
@@ -406,7 +473,7 @@
       "picture"
     ],
     "categories": [
-      "Presentations & View"
+      "Devices"
     ]
   },
   {
@@ -436,23 +503,43 @@
   },
   {
     "name": "caret-down",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "caret-left",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "caret-right",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "caret-up",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "certificate",
@@ -498,33 +585,63 @@
   },
   {
     "name": "chevron-double-down",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "chevron-double-left",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "chevron-double-right",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "chevron-double-up",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "chevron-left",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "chevron-right",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "clipboard",
@@ -571,7 +688,7 @@
       "list"
     ],
     "categories": [
-      "Presentations & View"
+      "Actions & Navigation"
     ]
   },
   {
@@ -579,7 +696,9 @@
     "tags": [
       "time"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "clock-add",
@@ -587,7 +706,9 @@
       "plus",
       "time"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "close",
@@ -616,6 +737,8 @@
   {
     "name": "cloud-download",
     "tags": [
+      "arrows",
+      "center",
       "export"
     ],
     "categories": [
@@ -729,7 +852,9 @@
     "tags": [
       "pointer"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "cursor-add",
@@ -739,7 +864,9 @@
       "pointer",
       "select"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "cursor-remove",
@@ -749,7 +876,9 @@
       "pointer",
       "select"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "dashboard",
@@ -770,29 +899,43 @@
   },
   {
     "name": "download",
-    "tags": [],
+    "tags": [
+      "file",
+      "data"
+    ],
     "categories": [
       "Save & Share"
     ]
   },
   {
     "name": "download-line",
-    "tags": [],
+    "tags": [
+      "file",
+      "data"
+    ],
     "categories": [
       "Save & Share"
     ]
   },
   {
     "name": "download-xls",
-    "tags": [],
+    "tags": [
+      "file",
+      "data"
+    ],
     "categories": [
       "Save & Share"
     ]
   },
   {
     "name": "drag-corner",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "input"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "drag-horizontal",
@@ -844,7 +987,9 @@
     "tags": [
       "mail"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "expand",
@@ -858,13 +1003,19 @@
   },
   {
     "name": "expand-less",
-    "tags": [],
-    "categories": []
+    "tags": [  "arrow",
+    "chevron"],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "expand-more",
-    "tags": [],
-    "categories": []
+    "tags": [  "arrow",
+    "chevron"],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "fast-forward",
@@ -904,6 +1055,7 @@
     "name": "file-copy",
     "tags": [
       "documents",
+      "document",
       "duplicate",
       "sheet"
     ],
@@ -914,7 +1066,8 @@
   {
     "name": "file-edit",
     "tags": [
-      "sheet"
+      "sheet",
+      "document"
     ],
     "categories": [
       "Folders & Files"
@@ -923,7 +1076,8 @@
   {
     "name": "file-merge",
     "tags": [
-      "sheet"
+      "sheet",
+      "document"
     ],
     "categories": [
       "Folders & Files"
@@ -932,7 +1086,8 @@
   {
     "name": "file-missing",
     "tags": [
-      "sheet"
+      "sheet",
+      "document"
     ],
     "categories": [
       "Folders & Files"
@@ -942,7 +1097,8 @@
     "name": "file-new",
     "tags": [
       "plus",
-      "sheet"
+      "sheet",
+      "document"
     ],
     "categories": [
       "Folders & Files"
@@ -951,7 +1107,8 @@
   {
     "name": "file-type-doc",
     "tags": [
-      "sheet"
+      "sheet",
+      "document"
     ],
     "categories": [
       "Folders & Files"
@@ -960,7 +1117,8 @@
   {
     "name": "file-type-log",
     "tags": [
-      "sheet"
+      "sheet",
+      "document"
     ],
     "categories": [
       "Folders & Files"
@@ -969,7 +1127,8 @@
   {
     "name": "file-type-pdf",
     "tags": [
-      "sheet"
+      "sheet",
+      "document"
     ],
     "categories": [
       "Folders & Files"
@@ -978,7 +1137,8 @@
   {
     "name": "file-type-rfi",
     "tags": [
-      "sheet"
+      "sheet",
+      "document"
     ],
     "categories": [
       "Folders & Files"
@@ -987,7 +1147,8 @@
   {
     "name": "file-type-rfq",
     "tags": [
-      "sheet"
+      "sheet",
+      "document"
     ],
     "categories": [
       "Folders & Files"
@@ -996,7 +1157,8 @@
   {
     "name": "file-type-tmp",
     "tags": [
-      "sheet"
+      "sheet",
+      "document"
     ],
     "categories": [
       "Folders & Files"
@@ -1005,7 +1167,8 @@
   {
     "name": "file-type-xls",
     "tags": [
-      "sheet"
+      "sheet",
+      "document"
     ],
     "categories": [
       "Folders & Files"
@@ -1119,6 +1282,7 @@
     "name": "folder-project",
     "tags": [
       "3d",
+      "model",
       "cube"
     ],
     "categories": [
@@ -1149,9 +1313,13 @@
   {
     "name": "footprints",
     "tags": [
-      "steps"
+      "steps",
+      "shoes",
+      "walk"
     ],
-    "categories": []
+    "categories": [
+      "Presentations & Views"
+    ]
   },
   {
     "name": "frame",
@@ -1174,7 +1342,8 @@
   {
     "name": "group-items",
     "tags": [
-      "sketchup"
+      "sketchup",
+      "category"
     ],
     "categories": [
       "Actions & Navigation"
@@ -1247,7 +1416,9 @@
       "favorite",
       "love"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "helicopter",
@@ -1320,7 +1491,9 @@
   {
     "name": "image-scene",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "info",
@@ -1375,7 +1548,11 @@
   },
   {
     "name": "launch",
-    "tags": [],
+    "tags": [
+      "view",
+      "open",
+      "arrow"
+    ],
     "categories": [
       "Programs"
     ]
@@ -1389,8 +1566,14 @@
   },
   {
     "name": "learn",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "hat",
+      "training",
+      "university"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "lightbulb-off",
@@ -1445,14 +1628,20 @@
   },
   {
     "name": "location",
-    "tags": [],
+    "tags": [
+      "map",
+      "poi"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
   },
   {
     "name": "location-point",
-    "tags": [],
+    "tags": [
+      "map",
+      "poi"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1610,7 +1799,9 @@
       "menu",
       "overflow"
     ],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "more-vertical",
@@ -1620,7 +1811,9 @@
       "menu",
       "overflow"
     ],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "mouse",
@@ -1676,7 +1869,9 @@
       "paint",
       "style"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "pan",
@@ -1690,8 +1885,13 @@
   },
   {
     "name": "password",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "login",
+      "logout"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "pause-circle",
@@ -1730,14 +1930,18 @@
     "tags": [
       "users"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "people-group",
     "tags": [
       "users"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "person",
@@ -1754,7 +1958,9 @@
       "circle",
       "user"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "person-add",
@@ -1762,14 +1968,19 @@
       "create",
       "user"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "person-edit",
     "tags": [
-      "user"
+      "user",
+      "update"
     ],
-    "categories": []
+    "categories": [
+        "Account & Support"
+      ]
   },
   {
     "name": "person-remove",
@@ -1777,11 +1988,15 @@
       "delete",
       "user"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "phone",
-    "tags": [],
+    "tags": [
+      "call"
+    ],
     "categories": [
       "Account & Support"
     ]
@@ -1789,7 +2004,8 @@
   {
     "name": "phone-call",
     "tags": [
-      "call"
+      "call",
+      "ring"
     ],
     "categories": [
       "Account & Support"
@@ -1798,7 +2014,8 @@
   {
     "name": "phone-hang-up",
     "tags": [
-      "call"
+      "call",
+      "end"
     ],
     "categories": [
       "Account & Support"
@@ -1806,7 +2023,9 @@
   },
   {
     "name": "phone-mobile",
-    "tags": [],
+    "tags": [
+      "call"
+    ],
     "categories": [
       "Devices"
     ]
@@ -1824,8 +2043,14 @@
   },
   {
     "name": "pin-add",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "attach",
+      "dock",
+      "fix"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "play-circle",
@@ -1841,28 +2066,36 @@
   },
   {
     "name": "polygon",
-    "tags": [],
+    "tags": [
+      "outline"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
   },
   {
     "name": "polygon-area-tool",
-    "tags": [],
+    "tags": [
+      "outline"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
   },
   {
     "name": "polygon-concave",
-    "tags": [],
+    "tags": [
+      "outline"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
   },
   {
     "name": "polygon-cone",
-    "tags": [],
+    "tags": [
+      "outline"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1870,7 +2103,8 @@
   {
     "name": "polygon-merge",
     "tags": [
-      "merge"
+      "merge",
+      "outline"
     ],
     "categories": [
       "Actions & Navigation"
@@ -1878,7 +2112,9 @@
   },
   {
     "name": "polygon-select",
-    "tags": [],
+    "tags": [
+      "outline"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1921,7 +2157,10 @@
   },
   {
     "name": "rain-icy",
-    "tags": [],
+    "tags": [
+      "ice",
+      "cold"
+    ],
     "categories": [
       "Weather"
     ]
@@ -1964,7 +2203,9 @@
     "tags": [
       "minus"
     ],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "remove-circle",
@@ -1988,7 +2229,9 @@
   {
     "name": "rss-feed",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "ruler",
@@ -2002,14 +2245,18 @@
   },
   {
     "name": "save-as",
-    "tags": [],
+    "tags": [
+      "floppy"
+    ],
     "categories": [
       "Save & Share"
     ]
   },
   {
     "name": "save-disk",
-    "tags": [],
+    "tags": [
+      "floppy"
+    ],
     "categories": [
       "Save & Share"
     ]
@@ -2025,7 +2272,9 @@
   },
   {
     "name": "screen",
-    "tags": [],
+    "tags": [
+      "desktop"
+    ],
     "categories": [
       "Devices"
     ]
@@ -2049,14 +2298,18 @@
   },
   {
     "name": "server",
-    "tags": [],
+    "tags": [
+      "data"
+    ],
     "categories": [
       "Devices"
     ]
   },
   {
     "name": "server-round",
-    "tags": [],
+    "tags": [
+      "data"
+    ],
     "categories": [
       "Devices"
     ]
@@ -2147,7 +2400,8 @@
     "name": "snow-heavy",
     "tags": [
       "cloud",
-      "weather"
+      "weather",
+      "cold"
     ],
     "categories": [
       "Weather"
@@ -2157,7 +2411,8 @@
     "name": "snow-light",
     "tags": [
       "cloud",
-      "weather"
+      "weather",
+      "cold"
     ],
     "categories": [
       "Weather"
@@ -2166,7 +2421,8 @@
   {
     "name": "snow-particle",
     "tags": [
-      "weather"
+      "weather",
+      "cold"
     ],
     "categories": [
       "Weather"
@@ -2176,7 +2432,8 @@
     "name": "snowflake",
     "tags": [
       "weather",
-      "winter"
+      "winter",
+      "cold"
     ],
     "categories": [
       "Weather"
@@ -2186,7 +2443,8 @@
     "name": "snowflakes",
     "tags": [
       "weather",
-      "winter"
+      "winter",
+      "cold"
     ],
     "categories": [
       "Weather"
@@ -2286,13 +2544,21 @@
   },
   {
     "name": "switch-left",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "switch-right",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "sync",
@@ -2300,7 +2566,8 @@
       "arrow",
       "repeat",
       "rotate",
-      "spin"
+      "spin",
+      "update"
     ],
     "categories": [
       "Actions & Navigation"
@@ -2312,7 +2579,8 @@
       "arrow",
       "repeat",
       "rotate",
-      "spin"
+      "spin",
+      "update"
     ],
     "categories": [
       "Actions & Navigation"
@@ -2320,7 +2588,9 @@
   },
   {
     "name": "tablet",
-    "tags": [],
+    "tags": [
+      "handheld"
+    ],
     "categories": [
       "Devices"
     ]
@@ -2357,14 +2627,18 @@
   },
   {
     "name": "thermometer-cold",
-    "tags": [],
+    "tags": [
+      "temperature"
+    ],
     "categories": [
       "Weather"
     ]
   },
   {
     "name": "thermometer-hot",
-    "tags": [],
+    "tags": [
+      "temperature"
+    ],
     "categories": [
       "Weather"
     ]
@@ -2414,12 +2688,16 @@
   {
     "name": "ticket",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "ticket-plane",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "timer",
@@ -2519,7 +2797,9 @@
       "options",
       "settings"
     ],
-    "categories": []
+    "categories": [
+      "Account & Support"
+    ]
   },
   {
     "name": "undo",
@@ -2533,18 +2813,36 @@
   },
   {
     "name": "unfold-less",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "up",
+      "down"
+
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "unfold-more",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "up",
+      "down"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "update",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "circle"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "upload",
@@ -2563,7 +2861,8 @@
     "name": "upload-xls",
     "tags": [
       "arrow",
-      "excel"
+      "excel",
+      "document"
     ],
     "categories": [
       "Save & Share"
@@ -2699,21 +2998,27 @@
     "tags": [
       "network"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "wifi-no-internet",
     "tags": [
       "disconnected"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "wifi-off",
     "tags": [
       "disconnected"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "wind",
@@ -2733,7 +3038,10 @@
   },
   {
     "name": "window-dock-undock",
-    "tags": [],
+    "tags": [
+      "views",
+      "screen"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -2751,21 +3059,29 @@
   },
   {
     "name": "window-resize",
-    "tags": [],
+    "tags": [
+      "views",
+      "screen"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "window-side-panel",
-    "tags": [],
+    "tags": [
+      "views",
+      "screen"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "window-views",
-    "tags": [],
+    "tags": [
+      "screen"
+    ],
     "categories": [
       "Presentations & View"
     ]

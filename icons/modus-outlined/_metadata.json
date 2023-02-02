@@ -941,6 +941,7 @@
   {
     "name": "file-new",
     "tags": [
+      "plus",
       "sheet"
     ],
     "categories": [
@@ -1393,14 +1394,20 @@
   },
   {
     "name": "lightbulb-off",
-    "tags": [],
+    "tags": [
+      "idea",
+      "suggestion"
+    ],
     "categories": [
       "Alerts & Messages"
     ]
   },
   {
     "name": "lightbulb-on",
-    "tags": [],
+    "tags": [
+      "idea",
+      "suggestion"
+    ],
     "categories": [
       "Alerts & Messages"
     ]
@@ -2068,7 +2075,9 @@
   },
   {
     "name": "share",
-    "tags": [],
+    "tags": [
+      "link"
+    ],
     "categories": [
       "Save & Share"
     ]

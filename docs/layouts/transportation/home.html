@@ -12,8 +12,14 @@
   <main class="container" id="content">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb my-4 p-0">
-        <li class="breadcrumb-item"><a href="/">Home</a></li>
-        <li class="breadcrumb-item"><a href="/{{ .Section | urlize }}/">{{ .Section | humanize }}</a></li>
+        <li class="breadcrumb-item">
+          <a href="/">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="/{{ .Section | urlize }}/" class="text-capitalize">
+            {{- .Section | humanize -}}
+          </a>
+        </li>
       </ol>
     </nav>
     {{ partialCached "icons-transportation" . }}

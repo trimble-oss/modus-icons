@@ -3,23 +3,37 @@
   .bd-navbar {
     min-height: 26px;
   }
+
   .bg-light {
     background-color: #171c1e;
   }
+
   .highlight {
     background-color: #353a40;
   }
+
   .btn-clipboard {
     background-color: #464b52;
     color: #f1f1f6;
   }
+
   .btn-clipboard:hover {
     color: #fff;
   }
+
   .cl {
     color: #f1f1f6;
   }
+
   pre code span span {
     filter: brightness(1.1);
+  }
+
+  .subnav-search img {
+    filter: invert(1);
+  }
+
+  button[data-toggle="dropdown"] img {
+    filter: invert(1);
   }
 }

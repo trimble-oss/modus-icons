@@ -1,6 +1,7 @@
 body.home .highlight {
   background-color: #dcedf9;
   padding: 14px;
+  padding-left: 0 !important;
   padding-top: 14px;
   padding-bottom: 14px;
   margin-bottom: 5px;
@@ -13,12 +14,6 @@ body.home .highlight pre {
 
 body.home .bd-clipboard button {
   background-color: transparent !important;
-}
-
-.container-hero {
-  background-image: url("/img/header.png");
-  background-size: cover;
-  background-position: right;
 }
 
 .hero {
@@ -38,6 +33,12 @@ body.home .bd-clipboard button {
   }
 }
 
-.home .highlight {
-  padding-left: 0 !important;
+[data-theme="dark"] {
+  body.home .highlight {
+    background-color: #000;
+  }
+
+  body.home .card-home img {
+    filter: invert(1);
+  }
 }

@@ -18,7 +18,13 @@ export class SearchComponent implements OnInit {
 
   search() {
     this.iconService.searchIcons(this.searchString).subscribe((results) => {
-      this.searchResults = results.sort((a, b) => a.name.localeCompare(b.name));
+      this.searchResults = results
+        .map((result) => {
+          const icon = { ...result };
+          icon.tags = icon.tags.join(', ');
+          return icon;
+        })
+        .sort((a, b) => a.name.localeCompare(b.name));
     });
   }
 }

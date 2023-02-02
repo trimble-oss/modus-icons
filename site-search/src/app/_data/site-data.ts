@@ -1,13 +1,18 @@
 export const siteData = [
   {
-    "setName": "modus-outline",
-    "displayName": "Modus Outline",
+    "setName": "modus-outlined",
+    "displayName": "Modus Outlined",
     "type": "modus",
     "icons": [
       {
         "name": "add",
         "displayName": "Add",
-        "tags": [],
+        "tags": [
+          "add",
+          "create",
+          "new",
+          "plus"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -17,8 +22,8 @@ export const siteData = [
         "displayName": "Add Circle",
         "tags": [
           "add",
-          "new",
           "create",
+          "new",
           "plus"
         ],
         "categories": [
@@ -215,8 +220,8 @@ export const siteData = [
         "name": "bar-graph",
         "displayName": "Bar Graph",
         "tags": [
-          "chart",
           "analytics",
+          "chart",
           "data"
         ],
         "categories": [
@@ -229,8 +234,8 @@ export const siteData = [
         "name": "bar-graph-line",
         "displayName": "Bar Graph Line",
         "tags": [
-          "chart",
           "analytics",
+          "chart",
           "data"
         ],
         "categories": [
@@ -250,6 +255,141 @@ export const siteData = [
         "categories": [
           "Presentations & View"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-0-horizontal",
+        "displayName": "Battery 0 Horizontal",
+        "tags": [
+          "charge",
+          "power",
+          "dead"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-0-vertical",
+        "displayName": "Battery 0 Vertical",
+        "tags": [
+          "charge",
+          "power",
+          "dead"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-25-horizontal",
+        "displayName": "Battery 25 Horizontal",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-25-vertical",
+        "displayName": "Battery 25 Vertical",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-50-horizontal",
+        "displayName": "Battery 50 Horizontal",
+        "tags": [
+          "charge",
+          "half",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-50-vertical",
+        "displayName": "Battery 50 Vertical",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-75-horizontal",
+        "displayName": "Battery 75 Horizontal",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-75-vertical",
+        "displayName": "Battery 75 Vertical",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-charging-horizontal",
+        "displayName": "Battery Charging Horizontal",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-charging-vertical",
+        "displayName": "Battery Charging Vertical",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-full-horizontal",
+        "displayName": "Battery Full Horizontal",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-full-vertical",
+        "displayName": "Battery Full Vertical",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -347,9 +487,9 @@ export const siteData = [
         "displayName": "Calendar",
         "tags": [
           "date",
-          "time",
+          "month",
           "schedule",
-          "month"
+          "time"
         ],
         "categories": [
           "Devices"
@@ -362,9 +502,9 @@ export const siteData = [
         "displayName": "Calendar Check",
         "tags": [
           "date",
-          "time",
+          "month",
           "schedule",
-          "month"
+          "time"
         ],
         "categories": [
           "Account & Support"
@@ -377,9 +517,9 @@ export const siteData = [
         "displayName": "Calendar Event",
         "tags": [
           "date",
-          "time",
+          "month",
           "schedule",
-          "month"
+          "time"
         ],
         "categories": [
           "Devices"
@@ -392,9 +532,9 @@ export const siteData = [
         "displayName": "Calendar Week",
         "tags": [
           "date",
-          "time",
+          "month",
           "schedule",
-          "month"
+          "time"
         ],
         "categories": [
           "Devices"
@@ -406,8 +546,8 @@ export const siteData = [
         "name": "camera",
         "displayName": "Camera",
         "tags": [
-          "picture",
-          "photo"
+          "photo",
+          "picture"
         ],
         "categories": [
           "Presentations & View"
@@ -419,8 +559,8 @@ export const siteData = [
         "name": "camera-disabled",
         "displayName": "Camera Disabled",
         "tags": [
-          "picture",
-          "photo"
+          "photo",
+          "picture"
         ],
         "categories": [
           "Devices"
@@ -595,7 +735,9 @@ export const siteData = [
       {
         "name": "clipboard-actions",
         "displayName": "Clipboard Actions",
-        "tags": [],
+        "tags": [
+          "paste"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -638,6 +780,27 @@ export const siteData = [
         "categories": [
           "Presentations & View"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock",
+        "displayName": "Clock",
+        "tags": [
+          "time"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-add",
+        "displayName": "Clock Add",
+        "tags": [
+          "plus",
+          "time"
+        ],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -700,7 +863,9 @@ export const siteData = [
       {
         "name": "collapse",
         "displayName": "Collapse",
-        "tags": [],
+        "tags": [
+          "arrows"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -739,12 +904,12 @@ export const siteData = [
         "displayName": "Compass",
         "tags": [
           "direction",
+          "east",
           "location",
           "map",
           "navigation",
           "north",
           "south",
-          "east",
           "west"
         ],
         "categories": [
@@ -903,6 +1068,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "drag-corner",
+        "displayName": "Drag Corner",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "drag-horizontal",
         "displayName": "Drag Horizontal",
         "tags": [],
@@ -915,7 +1088,10 @@ export const siteData = [
       {
         "name": "drag-indicator",
         "displayName": "Drag Indicator",
-        "tags": [],
+        "tags": [
+          "grab",
+          "grip"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -923,7 +1099,9 @@ export const siteData = [
       {
         "name": "drag-vertical",
         "displayName": "Drag Vertical",
-        "tags": [],
+        "tags": [
+          "move"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -934,6 +1112,7 @@ export const siteData = [
         "name": "drizzle",
         "displayName": "Drizzle",
         "tags": [
+          "rain",
           "weather"
         ],
         "categories": [
@@ -947,7 +1126,8 @@ export const siteData = [
         "displayName": "Email",
         "tags": [
           "envelope",
-          "mail"
+          "mail",
+          "message"
         ],
         "categories": [
           "Account & Support"
@@ -998,10 +1178,10 @@ export const siteData = [
         "name": "fast-forward",
         "displayName": "Fast Forward",
         "tags": [
+          "arrowtip",
           "audio",
-          "video",
           "av",
-          "arrowtip"
+          "video"
         ],
         "categories": [
           "Actions & Navigation"
@@ -1013,10 +1193,10 @@ export const siteData = [
         "name": "fast-rewind",
         "displayName": "Fast Rewind",
         "tags": [
+          "arrowtip",
           "audio",
-          "video",
           "av",
-          "arrowtip"
+          "video"
         ],
         "categories": [
           "Actions & Navigation"
@@ -1091,6 +1271,7 @@ export const siteData = [
         "name": "file-new",
         "displayName": "File New",
         "tags": [
+          "plus",
           "sheet"
         ],
         "categories": [
@@ -1259,7 +1440,9 @@ export const siteData = [
       {
         "name": "folder-closed",
         "displayName": "Folder Closed",
-        "tags": [],
+        "tags": [
+          "directory"
+        ],
         "categories": [
           "Folders & Files"
         ],
@@ -1270,6 +1453,7 @@ export const siteData = [
         "name": "folder-locked",
         "displayName": "Folder Locked",
         "tags": [
+          "directory",
           "lock",
           "viewpoint"
         ],
@@ -1283,6 +1467,7 @@ export const siteData = [
         "name": "folder-new",
         "displayName": "Folder New",
         "tags": [
+          "directory",
           "plus"
         ],
         "categories": [
@@ -1481,6 +1666,17 @@ export const siteData = [
         "categories": [
           "Account & Support"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "heart",
+        "displayName": "Heart",
+        "tags": [
+          "favorite",
+          "love"
+        ],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1681,7 +1877,10 @@ export const siteData = [
       {
         "name": "lightbulb-off",
         "displayName": "Lightbulb Off",
-        "tags": [],
+        "tags": [
+          "idea",
+          "suggestion"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -1691,7 +1890,10 @@ export const siteData = [
       {
         "name": "lightbulb-on",
         "displayName": "Lightbulb On",
-        "tags": [],
+        "tags": [
+          "idea",
+          "suggestion"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -1792,8 +1994,8 @@ export const siteData = [
         "displayName": "Manage Accounts",
         "tags": [
           "cog",
-          "user",
-          "settings"
+          "settings",
+          "user"
         ],
         "categories": [
           "Programs"
@@ -1953,6 +2155,31 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "more-horizontal",
+        "displayName": "More Horizontal",
+        "tags": [
+          "kebab",
+          "menu",
+          "overflow"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "more-vertical",
+        "displayName": "More Vertical",
+        "tags": [
+          "ellipsis",
+          "kebab",
+          "menu",
+          "overflow"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "mouse",
         "displayName": "Mouse",
         "tags": [],
@@ -2017,7 +2244,11 @@ export const siteData = [
       {
         "name": "palette",
         "displayName": "Palette",
-        "tags": [],
+        "tags": [
+          "color",
+          "paint",
+          "style"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -2061,8 +2292,8 @@ export const siteData = [
         "name": "pen",
         "displayName": "Pen",
         "tags": [
-          "edit",
           "ballpoint",
+          "edit",
           "note",
           "write"
         ],
@@ -2087,7 +2318,9 @@ export const siteData = [
       {
         "name": "people-couple",
         "displayName": "People Couple",
-        "tags": [],
+        "tags": [
+          "users"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -2117,7 +2350,10 @@ export const siteData = [
       {
         "name": "person-account",
         "displayName": "Person Account",
-        "tags": [],
+        "tags": [
+          "circle",
+          "user"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -2125,7 +2361,10 @@ export const siteData = [
       {
         "name": "person-add",
         "displayName": "Person Add",
-        "tags": [],
+        "tags": [
+          "create",
+          "user"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -2133,7 +2372,9 @@ export const siteData = [
       {
         "name": "person-edit",
         "displayName": "Person Edit",
-        "tags": [],
+        "tags": [
+          "user"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -2141,7 +2382,10 @@ export const siteData = [
       {
         "name": "person-remove",
         "displayName": "Person Remove",
-        "tags": [],
+        "tags": [
+          "delete",
+          "user"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -2217,9 +2461,9 @@ export const siteData = [
         "displayName": "Play Circle",
         "tags": [
           "audio",
+          "av",
           "resume",
-          "video",
-          "av"
+          "video"
         ],
         "categories": [
           "Actions & Navigation"
@@ -2377,8 +2621,8 @@ export const siteData = [
         "displayName": "Refresh",
         "tags": [
           "arrow",
-          "reload",
           "refresh",
+          "reload",
           "rotate",
           "round",
           "spin"
@@ -2392,7 +2636,9 @@ export const siteData = [
       {
         "name": "remove",
         "displayName": "Remove",
-        "tags": [],
+        "tags": [
+          "minus"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -2419,6 +2665,14 @@ export const siteData = [
         "categories": [
           "Account & Support"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rss-feed",
+        "displayName": "Rss Feed",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2538,7 +2792,9 @@ export const siteData = [
       {
         "name": "share",
         "displayName": "Share",
-        "tags": [],
+        "tags": [
+          "link"
+        ],
         "categories": [
           "Save & Share"
         ],
@@ -2610,3529 +2866,15 @@ export const siteData = [
       {
         "name": "signal",
         "displayName": "Signal",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "snow-heavy",
-        "displayName": "Snow Heavy",
         "tags": [
-          "cloud",
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "snow-light",
-        "displayName": "Snow Light",
-        "tags": [],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "snow-particle",
-        "displayName": "Snow Particle",
-        "tags": [
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "snowflake",
-        "displayName": "Snowflake",
-        "tags": [
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "snowflakes",
-        "displayName": "Snowflakes",
-        "tags": [
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "sort-alpha-down",
-        "displayName": "Sort Alpha Down",
-        "tags": [
-          "ascending"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "sort-alpha-up",
-        "displayName": "Sort Alpha Up",
-        "tags": [
-          "descending",
-          "reverse"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "sort-down",
-        "displayName": "Sort Down",
-        "tags": [
-          "descending"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "sort-up",
-        "displayName": "Sort Up",
-        "tags": [
-          "ascending",
-          "reverse"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "star",
-        "displayName": "Star",
-        "tags": [
-          "favorite",
-          "important",
-          "like",
-          "pin",
-          "rating",
-          "save"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "star-empty",
-        "displayName": "Star Empty",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "star-locked",
-        "displayName": "Star Locked",
-        "tags": [
-          "lock"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "stop-circle",
-        "displayName": "Stop Circle",
-        "tags": [
-          "danger",
-          "sign"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "sun",
-        "displayName": "Sun",
-        "tags": [
-          "circle"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "switch-left",
-        "displayName": "Switch Left",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "switch-right",
-        "displayName": "Switch Right",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "sync",
-        "displayName": "Sync",
-        "tags": [
-          "arrow",
-          "repeat",
-          "rotate",
-          "spin"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "sync-off",
-        "displayName": "Sync Off",
-        "tags": [
-          "arrow",
-          "repeat",
-          "rotate",
-          "spin"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "tablet",
-        "displayName": "Tablet",
-        "tags": [],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "text-input",
-        "displayName": "Text Input",
-        "tags": [
-          "text field",
-          "viewpoint"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "text-input-long",
-        "displayName": "Text Input Long",
-        "tags": [
-          "text field",
-          "viewpoint"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "text-input-short",
-        "displayName": "Text Input Short",
-        "tags": [
-          "text field",
-          "viewpoint"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "thermometer-cold",
-        "displayName": "Thermometer Cold",
-        "tags": [],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "thermometer-hot",
-        "displayName": "Thermometer Hot",
-        "tags": [],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "thumbs-down",
-        "displayName": "Thumbs Down",
-        "tags": [
-          "feedback"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "thumbs-up",
-        "displayName": "Thumbs Up",
-        "tags": [
-          "feedback"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "thunderstorm-heavy",
-        "displayName": "Thunderstorm Heavy",
-        "tags": [
-          "cloud",
-          "rain",
-          "storm",
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "thunderstorm-light",
-        "displayName": "Thunderstorm Light",
-        "tags": [
-          "cloud",
-          "rain"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "ticket",
-        "displayName": "Ticket",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "ticket-plane",
-        "displayName": "Ticket Plane",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "timer",
-        "displayName": "Timer",
-        "tags": [
-          "clock",
-          "stopwatch"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "timer-countdown",
-        "displayName": "Timer Countdown",
-        "tags": [
-          "clock",
-          "stopwatch"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "timesheet",
-        "displayName": "Timesheet",
-        "tags": [
-          "document"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "toggle-center",
-        "displayName": "Toggle Center",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "toggle-left-panel",
-        "displayName": "Toggle Left Panel",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "toggle-off",
-        "displayName": "Toggle Off",
-        "tags": [
-          "switch"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "toggle-on",
-        "displayName": "Toggle On",
-        "tags": [
-          "switch"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "traffic-cone",
-        "displayName": "Traffic Cone",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "tree-structure",
-        "displayName": "Tree Structure",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "trimble-logo",
-        "displayName": "Trimble Logo",
-        "tags": [
-          "brand"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "tune",
-        "displayName": "Tune",
-        "tags": [
-          "options",
-          "settings"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "tune-circle",
-        "displayName": "Tune Circle",
-        "tags": [
-          "options",
-          "settings"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "undo",
-        "displayName": "Undo",
-        "tags": [
-          "arrow",
-          "reverse"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "unfold-less",
-        "displayName": "Unfold Less",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "unfold-more",
-        "displayName": "Unfold More",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "update",
-        "displayName": "Update",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "upload",
-        "displayName": "Upload",
-        "tags": [
-          "arrow",
-          "import",
-          "publish",
-          "share",
-          "sketchup"
-        ],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "upload-xls",
-        "displayName": "Upload Xls",
-        "tags": [
-          "arrow"
-        ],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "video",
-        "displayName": "Video",
-        "tags": [
-          "cam"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "video-add",
-        "displayName": "Video Add",
-        "tags": [
-          "cam",
-          "plus"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "video-disabled",
-        "displayName": "Video Disabled",
-        "tags": [
-          "cam"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "visibility-off",
-        "displayName": "Visibility Off",
-        "tags": [
-          "display",
-          "eye",
-          "hide",
-          "view"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "visibility-on",
-        "displayName": "Visibility On",
-        "tags": [
-          "display",
-          "eye",
-          "show",
-          "view"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "volume-down",
-        "displayName": "Volume Down",
-        "tags": [
-          "audio",
-          "loudspeaker",
-          "sound"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "volume-mute",
-        "displayName": "Volume Mute",
-        "tags": [
-          "audio",
-          "loudspeaker",
-          "sound"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "volume-up",
-        "displayName": "Volume Up",
-        "tags": [
-          "audio",
-          "loudspeaker",
-          "sound"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "warning",
-        "displayName": "Warning",
-        "tags": [
-          "alert",
-          "caution",
-          "circle",
-          "exclamation"
-        ],
-        "categories": [
-          "Alerts & Messages"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "web",
-        "displayName": "Web",
-        "tags": [
-          "globe",
-          "world"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "wheelbarrow",
-        "displayName": "Wheelbarrow",
-        "tags": [
-          "construction",
-          "tool",
-          "viewpoint"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "widgets",
-        "displayName": "Widgets",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "wind",
-        "displayName": "Wind",
-        "tags": [
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "window",
-        "displayName": "Window",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "window-dock-undock",
-        "displayName": "Window Dock Undock",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "window-fit",
-        "displayName": "Window Fit",
-        "tags": [
-          "arrows",
-          "marks",
-          "screen"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "window-resize",
-        "displayName": "Window Resize",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "window-side-panel",
-        "displayName": "Window Side Panel",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "window-views",
-        "displayName": "Window Views",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "window-wireframe",
-        "displayName": "Window Wireframe",
-        "tags": [
-          "render"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "wintery-mix",
-        "displayName": "Wintery Mix",
-        "tags": [
-          "cloud",
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "wrench",
-        "displayName": "Wrench",
-        "tags": [
-          "tools"
-        ],
-        "categories": [
-          "Programs"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "zoom-box",
-        "displayName": "Zoom Box",
-        "tags": [
-          "magnifier",
-          "magnify",
-          "scale"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "zoom-in",
-        "displayName": "Zoom In",
-        "tags": [
-          "magnifier",
-          "magnify",
-          "plus",
-          "scale"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "zoom-out",
-        "displayName": "Zoom Out",
-        "tags": [
-          "magnifier",
-          "magnify",
-          "minus",
-          "scale"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "compare-arrows",
-        "displayName": "Compare Arrows",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "crop",
-        "displayName": "Crop",
-        "tags": [
-          "resize"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder",
-        "displayName": "Folder",
-        "tags": [
-          "directory"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      }
-    ]
-  },
-  {
-    "setName": "modus-solid",
-    "displayName": "Modus Solid",
-    "type": "modus",
-    "icons": [
-      {
-        "name": "add",
-        "displayName": "Add",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "add-circle",
-        "displayName": "Add Circle",
-        "tags": [
-          "add",
-          "new",
-          "create",
-          "plus"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "address",
-        "displayName": "Address",
-        "tags": [
-          "envelope",
-          "mail"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "advanced-instructions",
-        "displayName": "Advanced Instructions",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "alert",
-        "displayName": "Alert",
-        "tags": [
-          "exclamation",
-          "triangle",
-          "warning"
-        ],
-        "categories": [
-          "Alerts & Messages"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "align-bottom",
-        "displayName": "Align Bottom",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "align-center-horiz",
-        "displayName": "Align Center Horiz",
-        "tags": [
-          "horizontal"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "align-center-vert",
-        "displayName": "Align Center Vert",
-        "tags": [
-          "vertical"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "align-left",
-        "displayName": "Align Left",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "align-right",
-        "displayName": "Align Right",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "align-top",
-        "displayName": "Align Top",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "antenna",
-        "displayName": "Antenna",
-        "tags": [
-          "broadcast",
+          "carrier",
+          "cellphone",
+          "mobile",
+          "network",
+          "reception",
           "signal"
         ],
         "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "arrow-down",
-        "displayName": "Arrow Down",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "arrow-down-circle",
-        "displayName": "Arrow Down Circle",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "arrow-left",
-        "displayName": "Arrow Left",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "arrow-left-circle",
-        "displayName": "Arrow Left Circle",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "arrow-right",
-        "displayName": "Arrow Right",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "arrow-right-circle",
-        "displayName": "Arrow Right Circle",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "arrow-up",
-        "displayName": "Arrow Up",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "arrow-up-circle",
-        "displayName": "Arrow Up Circle",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "bar-graph",
-        "displayName": "Bar Graph",
-        "tags": [
-          "chart",
-          "analytics",
-          "data"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "bar-graph-line",
-        "displayName": "Bar Graph Line",
-        "tags": [
-          "chart",
-          "analytics",
-          "data"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "barcode",
-        "displayName": "Barcode",
-        "tags": [
-          "billing",
-          "payment",
-          "viewpoint"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "bolt",
-        "displayName": "Bolt",
-        "tags": [
-          "energy",
-          "lightning",
-          "thunder"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "brightness",
-        "displayName": "Brightness",
-        "tags": [
-          "dark",
-          "light",
-          "sun"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "brush",
-        "displayName": "Brush",
-        "tags": [
-          "construction",
-          "paint"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "buildings",
-        "displayName": "Buildings",
-        "tags": [
-          "building"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "calculate",
-        "displayName": "Calculate",
-        "tags": [
-          "delta"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "calculator",
-        "displayName": "Calculator",
-        "tags": [
-          "math"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "calculator-symbols",
-        "displayName": "Calculator Symbols",
-        "tags": [
-          "math"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "calendar",
-        "displayName": "Calendar",
-        "tags": [
-          "date",
-          "time",
-          "schedule",
-          "month"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "calendar-check",
-        "displayName": "Calendar Check",
-        "tags": [
-          "date",
-          "time",
-          "schedule",
-          "month"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "calendar-event",
-        "displayName": "Calendar Event",
-        "tags": [
-          "date",
-          "time",
-          "schedule",
-          "month"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "calendar-week",
-        "displayName": "Calendar Week",
-        "tags": [
-          "date",
-          "time",
-          "schedule",
-          "month"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "camera",
-        "displayName": "Camera",
-        "tags": [
-          "picture",
-          "photo"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "camera-disabled",
-        "displayName": "Camera Disabled",
-        "tags": [
-          "picture",
-          "photo"
-        ],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cancel-circle",
-        "displayName": "Cancel Circle",
-        "tags": [
-          "cancel",
-          "clear",
-          "delete",
-          "exit",
-          "remove",
-          "reset",
-          "x"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "caret-down",
-        "displayName": "Caret Down",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "caret-left",
-        "displayName": "Caret Left",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "caret-right",
-        "displayName": "Caret Right",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "caret-up",
-        "displayName": "Caret Up",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "certificate",
-        "displayName": "Certificate",
-        "tags": [
-          "secure"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "chat",
-        "displayName": "Chat",
-        "tags": [
-          "bubble",
-          "conversation",
-          "speech"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "check",
-        "displayName": "Check",
-        "tags": [
-          "done",
-          "success",
-          "tick"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "check-circle",
-        "displayName": "Check Circle",
-        "tags": [
-          "done",
-          "success",
-          "tick"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "chevron-double-down",
-        "displayName": "Chevron Double Down",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "chevron-double-left",
-        "displayName": "Chevron Double Left",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "chevron-double-right",
-        "displayName": "Chevron Double Right",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "chevron-double-up",
-        "displayName": "Chevron Double Up",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "chevron-left",
-        "displayName": "Chevron Left",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "chevron-right",
-        "displayName": "Chevron Right",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "clipboard",
-        "displayName": "Clipboard",
-        "tags": [
-          "paste"
-        ],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "clipboard-actions",
-        "displayName": "Clipboard Actions",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "clipboard-check",
-        "displayName": "Clipboard Check",
-        "tags": [
-          "copy",
-          "paste"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "clipboard-empty",
-        "displayName": "Clipboard Empty",
-        "tags": [
-          "copy",
-          "paste"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "clipboard-planning",
-        "displayName": "Clipboard Planning",
-        "tags": [
-          "clipboard",
-          "list"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "close",
-        "displayName": "Close",
-        "tags": [
-          "cancel",
-          "clear",
-          "delete",
-          "exit",
-          "remove",
-          "reset",
-          "x"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cloud",
-        "displayName": "Cloud",
-        "tags": [
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cloud-download",
-        "displayName": "Cloud Download",
-        "tags": [
-          "export"
-        ],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cloud-upload",
-        "displayName": "Cloud Upload",
-        "tags": [
-          "arrows",
-          "center",
-          "import"
-        ],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "collapse",
-        "displayName": "Collapse",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "color-picker",
-        "displayName": "Color Picker",
-        "tags": [
-          "eyedropper",
-          "sketchup"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "comment",
-        "displayName": "Comment",
-        "tags": [
-          "bubble",
-          "message",
-          "speech"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "compass",
-        "displayName": "Compass",
-        "tags": [
-          "direction",
-          "location",
-          "map",
-          "navigation",
-          "north",
-          "south",
-          "east",
-          "west"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "component",
-        "displayName": "Component",
-        "tags": [
-          "jigsaw"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "contacts",
-        "displayName": "Contacts",
-        "tags": [
-          "address book",
-          "people",
-          "viewpoint"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "contrast",
-        "displayName": "Contrast",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "copy-content",
-        "displayName": "Copy Content",
-        "tags": [
-          "duplicate"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "credit-card",
-        "displayName": "Credit Card",
-        "tags": [
-          "payment"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cursor",
-        "displayName": "Cursor",
-        "tags": [
-          "pointer"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cursor-add",
-        "displayName": "Cursor Add",
-        "tags": [
-          "arrow",
-          "plus",
-          "pointer",
-          "select"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cursor-remove",
-        "displayName": "Cursor Remove",
-        "tags": [
-          "arrow",
-          "minus",
-          "pointer",
-          "select"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "dashboard",
-        "displayName": "Dashboard",
-        "tags": [],
-        "categories": [
-          "Programs"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "delete",
-        "displayName": "Delete",
-        "tags": [
-          "bin",
-          "trash"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "download",
-        "displayName": "Download",
-        "tags": [],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "download-line",
-        "displayName": "Download Line",
-        "tags": [],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "download-xls",
-        "displayName": "Download Xls",
-        "tags": [],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "drag-horizontal",
-        "displayName": "Drag Horizontal",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "drag-indicator",
-        "displayName": "Drag Indicator",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "drag-vertical",
-        "displayName": "Drag Vertical",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "drizzle",
-        "displayName": "Drizzle",
-        "tags": [
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "email",
-        "displayName": "Email",
-        "tags": [
-          "envelope",
-          "mail"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "envelope",
-        "displayName": "Envelope",
-        "tags": [
-          "mail"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "expand",
-        "displayName": "Expand",
-        "tags": [
-          "arrow",
-          "chevron"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "expand-less",
-        "displayName": "Expand Less",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "expand-more",
-        "displayName": "Expand More",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "fast-forward",
-        "displayName": "Fast Forward",
-        "tags": [
-          "audio",
-          "video",
-          "av",
-          "arrowtip"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "fast-rewind",
-        "displayName": "Fast Rewind",
-        "tags": [
-          "audio",
-          "video",
-          "av",
-          "arrowtip"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file",
-        "displayName": "File",
-        "tags": [
-          "document",
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-copy",
-        "displayName": "File Copy",
-        "tags": [
-          "documents",
-          "duplicate",
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-edit",
-        "displayName": "File Edit",
-        "tags": [
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-merge",
-        "displayName": "File Merge",
-        "tags": [
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-missing",
-        "displayName": "File Missing",
-        "tags": [
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-new",
-        "displayName": "File New",
-        "tags": [
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-type-doc",
-        "displayName": "File Type Doc",
-        "tags": [
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-type-log",
-        "displayName": "File Type Log",
-        "tags": [
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-type-pdf",
-        "displayName": "File Type Pdf",
-        "tags": [
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-type-rfi",
-        "displayName": "File Type Rfi",
-        "tags": [
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-type-rfq",
-        "displayName": "File Type Rfq",
-        "tags": [
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-type-tmp",
-        "displayName": "File Type Tmp",
-        "tags": [
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-type-xls",
-        "displayName": "File Type Xls",
-        "tags": [
-          "sheet"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "filter",
-        "displayName": "Filter",
-        "tags": [
-          "funnel"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "filter-list",
-        "displayName": "Filter List",
-        "tags": [
-          "funnel"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "filter-off",
-        "displayName": "Filter Off",
-        "tags": [
-          "funnel"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "floorplan",
-        "displayName": "Floorplan",
-        "tags": [
-          "layout",
-          "map",
-          "plan",
-          "viewpoint"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "flowchart",
-        "displayName": "Flowchart",
-        "tags": [
-          "diagram"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "fog",
-        "displayName": "Fog",
-        "tags": [],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-closed",
-        "displayName": "Folder Closed",
-        "tags": [],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-locked",
-        "displayName": "Folder Locked",
-        "tags": [
-          "lock",
-          "viewpoint"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-new",
-        "displayName": "Folder New",
-        "tags": [
-          "plus"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-open",
-        "displayName": "Folder Open",
-        "tags": [],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-personal",
-        "displayName": "Folder Personal",
-        "tags": [
-          "person",
-          "starred",
-          "user",
-          "viewpoint"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-project",
-        "displayName": "Folder Project",
-        "tags": [
-          "3d",
-          "cube"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-public",
-        "displayName": "Folder Public",
-        "tags": [],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-share",
-        "displayName": "Folder Share",
-        "tags": [],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-unlocked",
-        "displayName": "Folder Unlocked",
-        "tags": [],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "footprints",
-        "displayName": "Footprints",
-        "tags": [
-          "steps"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "frame",
-        "displayName": "Frame",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "full-screen",
-        "displayName": "Full Screen",
-        "tags": [
-          "maximize",
-          "viewpoint",
-          "window"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "group-items",
-        "displayName": "Group Items",
-        "tags": [
-          "sketchup"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "hail",
-        "displayName": "Hail",
-        "tags": [
-          "circle",
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "hail-heavy",
-        "displayName": "Hail Heavy",
-        "tags": [
-          "cloud",
-          "weather"
-        ],
-        "categories": [
-          "weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "hail-light",
-        "displayName": "Hail Light",
-        "tags": [
-          "cloud",
-          "weather"
-        ],
-        "categories": [
-          "weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "hammer",
-        "displayName": "Hammer",
-        "tags": [
-          "repair",
-          "tool"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "hard-hat",
-        "displayName": "Hard Hat",
-        "tags": [
-          "builder",
-          "construction",
-          "viewpoint",
-          "worker"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "headset",
-        "displayName": "Headset",
-        "tags": [
-          "headphones"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "helicopter",
-        "displayName": "Helicopter",
-        "tags": [
-          "fly"
-        ],
-        "categories": [
-          "Presentations & Views"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "help",
-        "displayName": "Help",
-        "tags": [
-          "circle"
-        ],
-        "categories": [
-          "Alerts & Messages"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "history",
-        "displayName": "History",
-        "tags": [
-          "clock"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "home",
-        "displayName": "Home",
-        "tags": [
-          "house"
-        ],
-        "categories": [
-          "Programs"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "hourglass",
-        "displayName": "Hourglass",
-        "tags": [
-          "clock",
-          "history",
-          "time",
-          "wait"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "ice",
-        "displayName": "Ice",
-        "tags": [
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "image",
-        "displayName": "Image",
-        "tags": [
-          "picture"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "image-scene",
-        "displayName": "Image Scene",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "info",
-        "displayName": "Info",
-        "tags": [
-          "circle"
-        ],
-        "categories": [
-          "Alerts & Messages"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "inspect",
-        "displayName": "Inspect",
-        "tags": [],
-        "categories": [
-          "Alerts & Messages"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "key",
-        "displayName": "Key",
-        "tags": [
-          "lock",
-          "secure"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "keyboard",
-        "displayName": "Keyboard",
-        "tags": [],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "keyboard-keys",
-        "displayName": "Keyboard Keys",
-        "tags": [],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "language",
-        "displayName": "Language",
-        "tags": [
-          "localization",
-          "translate",
-          "translation"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "launch",
-        "displayName": "Launch",
-        "tags": [],
-        "categories": [
-          "Programs"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "layer",
-        "displayName": "Layer",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "learn",
-        "displayName": "Learn",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "lightbulb-off",
-        "displayName": "Lightbulb Off",
-        "tags": [],
-        "categories": [
-          "Alerts & Messages"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "lightbulb-on",
-        "displayName": "Lightbulb On",
-        "tags": [],
-        "categories": [
-          "Alerts & Messages"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "lightning",
-        "displayName": "Lightning",
-        "tags": [
-          "cloud",
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "link",
-        "displayName": "Link",
-        "tags": [],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "link-broken",
-        "displayName": "Link Broken",
-        "tags": [],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "link-off",
-        "displayName": "Link Off",
-        "tags": [],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "location",
-        "displayName": "Location",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "location-point",
-        "displayName": "Location Point",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "lock",
-        "displayName": "Lock",
-        "tags": [
-          "privacy",
-          "security"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "lock-open",
-        "displayName": "Lock Open",
-        "tags": [
-          "privacy",
-          "security"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "manage-accounts",
-        "displayName": "Manage Accounts",
-        "tags": [
-          "cog",
-          "user",
-          "settings"
-        ],
-        "categories": [
-          "Programs"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "map",
-        "displayName": "Map",
-        "tags": [
-          "geography",
-          "location"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "map-2d",
-        "displayName": "Map 2d",
-        "tags": [
-          "geography",
-          "location"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "map-marker",
-        "displayName": "Map Marker",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "map-markers",
-        "displayName": "Map Markers",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "map-poi",
-        "displayName": "Map Poi",
-        "tags": [
-          "marker"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "megaphone",
-        "displayName": "Megaphone",
-        "tags": [
-          "alert",
-          "audio",
-          "viewpoint"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "menu",
-        "displayName": "Menu",
-        "tags": [
-          "hamburger",
-          "navigation"
-        ],
-        "categories": [
-          "Programs"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "menu-circle",
-        "displayName": "Menu Circle",
-        "tags": [
-          "hamburger",
-          "navigation"
-        ],
-        "categories": [
-          "Programs"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "mic",
-        "displayName": "Mic",
-        "tags": [
-          "microphone",
-          "sound"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "mix",
-        "displayName": "Mix",
-        "tags": [
-          "star",
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "moon",
-        "displayName": "Moon",
-        "tags": [
-          "dark mode",
-          "night",
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "more-circle",
-        "displayName": "More Circle",
-        "tags": [
-          "ellipsis",
-          "meatballs",
-          "menu",
-          "overflow"
-        ],
-        "categories": [
-          "Programs"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "mouse",
-        "displayName": "Mouse",
-        "tags": [],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "move",
-        "displayName": "Move",
-        "tags": [
-          "arrow",
-          "cursor"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "object-outline",
-        "displayName": "Object Outline",
-        "tags": [
-          "geometric"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "overcast",
-        "displayName": "Overcast",
-        "tags": [
-          "cloud",
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "paint-bucket",
-        "displayName": "Paint Bucket",
-        "tags": [
-          "color",
-          "fill",
-          "palette"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "palette",
-        "displayName": "Palette",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "pan",
-        "displayName": "Pan",
-        "tags": [
-          "arrow",
-          "center"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "password",
-        "displayName": "Password",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "pause-circle",
-        "displayName": "Pause Circle",
-        "tags": [
-          "audio",
-          "stop",
-          "video"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "pen",
-        "displayName": "Pen",
-        "tags": [
-          "edit",
-          "ballpoint",
-          "note",
-          "write"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "pencil",
-        "displayName": "Pencil",
-        "tags": [
-          "edit"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "people-couple",
-        "displayName": "People Couple",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "people-group",
-        "displayName": "People Group",
-        "tags": [
-          "users"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "person",
-        "displayName": "Person",
-        "tags": [
-          "user"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "person-account",
-        "displayName": "Person Account",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "person-add",
-        "displayName": "Person Add",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "person-edit",
-        "displayName": "Person Edit",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "person-remove",
-        "displayName": "Person Remove",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "phone",
-        "displayName": "Phone",
-        "tags": [],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "phone-call",
-        "displayName": "Phone Call",
-        "tags": [
-          "call"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "phone-hang-up",
-        "displayName": "Phone Hang Up",
-        "tags": [
-          "call"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "phone-mobile",
-        "displayName": "Phone Mobile",
-        "tags": [],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "pin",
-        "displayName": "Pin",
-        "tags": [
-          "attach",
-          "dock",
-          "fix"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "pin-add",
-        "displayName": "Pin Add",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "play-circle",
-        "displayName": "Play Circle",
-        "tags": [
-          "audio",
-          "resume",
-          "video",
-          "av"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "polygon",
-        "displayName": "Polygon",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "polygon-area-tool",
-        "displayName": "Polygon Area Tool",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "polygon-concave",
-        "displayName": "Polygon Concave",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "polygon-cone",
-        "displayName": "Polygon Cone",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "polygon-merge",
-        "displayName": "Polygon Merge",
-        "tags": [
-          "merge"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "polygon-select",
-        "displayName": "Polygon Select",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "pulse",
-        "displayName": "Pulse",
-        "tags": [
-          "activity",
-          "heartbeat"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "question",
-        "displayName": "Question",
-        "tags": [],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rain",
-        "displayName": "Rain",
-        "tags": [
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rain-heavy",
-        "displayName": "Rain Heavy",
-        "tags": [
-          "cloud",
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rain-icy",
-        "displayName": "Rain Icy",
-        "tags": [],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "raindrop",
-        "displayName": "Raindrop",
-        "tags": [
-          "weather"
-        ],
-        "categories": [
-          "Weather"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "redo",
-        "displayName": "Redo",
-        "tags": [
-          "arrow",
-          "turn"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "refresh",
-        "displayName": "Refresh",
-        "tags": [
-          "arrow",
-          "reload",
-          "refresh",
-          "rotate",
-          "round",
-          "spin"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "remove",
-        "displayName": "Remove",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "remove-circle",
-        "displayName": "Remove Circle",
-        "tags": [
-          "delete",
-          "minus"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "reply",
-        "displayName": "Reply",
-        "tags": [
-          "arrow"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "ruler",
-        "displayName": "Ruler",
-        "tags": [
-          "guide",
-          "measure"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "save-as",
-        "displayName": "Save As",
-        "tags": [],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "save-disk",
-        "displayName": "Save Disk",
-        "tags": [],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "scissors",
-        "displayName": "Scissors",
-        "tags": [
-          "cut"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "screen",
-        "displayName": "Screen",
-        "tags": [],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "screenshot",
-        "displayName": "Screenshot",
-        "tags": [],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "search",
-        "displayName": "Search",
-        "tags": [
-          "magnifier",
-          "magnifying glass"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "server",
-        "displayName": "Server",
-        "tags": [],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "server-round",
-        "displayName": "Server Round",
-        "tags": [],
-        "categories": [
-          "Devices"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "settings",
-        "displayName": "Settings",
-        "tags": [
-          "cog",
-          "gear",
-          "preferences",
-          "tool"
-        ],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "share",
-        "displayName": "Share",
-        "tags": [],
-        "categories": [
-          "Save & Share"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "shield",
-        "displayName": "Shield",
-        "tags": [
-          "security"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "shortcut",
-        "displayName": "Shortcut",
-        "tags": [],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "shovel",
-        "displayName": "Shovel",
-        "tags": [
-          "construction",
-          "dig"
-        ],
-        "categories": [
-          "Presentations & View"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "sign-in",
-        "displayName": "Sign In",
-        "tags": [
-          "login",
-          "sketchup"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "sign-out",
-        "displayName": "Sign Out",
-        "tags": [
-          "exit",
-          "logout",
-          "sketchup"
-        ],
-        "categories": [
-          "Account & Support"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "signal",
-        "displayName": "Signal",
-        "tags": [],
-        "categories": [
           "Actions & Navigation"
         ],
         "deprecated": false,
@@ -6154,7 +2896,10 @@ export const siteData = [
       {
         "name": "snow-light",
         "displayName": "Snow Light",
-        "tags": [],
+        "tags": [
+          "cloud",
+          "weather"
+        ],
         "categories": [
           "Weather"
         ],
@@ -6177,7 +2922,8 @@ export const siteData = [
         "name": "snowflake",
         "displayName": "Snowflake",
         "tags": [
-          "weather"
+          "weather",
+          "winter"
         ],
         "categories": [
           "Weather"
@@ -6189,7 +2935,8 @@ export const siteData = [
         "name": "snowflakes",
         "displayName": "Snowflakes",
         "tags": [
-          "weather"
+          "weather",
+          "winter"
         ],
         "categories": [
           "Weather"
@@ -6267,7 +3014,12 @@ export const siteData = [
       {
         "name": "star-empty",
         "displayName": "Star Empty",
-        "tags": [],
+        "tags": [
+          "favorite",
+          "like",
+          "rating",
+          "shape"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -6430,7 +3182,8 @@ export const siteData = [
         "name": "thumbs-down",
         "displayName": "Thumbs Down",
         "tags": [
-          "feedback"
+          "feedback",
+          "rating"
         ],
         "categories": [
           "Actions & Navigation"
@@ -6442,7 +3195,8 @@ export const siteData = [
         "name": "thumbs-up",
         "displayName": "Thumbs Up",
         "tags": [
-          "feedback"
+          "feedback",
+          "rating"
         ],
         "categories": [
           "Actions & Navigation"
@@ -6739,7 +3493,7 @@ export const siteData = [
         "tags": [
           "display",
           "eye",
-          "show",
+          "hide",
           "view"
         ],
         "categories": [
@@ -6854,6 +3608,3865 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "wifi",
+        "displayName": "Wifi",
+        "tags": [
+          "network"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "wifi-no-internet",
+        "displayName": "Wifi No Internet",
+        "tags": [
+          "disconnected"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "wifi-off",
+        "displayName": "Wifi Off",
+        "tags": [
+          "disconnected"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "wind",
+        "displayName": "Wind",
+        "tags": [
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "window",
+        "displayName": "Window",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "window-dock-undock",
+        "displayName": "Window Dock Undock",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "window-fit",
+        "displayName": "Window Fit",
+        "tags": [
+          "arrows",
+          "marks",
+          "screen"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "window-resize",
+        "displayName": "Window Resize",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "window-side-panel",
+        "displayName": "Window Side Panel",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "window-views",
+        "displayName": "Window Views",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "window-wireframe",
+        "displayName": "Window Wireframe",
+        "tags": [
+          "render"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "wintery-mix",
+        "displayName": "Wintery Mix",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "wrench",
+        "displayName": "Wrench",
+        "tags": [
+          "tools"
+        ],
+        "categories": [
+          "Programs"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "zoom-box",
+        "displayName": "Zoom Box",
+        "tags": [
+          "magnifier",
+          "magnify",
+          "scale"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "zoom-in",
+        "displayName": "Zoom In",
+        "tags": [
+          "magnifier",
+          "magnify",
+          "plus",
+          "scale"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "zoom-out",
+        "displayName": "Zoom Out",
+        "tags": [
+          "magnifier",
+          "magnify",
+          "minus",
+          "scale"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "compare-arrows",
+        "displayName": "Compare Arrows",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "crop",
+        "displayName": "Crop",
+        "tags": [
+          "resize"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "folder",
+        "displayName": "Folder",
+        "tags": [
+          "directory"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      }
+    ]
+  },
+  {
+    "setName": "modus-solid",
+    "displayName": "Modus Solid",
+    "type": "modus",
+    "icons": [
+      {
+        "name": "add",
+        "displayName": "Add",
+        "tags": [
+          "add",
+          "create",
+          "new",
+          "plus"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "add-circle",
+        "displayName": "Add Circle",
+        "tags": [
+          "add",
+          "create",
+          "new",
+          "plus"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "address",
+        "displayName": "Address",
+        "tags": [
+          "envelope",
+          "mail"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "advanced-instructions",
+        "displayName": "Advanced Instructions",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alert",
+        "displayName": "Alert",
+        "tags": [
+          "exclamation",
+          "triangle",
+          "warning"
+        ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "align-bottom",
+        "displayName": "Align Bottom",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "align-center-horiz",
+        "displayName": "Align Center Horiz",
+        "tags": [
+          "horizontal"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "align-center-vert",
+        "displayName": "Align Center Vert",
+        "tags": [
+          "vertical"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "align-left",
+        "displayName": "Align Left",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "align-right",
+        "displayName": "Align Right",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "align-top",
+        "displayName": "Align Top",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "antenna",
+        "displayName": "Antenna",
+        "tags": [
+          "broadcast",
+          "signal"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-down",
+        "displayName": "Arrow Down",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-down-circle",
+        "displayName": "Arrow Down Circle",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-left",
+        "displayName": "Arrow Left",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-left-circle",
+        "displayName": "Arrow Left Circle",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-right",
+        "displayName": "Arrow Right",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-right-circle",
+        "displayName": "Arrow Right Circle",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-up",
+        "displayName": "Arrow Up",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-up-circle",
+        "displayName": "Arrow Up Circle",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bar-graph",
+        "displayName": "Bar Graph",
+        "tags": [
+          "analytics",
+          "chart",
+          "data"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bar-graph-line",
+        "displayName": "Bar Graph Line",
+        "tags": [
+          "analytics",
+          "chart",
+          "data"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "barcode",
+        "displayName": "Barcode",
+        "tags": [
+          "billing",
+          "payment",
+          "viewpoint"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-0-horizontal",
+        "displayName": "Battery 0 Horizontal",
+        "tags": [
+          "charge",
+          "power",
+          "dead"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-0-vertical",
+        "displayName": "Battery 0 Vertical",
+        "tags": [
+          "charge",
+          "power",
+          "dead"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-25-horizontal",
+        "displayName": "Battery 25 Horizontal",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-25-vertical",
+        "displayName": "Battery 25 Vertical",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-50-horizontal",
+        "displayName": "Battery 50 Horizontal",
+        "tags": [
+          "charge",
+          "half",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-50-vertical",
+        "displayName": "Battery 50 Vertical",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-75-horizontal",
+        "displayName": "Battery 75 Horizontal",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-75-vertical",
+        "displayName": "Battery 75 Vertical",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-charging-horizontal",
+        "displayName": "Battery Charging Horizontal",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-charging-vertical",
+        "displayName": "Battery Charging Vertical",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-full-horizontal",
+        "displayName": "Battery Full Horizontal",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "battery-full-vertical",
+        "displayName": "Battery Full Vertical",
+        "tags": [
+          "charge",
+          "power"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bolt",
+        "displayName": "Bolt",
+        "tags": [
+          "energy",
+          "lightning",
+          "thunder"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "brightness",
+        "displayName": "Brightness",
+        "tags": [
+          "dark",
+          "light",
+          "sun"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "brush",
+        "displayName": "Brush",
+        "tags": [
+          "construction",
+          "paint"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "buildings",
+        "displayName": "Buildings",
+        "tags": [
+          "building"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calculate",
+        "displayName": "Calculate",
+        "tags": [
+          "delta"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calculator",
+        "displayName": "Calculator",
+        "tags": [
+          "math"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calculator-symbols",
+        "displayName": "Calculator Symbols",
+        "tags": [
+          "math"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar",
+        "displayName": "Calendar",
+        "tags": [
+          "date",
+          "month",
+          "schedule",
+          "time"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-check",
+        "displayName": "Calendar Check",
+        "tags": [
+          "date",
+          "month",
+          "schedule",
+          "time"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-event",
+        "displayName": "Calendar Event",
+        "tags": [
+          "date",
+          "month",
+          "schedule",
+          "time"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-week",
+        "displayName": "Calendar Week",
+        "tags": [
+          "date",
+          "month",
+          "schedule",
+          "time"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "camera",
+        "displayName": "Camera",
+        "tags": [
+          "photo",
+          "picture"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "camera-disabled",
+        "displayName": "Camera Disabled",
+        "tags": [
+          "photo",
+          "picture"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cancel-circle",
+        "displayName": "Cancel Circle",
+        "tags": [
+          "cancel",
+          "clear",
+          "delete",
+          "exit",
+          "remove",
+          "reset",
+          "x"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-down",
+        "displayName": "Caret Down",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-left",
+        "displayName": "Caret Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-right",
+        "displayName": "Caret Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-up",
+        "displayName": "Caret Up",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "certificate",
+        "displayName": "Certificate",
+        "tags": [
+          "secure"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chat",
+        "displayName": "Chat",
+        "tags": [
+          "bubble",
+          "conversation",
+          "speech"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "check",
+        "displayName": "Check",
+        "tags": [
+          "done",
+          "success",
+          "tick"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "check-circle",
+        "displayName": "Check Circle",
+        "tags": [
+          "done",
+          "success",
+          "tick"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-down",
+        "displayName": "Chevron Double Down",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-left",
+        "displayName": "Chevron Double Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-right",
+        "displayName": "Chevron Double Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-up",
+        "displayName": "Chevron Double Up",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-left",
+        "displayName": "Chevron Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-right",
+        "displayName": "Chevron Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clipboard",
+        "displayName": "Clipboard",
+        "tags": [
+          "paste"
+        ],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clipboard-actions",
+        "displayName": "Clipboard Actions",
+        "tags": [
+          "paste"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clipboard-check",
+        "displayName": "Clipboard Check",
+        "tags": [
+          "copy",
+          "paste"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clipboard-empty",
+        "displayName": "Clipboard Empty",
+        "tags": [
+          "copy",
+          "paste"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clipboard-planning",
+        "displayName": "Clipboard Planning",
+        "tags": [
+          "clipboard",
+          "list"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock",
+        "displayName": "Clock",
+        "tags": [
+          "time"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-add",
+        "displayName": "Clock Add",
+        "tags": [
+          "plus",
+          "time"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "close",
+        "displayName": "Close",
+        "tags": [
+          "cancel",
+          "clear",
+          "delete",
+          "exit",
+          "remove",
+          "reset",
+          "x"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cloud",
+        "displayName": "Cloud",
+        "tags": [
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cloud-download",
+        "displayName": "Cloud Download",
+        "tags": [
+          "export"
+        ],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cloud-upload",
+        "displayName": "Cloud Upload",
+        "tags": [
+          "arrows",
+          "center",
+          "import"
+        ],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "collapse",
+        "displayName": "Collapse",
+        "tags": [
+          "arrows"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "color-picker",
+        "displayName": "Color Picker",
+        "tags": [
+          "eyedropper",
+          "sketchup"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment",
+        "displayName": "Comment",
+        "tags": [
+          "bubble",
+          "message",
+          "speech"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "compass",
+        "displayName": "Compass",
+        "tags": [
+          "direction",
+          "east",
+          "location",
+          "map",
+          "navigation",
+          "north",
+          "south",
+          "west"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "component",
+        "displayName": "Component",
+        "tags": [
+          "jigsaw"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "contacts",
+        "displayName": "Contacts",
+        "tags": [
+          "address book",
+          "people",
+          "viewpoint"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "contrast",
+        "displayName": "Contrast",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "copy-content",
+        "displayName": "Copy Content",
+        "tags": [
+          "duplicate"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "credit-card",
+        "displayName": "Credit Card",
+        "tags": [
+          "payment"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cursor",
+        "displayName": "Cursor",
+        "tags": [
+          "pointer"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cursor-add",
+        "displayName": "Cursor Add",
+        "tags": [
+          "arrow",
+          "plus",
+          "pointer",
+          "select"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cursor-remove",
+        "displayName": "Cursor Remove",
+        "tags": [
+          "arrow",
+          "minus",
+          "pointer",
+          "select"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "dashboard",
+        "displayName": "Dashboard",
+        "tags": [],
+        "categories": [
+          "Programs"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "delete",
+        "displayName": "Delete",
+        "tags": [
+          "bin",
+          "trash"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "download",
+        "displayName": "Download",
+        "tags": [],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "download-line",
+        "displayName": "Download Line",
+        "tags": [],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "download-xls",
+        "displayName": "Download Xls",
+        "tags": [],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "drag-corner",
+        "displayName": "Drag Corner",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "drag-horizontal",
+        "displayName": "Drag Horizontal",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "drag-indicator",
+        "displayName": "Drag Indicator",
+        "tags": [
+          "grab",
+          "grip"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "drag-vertical",
+        "displayName": "Drag Vertical",
+        "tags": [
+          "move"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "drizzle",
+        "displayName": "Drizzle",
+        "tags": [
+          "rain",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "email",
+        "displayName": "Email",
+        "tags": [
+          "envelope",
+          "mail",
+          "message"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "envelope",
+        "displayName": "Envelope",
+        "tags": [
+          "mail"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "expand",
+        "displayName": "Expand",
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "expand-less",
+        "displayName": "Expand Less",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "expand-more",
+        "displayName": "Expand More",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "fast-forward",
+        "displayName": "Fast Forward",
+        "tags": [
+          "arrowtip",
+          "audio",
+          "av",
+          "video"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "fast-rewind",
+        "displayName": "Fast Rewind",
+        "tags": [
+          "arrowtip",
+          "audio",
+          "av",
+          "video"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file",
+        "displayName": "File",
+        "tags": [
+          "document",
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-copy",
+        "displayName": "File Copy",
+        "tags": [
+          "documents",
+          "duplicate",
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-edit",
+        "displayName": "File Edit",
+        "tags": [
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-merge",
+        "displayName": "File Merge",
+        "tags": [
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-missing",
+        "displayName": "File Missing",
+        "tags": [
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-new",
+        "displayName": "File New",
+        "tags": [
+          "plus",
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-doc",
+        "displayName": "File Type Doc",
+        "tags": [
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-log",
+        "displayName": "File Type Log",
+        "tags": [
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-pdf",
+        "displayName": "File Type Pdf",
+        "tags": [
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-rfi",
+        "displayName": "File Type Rfi",
+        "tags": [
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-rfq",
+        "displayName": "File Type Rfq",
+        "tags": [
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-tmp",
+        "displayName": "File Type Tmp",
+        "tags": [
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-xls",
+        "displayName": "File Type Xls",
+        "tags": [
+          "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "filter",
+        "displayName": "Filter",
+        "tags": [
+          "funnel"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "filter-list",
+        "displayName": "Filter List",
+        "tags": [
+          "funnel"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "filter-off",
+        "displayName": "Filter Off",
+        "tags": [
+          "funnel"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "floorplan",
+        "displayName": "Floorplan",
+        "tags": [
+          "layout",
+          "map",
+          "plan",
+          "viewpoint"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "flowchart",
+        "displayName": "Flowchart",
+        "tags": [
+          "diagram"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "fog",
+        "displayName": "Fog",
+        "tags": [],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "folder-closed",
+        "displayName": "Folder Closed",
+        "tags": [
+          "directory"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "folder-locked",
+        "displayName": "Folder Locked",
+        "tags": [
+          "directory",
+          "lock",
+          "viewpoint"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "folder-new",
+        "displayName": "Folder New",
+        "tags": [
+          "directory",
+          "plus"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "folder-open",
+        "displayName": "Folder Open",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "folder-personal",
+        "displayName": "Folder Personal",
+        "tags": [
+          "person",
+          "starred",
+          "user",
+          "viewpoint"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "folder-project",
+        "displayName": "Folder Project",
+        "tags": [
+          "3d",
+          "cube"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "folder-public",
+        "displayName": "Folder Public",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "folder-share",
+        "displayName": "Folder Share",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "folder-unlocked",
+        "displayName": "Folder Unlocked",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "footprints",
+        "displayName": "Footprints",
+        "tags": [
+          "steps"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "frame",
+        "displayName": "Frame",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "full-screen",
+        "displayName": "Full Screen",
+        "tags": [
+          "maximize",
+          "viewpoint",
+          "window"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "group-items",
+        "displayName": "Group Items",
+        "tags": [
+          "sketchup"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "hail",
+        "displayName": "Hail",
+        "tags": [
+          "circle",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "hail-heavy",
+        "displayName": "Hail Heavy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "hail-light",
+        "displayName": "Hail Light",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "hammer",
+        "displayName": "Hammer",
+        "tags": [
+          "repair",
+          "tool"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "hard-hat",
+        "displayName": "Hard Hat",
+        "tags": [
+          "builder",
+          "construction",
+          "viewpoint",
+          "worker"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "headset",
+        "displayName": "Headset",
+        "tags": [
+          "headphones"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "heart",
+        "displayName": "Heart",
+        "tags": [
+          "favorite",
+          "love"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "helicopter",
+        "displayName": "Helicopter",
+        "tags": [
+          "birdview",
+          "fly",
+          "topview"
+        ],
+        "categories": [
+          "Presentations & Views"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "help",
+        "displayName": "Help",
+        "tags": [
+          "circle"
+        ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "history",
+        "displayName": "History",
+        "tags": [
+          "clock"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "home",
+        "displayName": "Home",
+        "tags": [
+          "house"
+        ],
+        "categories": [
+          "Programs"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "hourglass",
+        "displayName": "Hourglass",
+        "tags": [
+          "clock",
+          "history",
+          "time",
+          "wait"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "ice",
+        "displayName": "Ice",
+        "tags": [
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image",
+        "displayName": "Image",
+        "tags": [
+          "picture"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-scene",
+        "displayName": "Image Scene",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "info",
+        "displayName": "Info",
+        "tags": [
+          "circle"
+        ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "inspect",
+        "displayName": "Inspect",
+        "tags": [],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "key",
+        "displayName": "Key",
+        "tags": [
+          "lock",
+          "secure"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "keyboard",
+        "displayName": "Keyboard",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "keyboard-keys",
+        "displayName": "Keyboard Keys",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "language",
+        "displayName": "Language",
+        "tags": [
+          "localization",
+          "translate",
+          "translation"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "launch",
+        "displayName": "Launch",
+        "tags": [],
+        "categories": [
+          "Programs"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "layer",
+        "displayName": "Layer",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "learn",
+        "displayName": "Learn",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "lightbulb-off",
+        "displayName": "Lightbulb Off",
+        "tags": [
+          "idea",
+          "suggestion"
+        ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "lightbulb-on",
+        "displayName": "Lightbulb On",
+        "tags": [
+          "idea",
+          "suggestion"
+        ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "lightning",
+        "displayName": "Lightning",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "link",
+        "displayName": "Link",
+        "tags": [],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "link-broken",
+        "displayName": "Link Broken",
+        "tags": [],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "link-off",
+        "displayName": "Link Off",
+        "tags": [],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location",
+        "displayName": "Location",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-point",
+        "displayName": "Location Point",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "lock",
+        "displayName": "Lock",
+        "tags": [
+          "privacy",
+          "security"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "lock-open",
+        "displayName": "Lock Open",
+        "tags": [
+          "privacy",
+          "security"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "manage-accounts",
+        "displayName": "Manage Accounts",
+        "tags": [
+          "cog",
+          "settings",
+          "user"
+        ],
+        "categories": [
+          "Programs"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map",
+        "displayName": "Map",
+        "tags": [
+          "geography",
+          "location"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-2d",
+        "displayName": "Map 2d",
+        "tags": [
+          "geography",
+          "location"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-marker",
+        "displayName": "Map Marker",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-markers",
+        "displayName": "Map Markers",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-poi",
+        "displayName": "Map Poi",
+        "tags": [
+          "marker"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "megaphone",
+        "displayName": "Megaphone",
+        "tags": [
+          "alert",
+          "audio",
+          "viewpoint"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "menu",
+        "displayName": "Menu",
+        "tags": [
+          "hamburger",
+          "navigation"
+        ],
+        "categories": [
+          "Programs"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "menu-circle",
+        "displayName": "Menu Circle",
+        "tags": [
+          "hamburger",
+          "navigation"
+        ],
+        "categories": [
+          "Programs"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "mic",
+        "displayName": "Mic",
+        "tags": [
+          "microphone",
+          "sound"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "mix",
+        "displayName": "Mix",
+        "tags": [
+          "star",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "moon",
+        "displayName": "Moon",
+        "tags": [
+          "dark mode",
+          "night",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "more-circle",
+        "displayName": "More Circle",
+        "tags": [
+          "ellipsis",
+          "meatballs",
+          "menu",
+          "overflow"
+        ],
+        "categories": [
+          "Programs"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "more-horizontal",
+        "displayName": "More Horizontal",
+        "tags": [
+          "kebab",
+          "menu",
+          "overflow"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "more-vertical",
+        "displayName": "More Vertical",
+        "tags": [
+          "ellipsis",
+          "kebab",
+          "menu",
+          "overflow"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "mouse",
+        "displayName": "Mouse",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "move",
+        "displayName": "Move",
+        "tags": [
+          "arrow",
+          "cursor"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "object-outline",
+        "displayName": "Object Outline",
+        "tags": [
+          "geometric"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "overcast",
+        "displayName": "Overcast",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "paint-bucket",
+        "displayName": "Paint Bucket",
+        "tags": [
+          "color",
+          "fill",
+          "palette"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "palette",
+        "displayName": "Palette",
+        "tags": [
+          "color",
+          "paint",
+          "style"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pan",
+        "displayName": "Pan",
+        "tags": [
+          "arrow",
+          "center"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "password",
+        "displayName": "Password",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pause-circle",
+        "displayName": "Pause Circle",
+        "tags": [
+          "audio",
+          "stop",
+          "video"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pen",
+        "displayName": "Pen",
+        "tags": [
+          "ballpoint",
+          "edit",
+          "note",
+          "write"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pencil",
+        "displayName": "Pencil",
+        "tags": [
+          "edit"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "people-couple",
+        "displayName": "People Couple",
+        "tags": [
+          "users"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "people-group",
+        "displayName": "People Group",
+        "tags": [
+          "users"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "person",
+        "displayName": "Person",
+        "tags": [
+          "user"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "person-account",
+        "displayName": "Person Account",
+        "tags": [
+          "circle",
+          "user"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "person-add",
+        "displayName": "Person Add",
+        "tags": [
+          "create",
+          "user"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "person-edit",
+        "displayName": "Person Edit",
+        "tags": [
+          "user"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "person-remove",
+        "displayName": "Person Remove",
+        "tags": [
+          "delete",
+          "user"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "phone",
+        "displayName": "Phone",
+        "tags": [],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "phone-call",
+        "displayName": "Phone Call",
+        "tags": [
+          "call"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "phone-hang-up",
+        "displayName": "Phone Hang Up",
+        "tags": [
+          "call"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "phone-mobile",
+        "displayName": "Phone Mobile",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pin",
+        "displayName": "Pin",
+        "tags": [
+          "attach",
+          "dock",
+          "fix"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pin-add",
+        "displayName": "Pin Add",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "play-circle",
+        "displayName": "Play Circle",
+        "tags": [
+          "audio",
+          "av",
+          "resume",
+          "video"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "polygon",
+        "displayName": "Polygon",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "polygon-area-tool",
+        "displayName": "Polygon Area Tool",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "polygon-concave",
+        "displayName": "Polygon Concave",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "polygon-cone",
+        "displayName": "Polygon Cone",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "polygon-merge",
+        "displayName": "Polygon Merge",
+        "tags": [
+          "merge"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "polygon-select",
+        "displayName": "Polygon Select",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pulse",
+        "displayName": "Pulse",
+        "tags": [
+          "activity",
+          "heartbeat"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "question",
+        "displayName": "Question",
+        "tags": [],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rain",
+        "displayName": "Rain",
+        "tags": [
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rain-heavy",
+        "displayName": "Rain Heavy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rain-icy",
+        "displayName": "Rain Icy",
+        "tags": [],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "raindrop",
+        "displayName": "Raindrop",
+        "tags": [
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "redo",
+        "displayName": "Redo",
+        "tags": [
+          "arrow",
+          "turn"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "refresh",
+        "displayName": "Refresh",
+        "tags": [
+          "arrow",
+          "refresh",
+          "reload",
+          "rotate",
+          "round",
+          "spin"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "remove",
+        "displayName": "Remove",
+        "tags": [
+          "minus"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "remove-circle",
+        "displayName": "Remove Circle",
+        "tags": [
+          "delete",
+          "minus"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "reply",
+        "displayName": "Reply",
+        "tags": [
+          "arrow"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rss-feed",
+        "displayName": "Rss Feed",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "ruler",
+        "displayName": "Ruler",
+        "tags": [
+          "guide",
+          "measure"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "save-as",
+        "displayName": "Save As",
+        "tags": [],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "save-disk",
+        "displayName": "Save Disk",
+        "tags": [],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "scissors",
+        "displayName": "Scissors",
+        "tags": [
+          "cut"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "screen",
+        "displayName": "Screen",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "screenshot",
+        "displayName": "Screenshot",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "search",
+        "displayName": "Search",
+        "tags": [
+          "magnifier",
+          "magnifying glass"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "server",
+        "displayName": "Server",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "server-round",
+        "displayName": "Server Round",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "settings",
+        "displayName": "Settings",
+        "tags": [
+          "cog",
+          "gear",
+          "preferences",
+          "tool"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "share",
+        "displayName": "Share",
+        "tags": [
+          "link"
+        ],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "shield",
+        "displayName": "Shield",
+        "tags": [
+          "security"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "shortcut",
+        "displayName": "Shortcut",
+        "tags": [],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "shovel",
+        "displayName": "Shovel",
+        "tags": [
+          "construction",
+          "dig"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sign-in",
+        "displayName": "Sign In",
+        "tags": [
+          "login",
+          "sketchup"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sign-out",
+        "displayName": "Sign Out",
+        "tags": [
+          "exit",
+          "logout",
+          "sketchup"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "signal",
+        "displayName": "Signal",
+        "tags": [
+          "carrier",
+          "cellphone",
+          "mobile",
+          "network",
+          "reception",
+          "signal"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "snow-heavy",
+        "displayName": "Snow Heavy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "snow-light",
+        "displayName": "Snow Light",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "snow-particle",
+        "displayName": "Snow Particle",
+        "tags": [
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "snowflake",
+        "displayName": "Snowflake",
+        "tags": [
+          "weather",
+          "winter"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "snowflakes",
+        "displayName": "Snowflakes",
+        "tags": [
+          "weather",
+          "winter"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sort-alpha-down",
+        "displayName": "Sort Alpha Down",
+        "tags": [
+          "ascending"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sort-alpha-up",
+        "displayName": "Sort Alpha Up",
+        "tags": [
+          "descending",
+          "reverse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sort-down",
+        "displayName": "Sort Down",
+        "tags": [
+          "descending"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sort-up",
+        "displayName": "Sort Up",
+        "tags": [
+          "ascending",
+          "reverse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "star",
+        "displayName": "Star",
+        "tags": [
+          "favorite",
+          "important",
+          "like",
+          "pin",
+          "rating",
+          "save"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "star-empty",
+        "displayName": "Star Empty",
+        "tags": [
+          "favorite",
+          "like",
+          "rating",
+          "shape"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "star-locked",
+        "displayName": "Star Locked",
+        "tags": [
+          "lock"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "stop-circle",
+        "displayName": "Stop Circle",
+        "tags": [
+          "danger",
+          "sign"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sun",
+        "displayName": "Sun",
+        "tags": [
+          "circle"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "switch-left",
+        "displayName": "Switch Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "switch-right",
+        "displayName": "Switch Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sync",
+        "displayName": "Sync",
+        "tags": [
+          "arrow",
+          "repeat",
+          "rotate",
+          "spin"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sync-off",
+        "displayName": "Sync Off",
+        "tags": [
+          "arrow",
+          "repeat",
+          "rotate",
+          "spin"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "tablet",
+        "displayName": "Tablet",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-input",
+        "displayName": "Text Input",
+        "tags": [
+          "text field",
+          "viewpoint"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-input-long",
+        "displayName": "Text Input Long",
+        "tags": [
+          "text field",
+          "viewpoint"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-input-short",
+        "displayName": "Text Input Short",
+        "tags": [
+          "text field",
+          "viewpoint"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "thermometer-cold",
+        "displayName": "Thermometer Cold",
+        "tags": [],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "thermometer-hot",
+        "displayName": "Thermometer Hot",
+        "tags": [],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "thumbs-down",
+        "displayName": "Thumbs Down",
+        "tags": [
+          "feedback",
+          "rating"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "thumbs-up",
+        "displayName": "Thumbs Up",
+        "tags": [
+          "feedback",
+          "rating"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "thunderstorm-heavy",
+        "displayName": "Thunderstorm Heavy",
+        "tags": [
+          "cloud",
+          "rain",
+          "storm",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "thunderstorm-light",
+        "displayName": "Thunderstorm Light",
+        "tags": [
+          "cloud",
+          "rain"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "ticket",
+        "displayName": "Ticket",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "ticket-plane",
+        "displayName": "Ticket Plane",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "timer",
+        "displayName": "Timer",
+        "tags": [
+          "clock",
+          "stopwatch"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "timer-countdown",
+        "displayName": "Timer Countdown",
+        "tags": [
+          "clock",
+          "stopwatch"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "timesheet",
+        "displayName": "Timesheet",
+        "tags": [
+          "document"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "toggle-center",
+        "displayName": "Toggle Center",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "toggle-left-panel",
+        "displayName": "Toggle Left Panel",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "toggle-off",
+        "displayName": "Toggle Off",
+        "tags": [
+          "switch"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "toggle-on",
+        "displayName": "Toggle On",
+        "tags": [
+          "switch"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "traffic-cone",
+        "displayName": "Traffic Cone",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "tree-structure",
+        "displayName": "Tree Structure",
+        "tags": [],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "trimble-logo",
+        "displayName": "Trimble Logo",
+        "tags": [
+          "brand"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "tune",
+        "displayName": "Tune",
+        "tags": [
+          "options",
+          "settings"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "tune-circle",
+        "displayName": "Tune Circle",
+        "tags": [
+          "options",
+          "settings"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "undo",
+        "displayName": "Undo",
+        "tags": [
+          "arrow",
+          "reverse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "unfold-less",
+        "displayName": "Unfold Less",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "unfold-more",
+        "displayName": "Unfold More",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "update",
+        "displayName": "Update",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "upload",
+        "displayName": "Upload",
+        "tags": [
+          "arrow",
+          "import",
+          "publish",
+          "share",
+          "sketchup"
+        ],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "upload-xls",
+        "displayName": "Upload Xls",
+        "tags": [
+          "arrow",
+          "excel"
+        ],
+        "categories": [
+          "Save & Share"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "video",
+        "displayName": "Video",
+        "tags": [
+          "cam"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "video-add",
+        "displayName": "Video Add",
+        "tags": [
+          "cam",
+          "plus"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "video-disabled",
+        "displayName": "Video Disabled",
+        "tags": [
+          "cam"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "visibility-off",
+        "displayName": "Visibility Off",
+        "tags": [
+          "display",
+          "eye",
+          "hide",
+          "view"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "visibility-on",
+        "displayName": "Visibility On",
+        "tags": [
+          "display",
+          "eye",
+          "show",
+          "view"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "volume-down",
+        "displayName": "Volume Down",
+        "tags": [
+          "audio",
+          "loudspeaker",
+          "sound"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "volume-mute",
+        "displayName": "Volume Mute",
+        "tags": [
+          "audio",
+          "loudspeaker",
+          "sound"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "volume-up",
+        "displayName": "Volume Up",
+        "tags": [
+          "audio",
+          "loudspeaker",
+          "sound"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "warning",
+        "displayName": "Warning",
+        "tags": [
+          "alert",
+          "caution",
+          "circle",
+          "exclamation"
+        ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "web",
+        "displayName": "Web",
+        "tags": [
+          "globe",
+          "world"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "wheelbarrow",
+        "displayName": "Wheelbarrow",
+        "tags": [
+          "construction",
+          "tool",
+          "viewpoint"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "widgets",
+        "displayName": "Widgets",
+        "tags": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "wifi",
+        "displayName": "Wifi",
+        "tags": [
+          "network"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "wifi-no-internet",
+        "displayName": "Wifi No Internet",
+        "tags": [
+          "disconnected"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "wifi-off",
+        "displayName": "Wifi Off",
+        "tags": [
+          "disconnected"
+        ],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7106,7 +7719,9 @@ export const siteData = [
       {
         "name": "car",
         "displayName": "Car",
-        "tags": [],
+        "tags": [
+          "vehicle"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7114,7 +7729,9 @@ export const siteData = [
       {
         "name": "car-front",
         "displayName": "Car Front",
-        "tags": [],
+        "tags": [
+          "vehicle"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7200,14 +7817,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "clock",
-        "displayName": "Clock",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "cluster",
         "displayName": "Cluster",
         "tags": [],
@@ -7218,7 +7827,9 @@ export const siteData = [
       {
         "name": "company-administration",
         "displayName": "Company Administration",
-        "tags": [],
+        "tags": [
+          "users"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7226,7 +7837,10 @@ export const siteData = [
       {
         "name": "configuration-management",
         "displayName": "Configuration Management",
-        "tags": [],
+        "tags": [
+          "device",
+          "settings"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7234,7 +7848,9 @@ export const siteData = [
       {
         "name": "crow-fly",
         "displayName": "Crow Fly",
-        "tags": [],
+        "tags": [
+          "route"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7242,7 +7858,9 @@ export const siteData = [
       {
         "name": "disk",
         "displayName": "Disk",
-        "tags": [],
+        "tags": [
+          "save"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7250,7 +7868,9 @@ export const siteData = [
       {
         "name": "dispatch",
         "displayName": "Dispatch",
-        "tags": [],
+        "tags": [
+          "truck"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7258,7 +7878,9 @@ export const siteData = [
       {
         "name": "driver",
         "displayName": "Driver",
-        "tags": [],
+        "tags": [
+          "steering wheel"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7274,7 +7896,9 @@ export const siteData = [
       {
         "name": "edit",
         "displayName": "Edit",
-        "tags": [],
+        "tags": [
+          "pencil"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7282,7 +7906,9 @@ export const siteData = [
       {
         "name": "edit-line",
         "displayName": "Edit Line",
-        "tags": [],
+        "tags": [
+          "pencil"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7290,7 +7916,9 @@ export const siteData = [
       {
         "name": "edit-road",
         "displayName": "Edit Road",
-        "tags": [],
+        "tags": [
+          "pencil"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7298,7 +7926,10 @@ export const siteData = [
       {
         "name": "export",
         "displayName": "Export",
-        "tags": [],
+        "tags": [
+          "download",
+          "save"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7306,7 +7937,9 @@ export const siteData = [
       {
         "name": "external-link",
         "displayName": "External Link",
-        "tags": [],
+        "tags": [
+          "open"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7314,7 +7947,9 @@ export const siteData = [
       {
         "name": "eyedropper",
         "displayName": "Eyedropper",
-        "tags": [],
+        "tags": [
+          "color picker"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7354,7 +7989,9 @@ export const siteData = [
       {
         "name": "geocode",
         "displayName": "Geocode",
-        "tags": [],
+        "tags": [
+          "earth"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7362,7 +7999,9 @@ export const siteData = [
       {
         "name": "globe",
         "displayName": "Globe",
-        "tags": [],
+        "tags": [
+          "web"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7386,7 +8025,9 @@ export const siteData = [
       {
         "name": "heavy-duty",
         "displayName": "Heavy Duty",
-        "tags": [],
+        "tags": [
+          "vehicle"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7418,7 +8059,9 @@ export const siteData = [
       {
         "name": "light-duty",
         "displayName": "Light Duty",
-        "tags": [],
+        "tags": [
+          "vehicle"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7434,7 +8077,9 @@ export const siteData = [
       {
         "name": "load",
         "displayName": "Load",
-        "tags": [],
+        "tags": [
+          "spinner"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7482,7 +8127,9 @@ export const siteData = [
       {
         "name": "medium-duty",
         "displayName": "Medium Duty",
-        "tags": [],
+        "tags": [
+          "vehicle"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7522,7 +8169,9 @@ export const siteData = [
       {
         "name": "no-entry",
         "displayName": "No Entry",
-        "tags": [],
+        "tags": [
+          "stop"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7554,7 +8203,9 @@ export const siteData = [
       {
         "name": "orders",
         "displayName": "Orders",
-        "tags": [],
+        "tags": [
+          "documents"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7578,7 +8229,9 @@ export const siteData = [
       {
         "name": "pin-icon-plus",
         "displayName": "Pin Icon Plus",
-        "tags": [],
+        "tags": [
+          "add"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7650,7 +8303,9 @@ export const siteData = [
       {
         "name": "road-surface",
         "displayName": "Road Surface",
-        "tags": [],
+        "tags": [
+          "car"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7746,7 +8401,9 @@ export const siteData = [
       {
         "name": "school-bus",
         "displayName": "School Bus",
-        "tags": [],
+        "tags": [
+          "vehicle"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7786,7 +8443,9 @@ export const siteData = [
       {
         "name": "spinner",
         "displayName": "Spinner",
-        "tags": [],
+        "tags": [
+          "loading"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7810,7 +8469,9 @@ export const siteData = [
       {
         "name": "stop-time",
         "displayName": "Stop Time",
-        "tags": [],
+        "tags": [
+          "clock"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7818,7 +8479,10 @@ export const siteData = [
       {
         "name": "suggestion",
         "displayName": "Suggestion",
-        "tags": [],
+        "tags": [
+          "idea",
+          "lightbulb"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7826,7 +8490,9 @@ export const siteData = [
       {
         "name": "swatch",
         "displayName": "Swatch",
-        "tags": [],
+        "tags": [
+          "color"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7834,7 +8500,9 @@ export const siteData = [
       {
         "name": "toggle",
         "displayName": "Toggle",
-        "tags": [],
+        "tags": [
+          "switch"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7842,7 +8510,9 @@ export const siteData = [
       {
         "name": "traffic",
         "displayName": "Traffic",
-        "tags": [],
+        "tags": [
+          "lights"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7850,7 +8520,9 @@ export const siteData = [
       {
         "name": "train",
         "displayName": "Train",
-        "tags": [],
+        "tags": [
+          "vehicle"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7858,7 +8530,10 @@ export const siteData = [
       {
         "name": "trash",
         "displayName": "Trash",
-        "tags": [],
+        "tags": [
+          "bin",
+          "delete"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7882,7 +8557,9 @@ export const siteData = [
       {
         "name": "trim-fake-orders",
         "displayName": "Trim Fake Orders",
-        "tags": [],
+        "tags": [
+          "scissors"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7890,7 +8567,9 @@ export const siteData = [
       {
         "name": "truck",
         "displayName": "Truck",
-        "tags": [],
+        "tags": [
+          "vehicle"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7898,7 +8577,10 @@ export const siteData = [
       {
         "name": "turn-dispatch-mode-on",
         "displayName": "Turn Dispatch Mode On",
-        "tags": [],
+        "tags": [
+          "switch",
+          "truck"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7906,7 +8588,9 @@ export const siteData = [
       {
         "name": "two-way",
         "displayName": "Two Way",
-        "tags": [],
+        "tags": [
+          "arrows"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7914,7 +8598,9 @@ export const siteData = [
       {
         "name": "unload-route-stop",
         "displayName": "Unload Route Stop",
-        "tags": [],
+        "tags": [
+          "download"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7922,7 +8608,9 @@ export const siteData = [
       {
         "name": "unloaded-order",
         "displayName": "Unloaded Order",
-        "tags": [],
+        "tags": [
+          "download"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7930,7 +8618,9 @@ export const siteData = [
       {
         "name": "unloaded-orders",
         "displayName": "Unloaded Orders",
-        "tags": [],
+        "tags": [
+          "download"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7938,7 +8628,9 @@ export const siteData = [
       {
         "name": "upgrade-modifiers",
         "displayName": "Upgrade Modifiers",
-        "tags": [],
+        "tags": [
+          "arrow"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7946,7 +8638,10 @@ export const siteData = [
       {
         "name": "user",
         "displayName": "User",
-        "tags": [],
+        "tags": [
+          "person",
+          "profile"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7954,7 +8649,11 @@ export const siteData = [
       {
         "name": "user-fields",
         "displayName": "User Fields",
-        "tags": [],
+        "tags": [
+          "input",
+          "pencil",
+          "text"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7970,7 +8669,11 @@ export const siteData = [
       {
         "name": "visibility",
         "displayName": "Visibility",
-        "tags": [],
+        "tags": [
+          "display",
+          "eye",
+          "show"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""

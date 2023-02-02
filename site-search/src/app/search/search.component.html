@@ -20,7 +20,7 @@
   </div>
   <div
     style="top: 48px; max-height: 248px; overflow-y: auto; z-index: 1000"
-    class="list-group position-absolute shadow"
+    class="list-group position-absolute shadow justify-content-start"
   >
     <ng-container *ngIf="searchResults.length === 0 && searchString.length > 1">
       <div class="list-group-item text-secondary">
@@ -46,7 +46,8 @@
           ></use>
         </svg>
         <h5 class="mr-2 mb-0">{{ item.displayName }}</h5>
-        <label class="mb-0 text-secondary">{{ item.setDisplayName }}</label>
+        <label class="mb-0 mr-4">{{ item.tags }}</label>
+        <label class="mb-0 ml-auto text-secondary">{{ item.setDisplayName }}</label>
       </a>
     </ng-container>
   </div>

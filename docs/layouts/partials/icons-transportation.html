@@ -2,9 +2,10 @@
   {{- partial "icons-search" . }}
   <div class="row">
     <div class="col-12 border-bottom mb-4">
-    </div>
-    </div>
-    <div class="row">
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
     <div class="message message-primary message-transportation mb-3">
     <i class="modus-icons">info</i>
     <div>
@@ -12,6 +13,8 @@
         {{ len (where .Site.RegularPages "Section" "=" "modus-solid") }} icons from Modus Solid.</a>
     </div>
   </div>
+</div>
+</div>
 
   <ul class="row row-cols-2 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
     {{ range (where .Site.RegularPages "Section" "transportation") -}}

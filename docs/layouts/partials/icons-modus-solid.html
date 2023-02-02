@@ -4,6 +4,7 @@
     <div class="col-12 border-bottom mb-4">
     </div>
   </div>
+  {{- partial "icons-categories-dropdown" . }}
 
   <ul class="row row-cols-2 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
     {{ range (where .Site.RegularPages "Section" "modus-solid") -}}

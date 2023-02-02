@@ -1,10 +1,10 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/modus-outlined/fonts/modus-icons.css">
+<link rel="stylesheet" href="/{{ .Section | urlize }}/fonts/modus-icons.css">
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb my-4 p-0">
     <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item"><a href="/modus-outlined/">Modus Outlined</a></li>
+    <li class="breadcrumb-item"><a href="/{{ .Section | urlize }}/">{{ .Section | humanize }}</a></li>
     <li class="breadcrumb-item active" aria-current="page">{{- .Title -}}</li>
   </ol>
 </nav>
@@ -17,7 +17,7 @@
     <ul class="list-unstyled mb-3 mb-md-0">
       <li><strong>Tags:</strong> {{ range $i, $e := .Params.tags -}}
         {{- if $i -}} {{ end -}}
-        <a href='/modus-solid/?filter={{ . | urlize }}' class="chip chip-sm chip-solid bg-transparent mr-2 py-0 px-2">{{ $e | humanize }}</a>
+        <a href="/modus-outlined/?filter={{ . | urlize }}" class="chip chip-sm chip-outline mr-2 py-0 px-2">{{ $e | humanize }}</a>
         {{- end -}}
       </li>
       {{ with .Params.categories }}<li class="mt-2"><strong>Category:</strong>
@@ -28,9 +28,9 @@
     {{- end }}
   </div>
   <div class="col-md-6 col-lg-4 float-right">
-    <a href="/modus-outlined/svg/{{- .Title | urlize | lower -}}.svg" class="btn btn-primary mt-5 pl-1 float-right"
+    <a href="/{{ .Section | urlize }}/svg/{{- .Title | urlize | lower -}}.svg" class="btn btn-primary mt-5 pl-1 float-right"
       download>
-      <img src="/modus-solid/svg/download.svg" class="filter-invert" alt width="22" height="22">
+      <img src="/{{ .Section | urlize }}/svg/download.svg" class="filter-invert" alt width="22" height="22">
       Download SVG</a>
   </div>
 </div>

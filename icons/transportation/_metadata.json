@@ -36,16 +36,12 @@
   },
   {
     "name": "car",
-    "tags": [
-      "vehicle"
-    ],
+    "tags": ["vehicle"],
     "categories": []
   },
   {
     "name": "car-front",
-    "tags": [
-      "vehicle"
-    ],
+    "tags": ["vehicle"],
     "categories": []
   },
   {
@@ -105,45 +101,32 @@
   },
   {
     "name": "company-administration",
-    "tags": [
-      "users"
-    ],
+    "tags": ["users"],
     "categories": []
   },
   {
     "name": "configuration-management",
-    "tags": [
-      "device",
-      "settings"
-    ],
+    "tags": ["device", "settings"],
     "categories": []
   },
   {
     "name": "crow-fly",
-    "tags": [
-      "route"
-    ],
+    "tags": ["route"],
     "categories": []
   },
   {
     "name": "disk",
-    "tags": [
-      "save"
-    ],
+    "tags": ["save"],
     "categories": []
   },
   {
     "name": "dispatch",
-    "tags": [
-      "truck"
-    ],
+    "tags": ["truck"],
     "categories": []
   },
   {
     "name": "driver",
-    "tags": [
-      "steering wheel"
-    ],
+    "tags": ["steering wheel"],
     "categories": []
   },
   {
@@ -153,45 +136,32 @@
   },
   {
     "name": "edit",
-    "tags": [
-      "pencil"
-    ],
+    "tags": ["pencil"],
     "categories": []
   },
   {
     "name": "edit-line",
-    "tags": [
-      "pencil"
-    ],
+    "tags": ["pencil"],
     "categories": []
   },
   {
     "name": "edit-road",
-    "tags": [
-      "pencil"
-    ],
+    "tags": ["pencil"],
     "categories": []
   },
   {
     "name": "export",
-    "tags": [
-      "download",
-      "save"
-    ],
+    "tags": ["download", "save"],
     "categories": []
   },
   {
     "name": "external-link",
-    "tags": [
-      "open"
-    ],
+    "tags": ["open"],
     "categories": []
   },
   {
     "name": "eyedropper",
-    "tags": [
-      "color picker"
-    ],
+    "tags": ["color picker"],
     "categories": []
   },
   {
@@ -216,16 +186,12 @@
   },
   {
     "name": "geocode",
-    "tags": [
-      "earth"
-    ],
+    "tags": ["earth"],
     "categories": []
   },
   {
     "name": "globe",
-    "tags": [
-      "web"
-    ],
+    "tags": ["web"],
     "categories": []
   },
   {
@@ -240,7 +206,7 @@
   },
   {
     "name": "heavy-duty",
-    "tags": [],
+    "tags": ["vehicle"],
     "categories": []
   },
   {
@@ -260,9 +226,7 @@
   },
   {
     "name": "light-duty",
-    "tags": [
-      "vehicle"
-    ],
+    "tags": ["vehicle"],
     "categories": []
   },
   {
@@ -272,7 +236,7 @@
   },
   {
     "name": "load",
-    "tags": [],
+    "tags": ["spinner"],
     "categories": []
   },
   {
@@ -302,9 +266,7 @@
   },
   {
     "name": "medium-duty",
-    "tags": [
-      "vehicle"
-    ],
+    "tags": ["vehicle"],
     "categories": []
   },
   {
@@ -329,7 +291,7 @@
   },
   {
     "name": "no-entry",
-    "tags": [],
+    "tags": ["stop"],
     "categories": []
   },
   {
@@ -349,7 +311,7 @@
   },
   {
     "name": "orders",
-    "tags": [],
+    "tags": ["documents"],
     "categories": []
   },
   {
@@ -364,7 +326,7 @@
   },
   {
     "name": "pin-icon-plus",
-    "tags": [],
+    "tags": ["add"],
     "categories": []
   },
   {
@@ -409,7 +371,7 @@
   },
   {
     "name": "road-surface",
-    "tags": [],
+    "tags": ["car"],
     "categories": []
   },
   {
@@ -469,9 +431,7 @@
   },
   {
     "name": "school-bus",
-    "tags": [
-      "vehicle"
-    ],
+    "tags": ["vehicle"],
     "categories": []
   },
   {
@@ -496,9 +456,7 @@
   },
   {
     "name": "spinner",
-    "tags": [
-      "loading"
-    ],
+    "tags": ["loading"],
     "categories": []
   },
   {
@@ -513,51 +471,37 @@
   },
   {
     "name": "stop-time",
-    "tags": [
-      "clock"
-    ],
+    "tags": ["clock"],
     "categories": []
   },
   {
     "name": "suggestion",
-    "tags": [
-      "idea",
-      "lightbulb"
-    ],
+    "tags": ["idea", "lightbulb"],
     "categories": []
   },
   {
     "name": "swatch",
-    "tags": [
-      "color"
-    ],
+    "tags": ["color"],
     "categories": []
   },
   {
     "name": "toggle",
-    "tags": [
-      "switch"
-    ],
+    "tags": ["switch"],
     "categories": []
   },
   {
     "name": "traffic",
-    "tags": [],
+    "tags": ["lights"],
     "categories": []
   },
   {
     "name": "train",
-    "tags": [
-      "vehicle"
-    ],
+    "tags": ["vehicle"],
     "categories": []
   },
   {
     "name": "trash",
-    "tags": [
-      "bin",
-      "delete"
-    ],
+    "tags": ["bin", "delete"],
     "categories": []
   },
   {
@@ -572,54 +516,52 @@
   },
   {
     "name": "trim-fake-orders",
-    "tags": [],
+    "tags": ["scissors"],
     "categories": []
   },
   {
     "name": "truck",
-    "tags": [
-      "vehicle"
-    ],
+    "tags": ["vehicle"],
     "categories": []
   },
   {
     "name": "turn-dispatch-mode-on",
-    "tags": [],
+    "tags": ["switch", "truck"],
     "categories": []
   },
   {
     "name": "two-way",
-    "tags": [],
+    "tags": ["arrows"],
     "categories": []
   },
   {
     "name": "unload-route-stop",
-    "tags": [],
+    "tags": ["download"],
     "categories": []
   },
   {
     "name": "unloaded-order",
-    "tags": [],
+    "tags": ["download"],
     "categories": []
   },
   {
     "name": "unloaded-orders",
-    "tags": [],
+    "tags": ["download"],
     "categories": []
   },
   {
     "name": "upgrade-modifiers",
-    "tags": [],
+    "tags": ["arrow"],
     "categories": []
   },
   {
     "name": "user",
-    "tags": [],
+    "tags": ["person", "profile"],
     "categories": []
   },
   {
     "name": "user-fields",
-    "tags": [],
+    "tags": ["input", "pencil", "text"],
     "categories": []
   },
   {
@@ -629,7 +571,7 @@
   },
   {
     "name": "visibility",
-    "tags": [],
+    "tags": ["display", "eye", "show"],
     "categories": []
   },
   {

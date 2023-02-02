@@ -3,8 +3,8 @@
     "name": "add",
     "tags": [
       "add",
-      "new",
       "create",
+      "new",
       "plus"
     ],
     "categories": []
@@ -13,8 +13,8 @@
     "name": "add-circle",
     "tags": [
       "add",
-      "new",
       "create",
+      "new",
       "plus"
     ],
     "categories": [
@@ -154,8 +154,8 @@
   {
     "name": "bar-graph",
     "tags": [
-      "chart",
       "analytics",
+      "chart",
       "data"
     ],
     "categories": [
@@ -165,8 +165,8 @@
   {
     "name": "bar-graph-line",
     "tags": [
-      "chart",
       "analytics",
+      "chart",
       "data"
     ],
     "categories": [
@@ -183,6 +183,105 @@
     "categories": [
       "Presentations & View"
     ]
+  },
+  {
+    "name": "battery-0-horizontal",
+    "tags": [
+      "charge",
+      "power",
+      "dead"
+    ],
+    "categories": []
+  },
+  {
+    "name": "battery-0-vertical",
+    "tags": [
+      "charge",
+      "power",
+      "dead"
+    ],
+    "categories": []
+  },
+  {
+    "name": "battery-25-horizontal",
+    "tags": [
+      "charge",
+      "power"
+    ],
+    "categories": []
+  },
+  {
+    "name": "battery-25-vertical",
+    "tags": [
+      "charge",
+      "power"
+    ],
+    "categories": []
+  },
+  {
+    "name": "battery-50-horizontal",
+    "tags": [
+      "charge",
+      "half",
+      "power"
+    ],
+    "categories": []
+  },
+  {
+    "name": "battery-50-vertical",
+    "tags": [
+      "charge",
+      "power"
+    ],
+    "categories": []
+  },
+  {
+    "name": "battery-75-horizontal",
+    "tags": [
+      "charge",
+      "power"
+    ],
+    "categories": []
+  },
+  {
+    "name": "battery-75-vertical",
+    "tags": [
+      "charge",
+      "power"
+    ],
+    "categories": []
+  },
+  {
+    "name": "battery-charging-horizontal",
+    "tags": [
+      "charge",
+      "power"
+    ],
+    "categories": []
+  },
+  {
+    "name": "battery-charging-vertical",
+    "tags": [
+      "charge",
+      "power"
+    ],
+    "categories": []
+  },
+  {
+    "name": "battery-full-horizontal",
+    "tags": [
+      "charge",
+      "power"
+    ],
+    "categories": []
+  },
+  {
+    "name": "battery-full-vertical",
+    "tags": [
+      "charge",
+      "power"
+    ],
+    "categories": []
   },
   {
     "name": "bolt",
@@ -256,9 +355,9 @@
     "name": "calendar",
     "tags": [
       "date",
-      "time",
+      "month",
       "schedule",
-      "month"
+      "time"
     ],
     "categories": [
       "Devices"
@@ -268,9 +367,9 @@
     "name": "calendar-check",
     "tags": [
       "date",
-      "time",
+      "month",
       "schedule",
-      "month"
+      "time"
     ],
     "categories": [
       "Account & Support"
@@ -280,9 +379,9 @@
     "name": "calendar-event",
     "tags": [
       "date",
-      "time",
+      "month",
       "schedule",
-      "month"
+      "time"
     ],
     "categories": [
       "Devices"
@@ -292,9 +391,9 @@
     "name": "calendar-week",
     "tags": [
       "date",
-      "time",
+      "month",
       "schedule",
-      "month"
+      "time"
     ],
     "categories": [
       "Devices"
@@ -303,8 +402,8 @@
   {
     "name": "camera",
     "tags": [
-      "picture",
-      "photo"
+      "photo",
+      "picture"
     ],
     "categories": [
       "Presentations & View"
@@ -313,8 +412,8 @@
   {
     "name": "camera-disabled",
     "tags": [
-      "picture",
-      "photo"
+      "photo",
+      "picture"
     ],
     "categories": [
       "Devices"
@@ -476,6 +575,21 @@
     ]
   },
   {
+    "name": "clock",
+    "tags": [
+      "time"
+    ],
+    "categories": []
+  },
+  {
+    "name": "clock-add",
+    "tags": [
+      "plus",
+      "time"
+    ],
+    "categories": []
+  },
+  {
     "name": "close",
     "tags": [
       "cancel",
@@ -521,7 +635,9 @@
   },
   {
     "name": "collapse",
-    "tags": [],
+    "tags": [
+      "arrows"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -551,12 +667,12 @@
     "name": "compass",
     "tags": [
       "direction",
+      "east",
       "location",
       "map",
       "navigation",
       "north",
       "south",
-      "east",
       "west"
     ],
     "categories": [
@@ -674,6 +790,11 @@
     ]
   },
   {
+    "name": "drag-corner",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "drag-horizontal",
     "tags": [],
     "categories": [
@@ -748,10 +869,10 @@
   {
     "name": "fast-forward",
     "tags": [
+      "arrowtip",
       "audio",
-      "video",
       "av",
-      "arrowtip"
+      "video"
     ],
     "categories": [
       "Actions & Navigation"
@@ -760,10 +881,10 @@
   {
     "name": "fast-rewind",
     "tags": [
+      "arrowtip",
       "audio",
-      "video",
       "av",
-      "arrowtip"
+      "video"
     ],
     "categories": [
       "Actions & Navigation"
@@ -946,7 +1067,9 @@
   },
   {
     "name": "folder-closed",
-    "tags": [],
+    "tags": [
+      "directory"
+    ],
     "categories": [
       "Folders & Files"
     ]
@@ -954,6 +1077,7 @@
   {
     "name": "folder-locked",
     "tags": [
+      "directory",
       "lock",
       "viewpoint"
     ],
@@ -964,6 +1088,7 @@
   {
     "name": "folder-new",
     "tags": [
+      "directory",
       "plus"
     ],
     "categories": [
@@ -1114,6 +1239,14 @@
     "categories": [
       "Account & Support"
     ]
+  },
+  {
+    "name": "heart",
+    "tags": [
+      "favorite",
+      "love"
+    ],
+    "categories": []
   },
   {
     "name": "helicopter",
@@ -1341,8 +1474,8 @@
     "name": "manage-accounts",
     "tags": [
       "cog",
-      "user",
-      "settings"
+      "settings",
+      "user"
     ],
     "categories": [
       "Programs"
@@ -1464,6 +1597,25 @@
     ]
   },
   {
+    "name": "more-horizontal",
+    "tags": [
+      "kebab",
+      "menu",
+      "overflow"
+    ],
+    "categories": []
+  },
+  {
+    "name": "more-vertical",
+    "tags": [
+      "ellipsis",
+      "kebab",
+      "menu",
+      "overflow"
+    ],
+    "categories": []
+  },
+  {
     "name": "mouse",
     "tags": [],
     "categories": [
@@ -1548,8 +1700,8 @@
   {
     "name": "pen",
     "tags": [
-      "edit",
       "ballpoint",
+      "edit",
       "note",
       "write"
     ],
@@ -1672,9 +1824,9 @@
     "name": "play-circle",
     "tags": [
       "audio",
+      "av",
       "resume",
-      "video",
-      "av"
+      "video"
     ],
     "categories": [
       "Actions & Navigation"
@@ -1790,8 +1942,8 @@
     "name": "refresh",
     "tags": [
       "arrow",
-      "reload",
       "refresh",
+      "reload",
       "rotate",
       "round",
       "spin"
@@ -1825,6 +1977,11 @@
     "categories": [
       "Account & Support"
     ]
+  },
+  {
+    "name": "rss-feed",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "ruler",
@@ -1966,11 +2123,11 @@
   {
     "name": "signal",
     "tags": [
-      "reception",
+      "carrier",
       "cellphone",
       "mobile",
-      "carrier",
       "network",
+      "reception",
       "signal"
     ],
     "categories": [
@@ -2083,8 +2240,8 @@
     "tags": [
       "favorite",
       "like",
-      "shape",
-      "rating"
+      "rating",
+      "shape"
     ],
     "categories": [
       "Actions & Navigation"
@@ -2529,6 +2686,27 @@
     ]
   },
   {
+    "name": "wifi",
+    "tags": [
+      "network"
+    ],
+    "categories": []
+  },
+  {
+    "name": "wifi-no-internet",
+    "tags": [
+      "disconnected"
+    ],
+    "categories": []
+  },
+  {
+    "name": "wifi-off",
+    "tags": [
+      "disconnected"
+    ],
+    "categories": []
+  },
+  {
     "name": "wind",
     "tags": [
       "weather"
@@ -2645,115 +2823,5 @@
     "categories": [
       "Actions & Navigation"
     ]
-  },
-  {
-    "name": "battery-0-horizontal",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "battery-0-vertical",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "battery-25-horizontal",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "battery-25-vertical",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "battery-50-horizontal",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "battery-50-vertical",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "battery-75-horizontal",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "battery-75-vertical",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "battery-charging-horizontal",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "battery-charging-vertical",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "battery-full-horizontal",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "battery-full-vertical",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "clock-add",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "clock",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "drag-corner",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "heart",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "more-horizontal",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "more-vertical",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "rss-feed",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "wifi-no-internet",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "wifi-off",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "wifi",
-    "tags": [],
-    "categories": []
   }
 ]

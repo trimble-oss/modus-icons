@@ -19,7 +19,7 @@
     "icons"
   ],
   "scripts": {
-    "build": "node build/build.js",
+    "build": "node build/build.js && cd site-search && node build-search.js && cd ..",
     "build:version": "node build/build-versioner",
     "start": "npm run docs:serve",
     "docs:serve": "npx hugo server --port 4000 --disableFastRender",
@@ -29,7 +29,8 @@
     "test:htmlhint": "htmlhint docs/**/*.html",
     "test:stylelint": "stylelint docs/assets/scss/ --cache --cache-location node_modules/.cache/.stylelintcache --rd",
     "test:lockfile-lint": "lockfile-lint --empty-hostname false --type npm --path package-lock.json",
-    "test": "npm-run-all prettier docs:build --parallel --aggregate-output --continue-on-error test:*"
+    "test": "npm-run-all prettier docs:build --parallel --aggregate-output --continue-on-error test:*",
+    "postinstall": "cd site-search && npm install && cd .."
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
@@ -47,26 +48,28 @@
     "hugo-bin": "^0.98.0",
     "icon-font-generator": "^2.1.11",
     "icon-gen": "^3.0.1",
+    "jquery": "^3.6.3",
     "list.js": "^2.3.1",
     "lockfile-lint": "^4.10.0",
     "lodash": "^4.17.21",
     "make-dir-cli": "^3.0.0",
     "mkdirp": "^0.5.0",
     "mocha": "^3.1.2",
-    "node-sass": "^8.0.0",
     "normalize-svg-coords": "^1.0.9",
     "npm-run-all": "^4.1.5",
     "picocolors": "^1.0.0",
-    "postcss-cli": "^10.1.0",
+    "popper.js": "1.16.1",
     "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
     "prettier": "^2.8.3",
     "purgecss": "^5.0.0",
     "q": "^1.1.2",
     "read-chunk": "^2.0.0",
     "rename-cli": "^7.0.2",
+    "sass": "^1.58.0",
     "shx": "^0.3.4",
-    "stylelint-config-standard-scss": "^6.1.0",
     "stylelint": "^14.16.1",
+    "stylelint-config-standard-scss": "^6.1.0",
     "svg-sprite": "^3.0.0-alpha1",
     "svg2ttf": "^4.0.0",
     "svgexport": "^0.4.2",
@@ -79,8 +82,7 @@
     "url-join": "^1.1.0"
   },
   "engines": {
-    "node": ">=16",
-    "npm": ">=8"
+    "node": "16.x"
   },
   "files": [
     "dist",

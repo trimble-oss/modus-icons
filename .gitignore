@@ -6,5 +6,6 @@
 
 .DS_Store
 .hugo_build.lock
+_site-data.json
 
 Thumbs.db

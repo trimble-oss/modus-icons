@@ -2,6 +2,10 @@
 **/dist/
 **/vendor/
 /_site/
+/site-search/
+
+protractor.conf.js
 scroll-to-top.js
 tools/build-pages.js
 theme-toggle.js
+site-search.js

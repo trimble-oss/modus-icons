@@ -55,6 +55,10 @@ module:
       target:           static/js/list.min.js
     - source:           node_modules/list.js/dist/list.min.js.map
       target:           static/js/list.min.js.map
+    - source:           node_modules/jquery/dist/jquery.slim.min.js
+      target:           static/js/jquery.slim.min.js
+    - source:           node_modules/jquery/dist/jquery.slim.min.map
+      target:           static/js/jquery.slim.min.map
 
 params:
   description:          "SVG icon library for Modus"

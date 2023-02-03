@@ -2999,7 +2999,8 @@
   {
     "name": "wifi",
     "tags": [
-      "network"
+      "network",
+      "wi-fi"
     ],
     "categories": [
       "Devices"
@@ -3008,7 +3009,8 @@
   {
     "name": "wifi-no-internet",
     "tags": [
-      "disconnected"
+      "disconnected",
+      "wi-fi"
     ],
     "categories": [
       "Devices"
@@ -3017,7 +3019,8 @@
   {
     "name": "wifi-off",
     "tags": [
-      "disconnected"
+      "disconnected",
+      "wi-fi"
     ],
     "categories": [
       "Devices"

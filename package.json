@@ -86,6 +86,8 @@
   },
   "files": [
     "dist",
+    "LICENSE.md",
+    "README.md",
     "!.DS_Store"
   ],
   "hugo-bin": {

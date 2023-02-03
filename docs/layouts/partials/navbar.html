@@ -35,7 +35,7 @@
       {{ else }}
       <li class="nav-item mx-0 mx-sm-1 mx-md-2">
         <a class="nav-link{{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}} nav-{{- .Name | lower | markdownify -}}"
-          href="{{ .URL }}">
+          href="{{ .URL }}" {{ if eq .Name "Start" }}aria-label="Getting Started"{{ end }}>
           {{- .Name -}}
         </a>
       </li>

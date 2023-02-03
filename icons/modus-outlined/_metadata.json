@@ -58,7 +58,7 @@
     "name": "align-bottom",
     "tags": [
       "orientation",
-      "layout" 
+      "layout"
     ],
     "categories": [
       "Presentations & View"
@@ -69,7 +69,7 @@
     "tags": [
       "horizontal",
       "orientation",
-      "layout" 
+      "layout"
     ],
     "categories": [
       "Presentations & View"
@@ -80,7 +80,7 @@
     "tags": [
       "vertical",
       "orientation",
-      "layout" 
+      "layout"
     ],
     "categories": [
       "Presentations & View"
@@ -90,7 +90,7 @@
     "name": "align-left",
     "tags": [
       "orientation",
-      "layout" 
+      "layout"
     ],
     "categories": [
       "Presentations & View"
@@ -100,7 +100,7 @@
     "name": "align-right",
     "tags": [
       "orientation",
-      "layout" 
+      "layout"
     ],
     "categories": [
       "Presentations & View"
@@ -110,7 +110,7 @@
     "name": "align-top",
     "tags": [
       "orientation",
-      "layout" 
+      "layout"
     ],
     "categories": [
       "Presentations & View"
@@ -129,7 +129,7 @@
   {
     "name": "arrow-down",
     "tags": [
-      "direction"  
+      "direction"
     ],
     "categories": [
       "Presentations & View"
@@ -138,14 +138,14 @@
   {
     "name": "arrow-down-circle",
     "tags": [
-      "direction"  
+      "direction"
     ],
     "categories": []
   },
   {
     "name": "arrow-left",
     "tags": [
-      "direction"  
+      "direction"
     ],
     "categories": [
       "Presentations & View"
@@ -154,14 +154,14 @@
   {
     "name": "arrow-left-circle",
     "tags": [
-      "direction"  
+      "direction"
     ],
     "categories": []
   },
   {
     "name": "arrow-right",
     "tags": [
-      "direction"  
+      "direction"
     ],
     "categories": [
       "Presentations & View"
@@ -170,14 +170,14 @@
   {
     "name": "arrow-right-circle",
     "tags": [
-      "direction"  
+      "direction"
     ],
     "categories": []
   },
   {
     "name": "arrow-up",
     "tags": [
-      "direction"  
+      "direction"
     ],
     "categories": [
       "Presentations & View"
@@ -186,7 +186,7 @@
   {
     "name": "arrow-up-circle",
     "tags": [
-      "direction"  
+      "direction"
     ],
     "categories": []
   },
@@ -1003,16 +1003,20 @@
   },
   {
     "name": "expand-less",
-    "tags": [  "arrow",
-    "chevron"],
+    "tags": [
+      "arrow",
+      "chevron"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
   },
   {
     "name": "expand-more",
-    "tags": [  "arrow",
-    "chevron"],
+    "tags": [
+      "arrow",
+      "chevron"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1979,8 +1983,8 @@
       "update"
     ],
     "categories": [
-        "Account & Support"
-      ]
+      "Account & Support"
+    ]
   },
   {
     "name": "person-remove",
@@ -2817,7 +2821,6 @@
       "arrow",
       "up",
       "down"
-
     ],
     "categories": [
       "Actions & Navigation"

@@ -358,12 +358,16 @@
   },
   {
     "name": "one-way-left",
-    "tags": ["arrow"],
+    "tags": [
+      "arrow"
+    ],
     "categories": []
   },
   {
     "name": "one-way-right",
-    "tags": ["arrow"],
+    "tags": [
+      "arrow"
+    ],
     "categories": []
   },
   {

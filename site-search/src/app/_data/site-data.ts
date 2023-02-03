@@ -13,7 +13,9 @@ export const siteData = [
           "new",
           "plus"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -48,8 +50,13 @@ export const siteData = [
       {
         "name": "advanced-instructions",
         "displayName": "Advanced Instructions",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "help",
+          "support"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -70,7 +77,10 @@ export const siteData = [
       {
         "name": "align-bottom",
         "displayName": "Align Bottom",
-        "tags": [],
+        "tags": [
+          "orientation",
+          "layout"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -81,7 +91,9 @@ export const siteData = [
         "name": "align-center-horiz",
         "displayName": "Align Center Horiz",
         "tags": [
-          "horizontal"
+          "horizontal",
+          "orientation",
+          "layout"
         ],
         "categories": [
           "Presentations & View"
@@ -93,7 +105,9 @@ export const siteData = [
         "name": "align-center-vert",
         "displayName": "Align Center Vert",
         "tags": [
-          "vertical"
+          "vertical",
+          "orientation",
+          "layout"
         ],
         "categories": [
           "Presentations & View"
@@ -104,7 +118,10 @@ export const siteData = [
       {
         "name": "align-left",
         "displayName": "Align Left",
-        "tags": [],
+        "tags": [
+          "orientation",
+          "layout"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -114,7 +131,10 @@ export const siteData = [
       {
         "name": "align-right",
         "displayName": "Align Right",
-        "tags": [],
+        "tags": [
+          "orientation",
+          "layout"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -124,7 +144,10 @@ export const siteData = [
       {
         "name": "align-top",
         "displayName": "Align Top",
-        "tags": [],
+        "tags": [
+          "orientation",
+          "layout"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -147,7 +170,9 @@ export const siteData = [
       {
         "name": "arrow-down",
         "displayName": "Arrow Down",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -157,7 +182,9 @@ export const siteData = [
       {
         "name": "arrow-down-circle",
         "displayName": "Arrow Down Circle",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -165,7 +192,9 @@ export const siteData = [
       {
         "name": "arrow-left",
         "displayName": "Arrow Left",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -175,7 +204,9 @@ export const siteData = [
       {
         "name": "arrow-left-circle",
         "displayName": "Arrow Left Circle",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -183,7 +214,9 @@ export const siteData = [
       {
         "name": "arrow-right",
         "displayName": "Arrow Right",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -193,7 +226,9 @@ export const siteData = [
       {
         "name": "arrow-right-circle",
         "displayName": "Arrow Right Circle",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -201,7 +236,9 @@ export const siteData = [
       {
         "name": "arrow-up",
         "displayName": "Arrow Up",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -211,7 +248,9 @@ export const siteData = [
       {
         "name": "arrow-up-circle",
         "displayName": "Arrow Up Circle",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -266,7 +305,9 @@ export const siteData = [
           "power",
           "dead"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -278,7 +319,9 @@ export const siteData = [
           "power",
           "dead"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -287,9 +330,12 @@ export const siteData = [
         "displayName": "Battery 25 Horizontal",
         "tags": [
           "charge",
+          "low",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -298,9 +344,12 @@ export const siteData = [
         "displayName": "Battery 25 Vertical",
         "tags": [
           "charge",
+          "low",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -312,7 +361,9 @@ export const siteData = [
           "half",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -321,9 +372,12 @@ export const siteData = [
         "displayName": "Battery 50 Vertical",
         "tags": [
           "charge",
+          "half",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -334,7 +388,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -345,7 +401,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -356,7 +414,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -367,7 +427,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -378,7 +440,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -389,7 +453,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -426,6 +492,7 @@ export const siteData = [
         "displayName": "Brush",
         "tags": [
           "construction",
+          "properties",
           "paint"
         ],
         "categories": [
@@ -550,7 +617,7 @@ export const siteData = [
           "picture"
         ],
         "categories": [
-          "Presentations & View"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -589,32 +656,52 @@ export const siteData = [
       {
         "name": "caret-down",
         "displayName": "Caret Down",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "caret-left",
         "displayName": "Caret Left",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "caret-right",
         "displayName": "Caret Right",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "caret-up",
         "displayName": "Caret Up",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -675,48 +762,78 @@ export const siteData = [
       {
         "name": "chevron-double-down",
         "displayName": "Chevron Double Down",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "chevron-double-left",
         "displayName": "Chevron Double Left",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "chevron-double-right",
         "displayName": "Chevron Double Right",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "chevron-double-up",
         "displayName": "Chevron Double Up",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "chevron-left",
         "displayName": "Chevron Left",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "chevron-right",
         "displayName": "Chevron Right",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -778,7 +895,7 @@ export const siteData = [
           "list"
         ],
         "categories": [
-          "Presentations & View"
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -789,7 +906,9 @@ export const siteData = [
         "tags": [
           "time"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -800,7 +919,9 @@ export const siteData = [
           "plus",
           "time"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -838,6 +959,8 @@ export const siteData = [
         "name": "cloud-download",
         "displayName": "Cloud Download",
         "tags": [
+          "arrows",
+          "center",
           "export"
         ],
         "categories": [
@@ -984,7 +1107,9 @@ export const siteData = [
         "tags": [
           "pointer"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -997,7 +1122,9 @@ export const siteData = [
           "pointer",
           "select"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1010,7 +1137,9 @@ export const siteData = [
           "pointer",
           "select"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1040,7 +1169,10 @@ export const siteData = [
       {
         "name": "download",
         "displayName": "Download",
-        "tags": [],
+        "tags": [
+          "file",
+          "data"
+        ],
         "categories": [
           "Save & Share"
         ],
@@ -1050,7 +1182,10 @@ export const siteData = [
       {
         "name": "download-line",
         "displayName": "Download Line",
-        "tags": [],
+        "tags": [
+          "file",
+          "data"
+        ],
         "categories": [
           "Save & Share"
         ],
@@ -1060,7 +1195,10 @@ export const siteData = [
       {
         "name": "download-xls",
         "displayName": "Download Xls",
-        "tags": [],
+        "tags": [
+          "file",
+          "data"
+        ],
         "categories": [
           "Save & Share"
         ],
@@ -1070,8 +1208,13 @@ export const siteData = [
       {
         "name": "drag-corner",
         "displayName": "Drag Corner",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "input"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1141,7 +1284,9 @@ export const siteData = [
         "tags": [
           "mail"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1161,16 +1306,26 @@ export const siteData = [
       {
         "name": "expand-less",
         "displayName": "Expand Less",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "expand-more",
         "displayName": "Expand More",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1222,6 +1377,7 @@ export const siteData = [
         "displayName": "File Copy",
         "tags": [
           "documents",
+          "document",
           "duplicate",
           "sheet"
         ],
@@ -1235,7 +1391,8 @@ export const siteData = [
         "name": "file-edit",
         "displayName": "File Edit",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -1247,7 +1404,8 @@ export const siteData = [
         "name": "file-merge",
         "displayName": "File Merge",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -1259,7 +1417,8 @@ export const siteData = [
         "name": "file-missing",
         "displayName": "File Missing",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -1272,7 +1431,8 @@ export const siteData = [
         "displayName": "File New",
         "tags": [
           "plus",
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -1284,7 +1444,8 @@ export const siteData = [
         "name": "file-type-doc",
         "displayName": "File Type Doc",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -1296,7 +1457,8 @@ export const siteData = [
         "name": "file-type-log",
         "displayName": "File Type Log",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -1308,7 +1470,8 @@ export const siteData = [
         "name": "file-type-pdf",
         "displayName": "File Type Pdf",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -1320,7 +1483,8 @@ export const siteData = [
         "name": "file-type-rfi",
         "displayName": "File Type Rfi",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -1332,7 +1496,8 @@ export const siteData = [
         "name": "file-type-rfq",
         "displayName": "File Type Rfq",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -1344,7 +1509,8 @@ export const siteData = [
         "name": "file-type-tmp",
         "displayName": "File Type Tmp",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -1356,7 +1522,8 @@ export const siteData = [
         "name": "file-type-xls",
         "displayName": "File Type Xls",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -1506,6 +1673,7 @@ export const siteData = [
         "displayName": "Folder Project",
         "tags": [
           "3d",
+          "model",
           "cube"
         ],
         "categories": [
@@ -1548,9 +1716,13 @@ export const siteData = [
         "name": "footprints",
         "displayName": "Footprints",
         "tags": [
-          "steps"
+          "steps",
+          "shoes",
+          "walk"
         ],
-        "categories": [],
+        "categories": [
+          "Presentations & Views"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1582,7 +1754,8 @@ export const siteData = [
         "name": "group-items",
         "displayName": "Group Items",
         "tags": [
-          "sketchup"
+          "sketchup",
+          "category"
         ],
         "categories": [
           "Actions & Navigation"
@@ -1676,7 +1849,9 @@ export const siteData = [
           "favorite",
           "love"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1773,7 +1948,9 @@ export const siteData = [
         "name": "image-scene",
         "displayName": "Image Scene",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1849,7 +2026,11 @@ export const siteData = [
       {
         "name": "launch",
         "displayName": "Launch",
-        "tags": [],
+        "tags": [
+          "view",
+          "open",
+          "arrow"
+        ],
         "categories": [
           "Programs"
         ],
@@ -1869,8 +2050,14 @@ export const siteData = [
       {
         "name": "learn",
         "displayName": "Learn",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "hat",
+          "training",
+          "university"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1946,7 +2133,10 @@ export const siteData = [
       {
         "name": "location",
         "displayName": "Location",
-        "tags": [],
+        "tags": [
+          "map",
+          "poi"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -1956,7 +2146,10 @@ export const siteData = [
       {
         "name": "location-point",
         "displayName": "Location Point",
-        "tags": [],
+        "tags": [
+          "map",
+          "poi"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -2162,7 +2355,9 @@ export const siteData = [
           "menu",
           "overflow"
         ],
-        "categories": [],
+        "categories": [
+          "Programs"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2175,7 +2370,9 @@ export const siteData = [
           "menu",
           "overflow"
         ],
-        "categories": [],
+        "categories": [
+          "Programs"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2249,7 +2446,9 @@ export const siteData = [
           "paint",
           "style"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2269,8 +2468,13 @@ export const siteData = [
       {
         "name": "password",
         "displayName": "Password",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "login",
+          "logout"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2321,7 +2525,9 @@ export const siteData = [
         "tags": [
           "users"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2331,7 +2537,9 @@ export const siteData = [
         "tags": [
           "users"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2354,7 +2562,9 @@ export const siteData = [
           "circle",
           "user"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2365,7 +2575,9 @@ export const siteData = [
           "create",
           "user"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2373,9 +2585,12 @@ export const siteData = [
         "name": "person-edit",
         "displayName": "Person Edit",
         "tags": [
-          "user"
+          "user",
+          "update"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2386,14 +2601,18 @@ export const siteData = [
           "delete",
           "user"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "phone",
         "displayName": "Phone",
-        "tags": [],
+        "tags": [
+          "call"
+        ],
         "categories": [
           "Account & Support"
         ],
@@ -2404,7 +2623,8 @@ export const siteData = [
         "name": "phone-call",
         "displayName": "Phone Call",
         "tags": [
-          "call"
+          "call",
+          "ring"
         ],
         "categories": [
           "Account & Support"
@@ -2416,7 +2636,8 @@ export const siteData = [
         "name": "phone-hang-up",
         "displayName": "Phone Hang Up",
         "tags": [
-          "call"
+          "call",
+          "end"
         ],
         "categories": [
           "Account & Support"
@@ -2427,7 +2648,9 @@ export const siteData = [
       {
         "name": "phone-mobile",
         "displayName": "Phone Mobile",
-        "tags": [],
+        "tags": [
+          "call"
+        ],
         "categories": [
           "Devices"
         ],
@@ -2451,8 +2674,14 @@ export const siteData = [
       {
         "name": "pin-add",
         "displayName": "Pin Add",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "attach",
+          "dock",
+          "fix"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2474,7 +2703,9 @@ export const siteData = [
       {
         "name": "polygon",
         "displayName": "Polygon",
-        "tags": [],
+        "tags": [
+          "outline"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -2484,7 +2715,9 @@ export const siteData = [
       {
         "name": "polygon-area-tool",
         "displayName": "Polygon Area Tool",
-        "tags": [],
+        "tags": [
+          "outline"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -2494,7 +2727,9 @@ export const siteData = [
       {
         "name": "polygon-concave",
         "displayName": "Polygon Concave",
-        "tags": [],
+        "tags": [
+          "outline"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -2504,7 +2739,9 @@ export const siteData = [
       {
         "name": "polygon-cone",
         "displayName": "Polygon Cone",
-        "tags": [],
+        "tags": [
+          "outline"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -2515,7 +2752,8 @@ export const siteData = [
         "name": "polygon-merge",
         "displayName": "Polygon Merge",
         "tags": [
-          "merge"
+          "merge",
+          "outline"
         ],
         "categories": [
           "Actions & Navigation"
@@ -2526,7 +2764,9 @@ export const siteData = [
       {
         "name": "polygon-select",
         "displayName": "Polygon Select",
-        "tags": [],
+        "tags": [
+          "outline"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -2584,7 +2824,10 @@ export const siteData = [
       {
         "name": "rain-icy",
         "displayName": "Rain Icy",
-        "tags": [],
+        "tags": [
+          "ice",
+          "cold"
+        ],
         "categories": [
           "Weather"
         ],
@@ -2639,7 +2882,9 @@ export const siteData = [
         "tags": [
           "minus"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2672,7 +2917,9 @@ export const siteData = [
         "name": "rss-feed",
         "displayName": "Rss Feed",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2692,7 +2939,9 @@ export const siteData = [
       {
         "name": "save-as",
         "displayName": "Save As",
-        "tags": [],
+        "tags": [
+          "floppy"
+        ],
         "categories": [
           "Save & Share"
         ],
@@ -2702,7 +2951,9 @@ export const siteData = [
       {
         "name": "save-disk",
         "displayName": "Save Disk",
-        "tags": [],
+        "tags": [
+          "floppy"
+        ],
         "categories": [
           "Save & Share"
         ],
@@ -2724,7 +2975,9 @@ export const siteData = [
       {
         "name": "screen",
         "displayName": "Screen",
-        "tags": [],
+        "tags": [
+          "desktop"
+        ],
         "categories": [
           "Devices"
         ],
@@ -2757,7 +3010,9 @@ export const siteData = [
       {
         "name": "server",
         "displayName": "Server",
-        "tags": [],
+        "tags": [
+          "data"
+        ],
         "categories": [
           "Devices"
         ],
@@ -2767,7 +3022,9 @@ export const siteData = [
       {
         "name": "server-round",
         "displayName": "Server Round",
-        "tags": [],
+        "tags": [
+          "data"
+        ],
         "categories": [
           "Devices"
         ],
@@ -2885,7 +3142,8 @@ export const siteData = [
         "displayName": "Snow Heavy",
         "tags": [
           "cloud",
-          "weather"
+          "weather",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -2898,7 +3156,8 @@ export const siteData = [
         "displayName": "Snow Light",
         "tags": [
           "cloud",
-          "weather"
+          "weather",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -2910,7 +3169,8 @@ export const siteData = [
         "name": "snow-particle",
         "displayName": "Snow Particle",
         "tags": [
-          "weather"
+          "weather",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -2923,7 +3183,8 @@ export const siteData = [
         "displayName": "Snowflake",
         "tags": [
           "weather",
-          "winter"
+          "winter",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -2936,7 +3197,8 @@ export const siteData = [
         "displayName": "Snowflakes",
         "tags": [
           "weather",
-          "winter"
+          "winter",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -3066,16 +3328,24 @@ export const siteData = [
       {
         "name": "switch-left",
         "displayName": "Switch Left",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "switch-right",
         "displayName": "Switch Right",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3086,7 +3356,8 @@ export const siteData = [
           "arrow",
           "repeat",
           "rotate",
-          "spin"
+          "spin",
+          "update"
         ],
         "categories": [
           "Actions & Navigation"
@@ -3101,7 +3372,8 @@ export const siteData = [
           "arrow",
           "repeat",
           "rotate",
-          "spin"
+          "spin",
+          "update"
         ],
         "categories": [
           "Actions & Navigation"
@@ -3112,7 +3384,9 @@ export const siteData = [
       {
         "name": "tablet",
         "displayName": "Tablet",
-        "tags": [],
+        "tags": [
+          "handheld"
+        ],
         "categories": [
           "Devices"
         ],
@@ -3161,7 +3435,9 @@ export const siteData = [
       {
         "name": "thermometer-cold",
         "displayName": "Thermometer Cold",
-        "tags": [],
+        "tags": [
+          "temperature"
+        ],
         "categories": [
           "Weather"
         ],
@@ -3171,7 +3447,9 @@ export const siteData = [
       {
         "name": "thermometer-hot",
         "displayName": "Thermometer Hot",
-        "tags": [],
+        "tags": [
+          "temperature"
+        ],
         "categories": [
           "Weather"
         ],
@@ -3236,7 +3514,9 @@ export const siteData = [
         "name": "ticket",
         "displayName": "Ticket",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3244,7 +3524,9 @@ export const siteData = [
         "name": "ticket-plane",
         "displayName": "Ticket Plane",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3380,7 +3662,9 @@ export const siteData = [
           "options",
           "settings"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3400,24 +3684,41 @@ export const siteData = [
       {
         "name": "unfold-less",
         "displayName": "Unfold Less",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "up",
+          "down"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "unfold-more",
         "displayName": "Unfold More",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "up",
+          "down"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "update",
         "displayName": "Update",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "circle"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3442,7 +3743,8 @@ export const siteData = [
         "displayName": "Upload Xls",
         "tags": [
           "arrow",
-          "excel"
+          "excel",
+          "document"
         ],
         "categories": [
           "Save & Share"
@@ -3617,7 +3919,9 @@ export const siteData = [
         "tags": [
           "network"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3627,7 +3931,9 @@ export const siteData = [
         "tags": [
           "disconnected"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3637,7 +3943,9 @@ export const siteData = [
         "tags": [
           "disconnected"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3666,7 +3974,10 @@ export const siteData = [
       {
         "name": "window-dock-undock",
         "displayName": "Window Dock Undock",
-        "tags": [],
+        "tags": [
+          "views",
+          "screen"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -3690,7 +4001,10 @@ export const siteData = [
       {
         "name": "window-resize",
         "displayName": "Window Resize",
-        "tags": [],
+        "tags": [
+          "views",
+          "screen"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -3700,7 +4014,10 @@ export const siteData = [
       {
         "name": "window-side-panel",
         "displayName": "Window Side Panel",
-        "tags": [],
+        "tags": [
+          "views",
+          "screen"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -3710,7 +4027,9 @@ export const siteData = [
       {
         "name": "window-views",
         "displayName": "Window Views",
-        "tags": [],
+        "tags": [
+          "screen"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -3842,7 +4161,9 @@ export const siteData = [
           "new",
           "plus"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3877,8 +4198,13 @@ export const siteData = [
       {
         "name": "advanced-instructions",
         "displayName": "Advanced Instructions",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "help",
+          "support"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3899,7 +4225,10 @@ export const siteData = [
       {
         "name": "align-bottom",
         "displayName": "Align Bottom",
-        "tags": [],
+        "tags": [
+          "orientation",
+          "layout"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -3910,7 +4239,9 @@ export const siteData = [
         "name": "align-center-horiz",
         "displayName": "Align Center Horiz",
         "tags": [
-          "horizontal"
+          "horizontal",
+          "orientation",
+          "layout"
         ],
         "categories": [
           "Presentations & View"
@@ -3922,7 +4253,9 @@ export const siteData = [
         "name": "align-center-vert",
         "displayName": "Align Center Vert",
         "tags": [
-          "vertical"
+          "vertical",
+          "orientation",
+          "layout"
         ],
         "categories": [
           "Presentations & View"
@@ -3933,7 +4266,10 @@ export const siteData = [
       {
         "name": "align-left",
         "displayName": "Align Left",
-        "tags": [],
+        "tags": [
+          "orientation",
+          "layout"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -3943,7 +4279,10 @@ export const siteData = [
       {
         "name": "align-right",
         "displayName": "Align Right",
-        "tags": [],
+        "tags": [
+          "orientation",
+          "layout"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -3953,7 +4292,10 @@ export const siteData = [
       {
         "name": "align-top",
         "displayName": "Align Top",
-        "tags": [],
+        "tags": [
+          "orientation",
+          "layout"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -3976,7 +4318,9 @@ export const siteData = [
       {
         "name": "arrow-down",
         "displayName": "Arrow Down",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -3986,7 +4330,9 @@ export const siteData = [
       {
         "name": "arrow-down-circle",
         "displayName": "Arrow Down Circle",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -3994,7 +4340,9 @@ export const siteData = [
       {
         "name": "arrow-left",
         "displayName": "Arrow Left",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -4004,7 +4352,9 @@ export const siteData = [
       {
         "name": "arrow-left-circle",
         "displayName": "Arrow Left Circle",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -4012,7 +4362,9 @@ export const siteData = [
       {
         "name": "arrow-right",
         "displayName": "Arrow Right",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -4022,7 +4374,9 @@ export const siteData = [
       {
         "name": "arrow-right-circle",
         "displayName": "Arrow Right Circle",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -4030,7 +4384,9 @@ export const siteData = [
       {
         "name": "arrow-up",
         "displayName": "Arrow Up",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -4040,7 +4396,9 @@ export const siteData = [
       {
         "name": "arrow-up-circle",
         "displayName": "Arrow Up Circle",
-        "tags": [],
+        "tags": [
+          "direction"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -4095,7 +4453,9 @@ export const siteData = [
           "power",
           "dead"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4107,7 +4467,9 @@ export const siteData = [
           "power",
           "dead"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4116,9 +4478,12 @@ export const siteData = [
         "displayName": "Battery 25 Horizontal",
         "tags": [
           "charge",
+          "low",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4127,9 +4492,12 @@ export const siteData = [
         "displayName": "Battery 25 Vertical",
         "tags": [
           "charge",
+          "low",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4141,7 +4509,9 @@ export const siteData = [
           "half",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4150,9 +4520,12 @@ export const siteData = [
         "displayName": "Battery 50 Vertical",
         "tags": [
           "charge",
+          "half",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4163,7 +4536,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4174,7 +4549,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4185,7 +4562,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4196,7 +4575,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4207,7 +4588,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4218,7 +4601,9 @@ export const siteData = [
           "charge",
           "power"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4255,6 +4640,7 @@ export const siteData = [
         "displayName": "Brush",
         "tags": [
           "construction",
+          "properties",
           "paint"
         ],
         "categories": [
@@ -4379,7 +4765,7 @@ export const siteData = [
           "picture"
         ],
         "categories": [
-          "Presentations & View"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4418,32 +4804,52 @@ export const siteData = [
       {
         "name": "caret-down",
         "displayName": "Caret Down",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "caret-left",
         "displayName": "Caret Left",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "caret-right",
         "displayName": "Caret Right",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "caret-up",
         "displayName": "Caret Up",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4504,48 +4910,78 @@ export const siteData = [
       {
         "name": "chevron-double-down",
         "displayName": "Chevron Double Down",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "chevron-double-left",
         "displayName": "Chevron Double Left",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "chevron-double-right",
         "displayName": "Chevron Double Right",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "chevron-double-up",
         "displayName": "Chevron Double Up",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "chevron-left",
         "displayName": "Chevron Left",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "chevron-right",
         "displayName": "Chevron Right",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4607,7 +5043,7 @@ export const siteData = [
           "list"
         ],
         "categories": [
-          "Presentations & View"
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4618,7 +5054,9 @@ export const siteData = [
         "tags": [
           "time"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4629,7 +5067,9 @@ export const siteData = [
           "plus",
           "time"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4667,6 +5107,8 @@ export const siteData = [
         "name": "cloud-download",
         "displayName": "Cloud Download",
         "tags": [
+          "arrows",
+          "center",
           "export"
         ],
         "categories": [
@@ -4813,7 +5255,9 @@ export const siteData = [
         "tags": [
           "pointer"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4826,7 +5270,9 @@ export const siteData = [
           "pointer",
           "select"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4839,7 +5285,9 @@ export const siteData = [
           "pointer",
           "select"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4869,7 +5317,10 @@ export const siteData = [
       {
         "name": "download",
         "displayName": "Download",
-        "tags": [],
+        "tags": [
+          "file",
+          "data"
+        ],
         "categories": [
           "Save & Share"
         ],
@@ -4879,7 +5330,10 @@ export const siteData = [
       {
         "name": "download-line",
         "displayName": "Download Line",
-        "tags": [],
+        "tags": [
+          "file",
+          "data"
+        ],
         "categories": [
           "Save & Share"
         ],
@@ -4889,7 +5343,10 @@ export const siteData = [
       {
         "name": "download-xls",
         "displayName": "Download Xls",
-        "tags": [],
+        "tags": [
+          "file",
+          "data"
+        ],
         "categories": [
           "Save & Share"
         ],
@@ -4899,8 +5356,13 @@ export const siteData = [
       {
         "name": "drag-corner",
         "displayName": "Drag Corner",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "input"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4970,7 +5432,9 @@ export const siteData = [
         "tags": [
           "mail"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4990,16 +5454,26 @@ export const siteData = [
       {
         "name": "expand-less",
         "displayName": "Expand Less",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "expand-more",
         "displayName": "Expand More",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5051,6 +5525,7 @@ export const siteData = [
         "displayName": "File Copy",
         "tags": [
           "documents",
+          "document",
           "duplicate",
           "sheet"
         ],
@@ -5064,7 +5539,8 @@ export const siteData = [
         "name": "file-edit",
         "displayName": "File Edit",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -5076,7 +5552,8 @@ export const siteData = [
         "name": "file-merge",
         "displayName": "File Merge",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -5088,7 +5565,8 @@ export const siteData = [
         "name": "file-missing",
         "displayName": "File Missing",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -5101,7 +5579,8 @@ export const siteData = [
         "displayName": "File New",
         "tags": [
           "plus",
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -5113,7 +5592,8 @@ export const siteData = [
         "name": "file-type-doc",
         "displayName": "File Type Doc",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -5125,7 +5605,8 @@ export const siteData = [
         "name": "file-type-log",
         "displayName": "File Type Log",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -5137,7 +5618,8 @@ export const siteData = [
         "name": "file-type-pdf",
         "displayName": "File Type Pdf",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -5149,7 +5631,8 @@ export const siteData = [
         "name": "file-type-rfi",
         "displayName": "File Type Rfi",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -5161,7 +5644,8 @@ export const siteData = [
         "name": "file-type-rfq",
         "displayName": "File Type Rfq",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -5173,7 +5657,8 @@ export const siteData = [
         "name": "file-type-tmp",
         "displayName": "File Type Tmp",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -5185,7 +5670,8 @@ export const siteData = [
         "name": "file-type-xls",
         "displayName": "File Type Xls",
         "tags": [
-          "sheet"
+          "sheet",
+          "document"
         ],
         "categories": [
           "Folders & Files"
@@ -5335,6 +5821,7 @@ export const siteData = [
         "displayName": "Folder Project",
         "tags": [
           "3d",
+          "model",
           "cube"
         ],
         "categories": [
@@ -5377,9 +5864,13 @@ export const siteData = [
         "name": "footprints",
         "displayName": "Footprints",
         "tags": [
-          "steps"
+          "steps",
+          "shoes",
+          "walk"
         ],
-        "categories": [],
+        "categories": [
+          "Presentations & Views"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5411,7 +5902,8 @@ export const siteData = [
         "name": "group-items",
         "displayName": "Group Items",
         "tags": [
-          "sketchup"
+          "sketchup",
+          "category"
         ],
         "categories": [
           "Actions & Navigation"
@@ -5505,7 +5997,9 @@ export const siteData = [
           "favorite",
           "love"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5602,7 +6096,9 @@ export const siteData = [
         "name": "image-scene",
         "displayName": "Image Scene",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5678,7 +6174,11 @@ export const siteData = [
       {
         "name": "launch",
         "displayName": "Launch",
-        "tags": [],
+        "tags": [
+          "view",
+          "open",
+          "arrow"
+        ],
         "categories": [
           "Programs"
         ],
@@ -5698,8 +6198,14 @@ export const siteData = [
       {
         "name": "learn",
         "displayName": "Learn",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "hat",
+          "training",
+          "university"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5775,7 +6281,10 @@ export const siteData = [
       {
         "name": "location",
         "displayName": "Location",
-        "tags": [],
+        "tags": [
+          "map",
+          "poi"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -5785,7 +6294,10 @@ export const siteData = [
       {
         "name": "location-point",
         "displayName": "Location Point",
-        "tags": [],
+        "tags": [
+          "map",
+          "poi"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -5991,7 +6503,9 @@ export const siteData = [
           "menu",
           "overflow"
         ],
-        "categories": [],
+        "categories": [
+          "Programs"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6004,7 +6518,9 @@ export const siteData = [
           "menu",
           "overflow"
         ],
-        "categories": [],
+        "categories": [
+          "Programs"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6078,7 +6594,9 @@ export const siteData = [
           "paint",
           "style"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6098,8 +6616,13 @@ export const siteData = [
       {
         "name": "password",
         "displayName": "Password",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "login",
+          "logout"
+        ],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6150,7 +6673,9 @@ export const siteData = [
         "tags": [
           "users"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6160,7 +6685,9 @@ export const siteData = [
         "tags": [
           "users"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6183,7 +6710,9 @@ export const siteData = [
           "circle",
           "user"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6194,7 +6723,9 @@ export const siteData = [
           "create",
           "user"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6202,9 +6733,12 @@ export const siteData = [
         "name": "person-edit",
         "displayName": "Person Edit",
         "tags": [
-          "user"
+          "user",
+          "update"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6215,14 +6749,18 @@ export const siteData = [
           "delete",
           "user"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "phone",
         "displayName": "Phone",
-        "tags": [],
+        "tags": [
+          "call"
+        ],
         "categories": [
           "Account & Support"
         ],
@@ -6233,7 +6771,8 @@ export const siteData = [
         "name": "phone-call",
         "displayName": "Phone Call",
         "tags": [
-          "call"
+          "call",
+          "ring"
         ],
         "categories": [
           "Account & Support"
@@ -6245,7 +6784,8 @@ export const siteData = [
         "name": "phone-hang-up",
         "displayName": "Phone Hang Up",
         "tags": [
-          "call"
+          "call",
+          "end"
         ],
         "categories": [
           "Account & Support"
@@ -6256,7 +6796,9 @@ export const siteData = [
       {
         "name": "phone-mobile",
         "displayName": "Phone Mobile",
-        "tags": [],
+        "tags": [
+          "call"
+        ],
         "categories": [
           "Devices"
         ],
@@ -6280,8 +6822,14 @@ export const siteData = [
       {
         "name": "pin-add",
         "displayName": "Pin Add",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "attach",
+          "dock",
+          "fix"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6303,7 +6851,9 @@ export const siteData = [
       {
         "name": "polygon",
         "displayName": "Polygon",
-        "tags": [],
+        "tags": [
+          "outline"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -6313,7 +6863,9 @@ export const siteData = [
       {
         "name": "polygon-area-tool",
         "displayName": "Polygon Area Tool",
-        "tags": [],
+        "tags": [
+          "outline"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -6323,7 +6875,9 @@ export const siteData = [
       {
         "name": "polygon-concave",
         "displayName": "Polygon Concave",
-        "tags": [],
+        "tags": [
+          "outline"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -6333,7 +6887,9 @@ export const siteData = [
       {
         "name": "polygon-cone",
         "displayName": "Polygon Cone",
-        "tags": [],
+        "tags": [
+          "outline"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -6344,7 +6900,8 @@ export const siteData = [
         "name": "polygon-merge",
         "displayName": "Polygon Merge",
         "tags": [
-          "merge"
+          "merge",
+          "outline"
         ],
         "categories": [
           "Actions & Navigation"
@@ -6355,7 +6912,9 @@ export const siteData = [
       {
         "name": "polygon-select",
         "displayName": "Polygon Select",
-        "tags": [],
+        "tags": [
+          "outline"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -6413,7 +6972,10 @@ export const siteData = [
       {
         "name": "rain-icy",
         "displayName": "Rain Icy",
-        "tags": [],
+        "tags": [
+          "ice",
+          "cold"
+        ],
         "categories": [
           "Weather"
         ],
@@ -6468,7 +7030,9 @@ export const siteData = [
         "tags": [
           "minus"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6501,7 +7065,9 @@ export const siteData = [
         "name": "rss-feed",
         "displayName": "Rss Feed",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6521,7 +7087,9 @@ export const siteData = [
       {
         "name": "save-as",
         "displayName": "Save As",
-        "tags": [],
+        "tags": [
+          "floppy"
+        ],
         "categories": [
           "Save & Share"
         ],
@@ -6531,7 +7099,9 @@ export const siteData = [
       {
         "name": "save-disk",
         "displayName": "Save Disk",
-        "tags": [],
+        "tags": [
+          "floppy"
+        ],
         "categories": [
           "Save & Share"
         ],
@@ -6553,7 +7123,9 @@ export const siteData = [
       {
         "name": "screen",
         "displayName": "Screen",
-        "tags": [],
+        "tags": [
+          "desktop"
+        ],
         "categories": [
           "Devices"
         ],
@@ -6586,7 +7158,9 @@ export const siteData = [
       {
         "name": "server",
         "displayName": "Server",
-        "tags": [],
+        "tags": [
+          "data"
+        ],
         "categories": [
           "Devices"
         ],
@@ -6596,7 +7170,9 @@ export const siteData = [
       {
         "name": "server-round",
         "displayName": "Server Round",
-        "tags": [],
+        "tags": [
+          "data"
+        ],
         "categories": [
           "Devices"
         ],
@@ -6714,7 +7290,8 @@ export const siteData = [
         "displayName": "Snow Heavy",
         "tags": [
           "cloud",
-          "weather"
+          "weather",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -6727,7 +7304,8 @@ export const siteData = [
         "displayName": "Snow Light",
         "tags": [
           "cloud",
-          "weather"
+          "weather",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -6739,7 +7317,8 @@ export const siteData = [
         "name": "snow-particle",
         "displayName": "Snow Particle",
         "tags": [
-          "weather"
+          "weather",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -6752,7 +7331,8 @@ export const siteData = [
         "displayName": "Snowflake",
         "tags": [
           "weather",
-          "winter"
+          "winter",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -6765,7 +7345,8 @@ export const siteData = [
         "displayName": "Snowflakes",
         "tags": [
           "weather",
-          "winter"
+          "winter",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -6895,16 +7476,24 @@ export const siteData = [
       {
         "name": "switch-left",
         "displayName": "Switch Left",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "switch-right",
         "displayName": "Switch Right",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6915,7 +7504,8 @@ export const siteData = [
           "arrow",
           "repeat",
           "rotate",
-          "spin"
+          "spin",
+          "update"
         ],
         "categories": [
           "Actions & Navigation"
@@ -6930,7 +7520,8 @@ export const siteData = [
           "arrow",
           "repeat",
           "rotate",
-          "spin"
+          "spin",
+          "update"
         ],
         "categories": [
           "Actions & Navigation"
@@ -6941,7 +7532,9 @@ export const siteData = [
       {
         "name": "tablet",
         "displayName": "Tablet",
-        "tags": [],
+        "tags": [
+          "handheld"
+        ],
         "categories": [
           "Devices"
         ],
@@ -6990,7 +7583,9 @@ export const siteData = [
       {
         "name": "thermometer-cold",
         "displayName": "Thermometer Cold",
-        "tags": [],
+        "tags": [
+          "temperature"
+        ],
         "categories": [
           "Weather"
         ],
@@ -7000,7 +7595,9 @@ export const siteData = [
       {
         "name": "thermometer-hot",
         "displayName": "Thermometer Hot",
-        "tags": [],
+        "tags": [
+          "temperature"
+        ],
         "categories": [
           "Weather"
         ],
@@ -7065,7 +7662,9 @@ export const siteData = [
         "name": "ticket",
         "displayName": "Ticket",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7073,7 +7672,9 @@ export const siteData = [
         "name": "ticket-plane",
         "displayName": "Ticket Plane",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7209,7 +7810,9 @@ export const siteData = [
           "options",
           "settings"
         ],
-        "categories": [],
+        "categories": [
+          "Account & Support"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7229,24 +7832,41 @@ export const siteData = [
       {
         "name": "unfold-less",
         "displayName": "Unfold Less",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "up",
+          "down"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "unfold-more",
         "displayName": "Unfold More",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "up",
+          "down"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "update",
         "displayName": "Update",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "circle"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7271,7 +7891,8 @@ export const siteData = [
         "displayName": "Upload Xls",
         "tags": [
           "arrow",
-          "excel"
+          "excel",
+          "document"
         ],
         "categories": [
           "Save & Share"
@@ -7446,7 +8067,9 @@ export const siteData = [
         "tags": [
           "network"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7456,7 +8079,9 @@ export const siteData = [
         "tags": [
           "disconnected"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7466,7 +8091,9 @@ export const siteData = [
         "tags": [
           "disconnected"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7495,7 +8122,10 @@ export const siteData = [
       {
         "name": "window-dock-undock",
         "displayName": "Window Dock Undock",
-        "tags": [],
+        "tags": [
+          "views",
+          "screen"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -7519,7 +8149,10 @@ export const siteData = [
       {
         "name": "window-resize",
         "displayName": "Window Resize",
-        "tags": [],
+        "tags": [
+          "views",
+          "screen"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -7529,7 +8162,10 @@ export const siteData = [
       {
         "name": "window-side-panel",
         "displayName": "Window Side Panel",
-        "tags": [],
+        "tags": [
+          "views",
+          "screen"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -7539,7 +8175,9 @@ export const siteData = [
       {
         "name": "window-views",
         "displayName": "Window Views",
-        "tags": [],
+        "tags": [
+          "screen"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -7687,7 +8325,9 @@ export const siteData = [
       {
         "name": "blank",
         "displayName": "Blank",
-        "tags": [],
+        "tags": [
+          "empty"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7695,7 +8335,9 @@ export const siteData = [
       {
         "name": "blocks-four",
         "displayName": "Blocks Four",
-        "tags": [],
+        "tags": [
+          "squares"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7703,7 +8345,9 @@ export const siteData = [
       {
         "name": "blocks-four-outline",
         "displayName": "Blocks Four Outline",
-        "tags": [],
+        "tags": [
+          "squares"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7739,7 +8383,9 @@ export const siteData = [
       {
         "name": "change-start-time",
         "displayName": "Change Start Time",
-        "tags": [],
+        "tags": [
+          "clock"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -7747,7 +8393,9 @@ export const siteData = [
       {
         "name": "checkbox-checked",
         "displayName": "Checkbox Checked",
-        "tags": [],
+        "tags": [
+          "tick"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -8043,7 +8691,9 @@ export const siteData = [
       {
         "name": "invert-route",
         "displayName": "Invert Route",
-        "tags": [],
+        "tags": [
+          "arrows"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -8119,7 +8769,9 @@ export const siteData = [
       {
         "name": "maximize",
         "displayName": "Maximize",
-        "tags": [],
+        "tags": [
+          "panel"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -8137,7 +8789,9 @@ export const siteData = [
       {
         "name": "minimize",
         "displayName": "Minimize",
-        "tags": [],
+        "tags": [
+          "panel"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -8145,7 +8799,9 @@ export const siteData = [
       {
         "name": "my-edits",
         "displayName": "My Edits",
-        "tags": [],
+        "tags": [
+          "pencil"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -8179,7 +8835,9 @@ export const siteData = [
       {
         "name": "one-way-left",
         "displayName": "One Way Left",
-        "tags": [],
+        "tags": [
+          "arrow"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -8187,7 +8845,9 @@ export const siteData = [
       {
         "name": "one-way-right",
         "displayName": "One Way Right",
-        "tags": [],
+        "tags": [
+          "arrow"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""

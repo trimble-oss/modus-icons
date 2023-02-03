@@ -140,7 +140,9 @@
     "tags": [
       "direction"
     ],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "arrow-left",
@@ -156,7 +158,9 @@
     "tags": [
       "direction"
     ],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "arrow-right",
@@ -172,7 +176,9 @@
     "tags": [
       "direction"
     ],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "arrow-up",
@@ -188,7 +194,9 @@
     "tags": [
       "direction"
     ],
-    "categories": []
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "bar-graph",
@@ -228,6 +236,7 @@
     "tags": [
       "charge",
       "power",
+      "empty",
       "dead"
     ],
     "categories": [
@@ -239,6 +248,7 @@
     "tags": [
       "charge",
       "power",
+      "empty",
       "dead"
     ],
     "categories": [
@@ -649,7 +659,7 @@
       "paste"
     ],
     "categories": [
-      "Save & Share"
+      "Actions & Navigation"
     ]
   },
   {
@@ -950,7 +960,9 @@
       "grab",
       "grip"
     ],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "drag-vertical",
@@ -1477,7 +1489,8 @@
   {
     "name": "ice",
     "tags": [
-      "weather"
+      "weather",
+      "cold"
     ],
     "categories": [
       "Weather"
@@ -1688,7 +1701,7 @@
       "location"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Presentations & View"
     ]
   },
   {
@@ -1698,21 +1711,21 @@
       "location"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Presentations & View"
     ]
   },
   {
     "name": "map-marker",
     "tags": [],
     "categories": [
-      "Actions & Navigation"
+      "Presentations & View"
     ]
   },
   {
     "name": "map-markers",
     "tags": [],
     "categories": [
-      "Actions & Navigation"
+      "Presentations & View"
     ]
   },
   {
@@ -1721,7 +1734,7 @@
       "marker"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Presentations & View"
     ]
   },
   {
@@ -1732,7 +1745,7 @@
       "viewpoint"
     ],
     "categories": [
-      "Presentations & View"
+      "Devices"
     ]
   },
   {
@@ -1761,7 +1774,9 @@
       "microphone",
       "sound"
     ],
-    "categories": []
+    "categories": [
+      "Devices"
+    ]
   },
   {
     "name": "mix",
@@ -2606,7 +2621,7 @@
       "viewpoint"
     ],
     "categories": [
-      "Presentations & View"
+      "Actions & Navigation"
     ]
   },
   {
@@ -2616,7 +2631,7 @@
       "viewpoint"
     ],
     "categories": [
-      "Presentations & View"
+      "Actions & Navigation"
     ]
   },
   {
@@ -2626,7 +2641,7 @@
       "viewpoint"
     ],
     "categories": [
-      "Presentations & View"
+      "Actions & Navigation"
     ]
   },
   {
@@ -2783,7 +2798,9 @@
     "tags": [
       "brand"
     ],
-    "categories": []
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "tune",

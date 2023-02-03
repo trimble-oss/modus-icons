@@ -185,7 +185,9 @@ export const siteData = [
         "tags": [
           "direction"
         ],
-        "categories": [],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -207,7 +209,9 @@ export const siteData = [
         "tags": [
           "direction"
         ],
-        "categories": [],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -229,7 +233,9 @@ export const siteData = [
         "tags": [
           "direction"
         ],
-        "categories": [],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -251,7 +257,9 @@ export const siteData = [
         "tags": [
           "direction"
         ],
-        "categories": [],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -303,6 +311,7 @@ export const siteData = [
         "tags": [
           "charge",
           "power",
+          "empty",
           "dead"
         ],
         "categories": [
@@ -317,6 +326,7 @@ export const siteData = [
         "tags": [
           "charge",
           "power",
+          "empty",
           "dead"
         ],
         "categories": [
@@ -844,7 +854,7 @@ export const siteData = [
           "paste"
         ],
         "categories": [
-          "Save & Share"
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1235,7 +1245,9 @@ export const siteData = [
           "grab",
           "grip"
         ],
-        "categories": [],
+        "categories": [
+          "Programs"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1924,7 +1936,8 @@ export const siteData = [
         "name": "ice",
         "displayName": "Ice",
         "tags": [
-          "weather"
+          "weather",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -2204,7 +2217,7 @@ export const siteData = [
           "location"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2217,7 +2230,7 @@ export const siteData = [
           "location"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2227,7 +2240,7 @@ export const siteData = [
         "displayName": "Map Marker",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2237,7 +2250,7 @@ export const siteData = [
         "displayName": "Map Markers",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2249,7 +2262,7 @@ export const siteData = [
           "marker"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2263,7 +2276,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2301,7 +2314,9 @@ export const siteData = [
           "microphone",
           "sound"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3401,7 +3416,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3414,7 +3429,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3427,7 +3442,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3638,7 +3653,9 @@ export const siteData = [
         "tags": [
           "brand"
         ],
-        "categories": [],
+        "categories": [
+          "Programs"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3917,7 +3934,8 @@ export const siteData = [
         "name": "wifi",
         "displayName": "Wifi",
         "tags": [
-          "network"
+          "network",
+          "wi-fi"
         ],
         "categories": [
           "Devices"
@@ -3929,7 +3947,8 @@ export const siteData = [
         "name": "wifi-no-internet",
         "displayName": "Wifi No Internet",
         "tags": [
-          "disconnected"
+          "disconnected",
+          "wi-fi"
         ],
         "categories": [
           "Devices"
@@ -3941,7 +3960,8 @@ export const siteData = [
         "name": "wifi-off",
         "displayName": "Wifi Off",
         "tags": [
-          "disconnected"
+          "disconnected",
+          "wi-fi"
         ],
         "categories": [
           "Devices"
@@ -4333,7 +4353,9 @@ export const siteData = [
         "tags": [
           "direction"
         ],
-        "categories": [],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4355,7 +4377,9 @@ export const siteData = [
         "tags": [
           "direction"
         ],
-        "categories": [],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4377,7 +4401,9 @@ export const siteData = [
         "tags": [
           "direction"
         ],
-        "categories": [],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4399,7 +4425,9 @@ export const siteData = [
         "tags": [
           "direction"
         ],
-        "categories": [],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4451,6 +4479,7 @@ export const siteData = [
         "tags": [
           "charge",
           "power",
+          "empty",
           "dead"
         ],
         "categories": [
@@ -4465,6 +4494,7 @@ export const siteData = [
         "tags": [
           "charge",
           "power",
+          "empty",
           "dead"
         ],
         "categories": [
@@ -4992,7 +5022,7 @@ export const siteData = [
           "paste"
         ],
         "categories": [
-          "Save & Share"
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5383,7 +5413,9 @@ export const siteData = [
           "grab",
           "grip"
         ],
-        "categories": [],
+        "categories": [
+          "Programs"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6072,7 +6104,8 @@ export const siteData = [
         "name": "ice",
         "displayName": "Ice",
         "tags": [
-          "weather"
+          "weather",
+          "cold"
         ],
         "categories": [
           "Weather"
@@ -6352,7 +6385,7 @@ export const siteData = [
           "location"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6365,7 +6398,7 @@ export const siteData = [
           "location"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6375,7 +6408,7 @@ export const siteData = [
         "displayName": "Map Marker",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6385,7 +6418,7 @@ export const siteData = [
         "displayName": "Map Markers",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6397,7 +6430,7 @@ export const siteData = [
           "marker"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6411,7 +6444,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6449,7 +6482,9 @@ export const siteData = [
           "microphone",
           "sound"
         ],
-        "categories": [],
+        "categories": [
+          "Devices"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7549,7 +7584,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7562,7 +7597,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7575,7 +7610,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7786,7 +7821,9 @@ export const siteData = [
         "tags": [
           "brand"
         ],
-        "categories": [],
+        "categories": [
+          "Programs"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -8065,7 +8102,8 @@ export const siteData = [
         "name": "wifi",
         "displayName": "Wifi",
         "tags": [
-          "network"
+          "network",
+          "wi-fi"
         ],
         "categories": [
           "Devices"
@@ -8077,7 +8115,8 @@ export const siteData = [
         "name": "wifi-no-internet",
         "displayName": "Wifi No Internet",
         "tags": [
-          "disconnected"
+          "disconnected",
+          "wi-fi"
         ],
         "categories": [
           "Devices"
@@ -8089,7 +8128,8 @@ export const siteData = [
         "name": "wifi-off",
         "displayName": "Wifi Off",
         "tags": [
-          "disconnected"
+          "disconnected",
+          "wi-fi"
         ],
         "categories": [
           "Devices"

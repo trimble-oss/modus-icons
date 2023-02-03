@@ -30,7 +30,7 @@ module.exports = {
     {
       files: '_metadata.json',
       options: {
-        printWidth: 15
+        printWidth: 15,
       },
     },
   ],

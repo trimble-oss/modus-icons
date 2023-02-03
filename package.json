@@ -27,7 +27,7 @@
     "prettier": "prettier --write ./*.{scss,js,json,md,yml} icons/**/*.svg",
     "test:eslint": "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives .",
     "test:htmlhint": "htmlhint docs/**/*.html",
-    "test:stylelint": "stylelint docs/assets/scss/ --cache --cache-location node_modules/.cache/.stylelintcache --rd",
+    "test:stylelint": "stylelint docs/assets/scss/ --fix --cache --cache-location node_modules/.cache/.stylelintcache --rd",
     "test:lockfile-lint": "lockfile-lint --empty-hostname false --type npm --path package-lock.json",
     "test": "npm-run-all prettier docs:build --parallel --aggregate-output --continue-on-error test:*",
     "postinstall": "cd site-search && npm install && cd .."

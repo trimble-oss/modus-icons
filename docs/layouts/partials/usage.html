@@ -17,7 +17,7 @@
     <h3 id="download">Download</h3>
     <p><a href="https://github.com/trimble-oss/modus-icons/releases/">Releases are published on GitHub</a> and include
       icon SVGs, fonts, license, and readme.</p>
-    <p><a class="btn btn-outline-primary" href="https://github.com/trimble-oss/modus-icons/releases/latest/">
+    <p><a class="btn btn-outline-primary" href="https://github.com/trimble-oss/modus-icons/releases/latest/" rel="noopener">
         Download latest ZIP</a>
     </p>
   </div>
@@ -27,12 +27,12 @@
       CSS—from our CDN and get started in seconds. <a href="#icon-font">See icon font docs</a> for examples.</p>
     <div class="highlight">
       <pre tabindex="0"
-        class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1.0.0/{{ with .iconset }}{{- . -}}{{ end }}/fonts/modus-icons.css"</span><span class="p">&gt;</span></span></span></code></pre>
+        class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@{{ .Site.Params.version }}/{{ with .iconset }}{{- . -}}{{ end }}/fonts/modus-icons.css"</span><span class="p">&gt;</span></span></span></code></pre>
     </div>
 
     <div class="highlight">
       <pre tabindex="0"
-        class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s2">"https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1.0.0/{{ with .iconset }}{{- . -}}{{ end }}/fonts/modus-icons.css"</span><span class="o">)</span><span class="p">;</span></span></span></code></pre>
+        class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s2">"https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@{{ .Site.Params.version }}/{{ with .iconset }}{{- . -}}{{ end }}/fonts/modus-icons.css"</span><span class="o">)</span><span class="p">;</span></span></span></code></pre>
     </div>
   </div>
 </div>

@@ -12,10 +12,14 @@ body.home .highlight pre {
   color: #004f83;
 }
 
-body.home .bd-clipboard button {
+body.home .btn-clipboard {
   background-color: transparent !important;
+  padding-top: .25rem !important;
 }
 
+.row-site-search {
+  min-height: 72px;
+}
 .hero {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 
@@ -36,6 +40,10 @@ body.home .bd-clipboard button {
 [data-theme="dark"] {
   body.home .highlight {
     background-color: #000;
+  }
+
+  body.home .card-footer {
+    color: #cbcdd6 !important;
   }
 
   body.home .card-home img {

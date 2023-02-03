@@ -14,7 +14,7 @@
   {{ partialCached "home/hero" . }}
   <main class="container mt-5">
 
-    <div class="row">
+    <div class="row row-site-search">
       <div class="col-12 col-sm-6 mb-4 mx-auto">
         <site-search [iconPath]="'/'"></site-search>
         {{ $external := resources.Get "js/site-search.js" }}

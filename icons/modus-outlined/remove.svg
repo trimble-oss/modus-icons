@@ -1,3 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <path d="M18 13H6c-.55 0-1-.45-1-1s.45-1 1-1h12c.55 0 1 .45 1 1s-.45 1-1 1Z"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg id="b" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><defs><symbol id="a" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/></symbol></defs><g id="c"><use width="24" height="24" xlink:href="#a"/></g><g id="d"><use width="24" height="24" xlink:href="#a"/><path d="m19,13H5c-.55,0-1-.45-1-1s.45-1,1-1h14c.55,0,1,.45,1,1s-.45,1-1,1Z" fill="#252a2e"/></g></svg>

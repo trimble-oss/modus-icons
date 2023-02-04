@@ -94,16 +94,6 @@
     "categories": []
   },
   {
-    "name": "circle-notch",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "circle-outline",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "circle-play",
     "tags": [],
     "categories": []
@@ -210,11 +200,6 @@
     "categories": []
   },
   {
-    "name": "flag",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "flash-on",
     "tags": [],
     "categories": []
@@ -236,11 +221,6 @@
     "tags": [
       "web"
     ],
-    "categories": []
-  },
-  {
-    "name": "hand",
-    "tags": [],
     "categories": []
   },
   {
@@ -277,11 +257,6 @@
     "tags": [
       "vehicle"
     ],
-    "categories": []
-  },
-  {
-    "name": "list-bulleted",
-    "tags": [],
     "categories": []
   },
   {

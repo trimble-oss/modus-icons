@@ -12,6 +12,11 @@
     ]
   },
   {
+    "name": "add-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "add-circle",
     "tags": [
       "add",
@@ -22,6 +27,11 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "add-heavy",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "address",
@@ -522,6 +532,11 @@
     ]
   },
   {
+    "name": "caret-down-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "caret-left",
     "tags": [
       "expand",
@@ -530,6 +545,11 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "caret-left-bold",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "caret-right",
@@ -542,6 +562,11 @@
     ]
   },
   {
+    "name": "caret-right-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "caret-up",
     "tags": [
       "expand",
@@ -550,6 +575,11 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "caret-up-bold",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "certificate",
@@ -583,6 +613,11 @@
     ]
   },
   {
+    "name": "check-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "check-circle",
     "tags": [
       "done",
@@ -592,6 +627,11 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "check-heavy",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "chevron-double-down",
@@ -644,6 +684,11 @@
     ]
   },
   {
+    "name": "chevron-left-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "chevron-right",
     "tags": [
       "expand",
@@ -652,6 +697,21 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "chevron-right-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "circle-notch",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "circle-outline",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "clipboard",
@@ -736,6 +796,16 @@
     ]
   },
   {
+    "name": "close-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "close-heavy",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "cloud",
     "tags": [
       "weather"
@@ -774,6 +844,11 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "collapse-bold",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "color-picker",
@@ -1014,6 +1089,11 @@
     ]
   },
   {
+    "name": "expand-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "expand-less",
     "tags": [
       "arrow",
@@ -1024,6 +1104,11 @@
     ]
   },
   {
+    "name": "expand-less-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "expand-more",
     "tags": [
       "arrow",
@@ -1032,6 +1117,11 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "expand-more-bold",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "fast-forward",
@@ -1216,6 +1306,16 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "flag",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "flag-finish",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "floorplan",
@@ -1406,6 +1506,11 @@
     ]
   },
   {
+    "name": "hand",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "hard-hat",
     "tags": [
       "builder",
@@ -1575,6 +1680,11 @@
     ]
   },
   {
+    "name": "launch-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "layer",
     "tags": [],
     "categories": [
@@ -1642,6 +1752,11 @@
     "categories": [
       "Save & Share"
     ]
+  },
+  {
+    "name": "list-bulleted",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "location",
@@ -1850,6 +1965,11 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "not-synced-bold",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "object-outline",
@@ -2204,6 +2324,11 @@
     ]
   },
   {
+    "name": "redo-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "refresh",
     "tags": [
       "arrow",
@@ -2218,6 +2343,11 @@
     ]
   },
   {
+    "name": "refresh-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "remove",
     "tags": [
       "minus"
@@ -2225,6 +2355,11 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "remove-bold",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "remove-circle",
@@ -2235,6 +2370,11 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "remove-heavy",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "reply",
@@ -2593,6 +2733,11 @@
     ]
   },
   {
+    "name": "sync-bold",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "sync-off",
     "tags": [
       "arrow",
@@ -2831,6 +2976,11 @@
     "categories": [
       "Actions & Navigation"
     ]
+  },
+  {
+    "name": "undo-bold",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "unfold-less",

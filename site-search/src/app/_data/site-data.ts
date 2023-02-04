@@ -20,6 +20,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "add-bold",
+        "displayName": "Add Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "add-circle",
         "displayName": "Add Circle",
         "tags": [
@@ -31,6 +39,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "add-heavy",
+        "displayName": "Add Heavy",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -677,6 +693,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "caret-down-bold",
+        "displayName": "Caret Down Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "caret-left",
         "displayName": "Caret Left",
         "tags": [
@@ -686,6 +710,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-left-bold",
+        "displayName": "Caret Left Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -703,6 +735,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "caret-right-bold",
+        "displayName": "Caret Right Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "caret-up",
         "displayName": "Caret Up",
         "tags": [
@@ -712,6 +752,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-up-bold",
+        "displayName": "Caret Up Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -756,6 +804,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "check-bold",
+        "displayName": "Check Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "check-circle",
         "displayName": "Check Circle",
         "tags": [
@@ -766,6 +822,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "check-heavy",
+        "displayName": "Check Heavy",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -835,6 +899,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "chevron-left-bold",
+        "displayName": "Chevron Left Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "chevron-right",
         "displayName": "Chevron Right",
         "tags": [
@@ -844,6 +916,30 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-right-bold",
+        "displayName": "Chevron Right Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "circle-notch",
+        "displayName": "Circle Notch",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "circle-outline",
+        "displayName": "Circle Outline",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -954,6 +1050,22 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "close-bold",
+        "displayName": "Close Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "close-heavy",
+        "displayName": "Close Heavy",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cloud",
         "displayName": "Cloud",
         "tags": [
@@ -1002,6 +1114,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "collapse-bold",
+        "displayName": "Collapse Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1316,6 +1436,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "expand-bold",
+        "displayName": "Expand Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "expand-less",
         "displayName": "Expand Less",
         "tags": [
@@ -1329,6 +1457,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "expand-less-bold",
+        "displayName": "Expand Less Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "expand-more",
         "displayName": "Expand More",
         "tags": [
@@ -1338,6 +1474,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "expand-more-bold",
+        "displayName": "Expand More Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1576,6 +1720,22 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "flag",
+        "displayName": "Flag",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "flag-finish",
+        "displayName": "Flag Finish",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1828,6 +1988,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "hand",
+        "displayName": "Hand",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "hard-hat",
         "displayName": "Hard Hat",
         "tags": [
@@ -2051,6 +2219,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "launch-bold",
+        "displayName": "Launch Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "layer",
         "displayName": "Layer",
         "tags": [],
@@ -2140,6 +2316,14 @@ export const siteData = [
         "categories": [
           "Save & Share"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "list-bulleted",
+        "displayName": "List Bulleted",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2411,6 +2595,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "not-synced-bold",
+        "displayName": "Not Synced Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2875,6 +3067,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "redo-bold",
+        "displayName": "Redo Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "refresh",
         "displayName": "Refresh",
         "tags": [
@@ -2892,6 +3092,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "refresh-bold",
+        "displayName": "Refresh Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "remove",
         "displayName": "Remove",
         "tags": [
@@ -2900,6 +3108,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "remove-bold",
+        "displayName": "Remove Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2913,6 +3129,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "remove-heavy",
+        "displayName": "Remove Heavy",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3381,6 +3605,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "sync-bold",
+        "displayName": "Sync Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "sync-off",
         "displayName": "Sync Off",
         "tags": [
@@ -3695,6 +3927,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "undo-bold",
+        "displayName": "Undo Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4188,6 +4428,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "add-bold",
+        "displayName": "Add Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "add-circle",
         "displayName": "Add Circle",
         "tags": [
@@ -4199,6 +4447,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "add-heavy",
+        "displayName": "Add Heavy",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4845,6 +5101,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "caret-down-bold",
+        "displayName": "Caret Down Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "caret-left",
         "displayName": "Caret Left",
         "tags": [
@@ -4854,6 +5118,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-left-bold",
+        "displayName": "Caret Left Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4871,6 +5143,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "caret-right-bold",
+        "displayName": "Caret Right Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "caret-up",
         "displayName": "Caret Up",
         "tags": [
@@ -4880,6 +5160,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "caret-up-bold",
+        "displayName": "Caret Up Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4924,6 +5212,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "check-bold",
+        "displayName": "Check Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "check-circle",
         "displayName": "Check Circle",
         "tags": [
@@ -4934,6 +5230,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "check-heavy",
+        "displayName": "Check Heavy",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5003,6 +5307,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "chevron-left-bold",
+        "displayName": "Chevron Left Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "chevron-right",
         "displayName": "Chevron Right",
         "tags": [
@@ -5012,6 +5324,30 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-right-bold",
+        "displayName": "Chevron Right Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "circle-notch",
+        "displayName": "Circle Notch",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "circle-outline",
+        "displayName": "Circle Outline",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5122,6 +5458,22 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "close-bold",
+        "displayName": "Close Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "close-heavy",
+        "displayName": "Close Heavy",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cloud",
         "displayName": "Cloud",
         "tags": [
@@ -5170,6 +5522,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "collapse-bold",
+        "displayName": "Collapse Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5484,6 +5844,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "expand-bold",
+        "displayName": "Expand Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "expand-less",
         "displayName": "Expand Less",
         "tags": [
@@ -5497,6 +5865,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "expand-less-bold",
+        "displayName": "Expand Less Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "expand-more",
         "displayName": "Expand More",
         "tags": [
@@ -5506,6 +5882,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "expand-more-bold",
+        "displayName": "Expand More Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5744,6 +6128,22 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "flag",
+        "displayName": "Flag",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "flag-finish",
+        "displayName": "Flag Finish",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5996,6 +6396,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "hand",
+        "displayName": "Hand",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "hard-hat",
         "displayName": "Hard Hat",
         "tags": [
@@ -6219,6 +6627,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "launch-bold",
+        "displayName": "Launch Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "layer",
         "displayName": "Layer",
         "tags": [],
@@ -6308,6 +6724,14 @@ export const siteData = [
         "categories": [
           "Save & Share"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "list-bulleted",
+        "displayName": "List Bulleted",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6579,6 +7003,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "not-synced-bold",
+        "displayName": "Not Synced Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7043,6 +7475,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "redo-bold",
+        "displayName": "Redo Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "refresh",
         "displayName": "Refresh",
         "tags": [
@@ -7060,6 +7500,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "refresh-bold",
+        "displayName": "Refresh Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "remove",
         "displayName": "Remove",
         "tags": [
@@ -7068,6 +7516,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "remove-bold",
+        "displayName": "Remove Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7081,6 +7537,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "remove-heavy",
+        "displayName": "Remove Heavy",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7549,6 +8013,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "sync-bold",
+        "displayName": "Sync Bold",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "sync-off",
         "displayName": "Sync Off",
         "tags": [
@@ -7863,6 +8335,14 @@ export const siteData = [
         "categories": [
           "Actions & Navigation"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "undo-bold",
+        "displayName": "Undo Bold",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -8481,22 +8961,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "circle-notch",
-        "displayName": "Circle Notch",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "circle-outline",
-        "displayName": "Circle Outline",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "circle-play",
         "displayName": "Circle Play",
         "tags": [],
@@ -8651,14 +9115,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "flag",
-        "displayName": "Flag",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "flash-on",
         "displayName": "Flash On",
         "tags": [],
@@ -8690,14 +9146,6 @@ export const siteData = [
         "tags": [
           "web"
         ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "hand",
-        "displayName": "Hand",
-        "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -8752,14 +9200,6 @@ export const siteData = [
         "tags": [
           "vehicle"
         ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "list-bulleted",
-        "displayName": "List Bulleted",
-        "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""

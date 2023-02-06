@@ -1,3 +1,8 @@
+<!-- Load SVG Sprites on IE 11 -->
+<script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/svg4everybody@2.1.9/dist/svg4everybody.min.js"></script>
+<script nomodule>svg4everybody();</script>
+
 {{- $vendor := resources.Match "js/vendor/*.js" -}}
 {{- $js := resources.Match "js/application.js" -}}
 {{- $docsJs := append $js $vendor | resources.Concat "assets/js/application.js" -}}
@@ -5,8 +10,7 @@
 {{- if eq hugo.Environment "production" -}}
   {{- $docsJs = $docsJs | resources.Minify -}}
 {{- end }}
-<script src=https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js></script>
-<script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"><\/script>')</script>
+<script src=/js/jquery.slim.min.js></script>
 <script src="{{ $docsJs.Permalink | relURL }}"></script>
 <script>
   $(function () {

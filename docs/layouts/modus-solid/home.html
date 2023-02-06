@@ -10,12 +10,7 @@
   {{ partialCached "navbar" . }}
 
   <main class="container" id="content">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb my-4 p-0">
-        <li class="breadcrumb-item"><a href="/">Home</a></li>
-        <li class="breadcrumb-item"><a href="/modus-solid/">Modus Solid</a></li>
-      </ol>
-    </nav>
+    {{- partial "set-nav-search" . -}}
     {{ partialCached "icons-modus-solid" . }}
     {{ partial "usage" (dict "context" . "iconset" "modus-solid") }}
     {{ .Content }}

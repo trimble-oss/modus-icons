@@ -1,34 +1,33 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/modus-solid/fonts/modus-icons.css">
+<link rel="stylesheet" href="/{{ .Section | urlize }}/fonts/modus-icons.css">
 
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb my-4 p-0">
-    <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item"><a href="/modus-solid/">Modus Solid</a></li>
-    <li class="breadcrumb-item active" aria-current="page">{{- .Title -}}</li>
-  </ol>
-</nav>
+{{- partial "single-nav-search" . -}}
 
 <div class="row align-items-md-center">
-  <div class="col-md-6 col-lg-8">
+  <div class="col-sm-8">
     <h1 class="display-3 font-weight-bold">{{- .Title -}}</h1>
 
     {{ if or .Params.tags .Params.categories -}}
     <ul class="list-unstyled mb-3 mb-md-0">
       <li><strong>Tags:</strong> {{ range $i, $e := .Params.tags -}}
         {{- if $i -}} {{ end -}}
-        <a href='/modus-solid/?filter={{ . | urlize }}' class="chip chip-sm chip-solid bg-transparent mr-2 py-0 px-2">{{ $e | humanize }}</a>
+        <a href='/modus-solid/?filter={{ . | urlize }}' class="chip chip-sm chip-outline mr-2 py-0 px-2">
+          {{- $e | humanize | lower -}}
+        </a>
         {{- end -}}
       </li>
       {{ with .Params.categories }}<li class="mt-2"><strong>Category:</strong>
-        <a href="/modus-solid/?filter={{ delimit . ", " | lower }}" class="text-dark mr-2">{{ delimit . ", " }}</a>
+        <a href="/modus-solid/?filter={{ delimit . ", " | lower }}" class="text-dark mr-2">
+          {{- delimit . ", " -}}
+        </a>
       </li>
       {{ end }}
     </ul>
     {{- end }}
   </div>
-  <div class="col-md-6 col-lg-4 float-right">
-    <a href="/transportation/svg/{{- .Title | urlize | lower -}}.svg" class="btn btn-primary mt-5 pl-1 float-right"
+  <div class="col-sm-4 float-right">
+    <a href="/{{ .Section | urlize }}/svg/{{- .Title | urlize | lower -}}.svg"
+      class="btn btn-primary mt-sm-5 pl-1 float-right"
       download>
       <img src="/modus-solid/svg/download.svg" class="filter-invert" alt width="22" height="22">
       Download SVG</a>
@@ -146,7 +145,7 @@
             <div class="navbar-nav ml-auto">
               <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 text-white" data-toggle="tooltip"
                 data-placement="bottom" title="{{- .Title -}}">
-          <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
+                  <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
               </button>
             </div>
         </nav>
@@ -172,7 +171,6 @@
     <p>Use when you don't want any dependency.</p>
     <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
     {{ highlight $svgHtml "html" "" }}
-
-      </div>
+  </div>
 </div>
 {{ end }}

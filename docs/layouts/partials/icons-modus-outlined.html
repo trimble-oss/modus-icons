@@ -1,30 +1,12 @@
 <div class="my-5">
   {{- partial "icons-search" . }}
   <div class="row">
-    <div class="col-12 border-bottom mb-4">
+    <div class="col-12 border-bottom mb-4"></div>
     </div>
-  </div>
-
-  <ul class="row row-cols-2 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
-    {{ range (where .Site.RegularPages "Section" "modus-outlined") -}}
-    {{- $filename := .File.TranslationBaseName -}}
-    {{- with .Site.GetPage .File.Path }}
-    {{ if not (in .Params.tags "deprecated") }}
-    <li class="col mb-4" {{ with .Params.tags }} data-tags="{{ delimit . " " }}" {{ end }}{{ with .Params.categories }}
-      data-categories="{{- delimit . " " | lower -}}" {{- end -}}>
-      <a class="d-block text-dark text-decoration-none" href="{{ .RelPermalink }}">
-        <div class="p-3 py-4 mb-2 bg-light text-center rounded">
-          <svg class="mi" width="1em" height="1em" fill="currentColor">
-            <use xlink:href="/modus-outlined-icons.svg#{{ $filename }}" />
-          </svg>
-        </div>
-        <div class="name text-muted text-decoration-none text-center pt-1">
-          {{- .Title | lower -}}
-        </div>
-      </a>
-    </li>
-    {{- end }}
-    {{- end }}
-    {{- end }}
-  </ul>
+  <div class="icon-set-list">
+    <icon-set-list setName="modus-outlined"></icon-set-list>
+    {{ $external := resources.Get "js/app-components.js" }}
+    {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $appComponentsJs.RelPermalink }}" defer></script>
+    </div>
 </div>

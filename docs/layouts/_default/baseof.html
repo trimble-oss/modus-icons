@@ -5,7 +5,7 @@
   {{- partial "head" . }}
 </head>
 
-<body id="icons-body">
+<body id="icons-body" class="{{ if .IsPage }}single{{ else }}list{{ end }}">
   {{ partialCached "skippy" . }}
   {{ partialCached "navbar" . }}
 

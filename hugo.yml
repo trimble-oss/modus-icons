@@ -13,7 +13,6 @@ security:
   funcs:
     getenv:
       - ^HUGO_
-      - NETLIFY
 
 markup:
   goldmark:
@@ -56,6 +55,10 @@ module:
       target:           static/js/list.min.js
     - source:           node_modules/list.js/dist/list.min.js.map
       target:           static/js/list.min.js.map
+    - source:           node_modules/jquery/dist/jquery.slim.min.js
+      target:           static/js/jquery.slim.min.js
+    - source:           node_modules/jquery/dist/jquery.slim.min.map
+      target:           static/js/jquery.slim.min.map
 
 params:
   description:          "SVG icon library for Modus"
@@ -119,8 +122,28 @@ menu:
       weight: 2
     - name: Transportation
       url: "/transportation/"
-      pre: "<div class='font-weight-bold ml-3 mt-3'>Trimble Sectors</div>"
+      pre: "<div class='h5 ml-3 mt-3 opacity-75'>Trimble Sectors</div>"
       weight: 3
+
+  categories:
+     - name: Actions & Navigation
+       url: ""
+     - name: Account & Support
+       url: ""
+     - name: Alerts & Messages
+       url: ""
+     - name: Devices
+       url: ""
+     - name: Folders & Files
+       url: ""
+     - name: Presentations & View
+       url: ""
+     - name: Programs
+       url: ""
+     - name: Save & Share
+       url: ""
+     - name: Weather
+       url: ""
 
 # https://gohugo.io/getting-started/configuration/#configure-minify
 minify:

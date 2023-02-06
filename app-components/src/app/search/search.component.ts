@@ -8,7 +8,7 @@ import { IconService } from '../icon.service';
 })
 export class SearchComponent implements OnInit {
   @Input() basehref? = '';
-  @Input() iconpath? = '';
+  @Input() assetpath? = '/';
   searchResults: any[] = [];
   searchString = '';
 

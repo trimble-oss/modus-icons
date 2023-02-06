@@ -140,7 +140,7 @@ async function buildMetadata(config) {
         spaces: 2,
       });
       fs.writeFileSync(
-        path.join('site-search', 'src', 'app', '_data', 'site-data.ts'),
+        path.join('app-components', 'src', 'app', '_data', 'site-data.ts'),
         `export const siteData = ${JSON.stringify(siteData, null, 2)};`
       );
     })

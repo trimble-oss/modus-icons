@@ -1,12 +1,12 @@
 /dist/
+/app-components/
 /vendor/
 /_site/
-/site-search/
 
 *.min.js
 build-pages.js
 instant-page.min.js
 protractor.conf.js
 scroll-to-top.js
-site-search.js
+app-components.js
 theme-toggle.js

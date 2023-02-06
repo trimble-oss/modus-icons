@@ -51,10 +51,6 @@ module:
       target:           assets/js/vendor/bootstrap.bundle.min.js
     - source:           node_modules/clipboard/dist/clipboard.min.js
       target:           assets/js/vendor/clipboard.min.js
-    - source:           node_modules/list.js/dist/list.min.js
-      target:           static/js/list.min.js
-    - source:           node_modules/list.js/dist/list.min.js.map
-      target:           static/js/list.min.js.map
     - source:           node_modules/jquery/dist/jquery.slim.min.js
       target:           static/js/jquery.slim.min.js
     - source:           node_modules/jquery/dist/jquery.slim.min.map
@@ -125,33 +121,11 @@ menu:
       pre: "<div class='h5 ml-3 mt-3 opacity-75'>Trimble Sectors</div>"
       weight: 3
 
-  categories:
-     - name: Actions & Navigation
-       url: ""
-     - name: Account & Support
-       url: ""
-     - name: Alerts & Messages
-       url: ""
-     - name: Devices
-       url: ""
-     - name: Folders & Files
-       url: ""
-     - name: Presentations & View
-       url: ""
-     - name: Programs
-       url: ""
-     - name: Save & Share
-       url: ""
-     - name: Weather
-       url: ""
-
 # https://gohugo.io/getting-started/configuration/#configure-minify
 minify:
   minifyOutput: true
   tdewolff:
     html:
-      keepEndTags: true
-      keepQuotes: true
       keepWhitespace: true
     xml:
       keepWhitespace: true

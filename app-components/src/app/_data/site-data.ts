@@ -4612,7 +4612,9 @@ export const siteData = [
         "tags": [
           "directory"
         ],
-        "categories": [],
+        "categories": [
+          "Folders & Files"
+        ],
         "deprecated": false,
         "useInstead": ""
       }

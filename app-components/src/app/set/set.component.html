@@ -5,7 +5,7 @@
       class="form-control"
       [placeholder]="'Filter ' + iconSet.displayName + ' icons'"
       [(ngModel)]="filterTerm"
-      (input)="filterTerm = $event.target.value" />
+      (input)="filterIcons($event.target.value)" />
     <div class="input-icon">
       <img
         [src]="assetpath + 'modus-solid/svg/filter.svg'"
@@ -50,7 +50,7 @@
           <li role="menuitem" *ngFor="let cat of categoryList">
             <a
               class="dropdown-item"
-              (click)="selectedCategory = cat; showCategories = true"
+              (click)="selectCategory(cat)"
               [ngClass]="{ active: selectedCategory === cat }"
               href="javascript: void(0);"
               >{{ cat }}</a

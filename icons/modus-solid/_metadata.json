@@ -13,8 +13,15 @@
   },
   {
     "name": "add-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "add",
+      "create",
+      "new",
+      "plus"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "add-circle",
@@ -30,8 +37,15 @@
   },
   {
     "name": "add-heavy",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "add",
+      "create",
+      "new",
+      "plus"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "address",
@@ -533,8 +547,13 @@
   },
   {
     "name": "caret-down-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "caret-left",
@@ -548,8 +567,13 @@
   },
   {
     "name": "caret-left-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "caret-right",
@@ -563,8 +587,13 @@
   },
   {
     "name": "caret-right-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "caret-up",
@@ -578,8 +607,13 @@
   },
   {
     "name": "caret-up-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "certificate",
@@ -614,8 +648,14 @@
   },
   {
     "name": "check-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "done",
+      "success",
+      "tick"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "check-circle",
@@ -630,8 +670,14 @@
   },
   {
     "name": "check-heavy",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "done",
+      "success",
+      "tick"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "chevron-double-down",
@@ -685,8 +731,13 @@
   },
   {
     "name": "chevron-left-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "chevron-right",
@@ -700,18 +751,27 @@
   },
   {
     "name": "chevron-right-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "circle-notch",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "circle-outline",
     "tags": [],
-    "categories": []
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "clipboard",
@@ -797,13 +857,33 @@
   },
   {
     "name": "close-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "cancel",
+      "clear",
+      "delete",
+      "exit",
+      "remove",
+      "reset",
+      "x"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "close-heavy",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "cancel",
+      "clear",
+      "delete",
+      "exit",
+      "remove",
+      "reset",
+      "x"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "cloud",
@@ -847,8 +927,12 @@
   },
   {
     "name": "collapse-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrows"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "color-picker",
@@ -1024,7 +1108,10 @@
   },
   {
     "name": "drag-horizontal",
-    "tags": [],
+    "tags": [
+      "grab",
+      "grip"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -1090,8 +1177,13 @@
   },
   {
     "name": "expand-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "chevron"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "expand-less",
@@ -1105,8 +1197,13 @@
   },
   {
     "name": "expand-less-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "chevron"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "expand-more",
@@ -1120,8 +1217,13 @@
   },
   {
     "name": "expand-more-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "chevron"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "fast-forward",
@@ -1309,13 +1411,25 @@
   },
   {
     "name": "flag",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "symbol",
+      "mark",
+      "tag"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "flag-finish",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "symbol",
+      "mark",
+      "tag"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "floorplan",
@@ -1340,7 +1454,10 @@
   },
   {
     "name": "fog",
-    "tags": [],
+    "tags": [
+      "mist",
+      "gloom"
+    ],
     "categories": [
       "Weather"
     ]
@@ -1377,7 +1494,10 @@
   },
   {
     "name": "folder-open",
-    "tags": [],
+    "tags": [
+      "directory",
+      "content"
+    ],
     "categories": [
       "Folders & Files"
     ]
@@ -1407,21 +1527,28 @@
   },
   {
     "name": "folder-public",
-    "tags": [],
+    "tags": [
+      "directory"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "folder-share",
-    "tags": [],
+    "tags": [
+      "directory"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
     "name": "folder-unlocked",
-    "tags": [],
+    "tags": [
+      "directory",
+      "open"
+    ],
     "categories": [
       "Folders & Files"
     ]
@@ -1434,7 +1561,7 @@
       "walk"
     ],
     "categories": [
-      "Presentations & Views"
+      "Presentations & View"
     ]
   },
   {
@@ -1482,7 +1609,7 @@
       "weather"
     ],
     "categories": [
-      "weather"
+      "Weather"
     ]
   },
   {
@@ -1492,7 +1619,7 @@
       "weather"
     ],
     "categories": [
-      "weather"
+      "Weather"
     ]
   },
   {
@@ -1507,8 +1634,12 @@
   },
   {
     "name": "hand",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "pan"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "hard-hat",
@@ -1549,7 +1680,7 @@
       "topview"
     ],
     "categories": [
-      "Presentations & Views"
+      "Presentations & View"
     ]
   },
   {
@@ -1612,7 +1743,9 @@
   },
   {
     "name": "image-scene",
-    "tags": [],
+    "tags": [
+      "picture"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -1645,14 +1778,18 @@
   },
   {
     "name": "keyboard",
-    "tags": [],
+    "tags": [
+      "input"
+    ],
     "categories": [
       "Devices"
     ]
   },
   {
     "name": "keyboard-keys",
-    "tags": [],
+    "tags": [
+      "input"
+    ],
     "categories": [
       "Devices"
     ]
@@ -1681,8 +1818,14 @@
   },
   {
     "name": "launch-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "view",
+      "open",
+      "arrow"
+    ],
+    "categories": [
+      "Programs"
+    ]
   },
   {
     "name": "layer",
@@ -1755,8 +1898,12 @@
   },
   {
     "name": "list-bulleted",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "checklist"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
   },
   {
     "name": "location",
@@ -1831,14 +1978,20 @@
   },
   {
     "name": "map-marker",
-    "tags": [],
+    "tags": [
+      "symbol",
+      "mark"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "map-markers",
-    "tags": [],
+    "tags": [
+      "symbol",
+      "mark"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -1968,8 +2121,16 @@
   },
   {
     "name": "not-synced-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "repeat",
+      "rotate",
+      "spin",
+      "update"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "object-outline",
@@ -2325,8 +2486,13 @@
   },
   {
     "name": "redo-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "turn"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "refresh",
@@ -2344,8 +2510,17 @@
   },
   {
     "name": "refresh-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "refresh",
+      "reload",
+      "rotate",
+      "round",
+      "spin"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "remove",
@@ -2358,8 +2533,12 @@
   },
   {
     "name": "remove-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "minus"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "remove-circle",
@@ -2373,8 +2552,12 @@
   },
   {
     "name": "remove-heavy",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "minus"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "reply",
@@ -2734,8 +2917,16 @@
   },
   {
     "name": "sync-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "repeat",
+      "rotate",
+      "spin",
+      "update"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "sync-off",
@@ -2901,7 +3092,9 @@
   },
   {
     "name": "toggle-left-panel",
-    "tags": [],
+    "tags": [
+      "switch"
+    ],
     "categories": [
       "Actions & Navigation"
     ]
@@ -2926,14 +3119,20 @@
   },
   {
     "name": "traffic-cone",
-    "tags": [],
+    "tags": [
+      "symbol",
+      "mark"
+    ],
     "categories": [
       "Presentations & View"
     ]
   },
   {
     "name": "tree-structure",
-    "tags": [],
+    "tags": [
+      "data",
+      "organize"
+    ],
     "categories": [
       "Presentations & View"
     ]
@@ -2979,8 +3178,13 @@
   },
   {
     "name": "undo-bold",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "arrow",
+      "reverse"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
   },
   {
     "name": "unfold-less",
@@ -3204,7 +3408,10 @@
   },
   {
     "name": "window",
-    "tags": [],
+    "tags": [
+      "view",
+      "screen"
+    ],
     "categories": [
       "Presentations & View"
     ]

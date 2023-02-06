@@ -22,8 +22,15 @@ export const siteData = [
       {
         "name": "add-bold",
         "displayName": "Add Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "add",
+          "create",
+          "new",
+          "plus"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -45,8 +52,15 @@ export const siteData = [
       {
         "name": "add-heavy",
         "displayName": "Add Heavy",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "add",
+          "create",
+          "new",
+          "plus"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -695,8 +709,13 @@ export const siteData = [
       {
         "name": "caret-down-bold",
         "displayName": "Caret Down Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -716,8 +735,13 @@ export const siteData = [
       {
         "name": "caret-left-bold",
         "displayName": "Caret Left Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -737,8 +761,13 @@ export const siteData = [
       {
         "name": "caret-right-bold",
         "displayName": "Caret Right Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -758,8 +787,13 @@ export const siteData = [
       {
         "name": "caret-up-bold",
         "displayName": "Caret Up Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -806,8 +840,14 @@ export const siteData = [
       {
         "name": "check-bold",
         "displayName": "Check Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "done",
+          "success",
+          "tick"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -828,8 +868,14 @@ export const siteData = [
       {
         "name": "check-heavy",
         "displayName": "Check Heavy",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "done",
+          "success",
+          "tick"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -901,8 +947,13 @@ export const siteData = [
       {
         "name": "chevron-left-bold",
         "displayName": "Chevron Left Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -922,8 +973,13 @@ export const siteData = [
       {
         "name": "chevron-right-bold",
         "displayName": "Chevron Right Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -931,7 +987,9 @@ export const siteData = [
         "name": "circle-notch",
         "displayName": "Circle Notch",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -939,7 +997,9 @@ export const siteData = [
         "name": "circle-outline",
         "displayName": "Circle Outline",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1052,16 +1112,36 @@ export const siteData = [
       {
         "name": "close-bold",
         "displayName": "Close Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "cancel",
+          "clear",
+          "delete",
+          "exit",
+          "remove",
+          "reset",
+          "x"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "close-heavy",
         "displayName": "Close Heavy",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "cancel",
+          "clear",
+          "delete",
+          "exit",
+          "remove",
+          "reset",
+          "x"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1120,8 +1200,12 @@ export const siteData = [
       {
         "name": "collapse-bold",
         "displayName": "Collapse Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrows"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1351,7 +1435,10 @@ export const siteData = [
       {
         "name": "drag-horizontal",
         "displayName": "Drag Horizontal",
-        "tags": [],
+        "tags": [
+          "grab",
+          "grip"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -1438,8 +1525,13 @@ export const siteData = [
       {
         "name": "expand-bold",
         "displayName": "Expand Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1459,8 +1551,13 @@ export const siteData = [
       {
         "name": "expand-less-bold",
         "displayName": "Expand Less Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1480,8 +1577,13 @@ export const siteData = [
       {
         "name": "expand-more-bold",
         "displayName": "Expand More Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1726,16 +1828,28 @@ export const siteData = [
       {
         "name": "flag",
         "displayName": "Flag",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "symbol",
+          "mark",
+          "tag"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "flag-finish",
         "displayName": "Flag Finish",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "symbol",
+          "mark",
+          "tag"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -1769,7 +1883,10 @@ export const siteData = [
       {
         "name": "fog",
         "displayName": "Fog",
-        "tags": [],
+        "tags": [
+          "mist",
+          "gloom"
+        ],
         "categories": [
           "Weather"
         ],
@@ -1818,7 +1935,10 @@ export const siteData = [
       {
         "name": "folder-open",
         "displayName": "Folder Open",
-        "tags": [],
+        "tags": [
+          "directory",
+          "content"
+        ],
         "categories": [
           "Folders & Files"
         ],
@@ -1857,7 +1977,9 @@ export const siteData = [
       {
         "name": "folder-public",
         "displayName": "Folder Public",
-        "tags": [],
+        "tags": [
+          "directory"
+        ],
         "categories": [
           "Folders & Files"
         ],
@@ -1867,7 +1989,9 @@ export const siteData = [
       {
         "name": "folder-share",
         "displayName": "Folder Share",
-        "tags": [],
+        "tags": [
+          "directory"
+        ],
         "categories": [
           "Folders & Files"
         ],
@@ -1877,7 +2001,10 @@ export const siteData = [
       {
         "name": "folder-unlocked",
         "displayName": "Folder Unlocked",
-        "tags": [],
+        "tags": [
+          "directory",
+          "open"
+        ],
         "categories": [
           "Folders & Files"
         ],
@@ -1893,7 +2020,7 @@ export const siteData = [
           "walk"
         ],
         "categories": [
-          "Presentations & Views"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1956,7 +2083,7 @@ export const siteData = [
           "weather"
         ],
         "categories": [
-          "weather"
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1969,7 +2096,7 @@ export const siteData = [
           "weather"
         ],
         "categories": [
-          "weather"
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1990,8 +2117,12 @@ export const siteData = [
       {
         "name": "hand",
         "displayName": "Hand",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "pan"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2044,7 +2175,7 @@ export const siteData = [
           "topview"
         ],
         "categories": [
-          "Presentations & Views"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2128,7 +2259,9 @@ export const siteData = [
       {
         "name": "image-scene",
         "displayName": "Image Scene",
-        "tags": [],
+        "tags": [
+          "picture"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -2173,7 +2306,9 @@ export const siteData = [
       {
         "name": "keyboard",
         "displayName": "Keyboard",
-        "tags": [],
+        "tags": [
+          "input"
+        ],
         "categories": [
           "Devices"
         ],
@@ -2183,7 +2318,9 @@ export const siteData = [
       {
         "name": "keyboard-keys",
         "displayName": "Keyboard Keys",
-        "tags": [],
+        "tags": [
+          "input"
+        ],
         "categories": [
           "Devices"
         ],
@@ -2221,8 +2358,14 @@ export const siteData = [
       {
         "name": "launch-bold",
         "displayName": "Launch Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "view",
+          "open",
+          "arrow"
+        ],
+        "categories": [
+          "Programs"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2322,8 +2465,12 @@ export const siteData = [
       {
         "name": "list-bulleted",
         "displayName": "List Bulleted",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "checklist"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2422,7 +2569,10 @@ export const siteData = [
       {
         "name": "map-marker",
         "displayName": "Map Marker",
-        "tags": [],
+        "tags": [
+          "symbol",
+          "mark"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -2432,7 +2582,10 @@ export const siteData = [
       {
         "name": "map-markers",
         "displayName": "Map Markers",
-        "tags": [],
+        "tags": [
+          "symbol",
+          "mark"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -2601,8 +2754,16 @@ export const siteData = [
       {
         "name": "not-synced-bold",
         "displayName": "Not Synced Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "repeat",
+          "rotate",
+          "spin",
+          "update"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3069,8 +3230,13 @@ export const siteData = [
       {
         "name": "redo-bold",
         "displayName": "Redo Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "turn"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3094,8 +3260,17 @@ export const siteData = [
       {
         "name": "refresh-bold",
         "displayName": "Refresh Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "refresh",
+          "reload",
+          "rotate",
+          "round",
+          "spin"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3114,8 +3289,12 @@ export const siteData = [
       {
         "name": "remove-bold",
         "displayName": "Remove Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "minus"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3135,8 +3314,12 @@ export const siteData = [
       {
         "name": "remove-heavy",
         "displayName": "Remove Heavy",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "minus"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3607,8 +3790,16 @@ export const siteData = [
       {
         "name": "sync-bold",
         "displayName": "Sync Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "repeat",
+          "rotate",
+          "spin",
+          "update"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -3828,7 +4019,9 @@ export const siteData = [
       {
         "name": "toggle-left-panel",
         "displayName": "Toggle Left Panel",
-        "tags": [],
+        "tags": [
+          "switch"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -3862,7 +4055,10 @@ export const siteData = [
       {
         "name": "traffic-cone",
         "displayName": "Traffic Cone",
-        "tags": [],
+        "tags": [
+          "symbol",
+          "mark"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -3872,7 +4068,10 @@ export const siteData = [
       {
         "name": "tree-structure",
         "displayName": "Tree Structure",
-        "tags": [],
+        "tags": [
+          "data",
+          "organize"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -3933,8 +4132,13 @@ export const siteData = [
       {
         "name": "undo-bold",
         "displayName": "Undo Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "reverse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4224,7 +4428,10 @@ export const siteData = [
       {
         "name": "window",
         "displayName": "Window",
-        "tags": [],
+        "tags": [
+          "view",
+          "screen"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -4381,7 +4588,9 @@ export const siteData = [
         "name": "compare-arrows",
         "displayName": "Compare Arrows",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4391,7 +4600,9 @@ export const siteData = [
         "tags": [
           "resize"
         ],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4430,8 +4641,15 @@ export const siteData = [
       {
         "name": "add-bold",
         "displayName": "Add Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "add",
+          "create",
+          "new",
+          "plus"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4453,8 +4671,15 @@ export const siteData = [
       {
         "name": "add-heavy",
         "displayName": "Add Heavy",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "add",
+          "create",
+          "new",
+          "plus"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5103,8 +5328,13 @@ export const siteData = [
       {
         "name": "caret-down-bold",
         "displayName": "Caret Down Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5124,8 +5354,13 @@ export const siteData = [
       {
         "name": "caret-left-bold",
         "displayName": "Caret Left Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5145,8 +5380,13 @@ export const siteData = [
       {
         "name": "caret-right-bold",
         "displayName": "Caret Right Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5166,8 +5406,13 @@ export const siteData = [
       {
         "name": "caret-up-bold",
         "displayName": "Caret Up Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5214,8 +5459,14 @@ export const siteData = [
       {
         "name": "check-bold",
         "displayName": "Check Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "done",
+          "success",
+          "tick"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5236,8 +5487,14 @@ export const siteData = [
       {
         "name": "check-heavy",
         "displayName": "Check Heavy",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "done",
+          "success",
+          "tick"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5309,8 +5566,13 @@ export const siteData = [
       {
         "name": "chevron-left-bold",
         "displayName": "Chevron Left Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5330,8 +5592,13 @@ export const siteData = [
       {
         "name": "chevron-right-bold",
         "displayName": "Chevron Right Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5339,7 +5606,9 @@ export const siteData = [
         "name": "circle-notch",
         "displayName": "Circle Notch",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5347,7 +5616,9 @@ export const siteData = [
         "name": "circle-outline",
         "displayName": "Circle Outline",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5460,16 +5731,36 @@ export const siteData = [
       {
         "name": "close-bold",
         "displayName": "Close Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "cancel",
+          "clear",
+          "delete",
+          "exit",
+          "remove",
+          "reset",
+          "x"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "close-heavy",
         "displayName": "Close Heavy",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "cancel",
+          "clear",
+          "delete",
+          "exit",
+          "remove",
+          "reset",
+          "x"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5528,8 +5819,12 @@ export const siteData = [
       {
         "name": "collapse-bold",
         "displayName": "Collapse Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrows"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5759,7 +6054,10 @@ export const siteData = [
       {
         "name": "drag-horizontal",
         "displayName": "Drag Horizontal",
-        "tags": [],
+        "tags": [
+          "grab",
+          "grip"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -5846,8 +6144,13 @@ export const siteData = [
       {
         "name": "expand-bold",
         "displayName": "Expand Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5867,8 +6170,13 @@ export const siteData = [
       {
         "name": "expand-less-bold",
         "displayName": "Expand Less Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5888,8 +6196,13 @@ export const siteData = [
       {
         "name": "expand-more-bold",
         "displayName": "Expand More Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6134,16 +6447,28 @@ export const siteData = [
       {
         "name": "flag",
         "displayName": "Flag",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "symbol",
+          "mark",
+          "tag"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
       {
         "name": "flag-finish",
         "displayName": "Flag Finish",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "symbol",
+          "mark",
+          "tag"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6177,7 +6502,10 @@ export const siteData = [
       {
         "name": "fog",
         "displayName": "Fog",
-        "tags": [],
+        "tags": [
+          "mist",
+          "gloom"
+        ],
         "categories": [
           "Weather"
         ],
@@ -6226,7 +6554,10 @@ export const siteData = [
       {
         "name": "folder-open",
         "displayName": "Folder Open",
-        "tags": [],
+        "tags": [
+          "directory",
+          "content"
+        ],
         "categories": [
           "Folders & Files"
         ],
@@ -6265,7 +6596,9 @@ export const siteData = [
       {
         "name": "folder-public",
         "displayName": "Folder Public",
-        "tags": [],
+        "tags": [
+          "directory"
+        ],
         "categories": [
           "Folders & Files"
         ],
@@ -6275,7 +6608,9 @@ export const siteData = [
       {
         "name": "folder-share",
         "displayName": "Folder Share",
-        "tags": [],
+        "tags": [
+          "directory"
+        ],
         "categories": [
           "Folders & Files"
         ],
@@ -6285,7 +6620,10 @@ export const siteData = [
       {
         "name": "folder-unlocked",
         "displayName": "Folder Unlocked",
-        "tags": [],
+        "tags": [
+          "directory",
+          "open"
+        ],
         "categories": [
           "Folders & Files"
         ],
@@ -6301,7 +6639,7 @@ export const siteData = [
           "walk"
         ],
         "categories": [
-          "Presentations & Views"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6364,7 +6702,7 @@ export const siteData = [
           "weather"
         ],
         "categories": [
-          "weather"
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6377,7 +6715,7 @@ export const siteData = [
           "weather"
         ],
         "categories": [
-          "weather"
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6398,8 +6736,12 @@ export const siteData = [
       {
         "name": "hand",
         "displayName": "Hand",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "pan"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6452,7 +6794,7 @@ export const siteData = [
           "topview"
         ],
         "categories": [
-          "Presentations & Views"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6536,7 +6878,9 @@ export const siteData = [
       {
         "name": "image-scene",
         "displayName": "Image Scene",
-        "tags": [],
+        "tags": [
+          "picture"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -6581,7 +6925,9 @@ export const siteData = [
       {
         "name": "keyboard",
         "displayName": "Keyboard",
-        "tags": [],
+        "tags": [
+          "input"
+        ],
         "categories": [
           "Devices"
         ],
@@ -6591,7 +6937,9 @@ export const siteData = [
       {
         "name": "keyboard-keys",
         "displayName": "Keyboard Keys",
-        "tags": [],
+        "tags": [
+          "input"
+        ],
         "categories": [
           "Devices"
         ],
@@ -6629,8 +6977,14 @@ export const siteData = [
       {
         "name": "launch-bold",
         "displayName": "Launch Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "view",
+          "open",
+          "arrow"
+        ],
+        "categories": [
+          "Programs"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6730,8 +7084,12 @@ export const siteData = [
       {
         "name": "list-bulleted",
         "displayName": "List Bulleted",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "checklist"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6830,7 +7188,10 @@ export const siteData = [
       {
         "name": "map-marker",
         "displayName": "Map Marker",
-        "tags": [],
+        "tags": [
+          "symbol",
+          "mark"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -6840,7 +7201,10 @@ export const siteData = [
       {
         "name": "map-markers",
         "displayName": "Map Markers",
-        "tags": [],
+        "tags": [
+          "symbol",
+          "mark"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -7009,8 +7373,16 @@ export const siteData = [
       {
         "name": "not-synced-bold",
         "displayName": "Not Synced Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "repeat",
+          "rotate",
+          "spin",
+          "update"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7477,8 +7849,13 @@ export const siteData = [
       {
         "name": "redo-bold",
         "displayName": "Redo Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "turn"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7502,8 +7879,17 @@ export const siteData = [
       {
         "name": "refresh-bold",
         "displayName": "Refresh Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "refresh",
+          "reload",
+          "rotate",
+          "round",
+          "spin"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7522,8 +7908,12 @@ export const siteData = [
       {
         "name": "remove-bold",
         "displayName": "Remove Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "minus"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7543,8 +7933,12 @@ export const siteData = [
       {
         "name": "remove-heavy",
         "displayName": "Remove Heavy",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "minus"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -8015,8 +8409,16 @@ export const siteData = [
       {
         "name": "sync-bold",
         "displayName": "Sync Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "repeat",
+          "rotate",
+          "spin",
+          "update"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -8236,7 +8638,9 @@ export const siteData = [
       {
         "name": "toggle-left-panel",
         "displayName": "Toggle Left Panel",
-        "tags": [],
+        "tags": [
+          "switch"
+        ],
         "categories": [
           "Actions & Navigation"
         ],
@@ -8270,7 +8674,10 @@ export const siteData = [
       {
         "name": "traffic-cone",
         "displayName": "Traffic Cone",
-        "tags": [],
+        "tags": [
+          "symbol",
+          "mark"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -8280,7 +8687,10 @@ export const siteData = [
       {
         "name": "tree-structure",
         "displayName": "Tree Structure",
-        "tags": [],
+        "tags": [
+          "data",
+          "organize"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -8341,8 +8751,13 @@ export const siteData = [
       {
         "name": "undo-bold",
         "displayName": "Undo Bold",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "arrow",
+          "reverse"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -8632,7 +9047,10 @@ export const siteData = [
       {
         "name": "window",
         "displayName": "Window",
-        "tags": [],
+        "tags": [
+          "view",
+          "screen"
+        ],
         "categories": [
           "Presentations & View"
         ],
@@ -8789,7 +9207,9 @@ export const siteData = [
         "name": "compare-arrows",
         "displayName": "Compare Arrows",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -8797,7 +9217,9 @@ export const siteData = [
         "name": "crop",
         "displayName": "Crop",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Actions & Navigation"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -8807,7 +9229,9 @@ export const siteData = [
         "tags": [
           "directory"
         ],
-        "categories": [],
+        "categories": [
+          "Folders & Files"
+        ],
         "deprecated": false,
         "useInstead": ""
       }

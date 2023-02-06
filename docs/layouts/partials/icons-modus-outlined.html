@@ -1,12 +1,12 @@
-
 <div class="my-5">
   {{- partial "icons-search" . }}
   <div class="row">
-    <div class="col-12 border-bottom mb-4">
+    <div class="col-12 border-bottom mb-4"></div>
     </div>
-  </div>
-<icon-set-list setName="modus-outlined"></icon-set-list>
-  {{ $external := resources.Get "js/app-components.js" }}
-  {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
-  <script src="{{ $appComponentsJs.RelPermalink }}" defer></script>
+  <div class="icon-set-list">
+    <icon-set-list setName="modus-outlined"></icon-set-list>
+    {{ $external := resources.Get "js/app-components.js" }}
+    {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $appComponentsJs.RelPermalink }}" defer></script>
+    </div>
 </div>

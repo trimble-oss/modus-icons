@@ -1893,7 +1893,7 @@ export const siteData = [
           "walk"
         ],
         "categories": [
-          "Presentations & Views"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1956,7 +1956,7 @@ export const siteData = [
           "weather"
         ],
         "categories": [
-          "weather"
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1969,7 +1969,7 @@ export const siteData = [
           "weather"
         ],
         "categories": [
-          "weather"
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2044,7 +2044,7 @@ export const siteData = [
           "topview"
         ],
         "categories": [
-          "Presentations & Views"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6301,7 +6301,7 @@ export const siteData = [
           "walk"
         ],
         "categories": [
-          "Presentations & Views"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6364,7 +6364,7 @@ export const siteData = [
           "weather"
         ],
         "categories": [
-          "weather"
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6377,7 +6377,7 @@ export const siteData = [
           "weather"
         ],
         "categories": [
-          "weather"
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6452,7 +6452,7 @@ export const siteData = [
           "topview"
         ],
         "categories": [
-          "Presentations & Views"
+          "Presentations & View"
         ],
         "deprecated": false,
         "useInstead": ""

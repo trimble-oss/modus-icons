@@ -30,7 +30,7 @@
     "test:htmlhint": "htmlhint docs/**/*.html",
     "test:stylelint": "stylelint docs/assets/scss/ --fix --cache --cache-location node_modules/.cache/.stylelintcache --rd",
     "test:lockfile-lint": "lockfile-lint --empty-hostname false --type npm --path package-lock.json",
-    "test": "npm-run-all prettier docs:build--parallel --aggregate-output --continue-on-error test:*",
+    "test": "npm-run-all prettier docs:build --parallel --aggregate-output --continue-on-error test:*",
     "postinstall": "cd app-components && npm install && cd .."
   },
   "devDependencies": {

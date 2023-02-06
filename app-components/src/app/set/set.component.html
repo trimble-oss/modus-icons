@@ -1,12 +1,19 @@
 <div class="d-flex align-items-center mb-4">
-  <div>
+  <div class="input-with-icon-left" style="width: 30%; min-width: 250px">
     <input
       type="search"
       class="form-control"
-      placeholder="Filter icons"
+      [placeholder]="'Filter ' + iconSet.displayName + ' icons'"
       [(ngModel)]="filterTerm"
-      (input)="filterTerm = $event.target.value"
-      style="width: 200px" />
+      (input)="filterIcons($event.target.value)" />
+    <div class="input-icon">
+      <img
+        [src]="assetpath + 'modus-solid/svg/filter.svg'"
+        class="opacity-75"
+        alt
+        height="22"
+        width="22" />
+    </div>
   </div>
   <div class="d-flex ml-auto" *ngIf="hasCategories">
     <div class="form-group mr-2 mb-0">
@@ -15,6 +22,7 @@
           type="checkbox"
           [checked]="showCategories"
           (change)="showCategories = !showCategories"
+          [disabled]="filterTerm !== ''"
           class="custom-control-input"
           id="exampleSwitch1" />
         <label class="custom-control-label mr-2" for="exampleSwitch1"
@@ -28,6 +36,7 @@
           id="button-basic"
           dropdownToggle
           type="button"
+          [disabled]="filterTerm !== ''"
           class="btn btn-outline-dark dropdown-toggle"
           aria-controls="dropdown-basic">
           Categories
@@ -41,7 +50,7 @@
           <li role="menuitem" *ngFor="let cat of categoryList">
             <a
               class="dropdown-item"
-              (click)="selectedCategory = cat; showCategories = true"
+              (click)="selectCategory(cat)"
               [ngClass]="{ active: selectedCategory === cat }"
               href="javascript: void(0);"
               >{{ cat }}</a

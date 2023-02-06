@@ -2,7 +2,7 @@
   <div class="input-with-icon-left">
     <input
       class="form-control form-control-lg"
-      placeholder="Search Modus Icons"
+      placeholder="Search all Modus Icons"
       type="search"
       autocomplete="off"
       [(ngModel)]="searchString"
@@ -20,8 +20,10 @@
     style="top: 48px; max-height: 240px; overflow-y: auto; z-index: 1000"
     class="list-group list-group-borderless bg-white position-absolute shadow justify-content-start w-100">
     <ng-container *ngIf="searchResults.length === 0 && searchString.length > 1">
-      <div class="list-group-item text-secondary">
-        <h6 class="mb-0">No results found</h6>
+      <div class="list-group-item justify-content-center">
+        <h5 class="mb-0 text-gray-4">
+          No icons found. Try a different search.
+        </h5>
       </div>
     </ng-container>
     <ng-container *ngIf="searchResults.length > 0">

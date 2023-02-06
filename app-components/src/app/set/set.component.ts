@@ -26,6 +26,14 @@ export class SetComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    if (window.location.search) {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('filter'))
+        this.filterTerm = decodeURIComponent(params.get('filter')) || '';
+      if (params.get('category'))
+        this.selectedCategory =
+          decodeURIComponent(params.get('category')) || 'All';
+    }
     this.hasCategories = this.categories === 'true';
     this.iconService.getSet(this.setname).subscribe((data) => {
       this.iconSet = data;
@@ -45,11 +53,41 @@ export class SetComponent implements OnInit {
         };
       });
       this.categoryList.unshift('All');
+      if (!this.categoryList.includes(this.selectedCategory)) {
+        this.selectedCategory = 'All';
+      }
       this.fontCssUrl = this.sanitizer.bypassSecurityTrustResourceUrl(
         `${this.assetpath + (this.assetpath !== '') ? '/' : ''}/${
           this.iconSet.setName
         }/fonts/modus-icons.css`
       );
     });
+  }
+
+  filterIcons(term: string): void {
+    this.filterTerm = term;
+    if (term === '') {
+      window.history.replaceState(null, null, window.location.pathname);
+    } else {
+      window.history.replaceState(
+        null,
+        null,
+        `?filter=${encodeURIComponent(term)}`
+      );
+    }
+  }
+
+  selectCategory(cat: string): void {
+    this.selectedCategory = cat;
+    this.showCategories = true;
+    if (cat === 'All') {
+      window.history.replaceState(null, null, window.location.pathname);
+    } else {
+      window.history.replaceState(
+        null,
+        null,
+        `?category=${encodeURIComponent(cat)}`
+      );
+    }
   }
 }

@@ -10,7 +10,7 @@ fs.ensureDirSync('preview/assets');
 fs.copySync('../dist', 'preview/assets', { overwrite: true });
 
 console.log('Building app-component.js...');
-childProcess.execSync('ng build --prod --output-hashing=none', {
+childProcess.execSync('npx ng build --prod --output-hashing=none', {
   stdio: 'inherit',
 });
 

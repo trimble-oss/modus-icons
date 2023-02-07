@@ -96,7 +96,7 @@ function buildIcons(config) {
           const ligatureName = name.replace(/[\s-]/g, '_');
           return ligatureName;
         },
-        types: ['ttf', 'woff', 'woff2', 'eot'],
+        types: ['woff', 'woff2'],
         html: true,
         verbose: true,
         htmlTemplate: path.join(config.fontsDirectoryPath, 'html.hbs'),

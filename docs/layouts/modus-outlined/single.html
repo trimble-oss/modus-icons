@@ -17,7 +17,7 @@
         {{- end -}}
       </li>
       {{ with .Params.categories }}<li class="mt-2"><strong>Category:</strong>
-        <a href="/modus-outlined/?filter={{ delimit . ", " | lower }}" class="text-dark mr-2">
+        <a href="/modus-outlined/?category={{ delimit . ", " }}" class="text-dark mr-2">
           {{- delimit . ", " -}}
         </a>
       </li>

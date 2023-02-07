@@ -2,14 +2,6 @@ header.navbar {
   color: #f1f1f1 !important;
   background-color: #004f83 !important;
 
-  .navbar-toggler {
-    .mi,
-    .bi {
-      width: 2rem;
-      fill: currentcolor;
-    }
-  }
-
   .navbar-nav {
     .nav-link {
       color: #f1f1f1 !important;
@@ -24,11 +16,6 @@ header.navbar {
         border-color: #f1f1f1 !important;
       }
     }
-  }
-
-  .navbar-nav-svg {
-    width: 1rem;
-    height: 1rem;
   }
 }
 

@@ -1,0 +1,52 @@
+<div class="position-relative">
+  <div class="input-with-icon-left">
+    <input
+      class="form-control form-control-lg"
+      placeholder="Search all Modus Icons"
+      type="search"
+      autocomplete="off"
+      [(ngModel)]="searchString"
+      (input)="search()" />
+    <div class="input-icon">
+      <img
+        [src]="assetpath + 'modus-solid/svg/search.svg'"
+        class="opacity-75"
+        alt
+        height="22"
+        width="22" />
+    </div>
+  </div>
+  <div
+    style="top: 48px; max-height: 240px; overflow-y: auto; z-index: 1000"
+    class="list-group list-group-borderless bg-white position-absolute shadow justify-content-start w-100">
+    <ng-container *ngIf="searchResults.length === 0 && searchString.length > 1">
+      <div class="list-group-item justify-content-center">
+        <h5 class="mb-0 text-gray-4">
+          No icons found. Try a different search.
+        </h5>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="searchResults.length > 0">
+      <a
+        class="list-group-item text-decoration-none text-dark d-flex align-items-center"
+        *ngFor="let item of searchResults"
+        [href]="basehref + '/' + item.setName + '/' + item.name">
+        <svg
+          class="modus-icons mr-2"
+          fill="currentColor"
+          width="1.2em"
+          height="1.2em">
+          <use
+            [attr.xlink:href]="
+              assetpath + item.setName + '/sprites/modus-icons.svg#' + item.name
+            "></use>
+        </svg>
+        <h5 class="mr-2 mb-0">{{ item.displayName }}</h5>
+        <label class="mb-0 mr-4">{{ item.tags }}</label>
+        <label class="mb-0 ml-auto text-secondary">{{
+          item.setDisplayName
+        }}</label>
+      </a>
+    </ng-container>
+  </div>
+</div>

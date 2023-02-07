@@ -1,0 +1,138 @@
+<div class="d-flex align-items-center mb-4">
+  <div class="input-with-icon-left" style="width: 30%; min-width: 250px">
+    <input
+      type="search"
+      class="form-control"
+      [placeholder]="'Filter ' + iconSet.displayName + ' icons'"
+      [(ngModel)]="filterTerm"
+      (input)="filterIcons($event.target.value)" />
+    <div class="input-icon">
+      <img
+        [src]="assetpath + 'modus-solid/svg/filter.svg'"
+        class="opacity-75"
+        alt
+        height="22"
+        width="22" />
+    </div>
+  </div>
+  <div class="d-flex ml-auto" *ngIf="hasCategories">
+    <div class="form-group mr-2 mb-0">
+      <div class="custom-control custom-switch">
+        <input
+          type="checkbox"
+          [checked]="showCategories"
+          (change)="showCategories = !showCategories"
+          [disabled]="filterTerm !== ''"
+          class="custom-control-input"
+          id="exampleSwitch1" />
+        <label class="custom-control-label mr-2" for="exampleSwitch1"
+          >Show categories</label
+        >
+      </div>
+    </div>
+    <div class="d-flex flex-column">
+      <div class="btn-group" dropdown>
+        <button
+          id="button-basic"
+          dropdownToggle
+          type="button"
+          [disabled]="filterTerm !== ''"
+          class="btn btn-outline-dark dropdown-toggle"
+          aria-controls="dropdown-basic">
+          Categories
+        </button>
+        <ul
+          id="dropdown-basic"
+          *dropdownMenu
+          class="dropdown-menu"
+          role="menu"
+          aria-labelledby="button-basic">
+          <li role="menuitem" *ngFor="let cat of categoryList">
+            <a
+              class="dropdown-item"
+              (click)="selectCategory(cat)"
+              [ngClass]="{ active: selectedCategory === cat }"
+              href="javascript: void(0);"
+              >{{ cat }}</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<ng-container *ngIf="hasCategories && showCategories && filterTerm === ''">
+  <ng-container *ngFor="let cat of iconSetCats">
+    <div
+      class="mb-5"
+      *ngIf="cat.name === selectedCategory || selectedCategory === 'All'">
+      <h2 class="font-weight-bold mb-3">
+        {{ cat.name === "" ? "No Category" : cat.name }}
+      </h2>
+      <ul
+        class="row row-cols-2 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
+        <ng-container *ngFor="let icon of cat.icons | filter : filterTerm">
+          <li
+            class="col mb-4"
+            [attr.data-tags]="icon.tags.join[',']"
+            [attr.data-categories]="icon.categories.join[',']">
+            <a
+              class="d-block text-dark text-decoration-none"
+              [href]="'/' + setname + '/' + icon.name + '/'">
+              <div class="p-3 py-4 mb-2 bg-light text-center rounded">
+                <svg
+                  class="modus-icons"
+                  fill="currentColor"
+                  width="32"
+                  height="32">
+                  <use
+                    [attr.xlink:href]="
+                      assetpath +
+                      setname +
+                      '/sprites/modus-icons.svg#' +
+                      icon.name
+                    "></use>
+                </svg>
+              </div>
+              <div
+                class="name text-muted text-decoration-none text-center pt-1">
+                {{ icon.displayName }}
+              </div></a
+            >
+          </li>
+        </ng-container>
+      </ul>
+    </div>
+  </ng-container>
+</ng-container>
+<ng-container *ngIf="!hasCategories || !showCategories || filterTerm !== ''">
+  <ul
+    class="row row-cols-2 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
+    <ng-container *ngFor="let icon of iconSet.icons | filter : filterTerm">
+      <li
+        class="col mb-4"
+        [attr.data-tags]="icon.tags.join[',']"
+        [attr.data-categories]="icon.categories.join[',']">
+        <a
+          class="d-block text-dark text-decoration-none"
+          [href]="'/' + setname + '/' + icon.name">
+          <div class="p-3 py-4 mb-2 bg-light text-center rounded">
+            <svg
+              class="modus-icons"
+              fill="currentColor"
+              width="32"
+              height="32">
+              <use
+                [attr.xlink:href]="
+                  assetpath + setname + '/sprites/modus-icons.svg#' + icon.name
+                "></use>
+            </svg>
+          </div>
+          <div class="name text-muted text-decoration-none text-center pt-1">
+            {{ icon.displayName }}
+          </div></a
+        >
+      </li>
+    </ng-container>
+  </ul>
+</ng-container>

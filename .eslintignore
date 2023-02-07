@@ -1,7 +1,12 @@
-**/*.min.js
-**/dist/
-**/vendor/
+/dist/
+/app-components/
+/vendor/
 /_site/
+
+*.min.js
+build-pages.js
+instant-page.min.js
+protractor.conf.js
 scroll-to-top.js
-tools/build-pages.js
+app-components.js
 theme-toggle.js

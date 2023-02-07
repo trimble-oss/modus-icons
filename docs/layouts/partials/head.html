@@ -1,11 +1,12 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{- if .IsHome -}}{{- .Site.Title | markdownify }} ·
-  {{ .Site.Params.description | markdownify }}{{ else }}{{ .Title | markdownify }} ·
-  {{ .Site.Title | markdownify -}}{{- end -}}</title>
-<meta name="description" content="{{- .Page.Params.description | default .Site.Params.description | markdownify -}}">
-{{- if .IsHome -}}
+<title>{{- if .IsHome -}}{{- .Site.Title }} · {{ .Site.Params.description }}{{ else }}{{ .Title }}
+  ({{ .Section | humanize | title -}}) · {{ .Site.Title }}
+  {{- end -}}</title>
+<meta name="description"
+  content="{{- if .IsHome -}}{{- .Page.Params.description | default .Site.Params.description -}}{{ else }}{{ .Section | humanize | title }} Icons available as SVG, webfonts and SVG Sprite{{end}}">
+{{ if .IsHome }}
 <meta name="generator" content="Hugo {{ hugo.Version }}">
 {{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
@@ -17,3 +18,4 @@
 
 {{ partialCached "stylesheet" . }}
 {{ partial "favicons" . }}
+{{ template "_internal/opengraph.html" . }}

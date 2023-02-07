@@ -16,17 +16,23 @@
   },
   {
     "name": "blank",
-    "tags": [],
+    "tags": [
+      "empty"
+    ],
     "categories": []
   },
   {
     "name": "blocks-four",
-    "tags": [],
+    "tags": [
+      "squares"
+    ],
     "categories": []
   },
   {
     "name": "blocks-four-outline",
-    "tags": [],
+    "tags": [
+      "squares"
+    ],
     "categories": []
   },
   {
@@ -50,12 +56,16 @@
   },
   {
     "name": "change-start-time",
-    "tags": [],
+    "tags": [
+      "clock"
+    ],
     "categories": []
   },
   {
     "name": "checkbox-checked",
-    "tags": [],
+    "tags": [
+      "tick"
+    ],
     "categories": []
   },
   {
@@ -84,25 +94,8 @@
     "categories": []
   },
   {
-    "name": "circle-notch",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "circle-outline",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "circle-play",
     "tags": [],
-    "categories": []
-  },
-  {
-    "name": "clock",
-    "tags": [
-      "time"
-    ],
     "categories": []
   },
   {
@@ -207,11 +200,6 @@
     "categories": []
   },
   {
-    "name": "flag",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "flash-on",
     "tags": [],
     "categories": []
@@ -236,18 +224,15 @@
     "categories": []
   },
   {
-    "name": "hand",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "hand-pan",
     "tags": [],
     "categories": []
   },
   {
     "name": "heavy-duty",
-    "tags": [],
+    "tags": [
+      "vehicle"
+    ],
     "categories": []
   },
   {
@@ -257,7 +242,9 @@
   },
   {
     "name": "invert-route",
-    "tags": [],
+    "tags": [
+      "arrows"
+    ],
     "categories": []
   },
   {
@@ -273,13 +260,10 @@
     "categories": []
   },
   {
-    "name": "list-bulleted",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "load",
-    "tags": [],
+    "tags": [
+      "spinner"
+    ],
     "categories": []
   },
   {
@@ -304,7 +288,9 @@
   },
   {
     "name": "maximize",
-    "tags": [],
+    "tags": [
+      "panel"
+    ],
     "categories": []
   },
   {
@@ -316,12 +302,16 @@
   },
   {
     "name": "minimize",
-    "tags": [],
+    "tags": [
+      "panel"
+    ],
     "categories": []
   },
   {
     "name": "my-edits",
-    "tags": [],
+    "tags": [
+      "pencil"
+    ],
     "categories": []
   },
   {
@@ -336,17 +326,23 @@
   },
   {
     "name": "no-entry",
-    "tags": [],
+    "tags": [
+      "stop"
+    ],
     "categories": []
   },
   {
     "name": "one-way-left",
-    "tags": [],
+    "tags": [
+      "arrow"
+    ],
     "categories": []
   },
   {
     "name": "one-way-right",
-    "tags": [],
+    "tags": [
+      "arrow"
+    ],
     "categories": []
   },
   {
@@ -356,7 +352,9 @@
   },
   {
     "name": "orders",
-    "tags": [],
+    "tags": [
+      "documents"
+    ],
     "categories": []
   },
   {
@@ -371,7 +369,9 @@
   },
   {
     "name": "pin-icon-plus",
-    "tags": [],
+    "tags": [
+      "add"
+    ],
     "categories": []
   },
   {
@@ -416,7 +416,9 @@
   },
   {
     "name": "road-surface",
-    "tags": [],
+    "tags": [
+      "car"
+    ],
     "categories": []
   },
   {
@@ -549,7 +551,9 @@
   },
   {
     "name": "traffic",
-    "tags": [],
+    "tags": [
+      "lights"
+    ],
     "categories": []
   },
   {
@@ -579,7 +583,9 @@
   },
   {
     "name": "trim-fake-orders",
-    "tags": [],
+    "tags": [
+      "scissors"
+    ],
     "categories": []
   },
   {
@@ -591,42 +597,62 @@
   },
   {
     "name": "turn-dispatch-mode-on",
-    "tags": [],
+    "tags": [
+      "switch",
+      "truck"
+    ],
     "categories": []
   },
   {
     "name": "two-way",
-    "tags": [],
+    "tags": [
+      "arrows"
+    ],
     "categories": []
   },
   {
     "name": "unload-route-stop",
-    "tags": [],
+    "tags": [
+      "download"
+    ],
     "categories": []
   },
   {
     "name": "unloaded-order",
-    "tags": [],
+    "tags": [
+      "download"
+    ],
     "categories": []
   },
   {
     "name": "unloaded-orders",
-    "tags": [],
+    "tags": [
+      "download"
+    ],
     "categories": []
   },
   {
     "name": "upgrade-modifiers",
-    "tags": [],
+    "tags": [
+      "arrow"
+    ],
     "categories": []
   },
   {
     "name": "user",
-    "tags": [],
+    "tags": [
+      "person",
+      "profile"
+    ],
     "categories": []
   },
   {
     "name": "user-fields",
-    "tags": [],
+    "tags": [
+      "input",
+      "pencil",
+      "text"
+    ],
     "categories": []
   },
   {
@@ -636,7 +662,11 @@
   },
   {
     "name": "visibility",
-    "tags": [],
+    "tags": [
+      "display",
+      "eye",
+      "show"
+    ],
     "categories": []
   },
   {

@@ -1,11 +1,11 @@
 /node_modules
 /_site
 /dist
-/resources
-/temp
 /docs/content
+/resources
 
 .DS_Store
 .hugo_build.lock
+_site-data.json
 
 Thumbs.db

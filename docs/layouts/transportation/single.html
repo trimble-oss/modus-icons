@@ -1,13 +1,7 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/transportation/fonts/modus-icons.css">
+<link rel="stylesheet" href="/{{ .Section | urlize }}/fonts/modus-icons.css">
 
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb my-4 p-0">
-    <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item"><a href="/transportation/">Transportation</a></li>
-    <li class="breadcrumb-item active" aria-current="page">{{- .Title -}}</li>
-  </ol>
-</nav>
+{{- partial "single-nav-search" . -}}
 
 <div class="row align-items-md-center">
   <div class="col-md-6 col-lg-8">
@@ -16,15 +10,17 @@
     <ul class="list-unstyled mb-3 mb-md-0">
       <li><strong>Tags:</strong> {{ range $i, $e := .Params.tags -}}
         {{- if $i -}} {{ end -}}
-        <a href='/transportation/?filter={{ . | urlize }}' class="chip chip-sm chip-solid bg-transparent mr-2 py-0 px-2">{{ $e | humanize }}</a>
+        <a href='/transportation/?filter={{ . | urlize }}' class="chip chip-sm chip-solid mr-2 py-0 px-2">
+          {{- $e | humanize | lower -}}
+        </a>
         {{- end -}}
       </li>
-
     </ul>
     {{- end }}
   </div>
   <div class="col-md-6 col-lg-4 float-right">
-    <a href="/transportation/svg/{{- .Title | urlize | lower -}}.svg" class="btn btn-primary mt-5 pl-1 float-right"
+    <a href="/{{ .Section | urlize }}/svg/{{- .Title | urlize | lower -}}.svg"
+      class="btn btn-primary mt-sm-5 pl-1 float-right"
       download>
       <img src="/modus-solid/svg/download.svg" class="filter-invert" alt width="22" height="22">
       Download SVG</a>
@@ -165,6 +161,6 @@
     <p>Use when you don't want any dependency.</p>
     <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
     {{ highlight $svgHtml "html" "" }}
-      </div>
+  </div>
 </div>
 {{ end }}

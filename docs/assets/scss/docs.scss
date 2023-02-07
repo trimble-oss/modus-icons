@@ -1,5 +1,6 @@
 @import "variables";
 @import "clipboard-js";
+@import "home";
 @import "scroll-to-top-btn";
 @import "syntax";
 @import "theme-dark";
@@ -11,16 +12,9 @@
 @import "utilities";
 
 .modus-icon,
-.mi,
-.bi {
+.mi {
   display: inline-block !important;
   vertical-align: -0.125em !important;
-}
-
-.hero-notice {
-  @media (min-width: 540px) {
-    border-radius: 5em !important;
-  }
 }
 
 .highlight {
@@ -52,27 +46,6 @@
   + .bd-clipboard + .highlight pre {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-  }
-}
-
-.container-hero {
-  background-image: url("/img/header.png");
-  background-size: cover;
-  background-position: right;
-}
-.hero {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-
-  .highlight pre {
-    padding-right: 4em;
-    border-radius: 0.5rem;
-  }
-  .btn-clipboard {
-    top: 0.625em;
-  }
-
-  hr {
-    max-width: 100px;
   }
 }
 
@@ -136,8 +109,7 @@
 .icon-demo,
 .icon-demo-examples {
   .modus-icon,
-  .mi,
-  .bi {
+  .mi {
     width: 16px;
     height: 16px;
   }
@@ -151,8 +123,8 @@ main {
   min-height: calc(100vh - 400px);
 }
 
-.home .highlight {
-  padding-left: 0 !important;
+.icon-set-list {
+  min-height: 300px;
 }
 
 @media (min-width: 1200px) {
@@ -160,4 +132,8 @@ main {
   .display-3 {
     font-size: 1.8rem !important;
   }
+}
+
+.dropdown-menu-categories {
+  max-width: 200px;
 }

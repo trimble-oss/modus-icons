@@ -1,27 +1,8 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  {{ partial "head" . }}
-  <style>
-    .highlight {
-      background-color: #dcedf9;
-      padding: 14px;
-      padding-top: 14px;
-      padding-bottom: 14px;
-      margin-bottom: 5px;
-    }
-
-    .highlight pre {
-      margin-left: 8px;
-      color: #004f83;
-    }
-
-    .bd-clipboard button {
-      background-color: transparent !important;
-    }
-  </style>
-</head>
+  <head>
+    {{ partial "head" . }}
+  </head>
 
 <body class="home">
   {{ partialCached "skippy" . }}
@@ -29,103 +10,100 @@
   {{ partialCached "home/hero" . }}
   <main class="container mt-5">
 
-    <div class="row">
+    <div class="row row-site-search">
       <div class="col-12 col-sm-6 mb-4 mx-auto">
-        <form class="subnav-search w-100">
-          <div class="input-with-icon-left">
-            <input class="form-control form-control-lg search mb-0 w-100" type="search" id="search"
-              placeholder="Search Modus Icons" autocomplete="off" required title="">
-            <div class="input-icon">
-              <img src="/modus-solid/svg/search.svg" class="opacity-75" alt height="22" width="22">
-            </div>
-          </div>
-        </form>
+        <site-search></site-search>
+        {{ $external := resources.Get "js/app-components.js" }}
+        {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
+        <script src="{{ $appComponentsJs.RelPermalink }}" defer></script>
       </div>
     </div>
 
-    <div class="row">
-    <div class="col-12 col-sm-6">
-      <h2 class="font-weight-bold">Modus Icons</h2>
-    </div>
-    <div class="col-12 col-sm-6">
-      <div class="fs-5 d-inline-block px-3 float-right" style="min-width: 350px">
-        <div class="ml-3 pl-3">
-          <div class="pl-2 ml-2">{{- highlight "npm i @trimble-oss/modus-icons" "sh" "" -}}</div>
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <h2 class="font-weight-bold">Modus Icons</h2>
         </div>
-      </div>
-      </div>
-      <div class="col-12">
-        <hr class="mt-0">
-      </div>
+        <div class="col-12 col-sm-6">
+          <div class="fs-5 d-inline-block px-3 float-right" style="min-width: 360px">
+            <div class="ml-3 pl-3">
+              <div class="pl-2 ml-2">
+                {{- highlight "npm i @trimble-oss/modus-icons" "sh" "" -}}
+              </div>
+              </div>
+              </div>
+              </div>
+              <div class="col-12">
+          <hr class="mt-0" />
+          </div>
       </div>
 
-  <div class="row">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="card card-home border mb-3 mx-auto">
+            <div class="card-header bg-light border-0 text-center">
+              {{ partial "home/home-card-modus-icons" (dict "context" . "iconset" "modus-outlined") }}
+              </div>
+              <div class="card-body bg-light my-0 py-0">
+                <a href="/modus-outlined/" class="text-decoration-none stretched-link h2">
+                  Modus Outlined
+                </a>
+              </div>
+              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
+              {{ len (where .Site.RegularPages "Section" "=" "modus-outlined") }}
+              icons
+              </div>
+              </div>
+              </div>
 
-      <div class="col-12 col-md-4">
-        <div class="card card-home border mb-3 mx-auto">
-          <div class="card-header bg-light border-0 text-center">
-            {{ partialCached "home/home-icons-card-outlined" . }}
-          </div>
-          <div class="card-body bg-light my-0 py-0">
-            <a href="/modus-outlined/" class="text-decoration-none stretched-link h2">
-              Modus Outlined
-            </a>
-          </div>
-          <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
-            {{ len (where .Site.RegularPages "Section" "=" "modus-outlined") }} icons
-          </div>
-        </div>
+        <div class="col-12 col-md-6">
+          <div class="card card-home border mb-3">
+            <div class="card-header bg-light border-0 text-center">
+              {{ partialCached "home/home-card-modus-icons" (dict "context" . "iconset" "modus-solid") }}
+              </div>
+              <div class="card-body bg-light my-0 py-0">
+                <a href="/modus-solid/" class="text-decoration-none stretched-link h2">
+                  Modus Solid
+                </a>
+              </div>
+              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
+              {{ len (where .Site.RegularPages "Section" "=" "modus-solid") }}
+              icons
+              </div>
+              </div>
+              </div>
       </div>
-
-      <div class="col-12 col-md-4">
-        <div class="card card-home border mb-3">
-          <div class="card-header bg-light border-0 text-center">
-            {{ partialCached "home/home-icons-card-solid" . }}
-          </div>
-          <div class="card-body bg-light my-0 py-0">
-            <a href="/modus-solid/" class="text-decoration-none stretched-link h2">
-              Modus Solid
-            </a>
-          </div>
-          <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
-            {{ len (where .Site.RegularPages "Section" "=" "modus-solid") }} icons
-         </div>
-        </div>
-      </div>
-
-       </div>
       <div class="row mt-3">
-
         <div class="col-12 my-4">
           <h2 class="font-weight-bold">Modus Icons by Sector</h2>
-          <hr>
-          <p>Trimble sector icons include sector specific icons as well as the complete set of Modus Icons. Include them anyway
-            you like!</p>
+          <hr />
+          <p>
+            Trimble sector icons include sector specific icons as well as the
+            complete set of Modus Icons. Include them anyway you like!
+          </p>
         </div>
       </div>
 
       <div class="row">
-  <div class="col-12 col-md-4">
-    <div class="card card-home border mb-3">
-      <div class="card-header bg-light border-0 text-center">
-        {{ partialCached "home/home-icons-card-transportation" . }}
+        <div class="col-12 col-md-6">
+          <div class="card card-home border mb-3">
+            <div class="card-header bg-light border-0 text-center">
+              {{ partialCached "home/home-card-transportation-icons" (dict "context" . "iconset" "transportation") }}
+              </div>
+              <div class="card-body bg-light my-0 py-0">
+                <a href="/transportation/" class="text-decoration-none stretched-link h2">
+                  Transportation
+                </a>
+              </div>
+              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
+              {{ len (where .Site.RegularPages "Section" "=" "transportation") }}
+              icons (includes all icons from Modus Solid.)
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card-body bg-light my-0 py-0">
-        <a href="/transportation/" class="text-decoration-none stretched-link h2">
-          Transportation
-        </a>
-      </div>
-      <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
-        {{ len (where .Site.RegularPages "Section" "=" "transportation") }} icons
-      </div>
-    </div>
-  </div>
-</div>
+    </main>
 
-  </main>
-
-  {{- partialCached "footer" . }}
-  {{- partialCached "scripts" . }}
-</body>
-
+    {{- partialCached "footer" . }}
+    {{- partialCached "scripts" . }}
+    </body>
 </html>

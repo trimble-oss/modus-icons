@@ -18,13 +18,13 @@
 }
 
 .highlight {
-  padding: 1.25rem;
   margin-bottom: 1.5rem;
   background-color: rgba(111, 111, 111, 0.1);
   border-radius: 0.25rem;
 
   pre {
     margin-bottom: 0;
+    padding: 1.25rem;
 
     code {
       word-wrap: normal;

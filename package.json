@@ -42,7 +42,7 @@
     "copyfiles": "^2.4.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.33.0",
-    "file-type": "^3.9.0",
+    "file-type": "^18.2.0",
     "fs-extra": "^11.1.0",
     "handlebars": "^4.0.5",
     "htmlhint": "^1.1.4",

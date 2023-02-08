@@ -28,6 +28,12 @@ module.exports = {
       },
     },
     {
+      files: '*.ts',
+      options: {
+        singleQuote: true,
+      },
+    },
+    {
       files: '_metadata.json',
       options: {
         printWidth: 15,

@@ -8,7 +8,7 @@
   {{ partialCached "skippy" . }}
   {{ partialCached "navbar" . }}
   {{ partialCached "home/hero" . }}
-  <main class="container mt-5">
+  <main class="container mt-4">
 
     <div class="row row-site-search">
       <div class="col-12 col-sm-6 mb-4 mx-auto">
@@ -19,17 +19,13 @@
       </div>
     </div>
 
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-12 col-sm-6">
           <h2 class="font-weight-bold">Modus Icons</h2>
         </div>
-        <div class="col-12 col-sm-6">
-          <div class="fs-5 d-inline-block px-3 float-right" style="min-width: 360px">
-            <div class="ml-3 pl-3">
-              <div class="pl-2 ml-2">
+        <div class="col-12 col-sm-6 d-flex justify-content-end">
+          <div class="ml-auto">
                 {{- highlight "npm i @trimble-oss/modus-icons" "sh" "" -}}
-              </div>
-              </div>
               </div>
               </div>
               <div class="col-12">
@@ -76,7 +72,7 @@
         <div class="col-12 my-4">
           <h2 class="font-weight-bold">Modus Icons by Sector</h2>
           <hr />
-          <p>
+          <p class="mb-0">
             Trimble sector icons include sector specific icons as well as the
             complete set of Modus Icons. Include them anyway you like!
           </p>
@@ -96,7 +92,7 @@
               </div>
               <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
               {{ len (where .Site.RegularPages "Section" "=" "transportation") }}
-              icons (includes all icons from Modus Solid.)
+              icons (includes all icons from Modus Solid)
             </div>
           </div>
         </div>

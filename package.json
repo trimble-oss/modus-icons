@@ -72,7 +72,7 @@
     "svg-sprite": "^3.0.0-alpha1",
     "svg2ttf": "^4.0.0",
     "svgexport": "^0.4.2",
-    "svgicons2svgfont": "^5.0.0",
+    "svgicons2svgfont": "^12.0.0",
     "svgo": "2.8.0",
     "ttf2eot": "^2.0.0",
     "ttf2woff": "^2.0.2",

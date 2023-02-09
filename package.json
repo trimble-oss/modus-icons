@@ -1,6 +1,6 @@
 {
-  "name": "modus-icons",
-  "version": "0.9.0",
+  "name": "@trimble-oss/modus-icons",
+  "version": "1.0.0",
   "description": "This is the central repository for all icons used in our web products",
   "author": "Trimble",
   "license": "MIT",

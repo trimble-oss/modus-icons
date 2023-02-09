@@ -24,17 +24,17 @@ Depending on your setup, you can include Modus Icons in a handful of ways.
 
 ## Development
 
-[![Build Status](https://github.com/trimblemaps/modus-icons/workflows/Tests/badge.svg)](https://github.com/trimblemaps/modus-icons/actions?workflow=Tests)
+[![Build Status](https://github.com/trimble-oss/modus-icons/workflows/Tests/badge.svg)](https://github.com/trimble-oss/modus-icons/actions?workflow=Tests)
 
 Read the [CONTRIBUTING.md](Contributing) guide for details on how to contribute.
 
 ## Adding SVGs
 
-See the [CONTRIBUTING.md](https://github.com/trimblemaps/modus-icons/blob/main/CONTRIBUTING.md) guide for details.
+See the [CONTRIBUTING.md](https://github.com/trimble-oss/modus-icons/blob/main/CONTRIBUTING.md) guide for details.
 
 ## Publishing
 
-Documentation is published automatically when a new Git tag is published. See our [GitHub Actions](https://github.com/trimblemaps/modus-icons/tree/main/.github/workflows) and [`package.json`](https://github.com/trimblemaps/modus-icons/blob/main/package.json) for more information.
+Documentation is published automatically when a new Git tag is published. See our [GitHub Actions](https://github.com/trimble-oss/modus-icons/tree/main/.github/workflows) and [`package.json`](https://github.com/trimble-oss/modus-icons/blob/main/package.json) for more information.
 
 ## License
 

@@ -4,7 +4,7 @@
 {{- end }}
 
 {{ if or .Params.tags .Params.categories -}}
-{{ if in (.RelPermalink) "modus-outline" }}
+{{ if in (.RelPermalink) "modus-outlined" }}
 <link rel="icon" type="image/svg+xml" href="/modus-outlined/svg/{{- .Title | lower | urlize -}}.svg">
 {{ else if in (.RelPermalink) "modus-solid" }}
 <link rel="icon" type="image/svg+xml" href="/modus-solid/svg/{{- .Title | lower | urlize -}}.svg">

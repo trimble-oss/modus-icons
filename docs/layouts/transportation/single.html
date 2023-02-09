@@ -1,5 +1,4 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/{{ .Section | urlize }}/fonts/modus-icons.css">
 
 {{- partial "single-nav-search" . -}}
 
@@ -10,7 +9,7 @@
     <ul class="list-unstyled mb-3 mb-md-0">
       <li><strong>Tags:</strong> {{ range $i, $e := .Params.tags -}}
         {{- if $i -}} {{ end -}}
-        <a href='/transportation/?filter={{ . | urlize }}' class="chip chip-sm chip-solid mr-2 py-0 px-2">
+        <a href='/transportation/?filter={{ . | urlize }}' class="chip chip-sm chip-outline mr-2 py-0 px-2">
           {{- $e | humanize | lower -}}
         </a>
         {{- end -}}

@@ -24,6 +24,9 @@ jobs:
 
       - run: npm ci
 
+      - name: Install Angular setup
+        run: npm run install:components
+
       - name: Build the icons
         run: npm run build
 

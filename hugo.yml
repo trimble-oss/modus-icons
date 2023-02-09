@@ -1,6 +1,6 @@
 languageCode:           "en"
 title:                  "Modus Icons"
-baseURL:                "https://gentle-forest-0a6d5f110.2.azurestaticapps.net/"
+baseURL:                "https://modus-icons.trimble.com/"
 enableInlineShortcodes: true
 enableRobotsTXT:        true
 metaDataFormat:         "yaml"

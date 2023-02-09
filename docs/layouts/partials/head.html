@@ -16,6 +16,6 @@
 {{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
 <script src="{{ $themeToggleJS.RelPermalink }}"></script>
 
-{{ partialCached "stylesheet" . }}
+{{ partial "stylesheet" . }}
 {{ partial "favicons" . }}
 {{ template "_internal/opengraph.html" . }}

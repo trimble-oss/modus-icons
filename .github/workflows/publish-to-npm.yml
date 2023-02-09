@@ -12,7 +12,7 @@ env:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    if: github.repository == 'trimblemaps/modus-icons'
+    if: github.repository == 'trimble-oss/modus-icons'
 
     steps:
       - uses: actions/checkout@v3

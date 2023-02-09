@@ -28,13 +28,13 @@
     "start": "npm run docs:serve",
     "docs:serve": "npx hugo server --port 4000 --disableFastRender",
     "docs:build": "npx hugo --cleanDestinationDir",
+    "install:components": "cd app-components && npm install && cd ..",
     "prettier": "prettier --write ./*.{scss,js,json,md,yml} icons/**/*.svg",
     "test:eslint": "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives .",
     "test:htmlhint": "htmlhint docs/**/*.html",
     "test:stylelint": "stylelint ./**/*.scss --fix --cache --cache-location node_modules/.cache/.stylelintcache --rd",
     "test:lockfile-lint": "lockfile-lint --empty-hostname false --type npm --path package-lock.json",
-    "test": "npm-run-all prettier docs:build --parallel --aggregate-output --continue-on-error test:*",
-    "postinstall": "cd app-components && npm install && cd .."
+    "test": "npm-run-all prettier docs:build --parallel --aggregate-output --continue-on-error test:*"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",

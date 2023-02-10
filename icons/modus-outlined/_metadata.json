@@ -151,6 +151,16 @@
     ]
   },
   {
+    "name": "arrow-back",
+    "tags": [
+      "direction",
+      "back"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
     "name": "arrow-down",
     "tags": [
       "direction"
@@ -184,6 +194,16 @@
     ],
     "categories": [
       "Presentations & View"
+    ]
+  },
+  {
+    "name": "arrow-next",
+    "tags": [
+      "direction",
+      "next"
+    ],
+    "categories": [
+      "Actions & Navigation"
     ]
   },
   {
@@ -835,6 +855,16 @@
     "tags": [
       "plus",
       "time"
+    ],
+    "categories": [
+      "Devices"
+    ]
+  },
+  {
+    "name": "clock-locked",
+    "tags": [
+      "time",
+      "lock"
     ],
     "categories": [
       "Devices"
@@ -2152,6 +2182,16 @@
     ]
   },
   {
+    "name": "package",
+    "tags": [
+      "delivery",
+      "box"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
     "name": "paint-bucket",
     "tags": [
       "color",
@@ -2569,6 +2609,28 @@
     ]
   },
   {
+    "name": "row-add",
+    "tags": [
+      "table",
+      "row",
+      "add"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "row-highlighted",
+    "tags": [
+      "table",
+      "row",
+      "highlighted"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
     "name": "rss-feed",
     "tags": [],
     "categories": [
@@ -2583,6 +2645,15 @@
     ],
     "categories": [
       "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "satellite",
+    "tags": [
+      "map"
+    ],
+    "categories": [
+      "Devices"
     ]
   },
   {
@@ -3452,6 +3523,15 @@
     "tags": [
       "views",
       "screen"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "window-template",
+    "tags": [
+      "template"
     ],
     "categories": [
       "Presentations & View"

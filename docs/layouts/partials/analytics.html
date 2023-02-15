@@ -1,2 +1,17 @@
+{{- if not .Site.IsServer -}}
 <script id="plausible" defer data-domain="modus-icons.trimble.com"
   src="https://plausible.io/js/script.compat.outbound-links.js"></script>
+
+<script src="/js/trimble-insights.min.js"></script>
+<script>
+  window.tdcafLogger.init({
+    appname: 'trimble-tux-modusicons-web-dev',
+    headers: {
+      'x-app-name': 'trimble-tux-modusicons-web-dev',
+      'x-api-key': '{{- .Site.Params.trimble_insights_key -}}'
+    },
+    interval: 2000
+  });
+  window.tdcafLogger.trackEvents();
+</script>
+{{ end }}

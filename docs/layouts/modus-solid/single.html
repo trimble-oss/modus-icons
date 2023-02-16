@@ -51,8 +51,6 @@
 {{- $svgSpriteHtml := $svgSpriteSnippet | safeHTML -}}
 {{- $ligature := replace ( urlize .Title ) "-" "_" | lower -}}
 
-    <link rel="icon" href="data:image/svg+xml,{{ $svgHtml }}">
-
 <div class="row gx-lg-5">
   <div class="col-lg-7 mb-4">
     <div class="icon-demo mb-4 border rounded d-flex align-items-center justify-content-center p-3 py-6"

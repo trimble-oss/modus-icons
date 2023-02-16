@@ -25,32 +25,15 @@
         </div>
         <div class="col-12 col-sm-6 d-flex justify-content-end">
           <div class="ml-auto">
-                {{- highlight "npm i @trimble-oss/modus-icons" "sh" "" -}}
-              </div>
-              </div>
-              <div class="col-12">
-          <hr class="mt-0" />
+            {{- highlight "npm i @trimble-oss/modus-icons" "sh" "" -}}
           </div>
+        </div>
+        <div class="col-12">
+          <hr class="mt-0" />
+        </div>
       </div>
 
       <div class="row">
-        <div class="col-12 col-md-6">
-          <div class="card card-home border mb-3 mx-auto">
-            <div class="card-header bg-light border-0 text-center">
-              {{ partial "home/home-card-modus-icons" (dict "context" . "iconset" "modus-outlined") }}
-              </div>
-              <div class="card-body bg-light my-0 py-0">
-                <a href="/modus-outlined/" class="text-decoration-none stretched-link h2">
-                  Modus Outlined
-                </a>
-              </div>
-              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
-              {{ len (where .Site.RegularPages "Section" "=" "modus-outlined") }}
-              icons
-              </div>
-              </div>
-              </div>
-
         <div class="col-12 col-md-6">
           <div class="card card-home border mb-3">
             <div class="card-header bg-light border-0 text-center">
@@ -64,9 +47,25 @@
               <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
               {{ len (where .Site.RegularPages "Section" "=" "modus-solid") }}
               icons
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="card card-home border mb-3 mx-auto">
+            <div class="card-header bg-light border-0 text-center">
+              {{ partial "home/home-card-modus-icons" (dict "context" . "iconset" "modus-outlined") }}
               </div>
+              <div class="card-body bg-light my-0 py-0">
+                <a href="/modus-outlined/" class="text-decoration-none stretched-link h2">
+                  Modus Outlined
+                </a>
               </div>
-              </div>
+              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
+              {{ len (where .Site.RegularPages "Section" "=" "modus-outlined") }}
+              icons
+            </div>
+          </div>
+        </div>
       </div>
       <div class="row mt-3">
         <div class="col-12 my-4">

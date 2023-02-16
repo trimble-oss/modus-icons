@@ -48,5 +48,5 @@
 <button type="button" aria-label="scroll to top" class="btn-to-top border-0 position-fixed"></button>
 {{ $external := resources.Get "js/scroll-to-top.js" }}
 {{ $scrollToTopJs := slice $external | resources.Concat "js/scroll-to-top.js" | resources.Minify }}
-<script src="{{ $scrollToTopJs.RelPermalink }}" defer></script>
+<script src="{{ $scrollToTopJs.RelPermalink }}" defer fetchpriority="low"></script>
 {{ end }}

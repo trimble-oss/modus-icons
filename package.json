@@ -15,11 +15,8 @@
   "bugs": {
     "url": "https://github.com/trimble-oss/modus-icons/issues"
   },
-  "main": "./dist/modus.css",
-  "style": "./dist/modus.css",
   "keywords": [
-    "modus",
-    "icons"
+    "svg"
   ],
   "scripts": {
     "build": "node build/build.js && cd app-components && node build-components.js && cd ..",
@@ -82,9 +79,6 @@
     "ttf2woff2": "^5.0.0",
     "underscore": "^1.7.0",
     "url-join": "^1.1.0"
-  },
-  "engines": {
-    "node": "16.x"
   },
   "files": [
     "dist",

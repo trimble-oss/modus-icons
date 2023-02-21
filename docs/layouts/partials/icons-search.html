@@ -9,7 +9,6 @@
         <img src="/modus-solid/svg/caret-down.svg" class="opacity-75" alt height="32" width="32">
       </button>
       <div class="dropdown-menu dropdown-menu-icons">
-        <ul class="list-unstyled mb-0">
         {{ $currentPage := . }}
         {{ range .Site.Menus.icons }}
         <li class="nav-item mx-0 mx-sm-1 mx-md-2">
@@ -17,17 +16,13 @@
             {{ with .Pre }}
             {{ . }}
           {{ end }}</div>
-          <a class="nav-link text-dark{{if ($currentPage.HasMenuCurrent "icons" .) }} active{{end}} nav-{{- .Name | urlize -}}"
-            href="{{ .URL }}">
-            {{- .Name -}}
-          </a>
+          <a class="dropdown-item {{if ($currentPage.HasMenuCurrent "icons" .) }} active{{end}} nav-{{- .Name | urlize -}}"
+            href="{{ .URL }}">{{- .Name -}}</a>
           <div>
             {{ with .Post }}
             {{ . }}
           {{ end }}</div>
-        </li>
         {{ end }}
-        </ul>
       </div>
     </div>
   </div>

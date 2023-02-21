@@ -57,12 +57,44 @@
 
         {{{ styles }}}
 
+
+    @media (prefers-color-scheme: dark) {
+      html {
+        color-scheme: dark;
+      }
+
+      body {
+        background-color: #000;
+        color: white;
+      }
+
+      .preview {
+        border-color: #333;
+      }
+
+      .preview .inner {
+        background: #111;
+      }
+
+      .preview .inner .modus-icons {
+        color: #fff;
+      }
+
+      .label {
+        color: #eee;
+      }
+
+      .code-sample {
+        background-color: #333;
+        color: #eee;
+      }
+    }
     </style>
 </head>
 <body>
-    <div>
-        <h1>{{ fontName }}</h1>
-<div class="grid">
+  <div>
+    <h1>{{ fontName }}</h1>
+      <div class="grid">
         {{#each names }}
             <div class="preview">
                 <div class="code-sample">
@@ -75,6 +107,6 @@
             </div>
         {{/each }}
     </div>
-    </div>
+  </div>
 </body>
 </html>

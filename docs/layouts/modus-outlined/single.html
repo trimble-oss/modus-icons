@@ -26,9 +26,9 @@
   </div>
   <div class="col-sm-6 col-lg-4 float-right">
     <a href="/{{ .Section | urlize }}/svg/{{- .Title | urlize | lower -}}.svg"
-      class="btn btn-primary mt-5 pl-1 float-right"
+      class="btn btn-primary mt-md-5 pl-1 float-right"
       download>
-      <img src="/modus-solid/svg/download.svg" class="filter-invert" alt width="22" height="22">
+      <img src="/{{ .Section | urlize }}/svg/download.svg" class="filter-invert" alt width="22" height="22">
       Download SVG</a>
   </div>
 </div>
@@ -50,8 +50,8 @@
 {{- $svgSpriteHtml := $svgSpriteSnippet | safeHTML -}}
 {{- $ligature := replace ( urlize .Title ) "-" "_" | lower -}}
 
-<div class="row gx-lg-5">
-  <div class="col-lg-7 mb-4">
+<div class="row">
+  <div class="col-lg-7">
     <div class="icon-demo mb-4 border rounded d-flex align-items-center justify-content-center p-3 py-6"
       style="font-size: 10em" role="img" aria-label="{{ .Title }} - large preview">
       {{ $svgHtml }}
@@ -78,15 +78,15 @@
       </p>
       <p>
         <button type="button" class="btn btn-primary mb-2">
-          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
+          <i class="modus-icons left-icon notranslate" aria-hidden="true">{{ $ligature }}</i>
           Button
         </button>
         <button type="button" class="btn btn-secondary mb-2">
-          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
+          <i class="modus-icons left-icon notranslate" aria-hidden="true">{{ $ligature }}</i>
           Button
         </button>
         <button type="button" class="btn btn-outline-primary mb-2">
-          <i class="modus-icons left-icon notranslate">{{ $ligature }}</i>
+          <i class="modus-icons left-icon notranslate" aria-hidden="true">{{ $ligature }}</i>
           Button
         </button>
       </p>
@@ -135,12 +135,12 @@
           <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
             <img src="https://modus-bootstrap.trimble.com/img/trimble-logo-rev.svg" width="107" height="25"
               class="img-fluid d-none d-sm-block" alt="home">
-            <img src="https://modus-bootstrap.trimble.com/img/trimble-icon-rev.svg" class="d-block d-sm-none"
-              height="25" width="25" alt="home">
+            <img src="/{{ .Section | urlize }}/svg/trimble-logo.svg" class="d-block d-sm-none filter-invert" height="28" width="28"
+              alt="home">
           </a>
           <div class="navbar-nav ml-auto">
             <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 text-white" data-toggle="tooltip"
-              data-placement="bottom" title="{{- .Title -}}">
+              data-placement="bottom" title="{{- .Title -}}" aria-label="{{- .Title -}}">
               <i class="modus-icons notranslate" aria-hidden="true">{{ $ligature }}</i>
             </button>
           </div>
@@ -148,8 +148,8 @@
       </div>
     </div>
   </div>
-  <div class="col-lg-5 mb-4">
-    <h2 class="fs-3">Icon font</h2>
+  <div class="col-lg-5">
+    <h2 class="h3 mt-3 mt-md-0">Icon font</h2>
     <p>Use in web applications, on buttons, and anywhere you need more than a few icons.</p>
 
     <div class="mb-1">
@@ -157,13 +157,13 @@
       {{- highlight $iconFontSnippet "html" "" }}
     </div>
 
-    <h2 class="fs-3">SVG sprite</h2>
+    <h2 class="h3">SVG sprite</h2>
     <p> Use for static sites when you only need a few icons.</p>
     <div>
       {{- highlight $svgSpriteSnippet "html" "" }}
     </div>
 
-    <h2 class="fs-3">SVG code</h2>
+    <h2 class="h3">SVG code</h2>
     <p>Use when you don't want any dependency.</p>
     <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
     {{ highlight $svgHtml "html" "" }}

@@ -198,6 +198,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "arrow-back",
+        "displayName": "Arrow Back",
+        "tags": [
+          "direction",
+          "back"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "arrow-down",
         "displayName": "Arrow Down",
         "tags": [
@@ -241,6 +254,19 @@ export const siteData = [
         ],
         "categories": [
           "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-next",
+        "displayName": "Arrow Next",
+        "tags": [
+          "direction",
+          "next"
+        ],
+        "categories": [
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1084,6 +1110,19 @@ export const siteData = [
         "tags": [
           "plus",
           "time"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-locked",
+        "displayName": "Clock Locked",
+        "tags": [
+          "time",
+          "lock"
         ],
         "categories": [
           "Devices"
@@ -2793,6 +2832,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "package",
+        "displayName": "Package",
+        "tags": [
+          "delivery",
+          "box"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "paint-bucket",
         "displayName": "Paint Bucket",
         "tags": [
@@ -3336,6 +3388,34 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "row-add",
+        "displayName": "Row Add",
+        "tags": [
+          "table",
+          "row",
+          "add"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-highlighted",
+        "displayName": "Row Highlighted",
+        "tags": [
+          "table",
+          "row",
+          "highlighted"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "rss-feed",
         "displayName": "Rss Feed",
         "tags": [],
@@ -3354,6 +3434,18 @@ export const siteData = [
         ],
         "categories": [
           "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "satellite",
+        "displayName": "Satellite",
+        "tags": [
+          "map"
+        ],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4484,6 +4576,18 @@ export const siteData = [
         "tags": [
           "views",
           "screen"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "window-template",
+        "displayName": "Window Template",
+        "tags": [
+          "template"
         ],
         "categories": [
           "Presentations & View"
@@ -4819,6 +4923,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "arrow-back",
+        "displayName": "Arrow Back",
+        "tags": [
+          "direction"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "arrow-down",
         "displayName": "Arrow Down",
         "tags": [
@@ -4862,6 +4978,18 @@ export const siteData = [
         ],
         "categories": [
           "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-next",
+        "displayName": "Arrow Next",
+        "tags": [
+          "direction"
+        ],
+        "categories": [
+          "Actions & Navigation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5705,6 +5833,19 @@ export const siteData = [
         "tags": [
           "plus",
           "time"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-locked",
+        "displayName": "Clock Locked",
+        "tags": [
+          "time",
+          "lock"
         ],
         "categories": [
           "Devices"
@@ -7414,6 +7555,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "package",
+        "displayName": "Package",
+        "tags": [
+          "delivery",
+          "box"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "paint-bucket",
         "displayName": "Paint Bucket",
         "tags": [
@@ -7957,6 +8111,34 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "row-add",
+        "displayName": "Row Add",
+        "tags": [
+          "table",
+          "add",
+          "row"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-highlighted",
+        "displayName": "Row Highlighted",
+        "tags": [
+          "table",
+          "row",
+          "highlight"
+        ],
+        "categories": [
+          "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "rss-feed",
         "displayName": "Rss Feed",
         "tags": [],
@@ -7975,6 +8157,18 @@ export const siteData = [
         ],
         "categories": [
           "Actions & Navigation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "satellite",
+        "displayName": "Satellite",
+        "tags": [
+          "map"
+        ],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9105,6 +9299,18 @@ export const siteData = [
         "tags": [
           "views",
           "screen"
+        ],
+        "categories": [
+          "Presentations & View"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "window-template",
+        "displayName": "Window Template",
+        "tags": [
+          "template"
         ],
         "categories": [
           "Presentations & View"

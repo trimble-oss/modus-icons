@@ -23,6 +23,10 @@ header.navbar {
   font-size: 15px !important;
 }
 
+.navbar-main a:focus {
+  outline-color: #fff !important;
+}
+
 .navbar-main,
 .navbar-brand,
 .navbar-main a {
@@ -34,7 +38,7 @@ header.navbar {
   border-bottom: 2px solid #fff !important;
 }
 
-.dropdown-item {
+.navbar .dropdown-item {
   min-width: 290px;
   max-width: 320px;
   white-space: inherit !important;

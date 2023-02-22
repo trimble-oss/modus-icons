@@ -151,6 +151,16 @@
     ]
   },
   {
+    "name": "apps",
+    "tags": [
+      "applications",
+      "menu"
+    ],
+    "categories": [
+      "Actions & Navigation"
+    ]
+  },
+  {
     "name": "arrow-back",
     "tags": [
       "direction",
@@ -431,6 +441,17 @@
       "construction",
       "properties",
       "paint"
+    ],
+    "categories": [
+      "Presentations & View"
+    ]
+  },
+  {
+    "name": "building-corporate",
+    "tags": [
+      "office",
+      "city",
+      "buildings"
     ],
     "categories": [
       "Presentations & View"
@@ -1084,6 +1105,26 @@
     "tags": [],
     "categories": [
       "Programs"
+    ]
+  },
+  {
+    "name": "day-mostly-cloudy",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "day-partly-cloudy",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
     ]
   },
   {
@@ -1781,6 +1822,16 @@
     ]
   },
   {
+    "name": "in-field-device",
+    "tags": [
+      "outdoor",
+      "mobile"
+    ],
+    "categories": [
+      "Devices"
+    ]
+  },
+  {
     "name": "info",
     "tags": [
       "circle"
@@ -2150,6 +2201,26 @@
     ]
   },
   {
+    "name": "night-mostly-cloudy",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "night-partly-cloudy",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
     "name": "not-synced-bold",
     "tags": [
       "arrow",
@@ -2160,6 +2231,26 @@
     ],
     "categories": [
       "Actions & Navigation"
+    ]
+  },
+  {
+    "name": "notifications",
+    "tags": [
+      "bell",
+      "alert"
+    ],
+    "categories": [
+      "Account & Support"
+    ]
+  },
+  {
+    "name": "notifications-off",
+    "tags": [
+      "bell",
+      "alert"
+    ],
+    "categories": [
+      "Account & Support"
     ]
   },
   {

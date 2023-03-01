@@ -47,3 +47,16 @@ header.navbar {
 .dropdown-item small {
   font-size: 14px !important;
 }
+
+[data-theme="dark"] .navbar-main .dropdown-item img {
+  filter: invert(1);
+}
+
+.dropdown-menu-mobile {
+  width: 222px;
+  left: -162px !important;
+}
+
+.dropdown-menu-mobile .dropdown-item {
+  min-width: 212px;
+}

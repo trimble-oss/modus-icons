@@ -1,4 +1,5 @@
-<div class="d-flex align-items-center">
+<div class="row mb-4 mb-md-1">
+  <div class="col-12 col-md-6">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb my-4 p-0">
       <li class="breadcrumb-item"><a href="/">Home</a></li>
@@ -10,8 +11,11 @@
       </li>
     </ol>
   </nav>
-  <site-search class="ml-auto w-50"></site-search>
-  {{ $external := resources.Get "js/app-components.js" }}
-  {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
-  <script src="{{ $appComponentsJs.RelPermalink }}" defer fetchpriority="high"></script>
+  </div>
+  <div class="col-12 col-md-6 mt-sm-2">
+    <site-search class="ml-auto w-50"></site-search>
+    {{ $external := resources.Get "js/app-components.js" }}
+    {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $appComponentsJs.RelPermalink }}" defer fetchpriority="high"></script>
+  </div>
 </div>

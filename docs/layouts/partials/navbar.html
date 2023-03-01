@@ -1,30 +1,30 @@
-<header class="navbar navbar-main navbar-expand navbar-blue flex-column flex-xl-row px-0"
-  aria-label="main navigation">
-  <div class="container flex-column flex-md-row justify-content-end">
-    <a class="navbar-brand mr-left mr-md-auto font-weight-bold" href="/">
+<nav class="navbar navbar-main navbar-expand navbar-blue" aria-label="main navigation">
+  <div class="container-xl flex-row justify-content-end">
+    <a class="navbar-brand mr-auto mr-md-auto font-weight-bold" href="/">
     <!-- {{- partial "icons/trimble.svg" (dict "class" "d-inline-block d-sm-none mb-1 mr-1" "width" "25" "height" "25") -}} -->
-    {{- partial "logos/trimble.svg" (dict "class" "img-fluid" "width" "115" "height" "26") -}}
-    <div class="text-center text-md-left">Modus Icons</div></a>
-    <div class=navbar-nav-scroll>
-    <ul class="navbar-nav">
-      {{ $currentPage := . }}
-      {{ range .Site.Menus.main }}
-      {{ if .HasChildren }}
-      <li class="nav-item mx-sm-1 mx-md-2 dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-          aria-expanded="false">{{- .Name -}}</a>
+      {{ partial "logos/trimble.svg" (dict "class" "img-fluid" "width" "115" "height" "26") }}
+      <div>Modus Icons</div>
+      </a>
+      <div class="d-flex flew-row ml-auto ml-sm-0">
+        <ul class="navbar-nav d-none d-md-inline-flex flex-lg-row">
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+          <li class="nav-item mx-sm-1 mx-md-2 mt-1 dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">{{- .Name -}}</a>
         <div class="dropdown-menu px-2 rounded">
           {{ range .Children }}
-          <a class="dropdown-item text-dark rounded border-0 p-3 my-1" href="{{ .URL }}">
+          <a class="dropdown-item text-dark rounded border-0 px-3 py-2" href="{{- .URL -}}">
             <div class="d-flex flex-row">
               <div>
-              {{ with .Pre }}
-              {{ . }}
-            {{ end }}</div>
+              {{- with .Pre -}}
+              {{- . -}}
+              {{- end -}}</div>
             <div>
-              {{- .Name -}}
-              <p class="mb-0 small text-muted">{{ with .Post }}
-                {{ . }}
+              <div class="dropdown-item-title">{{- .Name -}}</div>
+              <p class="mb-0 small text-muted">{{- with .Post -}}
+                {{- . -}}
               {{ end }}</p>
             </div>
           </div>
@@ -33,7 +33,7 @@
         </div>
       </li>
       {{ else }}
-      <li class="nav-item mx-0 mx-sm-1 mx-md-2">
+          <li class="nav-item mx-0 mx-sm-1 mx-md-2 mt-1">
         <a class="nav-link{{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}} nav-{{- .Name | lower | markdownify -}}"
           href="{{ .URL }}" {{ if eq .Name "Start" }}aria-label="Getting Started"{{ end }}>
           {{- .Name -}}
@@ -41,10 +41,31 @@
       </li>
       {{- end -}}
       {{- end -}}
-      <li class="nav-item">
-        {{ partial "theme-toggle" . }}
-      </li>
       </ul>
+        {{ partial "theme-toggle" . }}
+<div class="dropdown">
+  <button class="btn btn-icon-only btn-lg d-lg-none ml-auto px-1 ml-1" type="button" data-toggle="dropdown"
+    data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+    {{ partial "icons/modus-solid/more-vertical.svg" (dict "class" "text-white" "width" "26" "height" "26") }}
+  </button>
+  <div class="dropdown-menu dropdown-menu-mobile d-md-none">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    {{ if .HasChildren }}
+    <small class="nav-link opacity-75" hidden>{{- .Name -}}</small>
+    {{ range .Children }}
+    <a class="dropdown-item text-dark" href="{{- .URL -}}" style="min-width:208px!important">Components
+      ({{- .Name -}})</a>
+    </a>
+    {{- end -}}
+    {{ else }}
+    <a class="dropdown-item text-dark {{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{- .URL -}}">
+      {{- .Name -}}
+    </a>
+    {{- end -}}
+    {{- end -}}
+  </div>
+</div>
     </div>
   </div>
-</header>
+</nav>

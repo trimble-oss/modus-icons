@@ -1,29 +1,29 @@
 .sun-and-moon {
-  max-height: 16px !important;
-  max-width: 16px !important;
+  max-height: 24px;
+    max-width: 24px;
 }
+
 .sun-and-moon > :is(.moon, .sun, .sun-beams) {
   transform-origin: center center;
 }
+
 .sun-and-moon > :is(.moon, .sun) {
   fill: var(--icon-fill);
 }
-.theme-toggle:is(:hover, :focus-visible) > .sun-and-moon > :is(.moon, .sun) {
-  fill: var(--icon-fill-hover);
-}
+
 .sun-and-moon > .sun-beams {
   stroke: var(--icon-fill);
   stroke-width: 2px;
 }
-.theme-toggle:is(:hover, :focus-visible) .sun-and-moon > .sun-beams {
-  stroke: var(--icon-fill-hover);
-}
+
 [data-theme="dark"] .sun-and-moon > .sun {
   transform: scale(1.75);
 }
+
 [data-theme="dark"] .sun-and-moon > .sun-beams {
   opacity: 0;
 }
+
 [data-theme="dark"] .sun-and-moon > .moon > circle {
   transform: translate(-7px);
 }
@@ -32,9 +32,11 @@
   .sun-and-moon > .sun {
     transition: transform 0.5s cubic-bezier(0.5, 1.25, 0.75, 1.25);
   }
+
   .sun-and-moon > .sun-beams {
     transition: transform 0.5s cubic-bezier(0.5, 1.5, 0.75, 1.25), opacity 0.5s cubic-bezier(0.25, 0, 0.3, 1);
   }
+
   .sun-and-moon .moon > circle {
     transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
   }
@@ -44,54 +46,41 @@
       transition: cx 0.25s cubic-bezier(0, 0, 0, 1);
     }
   }
+
   [data-theme="dark"] .sun-and-moon > .sun {
     transform: scale(1.75);
     transition-timing-function: cubic-bezier(0.25, 0, 0.3, 1);
     transition-duration: 0.25s;
   }
+
   [data-theme="dark"] .sun-and-moon > .sun-beams {
     transform: rotate(-25deg);
     transition-duration: 0.15s;
   }
+
   [data-theme="dark"] .sun-and-moon > .moon > circle {
     transition-delay: 0.25s;
     transition-duration: 0.5s;
   }
 }
 .theme-toggle {
-  --size: 2rem;
-  --icon-fill: rgb(228, 230, 231);
-  --icon-fill-hover: rgb(226, 226, 226);
+  --icon-fill: #fff;
 
-  inline-size: var(--size);
-  block-size: var(--size);
-  aspect-ratio: 1;
-  cursor: pointer;
-  touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
-  outline-offset: 5px;
 }
+
 .theme-toggle > svg {
   inline-size: 100%;
   block-size: 100%;
+  height: 20px;
+    width: 20px;
   stroke-linecap: round;
 }
-[data-theme="dark"] .theme-toggle {
-  --icon-fill: hsl(210 10% 70%);
-  --icon-fill-hover: hsl(210 15% 90%);
-}
 
-@media (hover: none) {
-  .theme-toggle {
-    --size: 48px;
-  }
-}
-html {
-  color-scheme: light;
-}
 html[data-theme="light"] {
   color-scheme: light;
 }
+
 html[data-theme="dark"] {
   color-scheme: dark;
 }
@@ -102,8 +91,3 @@ html[data-theme="dark"] {
   }
 }
 
-@media all and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .theme-toggle {
-    display: none;
-  }
-}

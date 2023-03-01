@@ -19,6 +19,6 @@
   <icon-set-list setName="transportation" categories="false"></icon-set-list>
   {{ $external := resources.Get "js/app-components.js" }}
   {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
-  <script src="{{ $appComponentsJs.RelPermalink }}" defer></script>
+  <script src="{{ $appComponentsJs.RelPermalink }}" defer fetchpriority="high"></script>
   </div>
 </div>

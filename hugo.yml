@@ -89,21 +89,14 @@ menu:
       pre: "<img src='/modus-outlined/svg/in-field-device.svg' width='28' height='28' class='opacity-75 icon mr-2' alt>"
       post: "High-contrast library specific to apps used outdoors on handheld or in-cab devices."
       weight: 2
-#   - name: Mobile
-#     parent: Components
-#     url: "/components/mobile/"
-#     pre: "<img src='/img/icons/mobile.svg' width=28 height=28 class='icon' alt>"
-#     post: ""
-#     weight: 3
-#   - name: XR
-#     parent: Components
-#     url: "/components/xr/"
-#     pre: "<img src='/img/icons/xr.svg' width=28 height=28 class='icon' alt>"
-#     post: ""
-#     weight: 4
+    - name: Mobile
+      parent: Components
+      url: "https://modus.trimble.com/components/mobile/"
+      pre: "<img src='/modus-outlined/svg/phone-mobile.svg' width=28 height=28 class='icon opacity mr-2' alt>"
+      post: "UI patterns for designing Trimble experiences on Android devices."
+      weight: 3
     - Name: Icons
       url: "/"
-      post: "High-contrast library specific<br>to applications used outdoors."
       weight: 4
     - Name: Community
       url: "https://modus.trimble.com/community/"

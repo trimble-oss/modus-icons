@@ -14,7 +14,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -29,7 +29,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -44,7 +44,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -59,7 +59,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -72,7 +72,7 @@ export const siteData = [
           "mail"
         ],
         "categories": [
-          "Account & Support"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -85,7 +85,7 @@ export const siteData = [
           "support"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -105,6 +105,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "alert-outlined",
+        "displayName": "Alert Outlined",
+        "tags": [],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "align-bottom",
         "displayName": "Align Bottom",
         "tags": [
@@ -112,7 +122,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -126,7 +136,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -140,7 +150,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -153,7 +163,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -166,7 +176,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -179,7 +189,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -192,7 +202,20 @@ export const siteData = [
           "signal"
         ],
         "categories": [
-          "Account & Support"
+          "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "apps",
+        "displayName": "Apps",
+        "tags": [
+          "applications",
+          "menu"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -205,7 +228,7 @@ export const siteData = [
           "back"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -217,7 +240,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -229,7 +252,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -241,7 +264,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -253,7 +276,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -266,7 +289,7 @@ export const siteData = [
           "next"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -278,7 +301,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -290,7 +313,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -302,7 +325,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -314,7 +337,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -328,7 +351,7 @@ export const siteData = [
           "data"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -342,7 +365,7 @@ export const siteData = [
           "data"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -356,7 +379,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -548,7 +571,7 @@ export const siteData = [
           "sun"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -562,7 +585,21 @@ export const siteData = [
           "paint"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "building-corporate",
+        "displayName": "Building Corporate",
+        "tags": [
+          "office",
+          "city",
+          "buildings"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -574,7 +611,7 @@ export const siteData = [
           "building"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -625,7 +662,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Devices"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -640,7 +677,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -655,7 +692,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Devices"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -670,7 +707,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Devices"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -683,7 +720,7 @@ export const siteData = [
           "picture"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -696,7 +733,7 @@ export const siteData = [
           "picture"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -714,7 +751,27 @@ export const siteData = [
           "x"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cancel-square",
+        "displayName": "Cancel Square",
+        "tags": [],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cancel-square-outlined",
+        "displayName": "Cancel Square Outlined",
+        "tags": [],
+        "categories": [
+          "Alerts & Messages"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -727,7 +784,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -740,7 +797,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -753,7 +810,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -766,7 +823,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -779,7 +836,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -792,7 +849,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -805,7 +862,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -818,7 +875,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -830,7 +887,7 @@ export const siteData = [
           "secure"
         ],
         "categories": [
-          "Account & Support"
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -844,7 +901,7 @@ export const siteData = [
           "speech"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -858,7 +915,7 @@ export const siteData = [
           "tick"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Alerts & Messages"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -872,7 +929,7 @@ export const siteData = [
           "tick"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Alerts & Messages"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -886,7 +943,17 @@ export const siteData = [
           "tick"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "check-circle-outlined",
+        "displayName": "Check Circle Outlined",
+        "tags": [],
+        "categories": [
+          "Alerts & Messages"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -900,7 +967,7 @@ export const siteData = [
           "tick"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Alerts & Messages"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -913,7 +980,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -926,7 +993,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -939,7 +1006,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -952,7 +1019,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -965,7 +1032,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -978,7 +1045,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -991,7 +1058,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1004,7 +1071,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1014,7 +1081,7 @@ export const siteData = [
         "displayName": "Circle Notch",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1024,7 +1091,7 @@ export const siteData = [
         "displayName": "Circle Outline",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1036,7 +1103,7 @@ export const siteData = [
           "paste"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1048,7 +1115,7 @@ export const siteData = [
           "paste"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1061,7 +1128,7 @@ export const siteData = [
           "paste"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1074,7 +1141,7 @@ export const siteData = [
           "paste"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1087,7 +1154,7 @@ export const siteData = [
           "list"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1099,7 +1166,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Devices"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1112,7 +1179,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Devices"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1125,7 +1192,7 @@ export const siteData = [
           "lock"
         ],
         "categories": [
-          "Devices"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1143,7 +1210,7 @@ export const siteData = [
           "x"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1161,7 +1228,7 @@ export const siteData = [
           "x"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1179,7 +1246,7 @@ export const siteData = [
           "x"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1205,7 +1272,7 @@ export const siteData = [
           "export"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1219,7 +1286,7 @@ export const siteData = [
           "import"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1231,7 +1298,7 @@ export const siteData = [
           "arrows"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1243,7 +1310,7 @@ export const siteData = [
           "arrows"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1256,7 +1323,7 @@ export const siteData = [
           "sketchup"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1270,7 +1337,17 @@ export const siteData = [
           "speech"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "compare-arrows",
+        "displayName": "Compare Arrows",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1289,7 +1366,7 @@ export const siteData = [
           "west"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1301,7 +1378,7 @@ export const siteData = [
           "jigsaw"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1315,7 +1392,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1325,7 +1402,7 @@ export const siteData = [
         "displayName": "Contrast",
         "tags": [],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1337,7 +1414,7 @@ export const siteData = [
           "duplicate"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1349,7 +1426,17 @@ export const siteData = [
           "payment"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "crop",
+        "displayName": "Crop",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1361,7 +1448,7 @@ export const siteData = [
           "pointer"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1376,7 +1463,7 @@ export const siteData = [
           "select"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1391,7 +1478,7 @@ export const siteData = [
           "select"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1401,7 +1488,33 @@ export const siteData = [
         "displayName": "Dashboard",
         "tags": [],
         "categories": [
-          "Programs"
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "day-mostly-cloudy",
+        "displayName": "Day Mostly Cloudy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "day-partly-cloudy",
+        "displayName": "Day Partly Cloudy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1414,7 +1527,7 @@ export const siteData = [
           "trash"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1427,7 +1540,7 @@ export const siteData = [
           "data"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1440,7 +1553,7 @@ export const siteData = [
           "data"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1453,7 +1566,7 @@ export const siteData = [
           "data"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1466,7 +1579,7 @@ export const siteData = [
           "input"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1479,7 +1592,7 @@ export const siteData = [
           "grip"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1492,7 +1605,7 @@ export const siteData = [
           "grip"
         ],
         "categories": [
-          "Programs"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1504,7 +1617,7 @@ export const siteData = [
           "move"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1531,7 +1644,7 @@ export const siteData = [
           "message"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1543,7 +1656,7 @@ export const siteData = [
           "mail"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1556,7 +1669,7 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1569,7 +1682,7 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1582,7 +1695,7 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1595,7 +1708,7 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1608,7 +1721,7 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1621,7 +1734,20 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "export",
+        "displayName": "Export",
+        "tags": [
+          "file",
+          "download"
+        ],
+        "categories": [
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1636,7 +1762,7 @@ export const siteData = [
           "video"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1651,7 +1777,7 @@ export const siteData = [
           "video"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1835,7 +1961,7 @@ export const siteData = [
           "funnel"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1847,7 +1973,7 @@ export const siteData = [
           "funnel"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1859,7 +1985,7 @@ export const siteData = [
           "funnel"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1873,7 +1999,7 @@ export const siteData = [
           "tag"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1887,7 +2013,7 @@ export const siteData = [
           "tag"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1902,7 +2028,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1914,7 +2040,7 @@ export const siteData = [
           "diagram"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2059,7 +2185,7 @@ export const siteData = [
           "walk"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2069,7 +2195,7 @@ export const siteData = [
         "displayName": "Frame",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2083,7 +2209,19 @@ export const siteData = [
           "window"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "gears",
+        "displayName": "Gears",
+        "tags": [
+          "settings"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2096,7 +2234,7 @@ export const siteData = [
           "category"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2148,7 +2286,7 @@ export const siteData = [
           "tool"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2160,7 +2298,7 @@ export const siteData = [
           "pan"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2175,7 +2313,7 @@ export const siteData = [
           "worker"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2187,7 +2325,7 @@ export const siteData = [
           "headphones"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2200,7 +2338,7 @@ export const siteData = [
           "love"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2214,7 +2352,7 @@ export const siteData = [
           "topview"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2232,13 +2370,23 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "help-outlined",
+        "displayName": "Help Outlined",
+        "tags": [],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "history",
         "displayName": "History",
         "tags": [
           "clock"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2250,7 +2398,7 @@ export const siteData = [
           "house"
         ],
         "categories": [
-          "Programs"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2265,7 +2413,7 @@ export const siteData = [
           "wait"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2290,7 +2438,7 @@ export const siteData = [
           "picture"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2302,7 +2450,20 @@ export const siteData = [
           "picture"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "in-field-device",
+        "displayName": "In Field Device",
+        "tags": [
+          "outdoor",
+          "mobile"
+        ],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2313,6 +2474,16 @@ export const siteData = [
         "tags": [
           "circle"
         ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "info-outlined",
+        "displayName": "Info Outlined",
+        "tags": [],
         "categories": [
           "Alerts & Messages"
         ],
@@ -2337,7 +2508,7 @@ export const siteData = [
           "secure"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2375,7 +2546,7 @@ export const siteData = [
           "translation"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2389,7 +2560,7 @@ export const siteData = [
           "arrow"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2403,7 +2574,7 @@ export const siteData = [
           "arrow"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2413,7 +2584,7 @@ export const siteData = [
         "displayName": "Layer",
         "tags": [],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2427,7 +2598,7 @@ export const siteData = [
           "university"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2440,7 +2611,7 @@ export const siteData = [
           "suggestion"
         ],
         "categories": [
-          "Alerts & Messages"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2453,7 +2624,7 @@ export const siteData = [
           "suggestion"
         ],
         "categories": [
-          "Alerts & Messages"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2476,7 +2647,7 @@ export const siteData = [
         "displayName": "Link",
         "tags": [],
         "categories": [
-          "Save & Share"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2486,7 +2657,7 @@ export const siteData = [
         "displayName": "Link Broken",
         "tags": [],
         "categories": [
-          "Save & Share"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2496,7 +2667,7 @@ export const siteData = [
         "displayName": "Link Off",
         "tags": [],
         "categories": [
-          "Save & Share"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2508,7 +2679,7 @@ export const siteData = [
           "checklist"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2521,7 +2692,7 @@ export const siteData = [
           "poi"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2534,7 +2705,7 @@ export const siteData = [
           "poi"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2547,7 +2718,7 @@ export const siteData = [
           "security"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2560,7 +2731,7 @@ export const siteData = [
           "security"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2574,7 +2745,7 @@ export const siteData = [
           "user"
         ],
         "categories": [
-          "Programs"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2587,7 +2758,7 @@ export const siteData = [
           "location"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2600,7 +2771,7 @@ export const siteData = [
           "location"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2613,7 +2784,7 @@ export const siteData = [
           "mark"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2626,7 +2797,7 @@ export const siteData = [
           "mark"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2638,7 +2809,7 @@ export const siteData = [
           "marker"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2652,7 +2823,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2665,7 +2836,7 @@ export const siteData = [
           "navigation"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2678,7 +2849,7 @@ export const siteData = [
           "navigation"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2691,7 +2862,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2733,7 +2904,7 @@ export const siteData = [
           "overflow"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2747,7 +2918,7 @@ export const siteData = [
           "overflow"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2762,7 +2933,7 @@ export const siteData = [
           "overflow"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2785,7 +2956,33 @@ export const siteData = [
           "cursor"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "night-mostly-cloudy",
+        "displayName": "Night Mostly Cloudy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "night-partly-cloudy",
+        "displayName": "Night Partly Cloudy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2801,7 +2998,33 @@ export const siteData = [
           "update"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "notifications",
+        "displayName": "Notifications",
+        "tags": [
+          "bell",
+          "alert"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "notifications-off",
+        "displayName": "Notifications Off",
+        "tags": [
+          "bell",
+          "alert"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2813,7 +3036,7 @@ export const siteData = [
           "geometric"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2836,10 +3059,77 @@ export const siteData = [
         "displayName": "Package",
         "tags": [
           "delivery",
+          "box",
+          "shipping"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "package-delivered",
+        "displayName": "Package Delivered",
+        "tags": [
+          "box",
+          "delivery"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "package-delivery",
+        "displayName": "Package Delivery",
+        "tags": [
+          "shipping",
           "box"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "package-missing",
+        "displayName": "Package Missing",
+        "tags": [
+          "shipping",
+          "box"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "package-pickup",
+        "displayName": "Package Pickup",
+        "tags": [
+          "shipping",
+          "box"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "package-sent",
+        "displayName": "Package Sent",
+        "tags": [
+          "shipping",
+          "box",
+          "Shipped"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2853,7 +3143,7 @@ export const siteData = [
           "palette"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2867,7 +3157,7 @@ export const siteData = [
           "style"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2880,7 +3170,7 @@ export const siteData = [
           "center"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2893,7 +3183,7 @@ export const siteData = [
           "logout"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2907,7 +3197,7 @@ export const siteData = [
           "video"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2922,7 +3212,7 @@ export const siteData = [
           "write"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2934,7 +3224,7 @@ export const siteData = [
           "edit"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2946,7 +3236,7 @@ export const siteData = [
           "users"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2958,7 +3248,7 @@ export const siteData = [
           "users"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2970,7 +3260,7 @@ export const siteData = [
           "user"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2983,7 +3273,7 @@ export const siteData = [
           "user"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2996,7 +3286,7 @@ export const siteData = [
           "user"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3009,7 +3299,7 @@ export const siteData = [
           "update"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3022,7 +3312,7 @@ export const siteData = [
           "user"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3034,7 +3324,7 @@ export const siteData = [
           "call"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3047,7 +3337,7 @@ export const siteData = [
           "ring"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3060,7 +3350,7 @@ export const siteData = [
           "end"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3072,7 +3362,7 @@ export const siteData = [
           "call"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3086,7 +3376,7 @@ export const siteData = [
           "fix"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3100,7 +3390,7 @@ export const siteData = [
           "fix"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3115,7 +3405,7 @@ export const siteData = [
           "video"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3127,7 +3417,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3139,7 +3429,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3151,7 +3441,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3163,7 +3453,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3176,7 +3466,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3188,7 +3478,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3201,7 +3491,7 @@ export const siteData = [
           "heartbeat"
         ],
         "categories": [
-          "Presentations & View"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3211,7 +3501,7 @@ export const siteData = [
         "displayName": "Question",
         "tags": [],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3274,7 +3564,7 @@ export const siteData = [
           "turn"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3287,7 +3577,7 @@ export const siteData = [
           "turn"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3304,7 +3594,7 @@ export const siteData = [
           "spin"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3321,7 +3611,7 @@ export const siteData = [
           "spin"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3333,7 +3623,7 @@ export const siteData = [
           "minus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3345,7 +3635,7 @@ export const siteData = [
           "minus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3358,7 +3648,7 @@ export const siteData = [
           "minus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3370,7 +3660,7 @@ export const siteData = [
           "minus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3382,7 +3672,7 @@ export const siteData = [
           "arrow"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3396,7 +3686,7 @@ export const siteData = [
           "add"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3410,7 +3700,7 @@ export const siteData = [
           "highlighted"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3420,7 +3710,7 @@ export const siteData = [
         "displayName": "Rss Feed",
         "tags": [],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3433,7 +3723,7 @@ export const siteData = [
           "measure"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3442,10 +3732,11 @@ export const siteData = [
         "name": "satellite",
         "displayName": "Satellite",
         "tags": [
+          "gps",
           "map"
         ],
         "categories": [
-          "Devices"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3457,7 +3748,7 @@ export const siteData = [
           "floppy"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3469,7 +3760,7 @@ export const siteData = [
           "floppy"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3481,7 +3772,7 @@ export const siteData = [
           "cut"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3503,7 +3794,7 @@ export const siteData = [
         "displayName": "Screenshot",
         "tags": [],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3516,7 +3807,7 @@ export const siteData = [
           "magnifying glass"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3555,7 +3846,7 @@ export const siteData = [
           "tool"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3567,7 +3858,7 @@ export const siteData = [
           "link"
         ],
         "categories": [
-          "Save & Share"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3579,7 +3870,7 @@ export const siteData = [
           "security"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3589,7 +3880,7 @@ export const siteData = [
         "displayName": "Shortcut",
         "tags": [],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3602,7 +3893,7 @@ export const siteData = [
           "dig"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3615,7 +3906,7 @@ export const siteData = [
           "sketchup"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3629,7 +3920,7 @@ export const siteData = [
           "sketchup"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3646,7 +3937,7 @@ export const siteData = [
           "signal"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3721,13 +4012,23 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "sort",
+        "displayName": "Sort",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "sort-alpha-down",
         "displayName": "Sort Alpha Down",
         "tags": [
           "ascending"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3740,7 +4041,7 @@ export const siteData = [
           "reverse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3752,7 +4053,7 @@ export const siteData = [
           "descending"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3765,7 +4066,7 @@ export const siteData = [
           "reverse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3782,22 +4083,7 @@ export const siteData = [
           "save"
         ],
         "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "star-empty",
-        "displayName": "Star Empty",
-        "tags": [
-          "favorite",
-          "like",
-          "rating",
-          "shape"
-        ],
-        "categories": [
-          "Actions & Navigation"
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3809,7 +4095,24 @@ export const siteData = [
           "lock"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Evaluation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "star-outlined",
+        "displayName": "Star Outlined",
+        "tags": [
+          "favorite",
+          "important",
+          "like",
+          "empty",
+          "unsaved",
+          "save"
+        ],
+        "categories": [
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3822,7 +4125,7 @@ export const siteData = [
           "sign"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3846,7 +4149,7 @@ export const siteData = [
           "arrow"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3858,7 +4161,7 @@ export const siteData = [
           "arrow"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3874,7 +4177,7 @@ export const siteData = [
           "update"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3890,7 +4193,7 @@ export const siteData = [
           "update"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3906,7 +4209,7 @@ export const siteData = [
           "update"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3931,7 +4234,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3944,7 +4247,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3957,7 +4260,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3994,7 +4297,7 @@ export const siteData = [
           "rating"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4007,7 +4310,7 @@ export const siteData = [
           "rating"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4045,7 +4348,7 @@ export const siteData = [
         "displayName": "Ticket",
         "tags": [],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4055,7 +4358,7 @@ export const siteData = [
         "displayName": "Ticket Plane",
         "tags": [],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4068,7 +4371,7 @@ export const siteData = [
           "stopwatch"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4081,7 +4384,7 @@ export const siteData = [
           "stopwatch"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4093,7 +4396,7 @@ export const siteData = [
           "document"
         ],
         "categories": [
-          "Account & Support"
+          "Folders & Files"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4103,7 +4406,7 @@ export const siteData = [
         "displayName": "Toggle Center",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4115,7 +4418,7 @@ export const siteData = [
           "switch"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4127,7 +4430,7 @@ export const siteData = [
           "switch"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4139,7 +4442,7 @@ export const siteData = [
           "switch"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4152,7 +4455,7 @@ export const siteData = [
           "mark"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4165,7 +4468,47 @@ export const siteData = [
           "organize"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "triangle-down",
+        "displayName": "Triangle Down",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "triangle-left",
+        "displayName": "Triangle Left",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "triangle-right",
+        "displayName": "Triangle Right",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "triangle-up",
+        "displayName": "Triangle Up",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4177,7 +4520,7 @@ export const siteData = [
           "brand"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4190,7 +4533,7 @@ export const siteData = [
           "settings"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4203,7 +4546,7 @@ export const siteData = [
           "settings"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4216,7 +4559,7 @@ export const siteData = [
           "reverse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4229,7 +4572,7 @@ export const siteData = [
           "reverse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4243,7 +4586,7 @@ export const siteData = [
           "down"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4257,7 +4600,7 @@ export const siteData = [
           "down"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4270,7 +4613,7 @@ export const siteData = [
           "circle"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4286,7 +4629,7 @@ export const siteData = [
           "sketchup"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4300,7 +4643,7 @@ export const siteData = [
           "document"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4312,7 +4655,7 @@ export const siteData = [
           "cam"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4325,7 +4668,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4337,7 +4680,7 @@ export const siteData = [
           "cam"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4352,7 +4695,7 @@ export const siteData = [
           "view"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4367,7 +4710,7 @@ export const siteData = [
           "view"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4381,7 +4724,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4395,7 +4738,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4409,7 +4752,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4430,6 +4773,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "warning-outlined",
+        "displayName": "Warning Outlined",
+        "tags": [],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "web",
         "displayName": "Web",
         "tags": [
@@ -4437,7 +4790,7 @@ export const siteData = [
           "world"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4451,7 +4804,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4461,7 +4814,7 @@ export const siteData = [
         "displayName": "Widgets",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4471,10 +4824,11 @@ export const siteData = [
         "displayName": "Wifi",
         "tags": [
           "network",
-          "wi-fi"
+          "wi-fi",
+          "connected"
         ],
         "categories": [
-          "Devices"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4487,7 +4841,7 @@ export const siteData = [
           "wi-fi"
         ],
         "categories": [
-          "Devices"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4500,7 +4854,7 @@ export const siteData = [
           "wi-fi"
         ],
         "categories": [
-          "Devices"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4525,7 +4879,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4538,7 +4892,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4552,7 +4906,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4565,7 +4919,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4578,7 +4932,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4590,7 +4944,7 @@ export const siteData = [
           "template"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4602,7 +4956,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4614,7 +4968,7 @@ export const siteData = [
           "render"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4639,7 +4993,7 @@ export const siteData = [
           "tools"
         ],
         "categories": [
-          "Programs"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4653,7 +5007,7 @@ export const siteData = [
           "scale"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4668,7 +5022,7 @@ export const siteData = [
           "scale"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4683,29 +5037,7 @@ export const siteData = [
           "scale"
         ],
         "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "compare-arrows",
-        "displayName": "Compare Arrows",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "crop",
-        "displayName": "Crop",
-        "tags": [
-          "resize"
-        ],
-        "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4739,7 +5071,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4754,7 +5086,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4769,7 +5101,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4784,7 +5116,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4797,7 +5129,7 @@ export const siteData = [
           "mail"
         ],
         "categories": [
-          "Account & Support"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4810,7 +5142,7 @@ export const siteData = [
           "support"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4830,6 +5162,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "alert-outlined",
+        "displayName": "Alert Outlined",
+        "tags": [],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "align-bottom",
         "displayName": "Align Bottom",
         "tags": [
@@ -4837,7 +5179,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4851,7 +5193,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4865,7 +5207,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4878,7 +5220,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4891,7 +5233,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4904,7 +5246,7 @@ export const siteData = [
           "layout"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4917,7 +5259,20 @@ export const siteData = [
           "signal"
         ],
         "categories": [
-          "Account & Support"
+          "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "apps",
+        "displayName": "Apps",
+        "tags": [
+          "applications",
+          "menu"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4929,7 +5284,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4941,7 +5296,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4953,7 +5308,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4965,7 +5320,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4977,7 +5332,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4989,7 +5344,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5001,7 +5356,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5013,7 +5368,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5025,7 +5380,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5037,7 +5392,7 @@ export const siteData = [
           "direction"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5051,7 +5406,7 @@ export const siteData = [
           "data"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5065,7 +5420,7 @@ export const siteData = [
           "data"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5079,7 +5434,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5271,7 +5626,7 @@ export const siteData = [
           "sun"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5285,7 +5640,21 @@ export const siteData = [
           "paint"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "building-corporate",
+        "displayName": "Building Corporate",
+        "tags": [
+          "office",
+          "city",
+          "buildings"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5297,7 +5666,7 @@ export const siteData = [
           "building"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5348,7 +5717,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Devices"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5363,7 +5732,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5378,7 +5747,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Devices"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5393,7 +5762,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Devices"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5406,7 +5775,7 @@ export const siteData = [
           "picture"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5419,7 +5788,7 @@ export const siteData = [
           "picture"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5437,7 +5806,31 @@ export const siteData = [
           "x"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cancel-square",
+        "displayName": "Cancel Square",
+        "tags": [
+          "close"
+        ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cancel-square-outlined",
+        "displayName": "Cancel Square Outlined",
+        "tags": [
+          "close"
+        ],
+        "categories": [
+          "Alerts & Messages"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5450,7 +5843,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5463,7 +5856,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5476,7 +5869,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5489,7 +5882,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5498,11 +5891,12 @@ export const siteData = [
         "name": "caret-right",
         "displayName": "Caret Right",
         "tags": [
+          "cancel",
           "expand",
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5515,7 +5909,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5528,7 +5922,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5541,7 +5935,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5553,7 +5947,7 @@ export const siteData = [
           "secure"
         ],
         "categories": [
-          "Account & Support"
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5567,7 +5961,7 @@ export const siteData = [
           "speech"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5581,7 +5975,7 @@ export const siteData = [
           "tick"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Alerts & Messages"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5595,7 +5989,7 @@ export const siteData = [
           "tick"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Alerts & Messages"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5609,7 +6003,17 @@ export const siteData = [
           "tick"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "check-circle-outlined",
+        "displayName": "Check Circle Outlined",
+        "tags": [],
+        "categories": [
+          "Alerts & Messages"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5623,7 +6027,7 @@ export const siteData = [
           "tick"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Alerts & Messages"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5636,7 +6040,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5649,7 +6053,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5662,7 +6066,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5675,7 +6079,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5688,7 +6092,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5701,7 +6105,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5714,7 +6118,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5727,7 +6131,7 @@ export const siteData = [
           "collapse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5737,7 +6141,7 @@ export const siteData = [
         "displayName": "Circle Notch",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5747,7 +6151,7 @@ export const siteData = [
         "displayName": "Circle Outline",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5759,7 +6163,7 @@ export const siteData = [
           "paste"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5771,7 +6175,7 @@ export const siteData = [
           "paste"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5784,7 +6188,7 @@ export const siteData = [
           "paste"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5797,7 +6201,7 @@ export const siteData = [
           "paste"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5810,7 +6214,7 @@ export const siteData = [
           "list"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5822,7 +6226,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Devices"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5835,7 +6239,7 @@ export const siteData = [
           "time"
         ],
         "categories": [
-          "Devices"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5848,7 +6252,7 @@ export const siteData = [
           "lock"
         ],
         "categories": [
-          "Devices"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5866,7 +6270,7 @@ export const siteData = [
           "x"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5884,7 +6288,7 @@ export const siteData = [
           "x"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5902,7 +6306,7 @@ export const siteData = [
           "x"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5928,7 +6332,7 @@ export const siteData = [
           "export"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5942,7 +6346,7 @@ export const siteData = [
           "import"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5954,7 +6358,7 @@ export const siteData = [
           "arrows"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5966,7 +6370,7 @@ export const siteData = [
           "arrows"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5979,7 +6383,7 @@ export const siteData = [
           "sketchup"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5993,7 +6397,17 @@ export const siteData = [
           "speech"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "compare-arrows",
+        "displayName": "Compare Arrows",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6012,7 +6426,7 @@ export const siteData = [
           "west"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6024,7 +6438,7 @@ export const siteData = [
           "jigsaw"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6038,7 +6452,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6048,7 +6462,7 @@ export const siteData = [
         "displayName": "Contrast",
         "tags": [],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6060,7 +6474,7 @@ export const siteData = [
           "duplicate"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6072,7 +6486,17 @@ export const siteData = [
           "payment"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "crop",
+        "displayName": "Crop",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6084,7 +6508,7 @@ export const siteData = [
           "pointer"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6099,7 +6523,7 @@ export const siteData = [
           "select"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6114,7 +6538,7 @@ export const siteData = [
           "select"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6124,7 +6548,33 @@ export const siteData = [
         "displayName": "Dashboard",
         "tags": [],
         "categories": [
-          "Programs"
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "day-mostly-cloudy",
+        "displayName": "Day Mostly Cloudy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "day-partly-cloudy",
+        "displayName": "Day Partly Cloudy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6137,7 +6587,7 @@ export const siteData = [
           "trash"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6150,7 +6600,7 @@ export const siteData = [
           "data"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6163,7 +6613,7 @@ export const siteData = [
           "data"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6176,7 +6626,7 @@ export const siteData = [
           "data"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6189,7 +6639,7 @@ export const siteData = [
           "input"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6202,7 +6652,7 @@ export const siteData = [
           "grip"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6215,7 +6665,7 @@ export const siteData = [
           "grip"
         ],
         "categories": [
-          "Programs"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6227,7 +6677,7 @@ export const siteData = [
           "move"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6254,7 +6704,7 @@ export const siteData = [
           "message"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6266,7 +6716,7 @@ export const siteData = [
           "mail"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6279,7 +6729,7 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6292,7 +6742,7 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6305,7 +6755,7 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6318,7 +6768,7 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6331,7 +6781,7 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6344,7 +6794,20 @@ export const siteData = [
           "chevron"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "export",
+        "displayName": "Export",
+        "tags": [
+          "file",
+          "download"
+        ],
+        "categories": [
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6359,7 +6822,7 @@ export const siteData = [
           "video"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6374,7 +6837,7 @@ export const siteData = [
           "video"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6558,7 +7021,7 @@ export const siteData = [
           "funnel"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6570,7 +7033,7 @@ export const siteData = [
           "funnel"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6582,7 +7045,7 @@ export const siteData = [
           "funnel"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6596,7 +7059,7 @@ export const siteData = [
           "tag"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6610,7 +7073,7 @@ export const siteData = [
           "tag"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6625,7 +7088,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6637,7 +7100,7 @@ export const siteData = [
           "diagram"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6761,19 +7224,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "folder-unlocked",
-        "displayName": "Folder Unlocked",
-        "tags": [
-          "directory",
-          "open"
-        ],
-        "categories": [
-          "Folders & Files"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "footprints",
         "displayName": "Footprints",
         "tags": [
@@ -6782,7 +7232,7 @@ export const siteData = [
           "walk"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6792,7 +7242,7 @@ export const siteData = [
         "displayName": "Frame",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6806,7 +7256,19 @@ export const siteData = [
           "window"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "gears",
+        "displayName": "Gears",
+        "tags": [
+          "settings"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6819,7 +7281,7 @@ export const siteData = [
           "category"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6871,7 +7333,7 @@ export const siteData = [
           "tool"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6883,7 +7345,7 @@ export const siteData = [
           "pan"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6898,7 +7360,7 @@ export const siteData = [
           "worker"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6910,7 +7372,7 @@ export const siteData = [
           "headphones"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6923,7 +7385,7 @@ export const siteData = [
           "love"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6937,7 +7399,7 @@ export const siteData = [
           "topview"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6955,13 +7417,23 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "help-outlined",
+        "displayName": "Help Outlined",
+        "tags": [],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "history",
         "displayName": "History",
         "tags": [
           "clock"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6973,7 +7445,7 @@ export const siteData = [
           "house"
         ],
         "categories": [
-          "Programs"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6988,7 +7460,7 @@ export const siteData = [
           "wait"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7013,7 +7485,7 @@ export const siteData = [
           "picture"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7025,7 +7497,20 @@ export const siteData = [
           "picture"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "in-field-device",
+        "displayName": "In Field Device",
+        "tags": [
+          "outdoor",
+          "mobile"
+        ],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7036,6 +7521,16 @@ export const siteData = [
         "tags": [
           "circle"
         ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "info-outlined",
+        "displayName": "Info Outlined",
+        "tags": [],
         "categories": [
           "Alerts & Messages"
         ],
@@ -7060,7 +7555,7 @@ export const siteData = [
           "secure"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7098,7 +7593,7 @@ export const siteData = [
           "translation"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7112,7 +7607,7 @@ export const siteData = [
           "arrow"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7126,7 +7621,7 @@ export const siteData = [
           "arrow"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7136,7 +7631,7 @@ export const siteData = [
         "displayName": "Layer",
         "tags": [],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7150,7 +7645,7 @@ export const siteData = [
           "university"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7163,7 +7658,7 @@ export const siteData = [
           "suggestion"
         ],
         "categories": [
-          "Alerts & Messages"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7176,7 +7671,7 @@ export const siteData = [
           "suggestion"
         ],
         "categories": [
-          "Alerts & Messages"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7199,7 +7694,7 @@ export const siteData = [
         "displayName": "Link",
         "tags": [],
         "categories": [
-          "Save & Share"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7209,7 +7704,7 @@ export const siteData = [
         "displayName": "Link Broken",
         "tags": [],
         "categories": [
-          "Save & Share"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7219,7 +7714,7 @@ export const siteData = [
         "displayName": "Link Off",
         "tags": [],
         "categories": [
-          "Save & Share"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7231,7 +7726,7 @@ export const siteData = [
           "checklist"
         ],
         "categories": [
-          "Presentations & View"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7244,7 +7739,7 @@ export const siteData = [
           "poi"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7257,7 +7752,7 @@ export const siteData = [
           "poi"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7270,7 +7765,7 @@ export const siteData = [
           "security"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7283,7 +7778,7 @@ export const siteData = [
           "security"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7297,7 +7792,7 @@ export const siteData = [
           "user"
         ],
         "categories": [
-          "Programs"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7310,7 +7805,7 @@ export const siteData = [
           "location"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7323,7 +7818,7 @@ export const siteData = [
           "location"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7336,7 +7831,7 @@ export const siteData = [
           "mark"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7349,7 +7844,7 @@ export const siteData = [
           "mark"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7361,7 +7856,7 @@ export const siteData = [
           "marker"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7375,7 +7870,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7388,7 +7883,7 @@ export const siteData = [
           "navigation"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7401,7 +7896,7 @@ export const siteData = [
           "navigation"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7414,7 +7909,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7456,7 +7951,7 @@ export const siteData = [
           "overflow"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7470,7 +7965,7 @@ export const siteData = [
           "overflow"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7485,7 +7980,7 @@ export const siteData = [
           "overflow"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7508,7 +8003,33 @@ export const siteData = [
           "cursor"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "night-mostly-cloudy",
+        "displayName": "Night Mostly Cloudy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "night-partly-cloudy",
+        "displayName": "Night Partly Cloudy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7524,7 +8045,33 @@ export const siteData = [
           "update"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "notifications",
+        "displayName": "Notifications",
+        "tags": [
+          "bell",
+          "alert"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "notifications-off",
+        "displayName": "Notifications Off",
+        "tags": [
+          "bell",
+          "alert"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7536,7 +8083,7 @@ export const siteData = [
           "geometric"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7559,10 +8106,77 @@ export const siteData = [
         "displayName": "Package",
         "tags": [
           "delivery",
+          "box",
+          "shipping"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "package-delivered",
+        "displayName": "Package Delivered",
+        "tags": [
+          "box",
+          "delivery"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "package-delivery",
+        "displayName": "Package Delivery",
+        "tags": [
+          "shipping",
           "box"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "package-missing",
+        "displayName": "Package Missing",
+        "tags": [
+          "shipping",
+          "box"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "package-pickup",
+        "displayName": "Package Pickup",
+        "tags": [
+          "shipping",
+          "box"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "package-sent",
+        "displayName": "Package Sent",
+        "tags": [
+          "shipping",
+          "box",
+          "Shipped"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7576,7 +8190,7 @@ export const siteData = [
           "palette"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7590,7 +8204,7 @@ export const siteData = [
           "style"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7603,7 +8217,7 @@ export const siteData = [
           "center"
         ],
         "categories": [
-          "Presentations & View"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7616,7 +8230,7 @@ export const siteData = [
           "logout"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7630,7 +8244,7 @@ export const siteData = [
           "video"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7645,7 +8259,7 @@ export const siteData = [
           "write"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7657,7 +8271,7 @@ export const siteData = [
           "edit"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7669,7 +8283,7 @@ export const siteData = [
           "users"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7681,7 +8295,7 @@ export const siteData = [
           "users"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7693,7 +8307,7 @@ export const siteData = [
           "user"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7706,7 +8320,7 @@ export const siteData = [
           "user"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7719,7 +8333,7 @@ export const siteData = [
           "user"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7732,7 +8346,7 @@ export const siteData = [
           "update"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7745,7 +8359,7 @@ export const siteData = [
           "user"
         ],
         "categories": [
-          "Account & Support"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7757,7 +8371,7 @@ export const siteData = [
           "call"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7770,7 +8384,7 @@ export const siteData = [
           "ring"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7783,7 +8397,7 @@ export const siteData = [
           "end"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7809,7 +8423,7 @@ export const siteData = [
           "fix"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7823,7 +8437,7 @@ export const siteData = [
           "fix"
         ],
         "categories": [
-          "Presentations & View"
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7838,7 +8452,7 @@ export const siteData = [
           "video"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7850,7 +8464,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7862,7 +8476,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7874,7 +8488,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7886,7 +8500,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7899,7 +8513,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7911,7 +8525,7 @@ export const siteData = [
           "outline"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7924,7 +8538,7 @@ export const siteData = [
           "heartbeat"
         ],
         "categories": [
-          "Presentations & View"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7934,7 +8548,7 @@ export const siteData = [
         "displayName": "Question",
         "tags": [],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7997,7 +8611,7 @@ export const siteData = [
           "turn"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8010,7 +8624,7 @@ export const siteData = [
           "turn"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8027,7 +8641,7 @@ export const siteData = [
           "spin"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8044,7 +8658,7 @@ export const siteData = [
           "spin"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8056,7 +8670,7 @@ export const siteData = [
           "minus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8065,10 +8679,10 @@ export const siteData = [
         "name": "remove-bold",
         "displayName": "Remove Bold",
         "tags": [
-          "minus"
+          "Editing"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8081,7 +8695,7 @@ export const siteData = [
           "minus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8093,7 +8707,7 @@ export const siteData = [
           "minus"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8105,7 +8719,7 @@ export const siteData = [
           "arrow"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8119,7 +8733,7 @@ export const siteData = [
           "row"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8133,7 +8747,7 @@ export const siteData = [
           "highlight"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8143,7 +8757,7 @@ export const siteData = [
         "displayName": "Rss Feed",
         "tags": [],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8156,7 +8770,7 @@ export const siteData = [
           "measure"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8165,10 +8779,11 @@ export const siteData = [
         "name": "satellite",
         "displayName": "Satellite",
         "tags": [
+          "gps",
           "map"
         ],
         "categories": [
-          "Devices"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8180,7 +8795,7 @@ export const siteData = [
           "floppy"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8192,7 +8807,7 @@ export const siteData = [
           "floppy"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8204,7 +8819,7 @@ export const siteData = [
           "cut"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8226,7 +8841,7 @@ export const siteData = [
         "displayName": "Screenshot",
         "tags": [],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8239,7 +8854,7 @@ export const siteData = [
           "magnifying glass"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8278,7 +8893,7 @@ export const siteData = [
           "tool"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8290,7 +8905,7 @@ export const siteData = [
           "link"
         ],
         "categories": [
-          "Save & Share"
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8302,7 +8917,7 @@ export const siteData = [
           "security"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8312,7 +8927,7 @@ export const siteData = [
         "displayName": "Shortcut",
         "tags": [],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8325,7 +8940,7 @@ export const siteData = [
           "dig"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8338,7 +8953,7 @@ export const siteData = [
           "sketchup"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8352,7 +8967,7 @@ export const siteData = [
           "sketchup"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8369,7 +8984,7 @@ export const siteData = [
           "signal"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8444,13 +9059,23 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "sort",
+        "displayName": "Sort",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "sort-alpha-down",
         "displayName": "Sort Alpha Down",
         "tags": [
           "ascending"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8463,7 +9088,7 @@ export const siteData = [
           "reverse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8475,7 +9100,7 @@ export const siteData = [
           "descending"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8488,7 +9113,7 @@ export const siteData = [
           "reverse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8505,22 +9130,7 @@ export const siteData = [
           "save"
         ],
         "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "star-empty",
-        "displayName": "Star Empty",
-        "tags": [
-          "favorite",
-          "like",
-          "rating",
-          "shape"
-        ],
-        "categories": [
-          "Actions & Navigation"
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8532,7 +9142,24 @@ export const siteData = [
           "lock"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Evaluation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "star-outlined",
+        "displayName": "Star Outlined",
+        "tags": [
+          "favorite",
+          "important",
+          "like",
+          "empty",
+          "unsaved",
+          "save"
+        ],
+        "categories": [
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8545,7 +9172,7 @@ export const siteData = [
           "sign"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8569,7 +9196,7 @@ export const siteData = [
           "arrow"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8581,7 +9208,7 @@ export const siteData = [
           "arrow"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8597,7 +9224,7 @@ export const siteData = [
           "update"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8613,7 +9240,7 @@ export const siteData = [
           "update"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8629,7 +9256,7 @@ export const siteData = [
           "update"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8654,7 +9281,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8667,7 +9294,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8680,7 +9307,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8717,7 +9344,7 @@ export const siteData = [
           "rating"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8730,7 +9357,7 @@ export const siteData = [
           "rating"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Evaluation"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8768,7 +9395,7 @@ export const siteData = [
         "displayName": "Ticket",
         "tags": [],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8778,7 +9405,7 @@ export const siteData = [
         "displayName": "Ticket Plane",
         "tags": [],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8791,7 +9418,7 @@ export const siteData = [
           "stopwatch"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8804,7 +9431,7 @@ export const siteData = [
           "stopwatch"
         ],
         "categories": [
-          "Account & Support"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8816,7 +9443,7 @@ export const siteData = [
           "document"
         ],
         "categories": [
-          "Account & Support"
+          "Folders & Files"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8826,7 +9453,7 @@ export const siteData = [
         "displayName": "Toggle Center",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8838,7 +9465,7 @@ export const siteData = [
           "switch"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8850,7 +9477,7 @@ export const siteData = [
           "switch"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8862,7 +9489,7 @@ export const siteData = [
           "switch"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8875,7 +9502,7 @@ export const siteData = [
           "mark"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8888,7 +9515,47 @@ export const siteData = [
           "organize"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "triangle-down",
+        "displayName": "Triangle Down",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "triangle-left",
+        "displayName": "Triangle Left",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "triangle-right",
+        "displayName": "Triangle Right",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "triangle-up",
+        "displayName": "Triangle Up",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8900,7 +9567,7 @@ export const siteData = [
           "brand"
         ],
         "categories": [
-          "Programs"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8913,7 +9580,7 @@ export const siteData = [
           "settings"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8926,7 +9593,7 @@ export const siteData = [
           "settings"
         ],
         "categories": [
-          "Account & Support"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8939,7 +9606,7 @@ export const siteData = [
           "reverse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8952,7 +9619,7 @@ export const siteData = [
           "reverse"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8966,7 +9633,7 @@ export const siteData = [
           "down"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8980,7 +9647,7 @@ export const siteData = [
           "down"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8993,7 +9660,7 @@ export const siteData = [
           "circle"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9009,7 +9676,7 @@ export const siteData = [
           "sketchup"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9023,7 +9690,7 @@ export const siteData = [
           "document"
         ],
         "categories": [
-          "Save & Share"
+          "Save"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9035,7 +9702,7 @@ export const siteData = [
           "cam"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9048,7 +9715,7 @@ export const siteData = [
           "plus"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9060,7 +9727,7 @@ export const siteData = [
           "cam"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9075,7 +9742,7 @@ export const siteData = [
           "view"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9090,7 +9757,7 @@ export const siteData = [
           "view"
         ],
         "categories": [
-          "Presentations & View"
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9104,7 +9771,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9118,7 +9785,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9132,7 +9799,7 @@ export const siteData = [
           "sound"
         ],
         "categories": [
-          "Devices"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9153,6 +9820,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "warning-outlined",
+        "displayName": "Warning Outlined",
+        "tags": [],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "web",
         "displayName": "Web",
         "tags": [
@@ -9160,7 +9837,7 @@ export const siteData = [
           "world"
         ],
         "categories": [
-          "Account & Support"
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9174,7 +9851,7 @@ export const siteData = [
           "viewpoint"
         ],
         "categories": [
-          "Presentations & View"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9184,7 +9861,7 @@ export const siteData = [
         "displayName": "Widgets",
         "tags": [],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9194,10 +9871,11 @@ export const siteData = [
         "displayName": "Wifi",
         "tags": [
           "network",
-          "wi-fi"
+          "wi-fi",
+          "connected"
         ],
         "categories": [
-          "Devices"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9210,7 +9888,7 @@ export const siteData = [
           "wi-fi"
         ],
         "categories": [
-          "Devices"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9223,7 +9901,7 @@ export const siteData = [
           "wi-fi"
         ],
         "categories": [
-          "Devices"
+          "Connectivity & Signal"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9248,7 +9926,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9261,7 +9939,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9275,7 +9953,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9288,7 +9966,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9301,7 +9979,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9313,7 +9991,7 @@ export const siteData = [
           "template"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9325,7 +10003,7 @@ export const siteData = [
           "screen"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9337,7 +10015,7 @@ export const siteData = [
           "render"
         ],
         "categories": [
-          "Presentations & View"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9362,7 +10040,7 @@ export const siteData = [
           "tools"
         ],
         "categories": [
-          "Programs"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9376,7 +10054,7 @@ export const siteData = [
           "scale"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9391,7 +10069,7 @@ export const siteData = [
           "scale"
         ],
         "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9406,27 +10084,7 @@ export const siteData = [
           "scale"
         ],
         "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "compare-arrows",
-        "displayName": "Compare Arrows",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "crop",
-        "displayName": "Crop",
-        "tags": [],
-        "categories": [
-          "Actions & Navigation"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9459,16 +10117,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "add-new-road",
-        "displayName": "Add New Road",
+        "name": "account-circle",
+        "displayName": "Account Circle",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "apps",
-        "displayName": "Apps",
+        "name": "add-new-road",
+        "displayName": "Add New Road",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -9702,17 +10360,6 @@ export const siteData = [
         "displayName": "Edit Road",
         "tags": [
           "pencil"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "export",
-        "displayName": "Export",
-        "tags": [
-          "download",
-          "save"
         ],
         "categories": [],
         "deprecated": false,
@@ -10306,22 +10953,6 @@ export const siteData = [
           "bin",
           "delete"
         ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "triangle-left",
-        "displayName": "Triangle Left",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "triangle-right",
-        "displayName": "Triangle Right",
-        "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""

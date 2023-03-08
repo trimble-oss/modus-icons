@@ -1,21 +1,5 @@
 [
   {
-    "name": "compare-arrows",
-    "tags": [],
-    "categories": [
-      "Actions & Navigation"
-    ]
-  },
-  {
-    "name": "crop",
-    "tags": [
-      "resize"
-    ],
-    "categories": [
-      "Actions & Navigation"
-    ]
-  },
-  {
     "name": "folder",
     "categories": [
       "Folders & Files"

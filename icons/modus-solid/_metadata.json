@@ -8,7 +8,7 @@
       "plus"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -20,7 +20,7 @@
       "plus"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -32,7 +32,7 @@
       "plus"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -44,7 +44,7 @@
       "plus"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -54,7 +54,7 @@
       "mail"
     ],
     "categories": [
-      "Account & Support"
+      "Location"
     ]
   },
   {
@@ -64,7 +64,7 @@
       "support"
     ],
     "categories": [
-      "Account & Support"
+      "Objects & Shapes"
     ]
   },
   {
@@ -79,13 +79,20 @@
     ]
   },
   {
+    "name": "alert-outlined",
+    "tags": [],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
     "name": "align-bottom",
     "tags": [
       "orientation",
       "layout"
     ],
     "categories": [
-      "Presentations & View"
+      "Editing"
     ]
   },
   {
@@ -96,7 +103,7 @@
       "layout"
     ],
     "categories": [
-      "Presentations & View"
+      "Editing"
     ]
   },
   {
@@ -107,7 +114,7 @@
       "layout"
     ],
     "categories": [
-      "Presentations & View"
+      "Editing"
     ]
   },
   {
@@ -117,7 +124,7 @@
       "layout"
     ],
     "categories": [
-      "Presentations & View"
+      "Editing"
     ]
   },
   {
@@ -127,7 +134,7 @@
       "layout"
     ],
     "categories": [
-      "Presentations & View"
+      "Editing"
     ]
   },
   {
@@ -137,7 +144,7 @@
       "layout"
     ],
     "categories": [
-      "Presentations & View"
+      "Editing"
     ]
   },
   {
@@ -147,7 +154,7 @@
       "signal"
     ],
     "categories": [
-      "Account & Support"
+      "Connectivity & Signal"
     ]
   },
   {
@@ -157,16 +164,17 @@
       "menu"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Applications"
     ]
   },
   {
     "name": "arrow-back",
     "tags": [
-      "direction"
+      "direction",
+      "back"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -175,7 +183,7 @@
       "direction"
     ],
     "categories": [
-      "Presentations & View"
+      "Arrows & Controls"
     ]
   },
   {
@@ -184,7 +192,7 @@
       "direction"
     ],
     "categories": [
-      "Presentations & View"
+      "Arrows & Controls"
     ]
   },
   {
@@ -193,7 +201,7 @@
       "direction"
     ],
     "categories": [
-      "Presentations & View"
+      "Arrows & Controls"
     ]
   },
   {
@@ -202,16 +210,17 @@
       "direction"
     ],
     "categories": [
-      "Presentations & View"
+      "Arrows & Controls"
     ]
   },
   {
     "name": "arrow-next",
     "tags": [
-      "direction"
+      "direction",
+      "next"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -220,7 +229,7 @@
       "direction"
     ],
     "categories": [
-      "Presentations & View"
+      "Arrows & Controls"
     ]
   },
   {
@@ -229,7 +238,7 @@
       "direction"
     ],
     "categories": [
-      "Presentations & View"
+      "Arrows & Controls"
     ]
   },
   {
@@ -238,7 +247,7 @@
       "direction"
     ],
     "categories": [
-      "Presentations & View"
+      "Arrows & Controls"
     ]
   },
   {
@@ -247,7 +256,7 @@
       "direction"
     ],
     "categories": [
-      "Presentations & View"
+      "Arrows & Controls"
     ]
   },
   {
@@ -258,7 +267,7 @@
       "data"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -269,7 +278,7 @@
       "data"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -280,7 +289,7 @@
       "viewpoint"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
@@ -430,7 +439,7 @@
       "sun"
     ],
     "categories": [
-      "Presentations & View"
+      "Image"
     ]
   },
   {
@@ -441,7 +450,7 @@
       "paint"
     ],
     "categories": [
-      "Presentations & View"
+      "Image"
     ]
   },
   {
@@ -452,7 +461,7 @@
       "buildings"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
@@ -461,7 +470,7 @@
       "building"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
@@ -500,7 +509,7 @@
       "time"
     ],
     "categories": [
-      "Devices"
+      "Applications"
     ]
   },
   {
@@ -512,7 +521,7 @@
       "time"
     ],
     "categories": [
-      "Account & Support"
+      "Applications"
     ]
   },
   {
@@ -524,7 +533,7 @@
       "time"
     ],
     "categories": [
-      "Devices"
+      "Applications"
     ]
   },
   {
@@ -536,7 +545,7 @@
       "time"
     ],
     "categories": [
-      "Devices"
+      "Applications"
     ]
   },
   {
@@ -546,7 +555,7 @@
       "picture"
     ],
     "categories": [
-      "Devices"
+      "Communication & Media"
     ]
   },
   {
@@ -556,7 +565,7 @@
       "picture"
     ],
     "categories": [
-      "Devices"
+      "Communication & Media"
     ]
   },
   {
@@ -571,7 +580,25 @@
       "x"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "cancel-square",
+    "tags": [
+      "close"
+    ],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
+    "name": "cancel-square-outlined",
+    "tags": [
+      "close"
+    ],
+    "categories": [
+      "Alerts & Messages"
     ]
   },
   {
@@ -581,7 +608,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -591,7 +618,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -601,7 +628,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -611,17 +638,18 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
     "name": "caret-right",
     "tags": [
+      "cancel",
       "expand",
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -631,7 +659,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -641,7 +669,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -651,7 +679,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -660,7 +688,7 @@
       "secure"
     ],
     "categories": [
-      "Account & Support"
+      "Evaluation"
     ]
   },
   {
@@ -671,7 +699,7 @@
       "speech"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Communication & Media"
     ]
   },
   {
@@ -682,7 +710,7 @@
       "tick"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Alerts & Messages"
     ]
   },
   {
@@ -693,7 +721,7 @@
       "tick"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Alerts & Messages"
     ]
   },
   {
@@ -704,7 +732,14 @@
       "tick"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Alerts & Messages"
+    ]
+  },
+  {
+    "name": "check-circle-outlined",
+    "tags": [],
+    "categories": [
+      "Alerts & Messages"
     ]
   },
   {
@@ -715,7 +750,7 @@
       "tick"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Alerts & Messages"
     ]
   },
   {
@@ -725,7 +760,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -735,7 +770,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -745,7 +780,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -755,7 +790,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -765,7 +800,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -775,7 +810,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -785,7 +820,7 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -795,21 +830,21 @@
       "collapse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
     "name": "circle-notch",
     "tags": [],
     "categories": [
-      "Actions & Navigation"
+      "Objects & Shapes"
     ]
   },
   {
     "name": "circle-outline",
     "tags": [],
     "categories": [
-      "Actions & Navigation"
+      "Objects & Shapes"
     ]
   },
   {
@@ -818,7 +853,7 @@
       "paste"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -827,7 +862,7 @@
       "paste"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -837,7 +872,7 @@
       "paste"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -847,7 +882,7 @@
       "paste"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -857,7 +892,7 @@
       "list"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -866,7 +901,7 @@
       "time"
     ],
     "categories": [
-      "Devices"
+      "Objects & Shapes"
     ]
   },
   {
@@ -876,7 +911,7 @@
       "time"
     ],
     "categories": [
-      "Devices"
+      "Objects & Shapes"
     ]
   },
   {
@@ -886,7 +921,7 @@
       "lock"
     ],
     "categories": [
-      "Devices"
+      "Objects & Shapes"
     ]
   },
   {
@@ -901,7 +936,7 @@
       "x"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -916,7 +951,7 @@
       "x"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -931,7 +966,7 @@
       "x"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -951,7 +986,7 @@
       "export"
     ],
     "categories": [
-      "Save & Share"
+      "Save"
     ]
   },
   {
@@ -962,7 +997,7 @@
       "import"
     ],
     "categories": [
-      "Save & Share"
+      "Save"
     ]
   },
   {
@@ -971,7 +1006,7 @@
       "arrows"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -980,7 +1015,7 @@
       "arrows"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -990,7 +1025,7 @@
       "sketchup"
     ],
     "categories": [
-      "Presentations & View"
+      "Image"
     ]
   },
   {
@@ -1001,7 +1036,14 @@
       "speech"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Communication & Media"
+    ]
+  },
+  {
+    "name": "compare-arrows",
+    "tags": [],
+    "categories": [
+      "Arrows & Controls"
     ]
   },
   {
@@ -1017,7 +1059,7 @@
       "west"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Location"
     ]
   },
   {
@@ -1026,7 +1068,7 @@
       "jigsaw"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
@@ -1037,14 +1079,14 @@
       "viewpoint"
     ],
     "categories": [
-      "Account & Support"
+      "Social"
     ]
   },
   {
     "name": "contrast",
     "tags": [],
     "categories": [
-      "Presentations & View"
+      "Image"
     ]
   },
   {
@@ -1053,7 +1095,7 @@
       "duplicate"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -1062,7 +1104,14 @@
       "payment"
     ],
     "categories": [
-      "Account & Support"
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "crop",
+    "tags": [],
+    "categories": [
+      "Editing"
     ]
   },
   {
@@ -1071,7 +1120,7 @@
       "pointer"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1083,7 +1132,7 @@
       "select"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1095,14 +1144,14 @@
       "select"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
     "name": "dashboard",
     "tags": [],
     "categories": [
-      "Programs"
+      "Applications"
     ]
   },
   {
@@ -1132,7 +1181,7 @@
       "trash"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -1142,7 +1191,7 @@
       "data"
     ],
     "categories": [
-      "Save & Share"
+      "Save"
     ]
   },
   {
@@ -1152,7 +1201,7 @@
       "data"
     ],
     "categories": [
-      "Save & Share"
+      "Save"
     ]
   },
   {
@@ -1162,7 +1211,7 @@
       "data"
     ],
     "categories": [
-      "Save & Share"
+      "Save"
     ]
   },
   {
@@ -1172,7 +1221,7 @@
       "input"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1182,7 +1231,7 @@
       "grip"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1192,7 +1241,7 @@
       "grip"
     ],
     "categories": [
-      "Programs"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1201,7 +1250,7 @@
       "move"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1222,7 +1271,7 @@
       "message"
     ],
     "categories": [
-      "Account & Support"
+      "Communication & Media"
     ]
   },
   {
@@ -1231,7 +1280,7 @@
       "mail"
     ],
     "categories": [
-      "Account & Support"
+      "Communication & Media"
     ]
   },
   {
@@ -1241,7 +1290,7 @@
       "chevron"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1251,7 +1300,7 @@
       "chevron"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1261,7 +1310,7 @@
       "chevron"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1271,7 +1320,7 @@
       "chevron"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1281,7 +1330,7 @@
       "chevron"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1291,7 +1340,17 @@
       "chevron"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "export",
+    "tags": [
+      "file",
+      "download"
+    ],
+    "categories": [
+      "Save"
     ]
   },
   {
@@ -1303,7 +1362,7 @@
       "video"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1315,7 +1374,7 @@
       "video"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1457,7 +1516,7 @@
       "funnel"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -1466,7 +1525,7 @@
       "funnel"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -1475,7 +1534,7 @@
       "funnel"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -1486,7 +1545,7 @@
       "tag"
     ],
     "categories": [
-      "Presentations & View"
+      "Location"
     ]
   },
   {
@@ -1497,7 +1556,7 @@
       "tag"
     ],
     "categories": [
-      "Presentations & View"
+      "Location"
     ]
   },
   {
@@ -1509,7 +1568,7 @@
       "viewpoint"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
@@ -1518,7 +1577,7 @@
       "diagram"
     ],
     "categories": [
-      "Presentations & View"
+      "Image"
     ]
   },
   {
@@ -1630,14 +1689,14 @@
       "walk"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
     "name": "frame",
     "tags": [],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -1648,7 +1707,16 @@
       "window"
     ],
     "categories": [
-      "Presentations & View"
+      "Applications"
+    ]
+  },
+  {
+    "name": "gears",
+    "tags": [
+      "settings"
+    ],
+    "categories": [
+      "Applications"
     ]
   },
   {
@@ -1658,7 +1726,7 @@
       "category"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -1698,7 +1766,7 @@
       "tool"
     ],
     "categories": [
-      "Account & Support"
+      "Objects & Shapes"
     ]
   },
   {
@@ -1707,7 +1775,7 @@
       "pan"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Social"
     ]
   },
   {
@@ -1719,7 +1787,7 @@
       "worker"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
@@ -1728,7 +1796,7 @@
       "headphones"
     ],
     "categories": [
-      "Account & Support"
+      "Communication & Media"
     ]
   },
   {
@@ -1738,7 +1806,7 @@
       "love"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Evaluation"
     ]
   },
   {
@@ -1749,7 +1817,7 @@
       "topview"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
@@ -1762,12 +1830,19 @@
     ]
   },
   {
+    "name": "help-outlined",
+    "tags": [],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
     "name": "history",
     "tags": [
       "clock"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Applications"
     ]
   },
   {
@@ -1776,7 +1851,7 @@
       "house"
     ],
     "categories": [
-      "Programs"
+      "Location"
     ]
   },
   {
@@ -1788,7 +1863,7 @@
       "wait"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Objects & Shapes"
     ]
   },
   {
@@ -1807,7 +1882,7 @@
       "picture"
     ],
     "categories": [
-      "Presentations & View"
+      "Image"
     ]
   },
   {
@@ -1816,7 +1891,7 @@
       "picture"
     ],
     "categories": [
-      "Presentations & View"
+      "Image"
     ]
   },
   {
@@ -1839,6 +1914,13 @@
     ]
   },
   {
+    "name": "info-outlined",
+    "tags": [],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
     "name": "inspect",
     "tags": [],
     "categories": [
@@ -1852,7 +1934,7 @@
       "secure"
     ],
     "categories": [
-      "Account & Support"
+      "Objects & Shapes"
     ]
   },
   {
@@ -1881,7 +1963,7 @@
       "translation"
     ],
     "categories": [
-      "Account & Support"
+      "Applications"
     ]
   },
   {
@@ -1892,7 +1974,7 @@
       "arrow"
     ],
     "categories": [
-      "Programs"
+      "Applications"
     ]
   },
   {
@@ -1903,14 +1985,14 @@
       "arrow"
     ],
     "categories": [
-      "Programs"
+      "Applications"
     ]
   },
   {
     "name": "layer",
     "tags": [],
     "categories": [
-      "Presentations & View"
+      "Applications"
     ]
   },
   {
@@ -1921,7 +2003,7 @@
       "university"
     ],
     "categories": [
-      "Account & Support"
+      "Objects & Shapes"
     ]
   },
   {
@@ -1931,7 +2013,7 @@
       "suggestion"
     ],
     "categories": [
-      "Alerts & Messages"
+      "Objects & Shapes"
     ]
   },
   {
@@ -1941,7 +2023,7 @@
       "suggestion"
     ],
     "categories": [
-      "Alerts & Messages"
+      "Objects & Shapes"
     ]
   },
   {
@@ -1958,21 +2040,21 @@
     "name": "link",
     "tags": [],
     "categories": [
-      "Save & Share"
+      "Editing"
     ]
   },
   {
     "name": "link-broken",
     "tags": [],
     "categories": [
-      "Save & Share"
+      "Editing"
     ]
   },
   {
     "name": "link-off",
     "tags": [],
     "categories": [
-      "Save & Share"
+      "Editing"
     ]
   },
   {
@@ -1981,7 +2063,7 @@
       "checklist"
     ],
     "categories": [
-      "Presentations & View"
+      "Editing"
     ]
   },
   {
@@ -1991,7 +2073,7 @@
       "poi"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Location"
     ]
   },
   {
@@ -2001,7 +2083,7 @@
       "poi"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Location"
     ]
   },
   {
@@ -2011,7 +2093,7 @@
       "security"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Objects & Shapes"
     ]
   },
   {
@@ -2021,7 +2103,7 @@
       "security"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Objects & Shapes"
     ]
   },
   {
@@ -2032,7 +2114,7 @@
       "user"
     ],
     "categories": [
-      "Programs"
+      "Social"
     ]
   },
   {
@@ -2042,7 +2124,7 @@
       "location"
     ],
     "categories": [
-      "Presentations & View"
+      "Location"
     ]
   },
   {
@@ -2052,7 +2134,7 @@
       "location"
     ],
     "categories": [
-      "Presentations & View"
+      "Location"
     ]
   },
   {
@@ -2062,7 +2144,7 @@
       "mark"
     ],
     "categories": [
-      "Presentations & View"
+      "Location"
     ]
   },
   {
@@ -2072,7 +2154,7 @@
       "mark"
     ],
     "categories": [
-      "Presentations & View"
+      "Location"
     ]
   },
   {
@@ -2081,7 +2163,7 @@
       "marker"
     ],
     "categories": [
-      "Presentations & View"
+      "Location"
     ]
   },
   {
@@ -2092,7 +2174,7 @@
       "viewpoint"
     ],
     "categories": [
-      "Devices"
+      "Communication & Media"
     ]
   },
   {
@@ -2102,7 +2184,7 @@
       "navigation"
     ],
     "categories": [
-      "Programs"
+      "Applications"
     ]
   },
   {
@@ -2112,7 +2194,7 @@
       "navigation"
     ],
     "categories": [
-      "Programs"
+      "Applications"
     ]
   },
   {
@@ -2122,7 +2204,7 @@
       "sound"
     ],
     "categories": [
-      "Devices"
+      "Communication & Media"
     ]
   },
   {
@@ -2155,7 +2237,7 @@
       "overflow"
     ],
     "categories": [
-      "Programs"
+      "Applications"
     ]
   },
   {
@@ -2166,7 +2248,7 @@
       "overflow"
     ],
     "categories": [
-      "Programs"
+      "Applications"
     ]
   },
   {
@@ -2178,7 +2260,7 @@
       "overflow"
     ],
     "categories": [
-      "Programs"
+      "Applications"
     ]
   },
   {
@@ -2195,7 +2277,7 @@
       "cursor"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2228,7 +2310,7 @@
       "update"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Connectivity & Signal"
     ]
   },
   {
@@ -2238,7 +2320,7 @@
       "alert"
     ],
     "categories": [
-      "Account & Support"
+      "Applications"
     ]
   },
   {
@@ -2248,7 +2330,7 @@
       "alert"
     ],
     "categories": [
-      "Account & Support"
+      "Applications"
     ]
   },
   {
@@ -2257,7 +2339,7 @@
       "geometric"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
@@ -2274,10 +2356,62 @@
     "name": "package",
     "tags": [
       "delivery",
+      "box",
+      "shipping"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "package-delivered",
+    "tags": [
+      "box",
+      "delivery"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "package-delivery",
+    "tags": [
+      "shipping",
       "box"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "package-missing",
+    "tags": [
+      "shipping",
+      "box"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "package-pickup",
+    "tags": [
+      "shipping",
+      "box"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "package-sent",
+    "tags": [
+      "shipping",
+      "box",
+      "Shipped"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -2288,7 +2422,7 @@
       "palette"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Image"
     ]
   },
   {
@@ -2299,7 +2433,7 @@
       "style"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Image"
     ]
   },
   {
@@ -2309,7 +2443,7 @@
       "center"
     ],
     "categories": [
-      "Presentations & View"
+      "Arrows & Controls"
     ]
   },
   {
@@ -2319,7 +2453,7 @@
       "logout"
     ],
     "categories": [
-      "Account & Support"
+      "Applications"
     ]
   },
   {
@@ -2330,7 +2464,7 @@
       "video"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -2342,7 +2476,7 @@
       "write"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2351,7 +2485,7 @@
       "edit"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2360,7 +2494,7 @@
       "users"
     ],
     "categories": [
-      "Account & Support"
+      "Social"
     ]
   },
   {
@@ -2369,7 +2503,7 @@
       "users"
     ],
     "categories": [
-      "Account & Support"
+      "Social"
     ]
   },
   {
@@ -2378,7 +2512,7 @@
       "user"
     ],
     "categories": [
-      "Account & Support"
+      "Social"
     ]
   },
   {
@@ -2388,7 +2522,7 @@
       "user"
     ],
     "categories": [
-      "Account & Support"
+      "Social"
     ]
   },
   {
@@ -2398,7 +2532,7 @@
       "user"
     ],
     "categories": [
-      "Account & Support"
+      "Social"
     ]
   },
   {
@@ -2408,7 +2542,7 @@
       "update"
     ],
     "categories": [
-      "Account & Support"
+      "Social"
     ]
   },
   {
@@ -2418,7 +2552,7 @@
       "user"
     ],
     "categories": [
-      "Account & Support"
+      "Social"
     ]
   },
   {
@@ -2427,7 +2561,7 @@
       "call"
     ],
     "categories": [
-      "Account & Support"
+      "Communication & Media"
     ]
   },
   {
@@ -2437,7 +2571,7 @@
       "ring"
     ],
     "categories": [
-      "Account & Support"
+      "Communication & Media"
     ]
   },
   {
@@ -2447,7 +2581,7 @@
       "end"
     ],
     "categories": [
-      "Account & Support"
+      "Communication & Media"
     ]
   },
   {
@@ -2467,7 +2601,7 @@
       "fix"
     ],
     "categories": [
-      "Presentations & View"
+      "Location"
     ]
   },
   {
@@ -2478,7 +2612,7 @@
       "fix"
     ],
     "categories": [
-      "Presentations & View"
+      "Location"
     ]
   },
   {
@@ -2490,7 +2624,7 @@
       "video"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -2499,7 +2633,7 @@
       "outline"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2508,7 +2642,7 @@
       "outline"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2517,7 +2651,7 @@
       "outline"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2526,7 +2660,7 @@
       "outline"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2536,7 +2670,7 @@
       "outline"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2545,7 +2679,7 @@
       "outline"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2555,14 +2689,14 @@
       "heartbeat"
     ],
     "categories": [
-      "Presentations & View"
+      "Connectivity & Signal"
     ]
   },
   {
     "name": "question",
     "tags": [],
     "categories": [
-      "Account & Support"
+      "Communication & Media"
     ]
   },
   {
@@ -2610,7 +2744,7 @@
       "turn"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -2620,7 +2754,7 @@
       "turn"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -2634,7 +2768,7 @@
       "spin"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -2648,7 +2782,7 @@
       "spin"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -2657,7 +2791,7 @@
       "minus"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2666,7 +2800,7 @@
       "minus"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2676,7 +2810,7 @@
       "minus"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2685,7 +2819,7 @@
       "minus"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2694,7 +2828,7 @@
       "arrow"
     ],
     "categories": [
-      "Account & Support"
+      "Communication & Media"
     ]
   },
   {
@@ -2705,7 +2839,7 @@
       "row"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -2716,14 +2850,14 @@
       "highlight"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
     "name": "rss-feed",
     "tags": [],
     "categories": [
-      "Account & Support"
+      "Communication & Media"
     ]
   },
   {
@@ -2733,16 +2867,17 @@
       "measure"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Objects & Shapes"
     ]
   },
   {
     "name": "satellite",
     "tags": [
+      "gps",
       "map"
     ],
     "categories": [
-      "Devices"
+      "Connectivity & Signal"
     ]
   },
   {
@@ -2751,7 +2886,7 @@
       "floppy"
     ],
     "categories": [
-      "Save & Share"
+      "Save"
     ]
   },
   {
@@ -2760,7 +2895,7 @@
       "floppy"
     ],
     "categories": [
-      "Save & Share"
+      "Save"
     ]
   },
   {
@@ -2769,7 +2904,7 @@
       "cut"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Editing"
     ]
   },
   {
@@ -2785,7 +2920,7 @@
     "name": "screenshot",
     "tags": [],
     "categories": [
-      "Presentations & View"
+      "Image"
     ]
   },
   {
@@ -2795,7 +2930,7 @@
       "magnifying glass"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Applications"
     ]
   },
   {
@@ -2825,7 +2960,7 @@
       "tool"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Applications"
     ]
   },
   {
@@ -2834,7 +2969,7 @@
       "link"
     ],
     "categories": [
-      "Save & Share"
+      "Social"
     ]
   },
   {
@@ -2843,14 +2978,14 @@
       "security"
     ],
     "categories": [
-      "Account & Support"
+      "Objects & Shapes"
     ]
   },
   {
     "name": "shortcut",
     "tags": [],
     "categories": [
-      "Account & Support"
+      "Applications"
     ]
   },
   {
@@ -2860,7 +2995,7 @@
       "dig"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
@@ -2870,7 +3005,7 @@
       "sketchup"
     ],
     "categories": [
-      "Account & Support"
+      "Applications"
     ]
   },
   {
@@ -2881,7 +3016,7 @@
       "sketchup"
     ],
     "categories": [
-      "Account & Support"
+      "Applications"
     ]
   },
   {
@@ -2895,7 +3030,7 @@
       "signal"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Connectivity & Signal"
     ]
   },
   {
@@ -2953,12 +3088,19 @@
     ]
   },
   {
+    "name": "sort",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
     "name": "sort-alpha-down",
     "tags": [
       "ascending"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -2968,7 +3110,7 @@
       "reverse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -2977,7 +3119,7 @@
       "descending"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -2987,7 +3129,7 @@
       "reverse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -3001,19 +3143,7 @@
       "save"
     ],
     "categories": [
-      "Actions & Navigation"
-    ]
-  },
-  {
-    "name": "star-empty",
-    "tags": [
-      "favorite",
-      "like",
-      "rating",
-      "shape"
-    ],
-    "categories": [
-      "Actions & Navigation"
+      "Evaluation"
     ]
   },
   {
@@ -3022,7 +3152,21 @@
       "lock"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Evaluation"
+    ]
+  },
+  {
+    "name": "star-outlined",
+    "tags": [
+      "favorite",
+      "important",
+      "like",
+      "empty",
+      "unsaved",
+      "save"
+    ],
+    "categories": [
+      "Evaluation"
     ]
   },
   {
@@ -3032,7 +3176,7 @@
       "sign"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3050,7 +3194,7 @@
       "arrow"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3059,7 +3203,7 @@
       "arrow"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3072,7 +3216,7 @@
       "update"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Connectivity & Signal"
     ]
   },
   {
@@ -3085,7 +3229,7 @@
       "update"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Connectivity & Signal"
     ]
   },
   {
@@ -3098,7 +3242,7 @@
       "update"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Connectivity & Signal"
     ]
   },
   {
@@ -3117,7 +3261,7 @@
       "viewpoint"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -3127,7 +3271,7 @@
       "viewpoint"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -3137,7 +3281,7 @@
       "viewpoint"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Data Management"
     ]
   },
   {
@@ -3165,7 +3309,7 @@
       "rating"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Evaluation"
     ]
   },
   {
@@ -3175,7 +3319,7 @@
       "rating"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Evaluation"
     ]
   },
   {
@@ -3204,14 +3348,14 @@
     "name": "ticket",
     "tags": [],
     "categories": [
-      "Account & Support"
+      "Objects & Shapes"
     ]
   },
   {
     "name": "ticket-plane",
     "tags": [],
     "categories": [
-      "Account & Support"
+      "Objects & Shapes"
     ]
   },
   {
@@ -3221,7 +3365,7 @@
       "stopwatch"
     ],
     "categories": [
-      "Account & Support"
+      "Objects & Shapes"
     ]
   },
   {
@@ -3231,7 +3375,7 @@
       "stopwatch"
     ],
     "categories": [
-      "Account & Support"
+      "Objects & Shapes"
     ]
   },
   {
@@ -3240,14 +3384,14 @@
       "document"
     ],
     "categories": [
-      "Account & Support"
+      "Folders & Files"
     ]
   },
   {
     "name": "toggle-center",
     "tags": [],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3256,7 +3400,7 @@
       "switch"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3265,7 +3409,7 @@
       "switch"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3274,7 +3418,7 @@
       "switch"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3284,7 +3428,7 @@
       "mark"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
@@ -3294,7 +3438,35 @@
       "organize"
     ],
     "categories": [
-      "Presentations & View"
+      "Image"
+    ]
+  },
+  {
+    "name": "triangle-down",
+    "tags": [],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "triangle-left",
+    "tags": [],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "triangle-right",
+    "tags": [],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "triangle-up",
+    "tags": [],
+    "categories": [
+      "Arrows & Controls"
     ]
   },
   {
@@ -3303,7 +3475,7 @@
       "brand"
     ],
     "categories": [
-      "Programs"
+      "Applications"
     ]
   },
   {
@@ -3313,7 +3485,7 @@
       "settings"
     ],
     "categories": [
-      "Account & Support"
+      "Applications"
     ]
   },
   {
@@ -3323,7 +3495,7 @@
       "settings"
     ],
     "categories": [
-      "Account & Support"
+      "Applications"
     ]
   },
   {
@@ -3333,7 +3505,7 @@
       "reverse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3343,7 +3515,7 @@
       "reverse"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3354,7 +3526,7 @@
       "down"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3365,7 +3537,7 @@
       "down"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3375,7 +3547,7 @@
       "circle"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Arrows & Controls"
     ]
   },
   {
@@ -3388,7 +3560,7 @@
       "sketchup"
     ],
     "categories": [
-      "Save & Share"
+      "Save"
     ]
   },
   {
@@ -3399,7 +3571,7 @@
       "document"
     ],
     "categories": [
-      "Save & Share"
+      "Save"
     ]
   },
   {
@@ -3408,7 +3580,7 @@
       "cam"
     ],
     "categories": [
-      "Devices"
+      "Communication & Media"
     ]
   },
   {
@@ -3418,7 +3590,7 @@
       "plus"
     ],
     "categories": [
-      "Devices"
+      "Communication & Media"
     ]
   },
   {
@@ -3427,7 +3599,7 @@
       "cam"
     ],
     "categories": [
-      "Devices"
+      "Communication & Media"
     ]
   },
   {
@@ -3439,7 +3611,7 @@
       "view"
     ],
     "categories": [
-      "Presentations & View"
+      "Image"
     ]
   },
   {
@@ -3451,7 +3623,7 @@
       "view"
     ],
     "categories": [
-      "Presentations & View"
+      "Image"
     ]
   },
   {
@@ -3462,7 +3634,7 @@
       "sound"
     ],
     "categories": [
-      "Devices"
+      "Communication & Media"
     ]
   },
   {
@@ -3473,7 +3645,7 @@
       "sound"
     ],
     "categories": [
-      "Devices"
+      "Communication & Media"
     ]
   },
   {
@@ -3484,7 +3656,7 @@
       "sound"
     ],
     "categories": [
-      "Devices"
+      "Communication & Media"
     ]
   },
   {
@@ -3500,13 +3672,20 @@
     ]
   },
   {
+    "name": "warning-outlined",
+    "tags": [],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
     "name": "web",
     "tags": [
       "globe",
       "world"
     ],
     "categories": [
-      "Account & Support"
+      "Communication & Media"
     ]
   },
   {
@@ -3517,24 +3696,25 @@
       "viewpoint"
     ],
     "categories": [
-      "Presentations & View"
+      "Objects & Shapes"
     ]
   },
   {
     "name": "widgets",
     "tags": [],
     "categories": [
-      "Actions & Navigation"
+      "Applications"
     ]
   },
   {
     "name": "wifi",
     "tags": [
       "network",
-      "wi-fi"
+      "wi-fi",
+      "connected"
     ],
     "categories": [
-      "Devices"
+      "Connectivity & Signal"
     ]
   },
   {
@@ -3544,7 +3724,7 @@
       "wi-fi"
     ],
     "categories": [
-      "Devices"
+      "Connectivity & Signal"
     ]
   },
   {
@@ -3554,7 +3734,7 @@
       "wi-fi"
     ],
     "categories": [
-      "Devices"
+      "Connectivity & Signal"
     ]
   },
   {
@@ -3573,7 +3753,7 @@
       "screen"
     ],
     "categories": [
-      "Presentations & View"
+      "Applications"
     ]
   },
   {
@@ -3583,7 +3763,7 @@
       "screen"
     ],
     "categories": [
-      "Presentations & View"
+      "Applications"
     ]
   },
   {
@@ -3594,7 +3774,7 @@
       "screen"
     ],
     "categories": [
-      "Presentations & View"
+      "Applications"
     ]
   },
   {
@@ -3604,7 +3784,7 @@
       "screen"
     ],
     "categories": [
-      "Presentations & View"
+      "Applications"
     ]
   },
   {
@@ -3614,7 +3794,7 @@
       "screen"
     ],
     "categories": [
-      "Presentations & View"
+      "Applications"
     ]
   },
   {
@@ -3623,7 +3803,7 @@
       "template"
     ],
     "categories": [
-      "Presentations & View"
+      "Applications"
     ]
   },
   {
@@ -3632,7 +3812,7 @@
       "screen"
     ],
     "categories": [
-      "Presentations & View"
+      "Applications"
     ]
   },
   {
@@ -3641,7 +3821,7 @@
       "render"
     ],
     "categories": [
-      "Presentations & View"
+      "Applications"
     ]
   },
   {
@@ -3660,7 +3840,7 @@
       "tools"
     ],
     "categories": [
-      "Programs"
+      "Objects & Shapes"
     ]
   },
   {
@@ -3671,7 +3851,7 @@
       "scale"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Applications"
     ]
   },
   {
@@ -3683,7 +3863,7 @@
       "scale"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Applications"
     ]
   },
   {
@@ -3695,7 +3875,7 @@
       "scale"
     ],
     "categories": [
-      "Actions & Navigation"
+      "Applications"
     ]
   }
 ]

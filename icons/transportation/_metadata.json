@@ -5,6 +5,11 @@
     "categories": []
   },
   {
+    "name": "account-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "add-new-road",
     "tags": [],
     "categories": []
@@ -164,14 +169,6 @@
     "name": "edit-road",
     "tags": [
       "pencil"
-    ],
-    "categories": []
-  },
-  {
-    "name": "export",
-    "tags": [
-      "download",
-      "save"
     ],
     "categories": []
   },
@@ -564,16 +561,6 @@
       "bin",
       "delete"
     ],
-    "categories": []
-  },
-  {
-    "name": "triangle-left",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "triangle-right",
-    "tags": [],
     "categories": []
   },
   {

@@ -585,14 +585,18 @@
   },
   {
     "name": "cancel-square",
-    "tags": [],
+    "tags": [
+      "close"
+    ],
     "categories": [
       "Alerts & Messages"
     ]
   },
   {
     "name": "cancel-square-outlined",
-    "tags": [],
+    "tags": [
+      "close"
+    ],
     "categories": [
       "Alerts & Messages"
     ]
@@ -640,6 +644,7 @@
   {
     "name": "caret-right",
     "tags": [
+      "cancel",
       "expand",
       "collapse"
     ],
@@ -1245,7 +1250,7 @@
       "move"
     ],
     "categories": [
-      "Editing"
+      "Arrows & Controls"
     ]
   },
   {
@@ -1998,7 +2003,7 @@
       "university"
     ],
     "categories": [
-      "Social"
+      "Objects & Shapes"
     ]
   },
   {
@@ -2334,7 +2339,7 @@
       "geometric"
     ],
     "categories": [
-      "Image"
+      "Objects & Shapes"
     ]
   },
   {
@@ -2585,7 +2590,7 @@
       "call"
     ],
     "categories": [
-      "Communication & Media"
+      "Devices"
     ]
   },
   {
@@ -2830,8 +2835,8 @@
     "name": "row-add",
     "tags": [
       "table",
-      "row",
-      "add"
+      "add",
+      "row"
     ],
     "categories": [
       "Data Management"
@@ -2842,7 +2847,7 @@
     "tags": [
       "table",
       "row",
-      "highlighted"
+      "highlight"
     ],
     "categories": [
       "Data Management"
@@ -3816,7 +3821,7 @@
       "render"
     ],
     "categories": [
-      "Image"
+      "Applications"
     ]
   },
   {

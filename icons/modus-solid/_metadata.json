@@ -170,7 +170,8 @@
   {
     "name": "arrow-back",
     "tags": [
-      "direction"
+      "direction",
+      "back"
     ],
     "categories": [
       "Arrows & Controls"
@@ -215,7 +216,8 @@
   {
     "name": "arrow-next",
     "tags": [
-      "direction"
+      "direction",
+      "next"
     ],
     "categories": [
       "Arrows & Controls"
@@ -1670,6 +1672,16 @@
     ]
   },
   {
+    "name": "folder-unlocked",
+    "tags": [
+      "directory",
+      "open"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
     "name": "footprints",
     "tags": [
       "steps",
@@ -2785,7 +2797,7 @@
   {
     "name": "remove-bold",
     "tags": [
-      "Editing"
+      "minus"
     ],
     "categories": [
       "Editing"

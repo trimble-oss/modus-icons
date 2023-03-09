@@ -759,7 +759,9 @@ export const siteData = [
       {
         "name": "cancel-square",
         "displayName": "Cancel Square",
-        "tags": [],
+        "tags": [
+          "close"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -769,7 +771,9 @@ export const siteData = [
       {
         "name": "cancel-square-outlined",
         "displayName": "Cancel Square Outlined",
-        "tags": [],
+        "tags": [
+          "close"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -832,6 +836,7 @@ export const siteData = [
         "name": "caret-right",
         "displayName": "Caret Right",
         "tags": [
+          "cancel",
           "expand",
           "collapse"
         ],
@@ -1617,7 +1622,7 @@ export const siteData = [
           "move"
         ],
         "categories": [
-          "Editing"
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2598,7 +2603,7 @@ export const siteData = [
           "university"
         ],
         "categories": [
-          "Social"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3036,7 +3041,7 @@ export const siteData = [
           "geometric"
         ],
         "categories": [
-          "Image"
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3362,7 +3367,7 @@ export const siteData = [
           "call"
         ],
         "categories": [
-          "Communication & Media"
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3682,8 +3687,8 @@ export const siteData = [
         "displayName": "Row Add",
         "tags": [
           "table",
-          "row",
-          "add"
+          "add",
+          "row"
         ],
         "categories": [
           "Data Management"
@@ -3697,7 +3702,7 @@ export const siteData = [
         "tags": [
           "table",
           "row",
-          "highlighted"
+          "highlight"
         ],
         "categories": [
           "Data Management"
@@ -4968,7 +4973,7 @@ export const siteData = [
           "render"
         ],
         "categories": [
-          "Image"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5281,7 +5286,8 @@ export const siteData = [
         "name": "arrow-back",
         "displayName": "Arrow Back",
         "tags": [
-          "direction"
+          "direction",
+          "back"
         ],
         "categories": [
           "Arrows & Controls"
@@ -5341,7 +5347,8 @@ export const siteData = [
         "name": "arrow-next",
         "displayName": "Arrow Next",
         "tags": [
-          "direction"
+          "direction",
+          "next"
         ],
         "categories": [
           "Arrows & Controls"
@@ -7224,6 +7231,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "folder-unlocked",
+        "displayName": "Folder Unlocked",
+        "tags": [
+          "directory",
+          "open"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "footprints",
         "displayName": "Footprints",
         "tags": [
@@ -8679,7 +8699,7 @@ export const siteData = [
         "name": "remove-bold",
         "displayName": "Remove Bold",
         "tags": [
-          "Editing"
+          "minus"
         ],
         "categories": [
           "Editing"

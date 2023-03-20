@@ -1029,6 +1029,16 @@
     ]
   },
   {
+    "name": "combine",
+    "tags": [
+      "attach",
+      "join"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "comment",
     "tags": [
       "bubble",
@@ -2628,6 +2638,16 @@
     ]
   },
   {
+    "name": "point-marker-tool",
+    "tags": [
+      "circle",
+      "dot"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "polygon",
     "tags": [
       "outline"
@@ -2658,6 +2678,26 @@
     "name": "polygon-cone",
     "tags": [
       "outline"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "polygon-drag-rectangle",
+    "tags": [
+      "select",
+      "rectangle"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "polygon-line-tool",
+    "tags": [
+      "line",
+      "draw"
     ],
     "categories": [
       "Editing"
@@ -2896,6 +2936,17 @@
     ],
     "categories": [
       "Save"
+    ]
+  },
+  {
+    "name": "schema",
+    "tags": [
+      "data",
+      "tree",
+      "organize"
+    ],
+    "categories": [
+      "Image"
     ]
   },
   {
@@ -3496,6 +3547,16 @@
     ],
     "categories": [
       "Applications"
+    ]
+  },
+  {
+    "name": "uncombine",
+    "tags": [
+      "break apart",
+      "detach"
+    ],
+    "categories": [
+      "Editing"
     ]
   },
   {

@@ -1334,6 +1334,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "combine",
+        "displayName": "Combine",
+        "tags": [
+          "attach",
+          "join"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "comment",
         "displayName": "Comment",
         "tags": [
@@ -3416,6 +3429,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "point-marker-tool",
+        "displayName": "Point Marker Tool",
+        "tags": [
+          "circle",
+          "dot"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "polygon",
         "displayName": "Polygon",
         "tags": [
@@ -3456,6 +3482,32 @@ export const siteData = [
         "displayName": "Polygon Cone",
         "tags": [
           "outline"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "polygon-drag-rectangle",
+        "displayName": "Polygon Drag Rectangle",
+        "tags": [
+          "select",
+          "rectangle"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "polygon-line-tool",
+        "displayName": "Polygon Line Tool",
+        "tags": [
+          "line",
+          "draw"
         ],
         "categories": [
           "Editing"
@@ -3766,6 +3818,20 @@ export const siteData = [
         ],
         "categories": [
           "Save"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "schema",
+        "displayName": "Schema",
+        "tags": [
+          "data",
+          "tree",
+          "organize"
+        ],
+        "categories": [
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4552,6 +4618,19 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "uncombine",
+        "displayName": "Uncombine",
+        "tags": [
+          "break apart",
+          "detach"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6396,6 +6475,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "combine",
+        "displayName": "Combine",
+        "tags": [
+          "attach",
+          "join"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "comment",
         "displayName": "Comment",
         "tags": [
@@ -8478,6 +8570,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "point-marker-tool",
+        "displayName": "Point Marker Tool",
+        "tags": [
+          "circle",
+          "dot"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "polygon",
         "displayName": "Polygon",
         "tags": [
@@ -8518,6 +8623,32 @@ export const siteData = [
         "displayName": "Polygon Cone",
         "tags": [
           "outline"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "polygon-drag-rectangle",
+        "displayName": "Polygon Drag Rectangle",
+        "tags": [
+          "select",
+          "rectangle"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "polygon-line-tool",
+        "displayName": "Polygon Line Tool",
+        "tags": [
+          "line",
+          "draw"
         ],
         "categories": [
           "Editing"
@@ -8828,6 +8959,20 @@ export const siteData = [
         ],
         "categories": [
           "Save"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "schema",
+        "displayName": "Schema",
+        "tags": [
+          "data",
+          "tree",
+          "organize"
+        ],
+        "categories": [
+          "Image"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9614,6 +9759,19 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "uncombine",
+        "displayName": "Uncombine",
+        "tags": [
+          "break apart",
+          "detach"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""

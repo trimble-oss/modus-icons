@@ -1,5 +1,23 @@
 [
   {
+    "name": "accessibility",
+    "tags": [
+      "person"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "accessibility-circle",
+    "tags": [
+      "person"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
     "name": "add",
     "tags": [
       "add",
@@ -1195,6 +1213,24 @@
     ]
   },
   {
+    "name": "delivery-truck",
+    "tags": [
+      "vehicle"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "delivery-truck-motion",
+    "tags": [
+      "vehicle"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "download",
     "tags": [
       "file",
@@ -1271,6 +1307,16 @@
     ],
     "categories": [
       "Weather"
+    ]
+  },
+  {
+    "name": "drone",
+    "tags": [
+      "surveillance",
+      "flying"
+    ],
+    "categories": [
+      "Devices"
     ]
   },
   {
@@ -3082,6 +3128,106 @@
     ],
     "categories": [
       "Connectivity & Signal"
+    ]
+  },
+  {
+    "name": "smiley-dissatisfied",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-dissatisfied-outlined",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-neutral",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-neutral-outlined",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-satisfied",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-satisfied-outlined",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-somewhat-dissatisfied",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-somewhat-dissatisfied-outlined",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-somewhat-satisfied",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-somewhat-satisfied-outlined",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
     ]
   },
   {

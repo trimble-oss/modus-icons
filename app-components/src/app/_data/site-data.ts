@@ -5,6 +5,30 @@ export const siteData = [
     "type": "modus",
     "icons": [
       {
+        "name": "accessibility",
+        "displayName": "Accessibility",
+        "tags": [
+          "person"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "accessibility-circle",
+        "displayName": "Accessibility Circle",
+        "tags": [
+          "person"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "add",
         "displayName": "Add",
         "tags": [
@@ -1551,6 +1575,30 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "delivery-truck",
+        "displayName": "Delivery Truck",
+        "tags": [
+          "vehicle"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "delivery-truck-motion",
+        "displayName": "Delivery Truck Motion",
+        "tags": [
+          "vehicle"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "download",
         "displayName": "Download",
         "tags": [
@@ -1649,6 +1697,19 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "drone",
+        "displayName": "Drone",
+        "tags": [
+          "surveillance",
+          "flying"
+        ],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4009,6 +4070,136 @@ export const siteData = [
         ],
         "categories": [
           "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-dissatisfied",
+        "displayName": "Smiley Dissatisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-dissatisfied-outlined",
+        "displayName": "Smiley Dissatisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-neutral",
+        "displayName": "Smiley Neutral",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-neutral-outlined",
+        "displayName": "Smiley Neutral Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-satisfied",
+        "displayName": "Smiley Satisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-satisfied-outlined",
+        "displayName": "Smiley Satisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-dissatisfied",
+        "displayName": "Smiley Somewhat Dissatisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-dissatisfied-outlined",
+        "displayName": "Smiley Somewhat Dissatisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-satisfied",
+        "displayName": "Smiley Somewhat Satisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-satisfied-outlined",
+        "displayName": "Smiley Somewhat Satisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5146,6 +5337,30 @@ export const siteData = [
     "type": "modus",
     "icons": [
       {
+        "name": "accessibility",
+        "displayName": "Accessibility",
+        "tags": [
+          "person"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "accessibility-circle",
+        "displayName": "Accessibility Circle",
+        "tags": [
+          "person"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "add",
         "displayName": "Add",
         "tags": [
@@ -6692,6 +6907,30 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "delivery-truck",
+        "displayName": "Delivery Truck",
+        "tags": [
+          "vehicle"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "delivery-truck-motion",
+        "displayName": "Delivery Truck Motion",
+        "tags": [
+          "vehicle"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "download",
         "displayName": "Download",
         "tags": [
@@ -6790,6 +7029,19 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "drone",
+        "displayName": "Drone",
+        "tags": [
+          "surveillance",
+          "flying"
+        ],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9150,6 +9402,136 @@ export const siteData = [
         ],
         "categories": [
           "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-dissatisfied",
+        "displayName": "Smiley Dissatisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-dissatisfied-outlined",
+        "displayName": "Smiley Dissatisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-neutral",
+        "displayName": "Smiley Neutral",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-neutral-outlined",
+        "displayName": "Smiley Neutral Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-satisfied",
+        "displayName": "Smiley Satisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-satisfied-outlined",
+        "displayName": "Smiley Satisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-dissatisfied",
+        "displayName": "Smiley Somewhat Dissatisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-dissatisfied-outlined",
+        "displayName": "Smiley Somewhat Dissatisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-satisfied",
+        "displayName": "Smiley Somewhat Satisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-satisfied-outlined",
+        "displayName": "Smiley Somewhat Satisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""

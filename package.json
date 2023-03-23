@@ -43,7 +43,7 @@
     "cross-env": "^7.0.3",
     "eslint": "8.35.0",
     "file-type": "^3.9.0",
-    "fs-extra": "^11.1.0",
+    "fs-extra": "^11.1.1",
     "handlebars": "^4.0.5",
     "htmlhint": "^1.1.4",
     "hugo-bin": "^0.101.0",

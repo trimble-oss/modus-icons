@@ -67,7 +67,7 @@
     "rename-cli": "^7.0.2",
     "sass": "^1.62.0",
     "shx": "^0.3.4",
-    "stylelint": "15.4.0",
+    "stylelint": "15.5.0",
     "stylelint-config-standard-scss": "7.0.1",
     "svg-sprite": "^3.0.0-beta1",
     "svg2ttf": "^4.0.0",

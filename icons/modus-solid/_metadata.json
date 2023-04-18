@@ -1,5 +1,23 @@
 [
   {
+    "name": "accessibility",
+    "tags": [
+      "person"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "accessibility-circle",
+    "tags": [
+      "person"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
     "name": "add",
     "tags": [
       "add",
@@ -272,6 +290,17 @@
   },
   {
     "name": "bar-graph-line",
+    "tags": [
+      "analytics",
+      "chart",
+      "data"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "bar-graph-square",
     "tags": [
       "analytics",
       "chart",
@@ -1125,6 +1154,16 @@
     ]
   },
   {
+    "name": "cube",
+    "tags": [
+      "3D",
+      "Model"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "cursor",
     "tags": [
       "pointer"
@@ -1192,6 +1231,24 @@
     ],
     "categories": [
       "Editing"
+    ]
+  },
+  {
+    "name": "delivery-truck",
+    "tags": [
+      "vehicle"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "delivery-truck-motion",
+    "tags": [
+      "vehicle"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -1271,6 +1328,16 @@
     ],
     "categories": [
       "Weather"
+    ]
+  },
+  {
+    "name": "drone",
+    "tags": [
+      "surveillance",
+      "flying"
+    ],
+    "categories": [
+      "Devices"
     ]
   },
   {
@@ -2077,6 +2144,16 @@
     ]
   },
   {
+    "name": "list-numbered",
+    "tags": [
+      "checklist",
+      "bullets"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "location",
     "tags": [
       "map",
@@ -2733,6 +2810,16 @@
     ]
   },
   {
+    "name": "qr-code",
+    "tags": [
+      "QR",
+      "scan"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "question",
     "tags": [],
     "categories": [
@@ -3085,6 +3172,106 @@
     ]
   },
   {
+    "name": "smiley-dissatisfied",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-dissatisfied-outlined",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-neutral",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-neutral-outlined",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-satisfied",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-satisfied-outlined",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-somewhat-dissatisfied",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-somewhat-dissatisfied-outlined",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-somewhat-satisfied",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "smiley-somewhat-satisfied-outlined",
+    "tags": [
+      "emoji",
+      "face"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
     "name": "snow-heavy",
     "tags": [
       "cloud",
@@ -3306,6 +3493,48 @@
     ]
   },
   {
+    "name": "text-align-left",
+    "tags": [
+      "alignment",
+      "text",
+      "left"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-align-right",
+    "tags": [
+      "alignment",
+      "text",
+      "right"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-bold",
+    "tags": [
+      "bold",
+      "text"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-centered",
+    "tags": [
+      "alignment",
+      "center"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "text-input",
     "tags": [
       "text field",
@@ -3333,6 +3562,34 @@
     ],
     "categories": [
       "Data Management"
+    ]
+  },
+  {
+    "name": "text-italic",
+    "tags": [
+      "text",
+      "italic"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-strikethrough",
+    "tags": [
+      "text"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-underlined",
+    "tags": [
+      "text"
+    ],
+    "categories": [
+      "Editing"
     ]
   },
   {

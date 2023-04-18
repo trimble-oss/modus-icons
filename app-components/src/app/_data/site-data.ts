@@ -5,6 +5,30 @@ export const siteData = [
     "type": "modus",
     "icons": [
       {
+        "name": "accessibility",
+        "displayName": "Accessibility",
+        "tags": [
+          "person"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "accessibility-circle",
+        "displayName": "Accessibility Circle",
+        "tags": [
+          "person"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "add",
         "displayName": "Add",
         "tags": [
@@ -359,6 +383,20 @@ export const siteData = [
       {
         "name": "bar-graph-line",
         "displayName": "Bar Graph Line",
+        "tags": [
+          "analytics",
+          "chart",
+          "data"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bar-graph-square",
+        "displayName": "Bar Graph Square",
         "tags": [
           "analytics",
           "chart",
@@ -1460,6 +1498,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "cube",
+        "displayName": "Cube",
+        "tags": [
+          "3D",
+          "Model"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cursor",
         "displayName": "Cursor",
         "tags": [
@@ -1546,6 +1597,30 @@ export const siteData = [
         ],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "delivery-truck",
+        "displayName": "Delivery Truck",
+        "tags": [
+          "vehicle"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "delivery-truck-motion",
+        "displayName": "Delivery Truck Motion",
+        "tags": [
+          "vehicle"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1649,6 +1724,19 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "drone",
+        "displayName": "Drone",
+        "tags": [
+          "surveillance",
+          "flying"
+        ],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2703,6 +2791,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "list-numbered",
+        "displayName": "List Numbered",
+        "tags": [
+          "checklist",
+          "bullets"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "location",
         "displayName": "Location",
         "tags": [
@@ -3554,6 +3655,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "qr-code",
+        "displayName": "Qr Code",
+        "tags": [
+          "QR",
+          "scan"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "question",
         "displayName": "Question",
         "tags": [],
@@ -4014,6 +4128,136 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "smiley-dissatisfied",
+        "displayName": "Smiley Dissatisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-dissatisfied-outlined",
+        "displayName": "Smiley Dissatisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-neutral",
+        "displayName": "Smiley Neutral",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-neutral-outlined",
+        "displayName": "Smiley Neutral Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-satisfied",
+        "displayName": "Smiley Satisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-satisfied-outlined",
+        "displayName": "Smiley Satisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-dissatisfied",
+        "displayName": "Smiley Somewhat Dissatisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-dissatisfied-outlined",
+        "displayName": "Smiley Somewhat Dissatisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-satisfied",
+        "displayName": "Smiley Somewhat Satisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-satisfied-outlined",
+        "displayName": "Smiley Somewhat Satisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "snow-heavy",
         "displayName": "Snow Heavy",
         "tags": [
@@ -4298,6 +4542,60 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "text-align-left",
+        "displayName": "Text Align Left",
+        "tags": [
+          "alignment",
+          "text",
+          "left"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-align-right",
+        "displayName": "Text Align Right",
+        "tags": [
+          "alignment",
+          "text",
+          "right"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-bold",
+        "displayName": "Text Bold",
+        "tags": [
+          "bold",
+          "text"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-centered",
+        "displayName": "Text Centered",
+        "tags": [
+          "alignment",
+          "center"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-input",
         "displayName": "Text Input",
         "tags": [
@@ -4332,6 +4630,43 @@ export const siteData = [
         ],
         "categories": [
           "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-italic",
+        "displayName": "Text Italic",
+        "tags": [
+          "text",
+          "italic"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-strikethrough",
+        "displayName": "Text Strikethrough",
+        "tags": [
+          "text"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-underlined",
+        "displayName": "Text Underlined",
+        "tags": [
+          "text"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5146,6 +5481,30 @@ export const siteData = [
     "type": "modus",
     "icons": [
       {
+        "name": "accessibility",
+        "displayName": "Accessibility",
+        "tags": [
+          "person"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "accessibility-circle",
+        "displayName": "Accessibility Circle",
+        "tags": [
+          "person"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "add",
         "displayName": "Add",
         "tags": [
@@ -5500,6 +5859,20 @@ export const siteData = [
       {
         "name": "bar-graph-line",
         "displayName": "Bar Graph Line",
+        "tags": [
+          "analytics",
+          "chart",
+          "data"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bar-graph-square",
+        "displayName": "Bar Graph Square",
         "tags": [
           "analytics",
           "chart",
@@ -6601,6 +6974,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "cube",
+        "displayName": "Cube",
+        "tags": [
+          "3D",
+          "Model"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cursor",
         "displayName": "Cursor",
         "tags": [
@@ -6687,6 +7073,30 @@ export const siteData = [
         ],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "delivery-truck",
+        "displayName": "Delivery Truck",
+        "tags": [
+          "vehicle"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "delivery-truck-motion",
+        "displayName": "Delivery Truck Motion",
+        "tags": [
+          "vehicle"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6790,6 +7200,19 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "drone",
+        "displayName": "Drone",
+        "tags": [
+          "surveillance",
+          "flying"
+        ],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7844,6 +8267,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "list-numbered",
+        "displayName": "List Numbered",
+        "tags": [
+          "checklist",
+          "bullets"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "location",
         "displayName": "Location",
         "tags": [
@@ -8695,6 +9131,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "qr-code",
+        "displayName": "Qr Code",
+        "tags": [
+          "QR",
+          "scan"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "question",
         "displayName": "Question",
         "tags": [],
@@ -9155,6 +9604,136 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "smiley-dissatisfied",
+        "displayName": "Smiley Dissatisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-dissatisfied-outlined",
+        "displayName": "Smiley Dissatisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-neutral",
+        "displayName": "Smiley Neutral",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-neutral-outlined",
+        "displayName": "Smiley Neutral Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-satisfied",
+        "displayName": "Smiley Satisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-satisfied-outlined",
+        "displayName": "Smiley Satisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-dissatisfied",
+        "displayName": "Smiley Somewhat Dissatisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-dissatisfied-outlined",
+        "displayName": "Smiley Somewhat Dissatisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-satisfied",
+        "displayName": "Smiley Somewhat Satisfied",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-satisfied-outlined",
+        "displayName": "Smiley Somewhat Satisfied Outlined",
+        "tags": [
+          "emoji",
+          "face"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "snow-heavy",
         "displayName": "Snow Heavy",
         "tags": [
@@ -9439,6 +10018,60 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "text-align-left",
+        "displayName": "Text Align Left",
+        "tags": [
+          "alignment",
+          "text",
+          "left"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-align-right",
+        "displayName": "Text Align Right",
+        "tags": [
+          "alignment",
+          "text",
+          "right"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-bold",
+        "displayName": "Text Bold",
+        "tags": [
+          "bold",
+          "text"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-centered",
+        "displayName": "Text Centered",
+        "tags": [
+          "alignment",
+          "center"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-input",
         "displayName": "Text Input",
         "tags": [
@@ -9473,6 +10106,43 @@ export const siteData = [
         ],
         "categories": [
           "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-italic",
+        "displayName": "Text Italic",
+        "tags": [
+          "text",
+          "italic"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-strikethrough",
+        "displayName": "Text Strikethrough",
+        "tags": [
+          "text"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-underlined",
+        "displayName": "Text Underlined",
+        "tags": [
+          "text"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""

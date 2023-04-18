@@ -395,6 +395,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "bar-graph-square",
+        "displayName": "Bar Graph Square",
+        "tags": [
+          "analytics",
+          "chart",
+          "data"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "barcode",
         "displayName": "Barcode",
         "tags": [
@@ -1479,6 +1493,19 @@ export const siteData = [
         "tags": [],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cube",
+        "displayName": "Cube",
+        "tags": [
+          "3D",
+          "Model"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2764,6 +2791,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "list-numbered",
+        "displayName": "List Numbered",
+        "tags": [
+          "checklist",
+          "bullets"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "location",
         "displayName": "Location",
         "tags": [
@@ -3610,6 +3650,19 @@ export const siteData = [
         ],
         "categories": [
           "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "qr-code",
+        "displayName": "Qr Code",
+        "tags": [
+          "QR",
+          "scan"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4489,6 +4542,60 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "text-align-left",
+        "displayName": "Text Align Left",
+        "tags": [
+          "alignment",
+          "text",
+          "left"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-align-right",
+        "displayName": "Text Align Right",
+        "tags": [
+          "alignment",
+          "text",
+          "right"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-bold",
+        "displayName": "Text Bold",
+        "tags": [
+          "bold",
+          "text"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-centered",
+        "displayName": "Text Centered",
+        "tags": [
+          "alignment",
+          "center"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-input",
         "displayName": "Text Input",
         "tags": [
@@ -4523,6 +4630,43 @@ export const siteData = [
         ],
         "categories": [
           "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-italic",
+        "displayName": "Text Italic",
+        "tags": [
+          "text",
+          "italic"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-strikethrough",
+        "displayName": "Text Strikethrough",
+        "tags": [
+          "text"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-underlined",
+        "displayName": "Text Underlined",
+        "tags": [
+          "text"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5727,6 +5871,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "bar-graph-square",
+        "displayName": "Bar Graph Square",
+        "tags": [
+          "analytics",
+          "chart",
+          "data"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "barcode",
         "displayName": "Barcode",
         "tags": [
@@ -6811,6 +6969,19 @@ export const siteData = [
         "tags": [],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cube",
+        "displayName": "Cube",
+        "tags": [
+          "3D",
+          "Model"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8096,6 +8267,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "list-numbered",
+        "displayName": "List Numbered",
+        "tags": [
+          "checklist",
+          "bullets"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "location",
         "displayName": "Location",
         "tags": [
@@ -8942,6 +9126,19 @@ export const siteData = [
         ],
         "categories": [
           "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "qr-code",
+        "displayName": "Qr Code",
+        "tags": [
+          "QR",
+          "scan"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9821,6 +10018,60 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "text-align-left",
+        "displayName": "Text Align Left",
+        "tags": [
+          "alignment",
+          "text",
+          "left"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-align-right",
+        "displayName": "Text Align Right",
+        "tags": [
+          "alignment",
+          "text",
+          "right"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-bold",
+        "displayName": "Text Bold",
+        "tags": [
+          "bold",
+          "text"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-centered",
+        "displayName": "Text Centered",
+        "tags": [
+          "alignment",
+          "center"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-input",
         "displayName": "Text Input",
         "tags": [
@@ -9855,6 +10106,43 @@ export const siteData = [
         ],
         "categories": [
           "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-italic",
+        "displayName": "Text Italic",
+        "tags": [
+          "text",
+          "italic"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-strikethrough",
+        "displayName": "Text Strikethrough",
+        "tags": [
+          "text"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-underlined",
+        "displayName": "Text Underlined",
+        "tags": [
+          "text"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""

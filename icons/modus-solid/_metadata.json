@@ -300,6 +300,17 @@
     ]
   },
   {
+    "name": "bar-graph-square",
+    "tags": [
+      "analytics",
+      "chart",
+      "data"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
     "name": "barcode",
     "tags": [
       "billing",
@@ -1140,6 +1151,16 @@
     "tags": [],
     "categories": [
       "Editing"
+    ]
+  },
+  {
+    "name": "cube",
+    "tags": [
+      "3D",
+      "Model"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -2123,6 +2144,16 @@
     ]
   },
   {
+    "name": "list-numbered",
+    "tags": [
+      "checklist",
+      "bullets"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "location",
     "tags": [
       "map",
@@ -2776,6 +2807,16 @@
     ],
     "categories": [
       "Connectivity & Signal"
+    ]
+  },
+  {
+    "name": "qr-code",
+    "tags": [
+      "QR",
+      "scan"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -3452,6 +3493,48 @@
     ]
   },
   {
+    "name": "text-align-left",
+    "tags": [
+      "alignment",
+      "text",
+      "left"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-align-right",
+    "tags": [
+      "alignment",
+      "text",
+      "right"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-bold",
+    "tags": [
+      "bold",
+      "text"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-centered",
+    "tags": [
+      "alignment",
+      "center"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "text-input",
     "tags": [
       "text field",
@@ -3479,6 +3562,34 @@
     ],
     "categories": [
       "Data Management"
+    ]
+  },
+  {
+    "name": "text-italic",
+    "tags": [
+      "text",
+      "italic"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-strikethrough",
+    "tags": [
+      "text"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-underlined",
+    "tags": [
+      "text"
+    ],
+    "categories": [
+      "Editing"
     ]
   },
   {

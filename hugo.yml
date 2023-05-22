@@ -80,21 +80,27 @@ menu:
     - name: Web
       parent: Components
       url: "https://modus.trimble.com/components/web/"
-      pre: "<img src='/modus-outlined/svg/screen.svg' width='28' height='28' class='opacity-75 icon mr-2' alt>"
+      pre: "<img src='/modus-outlined/svg/screen.svg' width='28' height='28' class='opacity-75 mr-2' alt>"
       post: "Modus component library for web-based apps and workflows."
       weight: 1
     - name: In-Field
       parent: Components
       url: "https://modus.trimble.com/components/in-field/"
-      pre: "<img src='/modus-outlined/svg/in-field-device.svg' width='28' height='28' class='opacity-75 icon mr-2' alt>"
+      pre: "<img src='/modus-outlined/svg/in-field-device.svg' width='28' height='28' class='opacity-75 mr-2' alt>"
       post: "High-contrast library specific to apps used outdoors on handheld or in-cab devices."
       weight: 2
     - name: Mobile
       parent: Components
       url: "https://modus.trimble.com/components/mobile/"
-      pre: "<img src='/modus-outlined/svg/phone-mobile.svg' width=28 height=28 class='icon opacity mr-2' alt>"
+      pre: "<img src='/modus-outlined/svg/phone-mobile.svg' width=28 height=28 class='opacity-75 mr-2' alt>"
       post: "UI patterns for designing Trimble experiences on Android devices."
       weight: 3
+    - name: XR
+      parent: Components
+      url: "https://modus.trimble.com/components/xr/"
+      pre: "<img src='/img/xr.svg' width=28 height=28 class='opacity-75 mr-2' alt>"
+      post: "Building blocks for designing Trimble products for mixed reality and virtual reality."
+      weight: 4
     - Name: Icons
       url: "/"
       weight: 4

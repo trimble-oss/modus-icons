@@ -28,8 +28,8 @@ Here are some key scripts you'll use during development. Be sure to look to our 
 | Script       | Description                                                            |
 | ------------ | ---------------------------------------------------------------------- |
 | `build`      | Optimize SVGs, create icon fonts, SVG sprites and output to `dist` dir |
-| `docs-serve` | Starts a local Hugo server                                             |
-| `test `      | Run tests on HTML, CSS, JavaScript and more                            |
+| `docs:serve` | Starts a local Hugo server                                             |
+| `test`       | Run tests on HTML, CSS, JavaScript and more                            |
 
 ## Adding SVGs
 
@@ -37,5 +37,3 @@ New glyphs are designed on a 24x24px grid, then exported as flattened SVGs. Once
 
 1. Optimize our SVGs with SVGO.
 2. Modify the SVGs source code, removing all attributes before setting new attributes and values in our preferred order.
-
-Use `npm run icons` to run the script, run `npm run pages` to build permalink pages, complete those pages, and, finally, commit the results in a new branch for updating.

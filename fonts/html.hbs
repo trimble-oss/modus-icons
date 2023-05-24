@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Modus Design System Icons</title>
+    <title>Modus Icons (1.3.0)</title>
     <meta name="description" content="Modus Design System Icon fonts">
     <style>
-
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
         }
 
         .grid {
@@ -94,19 +93,19 @@
 <body>
   <div>
     <h1>{{ fontName }}</h1>
-      <div class="grid">
+      <main class="grid">
         {{#each names }}
-            <div class="preview">
-                <div class="code-sample">
-                    <div class="label">{{ this.fileName }}</div>
-                </div>
-                <div class="inner">
-                    <i class="{{ ../fontName }}">{{ this.ligatureName }}</i>
-                   <pre>&lt;i class="{{ ../fontName }}"&gt;{{ this.ligatureName }}&lt;/i&gt;</pre>
-                </div>
+          <div class="preview">
+            <div class="code-sample">
+              <div class="label">{{ this.fileName }}</div>
             </div>
+            <div class="inner">
+              <i class="{{ ../fontName }}">{{ this.ligatureName }}</i>
+              <pre>&lt;i class="{{ ../fontName }}"&gt;{{ this.ligatureName }}&lt;/i&gt;</pre>
+            </div>
+          </div>
         {{/each }}
-    </div>
+    </main>
   </div>
 </body>
 </html>

@@ -47,7 +47,7 @@
     "fs-extra": "^11.1.1",
     "handlebars": "4.7.7",
     "htmlhint": "1.1.4",
-    "hugo-bin": "0.102.2",
+    "hugo-bin": "0.103.5",
     "icon-font-generator": "^2.1.11",
     "icon-gen": "^3.0.1",
     "jquery": "^3.7.0",

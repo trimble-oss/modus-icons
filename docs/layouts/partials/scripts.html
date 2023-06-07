@@ -8,12 +8,17 @@
 {{- $docsJs := append $js $vendor | resources.Concat "assets/js/application.js" -}}
 
 {{- if eq hugo.Environment "production" -}}
-  {{- $docsJs = $docsJs | resources.Minify -}}
+{{- $docsJs = $docsJs | resources.Minify -}}
 {{- end }}
 <script src=/js/jquery.slim.min.js></script>
 <script src="{{ $docsJs.Permalink | relURL }}"></script>
 <script>
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+<script>
+  $(function () {
+    $('[data-toggle="popover"]').popover()
   })
 </script>

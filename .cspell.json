@@ -2,6 +2,7 @@
   "version": "0.2",
   "words": [
     "blombard",
+    "codelyzer",
     "codeql",
     "cpath",
     "Delivr",
@@ -22,6 +23,7 @@
     "noopener",
     "noscript",
     "npmjs",
+    "paren",
     "picocolors",
     "plainify",
     "qube",
@@ -52,7 +54,6 @@
     "xlink"
   ],
   "flagWords": [
-    "blacklist",
     "teh",
     "whitelist"
   ],

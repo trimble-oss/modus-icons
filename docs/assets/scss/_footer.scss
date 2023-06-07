@@ -1,6 +1,5 @@
 .footer {
-  background-size: cover;
-  background-position: center;
+  background-color: #0e416c;
   content-visibility: auto;
   contain-intrinsic-size: 333px;
   font-size: 14px;
@@ -20,10 +19,6 @@
 .footer a {
   color: #fff !important;
   text-decoration: underline;
-}
-
-[data-theme="light"] .footer {
-  background-color: #07599b;
 }
 
 [data-theme="dark"] footer.footer {

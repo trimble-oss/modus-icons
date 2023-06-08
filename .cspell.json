@@ -2,9 +2,11 @@
   "version": "0.2",
   "words": [
     "blombard",
+    "codelyzer",
     "codeql",
     "cpath",
     "Delivr",
+    "devkit",
     "doesn",
     "favicons",
     "funcs",
@@ -47,15 +49,12 @@
     "undock",
     "urlize",
     "versioner",
+    "webcomponentsjs",
     "Werror",
     "Xhref",
     "xlink"
   ],
-  "flagWords": [
-    "blacklist",
-    "teh",
-    "whitelist"
-  ],
+  "flagWords": ["teh", "whitelist"],
   "ignorePaths": [
     ".cspell.json",
     "**/node_modules/**",

@@ -51,7 +51,7 @@
     "icon-font-generator": "^2.1.11",
     "icon-gen": "^3.0.1",
     "jquery": "^3.7.0",
-    "lockfile-lint": "4.10.1",
+    "lockfile-lint": "4.10.5",
     "lodash": "^4.17.21",
     "make-dir-cli": "^3.0.0",
     "mkdirp": "0.5.6",

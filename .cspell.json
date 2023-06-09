@@ -6,6 +6,7 @@
     "codeql",
     "cpath",
     "Delivr",
+    "devkit",
     "doesn",
     "favicons",
     "funcs",
@@ -49,14 +50,12 @@
     "undock",
     "urlize",
     "versioner",
+    "webcomponentsjs",
     "Werror",
     "Xhref",
     "xlink"
   ],
-  "flagWords": [
-    "teh",
-    "whitelist"
-  ],
+  "flagWords": ["teh", "whitelist"],
   "ignorePaths": [
     ".cspell.json",
     "**/node_modules/**",

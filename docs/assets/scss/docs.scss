@@ -136,3 +136,15 @@ main {
 .custom-switch .custom-control-input:focus~.custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
 }
+
+.popover-header {
+  font-size: 0.875rem !important;
+  font-weight: normal !important;
+  background-color: #fff !important;
+  border-bottom: 0 !important;
+}
+
+.popover-body {
+  padding-bottom: 0 !important;
+  border-bottom: 0 !important;
+}

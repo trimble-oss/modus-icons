@@ -1307,6 +1307,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "cloud-connected",
+        "displayName": "Cloud Connected",
+        "tags": [
+          "connected",
+          "signal"
+        ],
+        "categories": [
+          "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cloud-disconnected",
+        "displayName": "Cloud Disconnected",
+        "tags": [
+          "dis-connected",
+          "signal"
+        ],
+        "categories": [
+          "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cloud-download",
         "displayName": "Cloud Download",
         "tags": [
@@ -1902,6 +1928,30 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-check-in",
+        "displayName": "File Check In",
+        "tags": [
+          "check in"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-check-out",
+        "displayName": "File Check Out",
+        "tags": [
+          "check out"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-copy",
         "displayName": "File Copy",
         "tags": [
@@ -2415,6 +2465,7 @@ export const siteData = [
         "tags": [
           "builder",
           "construction",
+          "helmet",
           "viewpoint",
           "worker"
         ],
@@ -4770,6 +4821,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "time-off-work",
+        "displayName": "Time Off Work",
+        "tags": [
+          "PTO",
+          "vacation",
+          "palm tree"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "timer",
         "displayName": "Timer",
         "tags": [
@@ -4824,7 +4889,7 @@ export const siteData = [
           "switch"
         ],
         "categories": [
-          "Arrows & Controls"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4849,6 +4914,18 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "toggle-right-panel",
+        "displayName": "Toggle Right Panel",
+        "tags": [
+          "switch"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5457,18 +5534,6 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder",
-        "displayName": "Folder",
-        "tags": [
-          "directory"
-        ],
-        "categories": [
-          "Folders & Files"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6783,6 +6848,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "cloud-connected",
+        "displayName": "Cloud Connected",
+        "tags": [
+          "connected",
+          "signal"
+        ],
+        "categories": [
+          "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cloud-disconnected",
+        "displayName": "Cloud Disconnected",
+        "tags": [
+          "dis-connected",
+          "signal"
+        ],
+        "categories": [
+          "Connectivity & Signal"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cloud-download",
         "displayName": "Cloud Download",
         "tags": [
@@ -7378,6 +7469,30 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-check-in",
+        "displayName": "File Check In",
+        "tags": [
+          "check in"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-check-out",
+        "displayName": "File Check Out",
+        "tags": [
+          "check out"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-copy",
         "displayName": "File Copy",
         "tags": [
@@ -7891,6 +8006,7 @@ export const siteData = [
         "tags": [
           "builder",
           "construction",
+          "helmet",
           "viewpoint",
           "worker"
         ],
@@ -10246,6 +10362,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "time-off-work",
+        "displayName": "Time Off Work",
+        "tags": [
+          "PTO",
+          "vacation",
+          "palm tree"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "timer",
         "displayName": "Timer",
         "tags": [
@@ -10300,7 +10430,7 @@ export const siteData = [
           "switch"
         ],
         "categories": [
-          "Arrows & Controls"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -10325,6 +10455,18 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "toggle-right-panel",
+        "displayName": "Toggle Right Panel",
+        "tags": [
+          "switch"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -10933,18 +11075,6 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
-        ],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder",
-        "displayName": "Folder",
-        "tags": [
-          "directory"
-        ],
-        "categories": [
-          "Folders & Files"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -11779,6 +11909,17 @@ export const siteData = [
         "displayName": "Traffic",
         "tags": [
           "lights"
+        ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "traffic-historical",
+        "displayName": "Traffic Historical",
+        "tags": [
+          "history",
+          "traffic"
         ],
         "categories": [],
         "deprecated": false,

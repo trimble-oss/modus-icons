@@ -1008,6 +1008,26 @@
     ]
   },
   {
+    "name": "cloud-connected",
+    "tags": [
+      "connected",
+      "signal"
+    ],
+    "categories": [
+      "Connectivity & Signal"
+    ]
+  },
+  {
+    "name": "cloud-disconnected",
+    "tags": [
+      "dis-connected",
+      "signal"
+    ],
+    "categories": [
+      "Connectivity & Signal"
+    ]
+  },
+  {
     "name": "cloud-download",
     "tags": [
       "arrows",
@@ -1459,6 +1479,24 @@
     "tags": [
       "document",
       "sheet"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-check-in",
+    "tags": [
+      "check in"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-check-out",
+    "tags": [
+      "check out"
     ],
     "categories": [
       "Folders & Files"
@@ -3668,6 +3706,17 @@
     ]
   },
   {
+    "name": "time-off-work",
+    "tags": [
+      "PTO",
+      "vacation",
+      "palm tree"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
     "name": "timer",
     "tags": [
       "clock",
@@ -3709,7 +3758,7 @@
       "switch"
     ],
     "categories": [
-      "Arrows & Controls"
+      "Applications"
     ]
   },
   {
@@ -3728,6 +3777,15 @@
     ],
     "categories": [
       "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "toggle-right-panel",
+    "tags": [
+      "switch"
+    ],
+    "categories": [
+      "Applications"
     ]
   },
   {

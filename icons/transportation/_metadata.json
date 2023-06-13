@@ -549,6 +549,14 @@
     "categories": []
   },
   {
+    "name": "traffic-historical",
+    "tags": [
+      "history",
+      "traffic"
+    ],
+    "categories": []
+  },
+  {
     "name": "train",
     "tags": [
       "vehicle"

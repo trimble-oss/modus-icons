@@ -2085,9 +2085,11 @@
   {
     "name": "launch",
     "tags": [
-      "view",
+      "arrow",
+      "external",
+      "link",
       "open",
-      "arrow"
+      "view"
     ],
     "categories": [
       "Applications"
@@ -2096,9 +2098,11 @@
   {
     "name": "launch-bold",
     "tags": [
-      "view",
+      "arrow",
+      "external",
+      "link",
       "open",
-      "arrow"
+      "view"
     ],
     "categories": [
       "Applications"

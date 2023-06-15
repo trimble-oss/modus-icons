@@ -9,7 +9,7 @@
 *.json   @coliff @nspringer-trimble
 *.md     @coliff
 *.scss   @coliff
-*.svg    @coliff @egunther39
+*.svg    @coliff @egunther39 @soniakaukonen
 *.yml    @coliff
 
 ## Folders

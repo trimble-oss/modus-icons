@@ -5,6 +5,7 @@ on:
 jobs:
   deploy:
     name: Review reminders
+    if: github.repository == 'trimble-oss/modus-icons'
     runs-on: ubuntu-latest
 
     steps:

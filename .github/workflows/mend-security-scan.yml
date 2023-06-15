@@ -8,6 +8,7 @@ on:
 jobs:
   scan:
     name: Scan Runner
+    if: github.repository == 'trimble-oss/modus-icons'
     runs-on: ubuntu-latest
     permissions:
       contents: read

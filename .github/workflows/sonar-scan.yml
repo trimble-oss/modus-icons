@@ -15,6 +15,7 @@ permissions:
 jobs:
   scan:
     name: Sonar Scan Runner
+    if: github.repository == 'trimble-oss/modus-icons'
     runs-on: ubuntu-latest
     permissions:
       contents: read

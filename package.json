@@ -69,7 +69,7 @@
     "sass": "^1.63.4",
     "shx": "^0.3.4",
     "stylelint": "15.7.0",
-    "stylelint-config-standard-scss": "9.0.0",
+    "stylelint-config-standard-scss": "10.0.0",
     "svg-sprite": "^3.0.0-beta2",
     "svg2ttf": "^6.0.3",
     "svgexport": "^0.4.2",

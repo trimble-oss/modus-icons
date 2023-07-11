@@ -1,7 +1,3 @@
-# *.css
-# *.html
-# *.hbs
-# *.md
 docs
 
 _modus-bootstrap-dark.scss

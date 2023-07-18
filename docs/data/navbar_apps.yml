@@ -1,0 +1,15 @@
+- title: Modus Style Guide
+  icon: "/img/icons/trimble.svg"
+  url: "https://modus.trimble.com"
+
+- title: Modus Web Components
+  icon: "/img/icons/web-components.svg"
+  url: "https://modus-web-components.trimble.com/"
+
+- title: Modus Bootstrap
+  icon: "/img/icons/code.svg"
+  url: "https://modus-bootstrap.trimble.com/"
+
+- title: Modus on GitHub
+  icon: "/img/icons/github.svg"
+  url: "https://github.com/trimble-oss/?q=modus&type=all&language=&sort=stargazers"

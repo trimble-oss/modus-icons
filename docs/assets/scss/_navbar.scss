@@ -20,7 +20,7 @@ header.navbar {
 }
 
 .navbar-brand {
-  font-size: 15px !important;
+  color: #fff !important;
 }
 
 .navbar-main a:focus {
@@ -29,8 +29,7 @@ header.navbar {
 
 .navbar-main,
 .navbar-brand,
-.navbar-main a {
-  color: #fff;
+.navbar-main a:not(.dropdown-menu > div) {
   font-weight: 600;
 }
 
@@ -38,25 +37,14 @@ header.navbar {
   border-bottom: 2px solid #fff !important;
 }
 
-.navbar .dropdown-item {
-  min-width: 290px;
-  max-width: 320px;
-  white-space: inherit !important;
-}
-
-.dropdown-item small {
-  font-size: 14px !important;
-}
-
 [data-theme="dark"] .navbar-main .dropdown-item img {
   filter: invert(1);
 }
 
-.dropdown-menu-mobile {
-  width: 222px;
-  left: -162px !important;
+.navbar-main .btn-apps {
+  color: #fff;
 }
 
-.dropdown-menu-mobile .dropdown-item {
-  min-width: 212px;
+[data-theme="light"] .navbar-main .dropdown-menu {
+  color: #252a2e !important;
 }

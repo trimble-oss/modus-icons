@@ -1556,6 +1556,13 @@
     ]
   },
   {
+    "name": "file-table",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
     "name": "file-type-doc",
     "tags": [
       "sheet",
@@ -2843,6 +2850,13 @@
     ]
   },
   {
+    "name": "printer",
+    "tags": [],
+    "categories": [
+      "Devices"
+    ]
+  },
+  {
     "name": "pulse",
     "tags": [
       "activity",
@@ -3627,6 +3641,13 @@
     ]
   },
   {
+    "name": "text-truncated",
+    "tags": [],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "text-underlined",
     "tags": [
       "text"
@@ -3956,6 +3977,13 @@
     ]
   },
   {
+    "name": "user-guide",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "video",
     "tags": [
       "cam"
@@ -3981,6 +4009,20 @@
     ],
     "categories": [
       "Communication & Media"
+    ]
+  },
+  {
+    "name": "view-grid",
+    "tags": [],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "view-list",
+    "tags": [],
+    "categories": [
+      "Applications"
     ]
   },
   {
@@ -4038,6 +4080,13 @@
     ],
     "categories": [
       "Communication & Media"
+    ]
+  },
+  {
+    "name": "vr-xr",
+    "tags": [],
+    "categories": [
+      "Devices"
     ]
   },
   {

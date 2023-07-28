@@ -2020,6 +2020,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-table",
+        "displayName": "File Table",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-type-doc",
         "displayName": "File Type Doc",
         "tags": [
@@ -2712,9 +2722,11 @@ export const siteData = [
         "name": "launch",
         "displayName": "Launch",
         "tags": [
-          "view",
+          "arrow",
+          "external",
+          "link",
           "open",
-          "arrow"
+          "view"
         ],
         "categories": [
           "Applications"
@@ -2726,9 +2738,11 @@ export const siteData = [
         "name": "launch-bold",
         "displayName": "Launch Bold",
         "tags": [
-          "view",
+          "arrow",
+          "external",
+          "link",
           "open",
-          "arrow"
+          "view"
         ],
         "categories": [
           "Applications"
@@ -3688,6 +3702,16 @@ export const siteData = [
         ],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "printer",
+        "displayName": "Printer",
+        "tags": [],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4711,6 +4735,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "text-truncated",
+        "displayName": "Text Truncated",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-underlined",
         "displayName": "Text Underlined",
         "tags": [
@@ -5145,6 +5179,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "user-guide",
+        "displayName": "User Guide",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "video",
         "displayName": "Video",
         "tags": [
@@ -5177,6 +5221,26 @@ export const siteData = [
         ],
         "categories": [
           "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "view-grid",
+        "displayName": "View Grid",
+        "tags": [],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "view-list",
+        "displayName": "View List",
+        "tags": [],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5249,6 +5313,16 @@ export const siteData = [
         ],
         "categories": [
           "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "vr-xr",
+        "displayName": "Vr Xr",
+        "tags": [],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7561,6 +7635,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-table",
+        "displayName": "File Table",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-type-doc",
         "displayName": "File Type Doc",
         "tags": [
@@ -8253,9 +8337,11 @@ export const siteData = [
         "name": "launch",
         "displayName": "Launch",
         "tags": [
-          "view",
+          "arrow",
+          "external",
+          "link",
           "open",
-          "arrow"
+          "view"
         ],
         "categories": [
           "Applications"
@@ -8267,9 +8353,11 @@ export const siteData = [
         "name": "launch-bold",
         "displayName": "Launch Bold",
         "tags": [
-          "view",
+          "arrow",
+          "external",
+          "link",
           "open",
-          "arrow"
+          "view"
         ],
         "categories": [
           "Applications"
@@ -9229,6 +9317,16 @@ export const siteData = [
         ],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "printer",
+        "displayName": "Printer",
+        "tags": [],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -10252,6 +10350,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "text-truncated",
+        "displayName": "Text Truncated",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-underlined",
         "displayName": "Text Underlined",
         "tags": [
@@ -10686,6 +10794,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "user-guide",
+        "displayName": "User Guide",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "video",
         "displayName": "Video",
         "tags": [
@@ -10718,6 +10836,26 @@ export const siteData = [
         ],
         "categories": [
           "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "view-grid",
+        "displayName": "View Grid",
+        "tags": [],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "view-list",
+        "displayName": "View List",
+        "tags": [],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -10790,6 +10928,16 @@ export const siteData = [
         ],
         "categories": [
           "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "vr-xr",
+        "displayName": "Vr Xr",
+        "tags": [],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""

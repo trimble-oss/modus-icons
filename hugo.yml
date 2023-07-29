@@ -58,7 +58,7 @@ module:
 
 params:
   description:          "SVG icon library for Modus"
-  version:              "1.3.2"
+  version:              "1.4.0"
   bs_docs_version:      "4.6"
   main:                 "https://modus.trimble.com"
   github_org:           "https://github.com/trimble-oss"
@@ -66,48 +66,6 @@ params:
   trimble_insights_key: "stP0oRfZPt6GLobwfavo9qgV0yKtChK2AWVtnsw9" #gitleaks:allow
 
 menu:
-  main:
-    - name: Start
-      url: "https://modus.trimble.com/start/"
-      weight: 1
-    - name: Foundations
-      url: "https://modus.trimble.com/foundations/"
-      weight: 2
-    - name: Components
-      id: Components
-      url: "https://modus.trimble.com/components/web/"
-      weight: 3
-    - name: Web
-      parent: Components
-      url: "https://modus.trimble.com/components/web/"
-      pre: "<img src='/modus-outlined/svg/screen.svg' width='28' height='28' class='opacity-75 mr-2' alt>"
-      post: "Modus component library for web-based apps and workflows."
-      weight: 1
-    - name: In-Field
-      parent: Components
-      url: "https://modus.trimble.com/components/in-field/"
-      pre: "<img src='/modus-outlined/svg/in-field-device.svg' width='28' height='28' class='opacity-75 mr-2' alt>"
-      post: "High-contrast library specific to apps used outdoors on handheld or in-cab devices."
-      weight: 2
-    - name: Mobile
-      parent: Components
-      url: "https://modus.trimble.com/components/mobile/"
-      pre: "<img src='/modus-outlined/svg/phone-mobile.svg' width=28 height=28 class='opacity-75 mr-2' alt>"
-      post: "UI patterns for designing Trimble experiences on Android devices."
-      weight: 3
-    - name: XR
-      parent: Components
-      url: "https://modus.trimble.com/components/xr/"
-      pre: "<img src='/img/xr.svg' width=28 height=28 class='opacity-75 mr-2' alt>"
-      post: "Building blocks for designing Trimble products for mixed reality and virtual reality."
-      weight: 4
-    - Name: Icons
-      url: "/"
-      weight: 4
-    - Name: Community
-      url: "https://modus.trimble.com/community/"
-      weight: 5
-
   icons:
     - name: Modus Solid
       url: "/modus-solid/"

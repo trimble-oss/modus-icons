@@ -3,6 +3,7 @@
 /dist
 /docs/content
 /resources
+**/.angular/
 
 .DS_Store
 .hugo_build.lock

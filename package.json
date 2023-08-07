@@ -7,7 +7,7 @@
     "access": "public"
   },
   "license": "MIT",
-  "homepage": "https://github.com/trimble-oss/modus-icons",
+  "homepage": "https://modus-icons.trimble.com/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trimble-oss/modus-icons.git"
@@ -45,7 +45,7 @@
     "eslint": "8.45.0",
     "file-type": "3.9.0",
     "fs-extra": "^11.1.1",
-    "handlebars": "4.7.7",
+    "handlebars": "4.7.8",
     "htmlhint": "1.1.4",
     "hugo-bin": "0.111.1",
     "icon-font-generator": "^2.1.11",
@@ -62,11 +62,11 @@
     "popper.js": "1.16.1",
     "postcss": "^8.4.27",
     "postcss-cli": "^10.1.0",
-    "prettier": "^3.0.0",
+    "prettier": "^3.0.1",
     "q": "^1.1.2",
     "read-chunk": "^3.1.0",
     "rename-cli": "^7.0.2",
-    "sass": "^1.64.1",
+    "sass": "^1.64.2",
     "shx": "^0.3.4",
     "stylelint": "15.10.2",
     "stylelint-config-standard-scss": "10.0.0",

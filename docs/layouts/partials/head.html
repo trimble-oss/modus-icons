@@ -1,6 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{- if .IsHome -}}{{- .Site.Title }} · {{ .Site.Params.description }}{{ else }}{{ .Title }} ({{ .Section | humanize | title -}}) · {{ .Site.Title -}}
+<title>{{- if .IsHome -}}{{- .Site.Title }} · {{ .Site.Params.description }}{{ else }}{{ .Title }}
+  ({{ .Section | humanize | title -}}) · {{ .Site.Title -}}
   {{- end -}}</title>
 
 <meta name="description"
@@ -8,13 +9,18 @@
 {{ if .IsHome }}
 <meta name="generator" content="Hugo {{ hugo.Version }}">
 {{ end }}
-<link rel="canonical" href="{{ .Permalink }}">
+<link rel="canonical" href="{{- .Permalink -}}">
 
 <meta name="color-scheme" content="light dark">
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}
 {{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
-<script src="{{ $themeToggleJS.RelPermalink }}"></script>
+<script src="{{- $themeToggleJS.RelPermalink -}}"></script>
 
 {{ partial "stylesheet" . }}
 {{ partial "favicons" . }}
 {{ template "_internal/opengraph.html" . }}
+
+{{ if or .Params.tags .Params.categories -}}
+<meta property="og:image"
+  content="https://trimble-oss.github.io/modus-icons-opengraph/img/{{- .Section | urlize | lower -}}_{{- .Title | urlize | lower -}}.png">
+{{ end }}

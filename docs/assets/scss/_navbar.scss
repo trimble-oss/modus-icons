@@ -41,6 +41,11 @@ header.navbar {
   filter: invert(1);
 }
 
+.navbar-main .btn-icon-only:focus {
+  box-shadow: none !important;
+  background-color: rgba(37,42,46,.3) !important;
+}
+
 .navbar-main .btn-apps {
   color: #fff;
 }

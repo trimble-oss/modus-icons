@@ -49,7 +49,7 @@
     "htmlhint": "1.1.4",
     "hugo-bin": "0.114.2",
     "icon-font-generator": "^2.1.11",
-    "jquery": "^3.7.0",
+    "jquery": "^3.7.1",
     "lockfile-lint": "4.12.0",
     "lodash": "^4.17.21",
     "make-dir-cli": "^3.1.0",

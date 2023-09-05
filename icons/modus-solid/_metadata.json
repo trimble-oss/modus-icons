@@ -98,7 +98,11 @@
   },
   {
     "name": "alert-outlined",
-    "tags": [],
+    "tags": [
+      "exclamation",
+      "triangle",
+      "warning"
+    ],
     "categories": [
       "Alerts & Messages"
     ]
@@ -766,7 +770,11 @@
   },
   {
     "name": "check-circle-outlined",
-    "tags": [],
+    "tags": [
+      "done",
+      "success",
+      "tick"
+    ],
     "categories": [
       "Alerts & Messages"
     ]
@@ -1946,7 +1954,8 @@
   {
     "name": "help",
     "tags": [
-      "circle"
+      "circle",
+      "support"
     ],
     "categories": [
       "Alerts & Messages"
@@ -1954,7 +1963,10 @@
   },
   {
     "name": "help-outlined",
-    "tags": [],
+    "tags": [
+      "circle",
+      "support"
+    ],
     "categories": [
       "Alerts & Messages"
     ]
@@ -2038,7 +2050,9 @@
   },
   {
     "name": "info-outlined",
-    "tags": [],
+    "tags": [
+      "circle"
+    ],
     "categories": [
       "Alerts & Messages"
     ]
@@ -4084,7 +4098,9 @@
   },
   {
     "name": "vr-xr",
-    "tags": [],
+    "tags": [
+      "headset"
+    ],
     "categories": [
       "Devices"
     ]
@@ -4103,7 +4119,12 @@
   },
   {
     "name": "warning-outlined",
-    "tags": [],
+    "tags": [
+      "alert",
+      "caution",
+      "circle",
+      "exclamation"
+    ],
     "categories": [
       "Alerts & Messages"
     ]

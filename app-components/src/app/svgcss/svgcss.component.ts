@@ -3,7 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-svgcss',
   templateUrl: './svgcss.component.html',
-  styleUrls: ['./svgcss.component.scss']
+  styles: [],
 })
 export class SvgcssComponent implements OnInit {
   @Input() svg: string;
@@ -13,23 +13,26 @@ export class SvgcssComponent implements OnInit {
     level2: `"`,
   };
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
     // trim leading and trailing double quotes
     this.svg = this.svg.replace(/^"(.*)"$/, `$1`);
   }
 
-  getSvgCss () {
+  getSvgCss() {
     const namespaced = this.addNameSpace(this.svg);
     const escaped = this.encodeSVG(namespaced);
-    const resultCss = `background-image: url(${this.quotes.level1}data:image/svg+xml,${escaped}${this.quotes.level1});`;
+    const resultCss = `${this.quotes.level1}data:image/svg+xml,${escaped}${this.quotes.level1}`;
     return resultCss;
   }
 
-  addNameSpace (data) {
+  addNameSpace(data) {
     if (data.indexOf(`http://www.w3.org/2000/svg`) < 0) {
-      data = data.replace(/<svg/g, `<svg xmlns=${this.quotes.level2}http://www.w3.org/2000/svg${this.quotes.level2}`);
+      data = data.replace(
+        /<svg/g,
+        `<svg xmlns=${this.quotes.level2}http://www.w3.org/2000/svg${this.quotes.level2}`
+      );
     }
     return data;
   }

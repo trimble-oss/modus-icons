@@ -12539,19 +12539,61 @@ const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('11.2.
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SvgcssComponent", function() { return SvgcssComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "ofXK");
 
+
+function SvgcssComponent_ng_container_0_Template(rf, ctx) {
+    if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "background-image:\u00A0");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "url(");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, ");");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+    }
+    if (rf & 2) {
+        const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r0.getSvgCss());
+    }
+}
+function SvgcssComponent_ng_container_1_Template(rf, ctx) {
+    if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+    }
+    if (rf & 2) {
+        const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("background-image: url(", ctx_r1.getSvgCss(), ");");
+    }
+}
 let SvgcssComponent = /*@__PURE__*/ (() => {
     class SvgcssComponent {
         constructor() {
+            this.raw = false;
             this.symbols = /[\r\n%#()<>?[\\\]^`{|}]/g;
             this.quotes = {
-                level1: `'`,
-                level2: `"`,
+                level1: `"`,
+                level2: `'`,
             };
         }
         ngOnInit() {
             // trim leading and trailing double quotes
             this.svg = this.svg.replace(/^"(.*)"$/, `$1`);
+            if (!this.raw) {
+                this.quotes.level1 = `'`;
+                this.quotes.level2 = `"`;
+            }
         }
         getSvgCss() {
             const namespaced = this.addNameSpace(this.svg);
@@ -12566,7 +12608,10 @@ let SvgcssComponent = /*@__PURE__*/ (() => {
             return data;
         }
         encodeSVG(data) {
+            data = data.replace(/(\\n)/g, ``);
+            data = data.replace(/\\/g, ``);
             data = data.replace(/"/g, `'`);
+            data = data.replace(/class='[\w\s-]*'/g, ``);
             data = data.replace(/>\s{1,}</g, `><`);
             data = data.replace(/\s{2,}/g, ` `);
             // Using encodeURIComponent() as replacement function
@@ -12575,26 +12620,17 @@ let SvgcssComponent = /*@__PURE__*/ (() => {
         }
     }
     SvgcssComponent.ɵfac = function SvgcssComponent_Factory(t) { return new (t || SvgcssComponent)(); };
-    SvgcssComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SvgcssComponent, selectors: [["app-svgcss"]], inputs: { svg: "svg" }, decls: 8, vars: 1, consts: [[1, "nt"], [1, "na"], [1, "s"]], template: function SvgcssComponent_Template(rf, ctx) {
+    SvgcssComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SvgcssComponent, selectors: [["app-svgcss"]], inputs: { svg: "svg", raw: "raw" }, decls: 2, vars: 2, consts: [[4, "ngIf"], [1, "nt"], [1, "na"], [1, "s"]], template: function SvgcssComponent_Template(rf, ctx) {
             if (rf & 1) {
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 0);
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "background-image:\u00A0");
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 1);
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "url(");
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "span", 2);
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span", 1);
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, ");");
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, SvgcssComponent_ng_container_0_Template, 9, 1, "ng-container", 0);
+                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, SvgcssComponent_ng_container_1_Template, 2, 1, "ng-container", 0);
             }
             if (rf & 2) {
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.getSvgCss());
+                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.raw);
+                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.raw);
             }
-        }, styles: [""] });
+        }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]], encapsulation: 2 });
     return SvgcssComponent;
 })();
 

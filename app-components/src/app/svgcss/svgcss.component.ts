@@ -7,10 +7,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SvgcssComponent implements OnInit {
   @Input() svg: string;
+  @Input() raw?: boolean = false;
   symbols = /[\r\n%#()<>?[\\\]^`{|}]/g;
   quotes = {
-    level1: `'`,
-    level2: `"`,
+    level1: `"`,
+    level2: `'`,
   };
 
   constructor() {}
@@ -18,6 +19,11 @@ export class SvgcssComponent implements OnInit {
   ngOnInit(): void {
     // trim leading and trailing double quotes
     this.svg = this.svg.replace(/^"(.*)"$/, `$1`);
+
+    if (!this.raw) {
+      this.quotes.level1 = `'`;
+      this.quotes.level2 = `"`;
+    }
   }
 
   getSvgCss() {
@@ -38,7 +44,10 @@ export class SvgcssComponent implements OnInit {
   }
 
   encodeSVG(data) {
+    data = data.replace(/(\\n)/g, ``);
+    data = data.replace(/\\/g, ``);
     data = data.replace(/"/g, `'`);
+    data = data.replace(/class='[\w\s-]*'/g, ``);
     data = data.replace(/>\s{1,}</g, `><`);
     data = data.replace(/\s{2,}/g, ` `);
 

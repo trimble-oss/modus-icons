@@ -49,6 +49,8 @@
 </svg>` .File.TranslationBaseName -}}
 {{- $svgSpriteHtml := $svgSpriteSnippet | safeHTML -}}
 {{- $ligature := replace ( urlize .Title ) "-" "_" | lower -}}
+{{- $svgCss := `<svg-css></svg-css>` | safeHTML -}}
+{{- $svgCode := printf "%#v" $svgHtml | chomp -}}
 
 <div class="row">
   <div class="col-lg-7">
@@ -169,6 +171,15 @@
     </p>
     <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
     {{ highlight $svgHtml "html" "" }}
+
+    <h2 class="h3">SVG CSS code</h2>
+    <p> Use for embedding your icons in CSS with no dependency.</p>
+    <!-- {{ highlight $svgCss "html" "" }} -->
+
+    <div class="highlight">
+      <pre tabindex="0"
+        class="chroma"><code class="language-css" data-lang="css"><svg-css svg="{{- $svgCode | chomp -}}"></svg-css></code></pre>
+    </div>
   </div>
 </div>
 {{ end }}

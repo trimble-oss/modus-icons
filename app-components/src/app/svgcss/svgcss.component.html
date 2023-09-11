@@ -1,0 +1,8 @@
+<ng-container *ngIf="!raw">
+  <span class="nt">background-image:&nbsp;</span><span class="na">url(</span
+  ><span class="s">{{ getSvgCss() }}</span
+  ><span class="na">);</span>
+</ng-container>
+<ng-container *ngIf="raw"
+  >background-image: url({{ getSvgCss() }});</ng-container
+>

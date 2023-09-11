@@ -131,7 +131,11 @@ export const siteData = [
       {
         "name": "alert-outlined",
         "displayName": "Alert Outlined",
-        "tags": [],
+        "tags": [
+          "exclamation",
+          "triangle",
+          "warning"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -994,7 +998,11 @@ export const siteData = [
       {
         "name": "check-circle-outlined",
         "displayName": "Check Circle Outlined",
-        "tags": [],
+        "tags": [
+          "done",
+          "success",
+          "tick"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -2528,7 +2536,8 @@ export const siteData = [
         "name": "help",
         "displayName": "Help",
         "tags": [
-          "circle"
+          "circle",
+          "support"
         ],
         "categories": [
           "Alerts & Messages"
@@ -2539,7 +2548,10 @@ export const siteData = [
       {
         "name": "help-outlined",
         "displayName": "Help Outlined",
-        "tags": [],
+        "tags": [
+          "circle",
+          "support"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -2650,7 +2662,9 @@ export const siteData = [
       {
         "name": "info-outlined",
         "displayName": "Info Outlined",
-        "tags": [],
+        "tags": [
+          "circle"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -5320,7 +5334,9 @@ export const siteData = [
       {
         "name": "vr-xr",
         "displayName": "Vr Xr",
-        "tags": [],
+        "tags": [
+          "headset"
+        ],
         "categories": [
           "Devices"
         ],
@@ -5345,7 +5361,12 @@ export const siteData = [
       {
         "name": "warning-outlined",
         "displayName": "Warning Outlined",
-        "tags": [],
+        "tags": [
+          "alert",
+          "caution",
+          "circle",
+          "exclamation"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -5746,7 +5767,11 @@ export const siteData = [
       {
         "name": "alert-outlined",
         "displayName": "Alert Outlined",
-        "tags": [],
+        "tags": [
+          "exclamation",
+          "triangle",
+          "warning"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -6609,7 +6634,11 @@ export const siteData = [
       {
         "name": "check-circle-outlined",
         "displayName": "Check Circle Outlined",
-        "tags": [],
+        "tags": [
+          "done",
+          "success",
+          "tick"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -8143,7 +8172,8 @@ export const siteData = [
         "name": "help",
         "displayName": "Help",
         "tags": [
-          "circle"
+          "circle",
+          "support"
         ],
         "categories": [
           "Alerts & Messages"
@@ -8154,7 +8184,10 @@ export const siteData = [
       {
         "name": "help-outlined",
         "displayName": "Help Outlined",
-        "tags": [],
+        "tags": [
+          "circle",
+          "support"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -8265,7 +8298,9 @@ export const siteData = [
       {
         "name": "info-outlined",
         "displayName": "Info Outlined",
-        "tags": [],
+        "tags": [
+          "circle"
+        ],
         "categories": [
           "Alerts & Messages"
         ],
@@ -10935,7 +10970,9 @@ export const siteData = [
       {
         "name": "vr-xr",
         "displayName": "Vr Xr",
-        "tags": [],
+        "tags": [
+          "headset"
+        ],
         "categories": [
           "Devices"
         ],
@@ -10960,7 +10997,12 @@ export const siteData = [
       {
         "name": "warning-outlined",
         "displayName": "Warning Outlined",
-        "tags": [],
+        "tags": [
+          "alert",
+          "caution",
+          "circle",
+          "exclamation"
+        ],
         "categories": [
           "Alerts & Messages"
         ],

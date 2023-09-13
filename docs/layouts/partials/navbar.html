@@ -3,11 +3,12 @@
     <a class="navbar-brand mr-auto mr-md-auto font-weight-bold" href="/">
       <!-- {{- partial "icons/trimble.svg" (dict "class" "d-inline-block d-sm-none mb-1 mr-1" "width" "25" "height" "25") -}} -->
       {{ partial "logos/trimble.svg" (dict "class" "img-fluid" "width" "115" "height" "26") }}
-      <div hidden>Modus Icons</div>
+      <div class="text-white h2 d-none d-md-block float-right pt-1 mb-0 ml-2">
+        Modus Icons
+      </div>
     </a>
     <div class="d-flex flew-row ml-auto ml-sm-0">
       <ul class="navbar-nav d-none d-md-inline-flex flex-lg-row">
-
       </ul>
       {{ partial "theme-toggle" . }}
 

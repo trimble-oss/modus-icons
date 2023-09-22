@@ -60,18 +60,6 @@ function buildPages(config) {
       const files = fs.readJSONSync(
         path.join(srcDirectoryPath, '_metadata.json')
       );
-      if (setName.startsWith('modus')) {
-        const type = setName.split('-')[1];
-        const materialFiles = fs.readJSONSync(
-          path.join(
-            srcDirectoryPath,
-            '..',
-            `material-${type}`,
-            '_metadata.json'
-          )
-        );
-        files.push(...materialFiles);
-      }
 
       await Promise.all(files.map((file) => writeContents(file, pagesDir)));
     } catch (error) {

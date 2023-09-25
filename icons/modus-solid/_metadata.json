@@ -170,6 +170,13 @@
     ]
   },
   {
+    "name": "angle-90",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "antenna",
     "tags": [
       "broadcast",
@@ -187,6 +194,15 @@
     ],
     "categories": [
       "Applications"
+    ]
+  },
+  {
+    "name": "arc",
+    "tags": [
+      "half-circle"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -484,6 +500,32 @@
     ],
     "categories": [
       "Image"
+    ]
+  },
+  {
+    "name": "bug",
+    "tags": [
+      "error",
+      "help",
+      "issue",
+      "problem",
+      "support"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "bug-report",
+    "tags": [
+      "error",
+      "help",
+      "issue",
+      "problem",
+      "support"
+    ],
+    "categories": [
+      "Applications"
     ]
   },
   {
@@ -1058,6 +1100,15 @@
     ]
   },
   {
+    "name": "code",
+    "tags": [
+      "developer"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
     "name": "collapse",
     "tags": [
       "arrows"
@@ -1386,6 +1437,16 @@
     ],
     "categories": [
       "Communication & Media"
+    ]
+  },
+  {
+    "name": "eraser",
+    "tags": [
+      "delete",
+      "remove"
+    ],
+    "categories": [
+      "Editing"
     ]
   },
   {
@@ -1924,7 +1985,8 @@
   {
     "name": "headset",
     "tags": [
-      "headphones"
+      "headphones",
+      "support"
     ],
     "categories": [
       "Communication & Media"
@@ -2178,6 +2240,13 @@
     ]
   },
   {
+    "name": "line-diagonal",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "link",
     "tags": [],
     "categories": [
@@ -2321,7 +2390,9 @@
     "name": "megaphone",
     "tags": [
       "alert",
+      "announcement",
       "audio",
+      "news",
       "viewpoint"
     ],
     "categories": [
@@ -2486,12 +2557,31 @@
     ]
   },
   {
+    "name": "object-mirror",
+    "tags": [
+      "reflect"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "object-outline",
     "tags": [
       "geometric"
     ],
     "categories": [
       "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "object-rotate",
+    "tags": [
+      "twist",
+      "turn"
+    ],
+    "categories": [
+      "Editing"
     ]
   },
   {
@@ -3192,6 +3282,17 @@
     ]
   },
   {
+    "name": "shopping-cart",
+    "tags": [
+      "basket",
+      "buy",
+      "subscribe"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
     "name": "shortcut",
     "tags": [],
     "categories": [
@@ -3457,6 +3558,20 @@
     ]
   },
   {
+    "name": "star-half",
+    "tags": [
+      "favorite",
+      "important",
+      "like",
+      "pin",
+      "rating",
+      "save"
+    ],
+    "categories": [
+      "Evaluation"
+    ]
+  },
+  {
     "name": "star-locked",
     "tags": [
       "lock"
@@ -3487,6 +3602,13 @@
     ],
     "categories": [
       "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "street-measurement",
+    "tags": [],
+    "categories": [
+      "Devices"
     ]
   },
   {

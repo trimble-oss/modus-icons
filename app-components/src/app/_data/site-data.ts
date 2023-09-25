@@ -223,6 +223,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "angle-90",
+        "displayName": "Angle 90",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "antenna",
         "displayName": "Antenna",
         "tags": [
@@ -244,6 +254,18 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arc",
+        "displayName": "Arc",
+        "tags": [
+          "half-circle"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -628,6 +650,38 @@ export const siteData = [
         ],
         "categories": [
           "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bug",
+        "displayName": "Bug",
+        "tags": [
+          "error",
+          "help",
+          "issue",
+          "problem",
+          "support"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bug-report",
+        "displayName": "Bug Report",
+        "tags": [
+          "error",
+          "help",
+          "issue",
+          "problem",
+          "support"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1369,6 +1423,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "code",
+        "displayName": "Code",
+        "tags": [
+          "developer"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "collapse",
         "displayName": "Collapse",
         "tags": [
@@ -1797,6 +1863,19 @@ export const siteData = [
         ],
         "categories": [
           "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "eraser",
+        "displayName": "Eraser",
+        "tags": [
+          "delete",
+          "remove"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2497,7 +2576,8 @@ export const siteData = [
         "name": "headset",
         "displayName": "Headset",
         "tags": [
-          "headphones"
+          "headphones",
+          "support"
         ],
         "categories": [
           "Communication & Media"
@@ -2828,6 +2908,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "line-diagonal",
+        "displayName": "Line Diagonal",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "link",
         "displayName": "Link",
         "tags": [],
@@ -3017,7 +3107,9 @@ export const siteData = [
         "displayName": "Megaphone",
         "tags": [
           "alert",
+          "announcement",
           "audio",
+          "news",
           "viewpoint"
         ],
         "categories": [
@@ -3111,7 +3203,8 @@ export const siteData = [
         "name": "more-horizontal",
         "displayName": "More Horizontal",
         "tags": [
-          "kebab",
+          "ellipsis",
+          "meatballs",
           "menu",
           "overflow"
         ],
@@ -3228,6 +3321,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "object-mirror",
+        "displayName": "Object Mirror",
+        "tags": [
+          "reflect"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "object-outline",
         "displayName": "Object Outline",
         "tags": [
@@ -3235,6 +3340,19 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "object-rotate",
+        "displayName": "Object Rotate",
+        "tags": [
+          "twist",
+          "turn"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4150,6 +4268,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "shopping-cart",
+        "displayName": "Shopping Cart",
+        "tags": [
+          "basket",
+          "buy",
+          "subscribe"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "shortcut",
         "displayName": "Shortcut",
         "tags": [],
@@ -4493,6 +4625,23 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "star-half",
+        "displayName": "Star Half",
+        "tags": [
+          "favorite",
+          "important",
+          "like",
+          "pin",
+          "rating",
+          "save"
+        ],
+        "categories": [
+          "Evaluation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "star-locked",
         "displayName": "Star Locked",
         "tags": [
@@ -4530,6 +4679,16 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "street-measurement",
+        "displayName": "Street Measurement",
+        "tags": [],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5859,6 +6018,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "angle-90",
+        "displayName": "Angle 90",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "antenna",
         "displayName": "Antenna",
         "tags": [
@@ -5880,6 +6049,18 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arc",
+        "displayName": "Arc",
+        "tags": [
+          "half-circle"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6264,6 +6445,38 @@ export const siteData = [
         ],
         "categories": [
           "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bug",
+        "displayName": "Bug",
+        "tags": [
+          "error",
+          "help",
+          "issue",
+          "problem",
+          "support"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bug-report",
+        "displayName": "Bug Report",
+        "tags": [
+          "error",
+          "help",
+          "issue",
+          "problem",
+          "support"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7005,6 +7218,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "code",
+        "displayName": "Code",
+        "tags": [
+          "developer"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "collapse",
         "displayName": "Collapse",
         "tags": [
@@ -7433,6 +7658,19 @@ export const siteData = [
         ],
         "categories": [
           "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "eraser",
+        "displayName": "Eraser",
+        "tags": [
+          "delete",
+          "remove"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8133,7 +8371,8 @@ export const siteData = [
         "name": "headset",
         "displayName": "Headset",
         "tags": [
-          "headphones"
+          "headphones",
+          "support"
         ],
         "categories": [
           "Communication & Media"
@@ -8464,6 +8703,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "line-diagonal",
+        "displayName": "Line Diagonal",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "link",
         "displayName": "Link",
         "tags": [],
@@ -8653,7 +8902,9 @@ export const siteData = [
         "displayName": "Megaphone",
         "tags": [
           "alert",
+          "announcement",
           "audio",
+          "news",
           "viewpoint"
         ],
         "categories": [
@@ -8747,7 +8998,8 @@ export const siteData = [
         "name": "more-horizontal",
         "displayName": "More Horizontal",
         "tags": [
-          "kebab",
+          "ellipsis",
+          "meatballs",
           "menu",
           "overflow"
         ],
@@ -8864,6 +9116,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "object-mirror",
+        "displayName": "Object Mirror",
+        "tags": [
+          "reflect"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "object-outline",
         "displayName": "Object Outline",
         "tags": [
@@ -8871,6 +9135,19 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "object-rotate",
+        "displayName": "Object Rotate",
+        "tags": [
+          "twist",
+          "turn"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9786,6 +10063,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "shopping-cart",
+        "displayName": "Shopping Cart",
+        "tags": [
+          "basket",
+          "buy",
+          "subscribe"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "shortcut",
         "displayName": "Shortcut",
         "tags": [],
@@ -10129,6 +10420,23 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "star-half",
+        "displayName": "Star Half",
+        "tags": [
+          "favorite",
+          "important",
+          "like",
+          "pin",
+          "rating",
+          "save"
+        ],
+        "categories": [
+          "Evaluation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "star-locked",
         "displayName": "Star Locked",
         "tags": [
@@ -10166,6 +10474,16 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "street-measurement",
+        "displayName": "Street Measurement",
+        "tags": [],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""

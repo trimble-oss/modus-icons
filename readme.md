@@ -1,6 +1,6 @@
 # Modus Icons
 
-Open source icon library for Modus with over 500 icons.
+Open source icon library for Modus with over 1000 icons.
 
 ## Install
 

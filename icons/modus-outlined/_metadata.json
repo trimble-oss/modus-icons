@@ -1554,6 +1554,16 @@
     ]
   },
   {
+    "name": "file-bar-graph",
+    "tags": [
+      "chart",
+      "report"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
     "name": "file-check-in",
     "tags": [
       "check in"

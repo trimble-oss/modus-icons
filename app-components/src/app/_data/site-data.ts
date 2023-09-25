@@ -2015,6 +2015,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-bar-graph",
+        "displayName": "File Bar Graph",
+        "tags": [
+          "chart",
+          "report"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-check-in",
         "displayName": "File Check In",
         "tags": [
@@ -7802,6 +7815,19 @@ export const siteData = [
         "tags": [
           "document",
           "sheet"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-bar-graph",
+        "displayName": "File Bar Graph",
+        "tags": [
+          "chart",
+          "report"
         ],
         "categories": [
           "Folders & Files"

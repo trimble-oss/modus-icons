@@ -63,7 +63,7 @@
     "postcss-cli": "10.1.0",
     "prettier": "3.0.3",
     "q": "1.5.1",
-    "read-chunk": "3.1.0",
+    "read-chunk": "3.2.0",
     "rename-cli": "7.0.2",
     "sass": "1.68.0",
     "shx": "0.3.4",

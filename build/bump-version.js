@@ -16,7 +16,7 @@ const DRY_RUN =
   process.argv.includes('--dry') || process.argv.includes('--dry-run');
 
 // These are the files we only care about replacing the version
-const FILES = ['fonts/css.hbs', 'fonts/html.hbs', 'hugo.yml'];
+const FILES = ['fonts/css.hbs', 'hugo.yml'];
 
 // Blame TC39... https://github.com/benjamingr/RegExp.escape/issues/37
 function regExpQuote(string) {

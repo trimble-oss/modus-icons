@@ -308,6 +308,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "arrow-expand-diagonal-left",
+        "displayName": "Arrow Expand Diagonal Left",
+        "tags": [
+          "magnify",
+          "stretch"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-expand-diagonal-right",
+        "displayName": "Arrow Expand Diagonal Right",
+        "tags": [
+          "magnify",
+          "stretch"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "arrow-left",
         "displayName": "Arrow Left",
         "tags": [
@@ -388,6 +414,19 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "artificial-intelligence",
+        "displayName": "Artificial Intelligence",
+        "tags": [
+          "ai",
+          "bot"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -627,6 +666,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "bookings",
+        "displayName": "Bookings",
+        "tags": [
+          "items",
+          "list"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bookings-open",
+        "displayName": "Bookings Open",
+        "tags": [
+          "items",
+          "list"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "brightness",
         "displayName": "Brightness",
         "tags": [
@@ -764,6 +829,59 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "calendar-add",
+        "displayName": "Calendar Add",
+        "tags": [
+          "plus",
+          "book",
+          "reserve"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-and-key",
+        "displayName": "Calendar And Key",
+        "tags": [
+          "locked"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-blank",
+        "displayName": "Calendar Blank",
+        "tags": [
+          "date",
+          "empty"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-booking",
+        "displayName": "Calendar Booking",
+        "tags": [
+          "date",
+          "reserved",
+          "schedule"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "calendar-check",
         "displayName": "Calendar Check",
         "tags": [
@@ -785,6 +903,97 @@ export const siteData = [
           "date",
           "month",
           "schedule",
+          "time"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-loading-unloading",
+        "displayName": "Calendar Loading Unloading",
+        "tags": [
+          "box",
+          "delivery",
+          "package",
+          "supply",
+          "transport"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-loading-unloading-date",
+        "displayName": "Calendar Loading Unloading Date",
+        "tags": [
+          "box",
+          "date",
+          "delivery",
+          "package",
+          "supply",
+          "transport"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-rebook",
+        "displayName": "Calendar Rebook",
+        "tags": [
+          "date",
+          "reschedule",
+          "swap",
+          "switch"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-reserve",
+        "displayName": "Calendar Reserve",
+        "tags": [
+          "chart",
+          "date",
+          "gantt",
+          "time slot"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-show",
+        "displayName": "Calendar Show",
+        "tags": [
+          "date",
+          "display",
+          "reserved"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-time-slot",
+        "displayName": "Calendar Time Slot",
+        "tags": [
+          "clock",
+          "hour",
           "time"
         ],
         "categories": [
@@ -977,6 +1186,46 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cell-merge",
+        "displayName": "Cell Merge",
+        "tags": [
+          "table",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cell-properties",
+        "displayName": "Cell Properties",
+        "tags": [
+          "cog",
+          "table",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cell-split",
+        "displayName": "Cell Split",
+        "tags": [
+          "table",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1472,6 +1721,135 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "column-copy",
+        "displayName": "Column Copy",
+        "tags": [
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-cut",
+        "displayName": "Column Cut",
+        "tags": [
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-delete",
+        "displayName": "Column Delete",
+        "tags": [
+          "close",
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-insert-after",
+        "displayName": "Column Insert After",
+        "tags": [
+          "plus",
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-insert-before",
+        "displayName": "Column Insert Before",
+        "tags": [
+          "plus",
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-paste-after",
+        "displayName": "Column Paste After",
+        "tags": [
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-paste-before",
+        "displayName": "Column Paste Before",
+        "tags": [
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-properties",
+        "displayName": "Column Properties",
+        "tags": [
+          "cog",
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "columns",
+        "displayName": "Columns",
+        "tags": [
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "combine",
         "displayName": "Combine",
         "tags": [
@@ -1714,6 +2092,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "delivery-truck-allocate",
+        "displayName": "Delivery Truck Allocate",
+        "tags": [
+          "van",
+          "lorry",
+          "truck",
+          "arrow"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "delivery-truck-motion",
         "displayName": "Delivery Truck Motion",
         "tags": [
@@ -1881,6 +2274,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "exclamation-mark",
+        "displayName": "Exclamation Mark",
+        "tags": [
+          "warning"
+        ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "expand",
         "displayName": "Expand",
         "tags": [
@@ -1972,6 +2377,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "factory",
+        "displayName": "Factory",
+        "tags": [
+          "production",
+          "delivery",
+          "industry"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "fast-forward",
         "displayName": "Fast Forward",
         "tags": [
@@ -2044,6 +2463,19 @@ export const siteData = [
         "displayName": "File Check Out",
         "tags": [
           "check out"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-cloud",
+        "displayName": "File Cloud",
+        "tags": [
+          "file",
+          "digital"
         ],
         "categories": [
           "Folders & Files"
@@ -2467,6 +2899,43 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "freight-market",
+        "displayName": "Freight Market",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "freight-matching",
+        "displayName": "Freight Matching",
+        "tags": [
+          "parcels",
+          "volume",
+          "delivery"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "freight-trolley",
+        "displayName": "Freight Trolley",
+        "tags": [
+          "delivery",
+          "parcel"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "full-screen",
         "displayName": "Full Screen",
         "tags": [
@@ -2765,6 +3234,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "info-token",
+        "displayName": "Info Token",
+        "tags": [
+          "guidance",
+          "message"
+        ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "inspect",
         "displayName": "Inspect",
         "tags": [],
@@ -2931,6 +3413,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "line-graph",
+        "displayName": "Line Graph",
+        "tags": [
+          "chart",
+          "network-insights",
+          "xyz"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "link",
         "displayName": "Link",
         "tags": [],
@@ -3038,6 +3534,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "magic-wand",
+        "displayName": "Magic Wand",
+        "tags": [
+          "apply",
+          "manipulate"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "manage-accounts",
         "displayName": "Manage Accounts",
         "tags": [
@@ -3111,6 +3620,21 @@ export const siteData = [
         ],
         "categories": [
           "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "master-data",
+        "displayName": "Master Data",
+        "tags": [
+          "archive",
+          "documents",
+          "file",
+          "box"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3266,6 +3790,56 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "move-last-down",
+        "displayName": "Move Last Down",
+        "tags": [
+          "caret"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "move-last-left",
+        "displayName": "Move Last Left",
+        "tags": [
+          "arrow",
+          "line"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "move-last-right",
+        "displayName": "Move Last Right",
+        "tags": [
+          "arrow",
+          "line"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "move-last-up",
+        "displayName": "Move Last Up",
+        "tags": [
+          "caret"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "night-mostly-cloudy",
         "displayName": "Night Mostly Cloudy",
         "tags": [
@@ -3366,6 +3940,19 @@ export const siteData = [
         ],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "offers",
+        "displayName": "Offers",
+        "tags": [
+          "coin",
+          "hand"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3505,6 +4092,22 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "paperclip",
+        "displayName": "Paperclip",
+        "tags": [
+          "attachment",
+          "clip",
+          "document",
+          "enclosure",
+          "file"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "password",
         "displayName": "Password",
         "tags": [
@@ -3527,6 +4130,18 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "payment-instant",
+        "displayName": "Payment Instant",
+        "tags": [
+          "credit card"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3898,6 +4513,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "quick-login",
+        "displayName": "Quick Login",
+        "tags": [
+          "box",
+          "key"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "rain",
         "displayName": "Rain",
         "tags": [
@@ -4083,6 +4711,45 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "row-copy",
+        "displayName": "Row Copy",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-cut",
+        "displayName": "Row Cut",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-delete",
+        "displayName": "Row Delete",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "row-highlighted",
         "displayName": "Row Highlighted",
         "tags": [
@@ -4092,6 +4759,93 @@ export const siteData = [
         ],
         "categories": [
           "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-insert-after",
+        "displayName": "Row Insert After",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-insert-before",
+        "displayName": "Row Insert Before",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-paste-after",
+        "displayName": "Row Paste After",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-paste-before",
+        "displayName": "Row Paste Before",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-properties",
+        "displayName": "Row Properties",
+        "tags": [
+          "table",
+          "horizontal",
+          "cog",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rows-show-less",
+        "displayName": "Rows Show Less",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rows-show-more",
+        "displayName": "Rows Show More",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4290,6 +5044,32 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "shopping-cart-minus",
+        "displayName": "Shopping Cart Minus",
+        "tags": [
+          "close",
+          "remove"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "shopping-cart-plus",
+        "displayName": "Shopping Cart Plus",
+        "tags": [
+          "check",
+          "purchase"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4667,6 +5447,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "star-northern",
+        "displayName": "Star Northern",
+        "tags": [
+          "token",
+          "evaluation",
+          "mark"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "star-outlined",
         "displayName": "Star Outlined",
         "tags": [
@@ -4679,6 +5473,20 @@ export const siteData = [
         ],
         "categories": [
           "Evaluation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "stars",
+        "displayName": "Stars",
+        "tags": [
+          "ai",
+          "artificial intelligence",
+          "magic"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4714,6 +5522,20 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "swap",
+        "displayName": "Swap",
+        "tags": [
+          "arrows",
+          "change",
+          "reorganize"
+        ],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4791,6 +5613,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "table",
+        "displayName": "Table",
+        "tags": [
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "tablet",
         "displayName": "Tablet",
         "tags": [
@@ -4857,6 +5691,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "text-grow",
+        "displayName": "Text Grow",
+        "tags": [
+          "letter",
+          "caret",
+          "alphabet",
+          "abc"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-input",
         "displayName": "Text Input",
         "tags": [
@@ -4902,6 +5751,29 @@ export const siteData = [
           "text",
           "italic"
         ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-marker",
+        "displayName": "Text Marker",
+        "tags": [
+          "color",
+          "highlight"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-shrink",
+        "displayName": "Text Shrink",
+        "tags": [],
         "categories": [
           "Editing"
         ],
@@ -5050,6 +5922,26 @@ export const siteData = [
         ],
         "categories": [
           "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "time-slot-not-reserved",
+        "displayName": "Time Slot Not Reserved",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "time-slot-reserved",
+        "displayName": "Time Slot Reserved",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5365,11 +6257,51 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "user-account",
+        "displayName": "User Account",
+        "tags": [
+          "list",
+          "paper",
+          "person"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "user-active",
+        "displayName": "User Active",
+        "tags": [
+          "person",
+          "token"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "user-guide",
         "displayName": "User Guide",
         "tags": [],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "user-inactive",
+        "displayName": "User Inactive",
+        "tags": [
+          "person",
+          "token"
+        ],
+        "categories": [
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5414,7 +6346,13 @@ export const siteData = [
       {
         "name": "view-grid",
         "displayName": "View Grid",
-        "tags": [],
+        "tags": [
+          "display",
+          "gallery",
+          "preview",
+          "squares",
+          "thumbnails"
+        ],
         "categories": [
           "Applications"
         ],
@@ -5424,7 +6362,13 @@ export const siteData = [
       {
         "name": "view-list",
         "displayName": "View List",
-        "tags": [],
+        "tags": [
+          "collapse",
+          "display",
+          "group",
+          "index",
+          "listing"
+        ],
         "categories": [
           "Applications"
         ],
@@ -6116,6 +7060,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "arrow-expand-diagonal-left",
+        "displayName": "Arrow Expand Diagonal Left",
+        "tags": [
+          "magnify",
+          "stretch"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-expand-diagonal-right",
+        "displayName": "Arrow Expand Diagonal Right",
+        "tags": [
+          "magnify",
+          "stretch"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "arrow-left",
         "displayName": "Arrow Left",
         "tags": [
@@ -6196,6 +7166,19 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "artificial-intelligence",
+        "displayName": "Artificial Intelligence",
+        "tags": [
+          "ai",
+          "bot"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6435,6 +7418,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "bookings",
+        "displayName": "Bookings",
+        "tags": [
+          "items",
+          "list"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bookings-open",
+        "displayName": "Bookings Open",
+        "tags": [
+          "items",
+          "list"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "brightness",
         "displayName": "Brightness",
         "tags": [
@@ -6572,6 +7581,59 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "calendar-add",
+        "displayName": "Calendar Add",
+        "tags": [
+          "plus",
+          "book",
+          "reserve"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-and-key",
+        "displayName": "Calendar And Key",
+        "tags": [
+          "locked"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-blank",
+        "displayName": "Calendar Blank",
+        "tags": [
+          "date",
+          "empty"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-booking",
+        "displayName": "Calendar Booking",
+        "tags": [
+          "date",
+          "reserved",
+          "schedule"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "calendar-check",
         "displayName": "Calendar Check",
         "tags": [
@@ -6593,6 +7655,97 @@ export const siteData = [
           "date",
           "month",
           "schedule",
+          "time"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-loading-unloading",
+        "displayName": "Calendar Loading Unloading",
+        "tags": [
+          "box",
+          "delivery",
+          "package",
+          "supply",
+          "transport"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-loading-unloading-date",
+        "displayName": "Calendar Loading Unloading Date",
+        "tags": [
+          "box",
+          "date",
+          "delivery",
+          "package",
+          "supply",
+          "transport"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-rebook",
+        "displayName": "Calendar Rebook",
+        "tags": [
+          "date",
+          "reschedule",
+          "swap",
+          "switch"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-reserve",
+        "displayName": "Calendar Reserve",
+        "tags": [
+          "chart",
+          "date",
+          "gantt",
+          "time slot"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-show",
+        "displayName": "Calendar Show",
+        "tags": [
+          "date",
+          "display",
+          "reserved"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-time-slot",
+        "displayName": "Calendar Time Slot",
+        "tags": [
+          "clock",
+          "hour",
           "time"
         ],
         "categories": [
@@ -6785,6 +7938,46 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cell-merge",
+        "displayName": "Cell Merge",
+        "tags": [
+          "table",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cell-properties",
+        "displayName": "Cell Properties",
+        "tags": [
+          "cog",
+          "table",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cell-split",
+        "displayName": "Cell Split",
+        "tags": [
+          "table",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7280,6 +8473,135 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "column-copy",
+        "displayName": "Column Copy",
+        "tags": [
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-cut",
+        "displayName": "Column Cut",
+        "tags": [
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-delete",
+        "displayName": "Column Delete",
+        "tags": [
+          "close",
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-insert-after",
+        "displayName": "Column Insert After",
+        "tags": [
+          "plus",
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-insert-before",
+        "displayName": "Column Insert Before",
+        "tags": [
+          "plus",
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-paste-after",
+        "displayName": "Column Paste After",
+        "tags": [
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-paste-before",
+        "displayName": "Column Paste Before",
+        "tags": [
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-properties",
+        "displayName": "Column Properties",
+        "tags": [
+          "cog",
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "columns",
+        "displayName": "Columns",
+        "tags": [
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "combine",
         "displayName": "Combine",
         "tags": [
@@ -7522,6 +8844,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "delivery-truck-allocate",
+        "displayName": "Delivery Truck Allocate",
+        "tags": [
+          "van",
+          "lorry",
+          "truck",
+          "arrow"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "delivery-truck-motion",
         "displayName": "Delivery Truck Motion",
         "tags": [
@@ -7689,6 +9026,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "exclamation-mark",
+        "displayName": "Exclamation Mark",
+        "tags": [
+          "warning"
+        ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "expand",
         "displayName": "Expand",
         "tags": [
@@ -7780,6 +9129,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "factory",
+        "displayName": "Factory",
+        "tags": [
+          "production",
+          "delivery",
+          "industry"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "fast-forward",
         "displayName": "Fast Forward",
         "tags": [
@@ -7852,6 +9215,19 @@ export const siteData = [
         "displayName": "File Check Out",
         "tags": [
           "check out"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-cloud",
+        "displayName": "File Cloud",
+        "tags": [
+          "file",
+          "digital"
         ],
         "categories": [
           "Folders & Files"
@@ -8275,6 +9651,43 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "freight-market",
+        "displayName": "Freight Market",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "freight-matching",
+        "displayName": "Freight Matching",
+        "tags": [
+          "parcels",
+          "volume",
+          "delivery"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "freight-trolley",
+        "displayName": "Freight Trolley",
+        "tags": [
+          "delivery",
+          "parcel"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "full-screen",
         "displayName": "Full Screen",
         "tags": [
@@ -8573,6 +9986,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "info-token",
+        "displayName": "Info Token",
+        "tags": [
+          "guidance",
+          "message"
+        ],
+        "categories": [
+          "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "inspect",
         "displayName": "Inspect",
         "tags": [],
@@ -8739,6 +10165,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "line-graph",
+        "displayName": "Line Graph",
+        "tags": [
+          "chart",
+          "network-insights",
+          "xyz"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "link",
         "displayName": "Link",
         "tags": [],
@@ -8846,6 +10286,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "magic-wand",
+        "displayName": "Magic Wand",
+        "tags": [
+          "apply",
+          "manipulate"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "manage-accounts",
         "displayName": "Manage Accounts",
         "tags": [
@@ -8919,6 +10372,21 @@ export const siteData = [
         ],
         "categories": [
           "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "master-data",
+        "displayName": "Master Data",
+        "tags": [
+          "archive",
+          "documents",
+          "file",
+          "box"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9074,6 +10542,56 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "move-last-down",
+        "displayName": "Move Last Down",
+        "tags": [
+          "caret"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "move-last-left",
+        "displayName": "Move Last Left",
+        "tags": [
+          "arrow",
+          "line"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "move-last-right",
+        "displayName": "Move Last Right",
+        "tags": [
+          "arrow",
+          "line"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "move-last-up",
+        "displayName": "Move Last Up",
+        "tags": [
+          "caret"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "night-mostly-cloudy",
         "displayName": "Night Mostly Cloudy",
         "tags": [
@@ -9174,6 +10692,19 @@ export const siteData = [
         ],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "offers",
+        "displayName": "Offers",
+        "tags": [
+          "coin",
+          "hand"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9313,6 +10844,22 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "paperclip",
+        "displayName": "Paperclip",
+        "tags": [
+          "attachment",
+          "clip",
+          "document",
+          "enclosure",
+          "file"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "password",
         "displayName": "Password",
         "tags": [
@@ -9335,6 +10882,18 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "payment-instant",
+        "displayName": "Payment Instant",
+        "tags": [
+          "credit card"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9706,6 +11265,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "quick-login",
+        "displayName": "Quick Login",
+        "tags": [
+          "box",
+          "key"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "rain",
         "displayName": "Rain",
         "tags": [
@@ -9891,6 +11463,45 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "row-copy",
+        "displayName": "Row Copy",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-cut",
+        "displayName": "Row Cut",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-delete",
+        "displayName": "Row Delete",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "row-highlighted",
         "displayName": "Row Highlighted",
         "tags": [
@@ -9900,6 +11511,93 @@ export const siteData = [
         ],
         "categories": [
           "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-insert-after",
+        "displayName": "Row Insert After",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-insert-before",
+        "displayName": "Row Insert Before",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-paste-after",
+        "displayName": "Row Paste After",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-paste-before",
+        "displayName": "Row Paste Before",
+        "tags": [
+          "table",
+          "horizontal"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-properties",
+        "displayName": "Row Properties",
+        "tags": [
+          "table",
+          "horizontal",
+          "cog",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rows-show-less",
+        "displayName": "Rows Show Less",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rows-show-more",
+        "displayName": "Rows Show More",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -10098,6 +11796,32 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "shopping-cart-minus",
+        "displayName": "Shopping Cart Minus",
+        "tags": [
+          "close",
+          "remove"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "shopping-cart-plus",
+        "displayName": "Shopping Cart Plus",
+        "tags": [
+          "check",
+          "purchase"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -10475,6 +12199,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "star-northern",
+        "displayName": "Star Northern",
+        "tags": [
+          "token",
+          "evaluation",
+          "mark"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "star-outlined",
         "displayName": "Star Outlined",
         "tags": [
@@ -10487,6 +12225,20 @@ export const siteData = [
         ],
         "categories": [
           "Evaluation"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "stars",
+        "displayName": "Stars",
+        "tags": [
+          "ai",
+          "artificial intelligence",
+          "magic"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -10522,6 +12274,20 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "swap",
+        "displayName": "Swap",
+        "tags": [
+          "arrows",
+          "change",
+          "reorganize"
+        ],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -10599,6 +12365,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "table",
+        "displayName": "Table",
+        "tags": [
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "tablet",
         "displayName": "Tablet",
         "tags": [
@@ -10665,6 +12443,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "text-grow",
+        "displayName": "Text Grow",
+        "tags": [
+          "letter",
+          "caret",
+          "alphabet",
+          "abc"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-input",
         "displayName": "Text Input",
         "tags": [
@@ -10710,6 +12503,29 @@ export const siteData = [
           "text",
           "italic"
         ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-marker",
+        "displayName": "Text Marker",
+        "tags": [
+          "color",
+          "highlight"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "text-shrink",
+        "displayName": "Text Shrink",
+        "tags": [],
         "categories": [
           "Editing"
         ],
@@ -10858,6 +12674,26 @@ export const siteData = [
         ],
         "categories": [
           "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "time-slot-not-reserved",
+        "displayName": "Time Slot Not Reserved",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "time-slot-reserved",
+        "displayName": "Time Slot Reserved",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -11173,11 +13009,51 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "user-account",
+        "displayName": "User Account",
+        "tags": [
+          "list",
+          "paper",
+          "person"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "user-active",
+        "displayName": "User Active",
+        "tags": [
+          "person",
+          "token"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "user-guide",
         "displayName": "User Guide",
         "tags": [],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "user-inactive",
+        "displayName": "User Inactive",
+        "tags": [
+          "person",
+          "token"
+        ],
+        "categories": [
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -11222,7 +13098,13 @@ export const siteData = [
       {
         "name": "view-grid",
         "displayName": "View Grid",
-        "tags": [],
+        "tags": [
+          "display",
+          "gallery",
+          "preview",
+          "squares",
+          "thumbnails"
+        ],
         "categories": [
           "Applications"
         ],
@@ -11232,7 +13114,13 @@ export const siteData = [
       {
         "name": "view-list",
         "displayName": "View List",
-        "tags": [],
+        "tags": [
+          "collapse",
+          "display",
+          "group",
+          "index",
+          "listing"
+        ],
         "categories": [
           "Applications"
         ],

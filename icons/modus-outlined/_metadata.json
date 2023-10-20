@@ -234,6 +234,26 @@
     ]
   },
   {
+    "name": "arrow-expand-diagonal-left",
+    "tags": [
+      "magnify",
+      "stretch"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "arrow-expand-diagonal-right",
+    "tags": [
+      "magnify",
+      "stretch"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
     "name": "arrow-left",
     "tags": [
       "direction"
@@ -295,6 +315,16 @@
     ],
     "categories": [
       "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "artificial-intelligence",
+    "tags": [
+      "ai",
+      "bot"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -481,6 +511,26 @@
     ]
   },
   {
+    "name": "bookings",
+    "tags": [
+      "items",
+      "list"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "bookings-open",
+    "tags": [
+      "items",
+      "list"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
     "name": "brightness",
     "tags": [
       "dark",
@@ -588,6 +638,47 @@
     ]
   },
   {
+    "name": "calendar-add",
+    "tags": [
+      "plus",
+      "book",
+      "reserve"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-and-key",
+    "tags": [
+      "locked"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-blank",
+    "tags": [
+      "date",
+      "empty"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-booking",
+    "tags": [
+      "date",
+      "reserved",
+      "schedule"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
     "name": "calendar-check",
     "tags": [
       "date",
@@ -605,6 +696,79 @@
       "date",
       "month",
       "schedule",
+      "time"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-loading-unloading",
+    "tags": [
+      "box",
+      "delivery",
+      "package",
+      "supply",
+      "transport"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-loading-unloading-date",
+    "tags": [
+      "box",
+      "date",
+      "delivery",
+      "package",
+      "supply",
+      "transport"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-rebook",
+    "tags": [
+      "date",
+      "reschedule",
+      "swap",
+      "switch"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-reserve",
+    "tags": [
+      "chart",
+      "date",
+      "gantt",
+      "time slot"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-show",
+    "tags": [
+      "date",
+      "display",
+      "reserved"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-time-slot",
+    "tags": [
+      "clock",
+      "hour",
       "time"
     ],
     "categories": [
@@ -755,6 +919,37 @@
     ],
     "categories": [
       "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "cell-merge",
+    "tags": [
+      "table",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "cell-properties",
+    "tags": [
+      "cog",
+      "table",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "cell-split",
+    "tags": [
+      "table",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
     ]
   },
   {
@@ -1137,6 +1332,108 @@
     ]
   },
   {
+    "name": "column-copy",
+    "tags": [
+      "table",
+      "vertical",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "column-cut",
+    "tags": [
+      "table",
+      "vertical",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "column-delete",
+    "tags": [
+      "close",
+      "table",
+      "vertical",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "column-insert-after",
+    "tags": [
+      "plus",
+      "table",
+      "vertical",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "column-insert-before",
+    "tags": [
+      "plus",
+      "table",
+      "vertical",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "column-paste-after",
+    "tags": [
+      "table",
+      "vertical",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "column-paste-before",
+    "tags": [
+      "table",
+      "vertical",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "column-properties",
+    "tags": [
+      "cog",
+      "table",
+      "vertical",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "columns",
+    "tags": [
+      "vertical",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "combine",
     "tags": [
       "attach",
@@ -1322,6 +1619,18 @@
     ]
   },
   {
+    "name": "delivery-truck-allocate",
+    "tags": [
+      "van",
+      "lorry",
+      "truck",
+      "arrow"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "delivery-truck-motion",
     "tags": [
       "vehicle"
@@ -1450,6 +1759,15 @@
     ]
   },
   {
+    "name": "exclamation-mark",
+    "tags": [
+      "warning"
+    ],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
     "name": "expand",
     "tags": [
       "arrow",
@@ -1520,6 +1838,17 @@
     ]
   },
   {
+    "name": "factory",
+    "tags": [
+      "production",
+      "delivery",
+      "industry"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "fast-forward",
     "tags": [
       "arrowtip",
@@ -1576,6 +1905,16 @@
     "name": "file-check-out",
     "tags": [
       "check out"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-cloud",
+    "tags": [
+      "file",
+      "digital"
     ],
     "categories": [
       "Folders & Files"
@@ -1901,6 +2240,34 @@
     ]
   },
   {
+    "name": "freight-market",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "freight-matching",
+    "tags": [
+      "parcels",
+      "volume",
+      "delivery"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "freight-trolley",
+    "tags": [
+      "delivery",
+      "parcel"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "full-screen",
     "tags": [
       "maximize",
@@ -2130,6 +2497,16 @@
     ]
   },
   {
+    "name": "info-token",
+    "tags": [
+      "guidance",
+      "message"
+    ],
+    "categories": [
+      "Alerts & Messages"
+    ]
+  },
+  {
     "name": "inspect",
     "tags": [],
     "categories": [
@@ -2257,6 +2634,17 @@
     ]
   },
   {
+    "name": "line-graph",
+    "tags": [
+      "chart",
+      "network-insights",
+      "xyz"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
     "name": "link",
     "tags": [],
     "categories": [
@@ -2337,6 +2725,16 @@
     ]
   },
   {
+    "name": "magic-wand",
+    "tags": [
+      "apply",
+      "manipulate"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "manage-accounts",
     "tags": [
       "cog",
@@ -2394,6 +2792,18 @@
     ],
     "categories": [
       "Location"
+    ]
+  },
+  {
+    "name": "master-data",
+    "tags": [
+      "archive",
+      "documents",
+      "file",
+      "box"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -2514,6 +2924,44 @@
     ]
   },
   {
+    "name": "move-last-down",
+    "tags": [
+      "caret"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "move-last-left",
+    "tags": [
+      "arrow",
+      "line"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "move-last-right",
+    "tags": [
+      "arrow",
+      "line"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "move-last-up",
+    "tags": [
+      "caret"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
     "name": "night-mostly-cloudy",
     "tags": [
       "cloud",
@@ -2592,6 +3040,16 @@
     ],
     "categories": [
       "Editing"
+    ]
+  },
+  {
+    "name": "offers",
+    "tags": [
+      "coin",
+      "hand"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -2699,6 +3157,19 @@
     ]
   },
   {
+    "name": "paperclip",
+    "tags": [
+      "attachment",
+      "clip",
+      "document",
+      "enclosure",
+      "file"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "password",
     "tags": [
       "login",
@@ -2717,6 +3188,15 @@
     ],
     "categories": [
       "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "payment-instant",
+    "tags": [
+      "credit card"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -2999,6 +3479,16 @@
     ]
   },
   {
+    "name": "quick-login",
+    "tags": [
+      "box",
+      "key"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
     "name": "rain",
     "tags": [
       "weather"
@@ -3142,6 +3632,36 @@
     ]
   },
   {
+    "name": "row-copy",
+    "tags": [
+      "table",
+      "horizontal"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "row-cut",
+    "tags": [
+      "table",
+      "horizontal"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "row-delete",
+    "tags": [
+      "table",
+      "horizontal"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "row-highlighted",
     "tags": [
       "table",
@@ -3150,6 +3670,72 @@
     ],
     "categories": [
       "Data Management"
+    ]
+  },
+  {
+    "name": "row-insert-after",
+    "tags": [
+      "table",
+      "horizontal"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "row-insert-before",
+    "tags": [
+      "table",
+      "horizontal"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "row-paste-after",
+    "tags": [
+      "table",
+      "horizontal"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "row-paste-before",
+    "tags": [
+      "table",
+      "horizontal"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "row-properties",
+    "tags": [
+      "table",
+      "horizontal",
+      "cog",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "rows-show-less",
+    "tags": [],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "rows-show-more",
+    "tags": [],
+    "categories": [
+      "Editing"
     ]
   },
   {
@@ -3300,6 +3886,26 @@
     ],
     "categories": [
       "Applications"
+    ]
+  },
+  {
+    "name": "shopping-cart-minus",
+    "tags": [
+      "close",
+      "remove"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "shopping-cart-plus",
+    "tags": [
+      "check",
+      "purchase"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -3591,6 +4197,17 @@
     ]
   },
   {
+    "name": "star-northern",
+    "tags": [
+      "token",
+      "evaluation",
+      "mark"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "star-outlined",
     "tags": [
       "favorite",
@@ -3602,6 +4219,17 @@
     ],
     "categories": [
       "Evaluation"
+    ]
+  },
+  {
+    "name": "stars",
+    "tags": [
+      "ai",
+      "artificial intelligence",
+      "magic"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -3628,6 +4256,17 @@
     ],
     "categories": [
       "Weather"
+    ]
+  },
+  {
+    "name": "swap",
+    "tags": [
+      "arrows",
+      "change",
+      "reorganize"
+    ],
+    "categories": [
+      "Arrows & Controls"
     ]
   },
   {
@@ -3688,6 +4327,15 @@
     ]
   },
   {
+    "name": "table",
+    "tags": [
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "tablet",
     "tags": [
       "handheld"
@@ -3739,6 +4387,18 @@
     ]
   },
   {
+    "name": "text-grow",
+    "tags": [
+      "letter",
+      "caret",
+      "alphabet",
+      "abc"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "text-input",
     "tags": [
       "text field",
@@ -3774,6 +4434,23 @@
       "text",
       "italic"
     ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-marker",
+    "tags": [
+      "color",
+      "highlight"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "text-shrink",
+    "tags": [],
     "categories": [
       "Editing"
     ]
@@ -3886,6 +4563,20 @@
     ],
     "categories": [
       "Social"
+    ]
+  },
+  {
+    "name": "time-slot-not-reserved",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "time-slot-reserved",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -4124,10 +4815,41 @@
     ]
   },
   {
+    "name": "user-account",
+    "tags": [
+      "list",
+      "paper",
+      "person"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "user-active",
+    "tags": [
+      "person",
+      "token"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
     "name": "user-guide",
     "tags": [],
     "categories": [
       "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "user-inactive",
+    "tags": [
+      "person",
+      "token"
+    ],
+    "categories": [
+      "Social"
     ]
   },
   {
@@ -4160,14 +4882,26 @@
   },
   {
     "name": "view-grid",
-    "tags": [],
+    "tags": [
+      "display",
+      "gallery",
+      "preview",
+      "squares",
+      "thumbnails"
+    ],
     "categories": [
       "Applications"
     ]
   },
   {
     "name": "view-list",
-    "tags": [],
+    "tags": [
+      "collapse",
+      "display",
+      "group",
+      "index",
+      "listing"
+    ],
     "categories": [
       "Applications"
     ]

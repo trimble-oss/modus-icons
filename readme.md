@@ -1,5 +1,9 @@
 # Modus Icons
 
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/trimble-oss/modus-icons/main/LICENSE)
+[![npm Version](https://img.shields.io/npm/v/@trimble-oss/modus-icons)](https://www.npmjs.com/package/@trimble-oss/modus-icons)
+[![npm Downloads](https://img.shields.io/npm/dt/@trimble-oss/modus-icons.svg)](https://www.npmjs.com/package/@trimble-oss/modus-icons)
+
 Open source icon library for Modus with over 1000 icons.
 
 ## Install

@@ -22,6 +22,7 @@
     "listjs",
     "markdownify",
     "mkdirp",
+    "monetarization",
     "nbsp",
     "nomodule",
     "noopener",
@@ -58,13 +59,17 @@
     "Xhref",
     "xlink"
   ],
-  "flagWords": ["teh", "whitelist"],
+  "flagWords": [
+    "teh",
+    "whitelist"
+  ],
   "ignorePaths": [
     ".cspell.json",
     "**/node_modules/**",
     "*.min.*",
     ".github/CODEOWNERS",
-    "{coverage,.cache,.git,.vscode,.DS_Store,tests}/**/*"
+    "{coverage,.cache,.git,.vscode,.DS_Store,tests}/**/*",
+    "app-components/preview/app-components.js"
   ],
   "language": "en,en-US",
   "languageId": "svg",

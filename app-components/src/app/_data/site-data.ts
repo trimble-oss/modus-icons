@@ -2950,6 +2950,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "gantt-chart",
+        "displayName": "Gantt Chart",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "gavel",
+        "displayName": "Gavel",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "gears",
         "displayName": "Gears",
         "tags": [
@@ -3703,6 +3723,20 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "monetarization",
+        "displayName": "Monetarization",
+        "tags": [
+          "coin",
+          "dollar",
+          "money"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6299,6 +6333,20 @@ export const siteData = [
         "tags": [
           "person",
           "token"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "user-passkey",
+        "displayName": "User Passkey",
+        "tags": [
+          "account",
+          "key",
+          "person"
         ],
         "categories": [
           "Social"
@@ -9702,6 +9750,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "gantt-chart",
+        "displayName": "Gantt Chart",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "gavel",
+        "displayName": "Gavel",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "gears",
         "displayName": "Gears",
         "tags": [
@@ -10455,6 +10523,20 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "monetarization",
+        "displayName": "Monetarization",
+        "tags": [
+          "coin",
+          "dollar",
+          "money"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -13051,6 +13133,20 @@ export const siteData = [
         "tags": [
           "person",
           "token"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "user-passkey",
+        "displayName": "User Passkey",
+        "tags": [
+          "account",
+          "key",
+          "person"
         ],
         "categories": [
           "Social"

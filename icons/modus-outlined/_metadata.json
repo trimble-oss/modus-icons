@@ -2279,6 +2279,20 @@
     ]
   },
   {
+    "name": "gantt-chart",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "gavel",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "gears",
     "tags": [
       "settings"
@@ -2857,6 +2871,17 @@
     ],
     "categories": [
       "Weather"
+    ]
+  },
+  {
+    "name": "monetarization",
+    "tags": [
+      "coin",
+      "dollar",
+      "money"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -4847,6 +4872,17 @@
     "tags": [
       "person",
       "token"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "user-passkey",
+    "tags": [
+      "account",
+      "key",
+      "person"
     ],
     "categories": [
       "Social"

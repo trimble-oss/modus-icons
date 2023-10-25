@@ -679,12 +679,30 @@
     ]
   },
   {
+    "name": "calendar-cancel",
+    "tags": [
+      "delete"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
     "name": "calendar-check",
     "tags": [
       "date",
       "month",
       "schedule",
       "time"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-clock",
+    "tags": [
+       "time"
     ],
     "categories": [
       "Applications"
@@ -724,6 +742,15 @@
       "package",
       "supply",
       "transport"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-plus",
+    "tags": [
+      "add"
     ],
     "categories": [
       "Applications"

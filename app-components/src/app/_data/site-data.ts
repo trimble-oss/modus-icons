@@ -882,6 +882,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "calendar-cancel",
+        "displayName": "Calendar Cancel",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "calendar-check",
         "displayName": "Calendar Check",
         "tags": [
@@ -893,6 +901,14 @@ export const siteData = [
         "categories": [
           "Applications"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-clock",
+        "displayName": "Calendar Clock",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -941,6 +957,14 @@ export const siteData = [
         "categories": [
           "Applications"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-plus",
+        "displayName": "Calendar Plus",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7682,6 +7706,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "calendar-cancel",
+        "displayName": "Calendar Cancel",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "calendar-check",
         "displayName": "Calendar Check",
         "tags": [
@@ -7693,6 +7725,14 @@ export const siteData = [
         "categories": [
           "Applications"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-clock",
+        "displayName": "Calendar Clock",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7741,6 +7781,14 @@ export const siteData = [
         "categories": [
           "Applications"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-plus",
+        "displayName": "Calendar Plus",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },

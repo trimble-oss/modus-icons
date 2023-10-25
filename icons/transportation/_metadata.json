@@ -204,7 +204,8 @@
   {
     "name": "geocode",
     "tags": [
-      "earth"
+      "earth",
+      "globe"
     ],
     "categories": []
   },
@@ -351,7 +352,9 @@
   },
   {
     "name": "paper-plane",
-    "tags": [],
+    "tags": [
+      "send"
+    ],
     "categories": []
   },
   {
@@ -368,7 +371,9 @@
   },
   {
     "name": "poi",
-    "tags": [],
+    "tags": [
+      "marker"
+    ],
     "categories": []
   },
   {

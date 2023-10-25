@@ -702,7 +702,7 @@
   {
     "name": "calendar-clock",
     "tags": [
-       "time"
+      "time"
     ],
     "categories": [
       "Applications"
@@ -1639,7 +1639,8 @@
   {
     "name": "delivery-truck",
     "tags": [
-      "vehicle"
+      "vehicle",
+      "transport"
     ],
     "categories": [
       "Objects & Shapes"
@@ -1648,10 +1649,11 @@
   {
     "name": "delivery-truck-allocate",
     "tags": [
-      "van",
+      "arrow",
       "lorry",
-      "truck",
-      "arrow"
+      "transport",
+      "van",
+      "vehicle"
     ],
     "categories": [
       "Objects & Shapes"
@@ -1660,7 +1662,9 @@
   {
     "name": "delivery-truck-motion",
     "tags": [
-      "vehicle"
+      "lorry",
+      "vehicle",
+      "transport"
     ],
     "categories": [
       "Objects & Shapes"

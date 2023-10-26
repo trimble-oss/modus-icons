@@ -10,3 +10,5 @@
 _site-data.json
 
 Thumbs.db
+
+docs/-*

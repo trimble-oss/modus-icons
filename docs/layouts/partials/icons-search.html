@@ -1,10 +1,10 @@
 <div class="row mb-4">
-  <div class="col-12 col-sm-8 pr-0">
-    <h2 id="icons" class="mt-2 display-3 font-weight-bold d-inline-block">
+  <div class="col-12 col-sm-8 pe-0">
+    <h2 id="icons" class="mt-2 display-3 fw-bold d-inline-block">
       {{- .Title -}}
     </h2>
     <div class="d-inline-block">
-      <button type="button" class="btn btn-sm bg-transparent border-0 ml-1 px-0" data-toggle="dropdown"
+      <button type="button" class="btn btn-sm bg-transparent border-0 ms-1 px-0 pt-0" data-bs-toggle="dropdown"
         aria-expanded="false">
         <img src="/modus-solid/svg/caret-down.svg" class="opacity-75" alt height="32" width="32">
       </button>
@@ -14,19 +14,19 @@
         <li class="nav-item mx-0 mx-sm-1 mx-md-2">
           <div>
             {{ with .Pre }}
-            {{ . }}
+            {{- . -}}
           {{ end }}</div>
           <a class="dropdown-item {{if ($currentPage.HasMenuCurrent "icons" .) }} active{{end}} nav-{{- .Name | urlize -}}"
             href="{{ .URL }}">{{- .Name -}}</a>
           <div>
             {{ with .Post }}
-            {{ . }}
+            {{- . -}}
           {{ end }}</div>
         {{ end }}
       </div>
     </div>
   </div>
-<div class="col-12 col-sm-4 text-right">
-  <a href="#install" class="float-right text-right mt-3">Install & Usage</a>
+<div class="col-12 col-sm-4 text-end">
+  <a href="#install" class="float-end text-end mt-3">Install & Usage</a>
   </div>
 </div>

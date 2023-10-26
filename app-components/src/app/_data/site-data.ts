@@ -884,8 +884,12 @@ export const siteData = [
       {
         "name": "calendar-cancel",
         "displayName": "Calendar Cancel",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "delete"
+        ],
+        "categories": [
+          "Applications"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -907,8 +911,12 @@ export const siteData = [
       {
         "name": "calendar-clock",
         "displayName": "Calendar Clock",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "time"
+        ],
+        "categories": [
+          "Applications"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -963,8 +971,12 @@ export const siteData = [
       {
         "name": "calendar-plus",
         "displayName": "Calendar Plus",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "add"
+        ],
+        "categories": [
+          "Applications"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2107,7 +2119,8 @@ export const siteData = [
         "name": "delivery-truck",
         "displayName": "Delivery Truck",
         "tags": [
-          "vehicle"
+          "vehicle",
+          "transport"
         ],
         "categories": [
           "Objects & Shapes"
@@ -2119,10 +2132,11 @@ export const siteData = [
         "name": "delivery-truck-allocate",
         "displayName": "Delivery Truck Allocate",
         "tags": [
-          "van",
+          "arrow",
           "lorry",
-          "truck",
-          "arrow"
+          "transport",
+          "van",
+          "vehicle"
         ],
         "categories": [
           "Objects & Shapes"
@@ -2134,7 +2148,9 @@ export const siteData = [
         "name": "delivery-truck-motion",
         "displayName": "Delivery Truck Motion",
         "tags": [
-          "vehicle"
+          "lorry",
+          "vehicle",
+          "transport"
         ],
         "categories": [
           "Objects & Shapes"
@@ -7708,8 +7724,12 @@ export const siteData = [
       {
         "name": "calendar-cancel",
         "displayName": "Calendar Cancel",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "delete"
+        ],
+        "categories": [
+          "Applications"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7731,8 +7751,12 @@ export const siteData = [
       {
         "name": "calendar-clock",
         "displayName": "Calendar Clock",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "time"
+        ],
+        "categories": [
+          "Applications"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -7787,8 +7811,12 @@ export const siteData = [
       {
         "name": "calendar-plus",
         "displayName": "Calendar Plus",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "add"
+        ],
+        "categories": [
+          "Applications"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -8931,7 +8959,8 @@ export const siteData = [
         "name": "delivery-truck",
         "displayName": "Delivery Truck",
         "tags": [
-          "vehicle"
+          "vehicle",
+          "transport"
         ],
         "categories": [
           "Objects & Shapes"
@@ -8943,10 +8972,11 @@ export const siteData = [
         "name": "delivery-truck-allocate",
         "displayName": "Delivery Truck Allocate",
         "tags": [
-          "van",
+          "arrow",
           "lorry",
-          "truck",
-          "arrow"
+          "transport",
+          "van",
+          "vehicle"
         ],
         "categories": [
           "Objects & Shapes"
@@ -8958,7 +8988,9 @@ export const siteData = [
         "name": "delivery-truck-motion",
         "displayName": "Delivery Truck Motion",
         "tags": [
-          "vehicle"
+          "lorry",
+          "vehicle",
+          "transport"
         ],
         "categories": [
           "Objects & Shapes"
@@ -13957,7 +13989,8 @@ export const siteData = [
         "name": "geocode",
         "displayName": "Geocode",
         "tags": [
-          "earth"
+          "earth",
+          "globe"
         ],
         "categories": [],
         "deprecated": false,
@@ -14176,7 +14209,9 @@ export const siteData = [
       {
         "name": "paper-plane",
         "displayName": "Paper Plane",
-        "tags": [],
+        "tags": [
+          "send"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
@@ -14202,7 +14237,9 @@ export const siteData = [
       {
         "name": "poi",
         "displayName": "Poi",
-        "tags": [],
+        "tags": [
+          "marker"
+        ],
         "categories": [],
         "deprecated": false,
         "useInstead": ""

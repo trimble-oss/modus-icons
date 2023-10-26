@@ -24,7 +24,7 @@ header.navbar {
 }
 
 .navbar-brand div {
-  margin-top: 2px;
+  margin-top: 0.25rem;
 }
 
 .navbar-main a:focus {
@@ -41,7 +41,7 @@ header.navbar {
   border-bottom: 2px solid #fff !important;
 }
 
-[data-theme="dark"] .navbar-main .dropdown-item img {
+[data-bs-theme="dark"] .navbar-main .dropdown-item img {
   filter: invert(1);
 }
 
@@ -54,6 +54,6 @@ header.navbar {
   color: #fff;
 }
 
-[data-theme="light"] .navbar-main .dropdown-menu {
+[data-bs-theme="light"] .navbar-main .dropdown-menu {
   color: #252a2e !important;
 }

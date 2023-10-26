@@ -1,3 +1,4 @@
+@import "../../../node_modules/@trimble-oss/modus-bootstrap/dist/css/modus-bootstrap";
 @import "variables";
 @import "clipboard-js";
 @import "home";
@@ -17,6 +18,10 @@
   vertical-align: -0.125em !important;
 }
 
+.chip-sm {
+  font-size: 0.75rem;
+}
+
 .highlight {
   margin-bottom: 1.5rem;
   background-color: rgba(111, 111, 111, 0.1);
@@ -33,10 +38,10 @@
 }
 
 .bd-example {
-  padding: 1.25rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
 
   + .bd-clipboard + .highlight pre {
     border-top-left-radius: 0;
@@ -55,16 +60,16 @@
   min-height: 248px;
 
   &:empty::before {
-    display: block;
-    width: 100%;
-    padding: 100px 2rem;
-    margin-right: 15px;
-    margin-left: 15px;
-    color: $gray-500;
-    text-align: center;
-    content: "Nothing found, try searching again.";
     background-color: rgba(111, 111, 111, 0.1);
     border-radius: 0.5rem;
+    color: $gray-500;
+    content: "Nothing found, try searching again.";
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 100px 2rem;
+    text-align: center;
+    width: 100%;
   }
 }
 
@@ -93,7 +98,14 @@
     rgba(0, 0, 0, 0) 1px
   );
   background-size: 1rem 1rem;
+  font-size: 10em;
   min-height: 274px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1220px !important;
+  }
 }
 
 .icon-demo svg {
@@ -105,12 +117,12 @@
 .icon-demo-examples {
   .modus-icon,
   .mi {
-    width: 16px;
     height: 16px;
+    width: 16px;
   }
 }
 
-body a>.bg-light:hover {
+body a > .bg-light:hover {
   background-color: rgba(99, 99, 99, 0.1) !important;
 }
 
@@ -123,7 +135,6 @@ main {
 }
 
 @media (min-width: 1200px) {
-
   .display-3 {
     font-size: 1.8rem !important;
   }
@@ -133,18 +144,63 @@ main {
   max-width: 200px;
 }
 
-.custom-switch .custom-control-input:focus~.custom-control-label::before {
+.custom-switch .custom-control-input:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
 }
 
 .popover-header {
+  background-color: transparent !important;
+  border-bottom: 0 !important;
   font-size: 0.875rem !important;
   font-weight: normal !important;
-  background-color: #fff !important;
-  border-bottom: 0 !important;
 }
 
 .popover-body {
-  padding-bottom: 0 !important;
   border-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+nav.navbar button.btn-icon-only {
+  padding: 11px 8px !important;
+}
+
+nav.navbar button i {
+  font-size: 2rem !important;
+  line-height: 0.8 !important;
+  top: 0 !important;
+}
+
+.navbar-blue .btn-icon-only:hover {
+  background-color: #217cbb;
+  border-color: #019aeb;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  cursor: pointer;
+  filter: grayscale(1);
+ }
+
+.btn:focus-visible {
+  outline: auto;
+}
+
+[data-bs-theme="dark"] .chip-outline:not(.error):hover,
+[data-bs-theme="dark"] .chip-outline:not(.error).hover {
+  background-color: #cbcdd61f !important;
+}
+
+[data-bs-theme="dark"] .chip-outline:not(:disabled):not(.disabled):not(.error):active,
+[data-bs-theme="dark"] .chip-outline:not(:disabled):not(.disabled):not(.error).active {
+  background-color: rgba(0,79,131,.5) !important;
+}
+
+[data-bs-theme="dark"] .btn-primary:not(:disabled):not(.disabled):hover {
+  background-color: #217cbb !important;
+  border-color: #217cbb !important;
+}
+
+[data-bs-theme="dark"] .btn-primary:not(:disabled):not(.disabled):active,
+[data-bs-theme="dark"] .btn-primary:not(:disabled):not(.disabled).active {
+  background-color: #004f83 !important;
+  border-color: #004f83 !important;
 }

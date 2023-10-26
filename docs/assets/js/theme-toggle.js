@@ -14,7 +14,7 @@ const storageKey = 'theme-preference',
     localStorage.setItem(storageKey, theme.value), reflectPreference();
   },
   reflectPreference = () => {
-    document.firstElementChild.setAttribute('data-theme', theme.value),
+    document.firstElementChild.setAttribute('data-bs-theme', theme.value),
       document
         .querySelector('#theme-toggle')
         ?.setAttribute('aria-label', theme.value);

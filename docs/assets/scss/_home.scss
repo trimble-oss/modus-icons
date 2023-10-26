@@ -46,7 +46,7 @@ body.home .btn-clipboard {
   background-repeat: no-repeat;
 }
 
-[data-theme="light"] {
+[data-bs-theme="light"] {
 
   .card-home,
   .card-home div {
@@ -62,7 +62,7 @@ body.home .btn-clipboard {
   }
 }
 
-[data-theme="dark"] {
+[data-bs-theme="dark"] {
   body.home .highlight {
     background-color: #000;
   }

@@ -178,6 +178,7 @@ module.exports = {
         'pl-0',
         'pl-1',
         'popover',
+        'popover-arrow',
         'popover-body',
         'popover-bottom',
         'popover-header',

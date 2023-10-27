@@ -204,3 +204,7 @@ input[type="search"]::-webkit-search-cancel-button {
   background-color: #004f83 !important;
   border-color: #004f83 !important;
 }
+
+[data-bs-theme="dark"] .text-primary {
+  color: #0063a3 !important;
+}

@@ -79,6 +79,7 @@ module.exports = {
         'd-md-inline-block',
         'd-none',
         'd-print-none',
+        'd-xl-block',
         'display-1',
         'display-2',
         'display-3',

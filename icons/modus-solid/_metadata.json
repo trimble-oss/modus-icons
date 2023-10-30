@@ -992,8 +992,10 @@
     "name": "chat",
     "tags": [
       "bubble",
+      "comment",
       "conversation",
-      "speech"
+      "speech",
+      "support"
     ],
     "categories": [
       "Communication & Media"
@@ -1474,8 +1476,11 @@
     "name": "comment",
     "tags": [
       "bubble",
+      "chat",
+      "conversation",
       "message",
-      "speech"
+      "speech",
+      "support"
     ],
     "categories": [
       "Communication & Media"
@@ -1601,7 +1606,13 @@
   },
   {
     "name": "dashboard",
-    "tags": [],
+    "tags": [
+      "analytics",
+      "bar chart",
+      "chart",
+      "data",
+      "pie chart"
+    ],
     "categories": [
       "Applications"
     ]
@@ -2311,7 +2322,14 @@
   },
   {
     "name": "gantt-chart",
-    "tags": [],
+    "tags": [
+      "data",
+      "diagram",
+      "phases",
+      "project",
+      "report",
+      "timeline"
+    ],
     "categories": [
       "Data Management"
     ]
@@ -2681,8 +2699,10 @@
   {
     "name": "line-graph",
     "tags": [
+      "analytics",
       "chart",
-      "network-insights",
+      "data",
+      "network insights",
       "xyz"
     ],
     "categories": [

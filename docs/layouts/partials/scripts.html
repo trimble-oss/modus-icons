@@ -10,15 +10,12 @@
 {{- if eq hugo.Environment "production" -}}
 {{- $docsJs = $docsJs | resources.Minify -}}
 {{- end }}
-<script src=/js/jquery.slim.min.js></script>
 <script src="{{ $docsJs.Permalink | relURL }}"></script>
 <script>
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 </script>
 <script>
-  $(function () {
-    $('[data-toggle="popover"]').popover()
-  })
+  const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+  const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 </script>

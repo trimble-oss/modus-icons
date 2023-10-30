@@ -2,14 +2,18 @@
   min-height: 26px;
 }
 
-@import "../../../node_modules/@trimbleinc/modus-bootstrap/dist/modus";
-
-[data-theme="light"] {
+[data-bs-theme="light"] {
   .bg-light {
     background-color: #f1f1f6;
   }
 
   .chip-solid {
     background-color: #f1f1f6;
+  }
+
+  .dropdown-item.active,
+  .dropdown-item:active {
+    background-color: #dcedf9 !important;
+    color: var(--bs-dropdown-link-color);
   }
 }

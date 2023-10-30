@@ -1,19 +1,19 @@
 <nav class="navbar navbar-main navbar-expand navbar-blue" aria-label="main navigation">
   <div class="container-fluid flex-row justify-content-end">
-    <a class="navbar-brand mr-auto mr-md-auto font-weight-bold" href="/">
+    <a class="navbar-brand mr-auto me-md-auto fw-bold" href="/">
       <!-- {{- partial "icons/trimble.svg" (dict "class" "d-inline-block d-sm-none mb-1 mr-1" "width" "25" "height" "25") -}} -->
       {{ partial "logos/trimble.svg" (dict "class" "img-fluid" "width" "115" "height" "26") }}
-      <div class="text-white h2 d-none d-md-block float-right pt-1 mb-0 ml-2">
+      <div class="text-white h2 d-none d-md-block float-end mb-0 ms-2">
         Modus Icons
       </div>
     </a>
-    <div class="d-flex flew-row ml-auto ml-sm-0">
+    <div class="d-flex flew-row ms-auto ms-sm-0">
       <ul class="navbar-nav d-none d-md-inline-flex flex-lg-row">
       </ul>
       {{ partial "theme-toggle" . }}
 
       <div class="dropdown">
-        <button type="button" class="btn btn-lg btn-icon-only border-0 btn-apps" data-toggle="dropdown"
+        <button type="button" class="btn btn-lg btn-icon-only border-0 btn-apps" data-bs-toggle="dropdown"
           aria-expanded="false" aria-label="Menu">
           {{ partial "icons/modus-solid/apps.svg" (dict "class" "text-white" "width" "24" "height" "24") }}
         </button>

@@ -11,15 +11,15 @@
   stroke-width: 2px;
 }
 
-[data-theme="dark"] .sun-and-moon > .sun {
+[data-bs-theme="dark"] .sun-and-moon > .sun {
   transform: scale(1.75);
 }
 
-[data-theme="dark"] .sun-and-moon > .sun-beams {
+[data-bs-theme="dark"] .sun-and-moon > .sun-beams {
   opacity: 0;
 }
 
-[data-theme="dark"] .sun-and-moon > .moon > circle {
+[data-bs-theme="dark"] .sun-and-moon > .moon > circle {
   transform: translate(-7px);
 }
 
@@ -42,18 +42,18 @@
     }
   }
 
-  [data-theme="dark"] .sun-and-moon > .sun {
+  [data-bs-theme="dark"] .sun-and-moon > .sun {
     transform: scale(1.75);
     transition-timing-function: cubic-bezier(0.25, 0, 0.3, 1);
     transition-duration: 0.25s;
   }
 
-  [data-theme="dark"] .sun-and-moon > .sun-beams {
+  [data-bs-theme="dark"] .sun-and-moon > .sun-beams {
     transform: rotate(-25deg);
     transition-duration: 0.15s;
   }
 
-  [data-theme="dark"] .sun-and-moon > .moon > circle {
+  [data-bs-theme="dark"] .sun-and-moon > .moon > circle {
     transition-delay: 0.25s;
     transition-duration: 0.5s;
   }
@@ -72,16 +72,16 @@
   stroke-linecap: round;
 }
 
-html[data-theme="light"] {
+html[data-bs-theme="light"] {
   color-scheme: light;
 }
 
-html[data-theme="dark"] {
+html[data-bs-theme="dark"] {
   color-scheme: dark;
 }
 
 @supports not (color-scheme: dark) {
-  html[data-theme="light"] {
+  html[data-bs-theme="light"] {
     background-color: #fff;
   }
 }

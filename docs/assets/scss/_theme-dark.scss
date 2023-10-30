@@ -1,5 +1,8 @@
-[data-theme="dark"] {
-  @import "../../../node_modules/@trimbleinc/modus-bootstrap/dist/modus-dark";
+[data-bs-theme="dark"] {
+  body {
+    background-color: #252a2e;
+  }
+
   .bd-navbar {
     min-height: 26px;
   }
@@ -16,6 +19,10 @@
     filter: brightness(7) saturate(0.5);
   }
 
+  img {
+    filter: invert(1);
+  }
+
   .btn-clipboard {
     background-color: #464b52;
     color: #f1f1f6;
@@ -27,6 +34,10 @@
 
   .cl {
     color: #f1f1f6;
+  }
+
+  .list .modus-icons {
+    filter: brightness(9.5);
   }
 
   pre code span span {
@@ -41,7 +52,26 @@
   button[data-toggle="dropdown"] img {
     filter: invert(1);
   }
-    .navbar-main .text-muted {
-      color: #cbcdd6 !important;
-    }
+
+  .navbar-main .text-muted {
+    color: #cbcdd6 !important;
+  }
+
+  .form-switch .form-check-input:not(:checked) {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+  }
+
+  .dropdown-item.active {
+    background-color: #1a4c67 !important;
+    border-top: 1px solid #019aeb;
+    border-bottom: 1px solid #019aeb;
+  }
+
+  .dropdown-item:hover:not(:active) {
+    background-color: #464b52 !important;
+  }
+
+  main .navbar-brand img {
+    filter: none;
+  }
 }

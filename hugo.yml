@@ -51,10 +51,6 @@ module:
       target:           assets/js/vendor/bootstrap.bundle.min.js
     - source:           node_modules/clipboard/dist/clipboard.min.js
       target:           assets/js/vendor/clipboard.min.js
-    - source:           node_modules/jquery/dist/jquery.slim.min.js
-      target:           static/js/jquery.slim.min.js
-    - source:           node_modules/jquery/dist/jquery.slim.min.map
-      target:           static/js/jquery.slim.min.map
 
 params:
   description:          "SVG icon library for Modus"

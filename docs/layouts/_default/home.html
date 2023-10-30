@@ -21,10 +21,10 @@
 
       <div class="row align-items-center">
         <div class="col-12 col-sm-6">
-          <h2 class="font-weight-bold">Modus Icons</h2>
+          <h2 class="fw-bold">Modus Icons</h2>
         </div>
         <div class="col-12 col-sm-6 d-flex justify-content-end">
-          <div class="ml-auto">
+          <div class="ms-auto">
             {{- highlight "npm i @trimble-oss/modus-icons" "sh" "" -}}
           </div>
         </div>
@@ -44,7 +44,7 @@
                   Modus Solid
                 </a>
               </div>
-              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
+              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0 mt-1">
               {{ len (where .Site.RegularPages "Section" "=" "modus-solid") }}
               icons
             </div>
@@ -60,7 +60,7 @@
                   Modus Outlined
                 </a>
               </div>
-              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
+              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0 mt-1">
               {{ len (where .Site.RegularPages "Section" "=" "modus-outlined") }}
               icons
             </div>
@@ -69,7 +69,7 @@
       </div>
       <div class="row mt-3">
         <div class="col-12 my-4">
-          <h2 class="font-weight-bold">Modus Icons by Sector</h2>
+          <h2 class="fw-bold">Modus Icons by Sector</h2>
           <hr />
           <p class="mb-0">
             Trimble sector icons include sector specific icons as well as the
@@ -89,7 +89,7 @@
                   Transportation
                 </a>
               </div>
-              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0">
+              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0 mt-1">
               {{ len (where .Site.RegularPages "Section" "=" "transportation") }}
               icons (includes all icons from Modus Solid)
             </div>

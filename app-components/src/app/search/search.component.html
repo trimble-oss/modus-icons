@@ -1,13 +1,12 @@
-<div class="position-relative">
-  <div class="form-control-with-icon" role="search">
-    <input class="form-control form-control-lg" placeholder="Search all Modus Icons" type="search" autocomplete="off"
+<div class="position-relative d-none d-md-block">
+  <div class="form-control-with-icon mt-2" role="search">
+    <input class="form-control form-control-search" placeholder="Search all Modus Icons" type="search" autocomplete="off"
       [(ngModel)]="searchString" (input)="search()" />
     <div class="form-control-icon">
       <img [src]="assetpath + 'modus-solid/svg/search.svg'" class="opacity-75" alt height="22" width="22" />
     </div>
   </div>
-  <div style="top: 48px; max-height: 240px; overflow-y: auto; z-index: 1000"
-    class="list-group list-group-borderless bg-white position-absolute shadow justify-content-start w-100">
+  <div class="list-group list-group-search-results list-group-borderless bg-white position-absolute shadow justify-content-start w-100">
     <ng-container *ngIf="searchResults.length === 0 && searchString.length > 1">
       <div class="list-group-item justify-content-center">
         <h5 class="mb-0 text-gray-4">
@@ -16,16 +15,16 @@
       </div>
     </ng-container>
     <ng-container *ngIf="searchResults.length > 0">
-      <a class="list-group-item text-decoration-none text-dark d-flex align-items-center"
+      <a class="list-group-item text-decoration-none d-flex align-items-center"
         *ngFor="let item of searchResults" [href]="basehref + '/' + item.setName + '/' + item.name + '/'">
-        <svg class="modus-icons me-2" fill="currentColor" width="1.2em" height="1.2em">
+        <svg class="modus-icons me-2" fill="currentColor" width="24" height="24">
           <use [attr.xlink:href]="
               assetpath + item.setName + '/sprites/modus-icons.svg#' + item.name
             "></use>
         </svg>
-        <h5 class="me-2 mb-0">{{ item.displayName }}</h5>
-        <label class="mb-0 me-4">{{ item.tags }}</label>
-        <label class="mb-0 ms-auto text-secondary">{{
+        <h5 class="me-2 mb-0 small">{{ item.displayName }}</h5>
+        <label class="mb-0 me-4 fw-normal small opacity-50">{{ item.tags }}</label>
+        <label class="mb-0 ms-auto text-secondary opacity-75 small">{{
           item.setDisplayName
         }}</label>
       </a>

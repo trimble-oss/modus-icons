@@ -7,17 +7,13 @@
 <body class="home">
   {{ partialCached "skippy" . }}
   {{ partialCached "navbar" . }}
+
+  {{ $external := resources.Get "js/app-components.js" }}
+  {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $appComponentsJs.RelPermalink }}" async fetchpriority="high"></script>
+
   {{ partialCached "home/hero" . }}
   <main class="container mt-4" id="content">
-
-    <div class="row row-site-search">
-      <div class="col-12 col-sm-6 mb-4 mx-auto">
-        <site-search></site-search>
-        {{ $external := resources.Get "js/app-components.js" }}
-        {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
-        <script src="{{ $appComponentsJs.RelPermalink }}" defer></script>
-      </div>
-    </div>
 
       <div class="row align-items-center">
         <div class="col-12 col-sm-6">

@@ -1,4 +1,4 @@
-<div class="my-5">
+<div class="my-4">
   {{- partial "icons-search" . }}
   <div class="row">
     <div class="col-12 border-bottom mb-4">
@@ -8,6 +8,6 @@
   <icon-set-list setName="modus-solid"></icon-set-list>
   {{ $external := resources.Get "js/app-components.js" }}
   {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
-  <script src="{{ $appComponentsJs.RelPermalink }}" defer fetchpriority="high"></script>
+  <script src="{{ $appComponentsJs.RelPermalink }}" async fetchpriority="high"></script>
 </div>
 </div>

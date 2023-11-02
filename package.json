@@ -47,7 +47,7 @@
     "fs-extra": "11.1.1",
     "handlebars": "4.7.8",
     "htmlhint": "1.1.4",
-    "hugo-bin": "0.116.2",
+    "hugo-bin": "0.116.3",
     "icon-font-generator": "2.1.11",
     "lockfile-lint": "4.12.1",
     "lodash": "4.17.21",

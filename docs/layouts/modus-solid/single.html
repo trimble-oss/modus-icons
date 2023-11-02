@@ -135,8 +135,7 @@
       <div>
         <nav class="navbar nav navbar-blue navbar-expand-sm modus-header px-2">
           <a href="#navbar-example" class="navbar-brand me-auto ms-2">
-            <img src="https://modus-bootstrap.trimble.com/img/trimble-logo-rev.svg" width="107" height="25"
-              class="img-fluid d-none d-sm-block" alt="home">
+            {{- partial "logos/trimble.svg" (dict "class" "img-fluid d-none d-sm-block" "width" "107" "height" "25") -}}
             <img src="/{{ .Section | urlize }}/svg/trimble-logo.svg" class="d-block d-sm-none filter-invert" height="28"
               width="28" alt="home">
           </a>

@@ -72,7 +72,7 @@ menu:
       weight: 2
     - name: Transportation
       url: "/transportation/"
-      pre: "<div class='h5 ml-3 mt-3 opacity-75'>Trimble Sectors</div>"
+      pre: "<div class='h5 ms-3 mt-3 opacity-50'>Trimble Sectors</div>"
       weight: 3
 
 # https://gohugo.io/getting-started/configuration/#configure-minify

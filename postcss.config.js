@@ -169,6 +169,7 @@ module.exports = {
         'nav-item',
         'nav-link',
         'navbar',
+        'navbar-blue',
         'navbar-expand',
         'nt',
         'o',

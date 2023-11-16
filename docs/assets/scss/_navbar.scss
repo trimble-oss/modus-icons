@@ -57,3 +57,8 @@ header.navbar {
 [data-bs-theme="light"] .navbar-main .dropdown-menu {
   color: #252a2e !important;
 }
+
+.navbar-blue button.btn-icon-only:not(:disabled):not(.disabled):hover {
+  background-color: #217cbb!important;
+  border-color: #019aeb!important;
+}

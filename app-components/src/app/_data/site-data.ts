@@ -1283,8 +1283,10 @@ export const siteData = [
         "displayName": "Chat",
         "tags": [
           "bubble",
+          "comment",
           "conversation",
-          "speech"
+          "speech",
+          "support"
         ],
         "categories": [
           "Communication & Media"
@@ -1903,8 +1905,11 @@ export const siteData = [
         "displayName": "Comment",
         "tags": [
           "bubble",
+          "chat",
+          "conversation",
           "message",
-          "speech"
+          "speech",
+          "support"
         ],
         "categories": [
           "Communication & Media"
@@ -2069,7 +2074,13 @@ export const siteData = [
       {
         "name": "dashboard",
         "displayName": "Dashboard",
-        "tags": [],
+        "tags": [
+          "analytics",
+          "bar chart",
+          "chart",
+          "data",
+          "pie chart"
+        ],
         "categories": [
           "Applications"
         ],
@@ -2992,7 +3003,14 @@ export const siteData = [
       {
         "name": "gantt-chart",
         "displayName": "Gantt Chart",
-        "tags": [],
+        "tags": [
+          "data",
+          "diagram",
+          "phases",
+          "project",
+          "report",
+          "timeline"
+        ],
         "categories": [
           "Data Management"
         ],
@@ -3476,8 +3494,10 @@ export const siteData = [
         "name": "line-graph",
         "displayName": "Line Graph",
         "tags": [
+          "analytics",
           "chart",
-          "network-insights",
+          "data",
+          "network insights",
           "xyz"
         ],
         "categories": [
@@ -8123,8 +8143,10 @@ export const siteData = [
         "displayName": "Chat",
         "tags": [
           "bubble",
+          "comment",
           "conversation",
-          "speech"
+          "speech",
+          "support"
         ],
         "categories": [
           "Communication & Media"
@@ -8743,8 +8765,11 @@ export const siteData = [
         "displayName": "Comment",
         "tags": [
           "bubble",
+          "chat",
+          "conversation",
           "message",
-          "speech"
+          "speech",
+          "support"
         ],
         "categories": [
           "Communication & Media"
@@ -8909,7 +8934,13 @@ export const siteData = [
       {
         "name": "dashboard",
         "displayName": "Dashboard",
-        "tags": [],
+        "tags": [
+          "analytics",
+          "bar chart",
+          "chart",
+          "data",
+          "pie chart"
+        ],
         "categories": [
           "Applications"
         ],
@@ -9832,7 +9863,14 @@ export const siteData = [
       {
         "name": "gantt-chart",
         "displayName": "Gantt Chart",
-        "tags": [],
+        "tags": [
+          "data",
+          "diagram",
+          "phases",
+          "project",
+          "report",
+          "timeline"
+        ],
         "categories": [
           "Data Management"
         ],
@@ -10316,8 +10354,10 @@ export const siteData = [
         "name": "line-graph",
         "displayName": "Line Graph",
         "tags": [
+          "analytics",
           "chart",
-          "network-insights",
+          "data",
+          "network insights",
           "xyz"
         ],
         "categories": [

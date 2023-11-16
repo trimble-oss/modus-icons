@@ -16,7 +16,7 @@ body.home .highlight pre {
 
 body.home .btn-clipboard {
   background-color: transparent !important;
-  padding-top: .25rem !important;
+  padding-top: 0.25rem !important;
 }
 
 .row-site-search {
@@ -46,15 +46,18 @@ body.home .btn-clipboard {
   background-repeat: no-repeat;
 }
 
-[data-bs-theme="light"] {
+.card-home:hover {
+  box-shadow: 0 0 8px rgba(37, 42, 46, 0.3);
+}
 
+[data-bs-theme="light"] {
   .card-home,
   .card-home div {
     background-color: #f1f1f6 !important;
   }
 
   .container-hero {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 1441 334' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%23f1f1f6' d='M0 0h1440v332H0z'/%3E%3Cpath fill='%23e0e1e9' d='M0 334V0h886z'/%3E%3Cpath fill='%23fff' d='M1437.605 245l3.395 87H615z'/%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 1441 334' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill-rule='evenodd'%3E%3Cpath fill='%23f1f1f6' d='M0 0h1440v332H0z'/%3E%3Cpath fill='%23e0e1e9' d='M0 334V0h886z'/%3E%3Cpath fill='%23fff' d='M1437.605 245l3.395 87H615z'/%3E%3C/g%3E%3C/svg%3E");
   }
 
   .container-hero-screenshot {

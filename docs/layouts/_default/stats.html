@@ -2,6 +2,12 @@
 
 {{ .Content }}
 
+<style>
+  [data-bs-theme="dark"] main img {
+    filter: none;
+  }
+</style>
+
 <h1 class="display-1 text-center mx-auto py-4 my-4">Stats</h1>
 
 <div class="text-center">
@@ -56,7 +62,7 @@
 
 <div class="text-center py-2">
   Site built with:
-  <a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener" class="text-dark">
+  <a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener" class="text-body">
     Hugo v{{ hugo.Version }}</a>
 </div>
 

@@ -86,6 +86,42 @@
     ]
   },
   {
+    "name": "alarm-add",
+    "tags": [
+      "alert",
+      "alarm",
+      "add",
+      "notification"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "alarm-off",
+    "tags": [
+      "alert",
+      "alarm",
+      "off",
+      "notification"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "alarm-on",
+    "tags": [
+      "alert",
+      "alarm",
+      "add",
+      "notification"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
     "name": "alert",
     "tags": [
       "exclamation",

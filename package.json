@@ -1,6 +1,6 @@
 {
   "name": "@trimble-oss/modus-icons",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "This is the central repository for all icons used in our web products",
   "author": "Trimble",
   "publishConfig": {
@@ -48,7 +48,7 @@
     "fs-extra": "11.1.1",
     "handlebars": "4.7.8",
     "htmlhint": "1.1.4",
-    "hugo-bin": "0.117.0",
+    "hugo-bin": "0.117.1",
     "icon-font-generator": "2.1.11",
     "lockfile-lint": "4.12.1",
     "lodash": "4.17.21",

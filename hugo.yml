@@ -54,7 +54,7 @@ module:
 
 params:
   description:          "SVG icon library for Modus"
-  version:              "1.7.0"
+  version:              "1.8.0"
   main:                 "https://modus.trimble.com"
   github_org:           "https://github.com/trimble-oss"
   repo:                 "https://github.com/trimble-oss/modus-icons"

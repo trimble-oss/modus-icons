@@ -1,6 +1,10 @@
 {{ define "main" }}
 
-{{ .Content }}
+{{ $external := resources.Get "js/app-components.js" }}
+{{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $appComponentsJs.RelPermalink }}" defer fetchpriority="high"></script>
+
+{{- .Content -}}
 
 <style>
   [data-bs-theme="dark"] main img {

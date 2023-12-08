@@ -6,6 +6,7 @@
     "axe/forms": "off",
     "axe/structure": "off",
     "axe/text-alternatives": "off",
+    "compat-api/html": "off",
     "meta-charset-utf-8": "off",
     "meta-viewport": "off",
     "no-inline-styles": "off"

@@ -1,9 +1,32 @@
 {{ define "main" }}
 
-{{ .Content }}
+{{ $external := resources.Get "js/app-components.js" }}
+{{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{- $appComponentsJs.RelPermalink -}}" defer fetchpriority="high"></script>
+
+{{- .Content -}}
+
+<style>
+  h1 {
+    display: none;
+  }
+
+  h2 i {
+    font-size: 6rem !important;
+  }
+</style>
+
+<h2 class="display-1 text-center mx-auto pt-5">
+  <i class="modus-icons h5 mt-5" aria-hidden="true">smiley_dissatisfied_outlined</i>
+</h2>
+
+<p class="text-center mt-0 pt-0 h3">
+  404 Error. File not found
+</p>
+
+<p class="text-center mt-0 pt-0 h4">
+  Looking for an icon? Use the search above!
+</p>
+
 <script>plausible("404", { props: { path: document.location.pathname } });</script>
-<div class="row-cols-sm-8"></div>
-<div class="row-cols-md-9"></div>
-<div class="row-cols-lg-10"></div>
-<div class="row-cols-xl-11"></div>
 {{ end }}

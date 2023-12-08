@@ -5,6 +5,7 @@
   {{- end -}}</title>
 
 <meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#0e416c">
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}
 {{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
 <script src="{{- $themeToggleJS.RelPermalink -}}"></script>

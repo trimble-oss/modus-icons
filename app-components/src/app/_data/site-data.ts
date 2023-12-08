@@ -115,6 +115,51 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "alarm-add",
+        "displayName": "Alarm Add",
+        "tags": [
+          "alert",
+          "alarm",
+          "add",
+          "notification"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-off",
+        "displayName": "Alarm Off",
+        "tags": [
+          "alert",
+          "alarm",
+          "off",
+          "notification"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-on",
+        "displayName": "Alarm On",
+        "tags": [
+          "alert",
+          "alarm",
+          "add",
+          "notification"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "alert",
         "displayName": "Alert",
         "tags": [
@@ -6970,6 +7015,51 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-add",
+        "displayName": "Alarm Add",
+        "tags": [
+          "alert",
+          "alarm",
+          "add",
+          "notification"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-off",
+        "displayName": "Alarm Off",
+        "tags": [
+          "alert",
+          "alarm",
+          "off",
+          "notification"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-on",
+        "displayName": "Alarm On",
+        "tags": [
+          "alert",
+          "alarm",
+          "add",
+          "notification"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""

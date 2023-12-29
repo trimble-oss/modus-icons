@@ -58,7 +58,7 @@ header.navbar {
   color: #252a2e !important;
 }
 
-.navbar-blue button.btn-icon-only:not(:disabled):not(.disabled):hover {
+.navbar-blue button.btn-icon-only:not(:disabled, .disabled):hover {
   background-color: #217cbb!important;
   border-color: #019aeb!important;
 }

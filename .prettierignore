@@ -1,5 +1,6 @@
 docs
 
+.eslintrc.json
 _modus-bootstrap-dark.scss
 hugo.yml
 package.json

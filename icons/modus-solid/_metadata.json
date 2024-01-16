@@ -2059,6 +2059,26 @@
     ]
   },
   {
+    "name": "file-type-bmpf",
+    "tags": [
+      "sheet",
+      "document"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-cur",
+    "tags": [
+      "sheet",
+      "document"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
     "name": "file-type-doc",
     "tags": [
       "sheet",
@@ -2069,7 +2089,38 @@
     ]
   },
   {
+    "name": "file-type-ico",
+    "tags": [
+      "sheet",
+      "icon"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-key",
+    "tags": [
+      "sheet",
+      "keynote",
+      "document"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
     "name": "file-type-log",
+    "tags": [
+      "sheet",
+      "document"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-numbers",
     "tags": [
       "sheet",
       "document"
@@ -2100,6 +2151,36 @@
   },
   {
     "name": "file-type-rfq",
+    "tags": [
+      "sheet",
+      "document"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-rtf",
+    "tags": [
+      "sheet",
+      "document"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-text",
+    "tags": [
+      "sheet",
+      "document"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-tif",
     "tags": [
       "sheet",
       "document"
@@ -2610,6 +2691,48 @@
     "tags": [],
     "categories": [
       "Alerts & Messages"
+    ]
+  },
+  {
+    "name": "item-begins-with",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "item-contains",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "item-does-not-contain",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "item-does-not-equal",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "item-ends-with",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "item-equals",
+    "tags": [],
+    "categories": [
+      "Data Management"
     ]
   },
   {
@@ -4253,6 +4376,27 @@
     ]
   },
   {
+    "name": "sort-arrow-down",
+    "tags": [
+      "arrow",
+      "descending"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "sort-arrow-up",
+    "tags": [
+      "ascending",
+      "arrow",
+      "reverse"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
     "name": "sort-down",
     "tags": [
       "descending"
@@ -4379,6 +4523,16 @@
     ],
     "categories": [
       "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "switch-account",
+    "tags": [
+      "account",
+      "switch"
+    ],
+    "categories": [
+      "Social"
     ]
   },
   {
@@ -4893,6 +5047,15 @@
     ]
   },
   {
+    "name": "unsorted-arrows",
+    "tags": [
+      "arrows"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
     "name": "update",
     "tags": [
       "arrow",
@@ -4970,6 +5133,18 @@
       "account",
       "key",
       "person"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "user-permissions",
+    "tags": [
+      "accepted",
+      "user",
+      "allow",
+      "permit"
     ],
     "categories": [
       "Social"

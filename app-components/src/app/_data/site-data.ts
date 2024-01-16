@@ -2658,6 +2658,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-type-bmpf",
+        "displayName": "File Type Bmpf",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-cur",
+        "displayName": "File Type Cur",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-type-doc",
         "displayName": "File Type Doc",
         "tags": [
@@ -2671,8 +2697,48 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-type-ico",
+        "displayName": "File Type Ico",
+        "tags": [
+          "sheet",
+          "icon"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-key",
+        "displayName": "File Type Key",
+        "tags": [
+          "sheet",
+          "keynote",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-type-log",
         "displayName": "File Type Log",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-numbers",
+        "displayName": "File Type Numbers",
         "tags": [
           "sheet",
           "document"
@@ -2712,6 +2778,45 @@ export const siteData = [
       {
         "name": "file-type-rfq",
         "displayName": "File Type Rfq",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-rtf",
+        "displayName": "File Type Rtf",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-text",
+        "displayName": "File Type Text",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-tif",
+        "displayName": "File Type Tif",
         "tags": [
           "sheet",
           "document"
@@ -3375,6 +3480,66 @@ export const siteData = [
         "tags": [],
         "categories": [
           "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-begins-with",
+        "displayName": "Item Begins With",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-contains",
+        "displayName": "Item Contains",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-does-not-contain",
+        "displayName": "Item Does Not Contain",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-does-not-equal",
+        "displayName": "Item Does Not Equal",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-ends-with",
+        "displayName": "Item Ends With",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-equals",
+        "displayName": "Item Equals",
+        "tags": [],
+        "categories": [
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5515,6 +5680,33 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "sort-arrow-down",
+        "displayName": "Sort Arrow Down",
+        "tags": [
+          "arrow",
+          "descending"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sort-arrow-up",
+        "displayName": "Sort Arrow Up",
+        "tags": [
+          "ascending",
+          "arrow",
+          "reverse"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "sort-down",
         "displayName": "Sort Down",
         "tags": [
@@ -5675,6 +5867,19 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "switch-account",
+        "displayName": "Switch Account",
+        "tags": [
+          "account",
+          "switch"
+        ],
+        "categories": [
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6353,6 +6558,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "unsorted-arrows",
+        "displayName": "Unsorted Arrows",
+        "tags": [
+          "arrows"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "update",
         "displayName": "Update",
         "tags": [
@@ -6452,6 +6669,21 @@ export const siteData = [
           "account",
           "key",
           "person"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "user-permissions",
+        "displayName": "User Permissions",
+        "tags": [
+          "accepted",
+          "user",
+          "allow",
+          "permit"
         ],
         "categories": [
           "Social"
@@ -9563,6 +9795,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-type-bmpf",
+        "displayName": "File Type Bmpf",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-cur",
+        "displayName": "File Type Cur",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-type-doc",
         "displayName": "File Type Doc",
         "tags": [
@@ -9576,8 +9834,48 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-type-ico",
+        "displayName": "File Type Ico",
+        "tags": [
+          "sheet",
+          "icon"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-key",
+        "displayName": "File Type Key",
+        "tags": [
+          "sheet",
+          "keynote",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-type-log",
         "displayName": "File Type Log",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-numbers",
+        "displayName": "File Type Numbers",
         "tags": [
           "sheet",
           "document"
@@ -9617,6 +9915,45 @@ export const siteData = [
       {
         "name": "file-type-rfq",
         "displayName": "File Type Rfq",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-rtf",
+        "displayName": "File Type Rtf",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-text",
+        "displayName": "File Type Text",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-tif",
+        "displayName": "File Type Tif",
         "tags": [
           "sheet",
           "document"
@@ -10280,6 +10617,66 @@ export const siteData = [
         "tags": [],
         "categories": [
           "Alerts & Messages"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-begins-with",
+        "displayName": "Item Begins With",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-contains",
+        "displayName": "Item Contains",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-does-not-contain",
+        "displayName": "Item Does Not Contain",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-does-not-equal",
+        "displayName": "Item Does Not Equal",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-ends-with",
+        "displayName": "Item Ends With",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "item-equals",
+        "displayName": "Item Equals",
+        "tags": [],
+        "categories": [
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -12420,6 +12817,33 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "sort-arrow-down",
+        "displayName": "Sort Arrow Down",
+        "tags": [
+          "arrow",
+          "descending"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sort-arrow-up",
+        "displayName": "Sort Arrow Up",
+        "tags": [
+          "ascending",
+          "arrow",
+          "reverse"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "sort-down",
         "displayName": "Sort Down",
         "tags": [
@@ -12580,6 +13004,19 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "switch-account",
+        "displayName": "Switch Account",
+        "tags": [
+          "account",
+          "switch"
+        ],
+        "categories": [
+          "Social"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -13258,6 +13695,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "unsorted-arrows",
+        "displayName": "Unsorted Arrows",
+        "tags": [
+          "arrows"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "update",
         "displayName": "Update",
         "tags": [
@@ -13357,6 +13806,21 @@ export const siteData = [
           "account",
           "key",
           "person"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "user-permissions",
+        "displayName": "User Permissions",
+        "tags": [
+          "accepted",
+          "user",
+          "allow",
+          "permit"
         ],
         "categories": [
           "Social"

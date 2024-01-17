@@ -4,11 +4,11 @@
 
 - title: Modus Web Components
   icon: "/img/icons/web-components.svg"
-  url: "https://modus-web-components.trimble.com/"
+  url: "https://modus-web-components.trimble.com"
 
 - title: Modus Bootstrap
   icon: "/img/icons/code.svg"
-  url: "https://modus-bootstrap.trimble.com/"
+  url: "https://modus-bootstrap.trimble.com"
 
 - title: Modus on GitHub
   icon: "/img/icons/github.svg"

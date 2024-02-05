@@ -2305,6 +2305,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "drivers",
+        "displayName": "Drivers",
+        "tags": [
+          "truck",
+          "driving",
+          "truckers"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "drizzle",
         "displayName": "Drizzle",
         "tags": [
@@ -3190,6 +3204,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "greater-than-equal-to",
+        "displayName": "Greater Than Equal To",
+        "tags": [
+          "greater",
+          "equal"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "group-items",
         "displayName": "Group Items",
         "tags": [
@@ -3425,6 +3452,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "in-cab-device",
+        "displayName": "In Cab Device",
+        "tags": [
+          "incab",
+          "in-cab",
+          "pnd",
+          "tablet"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "in-field-device",
         "displayName": "In Field Device",
         "tags": [
@@ -3647,6 +3689,19 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "less-than-equal-to",
+        "displayName": "Less Than Equal To",
+        "tags": [
+          "less",
+          "equal"
+        ],
+        "categories": [
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9442,6 +9497,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "drivers",
+        "displayName": "Drivers",
+        "tags": [
+          "truck",
+          "driving",
+          "truckers"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "drizzle",
         "displayName": "Drizzle",
         "tags": [
@@ -10327,6 +10396,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "greater-than-equal-to",
+        "displayName": "Greater Than Equal To",
+        "tags": [
+          "greater",
+          "equal"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "group-items",
         "displayName": "Group Items",
         "tags": [
@@ -10562,6 +10644,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "in-cab-device",
+        "displayName": "In Cab Device",
+        "tags": [
+          "incab",
+          "in-cab",
+          "pnd",
+          "tablet"
+        ],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "in-field-device",
         "displayName": "In Field Device",
         "tags": [
@@ -10784,6 +10881,19 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "less-than-equal-to",
+        "displayName": "Less Than Equal To",
+        "tags": [
+          "less",
+          "equal"
+        ],
+        "categories": [
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""

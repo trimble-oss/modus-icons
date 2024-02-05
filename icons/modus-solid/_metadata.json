@@ -1787,6 +1787,17 @@
     ]
   },
   {
+    "name": "drivers",
+    "tags": [
+      "truck",
+      "driving",
+      "truckers"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
     "name": "drizzle",
     "tags": [
       "rain",
@@ -2468,6 +2479,16 @@
     ]
   },
   {
+    "name": "greater-than-equal-to",
+    "tags": [
+      "greater",
+      "equal"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
     "name": "group-items",
     "tags": [
       "sketchup",
@@ -2649,6 +2670,18 @@
     ]
   },
   {
+    "name": "in-cab-device",
+    "tags": [
+      "incab",
+      "in-cab",
+      "pnd",
+      "tablet"
+    ],
+    "categories": [
+      "Devices"
+    ]
+  },
+  {
     "name": "in-field-device",
     "tags": [
       "outdoor",
@@ -2816,6 +2849,16 @@
     ],
     "categories": [
       "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "less-than-equal-to",
+    "tags": [
+      "less",
+      "equal"
+    ],
+    "categories": [
+      "Data Management"
     ]
   },
   {

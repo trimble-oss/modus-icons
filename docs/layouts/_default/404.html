@@ -3,6 +3,7 @@
 {{ $external := resources.Get "js/app-components.js" }}
 {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
 <script src="{{- $appComponentsJs.RelPermalink -}}" defer fetchpriority="high"></script>
+<script>document.addEventListener('DOMContentLoaded', function () { plausible('404', { props: { path: document.location.pathname } }); });</script>
 
 {{- .Content -}}
 
@@ -28,5 +29,4 @@
   Looking for an icon? Use the search above!
 </p>
 
-<script>plausible("404", { props: { path: document.location.pathname } });</script>
 {{ end }}

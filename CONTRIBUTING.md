@@ -4,6 +4,8 @@
 
 To get started, clone the repo, install dependencies, and run the build script.
 
+You must use Node v16 to build the project.
+
 ```shell
 git clone https://github.com/trimble-oss/modus-icons/
 cd modus-icons

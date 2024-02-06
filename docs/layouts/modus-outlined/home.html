@@ -1,8 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
   {{ partial "head" . }}
+  {{ partial "analytics" . }}
 </head>
 
 <body>
@@ -18,7 +19,6 @@
 
   {{- partialCached "footer" . }}
   {{- partialCached "scripts" . }}
-  {{ partial "analytics" . }}
 
 </body>
 

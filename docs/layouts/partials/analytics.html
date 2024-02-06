@@ -1,18 +1,27 @@
 {{- if not .Site.IsServer -}}
-<script id="plausible" defer data-domain="modus-icons.trimble.com"
-  src="https://plausible.io/js/script.outbound-links.js" fetchpriority="low"></script>
+<script>
+  if (window.location.host === 'modus-icons.trimble.com') {
+    var script = document.createElement('script');
+    script.defer = true;
+    script.setAttribute('data-domain', 'modus-icons.trimble.com');
+    script.src = 'https://plausible.io/js/script.outbound-links.file-downloads.js';
+    document.head.appendChild(script);
+  }
+</script>
 <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 
-<script src="/js/trimble-insights.min.js"></script>
+<script src="/js/trimble-insights.min.js" async></script>
 <script>
-  window.tdcafLogger.init({
-    appname: 'trimble-tux-modusicons-web-dev',
-    headers: {
-      'x-app-name': 'trimble-tux-modusicons-web-dev',
-      'x-api-key': '{{- .Site.Params.trimble_insights_key -}}'
-    },
-    interval: 2000
+  document.addEventListener("DOMContentLoaded", function() {
+    window.tdcafLogger.init({
+      appname: 'trimble-tux-modusicons-web-dev',
+      headers: {
+        'x-app-name': 'trimble-tux-modusicons-web-dev',
+        'x-api-key': '{{- .Site.Params.trimble_insights_key -}}'
+      },
+      interval: 2000
+    });
+    window.tdcafLogger.trackEvents();
   });
-  window.tdcafLogger.trackEvents();
 </script>
 {{ end }}

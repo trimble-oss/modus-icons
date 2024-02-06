@@ -1,3 +1,11 @@
 {
-  "reject": ["file-type", "mkdirp", "read-chunk", "svgicons2svgfont", "ttf2eot", "ttf2woff", "url-join"]
+  "reject": [
+    "file-type",
+    "mkdirp",
+    "read-chunk",
+    "svgicons2svgfont",
+    "ttf2eot",
+    "ttf2woff",
+    "url-join"
+  ]
 }

@@ -1,8 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
   {{- partial "head" . }}
+  {{ partial "analytics" . }}
 </head>
 
 <body class="{{ if .IsPage }}single{{ else }}list{{ end }}">
@@ -16,7 +17,6 @@
 
   {{ partialCached "footer" . }}
   {{ partialCached "scripts" . }}
-  {{ partial "analytics" . }}
 </body>
 
 </html>

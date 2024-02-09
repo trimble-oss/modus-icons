@@ -2,6 +2,7 @@
   "reject": [
     "file-type",
     "mkdirp",
+    "mocha",
     "read-chunk",
     "svgicons2svgfont",
     "ttf2eot",

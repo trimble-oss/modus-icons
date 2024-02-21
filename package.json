@@ -24,7 +24,7 @@
     "build:version": "node build/build-versioner",
     "bump:version": "node build/bump-version",
     "start": "npm run docs:serve",
-    "docs:serve": "npx hugo server --port 4000 --disableFastRender",
+    "docs:serve": "npx hugo server --port 4000 --disableFastRender --logLevel info",
     "docs:build": "npx hugo --cleanDestinationDir",
     "install:components": "cd app-components && npm install && cd ..",
     "prettier": "prettier --write ./*.{scss,js,json,md,yml} icons/**/*.svg",

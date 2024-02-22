@@ -8,10 +8,10 @@
         aria-expanded="false" aria-label="View all icon sets">
         <img src="/modus-solid/svg/caret-down.svg" class="opacity-75" alt height="24" width="24">
       </button>
-      <div class="dropdown-menu dropdown-menu-icons">
+      <ul class="dropdown-menu dropdown-menu-icons">
         {{ $currentPage := . }}
         {{ range .Site.Menus.icons }}
-        <li class="nav-item mx-0 mx-sm-1 mx-md-2">
+        <li class="nav-item">
           <div>
             {{ with .Pre }}
             {{- . -}}
@@ -23,7 +23,7 @@
             {{- . -}}
           {{ end }}</div>
         {{ end }}
-      </div>
+      </ul>
     </div>
   </div>
 <div class="col-12 col-sm-4 text-end">

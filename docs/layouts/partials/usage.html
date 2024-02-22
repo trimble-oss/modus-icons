@@ -49,7 +49,7 @@
 <div class="row my-4">
   <div class="col-md-4">
     <h3 id="icon-font">Icon font</h3>
-    <h6>Use in web applications, on buttons, and anywhere you need more than a few icons.</h6>
+    <h4 class="h6">Use in web applications, on buttons, and anywhere you need more than a few icons.</h4>
     <p>Icon fonts including every icon are also included for Modus Icons. Include the icon web fonts in your
       page via CSS, then reference the ligature names as needed in your HTML (e.g.,
       <code>&lt;i class=&quot;modus-icons&quot;&gt;lightbulb_on&lt;/i&gt;</code>).
@@ -81,7 +81,7 @@
     <div class="row my-4">
   <div class="col-md-4">
     <h3 id="sprite">SVG Sprite</h3>
-    <h6> Use for static sites when you only need a few icons.</h6>
+    <h4 class="h6"> Use for static sites when you only need a few icons.</h4>
       <p>Copy the <code>{{ with .iconset }}{{- . -}}{{ end }}-icons.svg</code> SVG sprite file to your directory of choice.
       Insert any icon with the <code>&lt;use&gt;</code> element. Use the icon&rsquo;s filename
       as the fragment identifier (e.g., <code>toggles</code> is <code>#toggles</code>). SVG sprites allow you to
@@ -139,7 +139,7 @@
 <div class="row my-4">
   <div class="col-md-4">
     <h3 id="external-image">External SVG image</h3>
-    <h6> Use for static sites when you only need a few icons.</h6>
+    <h4 class="h6"> Use for static sites when you only need a few icons.</h4>
     <p>Copy the Modus Icons SVGs to your directory of choice and reference them like normal images with the
       <code>&lt;img&gt;</code> element.
     </p>
@@ -156,7 +156,7 @@
 <div class="row my-4">
   <div class="col-md-4">
     <h3 id="embedded">Embedded SVG code</h3>
-    <h6>Use when you don't want any dependency.</h6>
+    <h4 class="h6">Use when you don't want any dependency.</h4>
     <p>Embed your icons within the HTML of your page (as opposed to an external image file). Here we&rsquo;ve used a
       custom <code>width</code> and <code>height</code>.
   </div>
@@ -179,7 +179,7 @@
 <div class="row">
   <div class="col-md-4">
     <h3 id="css">CSS</h3>
-    <h6>Use when you don't want any dependency.</h6>
+    <h4 class="h6">Use when you don't want any dependency.</h4>
     <p>You can also use the SVG within your CSS (<strong>be sure to escape any characters</strong>, such as
       <code>#</code> to <code>%23</code> when specifying hex color values). When no dimensions are specified via
       <code>width</code> and <code>height</code> on the <code>&lt;svg&gt;</code>, the icon will fill the available

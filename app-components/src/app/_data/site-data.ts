@@ -697,6 +697,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "between",
+        "displayName": "Between",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "bolt",
         "displayName": "Bolt",
         "tags": [
@@ -2448,6 +2458,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "expand-less-circle",
+        "displayName": "Expand Less Circle",
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "expand-more",
         "displayName": "Expand More",
         "tags": [
@@ -2463,6 +2486,19 @@ export const siteData = [
       {
         "name": "expand-more-bold",
         "displayName": "Expand More Bold",
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "expand-more-circle",
+        "displayName": "Expand More Circle",
         "tags": [
           "arrow",
           "chevron"
@@ -7889,6 +7925,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "between",
+        "displayName": "Between",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "bolt",
         "displayName": "Bolt",
         "tags": [
@@ -9640,6 +9686,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "expand-less-circle",
+        "displayName": "Expand Less Circle",
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "expand-more",
         "displayName": "Expand More",
         "tags": [
@@ -9655,6 +9714,19 @@ export const siteData = [
       {
         "name": "expand-more-bold",
         "displayName": "Expand More Bold",
+        "tags": [
+          "arrow",
+          "chevron"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "expand-more-circle",
+        "displayName": "Expand More Circle",
         "tags": [
           "arrow",
           "chevron"

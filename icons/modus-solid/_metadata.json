@@ -536,6 +536,13 @@
     ]
   },
   {
+    "name": "between",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
     "name": "bolt",
     "tags": [
       "energy",
@@ -1897,6 +1904,16 @@
     ]
   },
   {
+    "name": "expand-less-circle",
+    "tags": [
+      "arrow",
+      "chevron"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
     "name": "expand-more",
     "tags": [
       "arrow",
@@ -1908,6 +1925,16 @@
   },
   {
     "name": "expand-more-bold",
+    "tags": [
+      "arrow",
+      "chevron"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "expand-more-circle",
     "tags": [
       "arrow",
       "chevron"

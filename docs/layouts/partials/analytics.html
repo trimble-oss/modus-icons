@@ -13,7 +13,7 @@
 <script src="/js/trimble-insights.min.js"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    window.tdcafLogger.init({
+    window.trimbleInsightsLogger.init({
       appname: 'trimble-tux-modusicons-web-dev',
       headers: {
         'x-app-name': 'trimble-tux-modusicons-web-dev',
@@ -21,7 +21,7 @@
       },
       interval: 2000
     });
-    window.tdcafLogger.trackEvents();
+    window.trimbleInsightsLogger.trackEvents();
   });
 </script>
 {{ end }}

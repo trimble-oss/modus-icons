@@ -1,30 +1,37 @@
 {{- if not hugo.IsServer -}}
 <script>
-  if (window.location.host === 'modus-icons.trimble.com') {
-    var script = document.createElement('script');
+  if (window.location.host === "modus-icons.trimble.com") {
+    var script = document.createElement("script");
     script.defer = true;
-    script.setAttribute('data-domain', 'modus-icons.trimble.com');
-    script.src = 'https://plausible.io/js/script.outbound-links.file-downloads.js';
+    script.setAttribute("data-domain", "modus-icons.trimble.com");
+    script.src =
+      "https://plausible.io/js/script.outbound-links.file-downloads.js";
     document.head.appendChild(script);
   }
 </script>
-<script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+<script>
+  window.plausible =
+    window.plausible ||
+    function () {
+      (window.plausible.q = window.plausible.q || []).push(arguments);
+    };
+</script>
 
 <script src="/js/loglevel.min.js"></script>
-<script src="/js/loglevel-plugin-remote-min.js"></script>
-<script src="/js/trimbleInsightsLogger.js"></script>
+<script src="/js/loglevel-plugin-remote.min.js"></script>
+<script src="/js/tdcafLogger.min.js"></script>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
+  window.addEventListener("load", function () {
     window.trimbleInsightsLogger.init({
-      appname: 'trimble-tux-modusicons-web-dev',
+      appname: "trimble-tux-modusicons-web-dev",
       headers: {
-        'x-app-name': 'trimble-tux-modusicons-web-dev',
-        'x-api-key': '{{- .Site.Params.trimble_insights_key -}}'
+        "x-app-name": "trimble-tux-modusicons-web-dev",
+        "x-api-key": "{{- .Site.Params.trimble_insights_key -}}",
       },
-      interval: 2000
+      interval: 1000,
+      consoleLogLevel: "error",
     });
-    window.trimbleInsightsLogger.trackEvents();
   });
 </script>
 {{ end }}

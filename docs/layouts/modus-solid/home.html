@@ -3,10 +3,9 @@
 
 <head>
   {{ partial "head" . }}
-  {{ partial "analytics" . }}
 </head>
 
-<body>
+<body id="root">
   {{ partialCached "skippy" . }}
   {{ partialCached "navbar" . }}
 
@@ -19,6 +18,7 @@
 
   {{- partialCached "footer" . }}
   {{- partialCached "scripts" . }}
+  {{ partial "analytics" . }}
 </body>
 
 </html>

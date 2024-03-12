@@ -2,9 +2,8 @@
 <html lang="en-US">
   <head>
     {{ partial "head" . }}
-    {{ partial "analytics" . }}
   </head>
-  <body class="text-center">
+  <body class="text-center" id="root">
     {{ partialCached "skippy" . }}
     {{ partialCached "navbar" . }}
 
@@ -22,5 +21,6 @@
 
     {{- partialCached "footer" . }}
     {{- partialCached "scripts" . "fonts" }}
+    {{ partial "analytics" . }}
   </body>
 </html>

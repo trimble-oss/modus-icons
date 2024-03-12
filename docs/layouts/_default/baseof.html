@@ -3,10 +3,9 @@
 
 <head>
   {{- partial "head" . }}
-  {{ partial "analytics" . }}
 </head>
 
-<body class="{{ if .IsPage }}single{{ else }}list{{ end }}">
+<body class="{{ if .IsPage }}single{{ else }}list{{ end }}" id="root">
   {{ partialCached "skippy" . }}
   {{ partialCached "navbar" . }}
 
@@ -17,6 +16,7 @@
 
   {{ partialCached "footer" . }}
   {{ partialCached "scripts" . }}
+  {{ partial "analytics" . }}
 </body>
 
 </html>

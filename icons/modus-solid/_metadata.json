@@ -574,6 +574,17 @@
     ]
   },
   {
+    "name": "box-select",
+    "tags": [
+      "select",
+      "drag",
+      "box"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "brightness",
     "tags": [
       "dark",
@@ -1825,6 +1836,18 @@
     ]
   },
   {
+    "name": "earnings-statement",
+    "tags": [
+      "earnings",
+      "financials",
+      "statement",
+      "money"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
     "name": "email",
     "tags": [
       "envelope",
@@ -2754,6 +2777,18 @@
     ]
   },
   {
+    "name": "invoice",
+    "tags": [
+      "invoice",
+      "financials",
+      "statement",
+      "money"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
     "name": "item-begins-with",
     "tags": [],
     "categories": [
@@ -2821,6 +2856,18 @@
     ],
     "categories": [
       "Devices"
+    ]
+  },
+  {
+    "name": "labs",
+    "tags": [
+      "labs",
+      "science",
+      "beaker",
+      "create"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -3526,6 +3573,18 @@
     ]
   },
   {
+    "name": "people-add",
+    "tags": [
+      "add",
+      "group",
+      "people",
+      "users"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
     "name": "people-couple",
     "tags": [
       "users"
@@ -3567,6 +3626,17 @@
     "tags": [
       "create",
       "user"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "person-clock",
+    "tags": [
+      "clock",
+      "timesheet",
+      "schedule"
     ],
     "categories": [
       "Social"
@@ -3643,6 +3713,28 @@
   },
   {
     "name": "pin-add",
+    "tags": [
+      "attach",
+      "dock",
+      "fix"
+    ],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
+    "name": "pin-straight",
+    "tags": [
+      "attach",
+      "dock",
+      "fix"
+    ],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
+    "name": "pin-straight-cancel",
     "tags": [
       "attach",
       "dock",
@@ -4573,6 +4665,18 @@
     "tags": [],
     "categories": [
       "Devices"
+    ]
+  },
+  {
+    "name": "submit-expense",
+    "tags": [
+      "money",
+      "expense",
+      "donate",
+      "hand"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {

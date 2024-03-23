@@ -2373,7 +2373,7 @@ export const siteData = [
         "displayName": "Earnings Statement",
         "tags": [
           "earnings",
-          "financials",
+          "financial",
           "statement",
           "money"
         ],
@@ -3596,7 +3596,7 @@ export const siteData = [
         "displayName": "Invoice",
         "tags": [
           "invoice",
-          "financials",
+          "financial",
           "statement",
           "money"
         ],
@@ -9732,7 +9732,7 @@ export const siteData = [
         "displayName": "Earnings Statement",
         "tags": [
           "earnings",
-          "financials",
+          "financial",
           "statement",
           "money"
         ],
@@ -10955,7 +10955,7 @@ export const siteData = [
         "displayName": "Invoice",
         "tags": [
           "invoice",
-          "financials",
+          "financial",
           "statement",
           "money"
         ],

@@ -747,6 +747,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "box-select",
+        "displayName": "Box Select",
+        "tags": [
+          "select",
+          "drag",
+          "box"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "brightness",
         "displayName": "Brightness",
         "tags": [
@@ -2355,6 +2369,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "earnings-statement",
+        "displayName": "Earnings Statement",
+        "tags": [
+          "earnings",
+          "financial",
+          "statement",
+          "money"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "email",
         "displayName": "Email",
         "tags": [
@@ -3563,6 +3592,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "invoice",
+        "displayName": "Invoice",
+        "tags": [
+          "invoice",
+          "financial",
+          "statement",
+          "money"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "item-begins-with",
         "displayName": "Item Begins With",
         "tags": [],
@@ -3655,6 +3699,21 @@ export const siteData = [
         ],
         "categories": [
           "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "labs",
+        "displayName": "Labs",
+        "tags": [
+          "labs",
+          "science",
+          "beaker",
+          "create"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4569,6 +4628,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "people-add",
+        "displayName": "People Add",
+        "tags": [
+          "add",
+          "group",
+          "people",
+          "users"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "people-couple",
         "displayName": "People Couple",
         "tags": [
@@ -4623,6 +4697,20 @@ export const siteData = [
         "tags": [
           "create",
           "user"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "person-clock",
+        "displayName": "Person Clock",
+        "tags": [
+          "clock",
+          "timesheet",
+          "schedule"
         ],
         "categories": [
           "Social"
@@ -4723,6 +4811,34 @@ export const siteData = [
       {
         "name": "pin-add",
         "displayName": "Pin Add",
+        "tags": [
+          "attach",
+          "dock",
+          "fix"
+        ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pin-straight",
+        "displayName": "Pin Straight",
+        "tags": [
+          "attach",
+          "dock",
+          "fix"
+        ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pin-straight-cancel",
+        "displayName": "Pin Straight Cancel",
         "tags": [
           "attach",
           "dock",
@@ -5932,6 +6048,21 @@ export const siteData = [
         "tags": [],
         "categories": [
           "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "submit-expense",
+        "displayName": "Submit Expense",
+        "tags": [
+          "money",
+          "expense",
+          "donate",
+          "hand"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7975,6 +8106,20 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "box-select",
+        "displayName": "Box Select",
+        "tags": [
+          "select",
+          "drag",
+          "box"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "brightness",
         "displayName": "Brightness",
         "tags": [
@@ -9583,6 +9728,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "earnings-statement",
+        "displayName": "Earnings Statement",
+        "tags": [
+          "earnings",
+          "financial",
+          "statement",
+          "money"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "email",
         "displayName": "Email",
         "tags": [
@@ -10791,6 +10951,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "invoice",
+        "displayName": "Invoice",
+        "tags": [
+          "invoice",
+          "financial",
+          "statement",
+          "money"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "item-begins-with",
         "displayName": "Item Begins With",
         "tags": [],
@@ -10883,6 +11058,21 @@ export const siteData = [
         ],
         "categories": [
           "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "labs",
+        "displayName": "Labs",
+        "tags": [
+          "labs",
+          "science",
+          "beaker",
+          "create"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -11797,6 +11987,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "people-add",
+        "displayName": "People Add",
+        "tags": [
+          "add",
+          "group",
+          "people",
+          "users"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "people-couple",
         "displayName": "People Couple",
         "tags": [
@@ -11851,6 +12056,20 @@ export const siteData = [
         "tags": [
           "create",
           "user"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "person-clock",
+        "displayName": "Person Clock",
+        "tags": [
+          "clock",
+          "timesheet",
+          "schedule"
         ],
         "categories": [
           "Social"
@@ -11951,6 +12170,34 @@ export const siteData = [
       {
         "name": "pin-add",
         "displayName": "Pin Add",
+        "tags": [
+          "attach",
+          "dock",
+          "fix"
+        ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pin-straight",
+        "displayName": "Pin Straight",
+        "tags": [
+          "attach",
+          "dock",
+          "fix"
+        ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pin-straight-cancel",
+        "displayName": "Pin Straight Cancel",
         "tags": [
           "attach",
           "dock",
@@ -13160,6 +13407,21 @@ export const siteData = [
         "tags": [],
         "categories": [
           "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "submit-expense",
+        "displayName": "Submit Expense",
+        "tags": [
+          "money",
+          "expense",
+          "donate",
+          "hand"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""

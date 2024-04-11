@@ -1,9 +1,13 @@
 {
   "reject": [
+    "eslint",
     "file-type",
     "mkdirp",
     "mocha",
+    "postcss-cli",
     "read-chunk",
+    "stylelint",
+    "stylelint-config-standard-scss",
     "svgicons2svgfont",
     "ttf2eot",
     "ttf2woff",

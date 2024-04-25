@@ -4,6 +4,7 @@
   ({{ .Section | humanize | title -}}) · {{ .Site.Title -}}
   {{- end -}}</title>
 
+<link rel="manifest" href="/manifest.json">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#0e416c">
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}

@@ -8,7 +8,7 @@
   "theme_color": "#0e416c",
   "icons": [
     {
-      "src": "favicon.svg",
+      "src": "/modus-solid/svg/check-circle.svg",
       "sizes": "512x512",
       "type": "image/svg+xml"
     }

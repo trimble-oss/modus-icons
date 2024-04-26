@@ -477,6 +477,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "backup-restore-cloud",
+        "displayName": "Backup Restore Cloud",
+        "tags": [
+          "restore",
+          "cloud"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "backup-restore-file",
+        "displayName": "Backup Restore File",
+        "tags": [
+          "restore",
+          "fill"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "bar-graph",
         "displayName": "Bar Graph",
         "tags": [
@@ -5417,6 +5443,19 @@ export const siteData = [
         ],
         "categories": [
           "Save"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "scan-bar-code",
+        "displayName": "Scan Bar Code",
+        "tags": [
+          "bar code",
+          "scan"
+        ],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7836,6 +7875,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "backup-restore-cloud",
+        "displayName": "Backup Restore Cloud",
+        "tags": [
+          "restore",
+          "cloud"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "backup-restore-file",
+        "displayName": "Backup Restore File",
+        "tags": [
+          "restore",
+          "fill"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "bar-graph",
         "displayName": "Bar Graph",
         "tags": [
@@ -12781,6 +12846,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "scan-bar-code",
+        "displayName": "Scan Bar Code",
+        "tags": [
+          "bar code",
+          "scan"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "schema",
         "displayName": "Schema",
         "tags": [
@@ -14980,6 +15058,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "expression",
+        "displayName": "Expression",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "external-link",
         "displayName": "External Link",
         "tags": [
@@ -15010,6 +15096,14 @@ export const siteData = [
       {
         "name": "flash-on",
         "displayName": "Flash On",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "format-code",
+        "displayName": "Format Code",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -15076,6 +15170,70 @@ export const siteData = [
         "tags": [
           "arrows"
         ],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "layer-background",
+        "displayName": "Layer Background",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "layer-circle",
+        "displayName": "Layer Circle",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "layer-circle-filled",
+        "displayName": "Layer Circle Filled",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "layer-fill",
+        "displayName": "Layer Fill",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "layer-heatmap",
+        "displayName": "Layer Heatmap",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "layer-line",
+        "displayName": "Layer Line",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "layer-raster",
+        "displayName": "Layer Raster",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "layer-symbol",
+        "displayName": "Layer Symbol",
+        "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""

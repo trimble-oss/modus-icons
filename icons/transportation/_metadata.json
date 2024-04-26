@@ -173,6 +173,11 @@
     "categories": []
   },
   {
+    "name": "expression",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "external-link",
     "tags": [
       "open"
@@ -193,6 +198,11 @@
   },
   {
     "name": "flash-on",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "format-code",
     "tags": [],
     "categories": []
   },
@@ -238,6 +248,46 @@
     "tags": [
       "arrows"
     ],
+    "categories": []
+  },
+  {
+    "name": "layer-background",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layer-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layer-circle-filled",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layer-fill",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layer-heatmap",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layer-line",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layer-raster",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layer-symbol",
+    "tags": [],
     "categories": []
   },
   {

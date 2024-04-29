@@ -11,3 +11,4 @@ _site-data.json
 app-components/preview/app-components.js
 docs/assets/js/app-components.js
 Thumbs.db
+app-components/src/app/_data/site-data.ts

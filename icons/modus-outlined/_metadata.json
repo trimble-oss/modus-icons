@@ -4201,9 +4201,9 @@
     ]
   },
   {
-    "name": "scan-bar-code",
+    "name": "scan-barcode",
     "tags": [
-      "bar code",
+      "barcode",
       "scan"
     ],
     "categories": [

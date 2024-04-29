@@ -8,6 +8,6 @@
 .DS_Store
 .hugo_build.lock
 _site-data.json
-# app-components/preview/app-components.js
-# docs/assets/js/app-components.js
+app-components/preview/app-components.js
+docs/assets/js/app-components.js
 Thumbs.db

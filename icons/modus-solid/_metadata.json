@@ -364,6 +364,26 @@
     ]
   },
   {
+    "name": "backup-restore-cloud",
+    "tags": [
+      "restore",
+      "cloud"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "backup-restore-file",
+    "tags": [
+      "restore",
+      "fill"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "bar-graph",
     "tags": [
       "analytics",
@@ -4178,6 +4198,16 @@
     ],
     "categories": [
       "Save"
+    ]
+  },
+  {
+    "name": "scan-bar-code",
+    "tags": [
+      "bar code",
+      "scan"
+    ],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {

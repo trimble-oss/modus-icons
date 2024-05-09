@@ -605,6 +605,19 @@
     ]
   },
   {
+    "name": "briefcase",
+    "tags": [
+      "case",
+      "brief",
+      "work",
+      "company",
+      "carry"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "brightness",
     "tags": [
       "dark",
@@ -2133,6 +2146,20 @@
     ]
   },
   {
+    "name": "file-secure",
+    "tags": [
+      "doc",
+      "file",
+      "secure",
+      "security",
+      "form",
+      "safety"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
     "name": "file-table",
     "tags": [],
     "categories": [
@@ -2141,6 +2168,16 @@
   },
   {
     "name": "file-type-bmpf",
+    "tags": [
+      "sheet",
+      "document"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "file-type-csv",
     "tags": [
       "sheet",
       "document"
@@ -3101,6 +3138,18 @@
       "cog",
       "settings",
       "user"
+    ],
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "name": "manage-people",
+    "tags": [
+      "management",
+      "employees",
+      "settings",
+      "people"
     ],
     "categories": [
       "Social"
@@ -5077,6 +5126,11 @@
     "categories": [
       "Folders & Files"
     ]
+  },
+  {
+    "name": "timesheet-approve",
+    "tags": [],
+    "categories": []
   },
   {
     "name": "toggle-center",

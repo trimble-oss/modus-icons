@@ -5121,7 +5121,9 @@
   {
     "name": "timesheet",
     "tags": [
-      "document"
+      "clock",
+      "document",
+      "file"
     ],
     "categories": [
       "Folders & Files"
@@ -5130,7 +5132,9 @@
   {
     "name": "timesheet-approve",
     "tags": [
-      "document"
+      "check",
+      "document",
+      "file"
     ],
     "categories": [
       "Folders & Files"

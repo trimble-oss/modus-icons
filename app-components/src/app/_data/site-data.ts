@@ -789,8 +789,16 @@ export const siteData = [
       {
         "name": "briefcase",
         "displayName": "Briefcase",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "case",
+          "brief",
+          "work",
+          "company",
+          "carry"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2763,8 +2771,17 @@ export const siteData = [
       {
         "name": "file-secure",
         "displayName": "File Secure",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "doc",
+          "file",
+          "secure",
+          "security",
+          "form",
+          "safety"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -2794,8 +2811,13 @@ export const siteData = [
       {
         "name": "file-type-csv",
         "displayName": "File Type Csv",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4053,8 +4075,15 @@ export const siteData = [
       {
         "name": "manage-people",
         "displayName": "Manage People",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "management",
+          "employees",
+          "settings",
+          "people"
+        ],
+        "categories": [
+          "Social"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -6624,8 +6653,12 @@ export const siteData = [
       {
         "name": "timesheet-approve",
         "displayName": "Timesheet Approve",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -8227,8 +8260,16 @@ export const siteData = [
       {
         "name": "briefcase",
         "displayName": "Briefcase",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "case",
+          "brief",
+          "work",
+          "company",
+          "carry"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -10201,8 +10242,17 @@ export const siteData = [
       {
         "name": "file-secure",
         "displayName": "File Secure",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "doc",
+          "file",
+          "secure",
+          "security",
+          "form",
+          "safety"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -10232,8 +10282,13 @@ export const siteData = [
       {
         "name": "file-type-csv",
         "displayName": "File Type Csv",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -11491,8 +11546,15 @@ export const siteData = [
       {
         "name": "manage-people",
         "displayName": "Manage People",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "management",
+          "employees",
+          "settings",
+          "people"
+        ],
+        "categories": [
+          "Social"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -14062,8 +14124,12 @@ export const siteData = [
       {
         "name": "timesheet-approve",
         "displayName": "Timesheet Approve",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
         "deprecated": false,
         "useInstead": ""
       },

@@ -787,6 +787,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "briefcase",
+        "displayName": "Briefcase",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "brightness",
         "displayName": "Brightness",
         "tags": [
@@ -2753,6 +2761,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-secure",
+        "displayName": "File Secure",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-table",
         "displayName": "File Table",
         "tags": [],
@@ -2772,6 +2788,14 @@ export const siteData = [
         "categories": [
           "Folders & Files"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-csv",
+        "displayName": "File Type Csv",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -4023,6 +4047,14 @@ export const siteData = [
         "categories": [
           "Social"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "manage-people",
+        "displayName": "Manage People",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5448,10 +5480,10 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "scan-bar-code",
-        "displayName": "Scan Bar Code",
+        "name": "scan-barcode",
+        "displayName": "Scan Barcode",
         "tags": [
-          "bar code",
+          "barcode",
           "scan"
         ],
         "categories": [
@@ -6586,6 +6618,14 @@ export const siteData = [
         "categories": [
           "Folders & Files"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "timesheet-approve",
+        "displayName": "Timesheet Approve",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -8185,6 +8225,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "briefcase",
+        "displayName": "Briefcase",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "brightness",
         "displayName": "Brightness",
         "tags": [
@@ -10151,6 +10199,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-secure",
+        "displayName": "File Secure",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-table",
         "displayName": "File Table",
         "tags": [],
@@ -10170,6 +10226,14 @@ export const siteData = [
         "categories": [
           "Folders & Files"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-csv",
+        "displayName": "File Type Csv",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -11421,6 +11485,14 @@ export const siteData = [
         "categories": [
           "Social"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "manage-people",
+        "displayName": "Manage People",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
@@ -12846,10 +12918,10 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "scan-bar-code",
-        "displayName": "Scan Bar Code",
+        "name": "scan-barcode",
+        "displayName": "Scan Barcode",
         "tags": [
-          "bar code",
+          "barcode",
           "scan"
         ],
         "categories": [
@@ -13984,6 +14056,14 @@ export const siteData = [
         "categories": [
           "Folders & Files"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "timesheet-approve",
+        "displayName": "Timesheet Approve",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },

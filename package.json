@@ -52,7 +52,7 @@
     "icon-font-generator": "2.1.11",
     "lockfile-lint": "4.13.2",
     "lodash": "4.17.21",
-    "make-dir-cli": "3.1.0",
+    "make-dir-cli": "4.0.0",
     "mkdirp": "0.5.6",
     "mocha": "10.2.0",
     "normalize-svg-coords": "1.0.9",

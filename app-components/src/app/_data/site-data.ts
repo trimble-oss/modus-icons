@@ -6642,7 +6642,9 @@ export const siteData = [
         "name": "timesheet",
         "displayName": "Timesheet",
         "tags": [
-          "document"
+          "clock",
+          "document",
+          "file"
         ],
         "categories": [
           "Folders & Files"
@@ -6654,7 +6656,9 @@ export const siteData = [
         "name": "timesheet-approve",
         "displayName": "Timesheet Approve",
         "tags": [
-          "document"
+          "check",
+          "document",
+          "file"
         ],
         "categories": [
           "Folders & Files"
@@ -14113,7 +14117,9 @@ export const siteData = [
         "name": "timesheet",
         "displayName": "Timesheet",
         "tags": [
-          "document"
+          "clock",
+          "document",
+          "file"
         ],
         "categories": [
           "Folders & Files"
@@ -14125,7 +14131,9 @@ export const siteData = [
         "name": "timesheet-approve",
         "displayName": "Timesheet Approve",
         "tags": [
-          "document"
+          "check",
+          "document",
+          "file"
         ],
         "categories": [
           "Folders & Files"

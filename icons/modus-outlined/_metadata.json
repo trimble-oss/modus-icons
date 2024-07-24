@@ -922,6 +922,13 @@
     ]
   },
   {
+    "name": "camera-photo-add",
+    "tags": [],
+    "categories": [
+      "Communication & Media"
+    ]
+  },
+  {
     "name": "cancel-circle",
     "tags": [
       "cancel",
@@ -1305,11 +1312,39 @@
     ]
   },
   {
+    "name": "clock-checkmark",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "clock-delay-warning",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "clock-delayed",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "clock-locked",
     "tags": [
       "time",
       "lock"
     ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "clock-question-mark",
+    "tags": [],
     "categories": [
       "Objects & Shapes"
     ]
@@ -1417,6 +1452,13 @@
     ],
     "categories": [
       "Applications"
+    ]
+  },
+  {
+    "name": "coffee-cup",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -1574,6 +1616,34 @@
     ]
   },
   {
+    "name": "comment-add",
+    "tags": [],
+    "categories": [
+      "Communication & Media"
+    ]
+  },
+  {
+    "name": "comment-empty",
+    "tags": [],
+    "categories": [
+      "Communication & Media"
+    ]
+  },
+  {
+    "name": "comment-message",
+    "tags": [],
+    "categories": [
+      "Communication & Media"
+    ]
+  },
+  {
+    "name": "comment-message-disabled",
+    "tags": [],
+    "categories": [
+      "Communication & Media"
+    ]
+  },
+  {
     "name": "compare-arrows",
     "tags": [],
     "categories": [
@@ -1630,6 +1700,13 @@
     ],
     "categories": [
       "Editing"
+    ]
+  },
+  {
+    "name": "costs",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -1705,6 +1782,20 @@
     ]
   },
   {
+    "name": "data-missing",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "data-transfer-off",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
     "name": "day-mostly-cloudy",
     "tags": [
       "cloud",
@@ -1766,6 +1857,13 @@
     ],
     "categories": [
       "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "document",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
     ]
   },
   {
@@ -1881,12 +1979,26 @@
     ]
   },
   {
+    "name": "edit-combination",
+    "tags": [],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "email",
     "tags": [
       "envelope",
       "mail",
       "message"
     ],
+    "categories": [
+      "Communication & Media"
+    ]
+  },
+  {
+    "name": "email-add",
+    "tags": [],
     "categories": [
       "Communication & Media"
     ]
@@ -2355,6 +2467,13 @@
     ]
   },
   {
+    "name": "first-page",
+    "tags": [],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
     "name": "flag",
     "tags": [
       "symbol",
@@ -2510,6 +2629,20 @@
     ]
   },
   {
+    "name": "forestry",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "forklift",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "frame",
     "tags": [],
     "categories": [
@@ -2553,6 +2686,13 @@
     ],
     "categories": [
       "Applications"
+    ]
+  },
+  {
+    "name": "function",
+    "tags": [],
+    "categories": [
+      "Data Management"
     ]
   },
   {
@@ -2759,10 +2899,31 @@
     ]
   },
   {
+    "name": "icons-shapes",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "image",
     "tags": [
       "picture"
     ],
+    "categories": [
+      "Image"
+    ]
+  },
+  {
+    "name": "image-add",
+    "tags": [],
+    "categories": [
+      "Image"
+    ]
+  },
+  {
+    "name": "image-disabled",
+    "tags": [],
     "categories": [
       "Image"
     ]
@@ -2841,6 +3002,27 @@
       "statement",
       "money"
     ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "invoice-euro",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "invoice-pound",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "invoice-yen",
+    "tags": [],
     "categories": [
       "Folders & Files"
     ]
@@ -2936,6 +3118,13 @@
     ],
     "categories": [
       "Applications"
+    ]
+  },
+  {
+    "name": "last-page",
+    "tags": [],
+    "categories": [
+      "Arrows & Controls"
     ]
   },
   {
@@ -3083,11 +3272,46 @@
     ]
   },
   {
+    "name": "list-shapes",
+    "tags": [],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
     "name": "location",
     "tags": [
       "map",
       "poi"
     ],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
+    "name": "location-add",
+    "tags": [],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
+    "name": "location-add-multiple",
+    "tags": [],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
+    "name": "location-arrow",
+    "tags": [],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
+    "name": "location-disabled",
+    "tags": [],
     "categories": [
       "Location"
     ]
@@ -3186,6 +3410,20 @@
     ]
   },
   {
+    "name": "map-marker-circle",
+    "tags": [],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
+    "name": "map-marker-multiple",
+    "tags": [],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
     "name": "map-markers",
     "tags": [
       "symbol",
@@ -3267,6 +3505,13 @@
     ],
     "categories": [
       "Weather"
+    ]
+  },
+  {
+    "name": "mobile-app-version",
+    "tags": [],
+    "categories": [
+      "Devices"
     ]
   },
   {
@@ -3400,6 +3645,20 @@
     ],
     "categories": [
       "Weather"
+    ]
+  },
+  {
+    "name": "no-package",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "no-truck",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
     ]
   },
   {
@@ -3546,6 +3805,13 @@
     ]
   },
   {
+    "name": "pager",
+    "tags": [],
+    "categories": [
+      "Devices"
+    ]
+  },
+  {
     "name": "paint-bucket",
     "tags": [
       "color",
@@ -3575,6 +3841,13 @@
     ],
     "categories": [
       "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "paper-plane",
+    "tags": [],
+    "categories": [
+      "Communication & Media"
     ]
   },
   {
@@ -4087,6 +4360,13 @@
     ]
   },
   {
+    "name": "rewind",
+    "tags": [],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
     "name": "row-add",
     "tags": [
       "table",
@@ -4186,6 +4466,13 @@
       "cog",
       "grid"
     ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "row-remove",
+    "tags": [],
     "categories": [
       "Editing"
     ]
@@ -4399,6 +4686,20 @@
     ],
     "categories": [
       "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "show-less-caret",
+    "tags": [],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "show-more-caret",
+    "tags": [],
+    "categories": [
+      "Editing"
     ]
   },
   {
@@ -4864,6 +5165,27 @@
     ]
   },
   {
+    "name": "tag",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "tag-disabled",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "template",
+    "tags": [],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "text-align-left",
     "tags": [
       "alignment",
@@ -5141,6 +5463,13 @@
     ]
   },
   {
+    "name": "timesheet-approve",
+    "tags": [],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
     "name": "toggle-center",
     "tags": [],
     "categories": [
@@ -5241,6 +5570,20 @@
     ]
   },
   {
+    "name": "truck-add",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "truck-warning-delay",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "tune",
     "tags": [
       "options",
@@ -5310,6 +5653,13 @@
     ],
     "categories": [
       "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "unit-selector",
+    "tags": [],
+    "categories": [
+      "Editing"
     ]
   },
   {
@@ -5534,6 +5884,13 @@
     ],
     "categories": [
       "Devices"
+    ]
+  },
+  {
+    "name": "warehouse",
+    "tags": [],
+    "categories": [
+      "Location"
     ]
   },
   {

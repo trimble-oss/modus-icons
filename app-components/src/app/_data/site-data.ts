@@ -1191,6 +1191,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "camera-photo-add",
+        "displayName": "Camera Photo Add",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cancel-circle",
         "displayName": "Cancel Circle",
         "tags": [
@@ -1688,12 +1698,52 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "clock-checkmark",
+        "displayName": "Clock Checkmark",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-delay-warning",
+        "displayName": "Clock Delay Warning",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-delayed",
+        "displayName": "Clock Delayed",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "clock-locked",
         "displayName": "Clock Locked",
         "tags": [
           "time",
           "lock"
         ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-question-mark",
+        "displayName": "Clock Question Mark",
+        "tags": [],
         "categories": [
           "Objects & Shapes"
         ],
@@ -1828,6 +1878,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "coffee-cup",
+        "displayName": "Coffee Cup",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2029,6 +2089,46 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "comment-add",
+        "displayName": "Comment Add",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-empty",
+        "displayName": "Comment Empty",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-message",
+        "displayName": "Comment Message",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-message-disabled",
+        "displayName": "Comment Message Disabled",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "compare-arrows",
         "displayName": "Compare Arrows",
         "tags": [],
@@ -2101,6 +2201,16 @@ export const siteData = [
         ],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "costs",
+        "displayName": "Costs",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2199,6 +2309,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "data-missing",
+        "displayName": "Data Missing",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "data-transfer-off",
+        "displayName": "Data Transfer Off",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "day-mostly-cloudy",
         "displayName": "Day Mostly Cloudy",
         "tags": [
@@ -2276,6 +2406,16 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "document",
+        "displayName": "Document",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2426,6 +2566,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "edit-combination",
+        "displayName": "Edit Combination",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "email",
         "displayName": "Email",
         "tags": [
@@ -2433,6 +2583,16 @@ export const siteData = [
           "mail",
           "message"
         ],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "email-add",
+        "displayName": "Email Add",
+        "tags": [],
         "categories": [
           "Communication & Media"
         ],
@@ -3041,6 +3201,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "first-page",
+        "displayName": "First Page",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "flag",
         "displayName": "Flag",
         "tags": [
@@ -3241,6 +3411,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "forestry",
+        "displayName": "Forestry",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "forklift",
+        "displayName": "Forklift",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "frame",
         "displayName": "Frame",
         "tags": [],
@@ -3297,6 +3487,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "function",
+        "displayName": "Function",
+        "tags": [],
+        "categories": [
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3565,11 +3765,41 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "icons-shapes",
+        "displayName": "Icons Shapes",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "image",
         "displayName": "Image",
         "tags": [
           "picture"
         ],
+        "categories": [
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-add",
+        "displayName": "Image Add",
+        "tags": [],
+        "categories": [
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-disabled",
+        "displayName": "Image Disabled",
+        "tags": [],
         "categories": [
           "Image"
         ],
@@ -3672,6 +3902,36 @@ export const siteData = [
           "statement",
           "money"
         ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-euro",
+        "displayName": "Invoice Euro",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-pound",
+        "displayName": "Invoice Pound",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-yen",
+        "displayName": "Invoice Yen",
+        "tags": [],
         "categories": [
           "Folders & Files"
         ],
@@ -3800,6 +4060,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "last-page",
+        "displayName": "Last Page",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3994,12 +4264,62 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "list-shapes",
+        "displayName": "List Shapes",
+        "tags": [],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "location",
         "displayName": "Location",
         "tags": [
           "map",
           "poi"
         ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-add",
+        "displayName": "Location Add",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-add-multiple",
+        "displayName": "Location Add Multiple",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-arrow",
+        "displayName": "Location Arrow",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-disabled",
+        "displayName": "Location Disabled",
+        "tags": [],
         "categories": [
           "Location"
         ],
@@ -4127,6 +4447,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "map-marker-circle",
+        "displayName": "Map Marker Circle",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-marker-multiple",
+        "displayName": "Map Marker Multiple",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "map-markers",
         "displayName": "Map Markers",
         "tags": [
@@ -4230,6 +4570,16 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "mobile-app-version",
+        "displayName": "Mobile App Version",
+        "tags": [],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4402,6 +4752,26 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "no-package",
+        "displayName": "No Package",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "no-truck",
+        "displayName": "No Truck",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4592,6 +4962,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "pager",
+        "displayName": "Pager",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "paint-bucket",
         "displayName": "Paint Bucket",
         "tags": [
@@ -4628,6 +5008,16 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "paper-plane",
+        "displayName": "Paper Plane",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5295,6 +5685,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "rewind",
+        "displayName": "Rewind",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "row-add",
         "displayName": "Row Add",
         "tags": [
@@ -5422,6 +5822,16 @@ export const siteData = [
           "cog",
           "grid"
         ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-remove",
+        "displayName": "Row Remove",
+        "tags": [],
         "categories": [
           "Editing"
         ],
@@ -5704,6 +6114,26 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "show-less-caret",
+        "displayName": "Show Less Caret",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "show-more-caret",
+        "displayName": "Show More Caret",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6303,6 +6733,36 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "tag",
+        "displayName": "Tag",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "tag-disabled",
+        "displayName": "Tag Disabled",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "template",
+        "displayName": "Template",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-align-left",
         "displayName": "Text Align Left",
         "tags": [
@@ -6667,6 +7127,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "timesheet-approve",
+        "displayName": "Timesheet Approve",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "toggle-center",
         "displayName": "Toggle Center",
         "tags": [],
@@ -6803,6 +7273,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "truck-add",
+        "displayName": "Truck Add",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "truck-warning-delay",
+        "displayName": "Truck Warning Delay",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "tune",
         "displayName": "Tune",
         "tags": [
@@ -6891,6 +7381,16 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "unit-selector",
+        "displayName": "Unit Selector",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7178,6 +7678,16 @@ export const siteData = [
         ],
         "categories": [
           "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "warehouse",
+        "displayName": "Warehouse",
+        "tags": [],
+        "categories": [
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8666,6 +9176,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "camera-photo-add",
+        "displayName": "Camera Photo Add",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cancel-circle",
         "displayName": "Cancel Circle",
         "tags": [
@@ -9163,12 +9683,52 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "clock-checkmark",
+        "displayName": "Clock Checkmark",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-delay-warning",
+        "displayName": "Clock Delay Warning",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-delayed",
+        "displayName": "Clock Delayed",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "clock-locked",
         "displayName": "Clock Locked",
         "tags": [
           "time",
           "lock"
         ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-question-mark",
+        "displayName": "Clock Question Mark",
+        "tags": [],
         "categories": [
           "Objects & Shapes"
         ],
@@ -9303,6 +9863,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "coffee-cup",
+        "displayName": "Coffee Cup",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9504,6 +10074,46 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "comment-add",
+        "displayName": "Comment Add",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-empty",
+        "displayName": "Comment Empty",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-message",
+        "displayName": "Comment Message",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-message-disabled",
+        "displayName": "Comment Message Disabled",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "compare-arrows",
         "displayName": "Compare Arrows",
         "tags": [],
@@ -9581,6 +10191,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "costs",
+        "displayName": "Costs",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "credit-card",
         "displayName": "Credit Card",
         "tags": [
@@ -9611,6 +10231,16 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "curly-brackets",
+        "displayName": "Curly Brackets",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9669,6 +10299,26 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "data-missing",
+        "displayName": "Data Missing",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "data-transfer-off",
+        "displayName": "Data Transfer Off",
+        "tags": [],
+        "categories": [
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9751,6 +10401,16 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "document",
+        "displayName": "Document",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9901,6 +10561,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "edit-combination",
+        "displayName": "Edit Combination",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "email",
         "displayName": "Email",
         "tags": [
@@ -9908,6 +10578,16 @@ export const siteData = [
           "mail",
           "message"
         ],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "email-add",
+        "displayName": "Email Add",
+        "tags": [],
         "categories": [
           "Communication & Media"
         ],
@@ -10516,6 +11196,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "first-page",
+        "displayName": "First Page",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "flag",
         "displayName": "Flag",
         "tags": [
@@ -10716,6 +11406,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "forestry",
+        "displayName": "Forestry",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "forklift",
+        "displayName": "Forklift",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "frame",
         "displayName": "Frame",
         "tags": [],
@@ -10772,6 +11482,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "function",
+        "displayName": "Function",
+        "tags": [],
+        "categories": [
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -11040,11 +11760,41 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "icons-shapes",
+        "displayName": "Icons Shapes",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "image",
         "displayName": "Image",
         "tags": [
           "picture"
         ],
+        "categories": [
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-add",
+        "displayName": "Image Add",
+        "tags": [],
+        "categories": [
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-disabled",
+        "displayName": "Image Disabled",
+        "tags": [],
         "categories": [
           "Image"
         ],
@@ -11147,6 +11897,36 @@ export const siteData = [
           "statement",
           "money"
         ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-euro",
+        "displayName": "Invoice Euro",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-pound",
+        "displayName": "Invoice Pound",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-yen",
+        "displayName": "Invoice Yen",
+        "tags": [],
         "categories": [
           "Folders & Files"
         ],
@@ -11275,6 +12055,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "last-page",
+        "displayName": "Last Page",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -11469,12 +12259,62 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "list-shapes",
+        "displayName": "List Shapes",
+        "tags": [],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "location",
         "displayName": "Location",
         "tags": [
           "map",
           "poi"
         ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-add",
+        "displayName": "Location Add",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-add-multiple",
+        "displayName": "Location Add Multiple",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-arrow",
+        "displayName": "Location Arrow",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-disabled",
+        "displayName": "Location Disabled",
+        "tags": [],
         "categories": [
           "Location"
         ],
@@ -11602,6 +12442,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "map-marker-circle",
+        "displayName": "Map Marker Circle",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-marker-multiple",
+        "displayName": "Map Marker Multiple",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "map-markers",
         "displayName": "Map Markers",
         "tags": [
@@ -11705,6 +12565,16 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "mobile-app-version",
+        "displayName": "Mobile App Version",
+        "tags": [],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -11877,6 +12747,26 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "no-package",
+        "displayName": "No Package",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "no-truck",
+        "displayName": "No Truck",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -12067,6 +12957,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "pager",
+        "displayName": "Pager",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "paint-bucket",
         "displayName": "Paint Bucket",
         "tags": [
@@ -12103,6 +13003,16 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "paper-plane",
+        "displayName": "Paper Plane",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -12770,6 +13680,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "rewind",
+        "displayName": "Rewind",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "row-add",
         "displayName": "Row Add",
         "tags": [
@@ -12897,6 +13817,16 @@ export const siteData = [
           "cog",
           "grid"
         ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-remove",
+        "displayName": "Row Remove",
+        "tags": [],
         "categories": [
           "Editing"
         ],
@@ -13179,6 +14109,26 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "show-less-caret",
+        "displayName": "Show Less Caret",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "show-more-caret",
+        "displayName": "Show More Caret",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -13778,6 +14728,36 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "tag",
+        "displayName": "Tag",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "tag-disabled",
+        "displayName": "Tag Disabled",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "template",
+        "displayName": "Template",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-align-left",
         "displayName": "Text Align Left",
         "tags": [
@@ -14142,6 +15122,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "timesheet-approve",
+        "displayName": "Timesheet Approve",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "toggle-center",
         "displayName": "Toggle Center",
         "tags": [],
@@ -14278,6 +15268,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "truck-add",
+        "displayName": "Truck Add",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "truck-warning-delay",
+        "displayName": "Truck Warning Delay",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "tune",
         "displayName": "Tune",
         "tags": [
@@ -14366,6 +15376,16 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "unit-selector",
+        "displayName": "Unit Selector",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -14653,6 +15673,16 @@ export const siteData = [
         ],
         "categories": [
           "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "warehouse",
+        "displayName": "Warehouse",
+        "tags": [],
+        "categories": [
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -15421,14 +16451,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "location-arrow",
-        "displayName": "Location Arrow",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "manage-places",
         "displayName": "Manage Places",
         "tags": [],
@@ -15551,16 +16573,6 @@ export const siteData = [
         "displayName": "Orders",
         "tags": [
           "documents"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "paper-plane",
-        "displayName": "Paper Plane",
-        "tags": [
-          "send"
         ],
         "categories": [],
         "deprecated": false,

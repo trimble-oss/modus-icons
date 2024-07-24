@@ -13,6 +13,7 @@
     "svgo",
     "ttf2eot",
     "ttf2woff",
+    "ttf2woff2",
     "url-join"
   ]
 }

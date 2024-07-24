@@ -5443,7 +5443,20 @@
   {
     "name": "timesheet",
     "tags": [
-      "document"
+      "clock",
+      "document",
+      "file"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "timesheet-approve",
+    "tags": [
+      "check",
+      "document",
+      "file"
     ],
     "categories": [
       "Folders & Files"

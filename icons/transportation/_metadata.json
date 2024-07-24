@@ -310,11 +310,6 @@
     "categories": []
   },
   {
-    "name": "location-arrow",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "manage-places",
     "tags": [],
     "categories": []
@@ -397,13 +392,6 @@
     "name": "orders",
     "tags": [
       "documents"
-    ],
-    "categories": []
-  },
-  {
-    "name": "paper-plane",
-    "tags": [
-      "send"
     ],
     "categories": []
   },

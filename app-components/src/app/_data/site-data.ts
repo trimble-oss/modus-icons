@@ -2251,6 +2251,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "curly-brackets",
+        "displayName": "Curly Brackets",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cursor",
         "displayName": "Cursor",
         "tags": [
@@ -15110,11 +15120,7 @@ export const siteData = [
       {
         "name": "timesheet-approve",
         "displayName": "Timesheet Approve",
-        "tags": [
-          "check",
-          "document",
-          "file"
-        ],
+        "tags": [],
         "categories": [
           "Folders & Files"
         ],

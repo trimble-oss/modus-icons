@@ -1,22 +1,4 @@
 {{- if not hugo.IsServer -}}
-<script>
-  if (window.location.host === "modus-icons.trimble.com") {
-    var script = document.createElement("script");
-    script.defer = true;
-    script.setAttribute("data-domain", "modus-icons.trimble.com");
-    script.src =
-      "https://plausible.io/js/script.outbound-links.file-downloads.js";
-    document.head.appendChild(script);
-  }
-</script>
-<script>
-  window.plausible =
-    window.plausible ||
-    function () {
-      (window.plausible.q = window.plausible.q || []).push(arguments);
-    };
-</script>
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y98EH56VN8" fetchpriority="low"></script>
 <script>

@@ -5644,6 +5644,7 @@
     "name": "unfold-less",
     "tags": [
       "arrow",
+      "collapse",
       "up",
       "down"
     ],
@@ -5655,6 +5656,7 @@
     "name": "unfold-more",
     "tags": [
       "arrow",
+      "expand",
       "up",
       "down"
     ],

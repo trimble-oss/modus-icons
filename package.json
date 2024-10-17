@@ -91,5 +91,8 @@
   ],
   "hugo-bin": {
     "buildTags": "extended"
+  },
+  "volta": {
+    "node": "18.20.4"
   }
 }

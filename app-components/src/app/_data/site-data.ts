@@ -7372,6 +7372,7 @@ export const siteData = [
         "displayName": "Unfold Less",
         "tags": [
           "arrow",
+          "collapse",
           "up",
           "down"
         ],
@@ -7386,6 +7387,7 @@ export const siteData = [
         "displayName": "Unfold More",
         "tags": [
           "arrow",
+          "expand",
           "up",
           "down"
         ],
@@ -15363,6 +15365,7 @@ export const siteData = [
         "displayName": "Unfold Less",
         "tags": [
           "arrow",
+          "collapse",
           "up",
           "down"
         ],
@@ -15377,6 +15380,7 @@ export const siteData = [
         "displayName": "Unfold More",
         "tags": [
           "arrow",
+          "expand",
           "up",
           "down"
         ],

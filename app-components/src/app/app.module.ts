@@ -12,17 +12,16 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  declarations: [SearchComponent, SetComponent, FilterPipe, SvgcssComponent],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    BsDropdownModule.forRoot(),
-    BrowserAnimationsModule,
-  ],
-  entryComponents: [SearchComponent, SetComponent],
-  providers: [
+    declarations: [SearchComponent, SetComponent, FilterPipe, SvgcssComponent],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        BsDropdownModule.forRoot(),
+        BrowserAnimationsModule,
+    ],
+    providers: [
     // { provide: OverlayContainer, useClass: CdkOverlayContainer }
-  ],
+    ]
 })
 export class AppModule {
   constructor(private injector: Injector) {

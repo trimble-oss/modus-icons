@@ -45,6 +45,8 @@ module:
       target:           static/modus-solid-icons.svg
     - source:           dist/transportation/sprites/modus-icons.svg
       target:           static/transportation-icons.svg
+    - source:           dist/field-systems/sprites/modus-icons.svg
+      target:           static/field-systems-icons.svg
     - source:           dist/modus-solid/fonts/
       target:           static/fonts/
     - source:           node_modules/bootstrap/dist/js/bootstrap.bundle.min.js

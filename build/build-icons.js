@@ -24,7 +24,7 @@ async function processFile(filepath, config, outDir) {
   const basename = path.basename(filepath, '.svg');
 
   const originalSvg = await fs.readFile(filepath, 'utf8');
-  const { data: optimizedSvg } = await optimize(originalSvg, {
+  const { data: optimizedSvg } = optimize(originalSvg, {
     path: filepath,
     ...config,
   });
@@ -71,7 +71,9 @@ function buildIcons(config) {
       );
 
       await Promise.all(
-        files.map((file) => processFile(file, svgoConfig, dstDirectoryPathSvg))
+        files.map((filePath) => {
+          processFile(filePath, svgoConfig, dstDirectoryPathSvg);
+        })
       );
     } catch (error) {
       console.error(error);

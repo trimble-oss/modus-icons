@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  {{ partial "head" . }}
+  {{ partial "analytics" . }}
+</head>
+
+<body id="icons-body">
+  {{ partialCached "skippy" . }}
+  {{ partialCached "navbar" . }}
+
+  <main class="container" id="content">
+    {{- partial "set-nav-search" . -}}
+    {{ partialCached "icons-field-systems" . }}
+    {{ partial "usage" (dict "context" . "iconset" "field-systems") }}
+    {{ .Content }}
+  </main>
+
+  {{- partialCached "footer" . }}
+  {{- partialCached "scripts" . }}
+
+</body>
+
+</html>

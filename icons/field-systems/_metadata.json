@@ -1,0 +1,702 @@
+[
+  {
+    "name": "360",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "add_box",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "add_circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "add_circle_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "add_user",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "archive",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_back",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_back_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_downward",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_downward_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_drop_down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_drop_down_circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_drop_up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_forward",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_forward_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_next",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_prev",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_upward",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_upward_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "ascending",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "attach_file",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "background_dark",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "background_light",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "base_station",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "block",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "call",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "camera_alt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cancel",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cancel_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cb460",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "check_circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron_left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron_right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud_download",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud_off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud_queue",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud_upload",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "compactor",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "company",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "content_copy",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "create",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "delete_forever",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "descending",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "design_package",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "devices_group",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "devices_status",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "dozer",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "event",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "exit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand_less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand_more",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expander",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "eye_visibility",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "eye_visibility_off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "favorite",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "favorite_border",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file_add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file_download",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file_upload",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "first_page",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder_create_new",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder_open",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder_permissions",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder_project",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder_shared",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder_special",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "fullscreen",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "fullscreen_exit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gps",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "hard_hat",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "help_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "highlight_off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "image_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "import",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "import_export",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "inbox",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "info_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "last_page",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layers",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layers_clear",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "link_off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "list",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "location_off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "lock_open",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "lock_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "machine",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "machines",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "mail_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "measure_up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "menu_alt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "menu_close",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "menu_open",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "more_horiz",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "more_vert",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "notifications_none",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "notifications_off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "place",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "placeholder",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "print",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "profile",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "projects",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "public",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "read_only",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "release",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "remove_circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "remove_circle_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rotate_left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rotate_left_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rotate_right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rotate_right_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "save",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "self_registration",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "send",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "star_border",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "star_half",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "subdirectory_arrow_left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "subdirectory_arrow_right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "subtract",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "support",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sync_filled",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "tag_outlined",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "toc",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "todo",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "todo_add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "tsc7",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "udf",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unarchive",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unfold_less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unfold_more",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "user",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "users",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "videocam",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view_agenda",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view_column",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view_list",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view_module",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "workers_queue",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom_center",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom_extents",
+    "tags": [],
+    "categories": []
+  }
+]

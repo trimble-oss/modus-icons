@@ -92,6 +92,22 @@
             </div>
           </div>
         </div>
+        <div class="col-12 col-md-6">
+          <div class="card card-home border mb-3">
+            <div class="card-header bg-light border-0 text-center">
+              {{ partialCached "home/home-card-field-systems-icons" (dict "context" . "iconset" "field-systems") }}
+              </div>
+              <div class="card-body bg-light my-0 py-0">
+                <a href="/field-systems/" class="text-decoration-none stretched-link h2">
+                  field-systems
+                </a>
+              </div>
+              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0 mt-1">
+              {{ len (where .Site.RegularPages "Section" "=" "field-systems") }}
+              icons (includes all icons from Modus Solid)
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 

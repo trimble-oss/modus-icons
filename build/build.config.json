@@ -10,5 +10,9 @@
   {
     "svgs": ["modus-solid", "transportation"],
     "dist": "transportation"
+  },
+  {
+    "svgs": ["modus-solid", "field-systems"],
+    "dist": "field-systems"
   }
 ]

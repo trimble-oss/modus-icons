@@ -31,6 +31,7 @@ module.exports = {
         attrs: ['clip-rule', 'data-name', 'fill', 'id'],
       },
     },
+    { name: 'removeXlink' },
     // Custom plugin which resets the SVG attributes to explicit values
     {
       name: 'explicitAttrs',

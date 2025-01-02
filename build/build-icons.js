@@ -72,7 +72,7 @@ function buildIcons(config) {
 
       await Promise.all(
         files.map((filePath) => {
-          processFile(filePath, svgoConfig, dstDirectoryPathSvg);
+          return processFile(filePath, svgoConfig, dstDirectoryPathSvg);
         })
       );
     } catch (error) {

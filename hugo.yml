@@ -75,6 +75,9 @@ menu:
       url: "/transportation/"
       pre: "<div class='h5 ms-3 mt-3 opacity-50'>Trimble Sectors</div>"
       weight: 3
+    - name: Field Systems
+      url: "/field-systems/"
+      weight: 4
 
 # https://gohugo.io/getting-started/configuration/#configure-minify
 minify:

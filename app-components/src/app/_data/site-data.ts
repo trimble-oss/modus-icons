@@ -17069,40 +17069,24 @@ export const siteData = [
     "type": "sector",
     "icons": [
       {
-        "name": "360",
-        "displayName": "360",
+        "name": "add-box",
+        "displayName": "Add Box",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "add_box",
-        "displayName": "Add_box",
+        "name": "add-circle-outline",
+        "displayName": "Add Circle Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "add_circle",
-        "displayName": "Add_circle",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "add_circle_outline",
-        "displayName": "Add_circle_outline",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "add_user",
-        "displayName": "Add_user",
+        "name": "add-user",
+        "displayName": "Add User",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17117,104 +17101,88 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "arrow_back",
-        "displayName": "Arrow_back",
+        "name": "arrow-back-outline",
+        "displayName": "Arrow Back Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow_back_outline",
-        "displayName": "Arrow_back_outline",
+        "name": "arrow-downward",
+        "displayName": "Arrow Downward",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow_downward",
-        "displayName": "Arrow_downward",
+        "name": "arrow-downward-outline",
+        "displayName": "Arrow Downward Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow_downward_outline",
-        "displayName": "Arrow_downward_outline",
+        "name": "arrow-drop-down",
+        "displayName": "Arrow Drop Down",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow_drop_down",
-        "displayName": "Arrow_drop_down",
+        "name": "arrow-drop-down-circle",
+        "displayName": "Arrow Drop Down Circle",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow_drop_down_circle",
-        "displayName": "Arrow_drop_down_circle",
+        "name": "arrow-drop-up",
+        "displayName": "Arrow Drop Up",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow_drop_up",
-        "displayName": "Arrow_drop_up",
+        "name": "arrow-forward",
+        "displayName": "Arrow Forward",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow_forward",
-        "displayName": "Arrow_forward",
+        "name": "arrow-forward-outline",
+        "displayName": "Arrow Forward Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow_forward_outline",
-        "displayName": "Arrow_forward_outline",
+        "name": "arrow-prev",
+        "displayName": "Arrow Prev",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow_next",
-        "displayName": "Arrow_next",
+        "name": "arrow-upward",
+        "displayName": "Arrow Upward",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow_prev",
-        "displayName": "Arrow_prev",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "arrow_upward",
-        "displayName": "Arrow_upward",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "arrow_upward_outline",
-        "displayName": "Arrow_upward_outline",
+        "name": "arrow-upward-outline",
+        "displayName": "Arrow Upward Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17229,32 +17197,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "attach_file",
-        "displayName": "Attach_file",
+        "name": "attach-file",
+        "displayName": "Attach File",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "background_dark",
-        "displayName": "Background_dark",
+        "name": "background-dark",
+        "displayName": "Background Dark",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "background_light",
-        "displayName": "Background_light",
+        "name": "background-light",
+        "displayName": "Background Light",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "base_station",
-        "displayName": "Base_station",
+        "name": "base-station",
+        "displayName": "Base Station",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17277,8 +17245,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "camera_alt",
-        "displayName": "Camera_alt",
+        "name": "camera-alt",
+        "displayName": "Camera Alt",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17293,8 +17261,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "cancel_outline",
-        "displayName": "Cancel_outline",
+        "name": "cancel-outline",
+        "displayName": "Cancel Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17309,56 +17277,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "check_circle",
-        "displayName": "Check_circle",
+        "name": "cloud-off",
+        "displayName": "Cloud Off",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "chevron_left",
-        "displayName": "Chevron_left",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "chevron_right",
-        "displayName": "Chevron_right",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cloud_download",
-        "displayName": "Cloud_download",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cloud_off",
-        "displayName": "Cloud_off",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cloud_queue",
-        "displayName": "Cloud_queue",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cloud_upload",
-        "displayName": "Cloud_upload",
+        "name": "cloud-queue",
+        "displayName": "Cloud Queue",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17381,8 +17309,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "content_copy",
-        "displayName": "Content_copy",
+        "name": "content-copy",
+        "displayName": "Content Copy",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17397,8 +17325,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "delete_forever",
-        "displayName": "Delete_forever",
+        "name": "delete-forever",
+        "displayName": "Delete Forever",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17413,24 +17341,24 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "design_package",
-        "displayName": "Design_package",
+        "name": "design-package",
+        "displayName": "Design Package",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "devices_group",
-        "displayName": "Devices_group",
+        "name": "devices-group",
+        "displayName": "Devices Group",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "devices_status",
-        "displayName": "Devices_status",
+        "name": "devices-status",
+        "displayName": "Devices Status",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17461,22 +17389,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "expand_less",
-        "displayName": "Expand_less",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "expand_more",
-        "displayName": "Expand_more",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "expander",
         "displayName": "Expander",
         "tags": [],
@@ -17485,16 +17397,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "eye_visibility",
-        "displayName": "Eye_visibility",
+        "name": "eye-visibility",
+        "displayName": "Eye Visibility",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "eye_visibility_off",
-        "displayName": "Eye_visibility_off",
+        "name": "eye-visibility-off",
+        "displayName": "Eye Visibility Off",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17509,40 +17421,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "favorite_border",
-        "displayName": "Favorite_border",
+        "name": "favorite-border",
+        "displayName": "Favorite Border",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "file_add",
-        "displayName": "File_add",
+        "name": "file-add",
+        "displayName": "File Add",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "file_download",
-        "displayName": "File_download",
+        "name": "file-download",
+        "displayName": "File Download",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "file_upload",
-        "displayName": "File_upload",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "first_page",
-        "displayName": "First_page",
+        "name": "file-upload",
+        "displayName": "File Upload",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17557,48 +17461,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "folder_create_new",
-        "displayName": "Folder_create_new",
+        "name": "folder-create-new",
+        "displayName": "Folder Create New",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "folder_open",
-        "displayName": "Folder_open",
+        "name": "folder-permissions",
+        "displayName": "Folder Permissions",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "folder_permissions",
-        "displayName": "Folder_permissions",
+        "name": "folder-shared",
+        "displayName": "Folder Shared",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "folder_project",
-        "displayName": "Folder_project",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder_shared",
-        "displayName": "Folder_shared",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder_special",
-        "displayName": "Folder_special",
+        "name": "folder-special",
+        "displayName": "Folder Special",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17613,8 +17501,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "fullscreen_exit",
-        "displayName": "Fullscreen_exit",
+        "name": "fullscreen-exit",
+        "displayName": "Fullscreen Exit",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17629,32 +17517,24 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "hard_hat",
-        "displayName": "Hard_hat",
+        "name": "help-outline",
+        "displayName": "Help Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "help_outline",
-        "displayName": "Help_outline",
+        "name": "highlight-off",
+        "displayName": "Highlight Off",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "highlight_off",
-        "displayName": "Highlight_off",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "image_outline",
-        "displayName": "Image_outline",
+        "name": "image-outline",
+        "displayName": "Image Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17669,8 +17549,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "import_export",
-        "displayName": "Import_export",
+        "name": "import-export",
+        "displayName": "Import Export",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17685,16 +17565,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "info_outline",
-        "displayName": "Info_outline",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "last_page",
-        "displayName": "Last_page",
+        "name": "info-outline",
+        "displayName": "Info Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17709,16 +17581,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "layers_clear",
-        "displayName": "Layers_clear",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "link_off",
-        "displayName": "Link_off",
+        "name": "layers-clear",
+        "displayName": "Layers Clear",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17733,24 +17597,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "location_off",
-        "displayName": "Location_off",
+        "name": "location-off",
+        "displayName": "Location Off",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "lock_open",
-        "displayName": "Lock_open",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "lock_outline",
-        "displayName": "Lock_outline",
+        "name": "lock-outline",
+        "displayName": "Lock Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17773,72 +17629,64 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "mail_outline",
-        "displayName": "Mail_outline",
+        "name": "mail-outline",
+        "displayName": "Mail Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "measure_up",
-        "displayName": "Measure_up",
+        "name": "measure-up",
+        "displayName": "Measure Up",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "menu_alt",
-        "displayName": "Menu_alt",
+        "name": "menu-alt",
+        "displayName": "Menu Alt",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "menu_close",
-        "displayName": "Menu_close",
+        "name": "menu-close",
+        "displayName": "Menu Close",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "menu_open",
-        "displayName": "Menu_open",
+        "name": "menu-open",
+        "displayName": "Menu Open",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "more_horiz",
-        "displayName": "More_horiz",
+        "name": "more-horiz",
+        "displayName": "More Horiz",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "more_vert",
-        "displayName": "More_vert",
+        "name": "more-vert",
+        "displayName": "More Vert",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "notifications_none",
-        "displayName": "Notifications_none",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "notifications_off",
-        "displayName": "Notifications_off",
+        "name": "notifications-none",
+        "displayName": "Notifications None",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17893,8 +17741,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "read_only",
-        "displayName": "Read_only",
+        "name": "read-only",
+        "displayName": "Read Only",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17909,48 +17757,40 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "remove_circle",
-        "displayName": "Remove_circle",
+        "name": "remove-circle-outline",
+        "displayName": "Remove Circle Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "remove_circle_outline",
-        "displayName": "Remove_circle_outline",
+        "name": "rotate-left",
+        "displayName": "Rotate Left",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "rotate_left",
-        "displayName": "Rotate_left",
+        "name": "rotate-left-outline",
+        "displayName": "Rotate Left Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "rotate_left_outline",
-        "displayName": "Rotate_left_outline",
+        "name": "rotate-right",
+        "displayName": "Rotate Right",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "rotate_right",
-        "displayName": "Rotate_right",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rotate_right_outline",
-        "displayName": "Rotate_right_outline",
+        "name": "rotate-right-outline",
+        "displayName": "Rotate Right Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17965,8 +17805,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "self_registration",
-        "displayName": "Self_registration",
+        "name": "self-registration",
+        "displayName": "Self Registration",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17981,32 +17821,24 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "star_border",
-        "displayName": "Star_border",
+        "name": "star-border",
+        "displayName": "Star Border",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "star_half",
-        "displayName": "Star_half",
+        "name": "subdirectory-arrow-left",
+        "displayName": "Subdirectory Arrow Left",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "subdirectory_arrow_left",
-        "displayName": "Subdirectory_arrow_left",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "subdirectory_arrow_right",
-        "displayName": "Subdirectory_arrow_right",
+        "name": "subdirectory-arrow-right",
+        "displayName": "Subdirectory Arrow Right",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -18029,16 +17861,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "sync_filled",
-        "displayName": "Sync_filled",
+        "name": "sync-filled",
+        "displayName": "Sync Filled",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "tag_outlined",
-        "displayName": "Tag_outlined",
+        "name": "tag-outlined",
+        "displayName": "Tag Outlined",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -18061,8 +17893,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "todo_add",
-        "displayName": "Todo_add",
+        "name": "todo-add",
+        "displayName": "Todo Add",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -18093,22 +17925,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "unfold_less",
-        "displayName": "Unfold_less",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "unfold_more",
-        "displayName": "Unfold_more",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "user",
         "displayName": "User",
         "tags": [],
@@ -18133,56 +17949,48 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "view_agenda",
-        "displayName": "View_agenda",
+        "name": "view-agenda",
+        "displayName": "View Agenda",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "view_column",
-        "displayName": "View_column",
+        "name": "view-column",
+        "displayName": "View Column",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "view_list",
-        "displayName": "View_list",
+        "name": "view-module",
+        "displayName": "View Module",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "view_module",
-        "displayName": "View_module",
+        "name": "workers-queue",
+        "displayName": "Workers Queue",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "workers_queue",
-        "displayName": "Workers_queue",
+        "name": "zoom-center",
+        "displayName": "Zoom Center",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "zoom_center",
-        "displayName": "Zoom_center",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "zoom_extents",
-        "displayName": "Zoom_extents",
+        "name": "zoom-extents",
+        "displayName": "Zoom Extents",
         "tags": [],
         "categories": [],
         "deprecated": false,

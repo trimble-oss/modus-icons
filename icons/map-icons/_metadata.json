@@ -54,6 +54,33 @@
     ]
   },
   {
+    "name": "order-1",
+    "tags": [
+      "order,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "order-2",
+    "tags": [
+      "order,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "order-3",
+    "tags": [
+      "order,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
     "name": "shop-icon",
     "tags": [
       "shop,map icon"
@@ -162,9 +189,90 @@
     ]
   },
   {
+    "name": "tender-1",
+    "tags": [
+      "tender,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "tender-2",
+    "tags": [
+      "tender,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "tender-3",
+    "tags": [
+      "tender,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "trailer-1",
+    "tags": [
+      "trailer,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "trailer-2",
+    "tags": [
+      "trailer,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "trailer-3",
+    "tags": [
+      "trailer,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
     "name": "trailer-icon",
     "tags": [
       "trailer,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "truck-1",
+    "tags": [
+      "truck,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "truck-2",
+    "tags": [
+      "truck,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "truck-3",
+    "tags": [
+      "truck,map icon"
     ],
     "categories": [
       "map-icons"

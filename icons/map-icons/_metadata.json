@@ -54,7 +54,7 @@
     ]
   },
   {
-    "name": "shop-1",
+    "name": "shop-icon",
     "tags": [
       "shop,map icon"
     ],
@@ -156,6 +156,33 @@
     "name": "terminal-B3",
     "tags": [
       "terminal,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "trailer-icon",
+    "tags": [
+      "trailer,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "truck-icon",
+    "tags": [
+      "truck,map icon"
+    ],
+    "categories": [
+      "map-icons"
+    ]
+  },
+  {
+    "name": "yard-icon",
+    "tags": [
+      "yard,map icon"
     ],
     "categories": [
       "map-icons"

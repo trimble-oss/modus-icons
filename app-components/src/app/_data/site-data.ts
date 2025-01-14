@@ -17325,8 +17325,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "corner",
-        "displayName": "Corner",
+        "name": "corner-2",
+        "displayName": "Corner 2",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17509,8 +17509,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "image_square",
-        "displayName": "Image_square",
+        "name": "image-square-outline",
+        "displayName": "Image Square Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,

@@ -1,16 +1,26 @@
 [
   {
-    "name": "add-box",
+    "name": "360",
     "tags": [],
     "categories": []
   },
   {
-    "name": "add-circle-outline",
+    "name": "add_box",
     "tags": [],
     "categories": []
   },
   {
-    "name": "add-user",
+    "name": "add_circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "add_circle_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "add_user",
     "tags": [],
     "categories": []
   },
@@ -20,57 +30,67 @@
     "categories": []
   },
   {
-    "name": "arrow-back-outline",
+    "name": "arrow_back",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow-downward",
+    "name": "arrow_back_outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow-downward-outline",
+    "name": "arrow_downward",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow-drop-down",
+    "name": "arrow_downward_outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow-drop-down-circle",
+    "name": "arrow_drop_down",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow-drop-up",
+    "name": "arrow_drop_down_circle",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow-forward",
+    "name": "arrow_drop_up",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow-forward-outline",
+    "name": "arrow_forward",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow-prev",
+    "name": "arrow_forward_outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow-upward",
+    "name": "arrow_next",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow-upward-outline",
+    "name": "arrow_prev",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_upward",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow_upward_outline",
     "tags": [],
     "categories": []
   },
@@ -80,22 +100,22 @@
     "categories": []
   },
   {
-    "name": "attach-file",
+    "name": "attach_file",
     "tags": [],
     "categories": []
   },
   {
-    "name": "background-dark",
+    "name": "background_dark",
     "tags": [],
     "categories": []
   },
   {
-    "name": "background-light",
+    "name": "background_light",
     "tags": [],
     "categories": []
   },
   {
-    "name": "base-station",
+    "name": "base_station",
     "tags": [],
     "categories": []
   },
@@ -110,7 +130,7 @@
     "categories": []
   },
   {
-    "name": "camera-alt",
+    "name": "camera_alt",
     "tags": [],
     "categories": []
   },
@@ -120,7 +140,7 @@
     "categories": []
   },
   {
-    "name": "cancel-outline",
+    "name": "cancel_outline",
     "tags": [],
     "categories": []
   },
@@ -130,12 +150,37 @@
     "categories": []
   },
   {
-    "name": "cloud-off",
+    "name": "check_circle",
     "tags": [],
     "categories": []
   },
   {
-    "name": "cloud-queue",
+    "name": "chevron_left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron_right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud_download",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud_off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud_queue",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud_upload",
     "tags": [],
     "categories": []
   },
@@ -150,7 +195,7 @@
     "categories": []
   },
   {
-    "name": "content-copy",
+    "name": "content_copy",
     "tags": [],
     "categories": []
   },
@@ -160,7 +205,7 @@
     "categories": []
   },
   {
-    "name": "delete-forever",
+    "name": "delete_forever",
     "tags": [],
     "categories": []
   },
@@ -170,17 +215,17 @@
     "categories": []
   },
   {
-    "name": "design-package",
+    "name": "design_package",
     "tags": [],
     "categories": []
   },
   {
-    "name": "devices-group",
+    "name": "devices_group",
     "tags": [],
     "categories": []
   },
   {
-    "name": "devices-status",
+    "name": "devices_status",
     "tags": [],
     "categories": []
   },
@@ -200,17 +245,27 @@
     "categories": []
   },
   {
+    "name": "expand_less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand_more",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "expander",
     "tags": [],
     "categories": []
   },
   {
-    "name": "eye-visibility",
+    "name": "eye_visibility",
     "tags": [],
     "categories": []
   },
   {
-    "name": "eye-visibility-off",
+    "name": "eye_visibility_off",
     "tags": [],
     "categories": []
   },
@@ -220,22 +275,27 @@
     "categories": []
   },
   {
-    "name": "favorite-border",
+    "name": "favorite_border",
     "tags": [],
     "categories": []
   },
   {
-    "name": "file-add",
+    "name": "file_add",
     "tags": [],
     "categories": []
   },
   {
-    "name": "file-download",
+    "name": "file_download",
     "tags": [],
     "categories": []
   },
   {
-    "name": "file-upload",
+    "name": "file_upload",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "first_page",
     "tags": [],
     "categories": []
   },
@@ -245,22 +305,32 @@
     "categories": []
   },
   {
-    "name": "folder-create-new",
+    "name": "folder_create_new",
     "tags": [],
     "categories": []
   },
   {
-    "name": "folder-permissions",
+    "name": "folder_open",
     "tags": [],
     "categories": []
   },
   {
-    "name": "folder-shared",
+    "name": "folder_permissions",
     "tags": [],
     "categories": []
   },
   {
-    "name": "folder-special",
+    "name": "folder_project",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder_shared",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder_special",
     "tags": [],
     "categories": []
   },
@@ -270,7 +340,7 @@
     "categories": []
   },
   {
-    "name": "fullscreen-exit",
+    "name": "fullscreen_exit",
     "tags": [],
     "categories": []
   },
@@ -280,17 +350,22 @@
     "categories": []
   },
   {
-    "name": "help-outline",
+    "name": "hard_hat",
     "tags": [],
     "categories": []
   },
   {
-    "name": "highlight-off",
+    "name": "help_outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "image-outline",
+    "name": "highlight_off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "image_outline",
     "tags": [],
     "categories": []
   },
@@ -300,7 +375,7 @@
     "categories": []
   },
   {
-    "name": "import-export",
+    "name": "import_export",
     "tags": [],
     "categories": []
   },
@@ -310,7 +385,12 @@
     "categories": []
   },
   {
-    "name": "info-outline",
+    "name": "info_outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "last_page",
     "tags": [],
     "categories": []
   },
@@ -320,7 +400,12 @@
     "categories": []
   },
   {
-    "name": "layers-clear",
+    "name": "layers_clear",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "link_off",
     "tags": [],
     "categories": []
   },
@@ -330,12 +415,17 @@
     "categories": []
   },
   {
-    "name": "location-off",
+    "name": "location_off",
     "tags": [],
     "categories": []
   },
   {
-    "name": "lock-outline",
+    "name": "lock_open",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "lock_outline",
     "tags": [],
     "categories": []
   },
@@ -350,42 +440,47 @@
     "categories": []
   },
   {
-    "name": "mail-outline",
+    "name": "mail_outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "measure-up",
+    "name": "measure_up",
     "tags": [],
     "categories": []
   },
   {
-    "name": "menu-alt",
+    "name": "menu_alt",
     "tags": [],
     "categories": []
   },
   {
-    "name": "menu-close",
+    "name": "menu_close",
     "tags": [],
     "categories": []
   },
   {
-    "name": "menu-open",
+    "name": "menu_open",
     "tags": [],
     "categories": []
   },
   {
-    "name": "more-horiz",
+    "name": "more_horiz",
     "tags": [],
     "categories": []
   },
   {
-    "name": "more-vert",
+    "name": "more_vert",
     "tags": [],
     "categories": []
   },
   {
-    "name": "notifications-none",
+    "name": "notifications_none",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "notifications_off",
     "tags": [],
     "categories": []
   },
@@ -420,7 +515,7 @@
     "categories": []
   },
   {
-    "name": "read-only",
+    "name": "read_only",
     "tags": [],
     "categories": []
   },
@@ -430,27 +525,32 @@
     "categories": []
   },
   {
-    "name": "remove-circle-outline",
+    "name": "remove_circle",
     "tags": [],
     "categories": []
   },
   {
-    "name": "rotate-left",
+    "name": "remove_circle_outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "rotate-left-outline",
+    "name": "rotate_left",
     "tags": [],
     "categories": []
   },
   {
-    "name": "rotate-right",
+    "name": "rotate_left_outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "rotate-right-outline",
+    "name": "rotate_right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rotate_right_outline",
     "tags": [],
     "categories": []
   },
@@ -460,7 +560,7 @@
     "categories": []
   },
   {
-    "name": "self-registration",
+    "name": "self_registration",
     "tags": [],
     "categories": []
   },
@@ -470,17 +570,22 @@
     "categories": []
   },
   {
-    "name": "star-border",
+    "name": "star_border",
     "tags": [],
     "categories": []
   },
   {
-    "name": "subdirectory-arrow-left",
+    "name": "star_half",
     "tags": [],
     "categories": []
   },
   {
-    "name": "subdirectory-arrow-right",
+    "name": "subdirectory_arrow_left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "subdirectory_arrow_right",
     "tags": [],
     "categories": []
   },
@@ -495,12 +600,12 @@
     "categories": []
   },
   {
-    "name": "sync-filled",
+    "name": "sync_filled",
     "tags": [],
     "categories": []
   },
   {
-    "name": "tag-outlined",
+    "name": "tag_outlined",
     "tags": [],
     "categories": []
   },
@@ -515,7 +620,7 @@
     "categories": []
   },
   {
-    "name": "todo-add",
+    "name": "todo_add",
     "tags": [],
     "categories": []
   },
@@ -535,6 +640,16 @@
     "categories": []
   },
   {
+    "name": "unfold_less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unfold_more",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "user",
     "tags": [],
     "categories": []
@@ -550,32 +665,37 @@
     "categories": []
   },
   {
-    "name": "view-agenda",
+    "name": "view_agenda",
     "tags": [],
     "categories": []
   },
   {
-    "name": "view-column",
+    "name": "view_column",
     "tags": [],
     "categories": []
   },
   {
-    "name": "view-module",
+    "name": "view_list",
     "tags": [],
     "categories": []
   },
   {
-    "name": "workers-queue",
+    "name": "view_module",
     "tags": [],
     "categories": []
   },
   {
-    "name": "zoom-center",
+    "name": "workers_queue",
     "tags": [],
     "categories": []
   },
   {
-    "name": "zoom-extents",
+    "name": "zoom_center",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom_extents",
     "tags": [],
     "categories": []
   }

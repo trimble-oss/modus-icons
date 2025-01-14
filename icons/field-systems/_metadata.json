@@ -45,11 +45,6 @@
     "categories": []
   },
   {
-    "name": "Prism-Pole-extend",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "RPT",
     "tags": [],
     "categories": []
@@ -160,7 +155,7 @@
     "categories": []
   },
   {
-    "name": "corner-2",
+    "name": "corner",
     "tags": [],
     "categories": []
   },
@@ -316,6 +311,11 @@
   },
   {
     "name": "prism-pole",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "prism-pole-extend",
     "tags": [],
     "categories": []
   },

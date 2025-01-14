@@ -17141,14 +17141,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "Prism-Pole-extend",
-        "displayName": "Prism Pole Extend",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "RPT",
         "displayName": "Rpt",
         "tags": [],
@@ -17325,8 +17317,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "corner-2",
-        "displayName": "Corner 2",
+        "name": "corner",
+        "displayName": "Corner",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17575,6 +17567,14 @@ export const siteData = [
       {
         "name": "prism-pole",
         "displayName": "Prism Pole",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "prism-pole-extend",
+        "displayName": "Prism Pole Extend",
         "tags": [],
         "categories": [],
         "deprecated": false,

@@ -17725,8 +17725,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "visibility-part_outline",
-        "displayName": "Visibility Part_outline",
+        "name": "visibility-part-outline",
+        "displayName": "Visibility Part Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,

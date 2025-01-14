@@ -2377,6 +2377,16 @@
     ]
   },
   {
+    "name": "file-type-pem",
+    "tags": [
+      "sheet",
+      "document"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
     "name": "file-type-rfi",
     "tags": [
       "sheet",

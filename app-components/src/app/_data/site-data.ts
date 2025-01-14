@@ -3084,6 +3084,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-type-pem",
+        "displayName": "File Type Pem",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-type-rfi",
         "displayName": "File Type Rfi",
         "tags": [
@@ -11070,6 +11083,19 @@ export const siteData = [
       {
         "name": "file-type-pdf",
         "displayName": "File Type Pdf",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-pem",
+        "displayName": "File Type Pem",
         "tags": [
           "sheet",
           "document"

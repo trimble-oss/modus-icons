@@ -17069,136 +17069,192 @@ export const siteData = [
     "type": "sector",
     "icons": [
       {
-        "name": "add-box",
-        "displayName": "Add Box",
+        "name": "2-layers",
+        "displayName": "2 Layers",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "add-circle-outline",
-        "displayName": "Add Circle Outline",
+        "name": "2-layers-off",
+        "displayName": "2 Layers Off",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "add-user",
-        "displayName": "Add User",
+        "name": "360",
+        "displayName": "360",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "archive",
-        "displayName": "Archive",
+        "name": "GNSS",
+        "displayName": "Gnss",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow-back-outline",
-        "displayName": "Arrow Back Outline",
+        "name": "GNSS-R8",
+        "displayName": "Gnss R8",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow-downward",
-        "displayName": "Arrow Downward",
+        "name": "GNSS-R8s-Base",
+        "displayName": "Gnss R8s Base",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow-downward-outline",
-        "displayName": "Arrow Downward Outline",
+        "name": "GNSS-RPT",
+        "displayName": "Gnss Rpt",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow-drop-down",
-        "displayName": "Arrow Drop Down",
+        "name": "GNSS-RTS",
+        "displayName": "Gnss Rts",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow-drop-down-circle",
-        "displayName": "Arrow Drop Down Circle",
+        "name": "GNSS-SPS986",
+        "displayName": "Gnss Sps986",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow-drop-up",
-        "displayName": "Arrow Drop Up",
+        "name": "Prism-Pole-extend",
+        "displayName": "Prism Pole Extend",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow-forward",
-        "displayName": "Arrow Forward",
+        "name": "RPT",
+        "displayName": "Rpt",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow-forward-outline",
-        "displayName": "Arrow Forward Outline",
+        "name": "RTS",
+        "displayName": "Rts",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow-prev",
-        "displayName": "Arrow Prev",
+        "name": "RTS-RPT",
+        "displayName": "Rts Rpt",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow-upward",
-        "displayName": "Arrow Upward",
+        "name": "RTS-off",
+        "displayName": "Rts Off",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "arrow-upward-outline",
-        "displayName": "Arrow Upward Outline",
+        "name": "Ri",
+        "displayName": "Ri",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "ascending",
-        "displayName": "Ascending",
+        "name": "SX10",
+        "displayName": "Sx10",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "attach-file",
-        "displayName": "Attach File",
+        "name": "X7",
+        "displayName": "X7",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "X7-Card",
+        "displayName": "X7 Card",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "X7-Settings",
+        "displayName": "X7 Settings",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "XR10",
+        "displayName": "Xr10",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "add-square",
+        "displayName": "Add Square",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "archive-square",
+        "displayName": "Archive Square",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "auto-target",
+        "displayName": "Auto Target",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "avoidance-zone",
+        "displayName": "Avoidance Zone",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17229,64 +17285,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "block",
-        "displayName": "Block",
+        "name": "bullseye",
+        "displayName": "Bullseye",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "call",
-        "displayName": "Call",
+        "name": "bullseye-off",
+        "displayName": "Bullseye Off",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "camera-alt",
-        "displayName": "Camera Alt",
+        "name": "bullseye-warning",
+        "displayName": "Bullseye Warning",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "cancel",
-        "displayName": "Cancel",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cancel-outline",
-        "displayName": "Cancel Outline",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cb460",
-        "displayName": "Cb460",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cloud-off",
-        "displayName": "Cloud Off",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cloud-queue",
-        "displayName": "Cloud Queue",
+        "name": "clip",
+        "displayName": "Clip",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17301,40 +17325,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "company",
-        "displayName": "Company",
+        "name": "corner",
+        "displayName": "Corner",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "content-copy",
-        "displayName": "Content Copy",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "create",
-        "displayName": "Create",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "delete-forever",
-        "displayName": "Delete Forever",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "descending",
-        "displayName": "Descending",
+        "name": "dashboard-tiles",
+        "displayName": "Dashboard Tiles",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17343,6 +17343,22 @@ export const siteData = [
       {
         "name": "design-package",
         "displayName": "Design Package",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "device-cb460",
+        "displayName": "Device Cb460",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "device-tsc7",
+        "displayName": "Device Tsc7",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17373,136 +17389,64 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "event",
-        "displayName": "Event",
+        "name": "easting",
+        "displayName": "Easting",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "exit",
-        "displayName": "Exit",
+        "name": "edit-mode",
+        "displayName": "Edit Mode",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "expander",
-        "displayName": "Expander",
+        "name": "electric-meter-off",
+        "displayName": "Electric Meter Off",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "eye-visibility",
-        "displayName": "Eye Visibility",
+        "name": "electric-meter-off-outline",
+        "displayName": "Electric Meter Off Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "eye-visibility-off",
-        "displayName": "Eye Visibility Off",
+        "name": "electric-meter-outline-rounded",
+        "displayName": "Electric Meter Outline Rounded",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "favorite",
-        "displayName": "Favorite",
+        "name": "electric-meter-rounded",
+        "displayName": "Electric Meter Rounded",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "favorite-border",
-        "displayName": "Favorite Border",
+        "name": "electric-meter-rounded_warn",
+        "displayName": "Electric Meter Rounded_warn",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "file-add",
-        "displayName": "File Add",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-download",
-        "displayName": "File Download",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "file-upload",
-        "displayName": "File Upload",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder",
-        "displayName": "Folder",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-create-new",
-        "displayName": "Folder Create New",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-permissions",
-        "displayName": "Folder Permissions",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-shared",
-        "displayName": "Folder Shared",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "folder-special",
-        "displayName": "Folder Special",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "fullscreen",
-        "displayName": "Fullscreen",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "fullscreen-exit",
-        "displayName": "Fullscreen Exit",
+        "name": "elevation",
+        "displayName": "Elevation",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17517,96 +17461,56 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "help-outline",
-        "displayName": "Help Outline",
+        "name": "grader",
+        "displayName": "Grader",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "highlight-off",
-        "displayName": "Highlight Off",
+        "name": "hex",
+        "displayName": "Hex",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "image-outline",
-        "displayName": "Image Outline",
+        "name": "horizontal-accuracy",
+        "displayName": "Horizontal Accuracy",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "import",
-        "displayName": "Import",
+        "name": "image-square",
+        "displayName": "Image Square",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "import-export",
-        "displayName": "Import Export",
+        "name": "image-square-off",
+        "displayName": "Image Square Off",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "inbox",
-        "displayName": "Inbox",
+        "name": "image-square-off-outline",
+        "displayName": "Image Square Off Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "info-outline",
-        "displayName": "Info Outline",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "layers",
-        "displayName": "Layers",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "layers-clear",
-        "displayName": "Layers Clear",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "list",
-        "displayName": "List",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "location-off",
-        "displayName": "Location Off",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "lock-outline",
-        "displayName": "Lock Outline",
+        "name": "image_square",
+        "displayName": "Image_square",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17629,14 +17533,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "mail-outline",
-        "displayName": "Mail Outline",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "measure-up",
         "displayName": "Measure Up",
         "tags": [],
@@ -17645,216 +17541,112 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "menu-alt",
-        "displayName": "Menu Alt",
+        "name": "northing",
+        "displayName": "Northing",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "menu-close",
-        "displayName": "Menu Close",
+        "name": "orbit",
+        "displayName": "Orbit",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "menu-open",
-        "displayName": "Menu Open",
+        "name": "orthogonal",
+        "displayName": "Orthogonal",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "more-horiz",
-        "displayName": "More Horiz",
+        "name": "perpective",
+        "displayName": "Perpective",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "more-vert",
-        "displayName": "More Vert",
+        "name": "prism-pole",
+        "displayName": "Prism Pole",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "notifications-none",
-        "displayName": "Notifications None",
+        "name": "receiver-generic-error-filled",
+        "displayName": "Receiver Generic Error Filled",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "place",
-        "displayName": "Place",
+        "name": "receiver-generic-error-outline",
+        "displayName": "Receiver Generic Error Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "placeholder",
-        "displayName": "Placeholder",
+        "name": "receiver-generic-filled",
+        "displayName": "Receiver Generic Filled",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "print",
-        "displayName": "Print",
+        "name": "receiver-generic-off-filled",
+        "displayName": "Receiver Generic Off Filled",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "profile",
-        "displayName": "Profile",
+        "name": "receiver-generic-off-outline",
+        "displayName": "Receiver Generic Off Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "projects",
-        "displayName": "Projects",
+        "name": "receiver-generic-outline",
+        "displayName": "Receiver Generic Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "public",
-        "displayName": "Public",
+        "name": "receiver-generic-warn-filled",
+        "displayName": "Receiver Generic Warn Filled",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "read-only",
-        "displayName": "Read Only",
+        "name": "receiver-generic-warn-outline",
+        "displayName": "Receiver Generic Warn Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "release",
-        "displayName": "Release",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "remove-circle-outline",
-        "displayName": "Remove Circle Outline",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rotate-left",
-        "displayName": "Rotate Left",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rotate-left-outline",
-        "displayName": "Rotate Left Outline",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rotate-right",
-        "displayName": "Rotate Right",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rotate-right-outline",
-        "displayName": "Rotate Right Outline",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "save",
-        "displayName": "Save",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "self-registration",
-        "displayName": "Self Registration",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "send",
-        "displayName": "Send",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "star-border",
-        "displayName": "Star Border",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "subdirectory-arrow-left",
-        "displayName": "Subdirectory Arrow Left",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "subdirectory-arrow-right",
-        "displayName": "Subdirectory Arrow Right",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "subtract",
-        "displayName": "Subtract",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "support",
-        "displayName": "Support",
+        "name": "select-area",
+        "displayName": "Select Area",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17863,22 +17655,6 @@ export const siteData = [
       {
         "name": "sync-filled",
         "displayName": "Sync Filled",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "tag-outlined",
-        "displayName": "Tag Outlined",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "toc",
-        "displayName": "Toc",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17901,72 +17677,56 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "tsc7",
-        "displayName": "Tsc7",
+        "name": "total-station",
+        "displayName": "Total Station",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "udf",
-        "displayName": "Udf",
+        "name": "total-station-lost",
+        "displayName": "Total Station Lost",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "unarchive",
-        "displayName": "Unarchive",
+        "name": "unarchive-square",
+        "displayName": "Unarchive Square",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "user",
-        "displayName": "User",
+        "name": "vertical-accuracy",
+        "displayName": "Vertical Accuracy",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "users",
-        "displayName": "Users",
+        "name": "view-2-rows",
+        "displayName": "View 2 Rows",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "videocam",
-        "displayName": "Videocam",
+        "name": "view-3-column",
+        "displayName": "View 3 Column",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "view-agenda",
-        "displayName": "View Agenda",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "view-column",
-        "displayName": "View Column",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "view-module",
-        "displayName": "View Module",
+        "name": "visibility-part_outline",
+        "displayName": "Visibility Part_outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17981,16 +17741,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "zoom-center",
-        "displayName": "Zoom Center",
+        "name": "x12",
+        "displayName": "X12",
         "tags": [],
         "categories": [],
         "deprecated": false,
         "useInstead": ""
       },
       {
-        "name": "zoom-extents",
-        "displayName": "Zoom Extents",
+        "name": "zoom-center",
+        "displayName": "Zoom Center",
         "tags": [],
         "categories": [],
         "deprecated": false,

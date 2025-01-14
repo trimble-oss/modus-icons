@@ -1,186 +1,156 @@
 [
   {
+    "name": "2-layers",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "2-layers-off",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "360",
     "tags": [],
     "categories": []
   },
   {
-    "name": "add_box",
+    "name": "GNSS",
     "tags": [],
     "categories": []
   },
   {
-    "name": "add_circle",
+    "name": "GNSS-R8",
     "tags": [],
     "categories": []
   },
   {
-    "name": "add_circle_outline",
+    "name": "GNSS-R8s-Base",
     "tags": [],
     "categories": []
   },
   {
-    "name": "add_user",
+    "name": "GNSS-RPT",
     "tags": [],
     "categories": []
   },
   {
-    "name": "archive",
+    "name": "GNSS-RTS",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_back",
+    "name": "GNSS-SPS986",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_back_outline",
+    "name": "Prism-Pole-extend",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_downward",
+    "name": "RPT",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_downward_outline",
+    "name": "RTS",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_drop_down",
+    "name": "RTS-RPT",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_drop_down_circle",
+    "name": "RTS-off",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_drop_up",
+    "name": "Ri",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_forward",
+    "name": "SX10",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_forward_outline",
+    "name": "X7",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_next",
+    "name": "X7-Card",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_prev",
+    "name": "X7-Settings",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_upward",
+    "name": "XR10",
     "tags": [],
     "categories": []
   },
   {
-    "name": "arrow_upward_outline",
+    "name": "add-square",
     "tags": [],
     "categories": []
   },
   {
-    "name": "ascending",
+    "name": "archive-square",
     "tags": [],
     "categories": []
   },
   {
-    "name": "attach_file",
+    "name": "auto-target",
     "tags": [],
     "categories": []
   },
   {
-    "name": "background_dark",
+    "name": "avoidance-zone",
     "tags": [],
     "categories": []
   },
   {
-    "name": "background_light",
+    "name": "background-dark",
     "tags": [],
     "categories": []
   },
   {
-    "name": "base_station",
+    "name": "background-light",
     "tags": [],
     "categories": []
   },
   {
-    "name": "block",
+    "name": "base-station",
     "tags": [],
     "categories": []
   },
   {
-    "name": "call",
+    "name": "bullseye",
     "tags": [],
     "categories": []
   },
   {
-    "name": "camera_alt",
+    "name": "bullseye-off",
     "tags": [],
     "categories": []
   },
   {
-    "name": "cancel",
+    "name": "bullseye-warning",
     "tags": [],
     "categories": []
   },
   {
-    "name": "cancel_outline",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "cb460",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "check_circle",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "chevron_left",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "chevron_right",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "cloud_download",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "cloud_off",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "cloud_queue",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "cloud_upload",
+    "name": "clip",
     "tags": [],
     "categories": []
   },
@@ -190,42 +160,37 @@
     "categories": []
   },
   {
-    "name": "company",
+    "name": "corner",
     "tags": [],
     "categories": []
   },
   {
-    "name": "content_copy",
+    "name": "dashboard-tiles",
     "tags": [],
     "categories": []
   },
   {
-    "name": "create",
+    "name": "design-package",
     "tags": [],
     "categories": []
   },
   {
-    "name": "delete_forever",
+    "name": "device-cb460",
     "tags": [],
     "categories": []
   },
   {
-    "name": "descending",
+    "name": "device-tsc7",
     "tags": [],
     "categories": []
   },
   {
-    "name": "design_package",
+    "name": "devices-group",
     "tags": [],
     "categories": []
   },
   {
-    "name": "devices_group",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "devices_status",
+    "name": "devices-status",
     "tags": [],
     "categories": []
   },
@@ -235,112 +200,42 @@
     "categories": []
   },
   {
-    "name": "event",
+    "name": "easting",
     "tags": [],
     "categories": []
   },
   {
-    "name": "exit",
+    "name": "edit-mode",
     "tags": [],
     "categories": []
   },
   {
-    "name": "expand_less",
+    "name": "electric-meter-off",
     "tags": [],
     "categories": []
   },
   {
-    "name": "expand_more",
+    "name": "electric-meter-off-outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "expander",
+    "name": "electric-meter-outline-rounded",
     "tags": [],
     "categories": []
   },
   {
-    "name": "eye_visibility",
+    "name": "electric-meter-rounded",
     "tags": [],
     "categories": []
   },
   {
-    "name": "eye_visibility_off",
+    "name": "electric-meter-rounded_warn",
     "tags": [],
     "categories": []
   },
   {
-    "name": "favorite",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "favorite_border",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "file_add",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "file_download",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "file_upload",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "first_page",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "folder",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "folder_create_new",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "folder_open",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "folder_permissions",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "folder_project",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "folder_shared",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "folder_special",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "fullscreen",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "fullscreen_exit",
+    "name": "elevation",
     "tags": [],
     "categories": []
   },
@@ -350,82 +245,37 @@
     "categories": []
   },
   {
-    "name": "hard_hat",
+    "name": "grader",
     "tags": [],
     "categories": []
   },
   {
-    "name": "help_outline",
+    "name": "hex",
     "tags": [],
     "categories": []
   },
   {
-    "name": "highlight_off",
+    "name": "horizontal-accuracy",
     "tags": [],
     "categories": []
   },
   {
-    "name": "image_outline",
+    "name": "image-square",
     "tags": [],
     "categories": []
   },
   {
-    "name": "import",
+    "name": "image-square-off",
     "tags": [],
     "categories": []
   },
   {
-    "name": "import_export",
+    "name": "image-square-off-outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "inbox",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "info_outline",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "last_page",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "layers",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "layers_clear",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "link_off",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "list",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "location_off",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "lock_open",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "lock_outline",
+    "name": "image_square",
     "tags": [],
     "categories": []
   },
@@ -440,177 +290,82 @@
     "categories": []
   },
   {
-    "name": "mail_outline",
+    "name": "measure-up",
     "tags": [],
     "categories": []
   },
   {
-    "name": "measure_up",
+    "name": "northing",
     "tags": [],
     "categories": []
   },
   {
-    "name": "menu_alt",
+    "name": "orbit",
     "tags": [],
     "categories": []
   },
   {
-    "name": "menu_close",
+    "name": "orthogonal",
     "tags": [],
     "categories": []
   },
   {
-    "name": "menu_open",
+    "name": "perpective",
     "tags": [],
     "categories": []
   },
   {
-    "name": "more_horiz",
+    "name": "prism-pole",
     "tags": [],
     "categories": []
   },
   {
-    "name": "more_vert",
+    "name": "receiver-generic-error-filled",
     "tags": [],
     "categories": []
   },
   {
-    "name": "notifications_none",
+    "name": "receiver-generic-error-outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "notifications_off",
+    "name": "receiver-generic-filled",
     "tags": [],
     "categories": []
   },
   {
-    "name": "place",
+    "name": "receiver-generic-off-filled",
     "tags": [],
     "categories": []
   },
   {
-    "name": "placeholder",
+    "name": "receiver-generic-off-outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "print",
+    "name": "receiver-generic-outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "profile",
+    "name": "receiver-generic-warn-filled",
     "tags": [],
     "categories": []
   },
   {
-    "name": "projects",
+    "name": "receiver-generic-warn-outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "public",
+    "name": "select-area",
     "tags": [],
     "categories": []
   },
   {
-    "name": "read_only",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "release",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "remove_circle",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "remove_circle_outline",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "rotate_left",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "rotate_left_outline",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "rotate_right",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "rotate_right_outline",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "save",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "self_registration",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "send",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "star_border",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "star_half",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "subdirectory_arrow_left",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "subdirectory_arrow_right",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "subtract",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "support",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "sync_filled",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "tag_outlined",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "toc",
+    "name": "sync-filled",
     "tags": [],
     "categories": []
   },
@@ -620,82 +375,57 @@
     "categories": []
   },
   {
-    "name": "todo_add",
+    "name": "todo-add",
     "tags": [],
     "categories": []
   },
   {
-    "name": "tsc7",
+    "name": "total-station",
     "tags": [],
     "categories": []
   },
   {
-    "name": "udf",
+    "name": "total-station-lost",
     "tags": [],
     "categories": []
   },
   {
-    "name": "unarchive",
+    "name": "unarchive-square",
     "tags": [],
     "categories": []
   },
   {
-    "name": "unfold_less",
+    "name": "vertical-accuracy",
     "tags": [],
     "categories": []
   },
   {
-    "name": "unfold_more",
+    "name": "view-2-rows",
     "tags": [],
     "categories": []
   },
   {
-    "name": "user",
+    "name": "view-3-column",
     "tags": [],
     "categories": []
   },
   {
-    "name": "users",
+    "name": "visibility-part_outline",
     "tags": [],
     "categories": []
   },
   {
-    "name": "videocam",
+    "name": "workers-queue",
     "tags": [],
     "categories": []
   },
   {
-    "name": "view_agenda",
+    "name": "x12",
     "tags": [],
     "categories": []
   },
   {
-    "name": "view_column",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "view_list",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "view_module",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "workers_queue",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "zoom_center",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "zoom_extents",
+    "name": "zoom-center",
     "tags": [],
     "categories": []
   }

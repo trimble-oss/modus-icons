@@ -15,82 +15,82 @@
     "categories": []
   },
   {
-    "name": "GNSS",
+    "name": "gnss",
     "tags": [],
     "categories": []
   },
   {
-    "name": "GNSS-R8",
+    "name": "gnss-r8",
     "tags": [],
     "categories": []
   },
   {
-    "name": "GNSS-R8s-Base",
+    "name": "gnss-r8s-base",
     "tags": [],
     "categories": []
   },
   {
-    "name": "GNSS-RPT",
+    "name": "gnss-rpt",
     "tags": [],
     "categories": []
   },
   {
-    "name": "GNSS-RTS",
+    "name": "gnss-rts",
     "tags": [],
     "categories": []
   },
   {
-    "name": "GNSS-SPS986",
+    "name": "gnss-sps986",
     "tags": [],
     "categories": []
   },
   {
-    "name": "RPT",
+    "name": "rpt",
     "tags": [],
     "categories": []
   },
   {
-    "name": "RTS",
+    "name": "rts",
     "tags": [],
     "categories": []
   },
   {
-    "name": "RTS-RPT",
+    "name": "rts-rpt",
     "tags": [],
     "categories": []
   },
   {
-    "name": "RTS-off",
+    "name": "rts-off",
     "tags": [],
     "categories": []
   },
   {
-    "name": "Ri",
+    "name": "ri",
     "tags": [],
     "categories": []
   },
   {
-    "name": "SX10",
+    "name": "sx10",
     "tags": [],
     "categories": []
   },
   {
-    "name": "X7",
+    "name": "x7",
     "tags": [],
     "categories": []
   },
   {
-    "name": "X7-Card",
+    "name": "x7-card",
     "tags": [],
     "categories": []
   },
   {
-    "name": "X7-Settings",
+    "name": "x7-settings",
     "tags": [],
     "categories": []
   },
   {
-    "name": "XR10",
+    "name": "xr10",
     "tags": [],
     "categories": []
   },
@@ -235,6 +235,36 @@
     "categories": []
   },
   {
+    "name": "gnss",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gnss-r8",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gnss-r8s-base",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gnss-rpt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gnss-rts",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gnss-sps986",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "gps",
     "tags": [],
     "categories": []
@@ -360,7 +390,37 @@
     "categories": []
   },
   {
+    "name": "ri",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rpt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rts",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rts-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rts-rpt",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "select-area",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sx10",
     "tags": [],
     "categories": []
   },
@@ -421,6 +481,26 @@
   },
   {
     "name": "x12",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "x7",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "x7-card",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "x7-settings",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "xr10",
     "tags": [],
     "categories": []
   },

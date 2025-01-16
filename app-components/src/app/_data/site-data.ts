@@ -17471,54 +17471,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "gnss",
-        "displayName": "Gnss",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "gnss-r8",
-        "displayName": "Gnss R8",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "gnss-r8s-base",
-        "displayName": "Gnss R8s Base",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "gnss-rpt",
-        "displayName": "Gnss Rpt",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "gnss-rts",
-        "displayName": "Gnss Rts",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "gnss-sps986",
-        "displayName": "Gnss Sps986",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "gps",
         "displayName": "Gps",
         "tags": [],
@@ -17719,56 +17671,8 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "ri",
-        "displayName": "Ri",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rpt",
-        "displayName": "Rpt",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rts",
-        "displayName": "Rts",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rts-off",
-        "displayName": "Rts Off",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "rts-rpt",
-        "displayName": "Rts Rpt",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "select-area",
         "displayName": "Select Area",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "sx10",
-        "displayName": "Sx10",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17865,38 +17769,6 @@ export const siteData = [
       {
         "name": "x12",
         "displayName": "X12",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "x7",
-        "displayName": "X7",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "x7-card",
-        "displayName": "X7 Card",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "x7-settings",
-        "displayName": "X7 Settings",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "xr10",
-        "displayName": "Xr10",
         "tags": [],
         "categories": [],
         "deprecated": false,

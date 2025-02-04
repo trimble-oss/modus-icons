@@ -45,6 +45,8 @@ module:
       target:           static/modus-solid-icons.svg
     - source:           dist/transportation/sprites/modus-icons.svg
       target:           static/transportation-icons.svg
+    - source:           dist/field-systems/sprites/modus-icons.svg
+      target:           static/field-systems-icons.svg
     - source:           dist/modus-solid/fonts/
       target:           static/fonts/
     - source:           node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
@@ -54,7 +56,7 @@ module:
 
 params:
   description:          "SVG icon library for Modus"
-  version:              "1.13.0"
+  version:              "1.16.0"
   main:                 "https://modus.trimble.com"
   github_org:           "https://github.com/trimble-oss"
   repo:                 "https://github.com/trimble-oss/modus-icons"
@@ -73,6 +75,9 @@ menu:
       url: "/transportation/"
       pre: "<div class='h5 ms-3 mt-3 opacity-50'>Trimble Sectors</div>"
       weight: 3
+    - name: Field Systems
+      url: "/field-systems/"
+      weight: 4
 
 # https://gohugo.io/getting-started/configuration/#configure-minify
 minify:
@@ -84,4 +89,3 @@ minify:
       keepVarNames: true
     xml:
       keepWhitespace: true
-

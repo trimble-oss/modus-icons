@@ -7,10 +7,6 @@ updates:
     ignore:
       - dependency-name: "eslint"
         versions: ["9.x"]
-      - dependency-name: "post-css"
-        versions: ["11.x"]
-      - dependency-name: "stylelint"
-        versions: ["16.x"]
     reviewers:
       - coliff
     labels:

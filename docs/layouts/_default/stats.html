@@ -57,6 +57,10 @@
         <td>{{ len (where .Site.RegularPages "Section" "=" "transportation") }}</td>
       </tr>
       <tr>
+        <td><a href="/field-systems/">Field Systems</a></td>
+        <td>{{ len (where .Site.RegularPages "Section" "=" "field-systems") }}</td>
+        </tr>
+        <tr>
         <td class="fw-bold">Total:</td>
         <td class="fw-bold">{{ len (where .Site.RegularPages "Section" "!=" "") }}</td>
       </tr>

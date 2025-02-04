@@ -2,15 +2,15 @@
   "reject": [
     "eslint",
     "file-type",
+    "make-dir-cli",
     "mkdirp",
     "mocha",
-    "postcss-cli",
     "read-chunk",
-    "stylelint",
-    "stylelint-config-standard-scss",
     "svgicons2svgfont",
+    "svgo",
     "ttf2eot",
     "ttf2woff",
+    "ttf2woff2",
     "url-join"
   ]
 }

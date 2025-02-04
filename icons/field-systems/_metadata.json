@@ -1,0 +1,432 @@
+[
+  {
+    "name": "2-layers",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "2-layers-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "360",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "add-square",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "archive-square",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "auto-target",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "avoidance-zone",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "background-dark",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "background-light",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "base-station",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "bullseye",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "bullseye-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "bullseye-warning",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clip",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "compactor",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "corner",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "dashboard-tiles",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "design-package",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "device-cb460",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "device-tsc7",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "devices-group",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "devices-status",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "dozer",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "easting",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "edit-mode",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "electric-meter-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "electric-meter-off-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "electric-meter-outline-rounded",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "electric-meter-rounded",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "electric-meter-rounded_warn",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "elevation",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gnss",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gnss-r8",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gnss-r8s-base",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gnss-rpt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gnss-rts",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gnss-sps986",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "gps",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "grader",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "hex",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "horizontal-accuracy",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "image-square",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "image-square-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "image-square-off-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "image-square-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "machine",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "machines",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "measure-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "northing",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "orbit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "orthogonal",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "perspective",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "prism-pole",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "prism-pole-extend",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "receiver-generic-error-filled",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "receiver-generic-error-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "receiver-generic-filled",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "receiver-generic-off-filled",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "receiver-generic-off-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "receiver-generic-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "receiver-generic-warn-filled",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "receiver-generic-warn-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "ri",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rpt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rts",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rts-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rts-rpt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "select-area",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sx10",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sync-filled",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "todo",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "todo-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "total-station",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "total-station-lost",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unarchive-square",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "vertical-accuracy",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view-2-rows",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view-3-column",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "visibility-part-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "workers-queue",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "x12",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "x7",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "x7-card",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "x7-settings",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "xr10",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom-center",
+    "tags": [],
+    "categories": []
+  }
+]

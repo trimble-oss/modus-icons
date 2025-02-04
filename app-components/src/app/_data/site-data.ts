@@ -787,6 +787,22 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "briefcase",
+        "displayName": "Briefcase",
+        "tags": [
+          "case",
+          "brief",
+          "work",
+          "company",
+          "carry"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "brightness",
         "displayName": "Brightness",
         "tags": [
@@ -1168,6 +1184,16 @@ export const siteData = [
           "photo",
           "picture"
         ],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "camera-photo-add",
+        "displayName": "Camera Photo Add",
+        "tags": [],
         "categories": [
           "Communication & Media"
         ],
@@ -1672,12 +1698,52 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "clock-checkmark",
+        "displayName": "Clock Checkmark",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-delay-warning",
+        "displayName": "Clock Delay Warning",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-delayed",
+        "displayName": "Clock Delayed",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "clock-locked",
         "displayName": "Clock Locked",
         "tags": [
           "time",
           "lock"
         ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-question-mark",
+        "displayName": "Clock Question Mark",
+        "tags": [],
         "categories": [
           "Objects & Shapes"
         ],
@@ -1812,6 +1878,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "coffee-cup",
+        "displayName": "Coffee Cup",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2013,6 +2089,46 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "comment-add",
+        "displayName": "Comment Add",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-empty",
+        "displayName": "Comment Empty",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-message",
+        "displayName": "Comment Message",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-message-disabled",
+        "displayName": "Comment Message Disabled",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "compare-arrows",
         "displayName": "Compare Arrows",
         "tags": [],
@@ -2090,6 +2206,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "costs",
+        "displayName": "Costs",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "credit-card",
         "displayName": "Credit Card",
         "tags": [
@@ -2120,6 +2246,16 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "curly-brackets",
+        "displayName": "Curly Brackets",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2178,6 +2314,26 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "data-missing",
+        "displayName": "Data Missing",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "data-transfer-off",
+        "displayName": "Data Transfer Off",
+        "tags": [],
+        "categories": [
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2260,6 +2416,16 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "document",
+        "displayName": "Document",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -2410,6 +2576,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "edit-combination",
+        "displayName": "Edit Combination",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "email",
         "displayName": "Email",
         "tags": [
@@ -2417,6 +2593,16 @@ export const siteData = [
           "mail",
           "message"
         ],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "email-add",
+        "displayName": "Email Add",
+        "tags": [],
         "categories": [
           "Communication & Media"
         ],
@@ -2753,6 +2939,23 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-secure",
+        "displayName": "File Secure",
+        "tags": [
+          "doc",
+          "file",
+          "secure",
+          "security",
+          "form",
+          "safety"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-table",
         "displayName": "File Table",
         "tags": [],
@@ -2765,6 +2968,19 @@ export const siteData = [
       {
         "name": "file-type-bmpf",
         "displayName": "File Type Bmpf",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-csv",
+        "displayName": "File Type Csv",
         "tags": [
           "sheet",
           "document"
@@ -2857,6 +3073,19 @@ export const siteData = [
       {
         "name": "file-type-pdf",
         "displayName": "File Type Pdf",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-pem",
+        "displayName": "File Type Pem",
         "tags": [
           "sheet",
           "document"
@@ -2990,6 +3219,16 @@ export const siteData = [
         ],
         "categories": [
           "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "first-page",
+        "displayName": "First Page",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3195,6 +3434,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "forestry",
+        "displayName": "Forestry",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "forklift",
+        "displayName": "Forklift",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "frame",
         "displayName": "Frame",
         "tags": [],
@@ -3251,6 +3510,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "function",
+        "displayName": "Function",
+        "tags": [],
+        "categories": [
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3519,11 +3788,41 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "icons-shapes",
+        "displayName": "Icons Shapes",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "image",
         "displayName": "Image",
         "tags": [
           "picture"
         ],
+        "categories": [
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-add",
+        "displayName": "Image Add",
+        "tags": [],
+        "categories": [
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-disabled",
+        "displayName": "Image Disabled",
+        "tags": [],
         "categories": [
           "Image"
         ],
@@ -3626,6 +3925,36 @@ export const siteData = [
           "statement",
           "money"
         ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-euro",
+        "displayName": "Invoice Euro",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-pound",
+        "displayName": "Invoice Pound",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-yen",
+        "displayName": "Invoice Yen",
+        "tags": [],
         "categories": [
           "Folders & Files"
         ],
@@ -3754,6 +4083,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "last-page",
+        "displayName": "Last Page",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3948,12 +4287,62 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "list-shapes",
+        "displayName": "List Shapes",
+        "tags": [],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "location",
         "displayName": "Location",
         "tags": [
           "map",
           "poi"
         ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-add",
+        "displayName": "Location Add",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-add-multiple",
+        "displayName": "Location Add Multiple",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-arrow",
+        "displayName": "Location Arrow",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-disabled",
+        "displayName": "Location Disabled",
+        "tags": [],
         "categories": [
           "Location"
         ],
@@ -4027,6 +4416,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "manage-people",
+        "displayName": "Manage People",
+        "tags": [
+          "management",
+          "employees",
+          "settings",
+          "people"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "map",
         "displayName": "Map",
         "tags": [
@@ -4059,6 +4463,26 @@ export const siteData = [
           "symbol",
           "mark"
         ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-marker-circle",
+        "displayName": "Map Marker Circle",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-marker-multiple",
+        "displayName": "Map Marker Multiple",
+        "tags": [],
         "categories": [
           "Location"
         ],
@@ -4169,6 +4593,16 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "mobile-app-version",
+        "displayName": "Mobile App Version",
+        "tags": [],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4341,6 +4775,26 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "no-package",
+        "displayName": "No Package",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "no-truck",
+        "displayName": "No Truck",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4531,6 +4985,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "pager",
+        "displayName": "Pager",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "paint-bucket",
         "displayName": "Paint Bucket",
         "tags": [
@@ -4567,6 +5031,16 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "paper-plane",
+        "displayName": "Paper Plane",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5234,6 +5708,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "rewind",
+        "displayName": "Rewind",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "row-add",
         "displayName": "Row Add",
         "tags": [
@@ -5368,6 +5852,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "row-remove",
+        "displayName": "Row Remove",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "rows-show-less",
         "displayName": "Rows Show Less",
         "tags": [],
@@ -5448,10 +5942,10 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "scan-bar-code",
-        "displayName": "Scan Bar Code",
+        "name": "scan-barcode",
+        "displayName": "Scan Barcode",
         "tags": [
-          "bar code",
+          "barcode",
           "scan"
         ],
         "categories": [
@@ -5643,6 +6137,26 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "show-less-caret",
+        "displayName": "Show Less Caret",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "show-more-caret",
+        "displayName": "Show More Caret",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6242,6 +6756,36 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "tag",
+        "displayName": "Tag",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "tag-disabled",
+        "displayName": "Tag Disabled",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "template",
+        "displayName": "Template",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-align-left",
         "displayName": "Text Align Left",
         "tags": [
@@ -6581,8 +7125,34 @@ export const siteData = [
         "name": "timesheet",
         "displayName": "Timesheet",
         "tags": [
-          "document"
+          "clock",
+          "document",
+          "file"
         ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "timesheet-approve",
+        "displayName": "Timesheet Approve",
+        "tags": [
+          "check",
+          "document",
+          "file"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "timesheet-approve",
+        "displayName": "Timesheet Approve",
+        "tags": [],
         "categories": [
           "Folders & Files"
         ],
@@ -6726,6 +7296,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "truck-add",
+        "displayName": "Truck Add",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "truck-warning-delay",
+        "displayName": "Truck Warning Delay",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "tune",
         "displayName": "Tune",
         "tags": [
@@ -6795,6 +7385,7 @@ export const siteData = [
         "displayName": "Unfold Less",
         "tags": [
           "arrow",
+          "collapse",
           "up",
           "down"
         ],
@@ -6809,11 +7400,22 @@ export const siteData = [
         "displayName": "Unfold More",
         "tags": [
           "arrow",
+          "expand",
           "up",
           "down"
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "unit-selector",
+        "displayName": "Unit Selector",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7101,6 +7703,16 @@ export const siteData = [
         ],
         "categories": [
           "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "warehouse",
+        "displayName": "Warehouse",
+        "tags": [],
+        "categories": [
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8185,6 +8797,22 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "briefcase",
+        "displayName": "Briefcase",
+        "tags": [
+          "case",
+          "brief",
+          "work",
+          "company",
+          "carry"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "brightness",
         "displayName": "Brightness",
         "tags": [
@@ -8566,6 +9194,16 @@ export const siteData = [
           "photo",
           "picture"
         ],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "camera-photo-add",
+        "displayName": "Camera Photo Add",
+        "tags": [],
         "categories": [
           "Communication & Media"
         ],
@@ -9070,12 +9708,52 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "clock-checkmark",
+        "displayName": "Clock Checkmark",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-delay-warning",
+        "displayName": "Clock Delay Warning",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-delayed",
+        "displayName": "Clock Delayed",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "clock-locked",
         "displayName": "Clock Locked",
         "tags": [
           "time",
           "lock"
         ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clock-question-mark",
+        "displayName": "Clock Question Mark",
+        "tags": [],
         "categories": [
           "Objects & Shapes"
         ],
@@ -9210,6 +9888,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "coffee-cup",
+        "displayName": "Coffee Cup",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9411,6 +10099,46 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "comment-add",
+        "displayName": "Comment Add",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-empty",
+        "displayName": "Comment Empty",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-message",
+        "displayName": "Comment Message",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-message-disabled",
+        "displayName": "Comment Message Disabled",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "compare-arrows",
         "displayName": "Compare Arrows",
         "tags": [],
@@ -9488,6 +10216,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "costs",
+        "displayName": "Costs",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "credit-card",
         "displayName": "Credit Card",
         "tags": [
@@ -9518,6 +10256,16 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "curly-brackets",
+        "displayName": "Curly Brackets",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9576,6 +10324,26 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "data-missing",
+        "displayName": "Data Missing",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "data-transfer-off",
+        "displayName": "Data Transfer Off",
+        "tags": [],
+        "categories": [
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9658,6 +10426,16 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "document",
+        "displayName": "Document",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9808,6 +10586,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "edit-combination",
+        "displayName": "Edit Combination",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "email",
         "displayName": "Email",
         "tags": [
@@ -9815,6 +10603,16 @@ export const siteData = [
           "mail",
           "message"
         ],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "email-add",
+        "displayName": "Email Add",
+        "tags": [],
         "categories": [
           "Communication & Media"
         ],
@@ -10151,6 +10949,23 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "file-secure",
+        "displayName": "File Secure",
+        "tags": [
+          "doc",
+          "file",
+          "secure",
+          "security",
+          "form",
+          "safety"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "file-table",
         "displayName": "File Table",
         "tags": [],
@@ -10163,6 +10978,19 @@ export const siteData = [
       {
         "name": "file-type-bmpf",
         "displayName": "File Type Bmpf",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-csv",
+        "displayName": "File Type Csv",
         "tags": [
           "sheet",
           "document"
@@ -10255,6 +11083,19 @@ export const siteData = [
       {
         "name": "file-type-pdf",
         "displayName": "File Type Pdf",
+        "tags": [
+          "sheet",
+          "document"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "file-type-pem",
+        "displayName": "File Type Pem",
         "tags": [
           "sheet",
           "document"
@@ -10388,6 +11229,16 @@ export const siteData = [
         ],
         "categories": [
           "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "first-page",
+        "displayName": "First Page",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -10593,6 +11444,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "forestry",
+        "displayName": "Forestry",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "forklift",
+        "displayName": "Forklift",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "frame",
         "displayName": "Frame",
         "tags": [],
@@ -10649,6 +11520,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "function",
+        "displayName": "Function",
+        "tags": [],
+        "categories": [
+          "Data Management"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -10917,11 +11798,41 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "icons-shapes",
+        "displayName": "Icons Shapes",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "image",
         "displayName": "Image",
         "tags": [
           "picture"
         ],
+        "categories": [
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-add",
+        "displayName": "Image Add",
+        "tags": [],
+        "categories": [
+          "Image"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-disabled",
+        "displayName": "Image Disabled",
+        "tags": [],
         "categories": [
           "Image"
         ],
@@ -11024,6 +11935,36 @@ export const siteData = [
           "statement",
           "money"
         ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-euro",
+        "displayName": "Invoice Euro",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-pound",
+        "displayName": "Invoice Pound",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-yen",
+        "displayName": "Invoice Yen",
+        "tags": [],
         "categories": [
           "Folders & Files"
         ],
@@ -11152,6 +12093,16 @@ export const siteData = [
         ],
         "categories": [
           "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "last-page",
+        "displayName": "Last Page",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -11346,12 +12297,62 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "list-shapes",
+        "displayName": "List Shapes",
+        "tags": [],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "location",
         "displayName": "Location",
         "tags": [
           "map",
           "poi"
         ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-add",
+        "displayName": "Location Add",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-add-multiple",
+        "displayName": "Location Add Multiple",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-arrow",
+        "displayName": "Location Arrow",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-disabled",
+        "displayName": "Location Disabled",
+        "tags": [],
         "categories": [
           "Location"
         ],
@@ -11425,6 +12426,21 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "manage-people",
+        "displayName": "Manage People",
+        "tags": [
+          "management",
+          "employees",
+          "settings",
+          "people"
+        ],
+        "categories": [
+          "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "map",
         "displayName": "Map",
         "tags": [
@@ -11457,6 +12473,26 @@ export const siteData = [
           "symbol",
           "mark"
         ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-marker-circle",
+        "displayName": "Map Marker Circle",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-marker-multiple",
+        "displayName": "Map Marker Multiple",
+        "tags": [],
         "categories": [
           "Location"
         ],
@@ -11567,6 +12603,16 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "mobile-app-version",
+        "displayName": "Mobile App Version",
+        "tags": [],
+        "categories": [
+          "Devices"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -11739,6 +12785,26 @@ export const siteData = [
         ],
         "categories": [
           "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "no-package",
+        "displayName": "No Package",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "no-truck",
+        "displayName": "No Truck",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -11929,6 +12995,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "pager",
+        "displayName": "Pager",
+        "tags": [],
+        "categories": [
+          "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "paint-bucket",
         "displayName": "Paint Bucket",
         "tags": [
@@ -11965,6 +13041,16 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "paper-plane",
+        "displayName": "Paper Plane",
+        "tags": [],
+        "categories": [
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -12632,6 +13718,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "rewind",
+        "displayName": "Rewind",
+        "tags": [],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "row-add",
         "displayName": "Row Add",
         "tags": [
@@ -12766,6 +13862,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "row-remove",
+        "displayName": "Row Remove",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "rows-show-less",
         "displayName": "Rows Show Less",
         "tags": [],
@@ -12846,10 +13952,10 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "scan-bar-code",
-        "displayName": "Scan Bar Code",
+        "name": "scan-barcode",
+        "displayName": "Scan Barcode",
         "tags": [
-          "bar code",
+          "barcode",
           "scan"
         ],
         "categories": [
@@ -13041,6 +14147,26 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "show-less-caret",
+        "displayName": "Show Less Caret",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "show-more-caret",
+        "displayName": "Show More Caret",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -13640,6 +14766,36 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "tag",
+        "displayName": "Tag",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "tag-disabled",
+        "displayName": "Tag Disabled",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "template",
+        "displayName": "Template",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "text-align-left",
         "displayName": "Text Align Left",
         "tags": [
@@ -13979,8 +15135,30 @@ export const siteData = [
         "name": "timesheet",
         "displayName": "Timesheet",
         "tags": [
-          "document"
+          "clock",
+          "document",
+          "file"
         ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "timesheet-approve",
+        "displayName": "Timesheet Approve",
+        "tags": [],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "timesheet-approve",
+        "displayName": "Timesheet Approve",
+        "tags": [],
         "categories": [
           "Folders & Files"
         ],
@@ -14124,6 +15302,26 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "truck-add",
+        "displayName": "Truck Add",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "truck-warning-delay",
+        "displayName": "Truck Warning Delay",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "tune",
         "displayName": "Tune",
         "tags": [
@@ -14193,6 +15391,7 @@ export const siteData = [
         "displayName": "Unfold Less",
         "tags": [
           "arrow",
+          "collapse",
           "up",
           "down"
         ],
@@ -14207,11 +15406,22 @@ export const siteData = [
         "displayName": "Unfold More",
         "tags": [
           "arrow",
+          "expand",
           "up",
           "down"
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "unit-selector",
+        "displayName": "Unit Selector",
+        "tags": [],
+        "categories": [
+          "Editing"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -14499,6 +15709,16 @@ export const siteData = [
         ],
         "categories": [
           "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "warehouse",
+        "displayName": "Warehouse",
+        "tags": [],
+        "categories": [
+          "Location"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -15267,14 +16487,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "location-arrow",
-        "displayName": "Location Arrow",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "manage-places",
         "displayName": "Manage Places",
         "tags": [],
@@ -15397,16 +16609,6 @@ export const siteData = [
         "displayName": "Orders",
         "tags": [
           "documents"
-        ],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "paper-plane",
-        "displayName": "Paper Plane",
-        "tags": [
-          "send"
         ],
         "categories": [],
         "deprecated": false,
@@ -15880,6 +17082,701 @@ export const siteData = [
       {
         "name": "weather-alerts",
         "displayName": "Weather Alerts",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      }
+    ]
+  },
+  {
+    "setName": "field-systems",
+    "displayName": "Field Systems",
+    "type": "sector",
+    "icons": [
+      {
+        "name": "2-layers",
+        "displayName": "2 Layers",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "2-layers-off",
+        "displayName": "2 Layers Off",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "360",
+        "displayName": "360",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "add-square",
+        "displayName": "Add Square",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "archive-square",
+        "displayName": "Archive Square",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "auto-target",
+        "displayName": "Auto Target",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "avoidance-zone",
+        "displayName": "Avoidance Zone",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "background-dark",
+        "displayName": "Background Dark",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "background-light",
+        "displayName": "Background Light",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "base-station",
+        "displayName": "Base Station",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bullseye",
+        "displayName": "Bullseye",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bullseye-off",
+        "displayName": "Bullseye Off",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bullseye-warning",
+        "displayName": "Bullseye Warning",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clip",
+        "displayName": "Clip",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "compactor",
+        "displayName": "Compactor",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "corner",
+        "displayName": "Corner",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "dashboard-tiles",
+        "displayName": "Dashboard Tiles",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "design-package",
+        "displayName": "Design Package",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "device-cb460",
+        "displayName": "Device Cb460",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "device-tsc7",
+        "displayName": "Device Tsc7",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "devices-group",
+        "displayName": "Devices Group",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "devices-status",
+        "displayName": "Devices Status",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "dozer",
+        "displayName": "Dozer",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "easting",
+        "displayName": "Easting",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "edit-mode",
+        "displayName": "Edit Mode",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "electric-meter-off",
+        "displayName": "Electric Meter Off",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "electric-meter-off-outline",
+        "displayName": "Electric Meter Off Outline",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "electric-meter-outline-rounded",
+        "displayName": "Electric Meter Outline Rounded",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "electric-meter-rounded",
+        "displayName": "Electric Meter Rounded",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "electric-meter-rounded_warn",
+        "displayName": "Electric Meter Rounded_warn",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "elevation",
+        "displayName": "Elevation",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "gnss",
+        "displayName": "Gnss",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "gnss-r8",
+        "displayName": "Gnss R8",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "gnss-r8s-base",
+        "displayName": "Gnss R8s Base",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "gnss-rpt",
+        "displayName": "Gnss Rpt",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "gnss-rts",
+        "displayName": "Gnss Rts",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "gnss-sps986",
+        "displayName": "Gnss Sps986",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "gps",
+        "displayName": "Gps",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "grader",
+        "displayName": "Grader",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "hex",
+        "displayName": "Hex",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "horizontal-accuracy",
+        "displayName": "Horizontal Accuracy",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-square",
+        "displayName": "Image Square",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-square-off",
+        "displayName": "Image Square Off",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-square-off-outline",
+        "displayName": "Image Square Off Outline",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "image-square-outline",
+        "displayName": "Image Square Outline",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "machine",
+        "displayName": "Machine",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "machines",
+        "displayName": "Machines",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "measure-up",
+        "displayName": "Measure Up",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "northing",
+        "displayName": "Northing",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "orbit",
+        "displayName": "Orbit",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "orthogonal",
+        "displayName": "Orthogonal",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "perspective",
+        "displayName": "Perspective",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "prism-pole",
+        "displayName": "Prism Pole",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "prism-pole-extend",
+        "displayName": "Prism Pole Extend",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "receiver-generic-error-filled",
+        "displayName": "Receiver Generic Error Filled",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "receiver-generic-error-outline",
+        "displayName": "Receiver Generic Error Outline",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "receiver-generic-filled",
+        "displayName": "Receiver Generic Filled",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "receiver-generic-off-filled",
+        "displayName": "Receiver Generic Off Filled",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "receiver-generic-off-outline",
+        "displayName": "Receiver Generic Off Outline",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "receiver-generic-outline",
+        "displayName": "Receiver Generic Outline",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "receiver-generic-warn-filled",
+        "displayName": "Receiver Generic Warn Filled",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "receiver-generic-warn-outline",
+        "displayName": "Receiver Generic Warn Outline",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "ri",
+        "displayName": "Ri",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rpt",
+        "displayName": "Rpt",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rts",
+        "displayName": "Rts",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rts-off",
+        "displayName": "Rts Off",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rts-rpt",
+        "displayName": "Rts Rpt",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "select-area",
+        "displayName": "Select Area",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sx10",
+        "displayName": "Sx10",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sync-filled",
+        "displayName": "Sync Filled",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "todo",
+        "displayName": "Todo",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "todo-add",
+        "displayName": "Todo Add",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "total-station",
+        "displayName": "Total Station",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "total-station-lost",
+        "displayName": "Total Station Lost",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "unarchive-square",
+        "displayName": "Unarchive Square",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "vertical-accuracy",
+        "displayName": "Vertical Accuracy",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "view-2-rows",
+        "displayName": "View 2 Rows",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "view-3-column",
+        "displayName": "View 3 Column",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "visibility-part-outline",
+        "displayName": "Visibility Part Outline",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "workers-queue",
+        "displayName": "Workers Queue",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "x12",
+        "displayName": "X12",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "x7",
+        "displayName": "X7",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "x7-card",
+        "displayName": "X7 Card",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "x7-settings",
+        "displayName": "X7 Settings",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "xr10",
+        "displayName": "Xr10",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "zoom-center",
+        "displayName": "Zoom Center",
         "tags": [],
         "categories": [],
         "deprecated": false,

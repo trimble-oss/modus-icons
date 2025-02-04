@@ -2,7 +2,6 @@
   "name": "Modus Icons",
   "short_name": "Modus Icons",
   "start_url": "/?utm_source=a2hs",
-  "display": "standalone",
   "lang": "en-us",
   "background_color": "#f1f1f6",
   "theme_color": "#0e416c",

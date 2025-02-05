@@ -1,6 +1,7 @@
 body.home main {
-  min-height: 900px;
+  min-height: calc(100dvh - 698px);
 }
+
 body.home .highlight {
   background-color: #dcedf9;
   padding: 14px 14px 14px 0;
@@ -22,6 +23,7 @@ body.home .btn-clipboard {
 .row-site-search {
   min-height: 72px;
 }
+
 .hero {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 

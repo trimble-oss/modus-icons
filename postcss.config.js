@@ -233,7 +233,6 @@ module.exports = {
         'text-muted',
         'text-primary',
         'text-trimble-blue-dark',
-        'text-underline',
         'text-white',
         'theme-toggle',
         'tooltip',

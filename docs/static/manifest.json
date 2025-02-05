@@ -33,6 +33,13 @@
       "description": "View all the Transportation Icons",
       "url": "/transportation/",
       "icons": [{ "src": "/transportation/svg/truck.svg", "sizes": "512x512" }]
+    },
+    {
+      "name": "Modus Field Systems Icons",
+      "short_name": "Field Systems",
+      "description": "View all the Field Systems Icons",
+      "url": "/field-systems/",
+      "icons": [{ "src": "/field-systems/svg/machine.svg", "sizes": "512x512" }]
     }
   ]
 }

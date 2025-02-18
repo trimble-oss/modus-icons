@@ -7,7 +7,7 @@ on: # rebuild any PRs and main branch changes
 
 env:
   FORCE_COLOR: 2
-  NODE: 18
+  NODE: 20
 
 permissions:
   contents: read

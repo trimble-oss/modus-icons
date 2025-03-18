@@ -1,6 +1,6 @@
 <div class="d-flex align-items-center mb-4">
   <div class="form-control-with-icon" style="width: 30%; min-width: 250px" role="search">
-    <input type="search" class="form-control form-control-filter"
+    <input type="search" name="filter" class="form-control form-control-filter"
       [placeholder]="'Filter ' + iconSet.displayName + ' icons'" [(ngModel)]="filterTerm"
       (input)="filterIcons($event.target.value)" />
     <div class="form-control-icon">

@@ -128,7 +128,7 @@ body a > .bg-light:hover {
 }
 
 main {
-  min-height: calc(100vh - 400px);
+  min-height: calc(100dvh - 445px);
 }
 
 .icon-set-list {
@@ -155,23 +155,6 @@ main {
 .popover-body {
   border-bottom: 0 !important;
   padding-bottom: 0 !important;
-}
-
-nav.navbar button.btn-icon-only {
-  padding: 11px 8px !important;
-  padding-top: 9px !important;
-  padding-bottom: 11px !important;
-}
-
-nav.navbar button i {
-  font-size: 2rem !important;
-  line-height: 0.8 !important;
-  top: 0 !important;
-}
-
-.navbar-blue .btn-icon-only:hover {
-  background-color: #217cbb;
-  border-color: #019aeb;
 }
 
 input[type="search"]::-webkit-search-cancel-button {
@@ -213,16 +196,4 @@ a.btn img {
 .btn-secondary.hover:not(.active),
 .btn-secondary.hover:not(:active) {
   background-color: #7d808d !important;
-}
-
-.navbar .form-control-search {
-  max-width: 380px;
-  width: 375px;
-}
-
-@media screen and (min-width: 992px) {
-  .navbar .form-control-search {
-    max-width: 640px;
-    width: 545px;
-  }
 }

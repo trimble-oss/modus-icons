@@ -60,7 +60,7 @@
     "picocolors": "1.1.1",
     "popper.js": "1.16.1",
     "postcss": "8.5.3",
-    "postcss-cli": "11.0.0",
+    "postcss-cli": "11.0.1",
     "prettier": "3.5.1",
     "q": "1.5.1",
     "read-chunk": "3.2.0",

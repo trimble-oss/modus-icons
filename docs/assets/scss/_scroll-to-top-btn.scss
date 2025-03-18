@@ -1,18 +1,18 @@
 .btn-to-top {
+  background-color: rgba(253, 253, 253, 0.5);
   background-image: url("/modus-outlined/svg/arrow-up.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(253, 253, 253, 0.5);
-  height: 48px;
-  width: 44px;
-  bottom: 20px;
-  right: 20px;
-  z-index: 100;
   border-radius: 4px;
-  opacity: 0;
+  bottom: 20px;
   filter: invert(1);
+  height: 48px;
+  opacity: 0;
+  right: 20px;
   transform: translateY(100px);
   transition: all 1s ease;
+  width: 44px;
+  z-index: 100;
 }
 
 .show-btn {

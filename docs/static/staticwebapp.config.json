@@ -1,12 +1,4 @@
 {
-  "globalHeaders": {
-    "Content-Security-Policy": "upgrade-insecure-requests",
-    "Permissions-Policy": "autoplay=()",
-    "Referrer-Policy": "no-referrer-when-downgrade",
-    "X-Content-Type-Options": "nosniff",
-    "X-Frame-Options": "SAMEORIGIN",
-    "X-XSS-Protection": "0"
-  },
   "responseOverrides": {
     "404": {
       "rewrite": "/404/",
@@ -17,7 +9,20 @@
     {
       "route": "/favicon.*",
       "headers": {
-        "cache-control": "public, max-age=15770000"
+        "cache-control": "public, max-age=31536000"
+      }
+    },
+    {
+      "route": "/*.html",
+      "headers": {
+        "Content-Security-Policy": "upgrade-insecure-requests",
+        "Content-Type": "text/html charset=utf-8",
+        "Permissions-Policy": "autoplay=()",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "0"
       }
     }
   ]

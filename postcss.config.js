@@ -242,6 +242,7 @@ module.exports = {
         'w-50',
         'w-75',
       ],
+      blocklist: ['::-webkit-file-upload-button', 'progress-bar-stripes'],
     },
     autoprefixer: {},
   },

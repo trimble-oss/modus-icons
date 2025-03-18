@@ -62,3 +62,32 @@ header.navbar {
   background-color: #217cbb !important;
   border-color: #019aeb !important;
 }
+
+nav.navbar button.btn-icon-only {
+  padding: 11px 8px !important;
+  padding-top: 9px !important;
+  padding-bottom: 11px !important;
+}
+
+nav.navbar button i {
+  font-size: 2rem !important;
+  line-height: 0.8 !important;
+  top: 0 !important;
+}
+
+.navbar-blue .btn-icon-only:hover {
+  background-color: #217cbb;
+  border-color: #019aeb;
+}
+
+.navbar .form-control-search {
+  max-width: 380px;
+  width: 375px;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar .form-control-search {
+    max-width: 640px;
+    width: 545px;
+  }
+}

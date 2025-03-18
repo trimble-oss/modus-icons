@@ -58,6 +58,7 @@
     transition-duration: 0.5s;
   }
 }
+
 .theme-toggle {
   -webkit-tap-highlight-color: transparent;
 }
@@ -68,14 +69,6 @@
   max-height: 18px;
   max-width: 18px;
   stroke-linecap: round;
-}
-
-html[data-bs-theme="light"] {
-  color-scheme: light;
-}
-
-html[data-bs-theme="dark"] {
-  color-scheme: dark;
 }
 
 @supports not (color-scheme: dark) {

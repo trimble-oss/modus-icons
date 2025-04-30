@@ -2,6 +2,9 @@ name: SonarQube Scan
 
 on:
   pull_request:
+  push:
+    branches-ignore:
+      - "dependabot/**"
   schedule:
     - cron: "0 0 1 * *"
   workflow_dispatch:

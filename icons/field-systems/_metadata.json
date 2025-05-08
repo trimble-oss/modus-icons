@@ -15,12 +15,27 @@
     "categories": []
   },
   {
+    "name": "3d-group",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "add-square",
     "tags": [],
     "categories": []
   },
   {
+    "name": "angle",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "archive-square",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "area",
     "tags": [],
     "categories": []
   },
@@ -46,6 +61,11 @@
   },
   {
     "name": "base-station",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "bcf-topics",
     "tags": [],
     "categories": []
   },
@@ -225,6 +245,11 @@
     "categories": []
   },
   {
+    "name": "line",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "machine",
     "tags": [],
     "categories": []
@@ -340,6 +365,26 @@
     "categories": []
   },
   {
+    "name": "snap-to-center",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snap-to-endpoint",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snap-to-face",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snap-to-line",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "sx10",
     "tags": [],
     "categories": []
@@ -421,6 +466,16 @@
   },
   {
     "name": "xr10",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "xy-axis",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "z-axis",
     "tags": [],
     "categories": []
   },

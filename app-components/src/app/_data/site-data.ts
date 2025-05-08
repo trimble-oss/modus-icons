@@ -17119,6 +17119,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "3d-group",
+        "displayName": "3d Group",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "add-square",
         "displayName": "Add Square",
         "tags": [],
@@ -17127,8 +17135,24 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "angle",
+        "displayName": "Angle",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "archive-square",
         "displayName": "Archive Square",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "area",
+        "displayName": "Area",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17169,6 +17193,14 @@ export const siteData = [
       {
         "name": "base-station",
         "displayName": "Base Station",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bcf-topics",
+        "displayName": "Bcf Topics",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -17455,6 +17487,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "line",
+        "displayName": "Line",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "machine",
         "displayName": "Machine",
         "tags": [],
@@ -17639,6 +17679,38 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "snap-to-center",
+        "displayName": "Snap To Center",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "snap-to-endpoint",
+        "displayName": "Snap To Endpoint",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "snap-to-face",
+        "displayName": "Snap To Face",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "snap-to-line",
+        "displayName": "Snap To Line",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "sx10",
         "displayName": "Sx10",
         "tags": [],
@@ -17769,6 +17841,22 @@ export const siteData = [
       {
         "name": "xr10",
         "displayName": "Xr10",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "xy-axis",
+        "displayName": "Xy Axis",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "z-axis",
+        "displayName": "Z Axis",
         "tags": [],
         "categories": [],
         "deprecated": false,

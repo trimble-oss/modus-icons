@@ -1,6 +1,8 @@
 docs
 
 _modus-bootstrap-dark.scss
+CODEOWNERS
 hugo.yml
 package.json
 package-lock.json
+robots.txt

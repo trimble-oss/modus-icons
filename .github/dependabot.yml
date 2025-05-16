@@ -7,8 +7,6 @@ updates:
     ignore:
       - dependency-name: "eslint"
         versions: ["9.x"]
-    reviewers:
-      - coliff
     labels:
       - dependencies
     versioning-strategy: increase

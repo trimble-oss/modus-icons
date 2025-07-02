@@ -26,8 +26,9 @@
   </div>
   <div class="col-sm-4 float-end">
     <a href="/{{ .Section | urlize }}/svg/{{- .Title | urlize | lower -}}.svg"
-      class="btn btn-primary mt-md-5 ps-1 float-end" download>
-      <img src="/{{ .Section | urlize }}/svg/download.svg" class="filter-invert" alt width="22" height="22">
+      class="btn btn-primary mt-md-5 ps-1 float-end" download
+      aria-label="Download {{.Title}} icon as SVG file">
+      <img src="/{{ .Section | urlize }}/svg/download.svg" class="filter-invert" alt="" width="22" height="22" aria-hidden="true">
       Download SVG</a>
   </div>
 </div>

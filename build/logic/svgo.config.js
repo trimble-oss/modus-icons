@@ -17,7 +17,6 @@ module.exports = {
           removeUnknownsAndDefaults: {
             keepRoleAttr: true,
           },
-          removeViewBox: false,
         },
       },
     },

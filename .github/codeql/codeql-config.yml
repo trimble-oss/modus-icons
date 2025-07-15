@@ -1,0 +1,4 @@
+name: "CodeQL config"
+paths-ignore:
+  - app-components/preview/app-components.js
+  - app-components/src/app/svgcss/svgcss.component.ts

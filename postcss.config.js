@@ -12,6 +12,7 @@ module.exports = {
         './docs/static/assets/js/*.js',
       ],
       safelist: [
+        '@view-transition',
         'alert',
         'arrow',
         'bd-clipboard',

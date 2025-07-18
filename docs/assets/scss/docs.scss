@@ -13,6 +13,10 @@
 @import "footer";
 @import "utilities";
 
+@view-transition {
+  navigation: auto;
+}
+
 .modus-icon,
 .mi {
   display: inline-block !important;

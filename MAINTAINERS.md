@@ -2,4 +2,4 @@
 
 | Name            | Username |
 |-----------------|----------|
-| Christian Oliff | @coliff  |
+| Christian Oliff | [@coliff](https://github.com/coliff) |

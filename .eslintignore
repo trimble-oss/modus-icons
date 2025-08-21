@@ -4,6 +4,8 @@
 /_site/
 
 *.min.js
+*.mjs
+
 build-pages.js
 instant-page.min.js
 protractor.conf.js

@@ -28,7 +28,7 @@
     "docs:build": "npx hugo --cleanDestinationDir",
     "install:components": "cd app-components && npm install && cd ..",
     "prettier": "prettier --write ./*.{scss,js,json,md,yml} icons/**/*.svg",
-    "svgo": "npx svgo --folder=\"icons\" --recursive",
+    "svgo": "npx svgo --folder=\"icons/connect\" --recursive",
     "test:eslint": "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives .",
     "test:htmlhint": "htmlhint docs/**/*.html",
     "test:stylelint": "stylelint ./**/*.scss --fix --cache --cache-location node_modules/.cache/.stylelintcache --rd",

@@ -108,6 +108,22 @@
             </div>
           </div>
         </div>
+          <div class="col-12 col-md-6">
+          <div class="card card-home border mb-3">
+            <div class="card-header bg-light border-0 text-center">
+              {{ partialCached "home/home-card-connect-icons" (dict "context" . "iconset" "connect") }}
+              </div>
+              <div class="card-body bg-light my-0 py-0">
+                <a href="/connect/" class="text-decoration-none stretched-link h2">
+                  Connect
+                </a>
+              </div>
+              <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0 mt-1">
+              {{ len (where .Site.RegularPages "Section" "=" "connect") }}
+              icons
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 

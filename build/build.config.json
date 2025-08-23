@@ -14,5 +14,9 @@
   {
     "svgs": ["modus-solid", "field-systems"],
     "dist": "field-systems"
+  },
+  {
+    "svgs": ["connect"],
+    "dist": "connect"
   }
 ]

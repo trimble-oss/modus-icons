@@ -81,35 +81,55 @@ function buildIcons(config) {
     }
 
     console.log(`    Generating ${setName} fonts...`);
+    console.log(`[BUILD DEBUG] Processing ${svgFilePaths.length} SVG files for ${setName}:`);
+    svgFilePaths.sort().forEach((file, idx) => {
+      console.log(`[BUILD DEBUG] ${idx + 1}. ${file}`);
+    });
+    
     const dstDirectoryPathFonts = path.join(
       `${config.distDirectoryPath}`,
       `fonts`
     );
     fs.ensureDirSync(dstDirectoryPathFonts);
-    webfontsGenerator(
-      {
-        files: svgFilePaths.sort(),
-        dest: dstDirectoryPathFonts,
-        fontName: 'modus-icons',
-        fontHeight: 1000,
-        normalize: true,
-        ligature: true,
-        ligatureName: function (name) {
-          const ligatureName = name.replace(/[\s-]/g, '_');
-          return ligatureName;
+    try {
+      console.log(`[BUILD DEBUG] Starting font generation for ${setName}...`);
+      webfontsGenerator(
+        {
+          files: svgFilePaths.sort(),
+          dest: dstDirectoryPathFonts,
+          fontName: 'modus-icons',
+          fontHeight: 1000,
+          normalize: true,
+          ligature: true,
+          ligatureName: function (name) {
+            const ligatureName = name.replace(/[\s-]/g, '_');
+            return ligatureName;
+          },
+          types: ['woff', 'woff2'],
+          html: true,
+          verbose: true,
+          htmlTemplate: path.join(config.fontsDirectoryPath, 'html.hbs'),
+          cssTemplate: path.join(config.fontsDirectoryPath, 'css.hbs'),
+          templateOptions: {
+            classPrefix: 'modus-',
+            baseSelector: '.modus-icons',
+          },
         },
-        types: ['woff', 'woff2'],
-        html: true,
-        verbose: true,
-        htmlTemplate: path.join(config.fontsDirectoryPath, 'html.hbs'),
-        cssTemplate: path.join(config.fontsDirectoryPath, 'css.hbs'),
-        templateOptions: {
-          classPrefix: 'modus-',
-          baseSelector: '.modus-icons',
-        },
-      },
-      handleError
-    );
+        function(error, result) {
+          if (error) {
+            console.error(`[BUILD DEBUG] Font generation error for ${setName}:`, error);
+            console.error(`[BUILD DEBUG] Error stack:`, error.stack);
+            handleError(error);
+          } else {
+            console.log(`[BUILD DEBUG] Font generation completed successfully for ${setName}`);
+          }
+        }
+      );
+    } catch (error) {
+      console.error(`[BUILD DEBUG] Exception during font generation for ${setName}:`, error);
+      console.error(`[BUILD DEBUG] Exception stack:`, error.stack);
+      handleError(error);
+    }
 
     console.log(`    Generating ${setName} sprites...`);
     const dstDirectoryPathSprites = path.join(

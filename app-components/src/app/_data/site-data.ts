@@ -17990,6 +17990,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "bookmark",
+        "displayName": "Bookmark",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "border",
         "displayName": "Border",
         "tags": [],
@@ -18022,8 +18030,32 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "camera-orbit",
+        "displayName": "Camera Orbit",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "camera-walk",
+        "displayName": "Camera Walk",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cancel",
         "displayName": "Cancel",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cancel-outline",
+        "displayName": "Cancel Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -18038,8 +18070,88 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "check-circle",
+        "displayName": "Check Circle",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-down",
+        "displayName": "Chevron Down",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-left",
+        "displayName": "Chevron Left",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-right",
+        "displayName": "Chevron Right",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-up",
+        "displayName": "Chevron Up",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "circle",
+        "displayName": "Circle",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clash-set-add",
+        "displayName": "Clash Set Add",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cloud",
         "displayName": "Cloud",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cloud-queue",
+        "displayName": "Cloud Queue",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment",
+        "displayName": "Comment",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "comment-alt",
+        "displayName": "Comment Alt",
         "tags": [],
         "categories": [],
         "deprecated": false,

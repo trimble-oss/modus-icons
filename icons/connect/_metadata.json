@@ -125,6 +125,11 @@
     "categories": []
   },
   {
+    "name": "bookmark",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "border",
     "tags": [],
     "categories": []
@@ -145,7 +150,22 @@
     "categories": []
   },
   {
+    "name": "camera-orbit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "camera-walk",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "cancel",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cancel-outline",
     "tags": [],
     "categories": []
   },
@@ -155,7 +175,57 @@
     "categories": []
   },
   {
+    "name": "check-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clash-set-add",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "cloud",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud-queue",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "comment",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "comment-alt",
     "tags": [],
     "categories": []
   },

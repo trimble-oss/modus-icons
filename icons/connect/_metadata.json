@@ -140,6 +140,11 @@
     "categories": []
   },
   {
+    "name": "business-off",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "calendar",
     "tags": [],
     "categories": []
@@ -161,6 +166,11 @@
   },
   {
     "name": "camera-orbit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "camera-turn-head",
     "tags": [],
     "categories": []
   },
@@ -206,6 +216,11 @@
   },
   {
     "name": "check-circle-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "check-mark",
     "tags": [],
     "categories": []
   },
@@ -265,12 +280,52 @@
     "categories": []
   },
   {
+    "name": "cloud-upload",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "collapse",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "color-item",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "columns",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "comment",
     "tags": [],
     "categories": []
   },
   {
+    "name": "comment-add",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "comment-alt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "compare",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "connects-port-to-element",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "containment",
     "tags": [],
     "categories": []
   },
@@ -1161,11 +1216,6 @@
   },
   {
     "name": "search",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "search-1",
     "tags": [],
     "categories": []
   },

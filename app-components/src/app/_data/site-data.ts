@@ -18014,6 +18014,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "business-off",
+        "displayName": "Business Off",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "calendar",
         "displayName": "Calendar",
         "tags": [],
@@ -18048,6 +18056,14 @@ export const siteData = [
       {
         "name": "camera-orbit",
         "displayName": "Camera Orbit",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "camera-turn-head",
+        "displayName": "Camera Turn Head",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -18120,6 +18136,14 @@ export const siteData = [
       {
         "name": "check-circle-outline",
         "displayName": "Check Circle Outline",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "check-mark",
+        "displayName": "Check Mark",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -18214,6 +18238,38 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "cloud-upload",
+        "displayName": "Cloud Upload",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "collapse",
+        "displayName": "Collapse",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "color-item",
+        "displayName": "Color Item",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "columns",
+        "displayName": "Columns",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "comment",
         "displayName": "Comment",
         "tags": [],
@@ -18222,8 +18278,40 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "comment-add",
+        "displayName": "Comment Add",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "comment-alt",
         "displayName": "Comment Alt",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "compare",
+        "displayName": "Compare",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "connects-port-to-element",
+        "displayName": "Connects Port To Element",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "containment",
+        "displayName": "Containment",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -19648,14 +19736,6 @@ export const siteData = [
       {
         "name": "search",
         "displayName": "Search",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "search-1",
-        "displayName": "Search 1",
         "tags": [],
         "categories": [],
         "deprecated": false,

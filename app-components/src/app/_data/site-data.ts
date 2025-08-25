@@ -18030,6 +18030,22 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "camera-front-view",
+        "displayName": "Camera Front View",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "camera-hand",
+        "displayName": "Camera Hand",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "camera-orbit",
         "displayName": "Camera Orbit",
         "tags": [],
@@ -18070,8 +18086,24 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "check-box-outline-blank",
+        "displayName": "Check Box Outline Blank",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "check-circle",
         "displayName": "Check Circle",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "check-circle-outline",
+        "displayName": "Check Circle Outline",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -18118,6 +18150,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "clash-set",
+        "displayName": "Clash Set",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "clash-set-add",
         "displayName": "Clash Set Add",
         "tags": [],
@@ -18128,6 +18168,22 @@ export const siteData = [
       {
         "name": "cloud",
         "displayName": "Cloud",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cloud-done",
+        "displayName": "Cloud Done",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cloud-download",
+        "displayName": "Cloud Download",
         "tags": [],
         "categories": [],
         "deprecated": false,

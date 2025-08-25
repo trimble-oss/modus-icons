@@ -150,6 +150,16 @@
     "categories": []
   },
   {
+    "name": "camera-front-view",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "camera-hand",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "camera-orbit",
     "tags": [],
     "categories": []
@@ -175,7 +185,17 @@
     "categories": []
   },
   {
+    "name": "check-box-outline-blank",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "check-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "check-circle-outline",
     "tags": [],
     "categories": []
   },
@@ -205,12 +225,27 @@
     "categories": []
   },
   {
+    "name": "clash-set",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "clash-set-add",
     "tags": [],
     "categories": []
   },
   {
     "name": "cloud",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud-done",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud-download",
     "tags": [],
     "categories": []
   },

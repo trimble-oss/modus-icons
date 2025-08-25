@@ -1,5 +1,10 @@
 [
   {
+    "name": "3d-group",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "account",
     "tags": [],
     "categories": []
@@ -271,6 +276,11 @@
   },
   {
     "name": "cloud-download",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud-off",
     "tags": [],
     "categories": []
   },

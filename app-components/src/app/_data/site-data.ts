@@ -17790,6 +17790,14 @@ export const siteData = [
     "type": "sector",
     "icons": [
       {
+        "name": "3d-group",
+        "displayName": "3d Group",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "account",
         "displayName": "Account",
         "tags": [],
@@ -18224,6 +18232,14 @@ export const siteData = [
       {
         "name": "cloud-download",
         "displayName": "Cloud Download",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cloud-off",
+        "displayName": "Cloud Off",
         "tags": [],
         "categories": [],
         "deprecated": false,

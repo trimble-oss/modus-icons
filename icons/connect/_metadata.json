@@ -185,6 +185,16 @@
     "categories": []
   },
   {
+    "name": "change-history",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "check-box",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "check-box-outline-blank",
     "tags": [],
     "categories": []
@@ -276,6 +286,11 @@
   },
   {
     "name": "content-cut",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "content-export",
     "tags": [],
     "categories": []
   },

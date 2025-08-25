@@ -18086,6 +18086,22 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "change-history",
+        "displayName": "Change History",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "check-box",
+        "displayName": "Check Box",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "check-box-outline-blank",
         "displayName": "Check Box Outline Blank",
         "tags": [],
@@ -18232,6 +18248,14 @@ export const siteData = [
       {
         "name": "content-cut",
         "displayName": "Content Cut",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "content-export",
+        "displayName": "Content Export",
         "tags": [],
         "categories": [],
         "deprecated": false,

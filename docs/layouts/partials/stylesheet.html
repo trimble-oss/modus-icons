@@ -3,7 +3,7 @@
 
 {{ if in (.RelPermalink) "connect" }}
 <link rel="stylesheet" href="/connect/fonts/modus-icons.css">
-{{ if in (.RelPermalink) "outlined" }}
+{{ else if in (.RelPermalink) "outlined" }}
 <link rel="stylesheet" href="/modus-outlined/fonts/modus-icons.css">
 {{ else if in (.RelPermalink) "solid" }}
 <link rel="stylesheet" href="/modus-solid/fonts/modus-icons.css">

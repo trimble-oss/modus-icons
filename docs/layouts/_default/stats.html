@@ -53,13 +53,17 @@
         <td>{{ len (where .Site.RegularPages "Section" "=" "modus-solid") }}</td>
       </tr>
       <tr>
+        <td><a href="/connect/">Connect</a></td>
+        <td>{{ len (where .Site.RegularPages "Section" "=" "connect") }}</td>
+      </tr>
+      <tr>
         <td><a href="/transportation/">Transportation</a></td>
         <td>{{ len (where .Site.RegularPages "Section" "=" "transportation") }}</td>
       </tr>
       <tr>
         <td><a href="/field-systems/">Field Systems</a></td>
         <td>{{ len (where .Site.RegularPages "Section" "=" "field-systems") }}</td>
-        </tr>
+      </tr>
         <tr>
         <td class="fw-bold">Total:</td>
         <td class="fw-bold">{{ len (where .Site.RegularPages "Section" "!=" "") }}</td>
@@ -68,7 +72,7 @@
   </table>
 </div>
 
-<div class="text-center py-2">
+<div class="text-center py-2 small opacity-75">
   Site built with:
   <a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener" class="text-body">
     Hugo v{{ hugo.Version }}</a>

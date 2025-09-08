@@ -22,9 +22,10 @@ jobs:
       pull-requests: read
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           persist-credentials: false
+
       - uses: streetsidesoftware/cspell-action@v7
         with:
           check_dot_files: false

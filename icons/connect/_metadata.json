@@ -1,0 +1,1782 @@
+[
+  {
+    "name": "3d-group",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "account",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "action-redo",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "action-undo",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "activity",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "add-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "add-circle-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "ai-search",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "annotations",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "apps",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-drop-down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-drop-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-line-back",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-line-downward",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-line-forward",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-line-upward",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-next",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "arrow-prev",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "assistant",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "attach-file",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "autorenew",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "background",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "baseline-category",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "bcf",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "block",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "bluetooth",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "bookmark",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "border",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "browser",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "business-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "calendar",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "camera",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "camera-front-view",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "camera-hand",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "camera-orbit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "camera-turn-head",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "camera-walk",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cancel",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cancel-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cart",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "change-history",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "check-box",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "check-box-outline-blank",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "check-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "check-circle-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "check-mark",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-down",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "chevron-up",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clash-set",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "clash-set-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud-done",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud-download",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud-queue",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cloud-upload",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "collapse",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "color-item",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "columns",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "comment",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "comment-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "comment-alt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "compare",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "connects-port-to-element",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "containment",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "content-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "content-close",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "content-cut",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "content-export",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "content-import",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "content-subtract",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "copy",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "covert",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cursor-hit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cursor-type",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "cut-vertical",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "dashboard-customize",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "date-range",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "delete",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "delete-all",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "design",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "dns",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "drag-horiz",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "drag-vert",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "dropdown",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "edit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "edit-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "edit-rename",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "elevation",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "elevation-reset",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "elevation-set",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "email",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "engineering",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "error",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "error-alt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "error-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "event",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "event-available",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "event-note",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand-1",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand-less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "expand-more",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "explorer",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "export",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "extension",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "extension-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "eye-visibility",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "eye-visibility-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "eye-visibility-off-download",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "eye-visibility-off-error",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "eye-visibility-toggle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-download",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-template",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "file-upload",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "fills-element",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "filter",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "filter-list",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "find-in-page",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "fixed-point",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-create-new",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-edit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-group",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-locked",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-move",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-permissions",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-project",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-rules",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-shared",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-special",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "folder-views",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "follow",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "format-color",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "format-color-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "full-screen",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "fullscreen",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "fullscreen-exit",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "ghost",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "grid",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "group",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "group-hierarchy",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "hard-hat",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "help",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "hololens",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "indeterminate-check-box",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "info",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "insert-photo",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "laptop-mac",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "launch",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "launch-collapse",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "launch-new",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layers",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layers-clear",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layout-cover",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layout-double",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "layout-settings",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "libraries",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "link",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "link-1",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "link-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "link-alt-broken",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "link-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "link-remove",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "list-alt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "location",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "lock",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "lock-open",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "log-out",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "long-text",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "map",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "markup-arrow",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "markup-cloud",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "markup-comment",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "markup-draw",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "markup-draw-1",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "markup-line",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "markup-polygon",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "markup-polyline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "markup-text-active",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "markup-text-alt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "measure-alt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "measure-area",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "measure-length",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "measure-perimeter",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "measure-slope",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "measure-vertical",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "menu",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "metadata",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-geometry",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-geometry-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-ortho",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-property",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-tree",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-view-back",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-view-bottom",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-view-default",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-view-front",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-view-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-view-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-view-split",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "model-view-top",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "more-horiz",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "more-vert",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "mouse-scroll",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "notifications",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "notifications-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "number",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "object-selection",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "page-continuous",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "panorama",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "path-navigation",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "pause",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "permissions",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "photo-360",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "placeholder",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "play",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "print",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "project",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "project-locked",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "projectsight",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "public",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "qr-code",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "qr-code-1",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "quadri",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "radio-button-checked",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "radio-button-unchecked",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "refresh",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "release",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "remove",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "remove-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "reply",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "revisions",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "right-angle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rotate-clockwise",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rotate-counterclockwise",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rotation-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rotation-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "rule",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "save",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "search",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "select-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "select-area",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "select-objects",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "select-objects-subtract",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "select-polygon",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "select-rectangle-subtract",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "select-rectangle-subtract-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "select-single",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "select-subtract",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "services-buildings",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "settings",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "shapes",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "share",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "shift",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "short-text",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sign",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "single-pane",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sketchup-ic-color",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "slope-peripendicular-end",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "slope-peripendicular-none",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "slope-peripendicular-start",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "smartphone",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snap-center",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snap-endpoint",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snap-endpoint-1",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snap-face",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snap-line",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snap-midpoint",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "snap-to-path",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sort",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sort-ascending",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sort-decending",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "space",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "spatial-hierarchy",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "spinner2",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "stamp",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "star",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "star-border",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "subdirectory",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sum",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "support-alt",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "swap-vert",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "swap-vertical-circle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "switch-arrows",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "switch-left",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "switch-right",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sync-filled",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sync-outline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "sync-problem",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "system",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "table",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "table-view",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "tablet",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "tag",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "tc-ic-color",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "tc-icon-projectsight",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "tekla",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "text",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "text-format",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "text-highlight",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "text-size",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "text-squiggle",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "text-strikethrough",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "text-underline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "time",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "time-filled",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "timeline",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "todo",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "todo-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "toggle-off",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "toggle-on",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "transparency",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "trimble",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "tune",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "two-pane",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unfold-less",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unfold-more",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unfollow",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "unknown",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "user",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "user-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "user-group",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "user-group-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "user-permissions",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "user-remove",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "user-supervisor",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "video-360",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view-compressed-list",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view-expanded-list",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view-grid",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view-hide-others",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view-list",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view-show-all",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view-table",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "view-view-only",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "views",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "views-add",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "voids-element",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "warning",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "web-link",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "wifi",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "wifi-none",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "worksos",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "xcel",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zone",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom-in",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom-out",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom-out-1",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom-out-map",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "name": "zoom-to-selected-item",
+    "tags": [],
+    "categories": []
+  }
+]

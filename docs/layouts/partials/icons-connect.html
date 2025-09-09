@@ -1,0 +1,24 @@
+<div class="my-4">
+  {{- partial "icons-search" . }}
+  <div class="row">
+    <div class="col-12 border-bottom mb-4">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="message message-primary message-field-systems mb-3" hidden>
+        <i class="modus-icons notranslate me-1" aria-hidden="true">info</i>
+        <div>
+          <a href="/modus-solid/">connect icon set includes all
+            {{ len (where .Site.RegularPages "Section" "=" "modus-solid") }} icons from Modus Solid.</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="icon-set-list">
+      <icon-set-list setName="connect" categories="false"></icon-set-list>
+    {{ $external := resources.Get "js/app-components.js" }}
+    {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $appComponentsJs.RelPermalink }}" async fetchpriority="high"></script>
+  </div>
+</div>

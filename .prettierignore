@@ -6,3 +6,4 @@ hugo.yml
 package.json
 package-lock.json
 robots.txt
+.cspell.json

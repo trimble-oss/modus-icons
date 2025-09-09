@@ -76,9 +76,13 @@
     "webcomponentsjs",
     "Werror",
     "Xhref",
-    "xlink"
+    "xlink",
+    "ZIZMOR"
   ],
-  "flagWords": ["teh", "whitelist"],
+  "flagWords": [
+    "teh",
+    "whitelist"
+  ],
   "ignorePaths": [
     ".cspell.json",
     "**/node_modules/**",

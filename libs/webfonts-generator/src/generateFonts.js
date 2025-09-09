@@ -44,27 +44,63 @@ var generators = {
         })
         .on('end', function () {
           done(null, font.toString());
+        })
+        .on('error', function (error) {
+          console.error('[FONT DEBUG] FontStream error:', error);
+          done(error);
         });
 
       _.each(options.files, function (file, idx) {
-        var glyph = fs.createReadStream(file);
-        var name = options.names[idx];
-        var unicode;
+        console.log(`[FONT DEBUG] Processing file ${idx + 1}/${options.files.length}: ${file}`);
 
-        if (options.ligature) {
-          unicode = options.ligatureName(name);
-        } else {
-          unicode = String.fromCharCode(options.codepoints[name]);
+        try {
+          // Read the SVG file content to check for issues
+          var svgContent = fs.readFileSync(file, 'utf8');
+          console.log(`[FONT DEBUG] SVG content length: ${svgContent.length}`);
+
+          // Check if the SVG content contains any unusual characters
+          var pathMatch = svgContent.match(/d="([^"]*)"/);
+          if (pathMatch) {
+            var pathData = pathMatch[1];
+            console.log(`[FONT DEBUG] Path data length: ${pathData.length}`);
+            console.log(`[FONT DEBUG] Path data first 50 chars: ${pathData.substring(0, 50)}`);
+
+            // Check for invalid characters in path data
+            var invalidChars = pathData.match(/[^MmLlHhVvCcSsQqTtZzAa0-9\s\-\.\,\(\)]/g);
+            if (invalidChars) {
+              console.error(`[FONT DEBUG] FOUND INVALID CHARACTERS in ${file}: ${invalidChars.join(', ')}`);
+            }
+          }
+
+          var glyph = fs.createReadStream(file);
+          var name = options.names[idx];
+          var unicode;
+
+          if (options.ligature) {
+            unicode = options.ligatureName(name);
+            console.log(`[FONT DEBUG] Ligature mode - Name: ${name}, Unicode: ${unicode}, Length: ${unicode.length}`);
+          } else {
+            unicode = String.fromCharCode(options.codepoints[name]);
+            console.log(`[FONT DEBUG] Codepoint mode - Name: ${name}, Unicode: ${unicode}`);
+          }
+
+          console.log(`[FONT DEBUG] File: ${file}, Name: ${name}, Unicode: ${unicode}`);
+          glyph.metadata = {
+            name: name,
+            unicode: [unicode],
+          };
+
+          fontStream.write(glyph);
+          console.log(`[FONT DEBUG] Successfully processed: ${file}`);
+        } catch (error) {
+          console.error(`[FONT DEBUG] ERROR processing file ${file}:`, error);
+          throw error;
         }
-
-        glyph.metadata = {
-          name: name,
-          unicode: [unicode],
-        };
-        fontStream.write(glyph);
       });
 
+      console.log('[FONT DEBUG] All files processed, ending font stream...');
       fontStream.end();
+      console.log('[FONT DEBUG] Font stream ended.');
     },
   },
 

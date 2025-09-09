@@ -6,9 +6,10 @@
 *.min.js
 *.mjs
 
+app-components.js
 build-pages.js
+generateFonts.js
 instant-page.min.js
 protractor.conf.js
 scroll-to-top.js
-app-components.js
 theme-toggle.js

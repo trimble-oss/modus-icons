@@ -11,6 +11,7 @@
   "rules": {
     "no-return-await": "error",
     "no-unused-vars": "off",
+    "no-useless-escape": "off",
     "object-curly-spacing": ["error", "always"]
   }
 }

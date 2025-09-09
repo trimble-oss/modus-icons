@@ -51,7 +51,7 @@ module.exports = {
         }
 
         const basename = path.basename(info.path, '.svg');
-        const iconType = info.path.includes('outline') ? 'outline' : 'solid';
+        const iconType = info.path.includes('connect') ? 'connect' : (info.path.includes('outline') ? 'outline' : 'solid');
         return {
           element: {
             enter(node, parentNode) {

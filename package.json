@@ -48,7 +48,7 @@
     "file-type": "3.9.0",
     "fs-extra": "11.3.1",
     "handlebars": "4.7.8",
-    "htmlhint": "^1.6.3",
+    "htmlhint": "^1.7.0",
     "hugo-bin": "0.142.0",
     "icon-font-generator": "2.1.11",
     "lockfile-lint": "4.14.1",

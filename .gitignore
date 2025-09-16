@@ -5,6 +5,11 @@
 /resources
 **/.angular/
 
+app-components/.angular
+app-components/node_modules
+app-components/dist
+app-components/preview
+
 .DS_Store
 .hugo_build.lock
 _site-data.json

@@ -46,7 +46,7 @@ New glyphs are designed on a 24x24px grid, then exported as flattened SVGs. Once
 - Use dashes to separate words.
 - Use dashes instead of spaces.
 - Do not use underscores.
-- Avoid Using -Alt modifiers in names unless absolutely necessary. Instead, focus on unique features of an icon and be descriptive.
+- Avoid using -Alt modifiers in names unless absolutely necessary. Instead, focus on unique features of an icon and be descriptive.
 - For Solid/Outline icons, follow the naming convention outlined at: <https://blog.fontawesome.com/icon-naming-conventions/>
 
 ### SVGs

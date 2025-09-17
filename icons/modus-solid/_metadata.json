@@ -2476,8 +2476,12 @@
   },
   {
     "name": "filter-list-off",
-    "tags": [],
-    "categories": []
+    "tags": [
+      "funnel"
+    ],
+    "categories": [
+      "Data Management"
+    ]
   },
   {
     "name": "filter-off",

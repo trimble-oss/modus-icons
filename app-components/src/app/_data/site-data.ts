@@ -3214,8 +3214,12 @@ export const siteData = [
       {
         "name": "filter-list-off",
         "displayName": "Filter List Off",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "funnel"
+        ],
+        "categories": [
+          "Data Management"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -5718,8 +5722,12 @@ export const siteData = [
       {
         "name": "reservations",
         "displayName": "Reservations",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "booking"
+        ],
+        "categories": [
+          "Communication & Media"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -13744,8 +13752,12 @@ export const siteData = [
       {
         "name": "reservations",
         "displayName": "Reservations",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "booking"
+        ],
+        "categories": [
+          "Communication & Media"
+        ],
         "deprecated": false,
         "useInstead": ""
       },

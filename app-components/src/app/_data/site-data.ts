@@ -11248,8 +11248,12 @@ export const siteData = [
       {
         "name": "filter-list-off",
         "displayName": "Filter List Off",
-        "tags": [],
-        "categories": [],
+        "tags": [
+          "funnel"
+        ],
+        "categories": [
+          "Data Management"
+        ],
         "deprecated": false,
         "useInstead": ""
       },

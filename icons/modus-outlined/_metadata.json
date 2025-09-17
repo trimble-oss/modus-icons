@@ -2475,6 +2475,15 @@
     ]
   },
   {
+    "name": "filter-list-off",
+    "tags": [
+      "funnel"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
     "name": "filter-off",
     "tags": [
       "funnel"
@@ -4371,6 +4380,15 @@
     "name": "reply",
     "tags": [
       "arrow"
+    ],
+    "categories": [
+      "Communication & Media"
+    ]
+  },
+  {
+    "name": "reservations",
+    "tags": [
+      "booking"
     ],
     "categories": [
       "Communication & Media"

@@ -2475,6 +2475,11 @@
     ]
   },
   {
+    "name": "filter-list-off",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "filter-off",
     "tags": [
       "funnel"
@@ -4371,6 +4376,15 @@
     "name": "reply",
     "tags": [
       "arrow"
+    ],
+    "categories": [
+      "Communication & Media"
+    ]
+  },
+  {
+    "name": "reservations",
+    "tags": [
+      "booking"
     ],
     "categories": [
       "Communication & Media"

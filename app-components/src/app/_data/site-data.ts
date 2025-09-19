@@ -3212,6 +3212,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "filter-list-off",
+        "displayName": "Filter List Off",
+        "tags": [
+          "funnel"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "filter-off",
         "displayName": "Filter Off",
         "tags": [
@@ -5700,6 +5712,18 @@ export const siteData = [
         "displayName": "Reply",
         "tags": [
           "arrow"
+        ],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "reservations",
+        "displayName": "Reservations",
+        "tags": [
+          "booking"
         ],
         "categories": [
           "Communication & Media"
@@ -11222,6 +11246,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "filter-list-off",
+        "displayName": "Filter List Off",
+        "tags": [
+          "funnel"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "filter-off",
         "displayName": "Filter Off",
         "tags": [
@@ -13710,6 +13746,18 @@ export const siteData = [
         "displayName": "Reply",
         "tags": [
           "arrow"
+        ],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "reservations",
+        "displayName": "Reservations",
+        "tags": [
+          "booking"
         ],
         "categories": [
           "Communication & Media"

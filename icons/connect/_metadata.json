@@ -370,22 +370,12 @@
     "categories": []
   },
   {
+    "name": "convert",
+    "tags": [],
+    "categories": []
+  },
+  {
     "name": "copy",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "covert",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "cursor-hit",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "cursor-type",
     "tags": [],
     "categories": []
   },
@@ -620,11 +610,6 @@
     "categories": []
   },
   {
-    "name": "fixed-point",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "folder",
     "tags": [],
     "categories": []
@@ -686,16 +671,6 @@
   },
   {
     "name": "follow",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "format-color",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "format-color-off",
     "tags": [],
     "categories": []
   },
@@ -805,11 +780,6 @@
     "categories": []
   },
   {
-    "name": "layout-settings",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "libraries",
     "tags": [],
     "categories": []
@@ -890,11 +860,6 @@
     "categories": []
   },
   {
-    "name": "markup-comment",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "markup-draw",
     "tags": [],
     "categories": []
@@ -915,22 +880,12 @@
     "categories": []
   },
   {
-    "name": "markup-polyline",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "markup-text-active",
     "tags": [],
     "categories": []
   },
   {
     "name": "markup-text-alt",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "measure-alt",
     "tags": [],
     "categories": []
   },
@@ -1025,11 +980,6 @@
     "categories": []
   },
   {
-    "name": "model-view-split",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "model-view-top",
     "tags": [],
     "categories": []
@@ -1076,11 +1026,6 @@
   },
   {
     "name": "panorama",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "path-navigation",
     "tags": [],
     "categories": []
   },
@@ -1370,11 +1315,6 @@
     "categories": []
   },
   {
-    "name": "snap-to-path",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "sort",
     "tags": [],
     "categories": []
@@ -1505,11 +1445,6 @@
     "categories": []
   },
   {
-    "name": "tc-icon-projectsight",
-    "tags": [],
-    "categories": []
-  },
-  {
     "name": "tekla",
     "tags": [],
     "categories": []
@@ -1556,11 +1491,6 @@
   },
   {
     "name": "time-filled",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "timeline",
     "tags": [],
     "categories": []
   },
@@ -1761,11 +1691,6 @@
   },
   {
     "name": "zoom-out",
-    "tags": [],
-    "categories": []
-  },
-  {
-    "name": "zoom-out-1",
     "tags": [],
     "categories": []
   },

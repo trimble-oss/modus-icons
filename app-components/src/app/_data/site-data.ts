@@ -3212,6 +3212,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "filter-list-off",
+        "displayName": "Filter List Off",
+        "tags": [
+          "funnel"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "filter-off",
         "displayName": "Filter Off",
         "tags": [
@@ -5700,6 +5712,18 @@ export const siteData = [
         "displayName": "Reply",
         "tags": [
           "arrow"
+        ],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "reservations",
+        "displayName": "Reservations",
+        "tags": [
+          "booking"
         ],
         "categories": [
           "Communication & Media"
@@ -11222,6 +11246,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "filter-list-off",
+        "displayName": "Filter List Off",
+        "tags": [
+          "funnel"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "filter-off",
         "displayName": "Filter Off",
         "tags": [
@@ -13710,6 +13746,18 @@ export const siteData = [
         "displayName": "Reply",
         "tags": [
           "arrow"
+        ],
+        "categories": [
+          "Communication & Media"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "reservations",
+        "displayName": "Reservations",
+        "tags": [
+          "booking"
         ],
         "categories": [
           "Communication & Media"
@@ -18382,32 +18430,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "convert",
+        "displayName": "Convert",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "copy",
         "displayName": "Copy",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "covert",
-        "displayName": "Covert",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cursor-hit",
-        "displayName": "Cursor Hit",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "cursor-type",
-        "displayName": "Cursor Type",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -18782,14 +18814,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "fixed-point",
-        "displayName": "Fixed Point",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "folder",
         "displayName": "Folder",
         "tags": [],
@@ -18888,22 +18912,6 @@ export const siteData = [
       {
         "name": "follow",
         "displayName": "Follow",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "format-color",
-        "displayName": "Format Color",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "format-color-off",
-        "displayName": "Format Color Off",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -19078,14 +19086,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "layout-settings",
-        "displayName": "Layout Settings",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "libraries",
         "displayName": "Libraries",
         "tags": [],
@@ -19214,14 +19214,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "markup-comment",
-        "displayName": "Markup Comment",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "markup-draw",
         "displayName": "Markup Draw",
         "tags": [],
@@ -19254,14 +19246,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "markup-polyline",
-        "displayName": "Markup Polyline",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "markup-text-active",
         "displayName": "Markup Text Active",
         "tags": [],
@@ -19272,14 +19256,6 @@ export const siteData = [
       {
         "name": "markup-text-alt",
         "displayName": "Markup Text Alt",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "measure-alt",
-        "displayName": "Measure Alt",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -19430,14 +19406,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "model-view-split",
-        "displayName": "Model View Split",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "model-view-top",
         "displayName": "Model View Top",
         "tags": [],
@@ -19512,14 +19480,6 @@ export const siteData = [
       {
         "name": "panorama",
         "displayName": "Panorama",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "path-navigation",
-        "displayName": "Path Navigation",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -19982,14 +19942,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "snap-to-path",
-        "displayName": "Snap To Path",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "sort",
         "displayName": "Sort",
         "tags": [],
@@ -20198,14 +20150,6 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "tc-icon-projectsight",
-        "displayName": "Tc Icon Projectsight",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
         "name": "tekla",
         "displayName": "Tekla",
         "tags": [],
@@ -20280,14 +20224,6 @@ export const siteData = [
       {
         "name": "time-filled",
         "displayName": "Time Filled",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "timeline",
-        "displayName": "Timeline",
         "tags": [],
         "categories": [],
         "deprecated": false,
@@ -20608,14 +20544,6 @@ export const siteData = [
       {
         "name": "zoom-out",
         "displayName": "Zoom Out",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "zoom-out-1",
-        "displayName": "Zoom Out 1",
         "tags": [],
         "categories": [],
         "deprecated": false,

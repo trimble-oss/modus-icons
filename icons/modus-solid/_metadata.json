@@ -1,5 +1,14 @@
 [
   {
+    "name": "3d-terrain",
+    "tags": [
+      "mountain"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "accessibility",
     "tags": [
       "person"
@@ -80,6 +89,17 @@
     "tags": [
       "help",
       "support"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "ai-stars",
+    "tags": [
+      "AI",
+      "stars",
+      "wizard"
     ],
     "categories": [
       "Objects & Shapes"
@@ -1694,6 +1714,16 @@
     ]
   },
   {
+    "name": "control-compass",
+    "tags": [
+      "compass",
+      "direction"
+    ],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
     "name": "copy-content",
     "tags": [
       "duplicate"
@@ -2663,9 +2693,36 @@
   },
   {
     "name": "forklift",
-    "tags": [],
+    "tags": [
+      "forklift"
+    ],
     "categories": [
       "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "forklift-packages",
+    "tags": [
+      "forklift",
+      "packages",
+      "loading dock",
+      "distribution"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "form-send",
+    "tags": [
+      "file",
+      "send",
+      "submit",
+      "document",
+      "form"
+    ],
+    "categories": [
+      "Folders & Files"
     ]
   },
   {
@@ -3106,6 +3163,15 @@
     ]
   },
   {
+    "name": "key-api",
+    "tags": [
+      "API"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "keyboard",
     "tags": [
       "input"
@@ -3421,6 +3487,13 @@
       "geography",
       "location"
     ],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
+    "name": "map-edit",
+    "tags": [],
     "categories": [
       "Location"
     ]
@@ -3825,6 +3898,15 @@
       "shipping",
       "box",
       "Shipped"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "packages",
+    "tags": [
+      "dolly"
     ],
     "categories": [
       "Objects & Shapes"
@@ -4628,6 +4710,13 @@
     ]
   },
   {
+    "name": "select-link-add",
+    "tags": [],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "server",
     "tags": [
       "data"
@@ -4643,6 +4732,18 @@
     ],
     "categories": [
       "Devices"
+    ]
+  },
+  {
+    "name": "service-rep",
+    "tags": [
+      "representative",
+      "agent",
+      "support",
+      "call"
+    ],
+    "categories": [
+      "Communication & Media"
     ]
   },
   {
@@ -5558,6 +5659,13 @@
     ]
   },
   {
+    "name": "trailer",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
     "name": "tree-structure",
     "tags": [
       "data",
@@ -5605,7 +5713,28 @@
     ]
   },
   {
+    "name": "trip-list",
+    "tags": [],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
     "name": "truck-add",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "truck-circle",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "truck-circle-eu",
     "tags": [],
     "categories": [
       "Objects & Shapes"

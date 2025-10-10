@@ -6,7 +6,7 @@ import { siteData } from 'src/app/_data/site-data';
   providedIn: 'root',
 })
 export class IconService {
-  constructor() {}
+  // Empty constructor - no initialization needed
 
   getSetList(): any[] {
     return siteData.map((set) => {

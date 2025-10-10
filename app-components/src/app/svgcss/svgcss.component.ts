@@ -14,7 +14,7 @@ export class SvgcssComponent implements OnInit {
     level2: `'`,
   };
 
-  constructor() { }
+  // Empty constructor - no initialization needed
 
   ngOnInit(): void {
     // trim leading and trailing double quotes

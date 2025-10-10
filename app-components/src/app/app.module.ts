@@ -1,4 +1,4 @@
-import { NgModule, Injector } from '@angular/core';
+import { NgModule, Injector, DoBootstrap } from '@angular/core';
 import { createCustomElement } from '@angular/elements';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -23,7 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     // { provide: OverlayContainer, useClass: CdkOverlayContainer }
     ]
 })
-export class AppModule {
+export class AppModule implements DoBootstrap {
   constructor(private injector: Injector) {
     const searchElement = createCustomElement(SearchComponent, {
       injector: this.injector,
@@ -40,5 +40,7 @@ export class AppModule {
     });
     customElements.define('svg-css', svgcssElement);
   }
-  ngDoBootstrap() {}
+  ngDoBootstrap() {
+    // Bootstrap logic for custom elements
+  }
 }

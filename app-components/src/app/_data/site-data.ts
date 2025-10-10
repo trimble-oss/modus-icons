@@ -5,6 +5,18 @@ export const siteData = [
     "type": "modus",
     "icons": [
       {
+        "name": "3d-terrain",
+        "displayName": "3d Terrain",
+        "tags": [
+          "mountain"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "accessibility",
         "displayName": "Accessibility",
         "tags": [
@@ -107,6 +119,20 @@ export const siteData = [
         "tags": [
           "help",
           "support"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "ai-stars",
+        "displayName": "Ai Stars",
+        "tags": [
+          "AI",
+          "stars",
+          "wizard"
         ],
         "categories": [
           "Objects & Shapes"
@@ -2194,6 +2220,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "control-compass",
+        "displayName": "Control Compass",
+        "tags": [
+          "compass",
+          "direction"
+        ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "copy-content",
         "displayName": "Copy Content",
         "tags": [
@@ -3458,9 +3497,42 @@ export const siteData = [
       {
         "name": "forklift",
         "displayName": "Forklift",
-        "tags": [],
+        "tags": [
+          "forklift"
+        ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "forklift-packages",
+        "displayName": "Forklift Packages",
+        "tags": [
+          "forklift",
+          "packages",
+          "loading dock",
+          "distribution"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "form-send",
+        "displayName": "Form Send",
+        "tags": [
+          "file",
+          "send",
+          "submit",
+          "document",
+          "form"
+        ],
+        "categories": [
+          "Folders & Files"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -4047,6 +4119,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "key-api",
+        "displayName": "Key Api",
+        "tags": [
+          "API"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "keyboard",
         "displayName": "Keyboard",
         "tags": [
@@ -4462,6 +4546,16 @@ export const siteData = [
           "geography",
           "location"
         ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-edit",
+        "displayName": "Map Edit",
+        "tags": [],
         "categories": [
           "Location"
         ],
@@ -4989,6 +5083,18 @@ export const siteData = [
           "shipping",
           "box",
           "Shipped"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "packages",
+        "displayName": "Packages",
+        "tags": [
+          "dolly"
         ],
         "categories": [
           "Objects & Shapes"
@@ -6040,6 +6146,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "select-link-add",
+        "displayName": "Select Link Add",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "server",
         "displayName": "Server",
         "tags": [
@@ -6059,6 +6175,21 @@ export const siteData = [
         ],
         "categories": [
           "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "service-rep",
+        "displayName": "Service Rep",
+        "tags": [
+          "representative",
+          "agent",
+          "support",
+          "call"
+        ],
+        "categories": [
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7255,6 +7386,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "trailer",
+        "displayName": "Trailer",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "tree-structure",
         "displayName": "Tree Structure",
         "tags": [
@@ -7320,8 +7461,38 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "trip-list",
+        "displayName": "Trip List",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "truck-add",
         "displayName": "Truck Add",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "truck-circle",
+        "displayName": "Truck Circle",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "truck-circle-eu",
+        "displayName": "Truck Circle Eu",
         "tags": [],
         "categories": [
           "Objects & Shapes"
@@ -8039,6 +8210,18 @@ export const siteData = [
     "type": "modus",
     "icons": [
       {
+        "name": "3d-terrain",
+        "displayName": "3d Terrain",
+        "tags": [
+          "mountain"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "accessibility",
         "displayName": "Accessibility",
         "tags": [
@@ -8141,6 +8324,20 @@ export const siteData = [
         "tags": [
           "help",
           "support"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "ai-stars",
+        "displayName": "Ai Stars",
+        "tags": [
+          "AI",
+          "stars",
+          "wizard"
         ],
         "categories": [
           "Objects & Shapes"
@@ -10228,6 +10425,19 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "control-compass",
+        "displayName": "Control Compass",
+        "tags": [
+          "compass",
+          "direction"
+        ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "copy-content",
         "displayName": "Copy Content",
         "tags": [
@@ -11492,9 +11702,42 @@ export const siteData = [
       {
         "name": "forklift",
         "displayName": "Forklift",
-        "tags": [],
+        "tags": [
+          "forklift"
+        ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "forklift-packages",
+        "displayName": "Forklift Packages",
+        "tags": [
+          "forklift",
+          "packages",
+          "loading dock",
+          "distribution"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "form-send",
+        "displayName": "Form Send",
+        "tags": [
+          "file",
+          "send",
+          "submit",
+          "document",
+          "form"
+        ],
+        "categories": [
+          "Folders & Files"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -12081,6 +12324,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "key-api",
+        "displayName": "Key Api",
+        "tags": [
+          "API"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "keyboard",
         "displayName": "Keyboard",
         "tags": [
@@ -12496,6 +12751,16 @@ export const siteData = [
           "geography",
           "location"
         ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "map-edit",
+        "displayName": "Map Edit",
+        "tags": [],
         "categories": [
           "Location"
         ],
@@ -13023,6 +13288,18 @@ export const siteData = [
           "shipping",
           "box",
           "Shipped"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "packages",
+        "displayName": "Packages",
+        "tags": [
+          "dolly"
         ],
         "categories": [
           "Objects & Shapes"
@@ -14074,6 +14351,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "select-link-add",
+        "displayName": "Select Link Add",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "server",
         "displayName": "Server",
         "tags": [
@@ -14093,6 +14380,21 @@ export const siteData = [
         ],
         "categories": [
           "Devices"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "service-rep",
+        "displayName": "Service Rep",
+        "tags": [
+          "representative",
+          "agent",
+          "support",
+          "call"
+        ],
+        "categories": [
+          "Communication & Media"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -15285,6 +15587,16 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "trailer",
+        "displayName": "Trailer",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "tree-structure",
         "displayName": "Tree Structure",
         "tags": [
@@ -15350,8 +15662,38 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "trip-list",
+        "displayName": "Trip List",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "truck-add",
         "displayName": "Truck Add",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "truck-circle",
+        "displayName": "Truck Circle",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "truck-circle-eu",
+        "displayName": "Truck Circle Eu",
         "tags": [],
         "categories": [
           "Objects & Shapes"

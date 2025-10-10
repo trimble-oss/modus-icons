@@ -39,13 +39,10 @@
       }
     },
     {
-      "files": [
-        "*.html"
-      ],
+      "files": ["*.html"],
+      "extends": ["plugin:@angular-eslint/template/recommended"],
       "parser": "@angular-eslint/template-parser",
-      "plugins": [
-        "@angular-eslint/eslint-plugin-template"
-      ],
+      "plugins": ["@angular-eslint/eslint-plugin-template"],
       "rules": {}
     }
   ]

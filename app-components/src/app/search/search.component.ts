@@ -14,7 +14,9 @@ export class SearchComponent implements OnInit {
 
   constructor(private iconService: IconService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    // Component initialization - no setup needed
+  }
 
   search() {
     this.iconService.searchIcons(this.searchString).subscribe((results) => {

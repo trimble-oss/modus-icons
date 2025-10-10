@@ -38,7 +38,7 @@ export class SetComponent implements OnInit {
     this.iconService.getSet(this.setname).subscribe((data) => {
       this.iconSet = data;
       this.iconSet.icons.forEach((icon) => {
-        let iconCategories = icon.categories.join(', ');
+        const iconCategories = icon.categories.join(', ');
         if (!this.categoryList.includes(iconCategories)) {
           this.categoryList.push(iconCategories);
         }

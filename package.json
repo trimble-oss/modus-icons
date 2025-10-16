@@ -90,10 +90,10 @@
     "!**/fonts/*.ttf"
   ],
   "hugo-bin": {
-    "buildTags": "extended"
+    "buildTags": "extended",
+    "version": "0.145.0"
   },
   "volta": {
-    "node": "20.19.5",
-    "version": "0.145.0"
+    "node": "20.19.5"
   }
 }

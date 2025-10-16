@@ -17,17 +17,15 @@ childProcess.execSync('npx ng build --configuration production --output-hashing=
 console.log('Copying app-component.js...');
 concat(
   [
-    'dist/app-components/runtime.js',
-    'dist/app-components/polyfills.js',
-    'dist/app-components/main.js',
+    'dist/app-components/browser/polyfills.js',
+    'dist/app-components/browser/main.js',
   ],
   'preview/app-components.js'
 );
 concat(
   [
-    'dist/app-components/runtime.js',
-    'dist/app-components/polyfills.js',
-    'dist/app-components/main.js',
+    'dist/app-components/browser/polyfills.js',
+    'dist/app-components/browser/main.js',
   ],
   '../docs/assets/js/app-components.js'
 );

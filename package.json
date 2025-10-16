@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "7.0.2",
-    "@prettier/plugin-xml": "3.4.1",
+    "@prettier/plugin-xml": "3.4.2",
     "@trimble-oss/modus-bootstrap": "2.0.13",
     "autoprefixer": "10.4.21",
     "bootstrap": "5.3.8",
@@ -48,7 +48,7 @@
     "fs-extra": "11.3.2",
     "handlebars": "4.7.8",
     "htmlhint": "^1.7.1",
-    "hugo-bin": "0.142.0",
+    "hugo-bin": "0.148.1",
     "icon-font-generator": "2.1.11",
     "lockfile-lint": "4.14.1",
     "lodash": "4.17.21",
@@ -67,7 +67,7 @@
     "sass": "1.79.1",
     "shx": "0.4.0",
     "stylelint": "16.25.0",
-    "stylelint-config-standard-scss": "14.0.0",
+    "stylelint-config-standard-scss": "16.0.0",
     "svg-sprite": "3.0.0-rc3",
     "svg2ttf": "6.0.3",
     "svgexport": "0.4.2",
@@ -90,7 +90,8 @@
     "!**/fonts/*.ttf"
   ],
   "hugo-bin": {
-    "buildTags": "extended"
+    "buildTags": "extended",
+    "version": "0.145.0"
   },
   "volta": {
     "node": "20.19.5"

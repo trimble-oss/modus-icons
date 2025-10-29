@@ -37,7 +37,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "7.0.2",
     "@prettier/plugin-xml": "3.4.2",
-    "@trimble-oss/modus-bootstrap": "2.0.13",
+    "@trimble-oss/modus-bootstrap": "2.2.0",
     "autoprefixer": "10.4.21",
     "bootstrap": "5.3.8",
     "clipboard": "2.0.11",

@@ -1,0 +1,53 @@
+---
+# Mend CLI Scan workflow
+
+name: 'Mend CLI Scan'
+
+on:
+  pull_request:
+    types: ['opened', 'synchronize', 'reopened']
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: 'read'
+  pull-requests: 'write'
+
+jobs:
+  mend-scan:
+    runs-on: 'ubuntu-latest'
+    name: 'Mend CLI Scan'
+    steps:
+      - name: 'Checkout code'
+        uses: 'actions/checkout@v4'
+      # No build steps configured - customize manually if needed
+      - name: 'Download Mend CLI'
+        run: |
+          echo "Downloading Mend CLI"
+          curl -L https://downloads.mend.io/cli/linux_amd64/mend -o /usr/local/bin/mend
+          chmod +x /usr/local/bin/mend
+
+      - name: 'Mend CLI - SCA Scan'
+        env:
+          MEND_EMAIL: '${{ secrets.MEND_EMAIL }}'
+          MEND_USER_KEY: '${{ secrets.MEND_USER_KEY }}'
+          MEND_URL: '${{ secrets.MEND_URL }}'
+        run: |
+          echo "Running Mend SCA scan"
+          mend dep \
+            -u \
+            -s "Trimble, Inc.//modus.trimble.com//modus-icons" \
+            -d "." \
+            --fail-policy
+      - name: 'Mend CLI - SAST Scan'
+        env:
+          MEND_EMAIL: '${{ secrets.MEND_EMAIL }}'
+          MEND_USER_KEY: '${{ secrets.MEND_USER_KEY }}'
+          MEND_URL: '${{ secrets.MEND_URL }}'
+        run: |
+          echo "Running Mend SAST scan"
+          mend code \
+            -s "Trimble, Inc.//modus.trimble.com//modus-icons" \
+            -d "."
+...

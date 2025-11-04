@@ -2,8 +2,6 @@
 name: 'Mend CLI Scan'
 
 on:
-  pull_request:
-    types: ['opened', 'synchronize', 'reopened']
   schedule:
     - cron: '0 0 1 * *'
   workflow_dispatch: {}

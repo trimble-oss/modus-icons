@@ -1,6 +1,7 @@
 {
   "name": "app-components",
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +9,6 @@
     "test": "ng test",
     "lint": "ng lint"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^16.2.12",
     "@angular/cdk": "^16.2.14",
@@ -41,17 +41,17 @@
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "concat": "^1.0.3",
-    "eslint": "^8.57.1",
+    "eslint": "8.57.1",
     "jasmine-core": "~4.6.0",
     "jasmine-spec-reporter": "~7.0.0",
     "karma": "6.4.4",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.0.3",
+    "karma-chrome-launcher": "3.2.0",
+    "karma-coverage": "2.2.1",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "sass": "1.79.1",
-    "ts-node": "~8.3.0",
-    "typescript": "~5.1.6"
+    "ts-node": "8.3.0",
+    "typescript": "5.1.6"
   },
   "engines": {
     "node": ">=20.19.5"

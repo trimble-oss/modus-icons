@@ -31,7 +31,6 @@
 
 ## Quality & Validation (MANDATORY)
 
-- Multi-step tasks: Create progress files in `.cursor/temp/`.
 - Never assume commands worked without verification.
 - 98%+ confidence threshold for definitive claims.
 - Immediate re-investigation when findings don't match expectations.

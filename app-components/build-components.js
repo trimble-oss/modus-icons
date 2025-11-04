@@ -18,7 +18,6 @@ console.log('Copying app-component.js...');
 concat(
   [
     'dist/app-components/runtime.js',
-    'dist/app-components/polyfills.js',
     'dist/app-components/main.js',
   ],
   'preview/app-components.js'
@@ -26,7 +25,6 @@ concat(
 concat(
   [
     'dist/app-components/runtime.js',
-    'dist/app-components/polyfills.js',
     'dist/app-components/main.js',
   ],
   '../docs/assets/js/app-components.js'

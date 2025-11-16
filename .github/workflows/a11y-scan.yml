@@ -13,5 +13,5 @@ jobs:
             https://modus-icons.trimble.com/modus-solid/alert/
           repository: trimble-oss/modus-icons # Provide a repository name-with-owner (in the format "primer/primer-docs"). This is where issues will be filed and where Copilot will open PRs; more information below.
           token: ${{ secrets.GH_TOKEN }} # This token must have write access to the repo above (contents, issues, and PRs); more information below. Note: GitHub Actions' GITHUB_TOKEN cannot be used here.
-          cache_key: REPLACE_THIS # Provide a filename that will be used when caching results. We recommend including the name or domain of the site being scanned.
+          cache_key: modus-icons-trimble-com # Provide a filename that will be used when caching results. We recommend including the name or domain of the site being scanned.
           # skip_copilot_assignment: false # Optional: Set to true to skip assigning issues to GitHub Copilot (or if you don't have GitHub Copilot)

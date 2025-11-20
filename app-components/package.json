@@ -48,7 +48,7 @@
     "karma-coverage": "2.2.1",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "sass": "1.79.1",
+    "sass": "1.94.2",
     "ts-node": "^9.1.1",
     "typescript": "~5.4.0"
   },

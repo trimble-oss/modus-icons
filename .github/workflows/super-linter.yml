@@ -25,6 +25,9 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
+      - name: Install npm dependencies
+        run: npm ci
+
       - name: Lint Code Base
         uses: super-linter/super-linter/slim@2bdd90ed3262e023ac84bf8fe35dc480721fc1f2 # v8.2.1
         env:

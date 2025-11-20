@@ -17187,6 +17187,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "route-saved",
+        "displayName": "Route Saved",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "school-bus",
         "displayName": "School Bus",
         "tags": [
@@ -19910,14 +19918,6 @@ export const siteData = [
       {
         "name": "qr-code",
         "displayName": "Qr Code",
-        "tags": [],
-        "categories": [],
-        "deprecated": false,
-        "useInstead": ""
-      },
-      {
-        "name": "qr-code-1",
-        "displayName": "Qr Code 1",
         "tags": [],
         "categories": [],
         "deprecated": false,

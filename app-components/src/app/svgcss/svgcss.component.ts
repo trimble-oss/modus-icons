@@ -4,6 +4,7 @@ import { Component, Input, OnInit } from '@angular/core';
   selector: 'app-svgcss',
   templateUrl: './svgcss.component.html',
   styles: [],
+  standalone: false,
 })
 export class SvgcssComponent implements OnInit {
   @Input() svg: string;

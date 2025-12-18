@@ -11,6 +11,13 @@ updates:
       - dependencies
     versioning-strategy: increase
     open-pull-requests-limit: 1
+    groups:
+    all-dependencies:
+      patterns:
+        - "*"
+      update-types:
+        - "minor"
+        - "patch"
 
   - package-ecosystem: npm
     directory: "/app-components/"
@@ -20,6 +27,13 @@ updates:
       - dependencies
     versioning-strategy: increase
     open-pull-requests-limit: 1
+    groups:
+    all-dependencies:
+      patterns:
+        - "*"
+      update-types:
+        - "minor"
+        - "patch"
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]

@@ -6,6 +6,7 @@ import { IconService } from '../icon.service';
   selector: 'app-set',
   templateUrl: './set.component.html',
   styleUrls: ['./set.component.scss'],
+  standalone: false,
 })
 export class SetComponent implements OnInit {
   @Input() setname: string;

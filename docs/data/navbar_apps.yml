@@ -1,11 +1,7 @@
 ---
-- title: Modus Style Guide
-  icon: "/img/icons/trimble.svg"
-  url: "https://modus.trimble.com"
-
 - title: Modus Web Components
   icon: "/img/icons/web-components.svg"
-  url: "https://modus-web-components.trimble.com"
+  url: "https://modus-web-components-v2.trimble.com"
 
 - title: Modus Bootstrap
   icon: "/img/icons/code.svg"

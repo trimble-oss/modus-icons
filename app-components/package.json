@@ -33,7 +33,7 @@
     "@angular-eslint/eslint-plugin-template": "^19.0.0",
     "@angular-eslint/schematics": "^19.0.0",
     "@angular-eslint/template-parser": "^19.0.0",
-    "@angular/cli": "^19.2.18",
+    "@angular/cli": "^21.1.0",
     "@angular/compiler-cli": "^19.2.18",
     "@types/jasmine": "~4.3.0",
     "@types/node": "^18.15.0",

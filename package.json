@@ -37,7 +37,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "7.0.2",
     "@prettier/plugin-xml": "3.4.2",
-    "@trimble-oss/modus-bootstrap": "2.3.1",
+    "@trimble-oss/modus-bootstrap": "2.3.2",
     "autoprefixer": "10.4.24",
     "bootstrap": "5.3.8",
     "clipboard": "2.0.11",
@@ -47,7 +47,7 @@
     "file-type": "3.9.0",
     "fs-extra": "11.3.3",
     "handlebars": "4.7.8",
-    "htmlhint": "^1.8.0",
+    "htmlhint": "^1.9.1",
     "hugo-bin": "0.149.2",
     "icon-font-generator": "2.1.11",
     "lockfile-lint": "4.14.1",
@@ -76,7 +76,7 @@
     "ttf2eot": "3.1.0",
     "ttf2woff": "3.0.0",
     "ttf2woff2": "5.0.0",
-    "underscore": "1.13.7",
+    "underscore": "1.13.8",
     "concat": "^1.0.3",
     "url-join": "1.1.0"
   },

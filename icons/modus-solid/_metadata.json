@@ -5094,6 +5094,13 @@
     ]
   },
   {
+    "name": "stamp",
+    "tags": [],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
     "name": "star",
     "tags": [
       "favorite",

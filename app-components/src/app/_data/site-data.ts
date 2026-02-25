@@ -6647,6 +6647,14 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "stamp",
+        "displayName": "Stamp",
+        "tags": [],
+        "categories": [],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "star",
         "displayName": "Star",
         "tags": [
@@ -14848,6 +14856,14 @@ export const siteData = [
         "categories": [
           "Data Management"
         ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "stamp",
+        "displayName": "Stamp",
+        "tags": [],
+        "categories": [],
         "deprecated": false,
         "useInstead": ""
       },

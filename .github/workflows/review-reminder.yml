@@ -16,7 +16,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: blombard/review-reminder@e4bb52f8df46e4b9c752451bbd01a412c4502ed9 # master
+      - uses: blombard/review-reminder@8d1d1c0b3d5a6b2cb6a67da84a5d129ce96bcd7b # master
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
           reminder-comment: "Don't forget to review this PR !"

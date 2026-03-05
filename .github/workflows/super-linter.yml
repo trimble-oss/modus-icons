@@ -13,10 +13,11 @@ jobs:
   build:
     permissions:
       contents: read
+      issues: write
+      pull-requests: write
       statuses: write
     name: Lint Code Base
     runs-on: ubuntu-latest
-    if: ${{ github.actor != 'dependabot[bot]' }}
 
     steps:
       - name: Checkout Code
@@ -55,6 +56,7 @@ jobs:
           VALIDATE_JSON_PRETTIER: false
           VALIDATE_MARKDOWN_PRETTIER: false
           VALIDATE_NATURAL_LANGUAGE: false
+          VALIDATE_TRIVY: false
           VALIDATE_TYPESCRIPT_ES: false
           VALIDATE_TYPESCRIPT_PRETTIER: false
           VALIDATE_XML: false

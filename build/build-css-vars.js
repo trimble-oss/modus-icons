@@ -67,6 +67,7 @@ function encodeSvgForCss(svgString) {
 
 async function buildCssVarsForSet(config, version, svgoConfig, distPath) {
   const setName = config.dist;
+  const iconPrefix = `${setName}-icon`;
   const entries = collectIconEntriesForConfig(config, rootDirectoryPath, distPath);
   if (entries.length === 0) return { setName, entryCount: 0 };
 
@@ -77,8 +78,8 @@ async function buildCssVarsForSet(config, version, svgoConfig, distPath) {
  */
 `;
 
-  const baseRules = `[class^="modus-icon-"],
-[class*=" modus-icon-"] {
+  const baseRules = `[class^="${iconPrefix}-"],
+[class*=" ${iconPrefix}-"] {
   background-color: currentColor;
   display: inline-block;
   height: 1rem;
@@ -102,9 +103,9 @@ async function buildCssVarsForSet(config, version, svgoConfig, distPath) {
     const svgStripped = stripSvgForCssVars(optimizedSvg);
     const encoded = encodeSvgForCss(svgStripped);
     const dataUri = `url("data:image/svg+xml;utf8,${encoded}")`;
-    varLines.push(`  --modus-icon-${iconId}: ${dataUri};`);
+    varLines.push(`  --${iconPrefix}-${iconId}: ${dataUri};`);
     classLines.push(
-      `.modus-icon-${iconId} {\n  mask-image: var(--modus-icon-${iconId});\n}`
+      `.${iconPrefix}-${iconId} {\n  mask-image: var(--${iconPrefix}-${iconId});\n}`
     );
     iconList.push(iconId);
   }
@@ -125,7 +126,7 @@ async function buildCssVarsForSet(config, version, svgoConfig, distPath) {
 
   const minRoot = ':root{' + varLines.join('') + '}';
   const minBase =
-    '[class^="modus-icon-"],[class*=" modus-icon-"]{background-color:currentColor;display:inline-block;height:1rem;mask-position:center;mask-repeat:no-repeat;mask-size:contain;width:1rem}';
+    '[class^="' + iconPrefix + '-"],[class*=" ' + iconPrefix + '-"]{background-color:currentColor;display:inline-block;height:1rem;mask-position:center;mask-repeat:no-repeat;mask-size:contain;width:1rem}';
   const minClasses = classLines
     .map((s) => s.replace(/\n\s*/g, '').replace(/\s+/g, ' '))
     .join('');
@@ -137,16 +138,16 @@ async function buildCssVarsForSet(config, version, svgoConfig, distPath) {
     'utf8'
   );
 
-  await writeGalleryHtml(setCssPath, iconList, version, setName, cssBasename);
+  await writeGalleryHtml(setCssPath, iconList, version, setName, cssBasename, iconPrefix);
   return { setName, entryCount: entries.length };
 }
 
-async function writeGalleryHtml(cssDirPath, iconList, version, setName, cssBasename) {
+async function writeGalleryHtml(cssDirPath, iconList, version, setName, cssBasename, iconPrefix) {
   const listItems = iconList
     .map(
       (id) => `    <li class="gallery-item" data-icon="${id}">
-      <i class="modus-icon-${id}" aria-hidden="true"></i>
-      <code class="gallery-name">modus-icon-${id}</code>
+      <i class="${iconPrefix}-${id}" aria-hidden="true"></i>
+      <code class="gallery-name">${iconPrefix}-${id}</code>
     </li>`
     )
     .join('\n');
@@ -181,7 +182,7 @@ async function writeGalleryHtml(cssDirPath, iconList, version, setName, cssBasen
     .gallery { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr)); gap: 1rem; }
     .gallery-item { display: flex; flex-direction: column; align-items: center; padding: 1rem; background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
     [data-theme="dark"] .gallery-item { background: #2a2a2a; box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
-    .gallery-item [class^="modus-icon-"] { width: 2rem; height: 2rem; }
+    .gallery-item [class^="${iconPrefix}-"] { width: 2rem; height: 2rem; }
     .gallery-name { font-size: 0.7rem; margin-top: 0.5rem; word-break: break-all; text-align: center; color: #333; }
     [data-theme="dark"] .gallery-name { color: #b0b0b0; }
     .gallery-item.hidden { display: none; }
@@ -197,7 +198,7 @@ async function writeGalleryHtml(cssDirPath, iconList, version, setName, cssBasen
 </head>
 <body>
   <h1>Modus Icons – ${displayName}</h1>
-  <p class="subtitle">v${version} · Use class <code>modus-icon-&lt;name&gt;</code> or CSS var <code>--modus-icon-&lt;name&gt;</code></p>
+  <p class="subtitle">v${version} · Use class <code>${iconPrefix}-&lt;name&gt;</code> or CSS var <code>--${iconPrefix}-&lt;name&gt;</code></p>
   <div class="search-wrap">
     <label for="filter">Filter by name:</label>
     <input type="search" id="filter" placeholder="e.g. add" autocomplete="off">

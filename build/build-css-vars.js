@@ -29,7 +29,9 @@ function collectIconEntriesForConfig(config, rootPath, distPath) {
   const normalized = normalizeConfig(config, rootPath, distPath);
   normalized.svgDirectoryPaths.forEach((dirPath) => {
     if (!fs.existsSync(dirPath)) return;
-    fs.readdirSync(dirPath).forEach((name) => {
+    fs.readdirSync(dirPath, { withFileTypes: true }).forEach((dirent) => {
+      if (!dirent.isFile()) return;
+      const name = dirent.name;
       if (!/\.svg$/i.test(name)) return;
       const filePath = path.join(dirPath, name);
       const basename = path.basename(name, '.svg').replace(/[\s-]+/g, '-');

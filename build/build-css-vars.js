@@ -115,9 +115,9 @@ async function buildCssVarsForSet(config, version, svgoConfig, distPath) {
 
   const setCssPath = path.join(distPath, setName, 'css');
   const cssBasename = `${setName}-icons`;
-  fs.ensureDirSync(setCssPath);
+  await fs.ensureDir(setCssPath);
 
-  fs.writeFileSync(
+  await fs.writeFile(
     path.join(setCssPath, `${cssBasename}.css`),
     fullCss,
     'utf8'
@@ -131,17 +131,17 @@ async function buildCssVarsForSet(config, version, svgoConfig, distPath) {
     .join('');
   const minified =
     header.trim() + '\n' + minRoot + '\n' + minBase + '\n' + minClasses;
-  fs.writeFileSync(
+  await fs.writeFile(
     path.join(setCssPath, `${cssBasename}.min.css`),
     minified,
     'utf8'
   );
 
-  writeGalleryHtml(setCssPath, iconList, version, setName, cssBasename);
+  await writeGalleryHtml(setCssPath, iconList, version, setName, cssBasename);
   return { setName, entryCount: entries.length };
 }
 
-function writeGalleryHtml(cssDirPath, iconList, version, setName, cssBasename) {
+async function writeGalleryHtml(cssDirPath, iconList, version, setName, cssBasename) {
   const listItems = iconList
     .map(
       (id) => `    <li class="gallery-item" data-icon="${id}">
@@ -227,7 +227,7 @@ function writeGalleryHtml(cssDirPath, iconList, version, setName, cssBasename) {
 </body>
 </html>
 `;
-  fs.writeFileSync(path.join(cssDirPath, 'index.html'), html, 'utf8');
+  await fs.writeFile(path.join(cssDirPath, 'index.html'), html, 'utf8');
 }
 
 async function buildCssVars() {

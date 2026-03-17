@@ -86,11 +86,11 @@ async function buildCssVarsForSet(config, version, svgoConfig, distPath) {
 [class*=" ${iconPrefix}-"] {
   background-color: currentColor;
   display: inline-block;
-  height: 1rem;
+  height: 24px;
   mask-position: center;
   mask-repeat: no-repeat;
   mask-size: contain;
-  width: 1rem;
+  width: 24px;
 }
 `;
 
@@ -130,7 +130,7 @@ async function buildCssVarsForSet(config, version, svgoConfig, distPath) {
 
   const minRoot = ':root{' + varLines.join('') + '}';
   const minBase =
-    '[class^="' + iconPrefix + '-"],[class*=" ' + iconPrefix + '-"]{background-color:currentColor;display:inline-block;height:1rem;mask-position:center;mask-repeat:no-repeat;mask-size:contain;width:1rem}';
+    '[class^="' + iconPrefix + '-"],[class*=" ' + iconPrefix + '-"]{background-color:currentColor;display:inline-block;height:24px;mask-position:center;mask-repeat:no-repeat;mask-size:contain;width:24px}';
   const minClasses = classLines
     .map((s) => s.replace(/\n\s*/g, '').replace(/\s+/g, ' '))
     .join('');

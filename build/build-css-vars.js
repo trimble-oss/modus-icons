@@ -36,7 +36,9 @@ function collectIconEntriesForConfig(config, rootPath, distPath) {
       byBasename.set(basename, { iconId: basename, filePath });
     });
   });
-  return Array.from(byBasename.values());
+  const entries = Array.from(byBasename.values());
+  entries.sort((a, b) => a.iconId.localeCompare(b.iconId));
+  return entries;
 }
 
 /**

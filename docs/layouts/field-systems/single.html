@@ -143,8 +143,14 @@
     </div>
   </div>
   <div class="col-lg-5">
+    <h2 class="h3 mt-3 mt-md-0">CSS <span class="badge badge-sm rounded-pill badge-recommended bg-secondary mb-1 ms-1">Recommended</span></h2>
+
+    <div class="mb-1">
+      {{ $svgCssUsageSnippet := printf `<i class="%s-icon-%s"></i>` (.Section | urlize) .File.TranslationBaseName -}}
+      {{- highlight $svgCssUsageSnippet "html" "" }}
+    </div>
+
     <h2 class="h3 mt-3 mt-md-0">Icon font</h2>
-    <p>Use in web applications, on buttons, and anywhere you need more than a few icons.</p>
 
     <div class="mb-1">
       {{ $iconFontSnippet := printf `<i class="modus-icons" aria-hidden="true">%s</i>` $ligature -}}
@@ -152,20 +158,15 @@
     </div>
 
     <h2 class="h3">SVG sprite</h2>
-    <p> Use for static sites when you only need a few icons.</p>
     <div>
       {{- highlight $svgSpriteSnippet "html" "" }}
     </div>
 
     <h2 class="h3">SVG code</h2>
-    <p>Use when you don't want any dependency.
-      {{ partial "popover-svg-class-names" . }}
-    </p>
     <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
     {{ highlight $svgHtml "html" "" }}
 
     <h2 class="h3">SVG CSS code</h2>
-    <p> Use for embedding your icons in CSS with no dependency.</p>
     <!-- {{ highlight $svgCss "html" "" }} -->
 
     <div class="highlight">

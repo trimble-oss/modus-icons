@@ -201,3 +201,8 @@ a.btn img {
 .btn-secondary.hover:not(:active) {
   background-color: #7d808d !important;
 }
+
+.badge-recommended {
+  color: $white;
+  vertical-align: middle;
+}

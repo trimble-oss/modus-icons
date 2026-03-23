@@ -113,6 +113,7 @@ function buildIcons(config) {
           templateOptions: {
             classPrefix: 'modus-',
             baseSelector: '.modus-icons',
+            version: require(path.join(__dirname, '..', 'package.json')).version,
           },
         },
         function(error, result) {

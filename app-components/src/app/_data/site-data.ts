@@ -6650,7 +6650,9 @@ export const siteData = [
         "name": "stamp",
         "displayName": "Stamp",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Editing"
+        ],
         "deprecated": false,
         "useInstead": ""
       },
@@ -14863,7 +14865,9 @@ export const siteData = [
         "name": "stamp",
         "displayName": "Stamp",
         "tags": [],
-        "categories": [],
+        "categories": [
+          "Editing"
+        ],
         "deprecated": false,
         "useInstead": ""
       },

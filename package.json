@@ -86,13 +86,13 @@
     "LICENSE.md",
     "README.md",
     "!.DS_Store",
+    "!**/css/*.html",
     "!**/fonts/*.html",
     "!**/fonts/*.svg",
     "!**/fonts/*.ttf"
   ],
   "hugo-bin": {
     "buildTags": "extended",
-    "version": "0.157.0"
   },
   "volta": {
     "node": "20.19.5"

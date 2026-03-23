@@ -37,7 +37,7 @@ async function writeIndex(setName, pagesDir) {
 
   const pageTemplate = `---
 title: "${indexTitle}"
-layout: "home"
+layout: icon-set
 ---
 `;
 

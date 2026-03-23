@@ -92,7 +92,7 @@
     "!**/fonts/*.ttf"
   ],
   "hugo-bin": {
-    "buildTags": "extended",
+    "buildTags": "extended"
   },
   "volta": {
     "node": "20.19.5"

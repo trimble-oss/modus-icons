@@ -1,6 +1,8 @@
-{
-  "extends": ["stylelint-config-standard-scss"],
-  "rules": {
+/** @type {import('stylelint').Config} */
+export default {
+  extends: ["stylelint-config-standard-scss"],
+  ignoreFiles: ["**/*.min.css", "**/dist/**", "**/font/**", "**/vendor/**", "**/_site/**", "_modus-bootstrap-dark.scss"],
+  rules: {
     "alpha-value-notation": null,
     "color-function-alias-notation": null,
     "color-function-notation": null,
@@ -12,6 +14,6 @@
     "rule-empty-line-before": null,
     "scss/comment-no-empty": null,
     "scss/dollar-variable-colon-space-after": null,
-    "scss/no-global-function-names": null
-  }
-}
+    "scss/no-global-function-names": null,
+  },
+};

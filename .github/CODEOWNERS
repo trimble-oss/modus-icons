@@ -5,8 +5,8 @@
 
 *        @coliff
 *.html   @coliff
-*.js     @coliff @nspringer-trimble
-*.json   @coliff @nspringer-trimble
+*.js     @coliff
+*.json   @coliff
 *.md     @coliff
 *.scss   @coliff
 *.svg    @coliff @egunther39
@@ -14,4 +14,4 @@
 
 ## Folders
 
-/build/  @coliff @nspringer-trimble
+/build/  @coliff

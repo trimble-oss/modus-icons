@@ -3,14 +3,20 @@
 
 {{ if in (.RelPermalink) "connect" }}
 <link rel="stylesheet" href="/connect/fonts/modus-icons.css">
+<link rel="stylesheet" href="/connect/css/connect-icons.css">
 {{ else if in (.RelPermalink) "outlined" }}
 <link rel="stylesheet" href="/modus-outlined/fonts/modus-icons.css">
+<link rel="stylesheet" href="/modus-outlined/css/modus-outlined-icons.css">
 {{ else if in (.RelPermalink) "solid" }}
 <link rel="stylesheet" href="/modus-solid/fonts/modus-icons.css">
+<link rel="stylesheet" href="/modus-solid/css/modus-solid-icons.css">
 {{ else if in (.RelPermalink) "transportation" }}
 <link rel="stylesheet" href="/transportation/fonts/modus-icons.css">
+<link rel="stylesheet" href="/transportation/css/transportation-icons.css">
 {{ else if in (.RelPermalink) "field-systems" }}
 <link rel="stylesheet" href="/field-systems/fonts/modus-icons.css">
+<link rel="stylesheet" href="/field-systems/css/field-systems-icons.css">
 {{ else }}
 <link rel="stylesheet" href="/modus-solid/fonts/modus-icons.css">
+<link rel="stylesheet" href="/modus-solid/css/modus-solid-icons.css">
 {{ end }}

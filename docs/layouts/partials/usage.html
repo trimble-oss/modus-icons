@@ -48,8 +48,38 @@
 
 <div class="row my-4">
   <div class="col-md-4">
+    <h3 id="css">CSS <span class="badge badge-sm badge-pill badge-recommended bg-secondary mb-1 ms-1">Recommended</span></h3>
+    <p>Each icon set ships with a CSS file that exposes one class per icon, with matching CSS variables on
+      <code>:root</code> for each icon. The classes use <code>mask-image</code> (and related mask properties) so icons
+      follow <code>currentColor</code> for easy theming. Include that stylesheet in your project
+      (from npm it lives at <code>dist/{{ with .iconset }}{{ . }}{{ else }}&lt;icon-set&gt;{{ end }}/css/{{ with .iconset }}{{ . }}{{ else }}&lt;icon-set&gt;{{ end }}-icons.css</code>),
+      then use an empty <code>&lt;i&gt;</code> (or other element) with the class
+      <code>{{ with .iconset }}<span class="text-nowrap">{{ . }}-icon-&lt;icon-name&gt;</span>{{ else }}&lt;icon-set&gt;-icon-&lt;icon-name&gt;{{ end }}</code>,
+      where <code>&lt;icon-name&gt;</code> matches the icon&rsquo;s filename (without <code>.svg</code>).</p>
+    <p>See each icon&rsquo;s page for the exact class name and generated CSS.</p>
+  </div>
+  <div class="col-md-8">
+    {{ with .iconset }}
+    {{- $demoIcon := "wifi" -}}
+    {{- if eq . "transportation" }}{{- $demoIcon = "globe" -}}{{- end -}}
+    {{- if eq . "field-systems" }}{{- $demoIcon = "add-square" -}}{{- end -}}
+    {{ $cssSnippet := printf `<i class="%s-icon-%s" aria-hidden="true"></i>` . $demoIcon }}
+    <div class="bd-example"><i class="{{ . }}-icon-{{ $demoIcon }}" aria-hidden="true"></i></div>
+    <div class="highlight">
+      {{- highlight $cssSnippet "html" "" }}
+    </div>
+    {{ else }}
+    <div class="highlight">
+      <pre tabindex="0"
+        class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;modus-solid-icon-wifi&#34;</span> <span class="na">aria-hidden</span><span class="o">=</span><span class="s">&#34;true&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span></span></span></code></pre>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<div class="row my-4">
+  <div class="col-md-4">
     <h3 id="icon-font">Icon font</h3>
-    <h4 class="h6">Use in web applications, on buttons, and anywhere you need more than a few icons.</h4>
     <p>Icon fonts including every icon are also included for Modus Icons. Include the icon web fonts in your
       page via CSS, then reference the ligature names as needed in your HTML (e.g.,
       <code>&lt;i class=&quot;modus-icons&quot;&gt;apps&lt;/i&gt;</code>).
@@ -81,7 +111,6 @@
     <div class="row my-4">
   <div class="col-md-4">
     <h3 id="sprite">SVG Sprite</h3>
-    <h4 class="h6"> Use for static sites when you only need a few icons.</h4>
       <p>Copy the <code>{{ with .iconset }}{{- . -}}{{ end }}-icons.svg</code> SVG sprite file to your directory of choice.
       Insert any icon with the <code>&lt;use&gt;</code> element. Use the icon&rsquo;s filename
       as the fragment identifier (e.g., <code>toggles</code> is <code>#toggles</code>). SVG sprites allow you to
@@ -139,7 +168,7 @@
 <div class="row my-4">
   <div class="col-md-4">
     <h3 id="external-image">External SVG image</h3>
-    <h4 class="h6"> Use for static sites when you only need a few icons.</h4>
+
     <p>Copy the Modus Icons SVGs to your directory of choice and reference them like normal images with the
       <code>&lt;img&gt;</code> element.
     </p>
@@ -178,7 +207,7 @@
 </div>
 <div class="row">
   <div class="col-md-4">
-    <h3 id="css">CSS</h3>
+    <h3 id="css-background-image">CSS (background image)</h3>
     <h4 class="h6">Use when you don't want any dependency.</h4>
     <p>You can also use the SVG within your CSS (<strong>be sure to escape any characters</strong>, such as
       <code>#</code> to <code>%23</code> when specifying hex color values). When no dimensions are specified via
@@ -289,11 +318,6 @@
             href="https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2" target="_blank"
             rel="noopener">See this article for
             details.</a></p>
-      </li>
-      <li>
-        <p><strong>External SVG sprites may not function correctly in Internet Explorer.</strong> Use the <a
-            href="https://github.com/jonathantneal/svg4everybody" target="_blank" rel="noopener">svg4everybody</a>
-          polyfill as needed.</p>
       </li>
     </ul>
     <p>Found another issue with SVGs we should note? Please open <a

@@ -63,8 +63,8 @@
     {{- $demoIcon := "wifi" -}}
     {{- if eq . "transportation" }}{{- $demoIcon = "globe" -}}{{- end -}}
     {{- if eq . "field-systems" }}{{- $demoIcon = "add-square" -}}{{- end -}}
-    {{ $cssSnippet := printf `<i class="%s-icon-%s" aria-hidden="true"></i>` . $demoIcon }}
-    <div class="bd-example"><i class="{{ . }}-icon-{{ $demoIcon }}" aria-hidden="true"></i></div>
+    {{ $cssSnippet := printf `<i class="%s-icon-%s"></i>` . $demoIcon }}
+    <div class="bd-example"><i class="{{ . }}-icon-{{ $demoIcon }}"></i></div>
     <div class="highlight">
       {{- highlight $cssSnippet "html" "" }}
     </div>

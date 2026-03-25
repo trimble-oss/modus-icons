@@ -3,6 +3,14 @@
   <head>
     {{ partial "head" . }}
     {{ partial "analytics" . }}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.0.3/dist/modus-icons-regular.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.0.3/dist/modus-icons-fill.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.0.3/dist/modus-icons-duotone.css" />
+    <style>
+      site-search {
+        display: none !important;
+      }
+    </style>
   </head>
 
 <body class="home" id="root">
@@ -16,9 +24,71 @@
   {{ partialCached "home/hero" . }}
   <main class="container mt-4" id="content">
 
-      <div class="row align-items-center">
+    <div class="row align-items-center">
+      <div class="col-12 col-sm-6">
+        <h2 class="fw-bold">Modus Icons v2</h2>
+      </div>
+      <div class="col-12 col-sm-6 d-flex justify-content-end">
+        <div class="ms-auto">
+          {{- highlight "npm i @trimble-oss/modus-icons-css" "sh" "" -}}
+        </div>
+      </div>
+      <div class="col-12">
+        <hr class="mt-0" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="card card-home border mb-3">
+          <div class="card-header bg-light border-0 text-center">
+            {{ partialCached "home/home-card-regular-icons" (dict "context" . "iconset" "regular") "regular" }}
+            </div>
+            <div class="card-body bg-light my-0 py-0">
+              <a href="/css-icons/" class="text-decoration-none stretched-link h2">
+                Modus Regular
+              </a>
+            </div>
+            <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0 mt-1">
+            800 icons
+          </div>
+        </div>
+        </div>
+        <div class="col-12 col-md-4">
+        <div class="card card-home border mb-3">
+          <div class="card-header bg-light border-0 text-center">
+            {{ partialCached "home/home-card-regular-icons" (dict "context" . "iconset" "fill") "fill" }}
+            </div>
+            <div class="card-body bg-light my-0 py-0">
+              <a href="/css-icons/?set=fill" class="text-decoration-none stretched-link h2">
+                Modus Fill
+              </a>
+            </div>
+            <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0 mt-1">
+              800 icons
+          </div>
+        </div>
+        </div>
+        <div class="col-12 col-md-4">
+        <div class="card card-home border mb-3">
+          <div class="card-header bg-light border-0 text-center">
+            {{ partialCached "home/home-card-regular-icons" (dict "context" . "iconset" "duotone") "duotone" }}
+            </div>
+            <div class="card-body bg-light my-0 py-0">
+              <a href="/css-icons/?set=duotone" class="text-decoration-none stretched-link h2">
+                Modus Duotone
+              </a>
+            </div>
+            <div class="card-footer bg-light mt-0 pt-0 small text-muted border-0 mt-1">
+              800 icons
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="row align-items-center mt-5">
         <div class="col-12 col-sm-6">
-          <h2 class="fw-bold">Modus Icons</h2>
+          <h2 class="fw-bold">Modus Icons v1</h2>
         </div>
         <div class="col-12 col-sm-6 d-flex justify-content-end">
           <div class="ms-auto">
@@ -31,7 +101,7 @@
       </div>
 
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-4">
           <div class="card card-home border mb-3">
             <div class="card-header bg-light border-0 text-center">
               {{ partialCached "home/home-card-modus-icons" (dict "context" . "iconset" "modus-solid") }}
@@ -47,7 +117,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-4">
           <div class="card card-home border mb-3 mx-auto">
             <div class="card-header bg-light border-0 text-center">
               {{ partial "home/home-card-modus-icons" (dict "context" . "iconset" "modus-outlined") }}
@@ -64,7 +134,7 @@
           </div>
         </div>
       </div>
-      <div class="row mt-3">
+      <div class="row mt-3" hidden>
         <div class="col-12 my-4">
           <h2 class="fw-bold">Modus Icons by Sector</h2>
           <hr />
@@ -76,7 +146,7 @@
       </div>
 
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-4">
           <div class="card card-home border mb-3">
             <div class="card-header bg-light border-0 text-center">
               {{ partialCached "home/home-card-transportation-icons" (dict "context" . "iconset" "transportation") }}
@@ -92,7 +162,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-4">
           <div class="card card-home border mb-3">
             <div class="card-header bg-light border-0 text-center">
               {{ partialCached "home/home-card-field-systems-icons" (dict "context" . "iconset" "field-systems") }}
@@ -108,7 +178,7 @@
             </div>
           </div>
         </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-4">
           <div class="card card-home border mb-3">
             <div class="card-header bg-light border-0 text-center">
               {{ partialCached "home/home-card-connect-icons" (dict "context" . "iconset" "connect") }}

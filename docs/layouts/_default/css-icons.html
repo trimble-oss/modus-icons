@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    {{ partial "head" . }}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.0.3/dist/modus-icons-regular.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.0.3/dist/modus-icons-fill.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.0.3/dist/modus-icons-duotone.css" />
+    <style>
+      [class^="modus-icon-"] {
+        height: 4rem;
+        width: 4rem;
+      }
+    </style>
+  </head>
+  <body id="root">
+    {{ partialCached "skippy" . }}
+    {{ partialCached "navbar" . }}
+
+    <main class="container py-4" id="content">
+      <div class="row mb-3">
+        <div class="col-12">
+          <h1 class="display-5 fw-bold mb-2">Modus Icons CSS</h1>
+          <p class="text-muted mb-0">
+            Browse icon classes from the CSS package. Search with <code>?q=</code> and switch families.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-2 align-items-center mb-3">
+        <div class="col-12 col-lg-6" role="search">
+          <label class="visually-hidden" for="css-icons-search">Filter by icon name</label>
+          <input id="css-icons-search" class="form-control form-control-search" type="search" autocomplete="off" spellcheck="false" placeholder="Filter by name (example: chart)" />
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="btn-group w-100 w-lg-auto" role="group" aria-label="Icon set">
+            <button type="button" class="btn btn-outline-primary" data-icon-set="regular" aria-pressed="false">Regular</button>
+            <button type="button" class="btn btn-outline-primary" data-icon-set="fill" aria-pressed="false">Fill</button>
+            <button type="button" class="btn btn-outline-primary" data-icon-set="duotone" aria-pressed="false">Duotone</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <div id="css-icons-count" class="fw-semibold"></div>
+        <div id="css-icons-loading" class="small text-muted" hidden>Loading icons...</div>
+      </div>
+
+      <div id="css-icons-list" class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-2"></div>
+    </main>
+
+    {{- partialCached "footer" . }}
+    {{- partialCached "scripts" . }}
+    {{ partial "analytics" . }}
+    {{ $galleryJs := resources.Get "js/css-icons-gallery.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $galleryJs.RelPermalink }}"></script>
+  </body>
+</html>

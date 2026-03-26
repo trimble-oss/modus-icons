@@ -6,6 +6,8 @@
 
 Open source icon library for Modus with over 1000 icons.
 
+**Note: This repository is for Modus Icons and the website. Modus Icons v2 is available in the [Modus Icons v2 repository](https://github.com/trimble-oss/modus-icons-css).**
+
 ## Install
 
 Modus Icons are packaged up and published to npm as processed SVGs, SVG sprites and ligature web fonts. [Read our docs](https://modus-icons.trimble.com/) for usage instructions.
@@ -18,6 +20,7 @@ npm i @trimble-oss/modus-icons
 
 Depending on your setup, you can include Modus Icons in a handful of ways.
 
+- Use CSS Variables (Recommended)
 - Use the web font
 - Copy-paste SVGs as embedded HTML
 - Reference via `<img>` element

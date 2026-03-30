@@ -1,17 +1,28 @@
 <!doctype html>
 <html lang="en-US">
+
   <head>
     {{ partial "head" . }}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.0.3/dist/modus-icons-regular.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.0.3/dist/modus-icons-fill.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.0.3/dist/modus-icons-duotone.css" />
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.9.0/css/modus-icons-regular.css" />
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.9.0/css/modus-icons-fill.css" />
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.9.0/css/modus-icons-duotone.css" />
     <style>
       [class^="modus-icon-"] {
         height: 4rem;
         width: 4rem;
       }
+
+      /* Skip layout/paint work for off-screen cells until the user scrolls */
+      #css-icons-list>.col {
+        content-visibility: auto;
+        contain-intrinsic-size: 120px 140px;
+      }
     </style>
   </head>
+
   <body id="root">
     {{ partialCached "skippy" . }}
     {{ partialCached "navbar" . }}
@@ -20,32 +31,47 @@
       <div class="row mb-3">
         <div class="col-12">
           <h1 class="display-5 fw-bold mb-2">Modus Icons CSS</h1>
+          <p>
+            <a href="https://www.npmjs.com/package/@trimble-oss/modus-icons-css" target="_blank" rel="noopener">
+              <img src="https://img.shields.io/npm/v/@trimble-oss/modus-icons-css" alt="npm (scoped)">
+            </a>
+          </p>
           <p class="text-muted mb-0">
-            Browse icon classes from the CSS package. Search with <code>?q=</code> and switch families.
+            All icons load automatically. Use the filter to narrow by name; deep-link with <code>?q=</code> and
+            <code>?set=</code> (regular, fill, duotone).
           </p>
         </div>
       </div>
 
       <div class="row g-2 align-items-center mb-3">
-        <div class="col-12 col-lg-6" role="search">
+        <div class="col-12 col-md-8 col-lg-9" role="search">
           <label class="visually-hidden" for="css-icons-search">Filter by icon name</label>
-          <input id="css-icons-search" class="form-control form-control-search" type="search" autocomplete="off" spellcheck="false" placeholder="Filter by name (example: chart)" />
+          <input id="css-icons-search" class="form-control form-control-search" type="search" autocomplete="off"
+            spellcheck="false" placeholder="Filter by name (optional)" />
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-md-4 col-lg-3">
           <div class="btn-group w-100 w-lg-auto" role="group" aria-label="Icon set">
-            <button type="button" class="btn btn-outline-primary" data-icon-set="regular" aria-pressed="false">Regular</button>
-            <button type="button" class="btn btn-outline-primary" data-icon-set="fill" aria-pressed="false">Fill</button>
-            <button type="button" class="btn btn-outline-primary" data-icon-set="duotone" aria-pressed="false">Duotone</button>
+            <button type="button" class="btn btn-outline-primary" data-icon-set="regular"
+              aria-pressed="false">Regular</button>
+            <button type="button" class="btn btn-outline-primary" data-icon-set="fill"
+              aria-pressed="false">Fill</button>
+            <button type="button" class="btn btn-outline-primary" data-icon-set="duotone"
+              aria-pressed="false">Duotone</button>
           </div>
         </div>
       </div>
 
-      <div class="d-flex justify-content-between align-items-center mb-3">
-        <div id="css-icons-count" class="fw-semibold"></div>
-        <div id="css-icons-loading" class="small text-muted" hidden>Loading icons...</div>
+      <div class="mb-3">
+        <div class="w-100">
+          <div id="css-icons-count" class="fw-semibold text-center py-2 visually-hidden"></div>
+        </div>
+        <div class="w-100">
+          <div id="css-icons-loading" class="small text-muted" role="status" aria-live="polite" hidden>Loading
+            icons...</div>
+        </div>
       </div>
 
-      <div id="css-icons-list" class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-2"></div>
+      <div id="css-icons-list" class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-2"></div>
     </main>
 
     {{- partialCached "footer" . }}
@@ -54,4 +80,5 @@
     {{ $galleryJs := resources.Get "js/css-icons-gallery.js" | resources.Minify | resources.Fingerprint }}
     <script src="{{ $galleryJs.RelPermalink }}"></script>
   </body>
+
 </html>

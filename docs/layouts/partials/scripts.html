@@ -12,10 +12,10 @@
 {{- end }}
 <script src="{{ $docsJs.Permalink | relURL }}"></script>
 <script>
-  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-</script>
-<script>
-  const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-  const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  if (typeof bootstrap !== 'undefined') {
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    ;[...tooltipTriggerList].forEach((el) => new bootstrap.Tooltip(el))
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    ;[...popoverTriggerList].forEach((el) => new bootstrap.Popover(el))
+  }
 </script>

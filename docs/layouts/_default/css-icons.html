@@ -10,7 +10,8 @@
     <link rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@0.9.0/css/modus-icons-duotone.css" />
     <style>
-      [class^="modus-icon-"] {
+      /* Large grid preview only — modal/button icons use package default (24px) */
+      #css-icons-list [class^="modus-icon-"] {
         height: 4rem;
         width: 4rem;
       }
@@ -19,6 +20,44 @@
       #css-icons-list>.col {
         content-visibility: auto;
         contain-intrinsic-size: 120px 140px;
+      }
+
+      .css-icons-card {
+        cursor: pointer;
+        transition: box-shadow 0.15s ease, border-color 0.15s ease;
+      }
+
+      .css-icons-card:hover,
+      .css-icons-card:focus-visible {
+        border-color: var(--bs-primary) !important;
+        box-shadow: 0 0 0 0.2rem rgba(var(--bs-primary-rgb), 0.25);
+        outline: none;
+      }
+
+      #css-icon-detail-preview {
+        width: 128px;
+        height: 126px;
+      }
+
+      #css-icon-detail-modal .css-icon-snippet {
+        font-size: 0.8125rem;
+        white-space: pre-wrap;
+        word-break: break-all;
+      }
+
+      #css-icon-detail-modal .btn-icon-only {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        padding: 0;
+      }
+
+      #css-icon-detail-modal .btn-icon-only [class^="modus-icon-"] {
+        width: 0.9375rem;
+        height: 0.9375rem;
+        flex-shrink: 0;
+        top: 0 !important;
       }
     </style>
   </head>
@@ -73,6 +112,19 @@
 
       <div id="css-icons-list" class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-2"></div>
     </main>
+
+    <div class="modal fade" id="css-icon-detail-modal" tabindex="-1" aria-labelledby="css-icon-detail-modal-title"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title h5 mb-0" id="css-icon-detail-modal-title">Icon</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="css-icon-detail-modal-body"></div>
+        </div>
+      </div>
+    </div>
 
     {{- partialCached "footer" . }}
     {{- partialCached "scripts" . }}

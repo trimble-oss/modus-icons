@@ -45,7 +45,7 @@
     "concat": "^1.0.3",
     "copyfiles": "2.4.1",
     "cross-env": "7.0.3",
-    "eslint": "^8.57.1",
+    "eslint": "^10.2.0",
     "file-type": "3.9.0",
     "fs-extra": "11.3.4",
     "handlebars": "4.7.9",

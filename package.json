@@ -83,7 +83,10 @@
   "overrides": {
     "tar": "7.5.13",
     "tmp": "0.2.5",
-    "@tootallnate/once": "3.0.1"
+    "@tootallnate/once": "3.0.1",
+    "@xmldom/xmldom": "0.8.12",
+    "xmldom": "npm:@xmldom/xmldom@0.8.12",
+    "qs": "6.15.0"
   },
   "files": [
     "dist",

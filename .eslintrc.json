@@ -24,6 +24,14 @@
     "theme-toggle.js"
   ],
   "rules": {
+    "dot-notation": "error",
+    "eqeqeq": ["error", "smart"],
+    "no-array-constructor": "error",
+    "no-implicit-globals": "error",
+    "no-lone-blocks": "error",
+    "no-new-func": "error",
+    "no-new-object": "error",
+    "no-return-assign": "error",
     "no-return-await": "error",
     "no-script-url": "error",
     "no-self-compare": "error",

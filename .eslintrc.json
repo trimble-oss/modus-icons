@@ -5,7 +5,7 @@
     "node": true
   },
   "parserOptions": {
-    "ecmaVersion": 2019
+    "ecmaVersion": 2022
   },
   "extends": "eslint:recommended",
   "ignorePatterns": [
@@ -25,8 +25,17 @@
   ],
   "rules": {
     "no-return-await": "error",
+    "no-script-url": "error",
+    "no-self-compare": "error",
+    "no-sequences": "error",
+    "no-unmodified-loop-condition": "error",
+    "no-unused-expressions": "error",
     "no-unused-vars": "off",
-    "no-useless-escape": "off",
-    "object-curly-spacing": ["error", "always"]
+    "no-useless-call": "error",
+    "no-useless-concat": "error",
+    "no-useless-return": "error",
+    "object-curly-spacing": ["error", "always"],
+    "prefer-const": "error",
+    "radix": "error"
   }
 }

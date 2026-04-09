@@ -51,7 +51,6 @@
     "handlebars": "4.7.9",
     "htmlhint": "^1.9.2",
     "hugo-bin": "0.149.2",
-    "icon-font-generator": "2.1.11",
     "lockfile-lint": "5.0.0",
     "lodash": "4.18.1",
     "make-dir-cli": "4.0.0",
@@ -64,7 +63,6 @@
     "prettier": "3.8.1",
     "q": "1.5.1",
     "read-chunk": "3.2.0",
-    "rename-cli": "7.0.2",
     "sass": "1.79.1",
     "shx": "0.4.0",
     "stylelint": "^17.6.0",
@@ -86,7 +84,15 @@
     "@tootallnate/once": "3.0.1",
     "@xmldom/xmldom": "0.8.12",
     "xmldom": "npm:@xmldom/xmldom@0.8.12",
-    "qs": "6.15.0"
+    "qs": "6.15.0",
+    "@xhmikosr/archive-type": "8.0.1",
+    "@xhmikosr/bin-wrapper": "14.2.2",
+    "@xhmikosr/decompress": "11.1.1",
+    "@xhmikosr/decompress-tar": "9.0.1",
+    "@xhmikosr/decompress-tarbz2": "9.0.1",
+    "@xhmikosr/decompress-targz": "9.0.1",
+    "@xhmikosr/decompress-unzip": "8.1.0",
+    "@xhmikosr/downloader": "16.1.1"
   },
   "files": [
     "dist",

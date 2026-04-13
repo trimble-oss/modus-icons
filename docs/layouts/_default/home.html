@@ -18,7 +18,7 @@
   {{ partialCached "navbar" . }}
 
   {{ $external := resources.Get "js/app-components.js" }}
-  {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
+  {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Fingerprint }}
   <script src="{{ $appComponentsJs.RelPermalink }}" async fetchpriority="high"></script>
 
   {{ partialCached "home/hero" . }}

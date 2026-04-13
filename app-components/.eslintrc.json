@@ -34,7 +34,15 @@
             }
           ],
           "@angular-eslint/no-empty-lifecycle-method": "off",
-          "@typescript-eslint/no-explicit-any": "off"
+          "@angular-eslint/prefer-standalone": "off",
+          "@angular-eslint/prefer-inject": "off",
+          "@typescript-eslint/no-explicit-any": "off",
+          "@typescript-eslint/no-unused-vars": [
+            "error",
+            {
+              "argsIgnorePattern": "^_"
+            }
+          ]
         }
     },
     {
@@ -42,7 +50,9 @@
       "extends": ["plugin:@angular-eslint/template/recommended"],
       "parser": "@angular-eslint/template-parser",
       "plugins": ["@angular-eslint/eslint-plugin-template"],
-      "rules": {}
+      "rules": {
+        "@angular-eslint/template/prefer-control-flow": "warn"
+      }
     }
   ]
 }

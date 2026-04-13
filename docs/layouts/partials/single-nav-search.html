@@ -14,7 +14,7 @@
   </div>
   <div class="col-12 col-md-6 mt-sm-2">
     {{ $external := resources.Get "js/app-components.js" }}
-    {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Minify | resources.Fingerprint }}
+    {{ $appComponentsJs := slice $external | resources.Concat "js/app-components.js" | resources.Fingerprint }}
     <script src="{{ $appComponentsJs.RelPermalink }}" defer fetchpriority="high"></script>
   </div>
 </div>

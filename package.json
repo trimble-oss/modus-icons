@@ -70,7 +70,7 @@
     "stylelint": "^17.9.1",
     "stylelint-config-standard-scss": "17.0.0",
     "svg-sprite": "3.0.0-rc3",
-    "svg2ttf": "6.0.3",
+    "svg2ttf": "^6.1.0",
     "svgexport": "0.4.2",
     "svgicons2svgfont": "5.0.2",
     "svgo": "4.0.1",
@@ -84,9 +84,10 @@
     "tar": "7.5.13",
     "tmp": "0.2.5",
     "@tootallnate/once": "3.0.1",
-    "@xmldom/xmldom": "0.8.12",
-    "xmldom": "npm:@xmldom/xmldom@0.8.12",
-    "qs": "6.15.0"
+    "@xmldom/xmldom": "0.8.13",
+    "xmldom": "npm:@xmldom/xmldom@0.8.13",
+    "qs": "6.15.0",
+    "uuid": "14.0.0"
   },
   "files": [
     "dist",

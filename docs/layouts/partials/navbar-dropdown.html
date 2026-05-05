@@ -1,5 +1,5 @@
 <ul class="dropdown-menu dropdown-menu-end pb-0 pt-0 mt-2" style="right: 0;">
-  {{- with .Site.Data.navbar_apps -}}
+  {{- with hugo.Data.navbar_apps -}}
   {{- range . -}}
   <li class="border-bottom">
     <a class="dropdown-item py-3 pe-2" href="{{- .url -}}" target="_blank" rel="noopener">

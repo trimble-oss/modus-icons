@@ -64,7 +64,7 @@
     "prettier": "3.8.3",
     "q": "1.5.1",
     "read-chunk": "3.2.0",
-    "rename-cli": "7.0.2",
+    "rename-cli": "6.2.1",
     "sass": "1.79.1",
     "shx": "0.4.0",
     "stylelint": "^17.10.0",
@@ -84,9 +84,13 @@
     "tar": "7.5.13",
     "tmp": "0.2.5",
     "@tootallnate/once": "3.0.1",
-    "@xmldom/xmldom": "0.8.12",
-    "xmldom": "npm:@xmldom/xmldom@0.8.12",
-    "qs": "6.15.0"
+    "@xmldom/xmldom": "0.8.13",
+    "xmldom": "npm:@xmldom/xmldom@0.8.13",
+    "qs": "6.15.0",
+    "uuid": "14.0.0",
+    "node-gyp": "10.3.1",
+    "trim": "0.0.3",
+    "mdn-data": "2.27.1"
   },
   "files": [
     "dist",

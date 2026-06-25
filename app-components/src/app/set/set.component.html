@@ -23,8 +23,7 @@
         <ul id="dropdown-basic" class="dropdown-menu" [class.show]="dropdownOpen" role="menu"
           aria-labelledby="button-basic">
           <li role="menuitem" *ngFor="let cat of categoryList">
-            <a class="dropdown-item" (click)="selectCategory(cat)" [ngClass]="{ active: selectedCategory === cat }"
-              href="javascript: void(0);">{{ cat }}</a>
+            <button type="button" class="dropdown-item" (click)="selectCategory(cat)" [ngClass]="{ active: selectedCategory === cat }">{{ cat }}</button>
           </li>
         </ul>
       </div>

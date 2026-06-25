@@ -80,7 +80,7 @@
     "url-join": "1.1.0"
   },
   "overrides": {
-    "tar": "7.5.13",
+    "tar": "7.5.16",
     "@tootallnate/once": "3.0.1",
     "@xmldom/xmldom": "0.8.13",
     "xmldom": "npm:@xmldom/xmldom@0.8.13",

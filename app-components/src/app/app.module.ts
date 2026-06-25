@@ -13,16 +13,11 @@ import { SetComponent } from './set/set.component';
 import { SvgcssComponent } from './svgcss/svgcss.component';
 import { FilterPipe } from './_pipes/filter.pipe';
 
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 @NgModule({
     declarations: [SearchComponent, SetComponent, FilterPipe, SvgcssComponent],
     imports: [
         BrowserModule,
         FormsModule,
-        BsDropdownModule,
-        BrowserAnimationsModule,
     ],
     providers: [
     // { provide: OverlayContainer, useClass: CdkOverlayContainer }

@@ -1,8 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { FormsModule } from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { of } from 'rxjs';
 
 import { SetComponent } from './set.component';
@@ -22,8 +20,6 @@ describe('SetComponent', () => {
       imports: [
         HttpClientTestingModule,
         FormsModule,
-        BrowserAnimationsModule,
-        BsDropdownModule
       ],
       providers: [
         { provide: IconService, useValue: spy }
@@ -57,5 +53,12 @@ describe('SetComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should close the categories dropdown when filtering', () => {
+    component.dropdownOpen = true;
+    component.filterIcons('search');
+    expect(component.dropdownOpen).toBeFalse();
+    expect(component.filterTerm).toBe('search');
   });
 });

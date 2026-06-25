@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, HostListener, Input, OnInit } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { IconService } from '../icon.service';
 
@@ -19,6 +19,7 @@ export class SetComponent implements OnInit {
   hasCategories: boolean;
   showCategories = true;
   filterTerm = '';
+  dropdownOpen = false;
   fontCssUrl: SafeResourceUrl;
 
   constructor(
@@ -67,6 +68,9 @@ export class SetComponent implements OnInit {
 
   filterIcons(term: string): void {
     this.filterTerm = term;
+    if (term !== '') {
+      this.dropdownOpen = false;
+    }
     if (term === '') {
       window.history.replaceState(null, null, window.location.pathname);
     } else {
@@ -78,9 +82,20 @@ export class SetComponent implements OnInit {
     }
   }
 
+  toggleDropdown(event: Event): void {
+    event.stopPropagation();
+    this.dropdownOpen = !this.dropdownOpen;
+  }
+
+  @HostListener('document:click')
+  closeDropdown(): void {
+    this.dropdownOpen = false;
+  }
+
   selectCategory(cat: string): void {
     this.selectedCategory = cat;
     this.showCategories = true;
+    this.dropdownOpen = false;
     if (cat === 'All') {
       window.history.replaceState(null, null, window.location.pathname);
     } else {

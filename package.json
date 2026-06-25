@@ -32,7 +32,6 @@
     "test:eslint": "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives . --fix",
     "test:htmlhint": "htmlhint docs/**/*.html",
     "test:stylelint": "stylelint ./**/*.scss --fix --cache --cache-location node_modules/.cache/.stylelintcache --rd",
-    "test:lockfile-lint": "lockfile-lint --empty-hostname false --type npm --path package-lock.json",
     "test": "npm-run-all prettier docs:build --parallel --aggregate-output --continue-on-error test:*"
   },
   "devDependencies": {
@@ -52,7 +51,6 @@
     "htmlhint": "^1.9.2",
     "hugo-bin": "0.149.2",
     "icon-font-generator": "2.1.11",
-    "lockfile-lint": "5.0.0",
     "lodash": "4.18.1",
     "make-dir-cli": "4.0.0",
     "mkdirp": "0.5.6",

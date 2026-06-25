@@ -51,11 +51,11 @@ New glyphs are designed on a 24x24px grid, then exported as flattened SVGs. Once
 
 ### SVGs
 
-- Must be 24x24px. (the first line of the SVG should be `<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">`)
+- Must be 24x24px. (the first line of the SVG should be `<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">`).
 - Must be flattened.
 - Should not use any color other than `currentColor`.
 - Should not use transforms as these often cause inconsistencies when building.
-- Must not include any stroke attributes. (these will be removed by the build script)
-- Should not use any ids, styles, filters or xlink attributes. (these will be removed by the build script)
-- Should not include any bitmap images
+- Must not include any stroke attributes. (these will be removed by the build script).
+- Should not use any ids, styles, filters or xlink attributes. (these will be removed by the build script).
+- Should not include any bitmap images.
 - Before submitting, preview at small sizes (16px, 24px, 32px) to confirm clarity.

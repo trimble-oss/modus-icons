@@ -54,4 +54,11 @@ describe('SetComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should close the categories dropdown when filtering', () => {
+    component.dropdownOpen = true;
+    component.filterIcons('search');
+    expect(component.dropdownOpen).toBeFalse();
+    expect(component.filterTerm).toBe('search');
+  });
 });

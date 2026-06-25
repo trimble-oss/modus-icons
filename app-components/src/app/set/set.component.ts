@@ -68,6 +68,9 @@ export class SetComponent implements OnInit {
 
   filterIcons(term: string): void {
     this.filterTerm = term;
+    if (term !== '') {
+      this.dropdownOpen = false;
+    }
     if (term === '') {
       window.history.replaceState(null, null, window.location.pathname);
     } else {

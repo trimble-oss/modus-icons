@@ -8,7 +8,7 @@
   /** Delay filter re-renders while typing to avoid rebuilding thousands of nodes per keystroke. */
   var FILTER_DEBOUNCE_MS = 120;
 
-  var ICONS_CSS_VERSION = "0.9.0";
+  var ICONS_CSS_VERSION = "0.10.0";
   var ICONS_CSS_BASE =
     "https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@" +
     ICONS_CSS_VERSION +

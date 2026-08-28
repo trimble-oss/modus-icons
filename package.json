@@ -37,6 +37,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "8.0.0",
     "@prettier/plugin-xml": "3.4.2",
+    "@resvg/resvg-js": "2.6.2",
     "@trimble-oss/modus-bootstrap": "2.3.2",
     "autoprefixer": "10.5.4",
     "bootstrap": "5.3.8",
@@ -68,7 +69,6 @@
     "stylelint-config-standard-scss": "17.0.0",
     "svg-sprite": "3.0.0-rc3",
     "svg2ttf": "6.1.0",
-    "svgexport": "0.4.2",
     "svgicons2svgfont": "5.0.2",
     "svgo": "4.0.2",
     "ttf2eot": "3.1.0",

@@ -3,7 +3,7 @@ const { execSync } = require('child_process');
 const webfontsGenerator = require('../libs/webfonts-generator');
 const process = require('process');
 const { loadConfig, optimize } = require('svgo');
-const svgexport = require('svgexport');
+const { Resvg } = require('@resvg/resvg-js');
 const path = require('path');
 const SVGSpriter = require('svg-sprite');
 
@@ -187,25 +187,34 @@ function buildIcons(config) {
       );
       fs.ensureDirSync(dstDirectoryPathPng48);
 
-      svgFilePaths.forEach((svgFilePath) => {
+      for (const svgFilePath of svgFilePaths) {
         const fileName = new RegExp(
           `\\${path.sep}([^\\${path.sep}]+)\\.svg$`
         ).exec(svgFilePath)[1];
-        svgexport.render(
-          {
-            input: svgFilePath,
-            output: path.join(dstDirectoryPathPng24, `${fileName}.png 24:`),
-          },
-          handleError
-        );
-        svgexport.render(
-          {
-            input: svgFilePath,
-            output: path.join(dstDirectoryPathPng48, `${fileName}.png 48:`),
-          },
-          handleError
-        );
-      });
+        try {
+          const svg = await fs.readFile(svgFilePath);
+          const png24 = new Resvg(svg, {
+            fitTo: { mode: 'width', value: 24 },
+          })
+            .render()
+            .asPng();
+          const png48 = new Resvg(svg, {
+            fitTo: { mode: 'width', value: 48 },
+          })
+            .render()
+            .asPng();
+          await fs.writeFile(
+            path.join(dstDirectoryPathPng24, `${fileName}.png`),
+            png24
+          );
+          await fs.writeFile(
+            path.join(dstDirectoryPathPng48, `${fileName}.png`),
+            png48
+          );
+        } catch (error) {
+          handleError(error);
+        }
+      }
     }
   })();
 }

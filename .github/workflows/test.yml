@@ -46,7 +46,7 @@ jobs:
         run: npm test
 
       - name: Run linkinator
-        uses: JustinBeckwith/linkinator-action@0aba655887759067b44761b8dc0ab8b275e08275 # v2.4
+        uses: JustinBeckwith/linkinator-action@12f7a61a56e5e75d659f0dfd6357e2d852ede281 # v2.4
         with:
           paths: _site
           markdown: false

@@ -6,6 +6,13 @@ const configName = 'build.config.json';
 const rootDirectoryPath = path.normalize(path.join(__dirname, '..'));
 const distRootPath = path.join(rootDirectoryPath, 'dist');
 
+// Suffix used by the published @trimble-oss/modus-icons-css package per set.
+const PACKAGE_SUFFIX = {
+  'modus-outlined': '',
+  'modus-solid': '-fill',
+  'modus-duotone': '-duotone',
+};
+
 function normalizeConfig(config, rootDirectoryPath, distDirectoryPath) {
   const normalizedConfig = {};
   const svgDirectoryPath = path.join(rootDirectoryPath, 'icons');
@@ -125,6 +132,31 @@ async function buildCssVarsForSet(config, version, svgoConfig, distPath) {
   await fs.writeFile(
     path.join(setCssPath, `${cssBasename}.css`),
     fullCss,
+    'utf8'
+  );
+
+  // Package-style alias (--modus-icon-<name>[suffix]) so the docs gallery parser
+  // and modus-icon-<name> classes work against the local build as well.
+  const suffix = PACKAGE_SUFFIX[setName] ?? '';
+  // Reuse the same data URI as the set variable so the value is a url(...) the
+  // gallery parser can read (it matches --modus-icon-<name>: url(...)).
+  const aliasVarLines = varLines.map((line, i) => {
+    const iconId = entries[i].iconId;
+    const dataUri = line.slice(line.indexOf(':') + 1).trim();
+    return `  --modus-icon-${iconId}${suffix}: ${dataUri}`;
+  });
+  const aliasClassLines = entries.map(
+    ({ iconId }) =>
+      `.modus-icon-${iconId}${suffix} {\n  mask-image: var(--modus-icon-${iconId}${suffix});\n}`
+  );
+  const aliasCss =
+    header +
+    `:root {\n${aliasVarLines.join('\n')}\n}\n\n` +
+    `[class^="modus-icon-"],\n[class*=" modus-icon-"] {\n  background-color: currentColor;\n  display: inline-block;\n  height: 24px;\n  mask-position: center;\n  mask-repeat: no-repeat;\n  mask-size: contain;\n  width: 24px;\n}\n\n` +
+    aliasClassLines.join('\n');
+  await fs.writeFile(
+    path.join(setCssPath, `${setName}-package-icons.css`),
+    aliasCss,
     'utf8'
   );
 

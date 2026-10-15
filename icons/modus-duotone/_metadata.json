@@ -1,0 +1,669 @@
+[
+  {
+    "name": "address",
+    "tags": [
+      "envelope",
+      "mail"
+    ],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
+    "name": "advanced-strategy-flow-arrow",
+    "tags": [
+      "advanced strategy flow arrow"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "alarm-check",
+    "tags": [
+      "alarm check"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "alarm-plus",
+    "tags": [
+      "alarm plus"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "alarm-slash",
+    "tags": [
+      "alarm slash"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "apps-squares-nine",
+    "tags": [
+      "apps squares nine"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "arc",
+    "tags": [
+      "half-circle"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "arrow-expand-diagonal-left",
+    "tags": [
+      "magnify",
+      "stretch"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "arrow-expand-diagonal-right",
+    "tags": [
+      "magnify",
+      "stretch"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "arrows-clockwise-slash",
+    "tags": [
+      "arrows clockwise slash"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "arrows-down-up-slash",
+    "tags": [
+      "arrows down up slash"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "artificial-intelligence",
+    "tags": [
+      "ai",
+      "bot"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "backup-cloud-arrows-counter-clockwise",
+    "tags": [
+      "backup cloud arrows counter clockwise"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "backup-file-arrows-counter-clockwise",
+    "tags": [
+      "backup file arrows counter clockwise"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "bar-graph-square",
+    "tags": [
+      "analytics",
+      "chart",
+      "data"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "between",
+    "tags": [],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "bookings-open",
+    "tags": [
+      "items",
+      "list"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "bug-report-window",
+    "tags": [
+      "bug report window"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-booking",
+    "tags": [
+      "date",
+      "reserved",
+      "schedule"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-clock",
+    "tags": [
+      "time"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-event",
+    "tags": [
+      "date",
+      "month",
+      "schedule",
+      "time"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-key",
+    "tags": [
+      "calendar key"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-package",
+    "tags": [
+      "calendar package"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-package-date",
+    "tags": [
+      "calendar package date"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-rebook",
+    "tags": [
+      "date",
+      "reschedule",
+      "swap",
+      "switch"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-show",
+    "tags": [
+      "date",
+      "display",
+      "reserved"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-time-slot",
+    "tags": [
+      "clock",
+      "hour",
+      "time"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "calendar-week",
+    "tags": [
+      "date",
+      "month",
+      "schedule",
+      "time"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "cell-merge",
+    "tags": [
+      "table",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "cell-settings",
+    "tags": [
+      "cell settings"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "cell-split",
+    "tags": [
+      "table",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "chevron-double-left",
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "chevron-double-right",
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "chevron-down",
+    "tags": [
+      "chevron down"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "chevron-down-up",
+    "tags": [
+      "chevron down up"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "chevron-left",
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "chevron-right",
+    "tags": [
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "chevron-up",
+    "tags": [
+      "chevron up"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "chevron-up-down",
+    "tags": [
+      "chevron up down"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "clipboard-check",
+    "tags": [
+      "copy",
+      "paste"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "clipboard-list",
+    "tags": [
+      "clipboard list"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "cloud-hail-light",
+    "tags": [
+      "cloud hail light"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "column-copy",
+    "tags": [
+      "table",
+      "vertical",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "column-cut",
+    "tags": [
+      "table",
+      "vertical",
+      "grid"
+    ],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "column-x",
+    "tags": [
+      "column x"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "drag-indicator",
+    "tags": [
+      "grab",
+      "grip"
+    ],
+    "categories": [
+      "Arrows & Controls"
+    ]
+  },
+  {
+    "name": "edit-combination",
+    "tags": [],
+    "categories": [
+      "Editing"
+    ]
+  },
+  {
+    "name": "folder-public",
+    "tags": [
+      "directory"
+    ],
+    "categories": [
+      "Folders & Files"
+    ]
+  },
+  {
+    "name": "inspect-chat-teardrop",
+    "tags": [
+      "inspect chat teardrop"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "invoice-file-euro",
+    "tags": [
+      "invoice file euro"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "lightbulb-on",
+    "tags": [
+      "idea",
+      "suggestion"
+    ],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "location-arrow",
+    "tags": [],
+    "categories": [
+      "Location"
+    ]
+  },
+  {
+    "name": "more-horizontal",
+    "tags": [
+      "ellipsis",
+      "meatballs",
+      "menu",
+      "overflow"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "more-vertical",
+    "tags": [
+      "ellipsis",
+      "kebab",
+      "menu",
+      "overflow"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "night-partly-cloudy",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "pin-plus",
+    "tags": [
+      "pin plus"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "rain",
+    "tags": [
+      "weather"
+    ],
+    "categories": [
+      "Weather"
+    ]
+  },
+  {
+    "name": "row-highlighted",
+    "tags": [
+      "table",
+      "row",
+      "highlight"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "row-x",
+    "tags": [
+      "row x"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "shopping-cart-x",
+    "tags": [
+      "shopping cart x"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "smiley-somewhat-happy",
+    "tags": [
+      "smiley somewhat happy"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "smiley-somewhat-sad",
+    "tags": [
+      "smiley somewhat sad"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "sort-alpha-down",
+    "tags": [
+      "ascending"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "sort-alpha-up",
+    "tags": [
+      "descending",
+      "reverse"
+    ],
+    "categories": [
+      "Data Management"
+    ]
+  },
+  {
+    "name": "star-lock",
+    "tags": [
+      "star lock"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "sun-partly-cloudy",
+    "tags": [
+      "sun partly cloudy"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "switch-user-account",
+    "tags": [
+      "switch user account"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "tag-slash",
+    "tags": [
+      "tag slash"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  },
+  {
+    "name": "ticket-plane",
+    "tags": [],
+    "categories": [
+      "Objects & Shapes"
+    ]
+  },
+  {
+    "name": "timesheet-file-clock",
+    "tags": [
+      "timesheet file clock"
+    ],
+    "categories": [
+      "Applications"
+    ]
+  }
+]

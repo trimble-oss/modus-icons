@@ -8,6 +8,10 @@
     "dist": "modus-solid"
   },
   {
+    "svgs": ["modus-duotone"],
+    "dist": "modus-duotone"
+  },
+  {
     "svgs": ["modus-solid", "transportation"],
     "dist": "transportation"
   },

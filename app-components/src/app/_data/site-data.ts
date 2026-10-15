@@ -127,6 +127,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "advanced-strategy-flow-arrow",
+        "displayName": "Advanced Strategy Flow Arrow",
+        "tags": [
+          "advanced strategy flow arrow"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "ai-stars",
         "displayName": "Ai Stars",
         "tags": [
@@ -148,6 +160,18 @@ export const siteData = [
           "alarm",
           "add",
           "notification"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-check",
+        "displayName": "Alarm Check",
+        "tags": [
+          "alarm check"
         ],
         "categories": [
           "Applications"
@@ -178,6 +202,30 @@ export const siteData = [
           "alarm",
           "add",
           "notification"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-plus",
+        "displayName": "Alarm Plus",
+        "tags": [
+          "alarm plus"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-slash",
+        "displayName": "Alarm Slash",
+        "tags": [
+          "alarm slash"
         ],
         "categories": [
           "Applications"
@@ -322,6 +370,18 @@ export const siteData = [
         "tags": [
           "applications",
           "menu"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "apps-squares-nine",
+        "displayName": "Apps Squares Nine",
+        "tags": [
+          "apps squares nine"
         ],
         "categories": [
           "Applications"
@@ -490,6 +550,30 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "arrows-clockwise-slash",
+        "displayName": "Arrows Clockwise Slash",
+        "tags": [
+          "arrows clockwise slash"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrows-down-up-slash",
+        "displayName": "Arrows Down Up Slash",
+        "tags": [
+          "arrows down up slash"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "artificial-intelligence",
         "displayName": "Artificial Intelligence",
         "tags": [
@@ -498,6 +582,30 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "backup-cloud-arrows-counter-clockwise",
+        "displayName": "Backup Cloud Arrows Counter Clockwise",
+        "tags": [
+          "backup cloud arrows counter clockwise"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "backup-file-arrows-counter-clockwise",
+        "displayName": "Backup File Arrows Counter Clockwise",
+        "tags": [
+          "backup file arrows counter clockwise"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -889,6 +997,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "bug-report-window",
+        "displayName": "Bug Report Window",
+        "tags": [
+          "bug report window"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "building-corporate",
         "displayName": "Building Corporate",
         "tags": [
@@ -1073,6 +1193,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "calendar-key",
+        "displayName": "Calendar Key",
+        "tags": [
+          "calendar key"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "calendar-loading-unloading",
         "displayName": "Calendar Loading Unloading",
         "tags": [
@@ -1098,6 +1230,30 @@ export const siteData = [
           "package",
           "supply",
           "transport"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-package",
+        "displayName": "Calendar Package",
+        "tags": [
+          "calendar package"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-package-date",
+        "displayName": "Calendar Package Date",
+        "tags": [
+          "calendar package date"
         ],
         "categories": [
           "Applications"
@@ -1401,6 +1557,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "cell-settings",
+        "displayName": "Cell Settings",
+        "tags": [
+          "cell settings"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cell-split",
         "displayName": "Cell Split",
         "tags": [
@@ -1564,6 +1732,30 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "chevron-down",
+        "displayName": "Chevron Down",
+        "tags": [
+          "chevron down"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-down-up",
+        "displayName": "Chevron Down Up",
+        "tags": [
+          "chevron down up"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "chevron-left",
         "displayName": "Chevron Left",
         "tags": [
@@ -1611,6 +1803,30 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-up",
+        "displayName": "Chevron Up",
+        "tags": [
+          "chevron up"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-up-down",
+        "displayName": "Chevron Up Down",
+        "tags": [
+          "chevron up down"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1681,6 +1897,18 @@ export const siteData = [
         ],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clipboard-list",
+        "displayName": "Clipboard List",
+        "tags": [
+          "clipboard list"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -1883,6 +2111,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "cloud-hail-light",
+        "displayName": "Cloud Hail Light",
+        "tags": [
+          "cloud hail light"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cloud-upload",
         "displayName": "Cloud Upload",
         "tags": [
@@ -2067,6 +2307,18 @@ export const siteData = [
         ],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-x",
+        "displayName": "Column X",
+        "tags": [
+          "column x"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -3754,6 +4006,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "hat-glasses",
+        "displayName": "Hat Glasses",
+        "tags": [
+          "impersonate"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "headset",
         "displayName": "Headset",
         "tags": [
@@ -4001,6 +4265,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "inspect-chat-teardrop",
+        "displayName": "Inspect Chat Teardrop",
+        "tags": [
+          "inspect chat teardrop"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "invoice",
         "displayName": "Invoice",
         "tags": [
@@ -4021,6 +4297,18 @@ export const siteData = [
         "tags": [],
         "categories": [
           "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-file-euro",
+        "displayName": "Invoice File Euro",
+        "tags": [
+          "invoice file euro"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -5441,6 +5729,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "pin-plus",
+        "displayName": "Pin Plus",
+        "tags": [
+          "pin plus"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "pin-straight",
         "displayName": "Pin Straight",
         "tags": [
@@ -5992,6 +6292,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "row-x",
+        "displayName": "Row X",
+        "tags": [
+          "row x"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "rows-show-less",
         "displayName": "Rows Show Less",
         "tags": [],
@@ -6274,6 +6586,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "shopping-cart-x",
+        "displayName": "Shopping Cart X",
+        "tags": [
+          "shopping cart x"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "shortcut",
         "displayName": "Shortcut",
         "tags": [],
@@ -6460,6 +6784,30 @@ export const siteData = [
         ],
         "categories": [
           "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-happy",
+        "displayName": "Smiley Somewhat Happy",
+        "tags": [
+          "smiley somewhat happy"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-sad",
+        "displayName": "Smiley Somewhat Sad",
+        "tags": [
+          "smiley somewhat sad"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6691,6 +7039,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "star-lock",
+        "displayName": "Star Lock",
+        "tags": [
+          "star lock"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "star-locked",
         "displayName": "Star Locked",
         "tags": [
@@ -6798,6 +7158,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "sun-partly-cloudy",
+        "displayName": "Sun Partly Cloudy",
+        "tags": [
+          "sun partly cloudy"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "swap",
         "displayName": "Swap",
         "tags": [
@@ -6844,6 +7216,18 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "switch-user-account",
+        "displayName": "Switch User Account",
+        "tags": [
+          "switch user account"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -6936,6 +7320,18 @@ export const siteData = [
         "tags": [],
         "categories": [
           "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "tag-slash",
+        "displayName": "Tag Slash",
+        "tags": [
+          "tag slash"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -7303,11 +7699,7 @@ export const siteData = [
       {
         "name": "timesheet-approve",
         "displayName": "Timesheet Approve",
-        "tags": [
-          "check",
-          "document",
-          "file"
-        ],
+        "tags": [],
         "categories": [
           "Folders & Files"
         ],
@@ -7315,11 +7707,13 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "timesheet-approve",
-        "displayName": "Timesheet Approve",
-        "tags": [],
+        "name": "timesheet-file-clock",
+        "displayName": "Timesheet File Clock",
+        "tags": [
+          "timesheet file clock"
+        ],
         "categories": [
-          "Folders & Files"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -8342,6 +8736,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "advanced-strategy-flow-arrow",
+        "displayName": "Advanced Strategy Flow Arrow",
+        "tags": [
+          "advanced strategy flow arrow"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "ai-stars",
         "displayName": "Ai Stars",
         "tags": [
@@ -8363,6 +8769,18 @@ export const siteData = [
           "alarm",
           "add",
           "notification"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-check",
+        "displayName": "Alarm Check",
+        "tags": [
+          "alarm check"
         ],
         "categories": [
           "Applications"
@@ -8393,6 +8811,30 @@ export const siteData = [
           "alarm",
           "add",
           "notification"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-plus",
+        "displayName": "Alarm Plus",
+        "tags": [
+          "alarm plus"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-slash",
+        "displayName": "Alarm Slash",
+        "tags": [
+          "alarm slash"
         ],
         "categories": [
           "Applications"
@@ -8537,6 +8979,18 @@ export const siteData = [
         "tags": [
           "applications",
           "menu"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "apps-squares-nine",
+        "displayName": "Apps Squares Nine",
+        "tags": [
+          "apps squares nine"
         ],
         "categories": [
           "Applications"
@@ -8705,6 +9159,30 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "arrows-clockwise-slash",
+        "displayName": "Arrows Clockwise Slash",
+        "tags": [
+          "arrows clockwise slash"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrows-down-up-slash",
+        "displayName": "Arrows Down Up Slash",
+        "tags": [
+          "arrows down up slash"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "artificial-intelligence",
         "displayName": "Artificial Intelligence",
         "tags": [
@@ -8713,6 +9191,30 @@ export const siteData = [
         ],
         "categories": [
           "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "backup-cloud-arrows-counter-clockwise",
+        "displayName": "Backup Cloud Arrows Counter Clockwise",
+        "tags": [
+          "backup cloud arrows counter clockwise"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "backup-file-arrows-counter-clockwise",
+        "displayName": "Backup File Arrows Counter Clockwise",
+        "tags": [
+          "backup file arrows counter clockwise"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9104,6 +9606,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "bug-report-window",
+        "displayName": "Bug Report Window",
+        "tags": [
+          "bug report window"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "building-corporate",
         "displayName": "Building Corporate",
         "tags": [
@@ -9288,6 +9802,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "calendar-key",
+        "displayName": "Calendar Key",
+        "tags": [
+          "calendar key"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "calendar-loading-unloading",
         "displayName": "Calendar Loading Unloading",
         "tags": [
@@ -9313,6 +9839,30 @@ export const siteData = [
           "package",
           "supply",
           "transport"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-package",
+        "displayName": "Calendar Package",
+        "tags": [
+          "calendar package"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-package-date",
+        "displayName": "Calendar Package Date",
+        "tags": [
+          "calendar package date"
         ],
         "categories": [
           "Applications"
@@ -9616,6 +10166,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "cell-settings",
+        "displayName": "Cell Settings",
+        "tags": [
+          "cell settings"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cell-split",
         "displayName": "Cell Split",
         "tags": [
@@ -9779,6 +10341,30 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "chevron-down",
+        "displayName": "Chevron Down",
+        "tags": [
+          "chevron down"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-down-up",
+        "displayName": "Chevron Down Up",
+        "tags": [
+          "chevron down up"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "chevron-left",
         "displayName": "Chevron Left",
         "tags": [
@@ -9826,6 +10412,30 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-up",
+        "displayName": "Chevron Up",
+        "tags": [
+          "chevron up"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-up-down",
+        "displayName": "Chevron Up Down",
+        "tags": [
+          "chevron up down"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -9896,6 +10506,18 @@ export const siteData = [
         ],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clipboard-list",
+        "displayName": "Clipboard List",
+        "tags": [
+          "clipboard list"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -10098,6 +10720,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "cloud-hail-light",
+        "displayName": "Cloud Hail Light",
+        "tags": [
+          "cloud hail light"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "cloud-upload",
         "displayName": "Cloud Upload",
         "tags": [
@@ -10282,6 +10916,18 @@ export const siteData = [
         ],
         "categories": [
           "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-x",
+        "displayName": "Column X",
+        "tags": [
+          "column x"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -11969,6 +12615,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "hat-glasses",
+        "displayName": "Hat Glasses",
+        "tags": [
+          "impersonate"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "headset",
         "displayName": "Headset",
         "tags": [
@@ -12216,6 +12874,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "inspect-chat-teardrop",
+        "displayName": "Inspect Chat Teardrop",
+        "tags": [
+          "inspect chat teardrop"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "invoice",
         "displayName": "Invoice",
         "tags": [
@@ -12236,6 +12906,18 @@ export const siteData = [
         "tags": [],
         "categories": [
           "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-file-euro",
+        "displayName": "Invoice File Euro",
+        "tags": [
+          "invoice file euro"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -13656,6 +14338,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "pin-plus",
+        "displayName": "Pin Plus",
+        "tags": [
+          "pin plus"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "pin-straight",
         "displayName": "Pin Straight",
         "tags": [
@@ -14207,6 +14901,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "row-x",
+        "displayName": "Row X",
+        "tags": [
+          "row x"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "rows-show-less",
         "displayName": "Rows Show Less",
         "tags": [],
@@ -14489,6 +15195,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "shopping-cart-x",
+        "displayName": "Shopping Cart X",
+        "tags": [
+          "shopping cart x"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "shortcut",
         "displayName": "Shortcut",
         "tags": [],
@@ -14675,6 +15393,30 @@ export const siteData = [
         ],
         "categories": [
           "Social"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-happy",
+        "displayName": "Smiley Somewhat Happy",
+        "tags": [
+          "smiley somewhat happy"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-sad",
+        "displayName": "Smiley Somewhat Sad",
+        "tags": [
+          "smiley somewhat sad"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -14906,6 +15648,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "star-lock",
+        "displayName": "Star Lock",
+        "tags": [
+          "star lock"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "star-locked",
         "displayName": "Star Locked",
         "tags": [
@@ -15013,6 +15767,18 @@ export const siteData = [
         "useInstead": ""
       },
       {
+        "name": "sun-partly-cloudy",
+        "displayName": "Sun Partly Cloudy",
+        "tags": [
+          "sun partly cloudy"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
         "name": "swap",
         "displayName": "Swap",
         "tags": [
@@ -15059,6 +15825,18 @@ export const siteData = [
         ],
         "categories": [
           "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "switch-user-account",
+        "displayName": "Switch User Account",
+        "tags": [
+          "switch user account"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -15151,6 +15929,18 @@ export const siteData = [
         "tags": [],
         "categories": [
           "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "tag-slash",
+        "displayName": "Tag Slash",
+        "tags": [
+          "tag slash"
+        ],
+        "categories": [
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -15526,11 +16316,13 @@ export const siteData = [
         "useInstead": ""
       },
       {
-        "name": "timesheet-approve",
-        "displayName": "Timesheet Approve",
-        "tags": [],
+        "name": "timesheet-file-clock",
+        "displayName": "Timesheet File Clock",
+        "tags": [
+          "timesheet file clock"
+        ],
         "categories": [
-          "Folders & Files"
+          "Applications"
         ],
         "deprecated": false,
         "useInstead": ""
@@ -16416,6 +17208,890 @@ export const siteData = [
           "magnify",
           "minus",
           "scale"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      }
+    ]
+  },
+  {
+    "setName": "modus-duotone",
+    "displayName": "Modus Duotone",
+    "type": "modus",
+    "icons": [
+      {
+        "name": "address",
+        "displayName": "Address",
+        "tags": [
+          "envelope",
+          "mail"
+        ],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "advanced-strategy-flow-arrow",
+        "displayName": "Advanced Strategy Flow Arrow",
+        "tags": [
+          "advanced strategy flow arrow"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-check",
+        "displayName": "Alarm Check",
+        "tags": [
+          "alarm check"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-plus",
+        "displayName": "Alarm Plus",
+        "tags": [
+          "alarm plus"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "alarm-slash",
+        "displayName": "Alarm Slash",
+        "tags": [
+          "alarm slash"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "apps-squares-nine",
+        "displayName": "Apps Squares Nine",
+        "tags": [
+          "apps squares nine"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arc",
+        "displayName": "Arc",
+        "tags": [
+          "half-circle"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-expand-diagonal-left",
+        "displayName": "Arrow Expand Diagonal Left",
+        "tags": [
+          "magnify",
+          "stretch"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrow-expand-diagonal-right",
+        "displayName": "Arrow Expand Diagonal Right",
+        "tags": [
+          "magnify",
+          "stretch"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrows-clockwise-slash",
+        "displayName": "Arrows Clockwise Slash",
+        "tags": [
+          "arrows clockwise slash"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "arrows-down-up-slash",
+        "displayName": "Arrows Down Up Slash",
+        "tags": [
+          "arrows down up slash"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "artificial-intelligence",
+        "displayName": "Artificial Intelligence",
+        "tags": [
+          "ai",
+          "bot"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "backup-cloud-arrows-counter-clockwise",
+        "displayName": "Backup Cloud Arrows Counter Clockwise",
+        "tags": [
+          "backup cloud arrows counter clockwise"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "backup-file-arrows-counter-clockwise",
+        "displayName": "Backup File Arrows Counter Clockwise",
+        "tags": [
+          "backup file arrows counter clockwise"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bar-graph-square",
+        "displayName": "Bar Graph Square",
+        "tags": [
+          "analytics",
+          "chart",
+          "data"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "between",
+        "displayName": "Between",
+        "tags": [],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bookings-open",
+        "displayName": "Bookings Open",
+        "tags": [
+          "items",
+          "list"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "bug-report-window",
+        "displayName": "Bug Report Window",
+        "tags": [
+          "bug report window"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-booking",
+        "displayName": "Calendar Booking",
+        "tags": [
+          "date",
+          "reserved",
+          "schedule"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-clock",
+        "displayName": "Calendar Clock",
+        "tags": [
+          "time"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-event",
+        "displayName": "Calendar Event",
+        "tags": [
+          "date",
+          "month",
+          "schedule",
+          "time"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-key",
+        "displayName": "Calendar Key",
+        "tags": [
+          "calendar key"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-package",
+        "displayName": "Calendar Package",
+        "tags": [
+          "calendar package"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-package-date",
+        "displayName": "Calendar Package Date",
+        "tags": [
+          "calendar package date"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-rebook",
+        "displayName": "Calendar Rebook",
+        "tags": [
+          "date",
+          "reschedule",
+          "swap",
+          "switch"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-show",
+        "displayName": "Calendar Show",
+        "tags": [
+          "date",
+          "display",
+          "reserved"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-time-slot",
+        "displayName": "Calendar Time Slot",
+        "tags": [
+          "clock",
+          "hour",
+          "time"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "calendar-week",
+        "displayName": "Calendar Week",
+        "tags": [
+          "date",
+          "month",
+          "schedule",
+          "time"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cell-merge",
+        "displayName": "Cell Merge",
+        "tags": [
+          "table",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cell-settings",
+        "displayName": "Cell Settings",
+        "tags": [
+          "cell settings"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cell-split",
+        "displayName": "Cell Split",
+        "tags": [
+          "table",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-left",
+        "displayName": "Chevron Double Left",
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-double-right",
+        "displayName": "Chevron Double Right",
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-down",
+        "displayName": "Chevron Down",
+        "tags": [
+          "chevron down"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-down-up",
+        "displayName": "Chevron Down Up",
+        "tags": [
+          "chevron down up"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-left",
+        "displayName": "Chevron Left",
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-right",
+        "displayName": "Chevron Right",
+        "tags": [
+          "expand",
+          "collapse"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-up",
+        "displayName": "Chevron Up",
+        "tags": [
+          "chevron up"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "chevron-up-down",
+        "displayName": "Chevron Up Down",
+        "tags": [
+          "chevron up down"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clipboard-check",
+        "displayName": "Clipboard Check",
+        "tags": [
+          "copy",
+          "paste"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "clipboard-list",
+        "displayName": "Clipboard List",
+        "tags": [
+          "clipboard list"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "cloud-hail-light",
+        "displayName": "Cloud Hail Light",
+        "tags": [
+          "cloud hail light"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-copy",
+        "displayName": "Column Copy",
+        "tags": [
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-cut",
+        "displayName": "Column Cut",
+        "tags": [
+          "table",
+          "vertical",
+          "grid"
+        ],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "column-x",
+        "displayName": "Column X",
+        "tags": [
+          "column x"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "drag-indicator",
+        "displayName": "Drag Indicator",
+        "tags": [
+          "grab",
+          "grip"
+        ],
+        "categories": [
+          "Arrows & Controls"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "edit-combination",
+        "displayName": "Edit Combination",
+        "tags": [],
+        "categories": [
+          "Editing"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "folder-public",
+        "displayName": "Folder Public",
+        "tags": [
+          "directory"
+        ],
+        "categories": [
+          "Folders & Files"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "inspect-chat-teardrop",
+        "displayName": "Inspect Chat Teardrop",
+        "tags": [
+          "inspect chat teardrop"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "invoice-file-euro",
+        "displayName": "Invoice File Euro",
+        "tags": [
+          "invoice file euro"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "lightbulb-on",
+        "displayName": "Lightbulb On",
+        "tags": [
+          "idea",
+          "suggestion"
+        ],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "location-arrow",
+        "displayName": "Location Arrow",
+        "tags": [],
+        "categories": [
+          "Location"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "more-horizontal",
+        "displayName": "More Horizontal",
+        "tags": [
+          "ellipsis",
+          "meatballs",
+          "menu",
+          "overflow"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "more-vertical",
+        "displayName": "More Vertical",
+        "tags": [
+          "ellipsis",
+          "kebab",
+          "menu",
+          "overflow"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "night-partly-cloudy",
+        "displayName": "Night Partly Cloudy",
+        "tags": [
+          "cloud",
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "pin-plus",
+        "displayName": "Pin Plus",
+        "tags": [
+          "pin plus"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "rain",
+        "displayName": "Rain",
+        "tags": [
+          "weather"
+        ],
+        "categories": [
+          "Weather"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-highlighted",
+        "displayName": "Row Highlighted",
+        "tags": [
+          "table",
+          "row",
+          "highlight"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "row-x",
+        "displayName": "Row X",
+        "tags": [
+          "row x"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "shopping-cart-x",
+        "displayName": "Shopping Cart X",
+        "tags": [
+          "shopping cart x"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-happy",
+        "displayName": "Smiley Somewhat Happy",
+        "tags": [
+          "smiley somewhat happy"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "smiley-somewhat-sad",
+        "displayName": "Smiley Somewhat Sad",
+        "tags": [
+          "smiley somewhat sad"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sort-alpha-down",
+        "displayName": "Sort Alpha Down",
+        "tags": [
+          "ascending"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sort-alpha-up",
+        "displayName": "Sort Alpha Up",
+        "tags": [
+          "descending",
+          "reverse"
+        ],
+        "categories": [
+          "Data Management"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "star-lock",
+        "displayName": "Star Lock",
+        "tags": [
+          "star lock"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "sun-partly-cloudy",
+        "displayName": "Sun Partly Cloudy",
+        "tags": [
+          "sun partly cloudy"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "switch-user-account",
+        "displayName": "Switch User Account",
+        "tags": [
+          "switch user account"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "tag-slash",
+        "displayName": "Tag Slash",
+        "tags": [
+          "tag slash"
+        ],
+        "categories": [
+          "Applications"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "ticket-plane",
+        "displayName": "Ticket Plane",
+        "tags": [],
+        "categories": [
+          "Objects & Shapes"
+        ],
+        "deprecated": false,
+        "useInstead": ""
+      },
+      {
+        "name": "timesheet-file-clock",
+        "displayName": "Timesheet File Clock",
+        "tags": [
+          "timesheet file clock"
         ],
         "categories": [
           "Applications"

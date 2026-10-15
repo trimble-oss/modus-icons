@@ -8,18 +8,21 @@
   /** Delay filter re-renders while typing to avoid rebuilding thousands of nodes per keystroke. */
   var FILTER_DEBOUNCE_MS = 120;
 
+  var ICONS_CSS_BASE =
+    "https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons-css@latest/css/";
+
   var iconSets = {
     regular: {
       suffix: "",
-      url: "/modus-outlined/css/modus-outlined-package-icons.css",
+      url: ICONS_CSS_BASE + "modus-icons-regular.min.css",
     },
     fill: {
       suffix: "-fill",
-      url: "/modus-solid/css/modus-solid-package-icons.css",
+      url: ICONS_CSS_BASE + "modus-icons-fill.min.css",
     },
     duotone: {
       suffix: "-duotone",
-      url: "/modus-duotone/css/modus-duotone-package-icons.css",
+      url: ICONS_CSS_BASE + "modus-icons-duotone.min.css",
     },
   };
 

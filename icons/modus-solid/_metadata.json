@@ -95,15 +95,6 @@
     ]
   },
   {
-    "name": "advanced-strategy-flow-arrow",
-    "tags": [
-      "advanced strategy flow arrow"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "ai-stars",
     "tags": [
       "AI",
@@ -121,15 +112,6 @@
       "alarm",
       "add",
       "notification"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
-    "name": "alarm-check",
-    "tags": [
-      "alarm check"
     ],
     "categories": [
       "Applications"
@@ -154,24 +136,6 @@
       "alarm",
       "add",
       "notification"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
-    "name": "alarm-plus",
-    "tags": [
-      "alarm plus"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
-    "name": "alarm-slash",
-    "tags": [
-      "alarm slash"
     ],
     "categories": [
       "Applications"
@@ -283,15 +247,6 @@
     "tags": [
       "applications",
       "menu"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
-    "name": "apps-squares-nine",
-    "tags": [
-      "apps squares nine"
     ],
     "categories": [
       "Applications"
@@ -419,24 +374,6 @@
     ]
   },
   {
-    "name": "arrows-clockwise-slash",
-    "tags": [
-      "arrows clockwise slash"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
-    "name": "arrows-down-up-slash",
-    "tags": [
-      "arrows down up slash"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "artificial-intelligence",
     "tags": [
       "ai",
@@ -444,24 +381,6 @@
     ],
     "categories": [
       "Objects & Shapes"
-    ]
-  },
-  {
-    "name": "backup-cloud-arrows-counter-clockwise",
-    "tags": [
-      "backup cloud arrows counter clockwise"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
-    "name": "backup-file-arrows-counter-clockwise",
-    "tags": [
-      "backup file arrows counter clockwise"
-    ],
-    "categories": [
-      "Applications"
     ]
   },
   {
@@ -767,15 +686,6 @@
     ]
   },
   {
-    "name": "bug-report-window",
-    "tags": [
-      "bug report window"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "building-corporate",
     "tags": [
       "office",
@@ -918,15 +828,6 @@
     ]
   },
   {
-    "name": "calendar-key",
-    "tags": [
-      "calendar key"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "calendar-loading-unloading",
     "tags": [
       "box",
@@ -948,24 +849,6 @@
       "package",
       "supply",
       "transport"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
-    "name": "calendar-package",
-    "tags": [
-      "calendar package"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
-    "name": "calendar-package-date",
-    "tags": [
-      "calendar package date"
     ],
     "categories": [
       "Applications"
@@ -1201,15 +1084,6 @@
     ]
   },
   {
-    "name": "cell-settings",
-    "tags": [
-      "cell settings"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "cell-split",
     "tags": [
       "table",
@@ -1337,24 +1211,6 @@
     ]
   },
   {
-    "name": "chevron-down",
-    "tags": [
-      "chevron down"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
-    "name": "chevron-down-up",
-    "tags": [
-      "chevron down up"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "chevron-left",
     "tags": [
       "expand",
@@ -1392,24 +1248,6 @@
     ],
     "categories": [
       "Arrows & Controls"
-    ]
-  },
-  {
-    "name": "chevron-up",
-    "tags": [
-      "chevron up"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
-    "name": "chevron-up-down",
-    "tags": [
-      "chevron up down"
-    ],
-    "categories": [
-      "Applications"
     ]
   },
   {
@@ -1462,15 +1300,6 @@
     ],
     "categories": [
       "Editing"
-    ]
-  },
-  {
-    "name": "clipboard-list",
-    "tags": [
-      "clipboard list"
-    ],
-    "categories": [
-      "Applications"
     ]
   },
   {
@@ -1626,15 +1455,6 @@
     ]
   },
   {
-    "name": "cloud-hail-light",
-    "tags": [
-      "cloud hail light"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "cloud-upload",
     "tags": [
       "arrows",
@@ -1779,15 +1599,6 @@
     ],
     "categories": [
       "Editing"
-    ]
-  },
-  {
-    "name": "column-x",
-    "tags": [
-      "column x"
-    ],
-    "categories": [
-      "Applications"
     ]
   },
   {
@@ -3081,9 +2892,7 @@
   },
   {
     "name": "hat-glasses",
-    "tags": [
-      "impersonate"
-    ],
+    "tags": ["impersonate"],
     "categories": [
       "Applications"
     ]
@@ -3276,15 +3085,6 @@
     ]
   },
   {
-    "name": "inspect-chat-teardrop",
-    "tags": [
-      "inspect chat teardrop"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "invoice",
     "tags": [
       "invoice",
@@ -3301,15 +3101,6 @@
     "tags": [],
     "categories": [
       "Folders & Files"
-    ]
-  },
-  {
-    "name": "invoice-file-euro",
-    "tags": [
-      "invoice file euro"
-    ],
-    "categories": [
-      "Applications"
     ]
   },
   {
@@ -4389,15 +4180,6 @@
     ]
   },
   {
-    "name": "pin-plus",
-    "tags": [
-      "pin plus"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "pin-straight",
     "tags": [
       "attach",
@@ -4820,15 +4602,6 @@
     ]
   },
   {
-    "name": "row-x",
-    "tags": [
-      "row x"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "rows-show-less",
     "tags": [],
     "categories": [
@@ -5042,15 +4815,6 @@
     ]
   },
   {
-    "name": "shopping-cart-x",
-    "tags": [
-      "shopping cart x"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "shortcut",
     "tags": [],
     "categories": [
@@ -5194,24 +4958,6 @@
     ],
     "categories": [
       "Social"
-    ]
-  },
-  {
-    "name": "smiley-somewhat-happy",
-    "tags": [
-      "smiley somewhat happy"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
-    "name": "smiley-somewhat-sad",
-    "tags": [
-      "smiley somewhat sad"
-    ],
-    "categories": [
-      "Applications"
     ]
   },
   {
@@ -5390,15 +5136,6 @@
     ]
   },
   {
-    "name": "star-lock",
-    "tags": [
-      "star lock"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "star-locked",
     "tags": [
       "lock"
@@ -5482,15 +5219,6 @@
     ]
   },
   {
-    "name": "sun-partly-cloudy",
-    "tags": [
-      "sun partly cloudy"
-    ],
-    "categories": [
-      "Applications"
-    ]
-  },
-  {
     "name": "swap",
     "tags": [
       "arrows",
@@ -5527,15 +5255,6 @@
     ],
     "categories": [
       "Arrows & Controls"
-    ]
-  },
-  {
-    "name": "switch-user-account",
-    "tags": [
-      "switch user account"
-    ],
-    "categories": [
-      "Applications"
     ]
   },
   {
@@ -5607,15 +5326,6 @@
     "tags": [],
     "categories": [
       "Data Management"
-    ]
-  },
-  {
-    "name": "tag-slash",
-    "tags": [
-      "tag slash"
-    ],
-    "categories": [
-      "Applications"
     ]
   },
   {
@@ -5893,18 +5603,20 @@
   },
   {
     "name": "timesheet-approve",
-    "tags": [],
+    "tags": [
+      "check",
+      "document",
+      "file"
+    ],
     "categories": [
       "Folders & Files"
     ]
   },
   {
-    "name": "timesheet-file-clock",
-    "tags": [
-      "timesheet file clock"
-    ],
+    "name": "timesheet-approve",
+    "tags": [],
     "categories": [
-      "Applications"
+      "Folders & Files"
     ]
   },
   {

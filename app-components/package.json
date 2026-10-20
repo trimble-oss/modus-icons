@@ -10,34 +10,36 @@
     "lint": "ng lint"
   },
   "dependencies": {
-    "@angular/cdk": "^21.2.14",
-    "@angular/common": "21.2.19",
-    "@angular/compiler": "21.2.19",
-    "@angular/core": "21.2.19",
-    "@angular/elements": "21.2.19",
-    "@angular/forms": "21.2.19",
-    "@angular/platform-browser": "21.2.19",
-    "@angular/router": "21.2.19",
+    "@angular/cdk": "^22.2.3",
+    "@angular/common": "22.2.3",
+    "@angular/compiler": "22.2.3",
+    "@angular/core": "22.2.3",
+    "@angular/elements": "22.2.3",
+    "@angular/forms": "22.2.3",
+    "@angular/platform-browser": "22.2.3",
+    "@angular/router": "22.2.3",
     "@webcomponents/webcomponentsjs": "^2.8.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.16.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "21.2.19",
+    "@angular-devkit/build-angular": "22.2.3",
     "@angular-eslint/builder": "^21.4.0",
     "@angular-eslint/eslint-plugin": "^21.4.0",
     "@angular-eslint/eslint-plugin-template": "^21.4.0",
     "@angular-eslint/schematics": "^21.4.0",
-    "@angular-eslint/template-parser": "^21.3.1",
-    "@angular/cli": "21.2.19",
-    "@angular/compiler-cli": "21.2.19",
+    "@angular-eslint/template-parser": "^21.4.0",
+    "@angular/cli": "22.2.3",
+    "@angular/compiler-cli": "22.2.3",
+    "@babel/core": "^8.0.7",
     "@types/jasmine": "~4.3.6",
     "@types/node": "^18.19.130",
     "@typescript-eslint/eslint-plugin": "^8.65.0",
     "@typescript-eslint/parser": "^8.58.1",
     "concat": "^1.0.3",
     "eslint": "8.57.1",
+    "istanbul-lib-instrument": "^6.0.3",
     "jasmine-core": "~4.6.1",
     "jasmine-spec-reporter": "~7.0.0",
     "karma": "6.4.4",
@@ -47,24 +49,31 @@
     "karma-jasmine-html-reporter": "~2.2.0",
     "sass": "1.79.1",
     "ts-node": "^9.1.1",
-    "typescript": "~5.9.3"
+    "typescript": "~6.0.3",
+    "webpack": "^5.112.0"
   },
   "overrides": {
     "picomatch": "^4.0.4",
     "http-proxy-middleware": "3.0.7",
-    "undici": "7.29.0",
+    "undici": "7.30.1",
     "esbuild": "0.28.1",
     "uuid": "11.1.1",
     "postcss": "8.5.26",
     "@hono/node-server": "1.19.17",
-    "hono": "4.13.1",
+    "hono": "4.13.13",
     "js-yaml": "4.3.2",
-    "fast-uri": "3.1.6",
-    "ip-address": "10.5.0",
+    "fast-uri": "3.1.9",
+    "ip-address": "10.7.4",
     "nanoid": "3.3.18",
-    "brace-expansion@1": "1.1.18",
-    "brace-expansion@5": "5.0.9",
-    "webpack-dev-server": "5.2.6"
+    "brace-expansion@1": "1.1.21",
+    "brace-expansion@5": "5.0.12",
+    "webpack-dev-server": "5.2.6",
+    "@angular-eslint/builder": {
+      "@angular/cli": "$@angular/cli"
+    },
+    "@angular-eslint/schematics": {
+      "@angular/cli": "$@angular/cli"
+    }
   },
   "engines": {
     "node": ">=20.20.2"

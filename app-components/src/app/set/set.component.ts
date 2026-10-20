@@ -1,4 +1,4 @@
-import { Component, HostListener, Input, OnInit } from '@angular/core';
+import { Component, HostListener, Input, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { IconService } from '../icon.service';
 
@@ -6,6 +6,7 @@ import { IconService } from '../icon.service';
   selector: 'app-set',
   templateUrl: './set.component.html',
   styleUrls: ['./set.component.scss'],
+  changeDetection: ChangeDetectionStrategy.Eager,
   standalone: false,
 })
 export class SetComponent implements OnInit {

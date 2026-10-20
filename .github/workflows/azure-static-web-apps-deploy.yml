@@ -9,6 +9,9 @@ on:
       - published
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   build_and_deploy_job:
     if: github.repository == 'trimble-oss/modus-icons'

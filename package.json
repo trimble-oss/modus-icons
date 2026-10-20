@@ -48,7 +48,7 @@
     "eslint": "^8.57.1",
     "file-type": "3.9.0",
     "fs-extra": "11.4.0",
-    "handlebars": "4.7.9",
+    "handlebars": "4.7.10",
     "htmlhint": "^1.9.2",
     "hugo-bin": "0.161.0",
     "icon-font-generator": "2.1.11",
